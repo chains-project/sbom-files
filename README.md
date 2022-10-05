@@ -1,2 +1,3 @@
-# provenance-files
-Long term storage of build provenance files, aka sbom (software bills of material)
+# SBOMs
+
+Long term storage of build provenance files / software bills of material (SBOM)
