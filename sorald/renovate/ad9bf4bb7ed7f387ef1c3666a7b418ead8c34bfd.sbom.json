@@ -1,0 +1,995 @@
+{
+  "name": "renovate",
+  "hostname": "work",
+  "pid": 73022,
+  "level": 30,
+  "logContext": "woO60VvdH8wLEhoMgSHCR",
+  "repository": "SpoonLabs/sorald",
+  "packageFiles": {
+    "github-actions": [
+      {
+        "packageFile": ".github/workflows/combine_prs.yml",
+        "deps": [
+          {
+            "depName": "tibdex/github-app-token",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "tibdex/github-app-token@v1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v1",
+            "depIndex": 0
+          },
+          {
+            "depName": "actions/github-script",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/github-script@v6",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v6",
+            "depIndex": 1
+          },
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "depIndex": 2
+          },
+          {
+            "depName": "actions/github-script",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/github-script@v6",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v6",
+            "depIndex": 3
+          }
+        ]
+      },
+      {
+        "packageFile": ".github/workflows/deploy.yml",
+        "deps": [
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "currentDigest": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+            "depIndex": 0
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 1
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 2
+          }
+        ]
+      },
+      {
+        "packageFile": ".github/workflows/sorald_buildbreaker.yml",
+        "deps": [
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@v3",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3",
+            "depIndex": 0
+          },
+          {
+            "depName": "SpoonLabs/sorald-buildbreaker",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "SpoonLabs/sorald-buildbreaker@45bafb6db29a466080328864cecf9b20d9ace3de",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentDigest": "45bafb6db29a466080328864cecf9b20d9ace3de",
+            "depIndex": 1
+          }
+        ]
+      },
+      {
+        "packageFile": ".github/workflows/support.yml",
+        "deps": [
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "currentDigest": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+            "depIndex": 0
+          },
+          {
+            "depName": "actions/setup-python",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5 # tag=v4.2.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v4.2.0",
+            "currentDigest": "b55428b1882923874294fa556849718a1d7f2ca5",
+            "depIndex": 1
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 2
+          }
+        ]
+      },
+      {
+        "packageFile": ".github/workflows/tests.yml",
+        "deps": [
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "currentDigest": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+            "depIndex": 0
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 1
+          },
+          {
+            "depName": "actions/cache",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1 # tag=v3.0.10",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.0.10",
+            "currentDigest": "56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1",
+            "depIndex": 2
+          },
+          {
+            "depName": "actions/cache",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1 # tag=v3.0.10",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.0.10",
+            "currentDigest": "56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1",
+            "depIndex": 3
+          },
+          {
+            "depName": "codecov/codecov-action",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "codecov/codecov-action@d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70 # tag=v3.1.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.1",
+            "currentDigest": "d9f34f8cd5cb3b3eb79b3e4b5dae3a16df499a70",
+            "depIndex": 4
+          },
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "currentDigest": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+            "depIndex": 5
+          },
+          {
+            "depName": "actions/setup-python",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5 # tag=v4.2.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v4.2.0",
+            "currentDigest": "b55428b1882923874294fa556849718a1d7f2ca5",
+            "depIndex": 6
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 7
+          },
+          {
+            "depName": "actions/cache",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1 # tag=v3.0.10",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.0.10",
+            "currentDigest": "56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1",
+            "depIndex": 8
+          },
+          {
+            "depName": "actions/checkout",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.1.0",
+            "currentDigest": "93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+            "depIndex": 9
+          },
+          {
+            "depName": "actions/setup-java",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/setup-java@a18c333f3f14249953dab3e186e5e21bf3390f1d # tag=v3.5.1",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.5.1",
+            "currentDigest": "a18c333f3f14249953dab3e186e5e21bf3390f1d",
+            "depIndex": 10
+          },
+          {
+            "depName": "actions/cache",
+            "commitMessageTopic": "{{{depName}}} action",
+            "datasource": "github-tags",
+            "versioning": "docker",
+            "depType": "action",
+            "replaceString": "actions/cache@56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1 # tag=v3.0.10",
+            "autoReplaceStringTemplate": "{{depName}}@{{#if newDigest}}{{newDigest}}{{#if newValue}} # tag={{newValue}}{{/if}}{{/if}}{{#unless newDigest}}{{newValue}}{{/unless}}",
+            "currentValue": "v3.0.10",
+            "currentDigest": "56461b9eb0f8438fd15c7a9968e3c9ebb18ceff1",
+            "depIndex": 11
+          }
+        ]
+      }
+    ],
+    "maven": [
+      {
+        "datasource": "maven",
+        "packageFile": "pom.xml",
+        "deps": [
+          {
+            "datasource": "maven",
+            "depName": "org.junit.jupiter:junit-jupiter",
+            "currentValue": "5.9.1",
+            "fileReplacePosition": 1736,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "test",
+            "depIndex": 0
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.junit.platform:junit-platform-launcher",
+            "currentValue": "1.9.1",
+            "fileReplacePosition": 1959,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "test",
+            "depIndex": 1
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.hamcrest:hamcrest",
+            "currentValue": "2.2",
+            "fileReplacePosition": 2235,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "test",
+            "depIndex": 2
+          },
+          {
+            "datasource": "maven",
+            "depName": "ch.qos.logback:logback-classic",
+            "currentValue": "1.4.3",
+            "fileReplacePosition": 2445,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "test",
+            "depIndex": 3
+          },
+          {
+            "datasource": "maven",
+            "depName": "fr.inria.gforge.spoon:spoon-core",
+            "currentValue": "10.1.1",
+            "fileReplacePosition": 2877,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 4
+          },
+          {
+            "datasource": "maven",
+            "depName": "com.google.code.findbugs:jsr305",
+            "currentValue": "3.0.2",
+            "fileReplacePosition": 3058,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 5
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.eclipse.jgit:org.eclipse.jgit",
+            "currentValue": "6.3.0.202209071007-r",
+            "fileReplacePosition": 3240,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 6
+          },
+          {
+            "datasource": "maven",
+            "depName": "commons-io:commons-io",
+            "currentValue": "2.11.0",
+            "fileReplacePosition": 3425,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 7
+          },
+          {
+            "datasource": "maven",
+            "depName": "com.google.auto.service:auto-service",
+            "currentValue": "1.0.1",
+            "fileReplacePosition": 3611,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "optional",
+            "depIndex": 8
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-deploy-plugin",
+            "currentValue": "3.0.0",
+            "fileReplacePosition": 4424,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 9
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-release-plugin",
+            "currentValue": "2.5.3",
+            "fileReplacePosition": 4630,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 10
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.scm:maven-scm-provider-gitexe",
+            "currentValue": "1.13.0",
+            "fileReplacePosition": 4882,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 11
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.scm:maven-scm-api",
+            "currentValue": "1.13.0",
+            "fileReplacePosition": 5126,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 12
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-javadoc-plugin",
+            "currentValue": "3.4.1",
+            "fileReplacePosition": 5822,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 13
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-surefire-plugin",
+            "currentValue": "2.22.2",
+            "fileReplacePosition": 6312,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 14
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-compiler-plugin",
+            "currentValue": "3.10.1",
+            "fileReplacePosition": 6520,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 15
+          },
+          {
+            "datasource": "maven",
+            "depName": "com.diffplug.spotless:spotless-maven-plugin",
+            "currentValue": "2.27.2",
+            "fileReplacePosition": 6926,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 16
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-source-plugin",
+            "currentValue": "3.2.1",
+            "fileReplacePosition": 8292,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 17
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-gpg-plugin",
+            "currentValue": "3.0.1",
+            "fileReplacePosition": 8880,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 18
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.sonatype.plugins:nexus-staging-maven-plugin",
+            "currentValue": "1.6.13",
+            "fileReplacePosition": 9886,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 19
+          }
+        ],
+        "packageFileVersion": "0.0.2-SNAPSHOT"
+      },
+      {
+        "datasource": "maven",
+        "packageFile": "sorald-api/pom.xml",
+        "deps": [
+          {
+            "datasource": "maven",
+            "depName": "se.kth.castor:sorald-parent",
+            "currentValue": "0.0.2-SNAPSHOT",
+            "fileReplacePosition": 388,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "parent",
+            "depIndex": 0
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.sonarsource.sonarlint.core:sonarlint-core",
+            "currentValue": "8.9.0.54830",
+            "fileReplacePosition": 1802,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 1
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-deploy-plugin",
+            "currentValue": "3.0.0",
+            "fileReplacePosition": 2587,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 2
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-release-plugin",
+            "currentValue": "2.5.3",
+            "fileReplacePosition": 2793,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 3
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.scm:maven-scm-provider-gitexe",
+            "currentValue": "1.13.0",
+            "fileReplacePosition": 3045,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 4
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.codehaus.mojo:buildnumber-maven-plugin",
+            "currentValue": "3.0.0",
+            "fileReplacePosition": 3845,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 5
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-assembly-plugin",
+            "currentValue": "3.4.2",
+            "fileReplacePosition": 4611,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 6
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-javadoc-plugin",
+            "currentValue": "3.4.1",
+            "fileReplacePosition": 6165,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 7
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-surefire-plugin",
+            "currentValue": "2.22.2",
+            "fileReplacePosition": 6655,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 8
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-compiler-plugin",
+            "currentValue": "3.10.1",
+            "fileReplacePosition": 6863,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 9
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.jacoco:jacoco-maven-plugin",
+            "currentValue": "0.8.8",
+            "fileReplacePosition": 7152,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 10
+          },
+          {
+            "datasource": "maven",
+            "depName": "com.diffplug.spotless:spotless-maven-plugin",
+            "currentValue": "2.27.2",
+            "fileReplacePosition": 8270,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 11
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-source-plugin",
+            "currentValue": "3.2.1",
+            "fileReplacePosition": 9636,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 12
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-gpg-plugin",
+            "currentValue": "3.0.1",
+            "fileReplacePosition": 10224,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 13
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.sonatype.plugins:nexus-staging-maven-plugin",
+            "currentValue": "1.6.13",
+            "fileReplacePosition": 11230,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 14
+          }
+        ],
+        "parent": "pom.xml",
+        "packageFileVersion": "0.0.3-SNAPSHOT"
+      },
+      {
+        "datasource": "maven",
+        "packageFile": "sorald/pom.xml",
+        "deps": [
+          {
+            "datasource": "maven",
+            "depName": "se.kth.castor:sorald-parent",
+            "currentValue": "0.0.1",
+            "fileReplacePosition": 388,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "parent",
+            "depIndex": 0
+          },
+          {
+            "datasource": "maven",
+            "depName": "se.kth.castor:sorald-api",
+            "currentValue": "0.0.2",
+            "fileReplacePosition": 1734,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 1
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.sonarsource.sonarlint.core:sonarlint-core",
+            "currentValue": "8.9.0.54830",
+            "fileReplacePosition": 1928,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 2
+          },
+          {
+            "datasource": "maven",
+            "depName": "info.picocli:picocli",
+            "currentValue": "4.6.3",
+            "fileReplacePosition": 2828,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "groupName": "picocli.version",
+            "depIndex": 3
+          },
+          {
+            "datasource": "maven",
+            "depName": "info.picocli:picocli-codegen",
+            "currentValue": "4.6.3",
+            "fileReplacePosition": 2828,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "groupName": "picocli.version",
+            "depIndex": 4
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.json:json",
+            "currentValue": "20220924",
+            "fileReplacePosition": 2534,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "compile",
+            "depIndex": 5
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-deploy-plugin",
+            "currentValue": "3.0.0",
+            "fileReplacePosition": 3316,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 6
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-release-plugin",
+            "currentValue": "2.5.3",
+            "fileReplacePosition": 3522,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 7
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.scm:maven-scm-provider-gitexe",
+            "currentValue": "1.13.0",
+            "fileReplacePosition": 3774,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 8
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.codehaus.mojo:buildnumber-maven-plugin",
+            "currentValue": "3.0.0",
+            "fileReplacePosition": 4574,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 9
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-assembly-plugin",
+            "currentValue": "3.4.2",
+            "fileReplacePosition": 5340,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 10
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-javadoc-plugin",
+            "currentValue": "3.4.1",
+            "fileReplacePosition": 6894,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 11
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-surefire-plugin",
+            "currentValue": "2.22.2",
+            "fileReplacePosition": 7384,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 12
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-compiler-plugin",
+            "currentValue": "3.10.1",
+            "fileReplacePosition": 7592,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 13
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.jacoco:jacoco-maven-plugin",
+            "currentValue": "0.8.8",
+            "fileReplacePosition": 7881,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 14
+          },
+          {
+            "datasource": "maven",
+            "depName": "com.diffplug.spotless:spotless-maven-plugin",
+            "currentValue": "2.27.2",
+            "fileReplacePosition": 8999,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 15
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-source-plugin",
+            "currentValue": "3.2.1",
+            "fileReplacePosition": 10365,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 16
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.apache.maven.plugins:maven-gpg-plugin",
+            "currentValue": "3.0.1",
+            "fileReplacePosition": 10953,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 17
+          },
+          {
+            "datasource": "maven",
+            "depName": "org.sonatype.plugins:nexus-staging-maven-plugin",
+            "currentValue": "1.6.13",
+            "fileReplacePosition": 11959,
+            "registryUrls": [
+              "https://repo.maven.apache.org/maven2"
+            ],
+            "depType": "build",
+            "depIndex": 18
+          }
+        ],
+        "parent": "pom.xml",
+        "packageFileVersion": "0.6.1-SNAPSHOT"
+      }
+    ],
+    "pip_setup": [
+      {
+        "packageFile": "experimentation/tools/setup.py",
+        "deps": [
+          {
+            "depName": "pytest",
+            "currentValue": ">=6.0.0",
+            "managerData": {
+              "lineNumber": 3
+            },
+            "datasource": "pypi",
+            "depIndex": 0
+          },
+          {
+            "depName": "jinja2",
+            "currentValue": ">=2.11.2",
+            "managerData": {
+              "lineNumber": 5
+            },
+            "datasource": "pypi",
+            "depIndex": 1
+          },
+          {
+            "depName": "tqdm",
+            "currentValue": ">=4.51.0",
+            "managerData": {
+              "lineNumber": 9
+            },
+            "datasource": "pypi",
+            "depIndex": 2
+          },
+          {
+            "depName": "pandas",
+            "currentValue": ">=1.1.3",
+            "managerData": {
+              "lineNumber": 10
+            },
+            "datasource": "pypi",
+            "depIndex": 3
+          },
+          {
+            "depName": "beautifulsoup4",
+            "currentValue": ">=4.9.3",
+            "managerData": {
+              "lineNumber": 11
+            },
+            "datasource": "pypi",
+            "depIndex": 4
+          }
+        ]
+      }
+    ]
+  },
+  "msg": "Extracted dependencies",
+  "time": "2022-10-11T11:58:08.301Z",
+  "v": 0
+}
