@@ -2,7 +2,11 @@
 
 Long term storage of build provenance files / software bills of material (SBOM)
 
-## How reports are generated?
+## How are SBOM generated?
+
+### Salsa
+
+TODO
 
 ### Sonatype-Lift
 
@@ -21,3 +25,5 @@ Long term storage of build provenance files / software bills of material (SBOM)
    One may use Renovate's npm package or docker image to the run the
    above command.
 3. See https://github.com/renovatebot/renovate/discussions/18258#discussion-4463299 for more information.
+
+### CycloneDX
