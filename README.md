@@ -31,3 +31,13 @@ There is an open [pull request](https://github.com/INRIA/spoon/pull/4955) that n
 3. See https://github.com/renovatebot/renovate/discussions/18258#discussion-4463299 for more information.
 
 ### CycloneDX
+
+### CycloneDX maven plugin
+
+1. Execute the maven-plugin at the root of the maven project.
+```sh
+$ mvn org.cyclonedx:cyclonedx-maven-plugin:2.7.3:makeBom
+```
+2. The SBOM (`bom.json` and `bom.xml`) is written inside the target folder.
+
+Link to GitHub repository: https://github.com/CycloneDX/cyclonedx-maven-plugin
