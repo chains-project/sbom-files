@@ -1,0 +1,528 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2022-11-18T14:13:50Z",
+    "tools" : [
+      {
+        "name" : "Sonatype Lift",
+        "version" : "1.0.54"
+      }
+    ],
+    "component" : {
+      "group" : "algomaster99",
+      "name" : "spoon",
+      "version" : "088697740db037993a133ef028ebc789d5e366eb",
+      "type" : "application",
+      "bom-ref" : "pkg:application/algomaster99/spoon@088697740db037993a133ef028ebc789d5e366eb"
+    }
+  },
+  "components" : [
+    {
+      "name" : "spoon-core",
+      "version" : "10.3.0-SNAPSHOT",
+      "purl" : "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT"
+    },
+    {
+      "name" : "maven-invoker",
+      "version" : "3.2.0",
+      "purl" : "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0"
+    },
+    {
+      "name" : "maven-shared-utils",
+      "version" : "3.3.4",
+      "purl" : "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4"
+    },
+    {
+      "name" : "commons-io",
+      "version" : "2.11.0",
+      "purl" : "pkg:maven/commons-io/commons-io@2.11.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.11.0"
+    },
+    {
+      "name" : "javax.inject",
+      "version" : "1",
+      "purl" : "pkg:maven/javax.inject/javax.inject@1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.inject/javax.inject@1"
+    },
+    {
+      "name" : "jsap",
+      "version" : "2.1",
+      "purl" : "pkg:maven/com.martiansoftware/jsap@2.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.martiansoftware/jsap@2.1"
+    },
+    {
+      "name" : "maven-model",
+      "version" : "4.0.0-alpha-2",
+      "purl" : "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-2"
+    },
+    {
+      "name" : "maven-api-model",
+      "version" : "4.0.0-alpha-2",
+      "purl" : "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-2"
+    },
+    {
+      "name" : "maven-api-xml",
+      "version" : "4.0.0-alpha-2",
+      "purl" : "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-2"
+    },
+    {
+      "name" : "maven-api-meta",
+      "version" : "4.0.0-alpha-2",
+      "purl" : "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-2"
+    },
+    {
+      "name" : "maven-xml-impl",
+      "version" : "4.0.0-alpha-2",
+      "purl" : "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-2"
+    },
+    {
+      "name" : "org.eclipse.sisu.plexus",
+      "version" : "0.3.5",
+      "purl" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5"
+    },
+    {
+      "name" : "javax.annotation-api",
+      "version" : "1.2",
+      "purl" : "pkg:maven/javax.annotation/javax.annotation-api@1.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.annotation/javax.annotation-api@1.2"
+    },
+    {
+      "name" : "org.eclipse.sisu.inject",
+      "version" : "0.3.5",
+      "purl" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5"
+    },
+    {
+      "name" : "plexus-component-annotations",
+      "version" : "1.5.5",
+      "purl" : "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5"
+    },
+    {
+      "name" : "plexus-classworlds",
+      "version" : "2.5.2",
+      "purl" : "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2"
+    },
+    {
+      "name" : "plexus-utils",
+      "version" : "3.0.24",
+      "purl" : "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24"
+    },
+    {
+      "name" : "jackson-databind",
+      "version" : "2.14.0",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0"
+    },
+    {
+      "name" : "jackson-annotations",
+      "version" : "2.14.0",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0"
+    },
+    {
+      "name" : "jackson-core",
+      "version" : "2.14.0",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0"
+    },
+    {
+      "name" : "org.eclipse.jdt.core",
+      "version" : "3.31.0",
+      "purl" : "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "1.7.36",
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36"
+    },
+    {
+      "name" : "commons-lang3",
+      "version" : "3.12.0",
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0"
+    },
+    {
+      "name" : "commons-compress",
+      "version" : "1.22",
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.22",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-compress@1.22"
+    },
+    {
+      "name" : "fr.inria.spoon.dataflow",
+      "version" : "1.0",
+      "purl" : "pkg:maven/fr.inria.gforge.spoon/fr.inria.spoon.dataflow@1.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/fr.inria.gforge.spoon/fr.inria.spoon.dataflow@1.0"
+    },
+    {
+      "name" : "z3",
+      "version" : "4.8.4",
+      "purl" : "pkg:maven/com.microsoft/z3@4.8.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.microsoft/z3@4.8.4"
+    },
+    {
+      "name" : "commons-cli",
+      "version" : "1.5.0",
+      "purl" : "pkg:maven/commons-cli/commons-cli@1.5.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-cli/commons-cli@1.5.0"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:application/algomaster99/spoon@088697740db037993a133ef028ebc789d5e366eb",
+      "dependsOn" : [
+        "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT",
+        "pkg:maven/fr.inria.gforge.spoon/fr.inria.spoon.dataflow@1.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.annotation/javax.annotation-api@1.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.11.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5",
+      "dependsOn" : [
+        "pkg:maven/javax.annotation/javax.annotation-api@1.2",
+        "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5",
+        "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5",
+        "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2",
+        "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/fr.inria.gforge.spoon/fr.inria.spoon.dataflow@1.0",
+      "dependsOn" : [
+        "pkg:maven/com.microsoft/z3@4.8.4",
+        "pkg:maven/commons-cli/commons-cli@1.5.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.martiansoftware/jsap@2.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-2",
+        "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-2",
+        "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.inject/javax.inject@1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0",
+        "pkg:maven/commons-io/commons-io@2.11.0",
+        "pkg:maven/com.martiansoftware/jsap@2.1",
+        "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-2",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0",
+        "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+        "pkg:maven/org.apache.commons/commons-compress@1.22"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-compress@1.22",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-cli/commons-cli@1.5.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.0",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.0",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4",
+      "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.11.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4",
+        "pkg:maven/javax.inject/javax.inject@1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.microsoft/z3@4.8.4",
+      "dependsOn" : [ ]
+    }
+  ]
+}
