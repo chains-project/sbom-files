@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+
+# Usage: makeboms /path/to/project /path/to/jar/for/jbom /path/to/destination
+# Will generate software bill of materials (SBOM) for project at /path/to/project
+# and write it to /path/to/destination.
+#
+# Currently uses jbom (https://github.com/eclipse/jbom) and cdxgen 
+# (https://github.com/AppThreat/cdxgen) to generate SBOMs. More to be added later.
+# TODO: Add support for dynamic generation with jbom. However, initial testing
+# shows that jbom gives identical results from a jar and a process.
+
+usage="Usage: makeboms /path/to/project /path/to/jar/for/jbom /path/to/destination"
+
+# Check if the project path is given
+if [ -z "$1" ]; then
+    echo "No project path given."
+    echo "$usage"
+    exit 1
+fi
+
+# Check if the project path is valid
+if [ ! -d "$1" ]; then
+    echo "Project path is not a directory."
+    echo "$usage"
+    exit 1
+fi
+
+# Check if the destination path is given
+if [ -z "$3" ]; then
+    echo "No destination path given."
+    echo "$usage"
+    exit 1
+fi
+
+# Check if the destination path is valid
+if [ ! -d "$3" ]; then
+    echo "Destination path is not a directory."
+    echo "$usage"
+    exit 1
+fi
+
+# Get the commit hash from the project path
+commit=$(git -C "$1" rev-parse HEAD)
+
+# Check for existence of jbom
+if [ ! -f jbom*.jar ]; then
+    echo "jbom not found. Skipping."
+    echo "If you would like to use jbom, place the jar file in the same directory as this script."
+    echo "It must be named jbom*.jar, where * is any string."
+else
+    # Check if the jar path is given
+    if [[ ! "$2" == *".jar"* && -f "$2" ]]; then
+        echo "No valid jar path given."
+        echo "$usage"
+    else
+        # Run jbom
+        mkdir -p "$3"/jbom
+        echo "Running jbom..."
+        jbom=$(ls -t jbom*.jar | head -1)
+        # We can't specify the full output path for jbom, only which folder it outputs to,
+        # so we have to move the output file to the correct location.
+        java -jar "$jbom" -f "$2" -o "$3"/jbomtmpfolder
+        mkdir -p "$3"/jbom
+        mv "$3"/jbomtmpfolder/*.json "$3"/jbom/"$commit".json
+        rm -r "$3"/jbomtmpfolder
+        echo "Finished jbom execution."
+    fi
+fi
+
+# Check for existence of cdxgen
+if ! command -v cdxgen; then
+    echo "cdxgen not found. Skipping."
+    echo "If you would like to use cdxgen, install it so that that it is in your PATH."
+    echo "To do this, you can run 'sudo npm install -g @appthreat/cdxgen'."
+else
+    # Run cdxgen
+    mkdir -p "$3"/cdxgen
+    echo "Running cdxgen..."
+    # cdxgen generates both a json and xml file as default. Let's keep both
+    # for now.
+    cdxgen -p "$1" -o "$3"/cdxgen/"$commit".json
+    echo "Finished cdxgen execution."
+fi
+
+
+
