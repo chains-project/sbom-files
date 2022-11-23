@@ -36,7 +36,7 @@ generates the provenance files for Spoon project for every commit to `INRIA/spoo
 
 1. Execute the maven-plugin at the root of the maven project.
 ```sh
-$ mvn org.cyclonedx:cyclonedx-maven-plugin:2.7.3:makeBom
+$ mvn org.cyclonedx:cyclonedx-maven-plugin:2.7.3:makeAggregateBom
 ```
 2. The SBOM (`bom.json` and `bom.xml`) is written inside the target folder.
 
