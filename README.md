@@ -41,3 +41,13 @@ $ mvn org.cyclonedx:cyclonedx-maven-plugin:2.7.3:makeAggregateBom
 2. The SBOM (`bom.json` and `bom.xml`) is written inside the target folder.
 
 Link to GitHub repository: https://github.com/CycloneDX/cyclonedx-maven-plugin
+
+### jbom
+
+1. Ran Spoon as CLI command and ensured that it would take long to end.
+2. Quickly ran jbom on another terminal lise so:
+```sh
+$ java -jar jbom-1.2.jar -p <process id>
+```
+
+Link to GitHub repository: https://github.com/eclipse/jbom/
