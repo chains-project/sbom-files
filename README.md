@@ -30,7 +30,20 @@ generates the provenance files for Spoon project for every commit to `INRIA/spoo
    above command.
 3. See https://github.com/renovatebot/renovate/discussions/18258#discussion-4463299 for more information.
 
-### CycloneDX
+### cdxgen
+
+1. Install cdxgen npm package.
+   ```
+   sudo npm install -g @appthreat/cdxgen
+   ```
+2. Run.
+   ```
+   cdxgen -t java -o bom.cdxgen.json
+   ```
+
+> It seems that is uses CycloneDX maven plugin under the hood.
+
+Link to GitHub repository: https://github.com/AppThreat/cdxgen
 
 ### CycloneDX maven plugin
 
