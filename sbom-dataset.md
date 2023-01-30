@@ -29,4 +29,11 @@ Dataset for running SBOM tools. The list is generated based on the
 | org.jacop:jacop | [4.9.0](https://mvnrepository.com/artifact/org.jacop/jacop/4.9.0) | [Central](https://mvnrepository.com/repos/central) |
 | jp.vmi:selenese-runner-java | [4.2.0](https://mvnrepository.com/artifact/jp.vmi/selenese-runner-java/4.2.0) | [Central](https://mvnrepository.com/repos/central) |
 | org.apache.commons:commons-configuration2 | [2.8.0](https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2/2.8.0) | [Central](https://mvnrepository.com/repos/central) |
+| *com.github.javaparser:javaparser-symbol-solver-logic | [3.15.15](https://mvnrepository.com/artifact/com.github.javaparser/javaparser-symbol-solver-logic/3.15.15) | [Central](https://mvnrepository.com/repos/central) |
+| *com.github.jknack:handlebars-markdown | [4.2.1](https://mvnrepository.com/artifact/com.github.jknack/handlebars-markdown/4.2.1) | [Central](https://mvnrepository.com/repos/central) |
 
+Notes:
+
+- [moshi](https://github.com/square/moshi) has been excluded because I did not find a POM.
+- [teavm/core](https://github.com/konsoletyper/teavm) has been excluded because I did not find a POM.
+- *these modules do not exist anymore.
