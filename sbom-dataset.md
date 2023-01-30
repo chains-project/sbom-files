@@ -6,7 +6,7 @@ Dataset for running SBOM tools. The list is generated based on the
 | org.jenkins-ci.main:jenkins-core  | [2.384](https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core/2.384)  | [Jenkins Releases](https://mvnrepository.com/repos/jenkins-releases)  |
 | org.jenkins-ci.main:cli  | [2.384](https://mvnrepository.com/artifact/org.jenkins-ci.main/cli/2.384)  | [Jenkins Releases](https://mvnrepository.com/repos/jenkins-releases)  |org.mybatis
 | org.mybatis:mybatis | [3.5.11](https://mvnrepository.com/artifact/org.mybatis/mybatis/3.5.11) | [Central](https://mvnrepository.com/repos/central) |
-| org.apache.flink:flink-core | [1.15.3](https://mvnrepository.com/artifact/org.apache.flink/flink-core/1.15.3) | [Central](https://mvnrepository.com/repos/central) |
+| org.apache.flink:flink-core | [1.16.0](https://mvnrepository.com/artifact/org.apache.flink/flink-core/1.16.0) | [Central](https://mvnrepository.com/repos/central) |
 | com.puppycrawl.tools:checkstyle | [10.6.0](https://mvnrepository.com/artifact/com.puppycrawl.tools/checkstyle/10.6.0) | [Central](https://mvnrepository.com/repos/central) |
 | com.google.auto:auto-common | [1.2.1](https://mvnrepository.com/artifact/com.google.auto/auto-common/1.2.1) | [Central](https://mvnrepository.com/repos/central) |
 | edu.stanford.nlp:stanford-corenlp | [4.5.1](https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp/4.5.1) | [Central](https://mvnrepository.com/repos/central) |
