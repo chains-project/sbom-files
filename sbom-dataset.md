@@ -10,7 +10,7 @@ Dataset for running SBOM tools. The list is generated based on the
 | com.puppycrawl.tools:checkstyle | [10.6.0](https://mvnrepository.com/artifact/com.puppycrawl.tools/checkstyle/10.6.0) | [Central](https://mvnrepository.com/repos/central) |
 | com.google.auto:auto-common | [1.2.1](https://mvnrepository.com/artifact/com.google.auto/auto-common/1.2.1) | [Central](https://mvnrepository.com/repos/central) |
 | edu.stanford.nlp:stanford-corenlp | [4.5.1](https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp/4.5.1) | [Central](https://mvnrepository.com/repos/central) |
-| org.neo4j:neo4j-collections | [4.3.23](https://mvnrepository.com/artifact/org.neo4j/neo4j-collections/4.3.23) | [Central](https://mvnrepository.com/repos/central) |
+| org.neo4j:neo4j-collections | [5.3.0](https://mvnrepository.com/artifact/org.neo4j/neo4j-collections/5.3.0) | [Central](https://mvnrepository.com/repos/central) |
 | org.asynchttpclient:async-http-client | [2.12.3](https://mvnrepository.com/artifact/org.asynchttpclient/async-http-client/2.12.3) | [Central](https://mvnrepository.com/repos/central) |
 | com.google.errorprone:error_prone_core | [2.17.0](https://mvnrepository.com/artifact/com.google.errorprone/error_prone_core/2.17.0) | [Central](https://mvnrepository.com/repos/central) |
 | org.alluxio:alluxio-core-transport | [2.9.0](https://mvnrepository.com/artifact/org.alluxio/alluxio-core-transport/2.9.0) | [Central](https://mvnrepository.com/repos/central) |
