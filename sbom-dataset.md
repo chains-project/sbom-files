@@ -21,7 +21,7 @@ Dataset for running SBOM tools. The list is generated based on the
 | fr.inria.gforge.spoon:spoon-core | [10.3.0-beta-8](https://mvnrepository.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0-beta-8) | [Central](https://mvnrepository.com/repos/central) |
 | org.apache.accumulo:accumulo-core | [2.1.0](https://mvnrepository.com/artifact/org.apache.accumulo/accumulo-core/2.1.0) | [Central](https://mvnrepository.com/repos/central) |
 | com.github.rnewson.couchdb.lucene:couchdb-lucene  | [2.1.0](https://github.com/rnewson/couchdb-lucene/releases/tag/v2.1.0)  | [GitHub](https://github.com/rnewson/couchdb-lucene/releases/tag/v2.1.0)  |
-| org.jhiccup:jHiccup | [None](https://github.com/giltene/jHiccup/releases/tag/jHiccup-2.0.10) | [GitHub](https://github.com/giltene/jHiccup/releases/tag/jHiccup-2.0.10) |
+| org.jhiccup:jHiccup | [2.0.10](https://github.com/giltene/jHiccup/releases/tag/jHiccup-2.0.10) | [GitHub](https://github.com/giltene/jHiccup/releases/tag/jHiccup-2.0.10) |
 | com.squareup.subzero:server | [1.34.3926](https://mvnrepository.com/artifact/com.squareup.subzero/server/1.34.3926) | [Central](https://mvnrepository.com/repos/central) |
 | org.eclipse.steady:shared | [3.2.5](https://mvnrepository.com/artifact/org.eclipse.steady/shared/3.2.5) | [Central](https://mvnrepository.com/repos/central) |
 | com.erudika:para-core | [1.47.2](https://mvnrepository.com/artifact/com.erudika/para-core/1.47.2) | [Central](https://mvnrepository.com/repos/central) |
