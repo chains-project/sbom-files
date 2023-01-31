@@ -78,3 +78,11 @@ Link to tool: https://doc.casthighlight.com/product-tutorials-third-party-tools/
 The tools generates a lot of CSV files that can be uploaded to 
 [Highlight Platform](https://learn.castsoftware.com/trial-hl-request?utm_page=https://learn.castsoftware.com/highlight)
 (proprietary) to view the results.
+
+### FOSSA
+
+1. Click 'Start for Free' and then follow the steps.
+2. The report can be exported in SPDX format. However, only direct
+dependecies are included in the report in the free version.
+
+Link to tool: https://fossa.com/
