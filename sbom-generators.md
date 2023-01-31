@@ -89,3 +89,6 @@
 
 - https://github.com/oss-review-toolkit/ort
 - https://github.com/nexB/scancode-toolkit
+- https://slsa.dev/verification_summary/v0.1 (SLSA)
+- https://grafeas.io/
+- https://www.npmjs.com/package/renovate
