@@ -77,3 +77,8 @@
 - https://github.com/microsoft/sbom-tool
 - https://github.com/opensbom-generator/spdx-sbom-generator
 - https://www.tauruseer.com/platform/dynamic-software-bill-of-materials-SBOM (proprietary)
+
+# Not popular SBOM formats
+
+- https://github.com/oss-review-toolkit/ort
+- https://github.com/nexB/scancode-toolkit
