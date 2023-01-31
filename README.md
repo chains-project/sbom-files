@@ -64,3 +64,17 @@ $ java -jar jbom-1.2.jar -p <process id>
 ```
 
 Link to GitHub repository: https://github.com/eclipse/jbom/
+
+### Highlight Automated Code Scan
+
+1. Download the tar ball from the link below.
+2. Run the following command.
+```sh
+java -jar HighlightAutomation.jar --workingDir  ~/chains/sbom-files/sorald/ --sourceDir ~/spoonlabs/sorald --skipUpload --technologies "Java"
+```
+
+Link to tool: https://doc.casthighlight.com/product-tutorials-third-party-tools/automated-code-scan-command-line/
+
+The tools generates a lot of CSV files that can be uploaded to 
+[Highlight Platform](https://learn.castsoftware.com/trial-hl-request?utm_page=https://learn.castsoftware.com/highlight)
+(proprietary) to view the results.
