@@ -78,6 +78,13 @@
 - https://github.com/opensbom-generator/spdx-sbom-generator
 - https://www.tauruseer.com/platform/dynamic-software-bill-of-materials-SBOM (proprietary)
 
+# SWID tools
+
+- https://github.com/Labs64/swid-maven-plugin
+- https://github.com/usnistgov/swid-tools
+- https://adolus.com/ (proprietary)
+- https://www.vigilant-ops.com/ (proprietary)
+
 # Not popular SBOM formats
 
 - https://github.com/oss-review-toolkit/ort
