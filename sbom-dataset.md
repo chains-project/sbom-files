@@ -31,6 +31,7 @@ Dataset for running SBOM tools. The list is generated based on the
 | org.apache.commons:commons-configuration2 | [2.8.0](https://mvnrepository.com/artifact/org.apache.commons/commons-configuration2/2.8.0) | [Central](https://mvnrepository.com/repos/central) |
 | *com.github.javaparser:javaparser-symbol-solver-logic | [3.15.15](https://mvnrepository.com/artifact/com.github.javaparser/javaparser-symbol-solver-logic/3.15.15) | [Central](https://mvnrepository.com/repos/central) |
 | *com.github.jknack:handlebars-markdown | [4.2.1](https://mvnrepository.com/artifact/com.github.jknack/handlebars-markdown/4.2.1) | [Central](https://mvnrepository.com/repos/central) |
+| *ma.glasnost.orika:orika-eclipse-tools | [1.5.4](https://mvnrepository.com/artifact/ma.glasnost.orika/orika-eclipse-tools/1.5.4) | [Central](https://mvnrepository.com/repos/central) |
 
 Notes:
 
