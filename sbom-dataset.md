@@ -1,7 +1,7 @@
 Dataset for running SBOM tools. The list is generated based on the
 [depclean-dataset](https://github.com/castor-software/depclean-experiments/blob/master/contributions/pull-requests.md)
 
-| Project  | Stable release as of 01.03.23  | Repository  |
+| Project  | Stable release as of 01.01.23  | Repository  |
 |---|---|---|
 | org.jenkins-ci.main:jenkins-core  | [2.384](https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-core/2.384)  | [Jenkins Releases](https://mvnrepository.com/repos/jenkins-releases)  |
 | org.jenkins-ci.main:cli  | [2.384](https://mvnrepository.com/artifact/org.jenkins-ci.main/cli/2.384)  | [Jenkins Releases](https://mvnrepository.com/repos/jenkins-releases)  |org.mybatis
