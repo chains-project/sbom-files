@@ -9,7 +9,6 @@
 - https://www.scanoss.co.uk/
 - https://securestack.com/ (proprietary) (trial)
 - https://lift.sonatype.com/
-- https://spack.io/
 - https://github.com/anchore/syft 
 - https://aquasecurity.github.io/trivy/v0.36/
 - https://scribesecurity.com/scribe-platform-lp/ (proprietary)
