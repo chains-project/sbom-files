@@ -6,7 +6,6 @@
 - https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium (proprietary)
 - https://meterian.io/products/boss (proprietary)
 - https://github.com/openrewrite/rewrite
-- https://github.com/SAP/jenkins-library
 - https://www.scanoss.co.uk/
 - https://github.com/veracode/srcclr_sbom_gen
 - https://github.com/coinbase/salus
