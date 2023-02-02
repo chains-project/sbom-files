@@ -7,7 +7,6 @@
 - https://meterian.io/products/boss (proprietary)
 - https://github.com/openrewrite/rewrite
 - https://www.scanoss.co.uk/
-- https://github.com/coinbase/salus
 - https://securestack.com/ (proprietary) (trial)
 - https://lift.sonatype.com/
 - https://spack.io/
