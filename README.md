@@ -86,3 +86,9 @@ The tools generates a lot of CSV files that can be uploaded to
 dependecies are included in the report in the free version.
 
 Link to tool: https://fossa.com/
+
+### Scribe
+
+Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
+
+Link to tool: https://scribesecurity.com/scribe-platform-lp/ 
