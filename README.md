@@ -85,6 +85,8 @@ The tools generates a lot of CSV files that can be uploaded to
 2. The report can be exported in SPDX format. However, only direct
 dependecies are included in the report in the free version.
 
+![fossa.png](readme_assets/fossa.png)
+
 Link to tool: https://fossa.com/
 
 ### Scribe
