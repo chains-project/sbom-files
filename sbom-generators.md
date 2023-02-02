@@ -10,7 +10,6 @@
 - https://securestack.com/ (proprietary) (trial)
 - https://lift.sonatype.com/
 - https://github.com/anchore/syft 
-- https://aquasecurity.github.io/trivy/v0.36/
 - https://scribesecurity.com/scribe-platform-lp/ (proprietary)
 - https://jfrog.com/xray/ (proprietary) (trial)
 - https://github.com/jfrog/build-info-go
