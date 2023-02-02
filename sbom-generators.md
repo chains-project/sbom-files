@@ -1,7 +1,6 @@
 # CycloneDX tools
 
 - https://learn.castsoftware.com/highlight (proprietary)
-- https://github.com/CycloneDX/cyclonedx-cli
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
 - https://www.eclipse.org/antenna
 - https://fossa.com/ (proprietary)
