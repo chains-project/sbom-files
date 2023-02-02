@@ -15,7 +15,6 @@
 - https://github.com/jfrog/build-info-go
 - https://github.com/AppThreat/cdxgen
 - https://github.com/Contrast-Security-OSS/jbom
-- https://github.com/javixeneize/zasca
 - https://github.com/whitesource-ps/ws-sbom-generator
 
 # SPDX tools
