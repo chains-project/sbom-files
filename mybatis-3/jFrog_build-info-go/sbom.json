@@ -1,0 +1,923 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "org.mybatis:mybatis:3.5.11",
+      "type": "application",
+      "group": "org.mybatis",
+      "name": "mybatis",
+      "version": "3.5.11"
+    },
+    {
+      "bom-ref": "com.nimbusds:lang-tag:1.6",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "lang-tag",
+      "version": "1.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "409d056d9e5f566ac267f980e82027257dd864731abde7af8eba1f65213fbf4c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba96ae591bf885f130a772794f07209e2bdb9fb5"
+        },
+        {
+          "alg": "MD5",
+          "content": "03eaf0cb305c695a131d1494d48cec6a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.bytebuddy:byte-buddy:1.12.14",
+      "type": "library",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.12.14"
+    },
+    {
+      "bom-ref": "org.mockito:mockito-junit-jupiter:4.8.0",
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-junit-jupiter",
+      "version": "4.8.0"
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.10.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49dfdc4cfa46d165ecfed630ba164b6641d59d5fe1aa698a19c13f966d3f13cf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f63b3b1da563767d04d2e4d3fc1ae0cdeffebe7"
+        },
+        {
+          "alg": "MD5",
+          "content": "20368d1f52e031381a510cd1ce6ea2b7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.junit.jupiter:junit-jupiter-params:5.9.0",
+      "type": "library",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-params",
+      "version": "5.9.0"
+    },
+    {
+      "bom-ref": "com.nimbusds:content-type:2.2",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "content-type",
+      "version": "2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "730f1816196145e88275093c147f2e6da3c3e541207acd3503a1b06129b9bea9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9a894bce7646dd4086652d85b88013229f23724b"
+        },
+        {
+          "alg": "MD5",
+          "content": "135aaa5ebcc12a45f4b3ff08cb6fa46a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.minidev:json-smart:2.4.8",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "174a9ad578b56644e62b3965d8bf94ac3a76e707c6343b8abac9d3671438b4b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c62f5f72ab05eb54d40e2abf0360a2fe9ea477f"
+        },
+        {
+          "alg": "MD5",
+          "content": "20a8427206313ed3aa85cdc47f730415"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.postgresql:postgresql:42.5.0",
+      "type": "library",
+      "group": "org.postgresql",
+      "name": "postgresql",
+      "version": "42.5.0"
+    },
+    {
+      "bom-ref": "com.nimbusds:oauth2-oidc-sdk:9.35",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "oauth2-oidc-sdk",
+      "version": "9.35",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "95a5b7a5054fc281061b81d2354d0b7b66a862183e7d85d75a82c5ddb8867293"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7bfdf91bc4ae265f6c49a367bc0ed0e47d0e3a97"
+        },
+        {
+          "alg": "MD5",
+          "content": "9f2126575ebd24abe5a82bc0193da0d2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-lang3:3.11",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.11"
+    },
+    {
+      "bom-ref": "mysql:mysql-connector-java:8.0.30",
+      "type": "library",
+      "group": "mysql",
+      "name": "mysql-connector-java",
+      "version": "8.0.30"
+    },
+    {
+      "bom-ref": "org.apache.derby:derbyshared:10.15.2.0",
+      "type": "library",
+      "group": "org.apache.derby",
+      "name": "derbyshared",
+      "version": "10.15.2.0"
+    },
+    {
+      "bom-ref": "org.testcontainers:testcontainers:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "testcontainers",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "net.minidev:accessors-smart:2.4.8",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "2.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7dd705aa1ac0e030f8ee2624e8e77239ae1eef6ccc2621c0b8c189866ee1c42c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6e1bee5a530caba91893604d6ab41d0edcecca9a"
+        },
+        {
+          "alg": "MD5",
+          "content": "e5761631acc11ded0255af1249937e85"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.opentest4j:opentest4j:1.2.0",
+      "type": "library",
+      "group": "org.opentest4j",
+      "name": "opentest4j",
+      "version": "1.2.0"
+    },
+    {
+      "bom-ref": "net.bytebuddy:byte-buddy-agent:1.12.14",
+      "type": "library",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy-agent",
+      "version": "1.12.14"
+    },
+    {
+      "bom-ref": "eu.codearte.catch-exception:catch-exception:2.0",
+      "type": "library",
+      "group": "eu.codearte.catch-exception",
+      "name": "catch-exception",
+      "version": "2.0"
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-classic:1.4.1",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.4.1"
+    },
+    {
+      "bom-ref": "org.testcontainers:postgresql:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "postgresql",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-api:2.19.0",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.19.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5ccb24ad9f92e768d0bc456d3061a737951262df803e004d2cad096b75a88d60"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ea1b37f38c327596b216542bc636cfdc0b8036fa"
+        },
+        {
+          "alg": "MD5",
+          "content": "a7f8fc9751cdaa237a1e18059b4887da"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.junit.platform:junit-platform-engine:1.9.0",
+      "type": "library",
+      "group": "org.junit.platform",
+      "name": "junit-platform-engine",
+      "version": "1.9.0"
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4ab2fa2b6d2cc9ccb1eaa05ea329c407b47b13ed2915f62f8c4b8cc96258d4de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fa29aa438674ff19d5e1386d2c3527a0267f291e"
+        },
+        {
+          "alg": "MD5",
+          "content": "04fc92647ce25b41121683674a50dfdf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "junit:junit:4.13.2",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2"
+    },
+    {
+      "bom-ref": "org.hamcrest:hamcrest-core:1.3",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-core",
+      "version": "1.3"
+    },
+    {
+      "bom-ref": "com.google.protobuf:protobuf-java:3.19.4",
+      "type": "library",
+      "group": "com.google.protobuf",
+      "name": "protobuf-java",
+      "version": "3.19.4"
+    },
+    {
+      "bom-ref": "com.microsoft.azure:msal4j:1.13.0",
+      "type": "library",
+      "group": "com.microsoft.azure",
+      "name": "msal4j",
+      "version": "1.13.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2fc47ba5e0df171dbe67a36f51f0f086b6e16f40971429fd67f81ca0cf03f08"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7b9508128c3d0dfa45317b7419a616a30709fa79"
+        },
+        {
+          "alg": "MD5",
+          "content": "e346ab011a9de0983b5f7ed18343a3e5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.docker-java:docker-java-transport:3.2.13",
+      "type": "library",
+      "group": "com.github.docker-java",
+      "name": "docker-java-transport",
+      "version": "3.2.13"
+    },
+    {
+      "bom-ref": "commons-logging:commons-logging:1.2",
+      "type": "library",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg": "MD5",
+          "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.velocity:velocity-engine-core:2.3",
+      "type": "library",
+      "group": "org.apache.velocity",
+      "name": "velocity-engine-core",
+      "version": "2.3"
+    },
+    {
+      "bom-ref": "org.junit.jupiter:junit-jupiter-api:5.9.0",
+      "type": "library",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.9.0"
+    },
+    {
+      "bom-ref": "org.javassist:javassist:3.29.2-GA",
+      "type": "library",
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.29.2-GA",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a90ddb25135df9e57ea9bd4e224e219554929758f9bae9965f29f81d60a3293f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c32028609e5dd4a1b78e10fbcd122b09b3928b1"
+        },
+        {
+          "alg": "MD5",
+          "content": "9783c90ffa4d36eddda9526fde06f3ea"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-databind:2.13.2.1",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.13.2.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "33ef5309aeeebd45e87beca7e576f59a4fea2c03ef993dd522a92d8fc3e35fff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "919754c0de3c2f22187e07318da1766f7583b5f7"
+        },
+        {
+          "alg": "MD5",
+          "content": "b66a191219300cdb6113af6a6360326d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.qos.reload4j:reload4j:1.2.22",
+      "type": "library",
+      "group": "ch.qos.reload4j",
+      "name": "reload4j",
+      "version": "1.2.22",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "222f90d3e69541218ef6e70547749d693bd4c1846817e5bd7949b3e28950f99f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f9d9e55d1072d7a697d2bf06e1847e93635a7cf9"
+        },
+        {
+          "alg": "MD5",
+          "content": "53e3301fc57f593f1683da8195364a14"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+      "type": "library",
+      "group": "com.github.stephenc.jcip",
+      "name": "jcip-annotations",
+      "version": "1.0-1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4fccff8382aafc589962c4edb262f6aa595e34f1e11e61057d1c6a96e8fc7323"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ef31541dd28ae2cefdd17c7ebf352d93e9058c63"
+        },
+        {
+          "alg": "MD5",
+          "content": "d62dbfa8789378457ada685e2f614846"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.rnorth.duct-tape:duct-tape:1.0.8",
+      "type": "library",
+      "group": "org.rnorth.duct-tape",
+      "name": "duct-tape",
+      "version": "1.0.8"
+    },
+    {
+      "bom-ref": "org.testcontainers:database-commons:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "database-commons",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "com.h2database:h2:2.1.214",
+      "type": "library",
+      "group": "com.h2database",
+      "name": "h2",
+      "version": "2.1.214"
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-compress:1.21",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21"
+    },
+    {
+      "bom-ref": "org.testcontainers:junit-jupiter:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "junit-jupiter",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "cglib:cglib:3.3.0",
+      "type": "library",
+      "group": "cglib",
+      "name": "cglib",
+      "version": "3.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9fe0c26d7464140ccdfe019ac687be1fb906122b508ab54beb810db0f09a9212"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c956b9f9708af5901e9cf05701e9b2b1c25027cc"
+        },
+        {
+          "alg": "MD5",
+          "content": "6ff304cc2874dd20277a8206fee5fd9a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.derby:derbytools:10.15.2.0",
+      "type": "library",
+      "group": "org.apache.derby",
+      "name": "derbytools",
+      "version": "10.15.2.0"
+    },
+    {
+      "bom-ref": "org.jetbrains:annotations:17.0.0",
+      "type": "library",
+      "group": "org.jetbrains",
+      "name": "annotations",
+      "version": "17.0.0"
+    },
+    {
+      "bom-ref": "ognl:ognl:3.3.4",
+      "type": "library",
+      "group": "ognl",
+      "name": "ognl",
+      "version": "3.3.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "47fdd450407ff09b57df02f466f9b4c7d32818962d65f9d98e445c8b4d047603"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1904789bdd96f226ad252a02f230be1015f4462b"
+        },
+        {
+          "alg": "MD5",
+          "content": "1893dad14f3e7ddd95d211e1d3ca1a0f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.assertj:assertj-core:3.23.1",
+      "type": "library",
+      "group": "org.assertj",
+      "name": "assertj-core",
+      "version": "3.23.1"
+    },
+    {
+      "bom-ref": "org.testcontainers:mysql:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "mysql",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-core:1.4.1",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.4.1"
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:3.5.0",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.5.0"
+    },
+    {
+      "bom-ref": "org.testcontainers:jdbc:1.17.3",
+      "type": "library",
+      "group": "org.testcontainers",
+      "name": "jdbc",
+      "version": "1.17.3"
+    },
+    {
+      "bom-ref": "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+      "type": "library",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.9.0"
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-core:2.13.2",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.13.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9bfa278ad05179fb68087851caf607652702ca25424bec8358a3716e751405c8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a6a0e0620d51833feffc67bccb51937b2345763"
+        },
+        {
+          "alg": "MD5",
+          "content": "c56433d75479665998ccbd50678480fa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:2.0.1",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b36b99b8d99ea7857554d9b25dfdbd1fb25378c926f7b9e0249983c99335b2c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f48d81adce2abf5ad3cfe463df517952749e03bc"
+        },
+        {
+          "alg": "MD5",
+          "content": "f83e57c047d1e3e226b77abc9141d233"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.java.dev.jna:jna:5.8.0",
+      "type": "library",
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "5.8.0"
+    },
+    {
+      "bom-ref": "org.junit.platform:junit-platform-commons:1.9.0",
+      "type": "library",
+      "group": "org.junit.platform",
+      "name": "junit-platform-commons",
+      "version": "1.9.0"
+    },
+    {
+      "bom-ref": "org.objenesis:objenesis:3.2",
+      "type": "library",
+      "group": "org.objenesis",
+      "name": "objenesis",
+      "version": "3.2"
+    },
+    {
+      "bom-ref": "org.apache.derby:derbyoptionaltools:10.15.2.0",
+      "type": "library",
+      "group": "org.apache.derby",
+      "name": "derbyoptionaltools",
+      "version": "10.15.2.0"
+    },
+    {
+      "bom-ref": "org.apiguardian:apiguardian-api:1.1.2",
+      "type": "library",
+      "group": "org.apiguardian",
+      "name": "apiguardian-api",
+      "version": "1.1.2"
+    },
+    {
+      "bom-ref": "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+      "type": "library",
+      "group": "com.github.docker-java",
+      "name": "docker-java-transport-zerodep",
+      "version": "3.2.13"
+    },
+    {
+      "bom-ref": "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+      "type": "library",
+      "group": "com.microsoft.sqlserver",
+      "name": "mssql-jdbc",
+      "version": "11.2.0.jre8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "63d8e38f0d849ccf084805151d456e9a5e073679bdfe429fb77fc973c34bce5a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a0ed87a18d9738b2a74d72f1974daf464891a3c4"
+        },
+        {
+          "alg": "MD5",
+          "content": "b204274eb02a848ac405961e6f43e7bd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-core:2.19.0",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.19.0"
+    },
+    {
+      "bom-ref": "org.hsqldb:hsqldb:2.6.1",
+      "type": "library",
+      "group": "org.hsqldb",
+      "name": "hsqldb",
+      "version": "2.6.1"
+    },
+    {
+      "bom-ref": "org.apache.derby:derby:10.15.2.0",
+      "type": "library",
+      "group": "org.apache.derby",
+      "name": "derby",
+      "version": "10.15.2.0"
+    },
+    {
+      "bom-ref": "com.github.docker-java:docker-java-api:3.2.13",
+      "type": "library",
+      "group": "com.github.docker-java",
+      "name": "docker-java-api",
+      "version": "3.2.13"
+    },
+    {
+      "bom-ref": "com.nimbusds:nimbus-jose-jwt:9.22",
+      "type": "library",
+      "group": "com.nimbusds",
+      "name": "nimbus-jose-jwt",
+      "version": "9.22",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f7c80eb70d5163e13452f76e85d4e4782e4ae2d8dc46fec3165d63a88f2c0799"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bed63628cd31d8641c5a1b29609a965179ef91ec"
+        },
+        {
+          "alg": "MD5",
+          "content": "76be9e3b0a601b4b69bffec9f4966bd7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.mockito:mockito-core:4.8.0",
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-core",
+      "version": "4.8.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "ch.qos.logback:logback-classic:1.4.1",
+      "dependsOn": [
+        "ch.qos.logback:logback-core:1.4.1"
+      ]
+    },
+    {
+      "ref": "org.testcontainers:postgresql:1.17.3",
+      "dependsOn": [
+        "org.testcontainers:jdbc:1.17.3"
+      ]
+    },
+    {
+      "ref": "org.mockito:mockito-core:4.8.0",
+      "dependsOn": [
+        "net.bytebuddy:byte-buddy:1.12.14",
+        "net.bytebuddy:byte-buddy-agent:1.12.14",
+        "org.objenesis:objenesis:3.2"
+      ]
+    },
+    {
+      "ref": "org.junit.platform:junit-platform-engine:1.9.0",
+      "dependsOn": [
+        "org.opentest4j:opentest4j:1.2.0",
+        "org.junit.platform:junit-platform-commons:1.9.0"
+      ]
+    },
+    {
+      "ref": "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+      "dependsOn": [
+        "com.microsoft.azure:msal4j:1.13.0"
+      ]
+    },
+    {
+      "ref": "org.testcontainers:junit-jupiter:1.17.3",
+      "dependsOn": [
+        "org.testcontainers:testcontainers:1.17.3"
+      ]
+    },
+    {
+      "ref": "org.rnorth.duct-tape:duct-tape:1.0.8",
+      "dependsOn": [
+        "org.jetbrains:annotations:17.0.0"
+      ]
+    },
+    {
+      "ref": "org.postgresql:postgresql:42.5.0",
+      "dependsOn": [
+        "org.checkerframework:checker-qual:3.5.0"
+      ]
+    },
+    {
+      "ref": "org.mybatis:mybatis:3.5.11",
+      "dependsOn": [
+        "org.apache.logging.log4j:log4j-api:2.19.0",
+        "ognl:ognl:3.3.4",
+        "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+        "org.apache.logging.log4j:log4j-core:2.19.0",
+        "org.hsqldb:hsqldb:2.6.1",
+        "org.apache.derby:derbyshared:10.15.2.0",
+        "org.testcontainers:postgresql:1.17.3",
+        "org.testcontainers:junit-jupiter:1.17.3",
+        "org.testcontainers:mysql:1.17.3",
+        "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+        "org.junit.jupiter:junit-jupiter-params:5.9.0",
+        "org.postgresql:postgresql:42.5.0",
+        "org.javassist:javassist:3.29.2-GA",
+        "org.apache.derby:derbyoptionaltools:10.15.2.0",
+        "commons-logging:commons-logging:1.2",
+        "ch.qos.reload4j:reload4j:1.2.22",
+        "org.assertj:assertj-core:3.23.1",
+        "ch.qos.logback:logback-classic:1.4.1",
+        "com.h2database:h2:2.1.214",
+        "eu.codearte.catch-exception:catch-exception:2.0",
+        "org.apache.velocity:velocity-engine-core:2.3",
+        "org.mockito:mockito-core:4.8.0",
+        "org.mockito:mockito-junit-jupiter:4.8.0",
+        "mysql:mysql-connector-java:8.0.30",
+        "cglib:cglib:3.3.0",
+        "org.slf4j:slf4j-api:2.0.1",
+        "org.apache.derby:derby:10.15.2.0"
+      ]
+    },
+    {
+      "ref": "com.microsoft.azure:msal4j:1.13.0",
+      "dependsOn": [
+        "net.minidev:json-smart:2.4.8",
+        "com.nimbusds:oauth2-oidc-sdk:9.35",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.2.1"
+      ]
+    },
+    {
+      "ref": "org.apache.velocity:velocity-engine-core:2.3",
+      "dependsOn": [
+        "org.apache.commons:commons-lang3:3.11"
+      ]
+    },
+    {
+      "ref": "org.testcontainers:testcontainers:1.17.3",
+      "dependsOn": [
+        "junit:junit:4.13.2",
+        "org.rnorth.duct-tape:duct-tape:1.0.8",
+        "org.apache.commons:commons-compress:1.21",
+        "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+        "com.github.docker-java:docker-java-api:3.2.13"
+      ]
+    },
+    {
+      "ref": "org.testcontainers:jdbc:1.17.3",
+      "dependsOn": [
+        "org.testcontainers:database-commons:1.17.3"
+      ]
+    },
+    {
+      "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.2.1",
+      "dependsOn": [
+        "com.fasterxml.jackson.core:jackson-core:2.13.2"
+      ]
+    },
+    {
+      "ref": "com.nimbusds:oauth2-oidc-sdk:9.35",
+      "dependsOn": [
+        "com.nimbusds:content-type:2.2",
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "com.nimbusds:nimbus-jose-jwt:9.22",
+        "com.nimbusds:lang-tag:1.6"
+      ]
+    },
+    {
+      "ref": "com.github.docker-java:docker-java-api:3.2.13",
+      "dependsOn": [
+        "com.fasterxml.jackson.core:jackson-annotations:2.10.3"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-engine:1.9.0",
+        "org.junit.jupiter:junit-jupiter-api:5.9.0",
+        "org.apiguardian:apiguardian-api:1.1.2"
+      ]
+    },
+    {
+      "ref": "mysql:mysql-connector-java:8.0.30",
+      "dependsOn": [
+        "com.google.protobuf:protobuf-java:3.19.4"
+      ]
+    },
+    {
+      "ref": "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+      "dependsOn": [
+        "com.github.docker-java:docker-java-transport:3.2.13",
+        "net.java.dev.jna:jna:5.8.0"
+      ]
+    },
+    {
+      "ref": "org.apache.derby:derbyoptionaltools:10.15.2.0",
+      "dependsOn": [
+        "org.apache.derby:derbytools:10.15.2.0"
+      ]
+    },
+    {
+      "ref": "net.minidev:json-smart:2.4.8",
+      "dependsOn": [
+        "net.minidev:accessors-smart:2.4.8"
+      ]
+    },
+    {
+      "ref": "cglib:cglib:3.3.0",
+      "dependsOn": [
+        "org.ow2.asm:asm:7.1"
+      ]
+    },
+    {
+      "ref": "junit:junit:4.13.2",
+      "dependsOn": [
+        "org.hamcrest:hamcrest-core:1.3"
+      ]
+    }
+  ]
+}

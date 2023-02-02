@@ -113,6 +113,16 @@ $ scanoss-py scan <path-to-project-dir>
 
 Link to tool: https://github.com/scanoss/scanoss.py
 
+### JFrog/build-info-go
+
+1. Download the executable from the GitHub page.
+2. Go to the root of the project and run:
+```sh
+$ bi mvn
+```
+
+Link to tool: https://github.com/jfrog/build-info-go
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
