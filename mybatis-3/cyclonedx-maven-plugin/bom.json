@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:f5a483bd-8386-4b71-b8ea-0e8fa391e8b1",
+  "serialNumber" : "urn:uuid:f290e68e-3e4c-4c86-a59d-7ebb5b6f71c5",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-02T14:43:03Z",
+    "timestamp" : "2023-02-02T14:56:14Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -50,7 +50,7 @@
       "publisher" : "MyBatis.org",
       "group" : "org.mybatis",
       "name" : "mybatis",
-      "version" : "3.5.12-SNAPSHOT",
+      "version" : "3.5.11",
       "description" : "The MyBatis SQL mapper framework makes it easier to use a relational database with object-oriented applications. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations. Simplicity is the biggest advantage of the MyBatis data mapper over object relational mapping tools.",
       "licenses" : [
         {
@@ -59,7 +59,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.mybatis/mybatis@3.5.12-SNAPSHOT?type=jar",
+      "purl" : "pkg:maven/org.mybatis/mybatis@3.5.11?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -87,7 +87,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.mybatis/mybatis@3.5.12-SNAPSHOT?type=jar"
+      "bom-ref" : "pkg:maven/org.mybatis/mybatis@3.5.11?type=jar"
     }
   },
   "components" : [
@@ -242,41 +242,41 @@
       "publisher" : "QOS.ch",
       "group" : "org.slf4j",
       "name" : "slf4j-api",
-      "version" : "2.0.6",
+      "version" : "2.0.1",
       "description" : "The slf4j API",
       "scope" : "optional",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "0dd65c386e8c5f4e6e014de3f7a7ae60"
+          "content" : "f83e57c047d1e3e226b77abc9141d233"
         },
         {
           "alg" : "SHA-1",
-          "content" : "88c40d8b4f33326f19a7d3c0aaf2c7e8721d4953"
+          "content" : "f48d81adce2abf5ad3cfe463df517952749e03bc"
         },
         {
           "alg" : "SHA-256",
-          "content" : "2f2a92d410b268139d7d63b75ed25e21995cfe4100c19bf23577cfdbc8077bda"
+          "content" : "b36b99b8d99ea7857554d9b25dfdbd1fb25378c926f7b9e0249983c99335b2c4"
         },
         {
           "alg" : "SHA-512",
-          "content" : "4f8bcafcbb105542ae9333a79f1779aa299570c129abc718331cb5969af52e06e53e645ba52e67ebbe822006ea95093186656742dd24a4b167e270ba9e55e1e1"
+          "content" : "2f8f02b099de6e5eaaaf6d1a2f42d0a7d145696d348305d0ea64a4c9e18dc63504aaf55965055ae4d1ff1b471f768d74c95e756795bc13c356a9d388a5c587ad"
         },
         {
           "alg" : "SHA-384",
-          "content" : "aae19620668b33d8a5837cd39bfd398644199693c08869812948b52eff238cd9d363cbe1a5bbdd25d6efaac4bd2caa67"
+          "content" : "2df7bf2d7ae50a5478a58929d92772a37825d17913b6b4198d8a6691141f5d8017be8368f48cc6cc0ceffc5a6ca6de21"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "e70ca0766bfb4ab7b5d4f22855fa7ea28bc26f51e345ce34f11f0d042d08d8fa9b718fa6eab3c19d669dd05ce8075962"
+          "content" : "188169d2505a422148f6984ee1bf3873270405cc6cace778d4739eabbe17c82aa4337d1c587c1ee654d2ac89dc090051"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "e0c8b3a870481be3bd73d454901bb6db2a2bd0b34dcd62a13eac94890861caa7"
+          "content" : "e98a0023c37ebe952d011b09ddd5470b318e791e7419eab371b4020496ab6ef3"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "d5a1aabdb809a4eb9bf2b81747d33438ec52dbd4cfa87d4f7c11213ec582553d6921c5537e5a09547feb8830c9a7265a163f21df118b9c2e11bc4379a0f514a3"
+          "content" : "114a00635a13368f8478675fdb8702bbc62c3c38b6267a30942696f521d7e0d134f7abf9e78e858f0c6cf85d1bf3b17a8acb3f05684a3adb68a27ff9d80f3307"
         }
       ],
       "licenses" : [
@@ -287,7 +287,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar",
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -303,47 +303,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar"
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar"
     },
     {
       "publisher" : "QOS.CH Sarl (Switzerland)",
       "group" : "ch.qos.reload4j",
       "name" : "reload4j",
-      "version" : "1.2.24",
+      "version" : "1.2.22",
       "description" : "Reload4j revives EOLed log4j 1.x",
       "scope" : "optional",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "74b443737d1fda313b7b003261ef761c"
+          "content" : "53e3301fc57f593f1683da8195364a14"
         },
         {
           "alg" : "SHA-1",
-          "content" : "8b4c973551c3a5f4ce295a4f9f46dc1c61dbd604"
+          "content" : "f9d9e55d1072d7a697d2bf06e1847e93635a7cf9"
         },
         {
           "alg" : "SHA-256",
-          "content" : "6a2e8e19a3eba170fdb2b93d2653bdc9ec9d86c40f3f37e8c28974143fbc80d1"
+          "content" : "222f90d3e69541218ef6e70547749d693bd4c1846817e5bd7949b3e28950f99f"
         },
         {
           "alg" : "SHA-512",
-          "content" : "17c17fec8a7290f63bd662b444dc27cd9a2f8463e812da834e6d0956b83b0360c24f4190c6024eb979ebee1a2608362ec88a57ccd2f7b2b164a9e6e23bff8a1c"
+          "content" : "fa09c72fb0e6973b10d8129bd379c30e0eadd530c725ba965743ab272046500ffea975a0f824e9059038e4178fb9ad8b9c85db60c6cf39a771e458a195600276"
         },
         {
           "alg" : "SHA-384",
-          "content" : "6d5802218985e90f951ba2387a7a5553187432cea9b89ce2f79c54b3bc3f212a029bc3f01b86cab487aed4436a24dfa8"
+          "content" : "a612c151cf7957b3d2f8a327cf9439f401a396be183c00ef882f689a59a4b69687ec0eaddf6cf396a94b5e255906a2a8"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "0d9138289052064647ac642128df59a7d7f9f2dbd2cfb4b93dd9f864f55f8045c28faa9f0017ec1d809e965f39a79486"
+          "content" : "6124be0114d4d06cf933ad11f26b222a8c1f414c529098de1627f33299fb1ed37526f1544aae2546daca37dc62edcc7c"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "4e9794a12b9530c93c793d0ad0d08c000737316e839d04b9879e2b7b0b45ffcb"
+          "content" : "493b56fdd5a97ba2efa4af420605aeb7dc799b8ed43810c6629ea619ca0b383d"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "26832cd5dba783ac35c5671195a6f3dbd4709b43265af74030b5838b53573337f053246c690d11987b1ec9381f9e81fa89ed7aa50d3478f5e40de3b49b863b7f"
+          "content" : "d490d27896c8b0364cc8f29bee3758ce12cbe8dfcbb4b9329899c65013bf73999a3601176245b8d63a826f6b9eb2e8efa6033626ae129a18ce57b3a6fba4c247"
         }
       ],
       "licenses" : [
@@ -353,7 +353,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.24?type=jar",
+      "purl" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -369,7 +369,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.24?type=jar"
+      "bom-ref" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar"
     },
     {
       "publisher" : "The Apache Software Foundation",
@@ -1465,12 +1465,12 @@
   ],
   "dependencies" : [
     {
-      "ref" : "pkg:maven/org.mybatis/mybatis@3.5.12-SNAPSHOT?type=jar",
+      "ref" : "pkg:maven/org.mybatis/mybatis@3.5.11?type=jar",
       "dependsOn" : [
         "pkg:maven/ognl/ognl@3.3.4?type=jar",
         "pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar",
-        "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar",
-        "pkg:maven/ch.qos.reload4j/reload4j@1.2.24?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar",
+        "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar",
         "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar",
         "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
         "pkg:maven/cglib/cglib@3.3.0?type=jar",
@@ -1486,11 +1486,11 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar",
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.24?type=jar",
+      "ref" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar",
       "dependsOn" : [ ]
     },
     {
