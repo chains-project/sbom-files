@@ -123,6 +123,17 @@ $ bi mvn
 
 Link to tool: https://github.com/jfrog/build-info-go
 
+### spdx-maven-plugin
+
+1. Run the following at the root of the maven project.
+```sh
+$ mvn org.spdx:spdx-maven-plugin:createSPDX
+```
+
+> This plugin runs the tests of the maven project
+
+Link to tool: https://github.com/spdx/spdx-maven-plugin
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
