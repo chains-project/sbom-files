@@ -89,6 +89,17 @@ dependecies are included in the report in the free version.
 
 Link to tool: https://fossa.com/
 
+### Meterian
+
+1. Download the jar from the link in this [page](https://docs.meterian.io/the-client/client) - https://www.meterian.com/downloads/meterian-cli.jar.
+2. Run the following command in the root of your project.
+```sh
+$ java -jar /tmp/meterian-cli.jar
+```
+3. It will ask one to authenticate because the final report it generated has limited access.
+
+Link to tool: https://meterian.io/product/open-source-licence-compliance/
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
