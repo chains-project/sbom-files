@@ -2,7 +2,6 @@
 
 - https://learn.castsoftware.com/highlight (proprietary)
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
-- https://www.eclipse.org/antenna
 - https://fossa.com/ (proprietary)
 - https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium (proprietary)
 - https://meterian.io/products/boss (proprietary)
