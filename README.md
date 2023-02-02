@@ -68,7 +68,7 @@ Link to GitHub repository: https://github.com/eclipse/jbom/
 ### Highlight Automated Code Scan
 
 1. Download the tar ball from the link below.
-2. Run the following command.
+2. Run the following command from the HLCS directory.
 ```sh
 java -jar HighlightAutomation.jar --workingDir  ~/chains/sbom-files/sorald/ --sourceDir ~/spoonlabs/sorald --skipUpload --technologies "Java"
 ```
