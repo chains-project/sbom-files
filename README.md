@@ -100,6 +100,19 @@ $ java -jar /tmp/meterian-cli.jar
 
 Link to tool: https://meterian.io/product/open-source-licence-compliance/
 
+### SCANOSS
+
+1. Install the tool.
+```sh
+$ pip3 install scanoss
+```
+2. Run the tool.
+```sh
+$ scanoss-py scan <path-to-project-dir>
+```
+
+Link to tool: https://github.com/scanoss/scanoss.py
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
