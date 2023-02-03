@@ -146,6 +146,23 @@ Link to tool: https://github.com/spdx/spdx-maven-plugin
 
 Link to the tool: https://github.com/spdx/tools-java
 
+### microsoft-sbom-tool
+
+1. Download tool.
+   ```sh
+   $ curl -Lo sbom-tool https://github.com/microsoft/sbom-tool/releases/latest/download/sbom-tool-linux-x64
+   $ chmod +x sbom-tool
+   ```
+   > `0.3.1` was used to generate report.
+2. Run the following command.
+   ```sh
+   $ sbom-tool generate -b <drop path> -bc <build components path> -pn <package name> -pv <package version> -ps <package supplier> -nsb <namespace uri base>
+   ```
+   @algomaster99 ran:
+   ```
+   tools/microsoft-sbom-tool/sbom-tool generate -b /home/aman/chains/sbom-files/mybatis-3/microsoft-sbom-tool -bc . -pn mybatis -pv 3.5.11 -ps org.mybatis -nsb https://mybatis.org/mybatis-3/
+   ```
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
