@@ -134,6 +134,18 @@ $ mvn org.spdx:spdx-maven-plugin:createSPDX
 
 Link to tool: https://github.com/spdx/spdx-maven-plugin
 
+### spdx-tools-java
+
+1. Download tool from the [release page](https://github.com/spdx/tools-java/releases).
+   > Used version [1.1.3](https://github.com/spdx/tools-java/releases/tag/v1.1.3)
+   for the report generation.
+2. Run the following command (listed in [Generators](https://github.com/spdx/tools-java#generators)):
+   ```sh
+   $ java -jar tools-java-1.1.0-jar-with-dependencies.jar GenerateVerificationCode <project-dir>
+   ```
+
+Link to the tool: https://github.com/spdx/tools-java
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
