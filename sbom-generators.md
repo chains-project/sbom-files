@@ -20,7 +20,6 @@
 # SPDX tools
 
 - https://github.com/spdx/spdx-maven-plugin
-- https://github.com/org-metaeffekt/metaeffekt-documentation-template
 - https://qmstr.org/documentation/introduction/installation/
 - https://github.com/spdx/tools-java/blob/master/README.md
 - https://github.com/microsoft/sbom-tool
