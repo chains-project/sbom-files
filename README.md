@@ -186,6 +186,7 @@ Link to tool: https://github.com/opensbom-generator/spdx-sbom-generator
    ```
 3. Create `assembly.xml` and modify `pom.xml` as documented
    [here](https://pages.nist.gov/swid-tools/swid-maven-plugin/).
+   > maven plugin version: `0.6.1`
 4. Run `mvn package`.
 5. The plugin creates SWID tags and modified jar file in the target directory.
 
