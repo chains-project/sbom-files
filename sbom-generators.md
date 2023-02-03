@@ -27,7 +27,6 @@
 
 # SWID tools
 
-- https://github.com/Labs64/swid-maven-plugin
 - https://github.com/usnistgov/swid-tools
 
 # Not popular SBOM formats
