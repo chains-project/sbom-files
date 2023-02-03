@@ -174,6 +174,23 @@ Link to the tool: https://github.com/spdx/tools-java
 
 Link to tool: https://github.com/opensbom-generator/spdx-sbom-generator
 
+### spdx-tools
+
+1. Clone project.
+   ```sh
+   $ git clone git@github.com:usnistgov/swid-tools.git
+   ```
+2. Install project locally. Run the following at the root of the cloned project.
+   ```sh
+   $ mvn clean install
+   ```
+3. Create `assembly.xml` and modify `pom.xml` as documented
+   [here](https://pages.nist.gov/swid-tools/swid-maven-plugin/).
+4. Run `mvn package`.
+5. The plugin creates SWID tags and modified jar file in the target directory.
+
+Link to tool: https://github.com/usnistgov/swid-tools
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
