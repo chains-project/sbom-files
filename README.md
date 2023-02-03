@@ -163,6 +163,17 @@ Link to the tool: https://github.com/spdx/tools-java
    tools/microsoft-sbom-tool/sbom-tool generate -b /home/aman/chains/sbom-files/mybatis-3/microsoft-sbom-tool -bc . -pn mybatis -pv 3.5.11 -ps org.mybatis -nsb https://mybatis.org/mybatis-3/
    ```
 
+### spdx-sbom-generator
+
+1. Download tool from README.
+   > URL: https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.10/spdx-sbom-generator-v0.0.10-linux-amd64.tar.gz
+2. Go to project directory and run.
+   ```
+   $ ./spdx-sbom-generator
+   ```
+
+Link to tool: https://github.com/opensbom-generator/spdx-sbom-generator
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
