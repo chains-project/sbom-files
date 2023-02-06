@@ -213,6 +213,23 @@ Link to tool: https://github.com/usnistgov/swid-tools
 
 Link to tool: https://github.com/oss-review-toolkit/ort
 
+### scancode-toolkit
+
+1. Clone project and follow instructions [here](https://github.com/nexB/scancode-toolkit#installation)
+   to install the tool.
+   ```sh
+   $ git clone git@github.com:nexB/scancode-toolkit.git
+   ```
+2. Activate the virtual environment where scancode is install after running
+   `./scancode --help`:
+   ```sh
+   $ source venv/bin/activate
+   ```
+3. Go to project directory.
+   ```sh
+   $ scancode -clpeui -n 2 --json-pp /home/aman/chains/sbom-files/mybatis-3/scancode/scancode.json .
+   ```
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
