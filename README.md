@@ -174,7 +174,7 @@ Link to the tool: https://github.com/spdx/tools-java
 
 Link to tool: https://github.com/opensbom-generator/spdx-sbom-generator
 
-### spdx-tools
+### swid-tools
 
 1. Clone project.
    ```sh
