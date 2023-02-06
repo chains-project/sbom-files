@@ -1,26 +1,15 @@
 # CycloneDX tools
-
-- https://learn.castsoftware.com/highlight (proprietary)
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
-- https://fossa.com/ (proprietary)
-- https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium (proprietary)
-- https://meterian.io/products/boss (proprietary)
 - https://github.com/openrewrite/rewrite
 - https://www.scanoss.co.uk/
-- https://securestack.com/ (proprietary) (trial)
-- https://lift.sonatype.com/
-- https://github.com/anchore/syft 
-- https://scribesecurity.com/scribe-platform-lp/ (proprietary)
-- https://jfrog.com/xray/ (proprietary) (trial)
+- https://github.com/anchore/syft (needs jar file)
 - https://github.com/jfrog/build-info-go
 - https://github.com/AppThreat/cdxgen
-- https://github.com/Contrast-Security-OSS/jbom
-- https://github.com/whitesource-ps/ws-sbom-generator
+- https://github.com/Contrast-Security-OSS/jbom (needs Jar file)
 
 # SPDX tools
 
 - https://github.com/spdx/spdx-maven-plugin
-- https://qmstr.org/documentation/introduction/installation/
 - https://github.com/spdx/tools-java/blob/master/README.md
 - https://github.com/microsoft/sbom-tool
 - https://github.com/opensbom-generator/spdx-sbom-generator
@@ -33,4 +22,28 @@
 
 - https://github.com/oss-review-toolkit/ort
 - https://github.com/nexB/scancode-toolkit
-- https://slsa.dev/verification_summary/v0.1 (SLSA)
+
+## Needs Jar File
+
+# Proprietary
+- https://learn.castsoftware.com/highlight (trial)
+- https://scribesecurity.com/scribe-platform-lp/ (proprietary)
+- https://securestack.com/ (proprietary) (trial)
+- https://meterian.io/products/boss (proprietary)
+- https://jfrog.com/xray/ (proprietary) (trial)
+- https://fossa.com/ (proprietary)
+
+
+# Login required
+
+- https://gitlab.com/gitlab-org/security-products/analyzers/gemnasium (proprietary)
+- https://github.com/whitesource-ps/ws-sbom-generator (needs api key)
+
+# GitHub App
+
+- https://lift.sonatype.com/
+- https://slsa.dev/verification_summary/v0.1
+
+# Useable but complex (lazy)
+
+- https://qmstr.org/documentation/introduction/installation/
