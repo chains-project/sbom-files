@@ -192,6 +192,27 @@ Link to tool: https://github.com/opensbom-generator/spdx-sbom-generator
 
 Link to tool: https://github.com/usnistgov/swid-tools
 
+### ort
+
+1. Clone project and build.
+   ```sh
+   $ git clone --recurse-submodules https://github.com/oss-review-toolkit/ort.git
+   $ cd ort
+   $./gradlew installDist
+   ```
+2. Run [analyzer](https://github.com/oss-review-toolkit/ort/blob/main/docs/getting-started.md#4-run-the-analyzer-on-mime-types)
+   ```sh
+   $ ../../tools/ort/cli/build/install/ort/bin/ort analyze -i . -o /home/aman/chains/sbom-files/mybatis-3/ort -f JSON
+   ```
+3. Run [scanner](https://github.com/oss-review-toolkit/ort/blob/main/docs/getting-started.md#5-run-the-scanner)
+   ```sh
+   $ ../../tools/ort/cli/build/install/ort/bin/ort scan -i /home/aman/chains/sbom-files/mybatis-3/ort/analyze/analyzer-result.json -o /home/aman/chains/sbom-files/mybatis-3/ort/scan/ --skip-excluded
+   ```
+   > It uses [scancode-toolkit](https://github.com/nexB/scancode-toolkit) to be installed first.
+   > Was not working for `mybatis` so I have not pushed the file to repo.
+
+Link to tool: https://github.com/oss-review-toolkit/ort
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
