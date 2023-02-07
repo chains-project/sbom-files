@@ -230,6 +230,15 @@ Link to tool: https://github.com/oss-review-toolkit/ort
    $ scancode -clpeui -n 2 --json-pp /home/aman/chains/sbom-files/mybatis-3/scancode/scancode.json .
    ```
 
+### openrewrite
+
+1. Run maven plugin in the project.
+   ```sh
+   $ mvn org.openrewrite.maven:rewrite-maven-plugin:4.39.0:cyclonedx
+   ```
+
+Link to tool: https://github.com/openrewrite/rewrite-maven-plugin
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
