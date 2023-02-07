@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:a87757e4-a3ec-4e7a-911c-a960ea153575" version="1">
+    <metadata>
+        <timestamp>2023-02-07T07:52:51.737807547Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT?type=jar" type="library">
+            <group>fr.inria.gforge.spoon</group>
+            <name>spoon-core</name>
+            <version>10.3.0-SNAPSHOT</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>CeCILL-C</name>
+                </license>
+                <license>
+                    <name>MIT</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/fr.inria.gforge.spoon/spoon-core@10.3.0-SNAPSHOT?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.32.0?type=jar" type="library">
+            <group>org.eclipse.jdt</group>
+            <name>org.eclipse.jdt.core</name>
+            <version>3.32.0</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>Eclipse Public License - v 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.32.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.martiansoftware/jsap@2.1?type=jar" type="library">
+            <group>com.martiansoftware</group>
+            <name>jsap</name>
+            <version>2.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>LGPL</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.martiansoftware/jsap@2.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>1.7.36</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar" type="library">
+            <group>commons-io</group>
+            <name>commons-io</name>
+            <version>2.11.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar" type="library">
+            <group>org.apache.maven</group>
+            <name>maven-model</name>
+            <version>4.0.0-alpha-4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-lang3</name>
+            <version>3.12.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.1?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-databind</name>
+            <version>2.14.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.commons/commons-compress@1.22?type=jar" type="library">
+            <group>org.apache.commons</group>
+            <name>commons-compress</name>
+            <version>1.22</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.commons/commons-compress@1.22?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar" type="library">
+            <group>org.apache.maven.shared</group>
+            <name>maven-invoker</name>
+            <version>3.2.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar" type="library">
+            <group>org.apache.maven</group>
+            <name>maven-api-model</name>
+            <version>4.0.0-alpha-4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar" type="library">
+            <group>org.apache.maven</group>
+            <name>maven-xml-impl</name>
+            <version>4.0.0-alpha-4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.1?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-annotations</name>
+            <version>2.14.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-core</name>
+            <version>2.14.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar" type="library">
+            <group>org.apache.maven.shared</group>
+            <name>maven-shared-utils</name>
+            <version>3.3.4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar" type="library">
+            <group>javax.inject</group>
+            <name>javax.inject</name>
+            <version>1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar" type="library">
+            <group>org.apache.maven</group>
+            <name>maven-api-xml</name>
+            <version>4.0.0-alpha-4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar" type="library">
+            <group>org.eclipse.sisu</group>
+            <name>org.eclipse.sisu.plexus</name>
+            <version>0.3.5</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar" type="library">
+            <group>org.apache.maven</group>
+            <name>maven-api-meta</name>
+            <version>4.0.0-alpha-4</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar" type="library">
+            <group>javax.annotation</group>
+            <name>javax.annotation-api</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>CDDL + GPLv2 with classpath exception</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/javax.enterprise/cdi-api@1.2?type=jar" type="library">
+            <group>javax.enterprise</group>
+            <name>cdi-api</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/javax.enterprise/cdi-api@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar" type="library">
+            <group>org.eclipse.sisu</group>
+            <name>org.eclipse.sisu.inject</name>
+            <version>0.3.5</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar" type="library">
+            <group>org.codehaus.plexus</group>
+            <name>plexus-component-annotations</name>
+            <version>1.5.5</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar" type="library">
+            <group>org.codehaus.plexus</group>
+            <name>plexus-classworlds</name>
+            <version>2.5.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar" type="library">
+            <group>org.codehaus.plexus</group>
+            <name>plexus-utils</name>
+            <version>3.0.24</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.32.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.martiansoftware/jsap@2.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar">
+            <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar"/>
+            <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.14.1?type=jar">
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.1?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.commons/commons-compress@1.22?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar">
+            <dependency ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar"/>
+            <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar">
+            <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar">
+            <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.14.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.14.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar">
+            <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar">
+            <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"/>
+            <dependency ref="pkg:maven/javax.enterprise/cdi-api@1.2?type=jar"/>
+            <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"/>
+            <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar"/>
+            <dependency ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar"/>
+            <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/javax.enterprise/cdi-api@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar">
+        </dependency>
+    </dependencies>
+</bom>
