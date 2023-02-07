@@ -1,3 +1,18 @@
+# Finalised tools
+- https://github.com/jfrog/build-info-go
+- https://github.com/AppThreat/cdxgen
+- https://github.com/CycloneDX/cyclonedx-maven-plugin
+- https://github.com/Contrast-Security-OSS/jbom
+- https://github.com/openrewrite/rewrite
+- https://www.scanoss.co.uk/
+- https://github.com/spdx/spdx-maven-plugin
+- https://github.com/anchore/syft
+- https://github.com/microsoft/sbom-tool
+- https://github.com/oss-review-toolkit/ort
+- https://github.com/nexB/scancode-toolkit
+- https://github.com/opensbom-generator/spdx-sbom-generator
+- https://github.com/usnistgov/swid-tools
+
 # CycloneDX tools
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
 - https://github.com/openrewrite/rewrite
