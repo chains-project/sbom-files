@@ -1,17 +1,19 @@
 # Finalised tools
-- https://github.com/jfrog/build-info-go
-- https://github.com/AppThreat/cdxgen
-- https://github.com/CycloneDX/cyclonedx-maven-plugin
-- https://github.com/Contrast-Security-OSS/jbom
-- https://github.com/openrewrite/rewrite
-- https://www.scanoss.co.uk/
-- https://github.com/spdx/spdx-maven-plugin
-- https://github.com/anchore/syft
-- https://github.com/microsoft/sbom-tool
-- https://github.com/oss-review-toolkit/ort
-- https://github.com/nexB/scancode-toolkit
-- https://github.com/opensbom-generator/spdx-sbom-generator
-- https://github.com/usnistgov/swid-tools
+|Tool   |Output format                                      |
+|-------|---------------------------------------------------|
+|https://github.com/jfrog/build-info-go|CycloneDX                                          |
+|https://github.com/AppThreat/cdxgen|CycloneDX                                          |
+|https://github.com/CycloneDX/cyclonedx-maven-plugin|CycloneDX                                          |
+|https://github.com/Contrast-Security-OSS/jbom|CycloneDX                                          |
+|https://github.com/openrewrite/rewrite|CycloneDX                                          |
+|https://www.scanoss.co.uk/|Unique                                             |
+|https://github.com/spdx/spdx-maven-plugin|SPDX                                               |
+|https://github.com/anchore/syft|Unique                                             |
+|https://github.com/microsoft/sbom-tool|SPDX                                               |
+|https://github.com/oss-review-toolkit/ort https://github.com/nexB/scancode-toolkit|Unique                                             |
+|https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               |
+|https://github.com/usnistgov/swid-tools|SWID                                               |
+
 
 # CycloneDX tools
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
