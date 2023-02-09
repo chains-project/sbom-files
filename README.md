@@ -271,9 +271,3 @@ Link to tool: https://github.com/AppThreat/dep-scan
 5. `sbom.spdx.json` is the output we need.
 
 Link to tool: https://github.com/kubernetes-sigs/bom
-
-### Scribe
-
-Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
-
-Link to tool: https://scribesecurity.com/scribe-platform-lp/ 
