@@ -239,6 +239,21 @@ Link to tool: https://github.com/oss-review-toolkit/ort
 
 Link to tool: https://github.com/openrewrite/rewrite-maven-plugin
 
+### dep-scan
+
+1. Download tool.
+   ```sh
+   curl -LO https://github.com/AppThreat/depscan-bin/releases/download/v3.5.3/depscan-linux-amd64
+   chmod +x depscan-linux-amd64
+   ```
+2. Go to root of the project and run the executable.
+   ```sh
+   ./depscan-linux-amd64
+   ```
+3. The results are output to `<project-dir>/reports`. We only require `sbom-java.json` out of them.
+
+Link to tool: https://github.com/AppThreat/dep-scan
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
