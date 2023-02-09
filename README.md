@@ -254,6 +254,24 @@ Link to tool: https://github.com/openrewrite/rewrite-maven-plugin
 
 Link to tool: https://github.com/AppThreat/dep-scan
 
+### bom
+
+1. Download tool from [release page](https://github.com/kubernetes-sigs/bom/releases/tag/v0.4.1).
+   > `0.4.1`
+2. Run at root directory.
+   ```sh
+   $ bom generate -n http://example.com/ . -o sbom.spdx
+   ```
+   > Not sure what this `-n` is.
+3. The above commands output a text file so we convert it into JSON.
+4. We use this package - https://pypi.org/project/spdx-tools/.
+   ```sh
+   $ pyspdxtools_convertor -i sbom.spdx -o sbom.spdx.json -t json
+   ```
+5. `sbom.spdx.json` is the output we need.
+
+Link to tool: https://github.com/kubernetes-sigs/bom
+
 ### Scribe
 
 Might be possible to run according to the instructions [here](https://scribe-security.netlify.app/docs/ci-integrations/github).
