@@ -14,3 +14,8 @@ if opts.spec_type == SpecType.CYCLONEDX:
     from cyclonedx import CycloneDXTransformer
     transformer = CycloneDXTransformer(opts.input, opts.output)
     transformer.transform()
+
+elif opts.spec_type == SpecType.JBOM:
+    from jbom import JBOMTransformer
+    transformer = JBOMTransformer(opts.input, opts.output)
+    transformer.transform()

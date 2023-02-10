@@ -20,16 +20,16 @@ The CLI tools converts each SBOM format to an abstract JSON.
 1. Install the dependencies in the pip file.
 2. Run command as suggsted in help.
     ```sh
-    usage: main.py [-h] -s {cyclonedx,spdx} -i INPUT [-o OUTPUT]
+    usage: main.py [-h] -s {cyclonedx,spdx,jbom} -i INPUT [-o OUTPUT]
 
     options:
     -h, --help            show this help message and exit
-    -s {cyclonedx,spdx}, --spec-type {cyclonedx,spdx}
+    -s {cyclonedx,spdx,jbom}, --spec-type {cyclonedx,spdx,jbom}
                             choose from the specified set
     -i INPUT, --input INPUT
                             SBOM file to be converted
     -o OUTPUT, --output OUTPUT
-                            path to output file. defaults to stdout
+                            path to output file. defaults to stdout.
     ```
 
     Example run:
