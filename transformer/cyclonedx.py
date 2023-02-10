@@ -1,19 +1,20 @@
-import json
 from typing import Dict
 
 from packageurl import PackageURL
 
-class CycloneDXTransformer:
+from abstract_transformer import AbstractTransformer
+
+class CycloneDXTransformer(AbstractTransformer):
     def __init__(self, input_file, output_file=None):
         self.input_file = input_file
         self.output_file = output_file
     
 
     def transform(self):
-        json_dict_input = self.__get_json_as_dict(self.input_file)
+        json_dict_input = self.get_json_as_dict(self.input_file)
         flattened_dependencies = self.__flatten_dependencies(json_dict_input)
 
-        self.__write(flattened_dependencies, self.output_file)
+        self.write(flattened_dependencies, self.output_file)
     
 
     def __flatten_dependencies(self, json_dict) -> list:
@@ -54,16 +55,3 @@ class CycloneDXTransformer:
                 'artifactId': component_dict['name'],
                 'version': component_dict['version'],
             }
-
-
-    
-    def __get_json_as_dict(self, input_file) -> dict:
-        with open(input_file) as f:
-            return json.loads(f.read())
-    
-    def __write(self, json_dict, output_file) -> None:
-        if output_file is None:
-            print(json.dumps(json_dict, indent=2))
-        else:
-            with open(output_file, 'w') as f:
-                f.write(json.dumps(json_dict, indent=2))
