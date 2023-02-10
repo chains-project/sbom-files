@@ -19,3 +19,8 @@ elif opts.spec_type == SpecType.JBOM:
     from jbom import JBOMTransformer
     transformer = JBOMTransformer(opts.input, opts.output)
     transformer.transform()
+
+elif opts.spec_type == SpecType.SPDX:
+    from spdx import SPDXTranformer
+    transformer = SPDXTranformer(opts.input, opts.output)
+    transformer.transform()
