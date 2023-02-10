@@ -15,7 +15,7 @@
 |https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               | :x: can't convert text to JSON |
 |https://github.com/usnistgov/swid-tools|SWID                                               | |
 |https://github.com/AppThreat/dep-scan|CycloneDX| ✔️ |
-|https://github.com/kubernetes-sigs/bom|SPDX| |
+|https://github.com/kubernetes-sigs/bom|SPDX| :x: only a list of files |
 
 # CycloneDX tools
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
