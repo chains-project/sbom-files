@@ -1,6 +1,6 @@
 # Finalised tools
 |Tool   |Output format                                      | Done? |
-|-------|---------------------------------------------------|
+|-------|---------------------------------------------------|----|
 |https://github.com/jfrog/build-info-go|CycloneDX                                          | ✔️ |
 |https://github.com/AppThreat/cdxgen|CycloneDX                                          | ✔️ |
 |https://github.com/CycloneDX/cyclonedx-maven-plugin|CycloneDX                                          | ✔️ |
