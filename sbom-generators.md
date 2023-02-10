@@ -7,12 +7,12 @@
 |https://github.com/Contrast-Security-OSS/jbom|CycloneDX                                          | ✔️ |
 |https://github.com/openrewrite/rewrite|CycloneDX                                          | ✔️ |
 |https://www.scanoss.co.uk/|Unique                                             | |
-|https://github.com/spdx/spdx-maven-plugin|SPDX                                   |            |
+|https://github.com/spdx/spdx-maven-plugin|SPDX                                   | :x: can't convert XML to JSON           |
 |https://github.com/anchore/syft|Unique                                             | |
 |https://github.com/microsoft/sbom-tool|SPDX                                               | ✔️ |
 |https://github.com/oss-review-toolkit/ort|Unique                                             | |
 |https://github.com/nexB/scancode-toolkit|Unique|
-|https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               | |
+|https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               | :x: can't convert text to JSON |
 |https://github.com/usnistgov/swid-tools|SWID                                               | |
 |https://github.com/AppThreat/dep-scan|CycloneDX| ✔️ |
 |https://github.com/kubernetes-sigs/bom|SPDX| |
