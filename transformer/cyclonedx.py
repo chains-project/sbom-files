@@ -38,14 +38,24 @@ class CycloneDXTransformer:
         return depth                
 
     def __get_dependency_attribute(self, component_dict) -> Dict:
-        component_purl = PackageURL.from_string(component_dict['purl']).to_dict()
-        return {
-            'groupId': component_dict['group'],
-            'artifactId': component_dict['name'],
-            'classifier': component_purl['qualifiers']['type'],
-            'version': component_dict['version'],
-            'scope': component_dict['scope'] if 'scope' in component_dict else None,
-        }
+        if 'purl' in component_dict:
+            component_purl = PackageURL.from_string(component_dict['purl']).to_dict()
+            return {
+                'groupId': component_dict['group'],
+                'artifactId': component_dict['name'],
+                'classifier': component_purl['qualifiers']['type'],
+                'version': component_dict['version'],
+                'scope': component_dict['scope'] if 'scope' in component_dict else None,
+            }
+        else: # jFrog specific
+            # Also includes the project itself in components
+            return {
+                'groupId': component_dict['group'],
+                'artifactId': component_dict['name'],
+                'version': component_dict['version'],
+            }
+
+
     
     def __get_json_as_dict(self, input_file) -> dict:
         with open(input_file) as f:
