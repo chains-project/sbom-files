@@ -14,7 +14,8 @@
 |https://github.com/nexB/scancode-toolkit|Unique|
 |https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               |
 |https://github.com/usnistgov/swid-tools|SWID                                               |
-
+|https://github.com/AppThreat/dep-scan|CycloneDX|
+|https://github.com/kubernetes-sigs/bom|SPDX|
 
 # CycloneDX tools
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
