@@ -34,3 +34,8 @@ elif opts.spec_type == SpecType.SYFT:
     from syft import SyftTransformer
     transformer = SyftTransformer(opts.input, opts.output)
     transformer.transform()
+
+elif opts.spec_type == SpecType.SCANCODE:
+    from scancode import ScancodeTransformer
+    transformer = ScancodeTransformer(opts.input, opts.output)
+    transformer.transform()

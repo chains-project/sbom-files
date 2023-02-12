@@ -7,6 +7,7 @@ class SpecType(Enum):
     JBOM = 'jbom'
     SWID = 'swid'
     SYFT = 'syft'
+    SCANCODE = 'scancode'
 
     
     def __str__(self):
