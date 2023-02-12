@@ -31,6 +31,7 @@ class SWIDTransformer(AbstractTransformer):
         return {
             'artifactId': artifact_id,
             'version': version,
+            'groupId': None,
         }
 
 
