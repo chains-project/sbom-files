@@ -29,3 +29,8 @@ elif opts.spec_type == SpecType.SWID:
     from swid import SWIDTransformer
     transformer = SWIDTransformer(opts.input, opts.output)
     transformer.transform()
+
+elif opts.spec_type == SpecType.SYFT:
+    from syft import SyftTransformer
+    transformer = SyftTransformer(opts.input, opts.output)
+    transformer.transform()
