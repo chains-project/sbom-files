@@ -8,6 +8,7 @@ class SpecType(Enum):
     SWID = 'swid'
     SYFT = 'syft'
     SCANCODE = 'scancode'
+    ORT = 'ort'
 
     
     def __str__(self):

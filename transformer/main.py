@@ -39,3 +39,11 @@ elif opts.spec_type == SpecType.SCANCODE:
     from scancode import ScancodeTransformer
     transformer = ScancodeTransformer(opts.input, opts.output)
     transformer.transform()
+
+elif opts.spec_type == SpecType.ORT:
+    from ort import ORTTransformer
+    transformer = ORTTransformer(opts.input, opts.output)
+    transformer.transform()
+
+else:
+    raise ValueError('Invalid spec type')
