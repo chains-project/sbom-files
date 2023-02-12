@@ -9,6 +9,7 @@ class SpecType(Enum):
     SYFT = 'syft'
     SCANCODE = 'scancode'
     ORT = 'ort'
+    SPDX_RDF = 'spdx-rdf'
 
     
     def __str__(self):

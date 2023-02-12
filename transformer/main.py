@@ -45,5 +45,10 @@ elif opts.spec_type == SpecType.ORT:
     transformer = ORTTransformer(opts.input, opts.output)
     transformer.transform()
 
+elif opts.spec_type == SpecType.SPDX_RDF:
+    from spdx_rdf import SPDXRDFTransformer
+    transformer = SPDXRDFTransformer(opts.input, opts.output)
+    transformer.transform()
+
 else:
     raise ValueError('Invalid spec type')
