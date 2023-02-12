@@ -33,12 +33,15 @@ class SPDXTranformer(AbstractTransformer):
         return {
             "groupId": group_id,
             "artifactId": artifact_id,
-            "version": component_dict['versionInfo'],
+            "version": component_dict['versionInfo'] if 'versionInfo' in component_dict else None,
         }
     
 
     def __get_group_id_and_artifact_id(self, component_dict):
-        external_ref = component_dict['externalRefs'][0]
-        if external_ref['referenceType'] == 'purl':
-            purl = PackageURL.from_string(external_ref['referenceLocator']).to_dict()
-            return purl['namespace'], purl['name']
+        if 'externalRefs' in component_dict:
+            external_ref = component_dict['externalRefs'][0]
+            if external_ref['referenceType'] == 'purl':
+                purl = PackageURL.from_string(external_ref['referenceLocator']).to_dict()
+                return purl['namespace'], purl['name']
+        
+        return component_dict['originator'] if 'originator' in component_dict else None, component_dict['name']
