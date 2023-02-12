@@ -32,7 +32,7 @@ class CycloneDXTransformer(AbstractTransformer):
     
     def __compute_depth(self, dependency_relationships, component_purl, depth=0) -> int:
         for relationship in dependency_relationships:
-            dependents = relationship['dependsOn']
+            dependents = relationship.get('dependents', [])
             if component_purl in dependents:
                 return self.__compute_depth(dependency_relationships, relationship['ref'], depth + 1)
 
