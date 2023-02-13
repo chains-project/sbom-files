@@ -15,7 +15,7 @@ public class Helper {
 
   public static void main(String[] args) throws Exception {
     new Helper()
-        .calc(Path.of("C:/Users/Martin Wittlinger/OneDrive/programmieren/sbom-files/results"));
+        .calc(Path.of("/Users/martinwittlinger/Library/CloudStorage/OneDrive-Persönlich/programmieren/sbom-files/results"));
   }
 
   public void calc(Path resultFolder) throws IOException {
@@ -29,7 +29,7 @@ public class Helper {
             .get());
 
           Path file = Files.createTempFile("chains", ".json");
-          String command = "python ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
+          String command = "python3 ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
           String sbomType = fileNameToType(analyzerResult.getFileName().toString());
           if (sbomType.isEmpty()) {
             continue;
@@ -66,6 +66,7 @@ public class Helper {
           Files.createDirectories(output.toPath().getParent());
           mapper.writeValue(output, result);
         } catch (Exception e) {
+          e.printStackTrace();
         }
       }
     }
