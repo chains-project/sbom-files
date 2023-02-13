@@ -50,5 +50,10 @@ elif opts.spec_type == SpecType.SPDX_RDF:
     transformer = SPDXRDFTransformer(opts.input, opts.output)
     transformer.transform()
 
+elif opts.spec_type == SpecType.OPENREWRITE:
+    from openrewrite import OpenRewriteTransformer
+    transformer = OpenRewriteTransformer(opts.input, opts.output)
+    transformer.transform()
+
 else:
     raise ValueError('Invalid spec type')

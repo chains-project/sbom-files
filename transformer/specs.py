@@ -10,6 +10,7 @@ class SpecType(Enum):
     SCANCODE = 'scancode'
     ORT = 'ort'
     SPDX_RDF = 'spdx-rdf'
+    OPENREWRITE = 'openrewrite'
 
     
     def __str__(self):

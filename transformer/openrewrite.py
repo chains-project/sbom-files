@@ -4,7 +4,7 @@ from packageurl import PackageURL
 
 from abstract_transformer import AbstractTransformer
 
-class CycloneDXTransformer(AbstractTransformer):
+class OpenRewriteTransformer(AbstractTransformer):
     def __init__(self, input_file, output_file=None):
         self.input_file = input_file
         self.output_file = output_file
@@ -30,7 +30,7 @@ class CycloneDXTransformer(AbstractTransformer):
 
         return flattened_dependencies
     
-    def __compute_depth(self, dependency_relationships, component_purl, depth=0) -> int:
+    def __compute_depth(self, dependency_relationships, component_purl, depth=1) -> int:
         for relationship in dependency_relationships:
             dependents = relationship.get('dependsOn', [])
             if component_purl in dependents:
@@ -39,19 +39,11 @@ class CycloneDXTransformer(AbstractTransformer):
         return depth                
 
     def __get_dependency_attribute(self, component_dict) -> Dict:
-        if 'purl' in component_dict:
-            component_purl = PackageURL.from_string(component_dict['purl']).to_dict()
-            return {
-                'groupId': component_dict['group'],
-                'artifactId': component_dict['name'],
-                'classifier': component_purl['qualifiers']['type'],
-                'version': component_dict['version'],
-                'scope': component_dict['scope'] if 'scope' in component_dict else None,
-            }
-        else: # jFrog specific
-            # Also includes the project itself in components
-            return {
-                'groupId': component_dict['group'],
-                'artifactId': component_dict['name'],
-                'version': component_dict['version'],
-            }
+        component_purl = PackageURL.from_string(component_dict['purl']).to_dict()
+        return {
+            'groupId': component_dict['group'],
+            'artifactId': component_dict['name'],
+            'classifier': component_purl['qualifiers']['type'],
+            'version': component_dict['version'],
+            'scope': component_dict['scope'] if 'scope' in component_dict else None,
+        }
