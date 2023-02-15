@@ -4,8 +4,8 @@
 |https://github.com/jfrog/build-info-go|CycloneDX                                          | ✔️ |
 |https://github.com/AppThreat/cdxgen|CycloneDX                                          | ✔️ |
 |https://github.com/CycloneDX/cyclonedx-maven-plugin|CycloneDX                                          | ✔️ |
-|https://github.com/Contrast-Security-OSS/jbom|Unique                                          | ✔️ (CycloneDX with changes) |
-|https://github.com/openrewrite/rewrite|Unique                                          | ✔️ |
+|https://github.com/Contrast-Security-OSS/jbom|CycloneDX with changes                                         | ✔️  |
+|https://github.com/openrewrite/rewrite|CycloneDX with changes                                         | ✔️ |
 |https://www.scanoss.co.uk/|Unique                                             | :x: only a list of files |
 |https://github.com/spdx/spdx-maven-plugin|SPDX                                   | ✔️        |
 |https://github.com/anchore/syft|Unique                                             | ✔️ |
