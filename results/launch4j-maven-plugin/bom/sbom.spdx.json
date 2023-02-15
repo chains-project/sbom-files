@@ -1,0 +1,855 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://github.com/orphan-oss/launch4j-maven-plugin",
+    "creationInfo": {
+        "creators": [
+            "Organization: Kubernetes Release Engineering",
+            "Tool: sigs.k8s.io/bom/pkg/spdx"
+        ],
+        "created": "2023-02-10T14:28:04Z",
+        "licenseListVersion": "3.6"
+    },
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "SBOM-SPDX-c795589b-2d0d-4055-830d-860b455bc672",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-launch4j-maven-plugin",
+            "name": "launch4j-maven-plugin",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "7efbb18c519bf887a0bd418ec370d2f2f693bf34"
+            },
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "hasFiles": [
+                "SPDXRef-File-launch4j-maven-plugin-.github-dependabot.yml",
+                "SPDXRef-File-launch4j-maven-plugin-.gitignore",
+                "SPDXRef-File-launch4j-maven-plugin-.github-FUNDING.yaml",
+                "SPDXRef-File-launch4j-maven-plugin-.mvn-wrapper-MavenWrapperDownloader.java",
+                "SPDXRef-File-launch4j-maven-plugin-.github-workflows-maven.yml",
+                "SPDXRef-File-launch4j-maven-plugin-.mvn-wrapper-maven-wrapper.properties",
+                "SPDXRef-File-launch4j-maven-plugin-.travis.yml",
+                "SPDXRef-File-launch4j-maven-plugin-LICENSE",
+                "SPDXRef-File-launch4j-maven-plugin-README.md",
+                "SPDXRef-File-launch4j-maven-plugin-mvnw",
+                "SPDXRef-File-launch4j-maven-plugin-pom.xml",
+                "SPDXRef-File-launch4j-maven-plugin-mvnw.cmd",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-ClassPath.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Jre.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Messages.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-MavenLog.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Launch4jMojo.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-SingleInstance.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-VersionInfo.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Splash.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-legal-XStream.LICENSE.txt",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-legal-commons.LICENSE.txt",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-legal-foxtrot.LICENSE.txt",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-resources-MOJO.md",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-legal-LICENSE.txt",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-resources-TODO",
+                "SPDXRef-File-launch4j-maven-plugin-src-site-site.xml",
+                "SPDXRef-File-launch4j-maven-plugin-src-test-java-com-akathist-maven-plugins-launch4j-Launch4jMojoTest.java",
+                "SPDXRef-File-launch4j-maven-plugin-src-main-resources-README.adoc",
+                "SPDXRef-File-launch4j-maven-plugin-src-test-resources-unit-launch4j-default-launch4j-default-plugin-config.xml"
+            ]
+        }
+    ],
+    "files": [
+        {
+            "fileName": ".github/dependabot.yml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.github-dependabot.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "74266ec52cabb92efe6c1d4afd6cd37252f338c5"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9c471df9d77b11b116a79123c62454f4ba76dc848ed7af151fb1929e9425aef2"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "32cba92dc90ee197256c72617f6177ea7eb203bb777ee9d3addac0989585232120dac314644eb29cbe343cdd4d846c7607d3432c9b9022c5764cdc36a6a0cc49"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": ".gitignore",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.gitignore",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cc1b5cf630a9a36832ce310c70b8b3b4f19e7295"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "10a81ade724003f0aeff16ac37cbeb889962e4ac7617875913ece6f83e3fa962"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "5df1ef3d537af2aad5b186fa4b21051e88bcf06eed39fcf08f86ed2065fc49324cdbd78ed61dd9f00df2ca0ab7172e6a086b4dd170a6ca5550b39999e745aeba"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": ".github/FUNDING.yaml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.github-FUNDING.yaml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "42999cc622179c4f25292505cc098d78ae538af2"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "639cf34e500c925dd67940c03ea5dd73c4821f9c930abf355cc888baa26d658a"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "8bc7eae28d5922c84380a0cff3478df653e603fe97b83ac18b174c3e3e8150a6c1765a6031e5a133cabbe3423537bef913370cb9937d3a4e2a9dc6230dab08bf"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": ".mvn/wrapper/MavenWrapperDownloader.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.mvn-wrapper-MavenWrapperDownloader.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "646fbd281e76210a4064c3b9137bf46690ce19cd"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6a780367972104169c14ba8e993ddcc2fab4d4fa2b74d4f5db8afdbbf14b6949"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "0fef5c6129a7b72066b4b91e2208aebde2a6f51a7f7d5b174aeb3969bf0b27f27442dd74d1aec05d8e1d082d3d9a8f67e03cd2b2b8bb19af7ba3d645467605e0"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": ".github/workflows/maven.yml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.github-workflows-maven.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8a3010facc9e86e107c6c23335c833c4f7af4380"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "14290814c377da9c9e45559eeccc9d7cbe40262dee14298ffd10f3d1ff17f627"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "e1620144f880c6d71b20af49ef7190b71e76e71ee6a9751b22dde93c468a35e26c30cc348d6e8ccd053a5806067a1c97b1f46e3d52a68a2435a1c9c4c8e1f803"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": ".mvn/wrapper/maven-wrapper.properties",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.mvn-wrapper-maven-wrapper.properties",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "38f74b4eeb1e98358ea02312874efa835fcc6065"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "17212155ffb218cc21cc91fdf298d85a4a2628af308b155d89cd56d5ce973a44"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "ceb89bc2f28a44eeac96439a807bca4f202a6d4524d3176644cd68d659e94db9ae346ee5d306fc05b7671156d720f2de5e9a75af48ee3d5d1b3a486d660e1e0b"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": ".travis.yml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-.travis.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dd7a0864676ae6cd189d270399df61ebf6f4c01e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d075b29a4d5f972c8ef7144949014d9c4efcc299b4db21dce0990924a31640fe"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "331fd8d28c98713fb08312a54ffbefa12c7b853db4e1a6d2fb6bef692924225eae545674ee90f973ae5ee873ed72e297493f355236992ec6debd43b57f03d3ab"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": "LICENSE",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-LICENSE",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d492f4aeda48dbec9478c482922f6b67c37a7b51"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ad0fc8bcb000285f8f1bd525894eae217106224b23c012b4c79f7f1455c958d0"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "af052dfc156f99d4cc709c15735c0c883cd0970b7e531b9a4cfb5d39631ac3327679e39b4819659bde69829a94559c17e6903e7591fc632e7461c7c94339c9a9"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "README.md",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7cb984836b8de46d6d33df700747555fed42d7c1"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a87a64feae1c276376ff985d809b78e6bb90c7bcc4378770a94e95e5442b9479"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "149959294885158ceff82141315c0df5bd2c170064b61d2720fe966191bc9bfedf97ccc54f762db459e731ad941c11346732c709c51ce2e42b3c2dac0ca2e7b6"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "mvnw",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-mvnw",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "805a96591afce66a1a85ca5f85a76ae8e41af3db"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "37245e3c3d78ea57226e20c7d36278e60cef73575a96bff21fcab5cfe6309be8"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "b06e5f102dadd95fd677219bc44f98c1e6a68b6463674b288c8824b04100f7ad97eed953623ccca7818b0c3d48aa6a6f6124a7a80d0afc9ea3043b89fb9b4bdb"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "pom.xml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-pom.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9328959bfb24e71638327cb9ca0a50bacbbaf83c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9f11be965076c4bb29e13254e82ab223e176cec8f8184862702d33e238facc3a"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4814bd7059b83f48907ea2170c50efe13ad0730218ec02b28c273daecfb9befa08827c6cc9ae1be17739277d8e16783c1e2ca3ed8fc8112f354f88963f0982d9"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "mvnw.cmd",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-mvnw.cmd",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5c0179c13e2a55441d11b91438f4219a6c741db9"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9fa7bdc15ac293283221756b6df011dea04f8572ab3523351e09e1bbcf628810"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "bc365fc69b1127abf0315625e0a0ba07b7b57d3b6dbbbde865c972091bee2a27d41f107371dd971f7c64fd1d00f7fc2bd606864f6045718dc1aee65bd5c0e4f8"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/ClassPath.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-ClassPath.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "366e931f0788738ca66b4e003a620a8cb0f88396"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9456b1a8860437cd88a76ed07886fadc93f9df495eaf5c7b30c16734508774b6"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "026653fcc5d2b777275a3aace8e9782b1c1d7a4ea409fad15a9eadfd65968861ccd3fd7e7be0ca752dadfa7a2eaf772045506b0b6ad5394cb8aa606d62d08c12"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/Jre.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Jre.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ec43ba01479824ff8a88077e13893d14a917c81c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c372eb75de64ae9ab3094064352814f174f52d3e24fc130460a11bb7fe391696"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "d2b50ef57e9514bfd9691cd34a98d1bdf717a9d9beed537b02d109fa8c465e8b10fbd2e3ee4c5a2d04addb8306de085ee303ced7220e30f6232200fdc7549730"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/Messages.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Messages.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "10842c6d4f4984443d0ccb16e19757f1de76035f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "95538f2a3ee33fd9c1ca890266903d46660bbce80274ea02fe9ba70227632c90"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "d3777d6f41c4d212d48883d7d211a6944ff9bb370e2232cae6b51452464d13b43d51d88559a99777fc30c742b553d1d489c770ab62eb20ef9ea7a8de434dac64"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/MavenLog.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-MavenLog.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b0953ff673c950b999766b89d291a5d5da82faf5"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "102b8e345b656a2d3da499779357d9df07d91ce31fda3e4a526b47e4cf04e866"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4b64d088f2a38b2826baf565705e4cf45bd5e0df405ad3ef9d8034485bfdbf53a82e7b41e4378b588b2c3960031fce192bf409982eaa9eb5ab16dc02389a9d84"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/Launch4jMojo.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Launch4jMojo.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dde23af11278c77ce928531f8418d11ba1d1030b"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "28fad7054516766e96f1e6def296b7e94c056ebe2b2cf219c5055f8cab16f431"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "42df91eb3e30465d89e0f4ced984672878473bce579aeb9174e4f6bda42f0479ce04b14561d0f00eb8ff490608f3fe4e448e8f7840258367abf01484f91934e5"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/SingleInstance.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-SingleInstance.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f054e62a8bd5ce63ec4ee839deb52410b1d36689"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1594a7b0d5edf7c581869ee1eae3e884df274313953d9436e7546044cfd083cf"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "964b2b8b3b904f78c03859aa4ab202acb25d3687234e623aa84e58f2573b69aa8b889371d325029c7586fcc036221327f5b756cf39f2a762960d806dae32e9d1"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/VersionInfo.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-VersionInfo.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "349216e0827d7e00a93298ce7cf0a6228cc8cd0c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "eecd603a71d9aaec2a6dd32c08c8a543866a7d32d4699a5082371b703471770f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "0e25268a131499501629284f560261d25de06967a828cfb55935ffca0437e1a401c236bd86c4352887ad0303683d3143dea89b10806e7f6a479fd6841672cc49"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/akathist/maven/plugins/launch4j/Splash.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-java-com-akathist-maven-plugins-launch4j-Splash.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ca1535e81e73665c20183c947cafd839f23d3e3c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c566452aee8abc89be0f1c71ff196749fa3506bef4c162b1f7f5c53dce00621a"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "c4ae97db114b4e295270519af8ba8a5a190fb1dc9f9db7c0e70b0f1dbbc8be45b18dcbaa0755fa8dacb31e270eb9da0073563cc892c95da666d2c63541c72b18"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/legal/XStream.LICENSE.txt",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-legal-XStream.LICENSE.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a8ec0ddf233c570b1b6f0de65625c9cc27457fc2"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "98c2005b29951358fdc769491887b8bc74c1ed5a2b8abdb7d7b7ed90cc8e6722"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "7a7f58eaccae32587158a9d979bc7dc2cce8675864535c6c3f1d3ee01463fad1ea3ecf58f06f987f891400c33b427dbf56de6ca43b714ed8ea70bfa9bd6c3c54"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "BSD-3-Clause"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/legal/commons.LICENSE.txt",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-legal-commons.LICENSE.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "15b0ec5e7f6eaa21ed390bafb07bd51575b57a5a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "72ecda2541eb3f365622fbcefa3afba01c466a9f029069f79651a41970c0406f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "8adff379551c89830bb799ddd553da4b7a305d72b1c9b093bf804c24a0c0ff8049cd1eff9ed408640f61045551a59ae42730a22d6dab1349e60c3e57f646dc03"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/legal/foxtrot.LICENSE.txt",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-legal-foxtrot.LICENSE.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8718dbd07ee3b81fe02a172e491edf19a778a22a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "08ef90d882e609f5e76d808645778b4edee2b0a1e51d61ab32e0cbf00ded4b42"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "12f8e1eb7258b47dc021993c889e6cb99d061ca080fcee30cf724a7ccfd6e8ed5e12e340c75da0514d872811523ca62fdd9d64074ea808c6c1a93c2ed36cf1d7"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "BSD-3-Clause"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/resources/MOJO.md",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-resources-MOJO.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6a95ce0b063d263b0abd19a0ce7782e923999b8f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "002ebe6664c3e48204ea993dbca5c436ced928b64ae60922694b03378de0c7e4"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "6df4e9e3d733aa873efcbc1a77b58c4d9ce9e758a2a24a9f69923dde620088cc8a664e4466f5469abcba68e9cd975f8f7b8f84486d5497f1b5a4ccc4f57d3a01"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/legal/LICENSE.txt",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-legal-LICENSE.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b47456e2c1f38c40346ff00db976a2badf36b5e3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "b94f571dda83fb3adee5789b8ae838fc458af73724e379bd67283aa7e687b5ab49d147fa4f0199492a0d377c6afd724293838c67c7c1a120b759250a74f70a78"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "GPL-2.0-or-later"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/resources/TODO",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-resources-TODO",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ef863a02c1f0718e7004d8b99ae6fcb08d40fe43"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b27afe78c21660fcde0b2c73f7f147c36085b19ba33a677f7bc1835bb9c140a3"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "463ee2cbef0795ed9f91596b265932e40357fa1db7e3f3d81450d3879be23be1e062ed8ca28e7b612a517b20cd17723ad477d464e1f6d9d67be34b232ffb0065"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/site/site.xml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-site-site.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7756bf45068d9caf991684b0a5db7e878c7f5392"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1c46fc27c0007268fb2bd23071bf6a578515d50e54026f4fef32e8c0c98ba6b6"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "0367831a347894617c5f474ff4f0042ced186af2b378633940b93f854748bbaeb88d8ff41bed4ef77fe454eb18445fe5fd0e40abec4e54309f3c42c0a998601e"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/akathist/maven/plugins/launch4j/Launch4jMojoTest.java",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-test-java-com-akathist-maven-plugins-launch4j-Launch4jMojoTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fe0f5a1d8e3664572365a91fee7582e1d7d98752"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "22c17f8da413b552684825be1572b65c9cb1b4571bf1a9cac6886e5cfb6a987f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "5f3656b174b08732accba024c5bdb227f0883729d5c02ca533910e34b8e09502a6d170ac3ec6dcb1381404cd2fb2d02ae2304590203d808923ba7916b6843556"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/resources/README.adoc",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-main-resources-README.adoc",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6fef3ed3f214b6b8c5e7a018cc43a6d1aa694d53"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e7c2f0628000f9656344e4f78ebb7dae78fd0d7c364feaee383cb8f25a15458f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4caf449abf3b082a47e9909ad65f737d244eaa95bdb740ed2d056d3341c27ce4df3328c527377808e5c585a5c8f0a9be0436499f01155928aaa0d3b3bd338743"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/unit/launch4j-default/launch4j-default-plugin-config.xml",
+            "SPDXID": "SPDXRef-File-launch4j-maven-plugin-src-test-resources-unit-launch4j-default-launch4j-default-plugin-config.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bb326d18afb10ed9c06482eab99f2c6f4417bfa8"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "69d9b348289c9a81521fd66a1864b05bd6b8007f0b9937d62bed4cdb3eb8ba48"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a429aff1f6d4ad7179f8c8bd7c7bdc8a2deda2abcb7ee75089c580b7281209fc16788aacba8cda8fb1efc0fc95f7ae8383baaa934a5bb439ca146f941b549ad6"
+                }
+            ],
+            "licenseConcluded": "GPL-2.0-only",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        }
+    ],
+    "documentDescribes": [
+        "SPDXRef-Package-launch4j-maven-plugin"
+    ]
+}

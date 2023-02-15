@@ -8,41 +8,38 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.chains_project.data.Dependency;
 
 public class Helper {
 
   public static void main(String[] args) throws Exception {
-    new Helper()
-        .calc(Path.of("/Users/martinwittlinger/Library/CloudStorage/OneDrive-Persönlich/programmieren/sbom-files/results"));
+    new Helper().createData(Path.of("./results"));
   }
 
-  public void calc(Path resultFolder) throws IOException {
-
+  public void createData(Path resultFolder) throws IOException {
+    StringBuilder sb = new StringBuilder();
+    sb.append("project,analyzer,TP,FP,FN,P,R,F1,SIZE,TP,FP,FN,P,R,F1,SIZE").append(System.lineSeparator());
     for (Path project : Files.list(resultFolder).toArray(Path[]::new)) {
       for (Path analyzerResult : Files.list(project).toArray(Path[]::new)) {
         try {
-        Path inputFile = findJsonFile(analyzerResult);
-        Path truthJson = findJsonFile(Files.walk(project)
-            .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
-            .get());
-
+          Path inputFile = findJsonFile(analyzerResult);
+          Path truthJson = findJsonFile(Files.walk(project)
+              .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
+              .get());
           Path file = Files.createTempFile("chains", ".json");
           String command = "python3 ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
           String sbomType = fileNameToType(analyzerResult.getFileName().toString());
           if (sbomType.isEmpty()) {
             continue;
           }
-          if (sbomType.equals("build-info-go")) {
-            // does not work
-            continue;
-          }
           if (sbomType.equals("truth")) {
             continue;
           }
+          sb.append(project.getFileName()).append(",");
+          sb.append(analyzerResult.getFileName()).append(",");
           command = command.formatted(sbomType, inputFile.toAbsolutePath(), file);
-          System.out.println(command);
           ProcessBuilder builder = new ProcessBuilder();
           builder.redirectErrorStream(true);
           builder.inheritIO();
@@ -56,24 +53,64 @@ public class Helper {
           FileReader jsonReader = new JsonReader();
           List<Dependency> input = jsonReader.readFile(file);
           List<Dependency> truth = jsonReader.readFile(truthJson);
-          List<Dependency> truePositive = truePositives(input, truth);
-          List<Dependency> falsePositive = falsePositives(input, truth);
-          List<Dependency> falseNegative = falseNegatives(input, truth);
-          Result result = new Result(truePositive, falsePositive, falseNegative);
+          var directDependencyResult =
+              calculateResult(input.stream().filter(this::isDirectDependency).toList(),
+                  truth.stream().filter(v -> v.getDepth() == 1).toList());
+          var transitiveDeps =
+              calculateResult(input.stream().filter(v -> v.getDepth() > 1).toList(),
+                  truth.stream().filter(v -> v.getDepth() > 1).toList());
           ObjectMapper mapper = new ObjectMapper();
           File output = new File("./resultCalc/" + project.getFileName() + "_"
               + analyzerResult.getFileName() + ".json");
           Files.createDirectories(output.toPath().getParent());
-          mapper.writeValue(output, result);
+          PrintOut value = new PrintOut(directDependencyResult, transitiveDeps);
+          appendDirectDeps(sb, truth, value);
+          appendTransitiveDeps(sb, truth, value);
+          sb.append(System.lineSeparator());
+          mapper.writeValue(output, value);
         } catch (Exception e) {
+          sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
           e.printStackTrace();
         }
       }
     }
+    Files.writeString(Path.of("./Results.csv"), sb.toString().lines().filter(v -> !v.equals("0,0,0,0,0,0,0,0,0,0,0,0,0,0")).collect(Collectors.joining(System.lineSeparator()))
+    );
+  }
+
+  private void appendTransitiveDeps(StringBuilder sb, List<Dependency> truth, PrintOut value) {
+    var metrics = calculateMetrics(value.transitiveDeps());
+    sb.append(value.transitiveDeps().truePositive().size()).append(",");
+    sb.append(value.transitiveDeps().falsePositive().size()).append(",");
+    sb.append(value.transitiveDeps().falseNegative().size()).append(",");
+    sb.append(metrics.precision()).append(",");
+    sb.append(metrics.recall()).append(",");
+    sb.append(metrics.f1()).append(",");
+    sb.append(truth.stream().filter(v -> v.getDepth() > 1).distinct().toList().size()).append(",");
+  }
+
+  private void appendDirectDeps(StringBuilder sb, List<Dependency> truth, PrintOut value) {
+    var metrics = calculateMetrics(value.directDeps());
+    sb.append(value.directDeps().truePositive().size()).append(",");
+    sb.append(value.directDeps().falsePositive().size()).append(",");
+    sb.append(value.directDeps().falseNegative().size()).append(",");
+    sb.append(metrics.precision()).append(",");
+    sb.append(metrics.recall()).append(",");
+    sb.append(metrics.f1()).append(",");
+    sb.append(truth.stream().filter(v -> v.getDepth() == 1).distinct().toList().size()).append(",");
+  }
+
+  private boolean isDirectDependency(Dependency v) {
+    return v.getDepth() == 1;
   }
 
   public record Result(List<Dependency> truePositive, List<Dependency> falsePositive,
       List<Dependency> falseNegative) {
+  }
+  record PrintOut(Result directDeps, Result transitiveDeps) {
+  };
+
+  record Metrics(int precision, int recall, int f1) {
   }
 
   /**
@@ -100,24 +137,23 @@ public class Helper {
 
   // All that are in the truth but not in the input.
   private List<Dependency> falseNegatives(List<Dependency> input, List<Dependency> truth) {
-    Set<Dependency> firstSet = new HashSet<>(input);
-    Set<Dependency> secondSet = new HashSet<>(truth);
-    var diffFirst = new HashSet<>(secondSet);
-    diffFirst.removeAll(firstSet);
+    var diffFirst = new HashSet<>(truth);
+    diffFirst.removeAll(new HashSet<>(input));
     return new ArrayList<>(diffFirst);
   }
 
   private String fileNameToType(String fileName) {
     return switch (fileName) {
 
-      case "bom" -> ""; //"spdx";
-      case "build-info-go" -> "build-info-go";
+      case "build-info-go" -> "cyclonedx";
       case "cdxgen" -> "cyclonedx";
       case "cyclonedx-maven-plugin" -> "cyclonedx";
       case "depscan" -> "cyclonedx";
-      case "jbom" -> "";//"cyclonedx";
+      case "jbom" -> "jbom"; // it is almost cyclonedx but not quite
       case "maven-dependency-tree" -> "truth";
-      case "openrewrite" -> "cyclonedx";
+      case "openrewrite" -> "openrewrite";
+      // case "bom" -> "spdx";
+      /* 
       case "ort" -> "ort";
       case "sbom-tool" -> "spdx";
       case "scancode" -> "scancode";
@@ -125,13 +161,43 @@ public class Helper {
       case "spdx-maven-plugin" -> "spdx";
       case "spdx-sbom-generator" -> "spdx";
       case "syft" -> "syft";
-
-      default -> throw new IllegalArgumentException("Unexpected value: " + fileName);
+      */
+      default -> "";
     };
   }
 
   private Path findJsonFile(Path folder) throws IOException {
     return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
         .get();
+  }
+
+  private Result calculateResult(List<Dependency> input, List<Dependency> truth) {
+    List<Dependency> truePositive = truePositives(input, truth);
+    List<Dependency> falsePositive = falsePositives(input, truth);
+    List<Dependency> falseNegative = falseNegatives(input, truth);
+    return new Result(truePositive, falsePositive, falseNegative);
+  }
+
+  private Metrics calculateMetrics(Result result) {
+    int precision = 0;
+    int recall = 0;
+    int f1 = 0;
+    List<Dependency> truePositive = result.truePositive().stream().distinct().toList();
+
+    List<Dependency> falsePositive = result.falsePositive().stream().distinct().toList();
+    List<Dependency> falseNegative = result.falseNegative().stream().distinct().toList();
+
+    if (truePositive.size() + falsePositive.size() > 0) {
+      precision = (int) (truePositive.size() * 100.0
+          / (truePositive.size() + result.falsePositive().size()));
+    }
+    if (truePositive.size() + result.falseNegative().size() > 0) {
+      recall = (int) (truePositive.size() * 100.0
+          / (truePositive.size() + falseNegative.size()));
+    }
+    if (precision + recall > 0) {
+      f1 = (int) (2 * precision * recall / (precision + recall));
+    }
+    return new Metrics(precision, recall, f1);
   }
 }

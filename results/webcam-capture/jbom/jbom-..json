@@ -1,0 +1,462 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "604c23f9-ef4e-47a6-b5d1-05729783ff3c",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:26:44Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (9ebb1b0d58a5)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "webcam-capture-driver-v4l4j",
+      "version" : "v4l4j/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a55dd498ac1a244c9eaf2d6000d351e646ab1814"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "384a95d99682d7fa2e675ed4a4669019"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-v4l4j"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-v4l4j/target/webcam-capture-driver-v4l4j-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-v4l4j/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-v4l4j:v4l4j/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-opencv",
+      "version" : "opencv/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9f2928386e2382c6e0615d33b11b8902dfdafe3e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "b50bc14dcc1321e68a9ae2f47ae82afe"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-opencv"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-opencv/target/webcam-capture-driver-opencv-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-opencv/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-opencv:opencv/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-gstreamer",
+      "version" : "gstreamer/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "edc965dfa28f887897687cfa0988056fedb40daf"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e35e542d41e638f91718acecf449bec8"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-gstreamer"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-gstreamer/target/webcam-capture-driver-gstreamer-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-gstreamer/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-gstreamer:gstreamer/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-lti-civil",
+      "version" : "civil/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d749d59e10b735b71e6da5d149de1fa595461997"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "31a59e8ddc1c960e7e021b42e952a338"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-lti-civil"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-lti-civil/target/webcam-capture-driver-lti-civil-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-lti-civil/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-lti-civil:civil/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-fswebcam",
+      "version" : "fswebcam/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b470e0f532a31902e4a432f3368ea4a70e847b92"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f74d8d16d4c2f9089b6e5d0cade6b294"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-fswebcam"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-fswebcam/target/webcam-capture-driver-fswebcam-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-fswebcam/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-fswebcam:fswebcam/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-gst1",
+      "version" : "gst1/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5ddaa16f570a9d2a26738df2f60baba9e9f3d096"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "be99b851e08b19f4445583582d6df9a9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-gst1/target/webcam-capture-driver-gst1-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-gst1/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-gst1:gst1/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-vlcj",
+      "version" : "vlcj/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b48303b1fdf7cd560a3921e4a53b62303f500073"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9f311c24635228f58aaf44b674e4c11d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-vlcj"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-vlcj/target/webcam-capture-driver-vlcj-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-vlcj/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-vlcj:vlcj/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-screencapture",
+      "version" : "screencapture/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "01e8872058d771c9b491380272ea4c1688e86f31"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "27d5619eb411b8d59bb7f1f930827b10"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-screencapture"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-screencapture/target/webcam-capture-driver-screencapture-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-screencapture/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-screencapture:screencapture/pom"
+    },
+    {
+      "name" : "webcam-capture",
+      "version" : "capture/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "8250c919a60100dbe2beb9614303f5c958fe99e4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9e9fcb66b4fb84408b0211d691ae7d03"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture/target/webcam-capture-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture:capture/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-ffmpeg-cli",
+      "version" : "cli/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9ab0c5265f622be7d38c68b5b6f2acba430093c9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "19705e17dd6870f06a7666fd32018c68"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-ffmpeg-cli"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-ffmpeg-cli/target/webcam-capture-driver-ffmpeg-cli-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-ffmpeg-cli/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-ffmpeg-cli:cli/pom"
+    },
+    {
+      "name" : "webcam-capture-driver-jmf",
+      "version" : "jmf/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "635e32eb3e1eb3000eb388900348e5b723eb4868"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6e8d8c259c1d2a05e87828406209c3e0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.sarxos/webcam-capture-driver-jmf"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/webcam-capture/./webcam-capture-drivers/driver-jmf/target/webcam-capture-driver-jmf-0.3.12.jar!/META-INF/maven/com.github.sarxos/webcam-capture-driver-jmf/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:webcam-capture-driver-jmf:jmf/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:webcam-capture:capture/pom",
+      "dependsOn" : [
+        "com.nativelibs4java:bridj:0.7.0",
+        "org.slf4j:slf4j-api:null",
+        "ch.qos.logback:logback-classic:null",
+        "com.jayway.awaitility:awaitility:null",
+        "junit:junit:null",
+        "org.assertj:assertj-core:null",
+        "org.easymock:easymock:null"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-ffmpeg-cli:cli/pom",
+      "dependsOn" : [
+        "ch.qos.logback:logback-classic:1.0.9",
+        "com.github.sarxos:webcam-capture:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-jmf:jmf/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "javax.media:jmf:2.1.1e"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-gst1:gst1/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "net.java.dev.jna:jna:4.2.2",
+        "org.freedesktop.gstreamer:gst1-java-core:0.9.0",
+        "ch.qos.logback:logback-classic:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-vlcj:vlcj/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "uk.co.caprica:vlcj:2.4.1",
+        "ch.qos.logback:logback-classic:null",
+        "junit:junit:null",
+        "org.easymock:easymock:null",
+        "org.powermock:powermock-api-easymock:null",
+        "org.powermock:powermock-module-junit4:null"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-fswebcam:fswebcam/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-screencapture:screencapture/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "ch.qos.logback:logback-classic:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-opencv:opencv/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "org.bytedeco:javacv-platform:1.3.3"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-v4l4j:v4l4j/pom",
+      "dependsOn" : [
+        "com.github.sarxos:v4l4j:0.9.1-r507",
+        "com.github.sarxos:webcam-capture:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-gstreamer:gstreamer/pom",
+      "dependsOn" : [
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "com.googlecode.gstreamer-java:gstreamer-java:1.5",
+        "ch.qos.logback:logback-classic:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:webcam-capture-driver-lti-civil:civil/pom",
+      "dependsOn" : [
+        "com.github.sarxos:lti-civil-no-swt:20070920-1721",
+        "com.github.sarxos:webcam-capture:${project.version}",
+        "ch.qos.logback:logback-classic:null"
+      ]
+    }
+  ]
+}

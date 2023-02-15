@@ -1,0 +1,154 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "eefc922e-7c55-4e47-bacd-a0f66e45a466",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-06T15:34:28Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (0b315393a36d)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "group" : "com.puppycrawl.tools",
+      "name" : "checkstyle",
+      "version" : "10.6.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0c080091708f2de6a346cd53f590c0aa1f558e53"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "94a593cf94b58b39339de013b43e5ce4"
+        }
+      ],
+      "purl" : "pkg:maven/com.puppycrawl.tools/checkstyle@10.6.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.puppycrawl.tools/checkstyle"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/checkstyle/./target/checkstyle-10.6.0.jar!/META-INF/maven/com.puppycrawl.tools/checkstyle/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.puppycrawl.tools:checkstyle:10.6.0"
+    },
+    {
+      "group" : "com.puppycrawl.tools",
+      "name" : "checkstyle",
+      "version" : "10.6.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b3a61179ef68cad5215f15a362a9e899216fd272"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "763988587329c6a6909638647ed89ab1"
+        }
+      ],
+      "purl" : "pkg:maven/com.puppycrawl.tools/checkstyle@10.6.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.puppycrawl.tools/checkstyle"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/checkstyle/./target/checkstyle-10.6.0-sources.jar!/META-INF/maven/com.puppycrawl.tools/checkstyle/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.puppycrawl.tools:checkstyle:10.6.0"
+    },
+    {
+      "group" : "com.puppycrawl.tools",
+      "name" : "checkstyle",
+      "version" : "10.6.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "6600565b9143227de57d0fce1bff6ba568a4db49"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "a02ac7e6aff8b13a1adcbf738c463b11"
+        }
+      ],
+      "purl" : "pkg:maven/com.puppycrawl.tools/checkstyle@10.6.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.puppycrawl.tools/checkstyle"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/checkstyle/./target/checkstyle-10.6.0-test-sources.jar!/META-INF/maven/com.puppycrawl.tools/checkstyle/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.puppycrawl.tools:checkstyle:10.6.0"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "com.puppycrawl.tools:checkstyle:10.6.0",
+      "dependsOn" : [
+        "info.picocli:picocli:4.7.0",
+        "org.antlr:antlr4-runtime:${antlr4.version}",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "com.google.guava:guava:31.1-jre",
+        "org.apache.ant:ant:1.10.12",
+        "org.reflections:reflections:0.10.2",
+        "org.junit.jupiter:junit-jupiter-api:${junit.version}",
+        "org.junit.jupiter:junit-jupiter-engine:${junit.version}",
+        "org.itsallcode:junit5-system-extensions:1.2.0",
+        "org.junit-pioneer:junit-pioneer:1.7.1",
+        "com.tngtech.archunit:archunit-junit5:1.0.0",
+        "com.github.caciocavallosilano:cacio-tta:1.11",
+        "com.google.truth:truth:1.1.3",
+        "nl.jqno.equalsverifier:equalsverifier:3.12.3",
+        "org.mockito:mockito-inline:${mockito.version}",
+        "commons-io:commons-io:2.11.0",
+        "org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r",
+        "org.slf4j:slf4j-simple:2.0.6",
+        "org.jacoco:org.jacoco.agent:${maven.jacoco.plugin.version}",
+        "de.thetaphi:forbiddenapis:${forbiddenapis.version}",
+        "net.sf.saxon:Saxon-HE:${saxon.version}",
+        "org.checkerframework:checker-qual:${checkerframework.version}"
+      ]
+    }
+  ]
+}

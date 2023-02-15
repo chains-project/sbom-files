@@ -1,0 +1,628 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "a008c589-d212-4a6f-9e62-63d87487443a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:19:09Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (92d0ad75497c)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "orika-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f9825ac9a12af919e5def80f522d22cb5fe07b67"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5b9d8da230f3642ebe74fea4222d7067"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4.jar!/META-INF/maven/ma.glasnost.orika/orika-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-core:core/pom"
+    },
+    {
+      "name" : "orika-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/ma.glasnost.orika/orika-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-core:core/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "sizeof/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.carrotsearch/java-sizeof"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/com.carrotsearch/java-sizeof/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
+      "name" : "orika-eclipse-tools",
+      "version" : "tools/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d1245bfe096de451fe1964bad53d8e939a75b478"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9efd989b6e4a2555b815cfc1ac019a42"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-eclipse-tools"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./eclipse-tools/target/orika-eclipse-tools-1.5.4.jar!/META-INF/maven/ma.glasnost.orika/orika-eclipse-tools/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-eclipse-tools:tools/pom"
+    },
+    {
+      "name" : "orika-eclipse-tools",
+      "version" : "tools/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "55c5318ed480a757b1f868a742f1204c0b5f351f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "29d56e6a35609020b00951f32a67cb07"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-eclipse-tools"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./eclipse-tools/target/orika-eclipse-tools-1.5.4-deps-included.jar!/META-INF/maven/ma.glasnost.orika/orika-eclipse-tools/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-eclipse-tools:tools/pom"
+    },
+    {
+      "name" : "error_prone_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom"
+    },
+    {
+      "name" : "orika-tests-jdk8",
+      "version" : "jdk8/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "cdf0d51e9cebdee6c8882a5dd15b7a87d0cd38eb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "76189677105916fdc3727e7c27e55e28"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-tests-jdk8"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./tests-jdk8/target/orika-tests-jdk8-1.5.4.jar!/META-INF/maven/ma.glasnost.orika/orika-tests-jdk8/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-tests-jdk8:jdk8/pom"
+    },
+    {
+      "name" : "orika-tests",
+      "version" : "tests/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "39a469b36ae2984f45a41abacd7d2d5c46689548"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "1a85ac9afa43270a4da63e9e3b4ec205"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ma.glasnost.orika/orika-tests"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./tests/target/orika-tests-1.5.4.jar!/META-INF/maven/ma.glasnost.orika/orika-tests/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:orika-tests:tests/pom"
+    },
+    {
+      "name" : "janino",
+      "version" : "INF/maven/org.codehaus.janino/janino/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.janino/janino"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/org.codehaus.janino/janino/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:janino:INF/maven/org.codehaus.janino/janino/pom"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "55c5318ed480a757b1f868a742f1204c0b5f351f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "29d56e6a35609020b00951f32a67cb07"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./eclipse-tools/target/orika-eclipse-tools-1.5.4-deps-included.jar!/META-INF/maven/org.slf4j/slf4j-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-api:api/pom"
+    },
+    {
+      "name" : "commons-compiler",
+      "version" : "compiler/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.janino/commons-compiler"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/org.codehaus.janino/commons-compiler/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:commons-compiler:compiler/pom"
+    },
+    {
+      "group" : "com.google.j2objc",
+      "name" : "j2objc-annotations",
+      "version" : "1.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.j2objc/j2objc-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/com.google.j2objc/j2objc-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.j2objc:j2objc-annotations:1.1"
+    },
+    {
+      "name" : "animal-sniffer-annotations",
+      "version" : "annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.mojo/animal-sniffer-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/org.codehaus.mojo/animal-sniffer-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:animal-sniffer-annotations:annotations/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/org.javassist/javassist/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.javassist/javassist"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/org.javassist/javassist/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "paranamer",
+      "version" : "INF/maven/com.thoughtworks.paranamer/paranamer/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "73d7e861589c6de7325d1f8a3df33d19ae2834d6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "daee210e2a9653782f1b837af990c6fd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.thoughtworks.paranamer/paranamer"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/orika/./core/target/orika-core-1.5.4-deps-included.jar!/META-INF/maven/com.thoughtworks.paranamer/paranamer/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:paranamer:INF/maven/com.thoughtworks.paranamer/paranamer/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:paranamer:INF/maven/com.thoughtworks.paranamer/paranamer/pom",
+      "dependsOn" : [
+        "org.mockito:mockito-all:1.10.19",
+        "javax.inject:javax.inject:1",
+        "net.sourceforge.f2j:arpack_combined_all:0.1",
+        "${project.groupId}:${project.artifactId}:2.5.5"
+      ]
+    },
+    {
+      "ref" : "com.google.j2objc:j2objc-annotations:1.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:orika-tests:tests/pom",
+      "dependsOn" : [
+        "ma.glasnost.orika:orika-core:${project.parent.version}",
+        "ma.glasnost.orika:orika-eclipse-tools:${project.parent.version}",
+        "junit:junit:null",
+        "org.hamcrest:hamcrest-library:null",
+        "org.easymock:easymock:null",
+        "org.hibernate.common:hibernate-commons-annotations:null",
+        "org.hibernate:hibernate-entitymanager:null",
+        "com.h2database:h2:null",
+        "org.slf4j:slf4j-api:null",
+        "ch.qos.logback:logback-core:null",
+        "ch.qos.logback:logback-classic:null",
+        "org.springframework:spring-tx:null",
+        "org.springframework:spring-context:null",
+        "org.springframework:spring-test:null",
+        "org.springframework:spring-orm:null",
+        "com.sun.xml.bind:jaxb-impl:null",
+        "javax.xml.bind:jaxb-api:null",
+        "com.google.guava:guava:null"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-api:api/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:orika-eclipse-tools:tools/pom",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "org.eclipse.tycho:org.eclipse.jdt.core:3.14.0.v20171206-0802",
+        "org.eclipse.platform:org.eclipse.text:3.6.100"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "dependsOn" : [
+        "junit:junit:${junit.version}"
+      ]
+    },
+    {
+      "ref" : "null:janino:INF/maven/org.codehaus.janino/janino/pom",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.codehaus.janino:commons-compiler:${project.parent.version}",
+        "org.apache.ant:ant:1.7.1"
+      ]
+    },
+    {
+      "ref" : "null:orika-tests-jdk8:jdk8/pom",
+      "dependsOn" : [
+        "ma.glasnost.orika:orika-core:${project.parent.version}",
+        "ma.glasnost.orika:orika-eclipse-tools:${project.parent.version}",
+        "junit:junit:null",
+        "org.hamcrest:hamcrest-library:null",
+        "org.slf4j:slf4j-api:null",
+        "ch.qos.logback:logback-core:null",
+        "ch.qos.logback:logback-classic:null",
+        "io.github.lukehutch:fast-classpath-scanner:3.1.9"
+      ]
+    },
+    {
+      "ref" : "null:commons-compiler:compiler/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:guava:INF/maven/com.google.guava/guava/pom",
+      "dependsOn" : [
+        "com.google.code.findbugs:jsr305:null",
+        "org.checkerframework:checker-compat-qual:null",
+        "com.google.errorprone:error_prone_annotations:null",
+        "com.google.j2objc:j2objc-annotations:null",
+        "org.codehaus.mojo:animal-sniffer-annotations:${animal.sniffer.version}"
+      ]
+    },
+    {
+      "ref" : "null:orika-core:core/pom",
+      "dependsOn" : [
+        "org.javassist:javassist:null",
+        "com.thoughtworks.paranamer:paranamer:null",
+        "org.slf4j:slf4j-api:null",
+        "com.carrotsearch:java-sizeof:null",
+        "com.google.guava:guava:null",
+        "org.codehaus.janino:janino:null"
+      ]
+    },
+    {
+      "ref" : "null:animal-sniffer-annotations:annotations/pom",
+      "dependsOn" : [ ]
+    }
+  ]
+}

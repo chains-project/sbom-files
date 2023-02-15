@@ -1,0 +1,3216 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "jp.vmi:selenese-runner-java:4.2.0",
+      "type": "application",
+      "group": "jp.vmi",
+      "name": "selenese-runner-java",
+      "version": "4.2.0"
+    },
+    {
+      "bom-ref": "org.slf4j:jcl-over-slf4j:1.7.36",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "jcl-over-slf4j",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ab57ca8fd223772c17365d121f59e94ecbf0ae59d08c03a3cb5b81071c019195"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d877e195a05aca4a2f1ad2ff14bfec1393af4b5e"
+        },
+        {
+          "alg": "MD5",
+          "content": "8065610cde33ed9fd5d34367912c1938"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty:jetty-client:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-client",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7f89fe0900d36b296275999992a6ad76d523be35487d613d8fb56434c34d1d15"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fc2e953a7030045e1ca467d57e200856a170848e"
+        },
+        {
+          "alg": "MD5",
+          "content": "a94cf822833e096125f1e28bb6692365"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-metrics:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-metrics",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3ec0e293194c629ecde2822bcf01629daf5bc3f8465af53009b9c4fd8093e56d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7a5013cde76943a8e0025720c40884d9b7951af2"
+        },
+        {
+          "alg": "MD5",
+          "content": "728be8beb289d039fb6b5a27ca6bf081"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-kqueue:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f06a5af5f5c0564cba47fe65ae6e44675621732dadc7eff34d803f62e506aed"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7a48e5f1cce660dd4fb5a32d9cf68d731f969555"
+        },
+        {
+          "alg": "MD5",
+          "content": "005e79f5df1257b5d13ebb752e0819f8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.github.bonigarcia:webdrivermanager:4.0.0",
+      "type": "library",
+      "group": "io.github.bonigarcia",
+      "name": "webdrivermanager",
+      "version": "4.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ba5b3406c4b2dfffbfdd3a2d1412e27342083cee0961f3d79f79bc8f872de2b1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "30db6eea5d8a1b75735ccc1499def0c7a39efb39"
+        },
+        {
+          "alg": "MD5",
+          "content": "79f72848e4214a6fcf2b569585c297be"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aopalliance:aopalliance:1.0",
+      "type": "library",
+      "group": "aopalliance",
+      "name": "aopalliance",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8"
+        },
+        {
+          "alg": "MD5",
+          "content": "04177054e180d09e3998808efa0401c7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-handler:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b61f5630af6b3cd4e18885c5fde2f8643a98fe03e529e05f88bfe80ae3cbd71e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2dc22423c8ed19906615fb936a5fcb7db14a4e6c"
+        },
+        {
+          "alg": "MD5",
+          "content": "d1af07cda0c9326442dc270b22173035"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.sourceforge.htmlunit:htmlunit-cssparser:1.12.0",
+      "type": "library",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit-cssparser",
+      "version": "1.12.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "055518701b7f168ac9dbced17573cc5f6a6d568ee34323eb55b5e58b99fe165e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f4b93a6be4de9b56f0382bb3b939b4f8a7d8dfa2"
+        },
+        {
+          "alg": "MD5",
+          "content": "0393efbeb24dca7bec4b2ddab6cbd1bb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents.core5:httpcore5-h2:5.0",
+      "type": "library",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5-h2",
+      "version": "5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ccab11e2e0b6ff5e7b89de3ece9368750d5180180e5792b6d77ea677b192a72e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bdc30a850bb8a9ea6e14fa18d03fd9bc04e4cf29"
+        },
+        {
+          "alg": "MD5",
+          "content": "549ec8dd6f525191823eb76be54f1fe6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.auto:auto-common:1.2",
+      "type": "library",
+      "group": "com.google.auto",
+      "name": "auto-common",
+      "version": "1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "326d674b411ea67505273f9ade5311c15bca50644b5211a6c309c9aee590a20a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ca270191fd7d2a7297da7c8f29184206df10c67d"
+        },
+        {
+          "alg": "MD5",
+          "content": "74582e027c5f288915918ebfa7a66484"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.shapesecurity:salvation2:3.0.0",
+      "type": "library",
+      "group": "com.shapesecurity",
+      "name": "salvation2",
+      "version": "3.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1375d45e36ff94643779bdd2f158f49cb137d2de8a4aa8080c7a602d95db7cee"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "015f4d7969936bfd6d554227f11f5ae2c71e176b"
+        },
+        {
+          "alg": "MD5",
+          "content": "47c0980cef52801fefdd835107365837"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-lang3:3.12.0",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+        },
+        {
+          "alg": "MD5",
+          "content": "19fe50567358922bdad277959ea69545"
+        }
+      ]
+    },
+    {
+      "bom-ref": "xml-apis:xml-apis:1.4.01",
+      "type": "library",
+      "group": "xml-apis",
+      "name": "xml-apis",
+      "version": "1.4.01",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3789d9fada2d3d458c4ba2de349d48780f381ee3"
+        },
+        {
+          "alg": "MD5",
+          "content": "7eaad6fea5925cca6c36ee8b3e02ac9d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.j2objc:j2objc-annotations:1.3",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba035118bc8bac37d7eff77700720999acd9986d"
+        },
+        {
+          "alg": "MD5",
+          "content": "5fa4ec4ec0c5aa70af8a7d4922df1931"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.rauschig:jarchivelib:1.0.0",
+      "type": "library",
+      "group": "org.rauschig",
+      "name": "jarchivelib",
+      "version": "1.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "328ab4af27642c3cf38cac21f1d44471ba4e4f0399214faf0afaff53d684c7d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b9f0c716811deadd1b15599c3f169b796eda5373"
+        },
+        {
+          "alg": "MD5",
+          "content": "e96dbe8c78ee56fe01342c0f470e815a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.ous:jtoml:2.0.0",
+      "type": "library",
+      "group": "io.ous",
+      "name": "jtoml",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3cabdae2244c999addebb8c31ae452fbdc874b4f26a163539954b8eeb5d6acc6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2085505b2b173e14b2a7702edd703ce185fd6206"
+        },
+        {
+          "alg": "MD5",
+          "content": "b2fc476ca20fa374faee258912a9c47e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.beust:jcommander:1.82",
+      "type": "library",
+      "group": "com.beust",
+      "name": "jcommander",
+      "version": "1.82",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "deeac157c8de6822878d85d0c7bc8467a19cc8484d37788f7804f039dde280b1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a7c5fef184d238065de38f81bbc6ee50cca2e21"
+        },
+        {
+          "alg": "MD5",
+          "content": "c350dc0db8aa038e6bbaf0050720d69c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-codec:commons-codec:1.15",
+      "type": "library",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.15",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+        },
+        {
+          "alg": "MD5",
+          "content": "303baf002ce6d382198090aedd9d79a2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-mqtt:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-mqtt",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "279d375ec9b51dfd5f9eda03e96ebf84bbe50bec70eaf48367a2acfd659bdba1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "57df0490b5c4edb5901a4df52952e6c842cbba5c"
+        },
+        {
+          "alg": "MD5",
+          "content": "d882363be11e48623c4973761b1dd83c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-unix-common:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "75555605c23592223b10b157409c00c9127205dd7bee093c1ac244fc71fdcc06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "62c64e182a11e31ad80e68a94f0b02b45344df23"
+        },
+        {
+          "alg": "MD5",
+          "content": "f17b917cb10e685ffbdfe0ebaa7a97e7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.barchart.udt:barchart-udt-bundle:2.3.0",
+      "type": "library",
+      "group": "com.barchart.udt",
+      "name": "barchart-udt-bundle",
+      "version": "2.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7fc65e66d3d5103a4acc810d4715c5075351b32c6c2f5defd43c549896113ad"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3d1a29b2b08d20533ad08918411528dd1880515e"
+        },
+        {
+          "alg": "MD5",
+          "content": "ab32d7f29a2cf43a7a4f4a8388e52f38"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-devtools-v85:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v85",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6cdb960015e389187ec2fddc2643efccb7ee4e8bc133c772816e4cc58e36d43c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "627f9ea27c505032abb04b480aed5462e3a24182"
+        },
+        {
+          "alg": "MD5",
+          "content": "0f60e149cb70ee5961e6459a4826c933"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-epoll:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aec8ba72a9fee5c236058a3fb0b9bd400118ea3fa28152d3c1888392096532f3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "750b002ba4ea21f3d2f086c1c3492a8b61e2360c"
+        },
+        {
+          "alg": "MD5",
+          "content": "c7d07d6a879d285437b3700d2a435f8c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-dns:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-dns",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ead60c9d9d0d75477009f240c2423d40430e527e5d4eb9e521993f4c682b8c1a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c19c46f9529791964f636c93cfaca0556f0d5d0"
+        },
+        {
+          "alg": "MD5",
+          "content": "8a641a98ea30771e7f322d9e5c1ed4ec"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-common:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "84fe17e97335492a24d85e2da9f9bea996ab2c3c4d0fcfc1d997f9613393d917"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d6f560098050f88ba11750aa856edd955e4a7707"
+        },
+        {
+          "alg": "MD5",
+          "content": "62255a89e2c08fca02b0172817683369"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "htmlunit-driver",
+      "version": "3.63.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "43de7216f5eadfce662a299ad8a89c12eb2bc63f1789494c6fdd2a51564d4c3c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d97d59df53a4c8fdb3d9ff85db97d774fe422bcf"
+        },
+        {
+          "alg": "MD5",
+          "content": "afba9b6849a4044d81b630717fa2fb0a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "xalan:serializer:2.7.2",
+      "type": "library",
+      "group": "xalan",
+      "name": "serializer",
+      "version": "2.7.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e8f5b4340d3b12a0cfa44ac2db4be4e0639e479ae847df04c4ed8b521734bb4a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "24247f3bb052ee068971393bdb83e04512bb1c3c"
+        },
+        {
+          "alg": "MD5",
+          "content": "e8325763fd4235f174ab7b72ed815db1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-stomp:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-stomp",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "39b445e79948aa979fd57215574ff5c48ed14539ca5dae3833146bef45e5673e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "01b1966d0bdad926a5afe1ea802f64b31faadcfc"
+        },
+        {
+          "alg": "MD5",
+          "content": "c92e0dd025d57e9a05fff9c573716300"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-safari-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-safari-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bb5a7342e91577ad9736e32afd58ab0ee57e983b96f188bdf005b5425e90bbdf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "14fe30da98199d04e431198c1daf40b4c04ef7eb"
+        },
+        {
+          "alg": "MD5",
+          "content": "fa35fd7d5a5e8ff27f010e9d7e4f21bd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cd87d4b98a8bec1d237aed61472ef4adb6a8bb0515cbde1fd62fdd9781c16770"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1e6cd0e5d9f9919c8c8824fb4d310b09a978a60e"
+        },
+        {
+          "alg": "MD5",
+          "content": "29acad12b7cdd22b2a5ab66cd7439d48"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "153ee99931f6d6ba8a6d66d74cbb73371bd46c546b0707d7d37af1264a3deaf2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b1639d431e43622d6cbfdd45c30d3fb810fa9101"
+        },
+        {
+          "alg": "MD5",
+          "content": "c73f2c40376739f857be3da776ca7b40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "xalan:xalan:2.7.2",
+      "type": "library",
+      "group": "xalan",
+      "name": "xalan",
+      "version": "2.7.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a44bd80e82cb0f4cfac0dac8575746223802514e3cec9dc75235bc0de646af14"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d55d3f02a56ec4c25695fe67e1334ff8c2ecea23"
+        },
+        {
+          "alg": "MD5",
+          "content": "6aa6607802502c8016b676f25f8e4873"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.auto.service:auto-service:1.0.1",
+      "type": "library",
+      "group": "com.google.auto.service",
+      "name": "auto-service",
+      "version": "1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88d469a5392dc2a292dfa20432591a584c29fae417cfd88b72620f35ec795acf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c9779f7372192a96c957a3df1faeeabd07881085"
+        },
+        {
+          "alg": "MD5",
+          "content": "cc3dff3b12311d8c8aae5afb0a00204f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.floreysoft:jmte:7.0.0",
+      "type": "library",
+      "group": "com.floreysoft",
+      "name": "jmte",
+      "version": "7.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f0d66850d3fb3a696307d1fac62772b923ba75dbc405194b7e31aa7a0dd59197"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e15b69593333a07d4c5827e79173fb2be849e373"
+        },
+        {
+          "alg": "MD5",
+          "content": "381e3dd685430a5198ccf86afcee254a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.16.0-alpha",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure",
+      "version": "1.16.0-alpha",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5bcdd5d48aa1e1328d628c5a93859b8667b75ee9bac8f75fb96ea343737b02f9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2acb69f03cefd92132721db954860824409e07b"
+        },
+        {
+          "alg": "MD5",
+          "content": "f7bb2ea253b6c63d40b4ef3f4910cc55"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "type": "library",
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c04539f472e9a6dd0c7685ea82d677282269ab8e7baca2e14500e381e0c6cec5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "48e3b9cfc10752fba3521d6511f4165bea951801"
+        },
+        {
+          "alg": "MD5",
+          "content": "61286918ca0192e9f87d1358aef718dd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-classes-epoll:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-classes-epoll",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ddb9f8836810e1df196ede6ebfe2f86839160fc5021c386086e1bb659bcddd00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2151893a521c6362858071053fddbd270c1f20bd"
+        },
+        {
+          "alg": "MD5",
+          "content": "9d924d5f176bdd6779946e83cdcae116"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpcore:4.4.13",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
+        },
+        {
+          "alg": "MD5",
+          "content": "e07a248f61c52776a2366c075dcd4963"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-net:commons-net:3.8.0",
+      "type": "library",
+      "group": "commons-net",
+      "name": "commons-net",
+      "version": "3.8.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "352b0ba1c657d8930063a9b83878fb717deef2d29ee25d13943be9beccc64d49"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "63ea56587c8aaf05adab5cb0397e056bac8a2db0"
+        },
+        {
+          "alg": "MD5",
+          "content": "d4b7197bf50afc96e2fa2657a339f037"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-exporter-logging",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "35d92936eb2f3ee93f95588bd0d305cc53851b1ead4ffa0aa5c5a646adf70ebc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "090881775ac1f4e33b0ee0f8ebb197c972b716c1"
+        },
+        {
+          "alg": "MD5",
+          "content": "af124b219cb1fec7faed4bf7055d405e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:guava:31.1-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "31.1-jre",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a42edc9cab792e39fe39bb94f3fca655ed157ff87a8af78e1d6ba5b07c4a00ab"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "60458f877d055d0c9114d9e1a2efb737b4bc282c"
+        },
+        {
+          "alg": "MD5",
+          "content": "e37782d974104aa3b0a7bee9927c8042"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-common:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-common",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2c9c7e50a5b1dfb36b008173961aad8e0f03d2675d7b503fded09c0611e6d4e6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0644d37494504532135ce089a450bd5db9ccd8aa"
+        },
+        {
+          "alg": "MD5",
+          "content": "ba524c69da3f746eda0d4d7648e54239"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-chromium-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chromium-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2fe69252fcf450e753252f3aad30cc75072ffc078337b2c3f4c973f8622d361b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "958b20f3b6cb356a4e1322c344884f6239eb6a95"
+        },
+        {
+          "alg": "MD5",
+          "content": "263fbc191cfa5f5362301050bcad3ca2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.hamcrest:hamcrest-all:1.3",
+      "type": "library",
+      "group": "org.hamcrest",
+      "name": "hamcrest-all",
+      "version": "1.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4877670629ab96f34f5f90ab283125fcd9acb7e683e66319a68be6eb2cca60de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "63a21ebc981131004ad02e0434e799fd7f3a8d5a"
+        },
+        {
+          "alg": "MD5",
+          "content": "ae5102286b5720dd286d6b606cb891e2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.sourceforge.htmlunit:neko-htmlunit:2.63.0",
+      "type": "library",
+      "group": "net.sourceforge.htmlunit",
+      "name": "neko-htmlunit",
+      "version": "2.63.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3ff2717da3fb09e04c513bd5877c547d128fe57dc5fabc9133a36c7a3dbce6f7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d4d159a789c5446eea7edc184cab9adab12baa1c"
+        },
+        {
+          "alg": "MD5",
+          "content": "41e7b972339726073a22d0fde8d51a8b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-http:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-http",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "30a3f24f3ebafa69ae64340929358a923c0ac1c83402e0c61035db8edb17d0a2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3d291d9f6749990ae543e49636d41ffd7108be16"
+        },
+        {
+          "alg": "MD5",
+          "content": "edd8e841654a91824419b600ad085b5a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-java:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-java",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1739a02cd204c4f7c80dfcbde47cffe751f9b8cb23f87779b4a3245e4e165b22"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d1ff6102a8b23729b967406ea85f40fea5a2e970"
+        },
+        {
+          "alg": "MD5",
+          "content": "f18500aa2b03ebe1ce8bfb4021016650"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada"
+        },
+        {
+          "alg": "MD5",
+          "content": "40d6b9075fbd28fa10292a45a0db9457"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-devtools-v103:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v103",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a7e22a0d77cf2285f2eecd534eb8aa82e06529ce6aaf9c2e1c3eb3f1671ea92"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4051148a03e6d10ddda02f7b9feaa6417090abc5"
+        },
+        {
+          "alg": "MD5",
+          "content": "890d859812aa9e860c3a0ae475d605d2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f5ad13fbd4d074727e8897d3a2032bc8a22abafd5a383d7ee67074e19432f0bd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3562eb54ae9d984fd440166c066dc0ea83d07b2c"
+        },
+        {
+          "alg": "MD5",
+          "content": "f3db2572c5fe7ff6620ece42aa92b587"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-compress:1.18",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5f2df1e467825e4cac5996d44890c4201c000b43c0b23cffc0782d28a0beb9b0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5"
+        },
+        {
+          "alg": "MD5",
+          "content": "bcbecfff4bdb0d3d0cdead3d995da2ef"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-ie-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-ie-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1c441419b9716075579ab6234e840df27dc92d8f7f77c6f347ff562379023bdd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9e9537a76b77ee6f21cc14e49de3d5024e742380"
+        },
+        {
+          "alg": "MD5",
+          "content": "cb3212aaf2ca9e91e2d0c1b8cc7e0e53"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-io:commons-io:2.11.0",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        },
+        {
+          "alg": "MD5",
+          "content": "3b4b7ccfaeceeac240b804839ee1a1ca"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-resolver-dns-native-macos:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver-dns-native-macos",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b82231481c1e25c907229c22d7e3e343a88bab452571e0b38e32a07d68429d8b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a00e1beb248b944c65cf25b080768d53b37e6e6f"
+        },
+        {
+          "alg": "MD5",
+          "content": "bce6cb546e192966449fb6082e7e572c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-remote-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f535697ba551efd69ab4bf21ebf99b48dedd499992adc964aab742f9deaab370"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d8d26b2ada0b62ad47ce2552cf6c091a1b941e5b"
+        },
+        {
+          "alg": "MD5",
+          "content": "6c187587e39f87aa385a26560e8289e2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-exec:1.3",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-exec",
+      "version": "1.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cb49812dc1bfb0ea4f20f398bcae1a88c6406e213e67f7524fb10d4f8ad9347b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8dfb9facd0830a27b1b5f29f84593f0aeee7773b"
+        },
+        {
+          "alg": "MD5",
+          "content": "8bb8fa2edfd60d5c7ed6bf9923d14aa8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.sourceforge.htmlunit:htmlunit-core-js:2.63.0",
+      "type": "library",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit-core-js",
+      "version": "2.63.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "be9b3653cc789465075f30f5c4514be303daa6c75dc0045da5f44e3288ae5757"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "351192ca313a8c3645710c409aa7ec89005a77fe"
+        },
+        {
+          "alg": "MD5",
+          "content": "f1c88037aa83bd32121ac6673e730147"
+        }
+      ]
+    },
+    {
+      "bom-ref": "xerces:xercesImpl:2.11.0",
+      "type": "library",
+      "group": "xerces",
+      "name": "xercesImpl",
+      "version": "2.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "175bbbd9def7a22a30e05f9c8db629c88fa5bdfc57d5658791901b54222abe1c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9bb329db1cfc4e22462c9d6b43a8432f5850e92c"
+        },
+        {
+          "alg": "MD5",
+          "content": "43584adc1f895628055bad0aa98a1007"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-redis:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-redis",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a67a4f98882b32fd5a266f8ba2ad0d628f0d6b9ddfe13dc8ce631f62897a653a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4c675084df36fa178ee8830b026325e5629b020c"
+        },
+        {
+          "alg": "MD5",
+          "content": "53493cccfc3e8f3632320be440a50cff"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-devtools-v104:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v104",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d72ff656c8a5093e08c079582e5fc1fcd8ddb9c517f44c08d8636c9b23bd3569"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "408f50c272ab64ef275e3dfe5afecf9061698a91"
+        },
+        {
+          "alg": "MD5",
+          "content": "85099c4bae8cac388f768df0405cf94e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-memcache:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-memcache",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7afdacc46df387aac4fb90496656c2ce998583e0a24bb235f26d72bea3e13c47"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7f61890e918d298ee12ec36138e4fb90f1fbdc92"
+        },
+        {
+          "alg": "MD5",
+          "content": "10aa187b00c4456decbd3ae276af29dd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-api:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-api",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "838d4373d43a130fd90effa17020482e18f95096d2de05b977910916061f3241"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f60a3bd7abfcbf06408c70740f10e0eaec81ee5c"
+        },
+        {
+          "alg": "MD5",
+          "content": "dee0d5bf237506847bba3861bf370157"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.inject:javax.inject:1",
+      "type": "library",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6975da39a7040257bd51d21a231b76c915872d38"
+        },
+        {
+          "alg": "MD5",
+          "content": "289075e48b909e9e74e6c915b3631d2e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "args4j:args4j:2.33",
+      "type": "library",
+      "group": "args4j",
+      "name": "args4j",
+      "version": "2.33",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91ddeaba0b24adce72291c618c00bbdce1c884755f6c4dba9c5c46e871c69ed6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bd87a75374a6d6523de82fef51fc3cfe9baf9fc9"
+        },
+        {
+          "alg": "MD5",
+          "content": "0a6d515f76b15d29e3cd529de9319739"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-http2:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-http2",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e767a904b0aab9c44aaac947abf0911055f341459520b2503c7014a4635c7f8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0eeffab0cd5efb699d5e4ab9b694d32fef6694b3"
+        },
+        {
+          "alg": "MD5",
+          "content": "de5ded1260e7895117e5a0ccb4c3f3f6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty:jetty-http:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-http",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c99914804c25288fde0470530411258ee4bab83b69ad764149c816c984f8175e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8cb235e70bda0c5e97a41e7ee0ea33ee7f5bcc6a"
+        },
+        {
+          "alg": "MD5",
+          "content": "ada5db67b9fea8de0720d7d750b5125c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-http:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b57c80b67fe5777271acba052053fa679edb3600abf8610526306c88d04cb06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b636591e973418479f2d08e881b12be61845aa6f"
+        },
+        {
+          "alg": "MD5",
+          "content": "1d67820bdd979065b6d9e64abd030820"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-haproxy:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-haproxy",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c021f4f82f7eb549116dd7c600c8783ed01227346dad0ff8971a210626c00f6d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6b36a21ae4b97c4ee90f450b89f358fd36461e73"
+        },
+        {
+          "alg": "MD5",
+          "content": "41e6532d92b0d4a3f3e96b38cf823299"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chrome-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "94413b68cbbd21baa84a45e2e09958bcbb11960fd65baa6a98b9146d4db2aa62"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1c3178e947777da8ac0a4d1f9b63a43aa83a60f2"
+        },
+        {
+          "alg": "MD5",
+          "content": "c6eeee62496fd76af6e04a8921f930c0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.auto.service:auto-service-annotations:1.0.1",
+      "type": "library",
+      "group": "com.google.auto.service",
+      "name": "auto-service-annotations",
+      "version": "1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ac86dacc0eb9285ea9d42eee6aad8629ca3a7432"
+        },
+        {
+          "alg": "MD5",
+          "content": "61f0b581d16c470cd9e7d595be8568ff"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.bytebuddy:byte-buddy:1.12.10",
+      "type": "library",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.12.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1a1ac9ce65eddcea54ead958387bb0b3863d02a2ffe856ab6a57ac79737c19cf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f34127d93639fad8c6fb84b3ca30292697d6c55d"
+        },
+        {
+          "alg": "MD5",
+          "content": "92ceb541d5a497289e9b920b3cc94c13"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-epoll:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "82efdc8c9b0ce6a37e9b43622ce1e3187287dbbe1bd987cbccee964be3fc0706"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "26f1c61096c264dead91d9699be662b1499f5913"
+        },
+        {
+          "alg": "MD5",
+          "content": "c87470da1dcf90e92058c8e79c7bbb96"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-common",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1f630339e7e7f6de5d7f47f9496495d7689ad41fc11565aaf11ce9e22ff6ccda"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "03953122cd495f64ff72831e889a5a661631f580"
+        },
+        {
+          "alg": "MD5",
+          "content": "c533e9ec7fa83676388aef6ae49a74e5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.assertthat:selenium-shutterbug:1.6",
+      "type": "library",
+      "group": "com.assertthat",
+      "name": "selenium-shutterbug",
+      "version": "1.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0a269d75ccb452d66c9f4062187164e431097011fa64fb9b4dc1dbe6c9f6eb48"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94eae362bb025bcfacead15beb04efe50fd038d2"
+        },
+        {
+          "alg": "MD5",
+          "content": "f009b1fb51b01295b68b8c39ae964f9f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:txw2:2.3.6",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f8bc249d22ad950257c373aea80c2f16f18f5eb4d557bdb2660bf5e1f1e84776"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45db7b69a8f1ec2c21eb7d4fc0ee729f53c1addc"
+        },
+        {
+          "alg": "MD5",
+          "content": "dd02e61e4662e6461f0c21b08e721021"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents.client5:httpclient5:5.0",
+      "type": "library",
+      "group": "org.apache.httpcomponents.client5",
+      "name": "httpclient5",
+      "version": "5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dd6a4a6a51be42655ccf51b256b4dadd470069bf0003285d0f1921369df22156"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f3c57118f6f18543db03d39abcd816e1e2cac65d"
+        },
+        {
+          "alg": "MD5",
+          "content": "1d52833180e29f22b21b451bfd3e4dce"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-kqueue:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "993270798773cf51454710c55fe5efa35108260af3394b6285933d9a6af033dd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "af8af3d62dbab31200106b20468840e1ec539fb8"
+        },
+        {
+          "alg": "MD5",
+          "content": "d4ce73737ba00872caf90deb9b5a8e3f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-firefox-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-firefox-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4dd437c91534592d72493a4c3f043cb1945528271815e3ac41c41ad69f7f577d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "90afda786abc55b6423cc92e66ebf15b3436bd6d"
+        },
+        {
+          "alg": "MD5",
+          "content": "795755fced79ee493a91cfb1c451cc40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-trace:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-trace",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8bbbd0344286c137a535595f423e34f6e3bc02149f8d4dc12687d77466289886"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "43888dcd61612d0a864b8e0f8c3e92d1b54155b8"
+        },
+        {
+          "alg": "MD5",
+          "content": "c45f0e854443f17a93ae9a2c89b8d2d8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-resolver-dns-classes-macos:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver-dns-classes-macos",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6a77cf3714dceb0bb4babf5fd3939f7aa38d730b20e171f955798a8d011446ab"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "221f03ba6c537e2c4ee9ec141701671571015b41"
+        },
+        {
+          "alg": "MD5",
+          "content": "e823a93e8324182b7785ed8d7ac28431"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.reactivestreams:reactive-streams:1.0.3",
+      "type": "library",
+      "group": "org.reactivestreams",
+      "name": "reactive-streams",
+      "version": "1.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0"
+        },
+        {
+          "alg": "MD5",
+          "content": "69122b098fff1c6b1bf2cd3b355e7e03"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.36",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        },
+        {
+          "alg": "MD5",
+          "content": "872da51f5de7f3923da4de871d57fd85"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-devtools-v102:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v102",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3d0ce51b9393cfe25204042926e6e955fe9edeaf33ef650296e443b6f238a36"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "340b701a6018b999c374215ee4a6ca83387ecda6"
+        },
+        {
+          "alg": "MD5",
+          "content": "b1b7d8afb8a127c905baaf0be3fa33a4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-json:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-json",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9c281aa0f4ec8c763033a744bd880b879a8d6311a47e34ecb393363017b51efa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d6b50de970b3cf420fdd58b656c500745202da85"
+        },
+        {
+          "alg": "MD5",
+          "content": "b4f85cfdde3ce8716c170898b902d031"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.typesafe.netty:netty-reactive-streams:2.0.4",
+      "type": "library",
+      "group": "com.typesafe.netty",
+      "name": "netty-reactive-streams",
+      "version": "2.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eafc52d500b49e891db095ee7baac0420aea8a97015ab7671ba1f1ccabf799d2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f77c8eaa7d5e2f2160b6d21ba385cf726f164b2"
+        },
+        {
+          "alg": "MD5",
+          "content": "a10a0d529ec175ec5d5401a394e785f0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty:jetty-util:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "24cafd449ca4b4bea9c2792b28fc6fe1c43beb628c0c1a0a72ee33afeac82b87"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7efc06f7ec0ff33d8c219bcc8c7415280c103669"
+        },
+        {
+          "alg": "MD5",
+          "content": "e7d823f303f92de1d4ea694d9ec602de"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.gson:gson:2.9.1",
+      "type": "library",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.9.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "378534e339e6e6d50b1736fb3abb76f1c15d1be3f4c13cec6d536412e23da603"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "02cc2131b98ebfb04e2b2c7dfb84431f4045096b"
+        },
+        {
+          "alg": "MD5",
+          "content": "0d507d266dcf7eea4b53fc3778d901c9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.istack:istack-commons-runtime:3.0.12",
+      "type": "library",
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "27d85fc134c9271d5c79d3300fc4669668f017e72409727c428f54f2417f04cd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cbbe1a62b0cc6c85972e99d52aaee350153dc530"
+        },
+        {
+          "alg": "MD5",
+          "content": "1952bd76321f8580cfaa57e332a68287"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.sourceforge.htmlunit:htmlunit:2.63.0",
+      "type": "library",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit",
+      "version": "2.63.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "654bd382aae3426d5cda09a3be48932f49f31c221394aa3be030d47d8286d352"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8909cbdb749ea36f2ac188d773437218551cb17b"
+        },
+        {
+          "alg": "MD5",
+          "content": "7d2a1b05f5ff8aae9c1baee684610d62"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-sctp:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-sctp",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f7b9e83bc122d83b0bffccd9561a0474b2687159aa5a05c7aeb3e0ff58839f94"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "370e302958c64b2718faf02102796de27c71bed5"
+        },
+        {
+          "alg": "MD5",
+          "content": "69ab53f6b5511c54fcef16e46e361a5e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.activation:jakarta.activation-api:1.2.2",
+      "type": "library",
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a187a939103aef5849a7af84bd7e27be2d120c410af291437375ffe061f4f09d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "99f53adba383cb1bf7c3862844488574b559621f"
+        },
+        {
+          "alg": "MD5",
+          "content": "1cbb480310fa1987f9db7a3ed7118af7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-context:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-context",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "875251e91f6cdc922021614ce245d2a0d8186797a9671994b2ec9f815cc77e82"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "19ffd2aa6958c747eaaa04ba16e5622528230098"
+        },
+        {
+          "alg": "MD5",
+          "content": "da8945845a1446777d836c7dac9fd2ba"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.littleshoot:littleproxy:1.1.2",
+      "type": "library",
+      "group": "org.littleshoot",
+      "name": "littleproxy",
+      "version": "1.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7964bd056e14179db5da6f50bfa8f6024193571ac4082034c13abfa2c3435a0f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a52a858007f6efbced829a944a827a63fe39d9b2"
+        },
+        {
+          "alg": "MD5",
+          "content": "374f821d3319570730981cdeeaae0586"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-support:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-support",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7882d7a73c163804d8b49ffe1309d165fcb2bd914d5d3d2caa3fdcf95f4fc1e2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "314fd1a6112ea3b232841d2ae6a3d6b2239425dc"
+        },
+        {
+          "alg": "MD5",
+          "content": "ce0e9406d0d312145982c53ef447b42d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a80dcb79077d217a30d8c9e43c1da577b642f1e6fb1aa80bc22b3eb872b565de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "18f5b02af7ca611978bc28f2cb58cbb3b9b0f0ef"
+        },
+        {
+          "alg": "MD5",
+          "content": "671a3bf162c2615635dd0ab683cf2699"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk-logs:1.16.0-alpha",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-logs",
+      "version": "1.16.0-alpha",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "931528d51d8fbebadd69187ad305637caf1cf5d9271de26e4163feb24b120e57"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e37b8270f97e953fa78f21bca7ced652b343d230"
+        },
+        {
+          "alg": "MD5",
+          "content": "c517bffd3261e92560073069787f5a93"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-core:1.2.11",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.2.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ce1e9397be8298a2e99029f55f955c6fa3cef255171c554d0b9c201cffd0159"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a01230df5ca5c34540cdaa3ad5efb012f1f1f792"
+        },
+        {
+          "alg": "MD5",
+          "content": "115da115b5e66ef64e774ec35af1fb1a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:failureaccess:1.0.1",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg": "MD5",
+          "content": "091883993ef5bfa91da01dcc8fc52236"
+        }
+      ]
+    },
+    {
+      "bom-ref": "junit:junit:4.13.2",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12"
+        },
+        {
+          "alg": "MD5",
+          "content": "d98a9a02a99a9acd22d7653cbcc1f31f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-sdk:1.16.0",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk",
+      "version": "1.16.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f9be94953f682469d5a81db21a6f5abf3f4740ab77af503b5d3d2d3ef2406a11"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e65c6bfee288e4674132c82bd988ce0ba68dbcb0"
+        },
+        {
+          "alg": "MD5",
+          "content": "08b474c92be1b76211ae80b2e39c7496"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-text:1.9",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-text",
+      "version": "1.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba6ac8c2807490944a0a27f6f8e68fb5ed2e80e2"
+        },
+        {
+          "alg": "MD5",
+          "content": "c1c130c369aa86bfe4f7a7a920bc0223"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-xml:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-xml",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b854ed61f194f4ff0ec7aca0850054e8220ecb4fdb25024b159535ddd4c08930"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d197ae5045c5e96affe8efe1e7f654540d0b6ceb"
+        },
+        {
+          "alg": "MD5",
+          "content": "3012ba7e7b212b608444682b113e31de"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-epoll:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0da0f9d60b7ee800bb3f2f8d66ac7f60ce661a2664bbdb894d1349637d73908a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dcb28ed02abf7bf02aa8dc9bf05f58bedcb12e9a"
+        },
+        {
+          "alg": "MD5",
+          "content": "1fb7ce0e94dadce03c869eccdb72117b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-native-kqueue:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bc28604c466eea6e86f051f85c5ce57a15372667d96cc39242feaa9e0fe52337"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a4529cf1ee0212b7fd5a56b40d99b08c055d2b9d"
+        },
+        {
+          "alg": "MD5",
+          "content": "045423cd0f5e588e1c81160b99e22c20"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-classic:1.2.11",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.2.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d8e899621a3006c2f66e19feab002b11e6cfc5cb1854fc41f01532c00deb2aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4741689214e9d1e8408b206506cbe76d1c6a7d60"
+        },
+        {
+          "alg": "MD5",
+          "content": "e13679004cc76ad5792f275f04884fab"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.errorprone:error_prone_annotations:2.11.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "721cb91842b46fa056847d104d5225c8b8e1e8b62263b993051e1e5a0137b7ec"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69"
+        },
+        {
+          "alg": "MD5",
+          "content": "656ad66261b7e7ea472ed0ffeea773ea"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-handler-proxy:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "99a6ee5ff3eb38caa5c5b215826606856b56dc040d888f69116d9c6db88709ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "054aace8683de7893cf28d4aab72cd60f49b5700"
+        },
+        {
+          "alg": "MD5",
+          "content": "b35622afce4cf79321b58e189901a1bd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-resolver:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c6c111a337bb6b3a889ceab321e9473da49a4e261dcf422fca22284064e38130"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55ecb1ff4464b56564a90824a741c3911264aaa4"
+        },
+        {
+          "alg": "MD5",
+          "content": "45901d5c1835d858ae7dd7d873b6418f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpmime:4.5.13",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "06e754d99245b98dcc2860dcb43d20e737d650da2bf2077a105f68accbd5c5cc"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "efc110bad4a0d45cda7858e6beee1d8a8313da5a"
+        },
+        {
+          "alg": "MD5",
+          "content": "3f0c1ef2c9dc47b62b780192f54b0c18"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-api",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "87fb052324d6c5e22f58fb729169913bb318d97921115640c3dca453c7eb19e1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "76523923d4a5efabe05c2a7aa120282ac1db8c79"
+        },
+        {
+          "alg": "MD5",
+          "content": "81e6d92c840d6d1a430b25904a37bab9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-socks:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "618fde253dda73a039b9b7ae813c34570c4ec7cd95142c2a44602a988b789f00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "794a5937cdb1871c4ae350610752dec2929dc1d6"
+        },
+        {
+          "alg": "MD5",
+          "content": "16c69f406ccbaa674007adf9149db83c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.findbugs:jsr305:3.0.2",
+      "type": "library",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-codec-smtp:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-codec-smtp",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0666bd0845d5c42809b052c875acf1039dc7498f8f1991d0cb00c0aa53f1b92b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e441ca6bf2e55f7bacac72053f4ecc3e5f24a8e2"
+        },
+        {
+          "alg": "MD5",
+          "content": "1c8484517470e1f2158b081776c17e90"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.activation:jakarta.activation:1.2.2",
+      "type": "library",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "74548703f9851017ce2f556066659438019e7eb5"
+        },
+        {
+          "alg": "MD5",
+          "content": "0b8bee3bf29b9a015f8b992035581a7c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-edge-driver:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-edge-driver",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e8059a40435520457f5f5c55b0aaa766f7e24c9177197ac78603f30cfc230666"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4695bdcdf44c73987115763f64edfa043c2d5035"
+        },
+        {
+          "alg": "MD5",
+          "content": "eb1a28f92f7ac026183034a8664e92df"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.asynchttpclient:async-http-client:2.12.3",
+      "type": "library",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client",
+      "version": "2.12.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "107a4ace7a3586f8e8a027c6d7e9933c9ae56eeb1a6df347eed2e7b552e4e5ed"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6dfc91814cc8b3bc3327246d0e5df36911b9a623"
+        },
+        {
+          "alg": "MD5",
+          "content": "334e9ae90fc4db1b16e177f09aa1fe31"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.brotli:dec:0.1.2",
+      "type": "library",
+      "group": "org.brotli",
+      "name": "dec",
+      "version": "0.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "615c0c3efef990d77831104475fba6a1f7971388691d4bad1471ad84101f6d52"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0c26a897ae0d524809eef1c786cc6183b4ddcc3b"
+        },
+        {
+          "alg": "MD5",
+          "content": "4b1cd14cf29733941cc536b27e6aedfa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-resolver-dns-native-macos:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver-dns-native-macos",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2f1ca53162f565c5bf5b0493882c4175cc35946f701582b4b14da8a8e3a219c8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3d1c8f14b1972ed665fdd7ad94070f7817ce397b"
+        },
+        {
+          "alg": "MD5",
+          "content": "588d56fda5fc14c7b718f487c3f02e21"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.asynchttpclient:async-http-client-netty-utils:2.12.3",
+      "type": "library",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-netty-utils",
+      "version": "2.12.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e0bb76bbca0c85c68cab25dbed7989b00db5da8627cf69258f398d7d89bc9067"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ad99d8622931ed31367d0fef7fa17eb62e033fb3"
+        },
+        {
+          "alg": "MD5",
+          "content": "5e0d471baa6e7e4f9bd85220d1abbea0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "dev.failsafe:failsafe:3.2.4",
+      "type": "library",
+      "group": "dev.failsafe",
+      "name": "failsafe",
+      "version": "3.2.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "afa786e3e4191ca995838fbfa71d68fcc25ea6c3b3b125e001c96718108400c1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4d83c7241d8df6a490cb8f31d8bd9f0faf361c84"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a2d0f36907ce038f40ad1db2f97697f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-resolver-dns:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-resolver-dns",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3f61249861015b0cd0366783b2f5badce135f34aa3b65bf2dfb058053f31035d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8eb9be9b6a66a03f5f4df67fe559cb676493d167"
+        },
+        {
+          "alg": "MD5",
+          "content": "717fddcc8334f6f9ef65adeb9a49bcca"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-rxtx:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-rxtx",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "28876fe7c6ec11f3002779fb0652f20d58aa7ecff8bc066b5b94d16aa0701f60"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "10babd0f45c1e89cfe6aabcac6867097176b6b0e"
+        },
+        {
+          "alg": "MD5",
+          "content": "c892ee61526ed9486574c1e78affef34"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-udt:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-udt",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aa9eec9bb3cc721c8dbc01d8bdc54ac8ec4be8248e14cbeac650bfc88e810c1f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d5d18bfd3647aaabf1da3eedaafd607ad4ad4b1b"
+        },
+        {
+          "alg": "MD5",
+          "content": "d0e752af2454f2c51f70503985d31ed2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:jul-to-slf4j:1.7.36",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "jul-to-slf4j",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e641fb142c5f0b0623d6222c09ea87523a41bf6bed48ac79940724010b989de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed46d81cef9c412a88caef405b58f93a678ff2ca"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a3fe73e6cafe8f102facaf2dd65353f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.opentelemetry:opentelemetry-semconv:1.16.0-alpha",
+      "type": "library",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-semconv",
+      "version": "1.16.0-alpha",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a18eda726d99749e4fc43a6e8159cf4c55b8357bd354f2c3e8866692c3e165c1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "16ee44bf7be347483fe3f60369bea06145f6e4e9"
+        },
+        {
+          "alg": "MD5",
+          "content": "d85628f424f8c2389847a6ac2e3468ff"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.inject:guice:5.1.0",
+      "type": "library",
+      "group": "com.google.inject",
+      "name": "guice",
+      "version": "5.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4130e50bfac48099c860f0d903b91860c81a249c90f38245f8fed58fc817bc26"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da25056c694c54ba16e78e4fc35f17fc60f0d1b4"
+        },
+        {
+          "alg": "MD5",
+          "content": "2560169296aa94492af34af2115e9511"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.jsoup:jsoup:1.13.1",
+      "type": "library",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.13.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2b99c0d2fa39f69f27efb1c0016390713feb2f2e02d8ea7f1c36b780271598a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f9577f3732bb7caa4fee8aba5053158f4010c118"
+        },
+        {
+          "alg": "MD5",
+          "content": "5ee148bf2db7c6d81edb7904e970e9db"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-buffer:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7730bbdb434b91b45474ae3c534948e42d1f1639bdab06a807d58019f56ca149"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6c0c2d805a2c8ea30223677d8219235f9ec14c38"
+        },
+        {
+          "alg": "MD5",
+          "content": "e4c4260e78b22b09bcf9349d3cc1afcd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:3.12.0",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.12.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ff10785ac2a357ec5de9c293cb982a2cbb605c0309ea4cc1cb9b9bc6dbe7f3cb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5"
+        },
+        {
+          "alg": "MD5",
+          "content": "ab1ae0e2f2f63601597a5a96fca8a54f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty:jetty-io:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-io",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d2f60a0348905a0a70bb266d1eb23a29959281391aba54d17d4a3a0460b8b47"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b09b55209d0a304e542f779750a01f6914dc55e7"
+        },
+        {
+          "alg": "MD5",
+          "content": "a64fa8ebc74f4c7e846f34b8b9ab0645"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.seleniumhq.selenium:selenium-api:4.4.0",
+      "type": "library",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-api",
+      "version": "4.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fc21a1f1cc98d67fd2f19624d7698e2580a56ec286e566a9966d7a3db65788b9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e0bcda8704d43bc9d3fd6676338a2758e3d751e9"
+        },
+        {
+          "alg": "MD5",
+          "content": "ee3585fd3a74c5f899c5f0cd4e341e14"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.googlecode.java-diff-utils:diffutils:1.3.0",
+      "type": "library",
+      "group": "com.googlecode.java-diff-utils",
+      "name": "diffutils",
+      "version": "1.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "61ba4dc49adca95243beaa0569adc2a23aedb5292ae78aa01186fa782ebdc5c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7e060dd5b19431e6d198e91ff670644372f60fbd"
+        },
+        {
+          "alg": "MD5",
+          "content": "638158a6bca62926aa9986c92ccb15e0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-all:4.1.79.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-all",
+      "version": "4.1.79.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e7bf38235cc8ce3da9027c22ca271ad198569c7edca004635a17026d9cae12d3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1c53cffaa14d61de523b167377843e35807292a7"
+        },
+        {
+          "alg": "MD5",
+          "content": "c7c300a179bc070cf4c0161935ffdb52"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.netty:netty-transport-classes-kqueue:4.1.78.Final",
+      "type": "library",
+      "group": "io.netty",
+      "name": "netty-transport-classes-kqueue",
+      "version": "4.1.78.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2c093e36268640ff6034328e4774a04069a1c2410200d76fb814aa74b7dc393d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5536de8030ef84507504b352e54c298b9db361c9"
+        },
+        {
+          "alg": "MD5",
+          "content": "40d7e2a6b3985a56c160c1d3c62805b4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.sourceforge.nekohtml:nekohtml:1.9.22",
+      "type": "library",
+      "group": "net.sourceforge.nekohtml",
+      "name": "nekohtml",
+      "version": "1.9.22",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "452978e8b6667c7b8357fd3f0a2f2f405e4560a7148143a69181735da5d19045"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4f54af68ecb345f2453fb6884672ad08414154e3"
+        },
+        {
+          "alg": "MD5",
+          "content": "a97dfe2d0ceb81ffbdd15436961b0f23"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622",
+      "type": "library",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-client",
+      "version": "9.4.48.v20220622",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "432d9d85734be8acbdbc3656200d2b1d540574c9bebe0b4f75a3f8bbe402a2f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5536fc714ab049505f99ad799a831f7be36bbf0"
+        },
+        {
+          "alg": "MD5",
+          "content": "1f74bb095077aa177667a7fd1e31e90e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.zafarkhaja:java-semver:0.9.0",
+      "type": "library",
+      "group": "com.github.zafarkhaja",
+      "name": "java-semver",
+      "version": "0.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "59a83ca73c72a5e25b3f0b1bb305230a11000329"
+        },
+        {
+          "alg": "MD5",
+          "content": "9417096ff6a9db74db273abbda0f334e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents.core5:httpcore5:5.0",
+      "type": "library",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5",
+      "version": "5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "53d18f0918179b425cd03cc1edf8b179fe30615e3bbe4deb2c1c0ecb938289c8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e1f638e284f6e6eb2be3cab30368932827c37473"
+        },
+        {
+          "alg": "MD5",
+          "content": "18b446453c3fa97057ae659c2f9a6d55"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "org.asynchttpclient:async-http-client:2.12.3",
+      "dependsOn": [
+        "org.asynchttpclient:async-http-client-netty-utils:2.12.3",
+        "org.reactivestreams:reactive-streams:1.0.3",
+        "com.typesafe.netty:netty-reactive-streams:2.0.4"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
+      "dependsOn": [
+        "net.sourceforge.htmlunit:htmlunit:2.63.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622",
+      "dependsOn": [
+        "org.eclipse.jetty.websocket:websocket-api:9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622",
+      "dependsOn": [
+        "org.eclipse.jetty:jetty-client:9.4.48.v20220622",
+        "org.eclipse.jetty.websocket:websocket-common:9.4.48.v20220622",
+        "org.eclipse.jetty:jetty-util:9.4.48.v20220622",
+        "org.eclipse.jetty:jetty-io:9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "com.google.inject:guice:5.1.0",
+      "dependsOn": [
+        "aopalliance:aopalliance:1.0",
+        "com.google.guava:guava:31.1-jre",
+        "javax.inject:javax.inject:1"
+      ]
+    },
+    {
+      "ref": "io.netty:netty-all:4.1.79.Final",
+      "dependsOn": [
+        "io.netty:netty-codec-mqtt:4.1.79.Final",
+        "io.netty:netty-codec-dns:4.1.79.Final",
+        "io.netty:netty-resolver-dns-native-macos:4.1.79.Final",
+        "io.netty:netty-resolver-dns:4.1.79.Final",
+        "io.netty:netty-codec-stomp:4.1.79.Final",
+        "io.netty:netty-codec-redis:4.1.79.Final",
+        "io.netty:netty-codec-http2:4.1.79.Final",
+        "io.netty:netty-transport-sctp:4.1.79.Final",
+        "io.netty:netty-codec:4.1.79.Final",
+        "io.netty:netty-transport-native-epoll:4.1.79.Final",
+        "io.netty:netty-transport-native-kqueue:4.1.79.Final",
+        "io.netty:netty-transport-rxtx:4.1.79.Final",
+        "io.netty:netty-transport-udt:4.1.79.Final",
+        "io.netty:netty-handler-proxy:4.1.79.Final",
+        "io.netty:netty-resolver:4.1.79.Final",
+        "io.netty:netty-codec-socks:4.1.79.Final",
+        "io.netty:netty-handler:4.1.79.Final",
+        "io.netty:netty-codec-memcache:4.1.79.Final",
+        "io.netty:netty-codec-haproxy:4.1.79.Final",
+        "io.netty:netty-resolver-dns-classes-macos:4.1.79.Final",
+        "io.netty:netty-codec-xml:4.1.79.Final",
+        "io.netty:netty-codec-smtp:4.1.79.Final"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:31.1-jre",
+      "dependsOn": [
+        "org.checkerframework:checker-qual:3.12.0",
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.errorprone:error_prone_annotations:2.11.0",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    {
+      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "dependsOn": [
+        "jakarta.activation:jakarta.activation-api:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents.client5:httpclient5:5.0",
+      "dependsOn": [
+        "org.apache.httpcomponents.core5:httpcore5-h2:5.0",
+        "org.apache.httpcomponents.core5:httpcore5:5.0"
+      ]
+    },
+    {
+      "ref": "io.github.bonigarcia:webdrivermanager:4.0.0",
+      "dependsOn": [
+        "org.rauschig:jarchivelib:1.0.0",
+        "org.apache.httpcomponents.client5:httpclient5:5.0",
+        "org.jsoup:jsoup:1.13.1"
+      ]
+    },
+    {
+      "ref": "org.littleshoot:littleproxy:1.1.2",
+      "dependsOn": [
+        "com.barchart.udt:barchart-udt-bundle:2.3.0",
+        "io.netty:netty-all:4.1.79.Final"
+      ]
+    },
+    {
+      "ref": "org.rauschig:jarchivelib:1.0.0",
+      "dependsOn": [
+        "org.apache.commons:commons-compress:1.18"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "dependsOn": [
+        "org.apache.httpcomponents:httpcore:4.4.13"
+      ]
+    },
+    {
+      "ref": "net.sourceforge.htmlunit:htmlunit:2.63.0",
+      "dependsOn": [
+        "org.apache.httpcomponents:httpmime:4.5.13",
+        "org.brotli:dec:0.1.2",
+        "org.eclipse.jetty.websocket:websocket-client:9.4.48.v20220622",
+        "commons-codec:commons-codec:1.15",
+        "commons-net:commons-net:3.8.0",
+        "net.sourceforge.htmlunit:neko-htmlunit:2.63.0",
+        "net.sourceforge.htmlunit:htmlunit-core-js:2.63.0",
+        "net.sourceforge.htmlunit:htmlunit-cssparser:1.12.0",
+        "com.shapesecurity:salvation2:3.0.0"
+      ]
+    },
+    {
+      "ref": "xerces:xercesImpl:2.11.0",
+      "dependsOn": [
+        "xml-apis:xml-apis:1.4.01"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-java:4.4.0",
+      "dependsOn": [
+        "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v102:4.4.0",
+        "org.seleniumhq.selenium:selenium-edge-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-api:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v85:4.4.0",
+        "org.seleniumhq.selenium:selenium-safari-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v103:4.4.0",
+        "org.seleniumhq.selenium:selenium-firefox-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-support:4.4.0",
+        "org.seleniumhq.selenium:selenium-ie-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+        "org.seleniumhq.selenium:selenium-devtools-v104:4.4.0"
+      ]
+    },
+    {
+      "ref": "xalan:xalan:2.7.2",
+      "dependsOn": [
+        "xalan:serializer:2.7.2"
+      ]
+    },
+    {
+      "ref": "com.assertthat:selenium-shutterbug:1.6",
+      "dependsOn": [
+        "io.github.bonigarcia:webdrivermanager:4.0.0",
+        "com.github.zafarkhaja:java-semver:0.9.0"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents:httpmime:4.5.13",
+      "dependsOn": [
+        "org.apache.httpcomponents:httpclient:4.5.13"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-http:4.4.0",
+      "dependsOn": [
+        "dev.failsafe:failsafe:3.2.4"
+      ]
+    },
+    {
+      "ref": "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+      "dependsOn": [
+        "io.opentelemetry:opentelemetry-sdk-metrics:1.16.0",
+        "io.opentelemetry:opentelemetry-sdk-logs:1.16.0-alpha"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-chrome-driver:4.4.0",
+      "dependsOn": [
+        "com.google.auto.service:auto-service:1.0.1",
+        "org.seleniumhq.selenium:selenium-chromium-driver:4.4.0",
+        "com.google.auto.service:auto-service-annotations:1.0.1",
+        "org.seleniumhq.selenium:selenium-json:4.4.0"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+      "dependsOn": [
+        "org.glassfish.jaxb:txw2:2.3.6",
+        "com.sun.istack:istack-commons-runtime:3.0.12",
+        "com.sun.activation:jakarta.activation:1.2.2"
+      ]
+    },
+    {
+      "ref": "ch.qos.logback:logback-classic:1.2.11",
+      "dependsOn": [
+        "ch.qos.logback:logback-core:1.2.11"
+      ]
+    },
+    {
+      "ref": "jp.vmi:selenese-runner-java:4.2.0",
+      "dependsOn": [
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "org.seleniumhq.selenium:htmlunit-driver:3.63.0",
+        "xalan:xalan:2.7.2",
+        "com.floreysoft:jmte:7.0.0",
+        "org.seleniumhq.selenium:selenium-java:4.4.0",
+        "org.slf4j:slf4j-api:1.7.36",
+        "org.littleshoot:littleproxy:1.1.2",
+        "junit:junit:4.13.2",
+        "org.slf4j:jul-to-slf4j:1.7.36",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "com.assertthat:selenium-shutterbug:1.6",
+        "org.apache.commons:commons-text:1.9",
+        "ch.qos.logback:logback-classic:1.2.11",
+        "com.google.inject:guice:5.1.0",
+        "com.googlecode.java-diff-utils:diffutils:1.3.0",
+        "commons-io:commons-io:2.11.0",
+        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+        "org.hamcrest:hamcrest-all:1.3",
+        "args4j:args4j:2.33",
+        "com.google.code.gson:gson:2.9.1",
+        "net.sourceforge.nekohtml:nekohtml:1.9.22",
+        "org.slf4j:jcl-over-slf4j:1.7.36"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty:jetty-client:9.4.48.v20220622",
+      "dependsOn": [
+        "org.eclipse.jetty:jetty-http:9.4.48.v20220622"
+      ]
+    },
+    {
+      "ref": "org.seleniumhq.selenium:selenium-remote-driver:4.4.0",
+      "dependsOn": [
+        "net.bytebuddy:byte-buddy:1.12.10",
+        "io.opentelemetry:opentelemetry-sdk-trace:1.16.0",
+        "org.asynchttpclient:async-http-client:2.12.3",
+        "io.netty:netty-transport:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-exporter-logging:1.16.0",
+        "io.opentelemetry:opentelemetry-sdk-common:1.16.0",
+        "org.seleniumhq.selenium:selenium-http:4.4.0",
+        "org.apache.commons:commons-exec:1.3",
+        "io.netty:netty-transport-native-kqueue:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.16.0",
+        "io.opentelemetry:opentelemetry-context:1.16.0",
+        "io.netty:netty-transport-classes-kqueue:4.1.78.Final",
+        "io.ous:jtoml:2.0.0",
+        "io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.16.0-alpha",
+        "io.netty:netty-codec-http:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-sdk:1.16.0",
+        "io.netty:netty-transport-native-epoll:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-semconv:1.16.0-alpha",
+        "io.netty:netty-buffer:4.1.78.Final",
+        "com.beust:jcommander:1.82",
+        "io.netty:netty-transport-native-unix-common:4.1.78.Final",
+        "io.netty:netty-common:4.1.78.Final",
+        "io.netty:netty-transport-classes-epoll:4.1.78.Final",
+        "io.opentelemetry:opentelemetry-api:1.16.0"
+      ]
+    },
+    {
+      "ref": "com.google.auto.service:auto-service:1.0.1",
+      "dependsOn": [
+        "com.google.auto:auto-common:1.2"
+      ]
+    },
+    {
+      "ref": "net.sourceforge.nekohtml:nekohtml:1.9.22",
+      "dependsOn": [
+        "xerces:xercesImpl:2.11.0"
+      ]
+    }
+  ]
+}

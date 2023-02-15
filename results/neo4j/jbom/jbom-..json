@@ -1,0 +1,130 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "b090e74e-10f2-457e-b839-28110c32d7ac",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:18:40Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (2a3bbe4a74ea)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "pom",
+      "version" : "resources/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "02d7983c6b550b1f58d5a87ba11685268740b7c8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5604f36fa98f86b9931b9ac398d807ba"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.neo4j.build/build-resources"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/neo4j/./build-resources/target/build-resources-5.3.0-SNAPSHOT.jar!/META-INF/maven/org.neo4j.build/build-resources/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.neo4j.licensing-proxy",
+      "name" : "zstd-proxy",
+      "version" : "proxy/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a1b7fcce887c2e4498cf1cbecbca865698f33fd1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "78cc5e7de7db3e96dcb7abb206fbb3a2"
+        }
+      ],
+      "purl" : "pkg:maven/org.neo4j.licensing-proxy/zstd-proxy@proxy%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.neo4j.licensing-proxy/zstd-proxy"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/neo4j/./community/zstd-proxy/target/zstd-proxy-5.3.0-SNAPSHOT-javadoc.jar!/META-INF/maven/org.neo4j.licensing-proxy/zstd-proxy/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.neo4j.licensing-proxy:zstd-proxy:proxy/pom"
+    },
+    {
+      "group" : "org.neo4j.licensing-proxy",
+      "name" : "zstd-proxy",
+      "version" : "proxy/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "addb0c7473f044d219eb5cf438d7308b7075f578"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "883b9c2079de1614421f85814ab91c27"
+        }
+      ],
+      "purl" : "pkg:maven/org.neo4j.licensing-proxy/zstd-proxy@proxy%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.neo4j.licensing-proxy/zstd-proxy"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/neo4j/./community/zstd-proxy/target/zstd-proxy-5.3.0-SNAPSHOT.jar!/META-INF/maven/org.neo4j.licensing-proxy/zstd-proxy/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.neo4j.licensing-proxy:zstd-proxy:proxy/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "org.neo4j.licensing-proxy:zstd-proxy:proxy/pom",
+      "dependsOn" : [
+        "com.github.luben:zstd-jni:null"
+      ]
+    }
+  ]
+}

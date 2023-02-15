@@ -1,0 +1,153 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:391b8745-ef60-489e-a7f0-d9208409f22d",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-11T19:20:16Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.3",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "org.jhiccup",
+      "name" : "jHiccup",
+      "version" : "2.0.10",
+      "description" : "jHiccup is a lightweight, non-intrusive instrumentation tool that logs and records platform \"hiccups\" - including the JVM stalls that often happen when Java applications are executed and/or any OS or hardware platform noise that may cause the running application to not be continuously runnable.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CC0-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/giltene/jHiccup/issues"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar"
+    }
+  },
+  "components" : [
+    {
+      "group" : "org.hdrhistogram",
+      "name" : "HdrHistogram",
+      "version" : "2.1.10",
+      "description" : "HdrHistogram supports the recording and analyzing sampled data value counts across a configurable integer value range with configurable value precision within the range. Value precision is expressed as the number of significant digits in the value recording, and provides control over value quantization behavior across the value range and the subsequent value resolution at any given level.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f7fd592029a3f8cc3b3c2488d43c6d8d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e1ac84eed220281841b75e72fb9de5a297fbf04"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6a65119ee9372e58b490e889e9f8293802efd3bbc2549dd47b6e1259cd12402c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2f8ccd705652fe58af30962ad58d7648eb00401d665139509fc35206c5a7a7c9e3e38be5fa779cd5a34801f945e19ff915c45d6eb724585652d65aca5a078bf4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f73aa6d4c298aee0a1857a6fe4d4b6f323e1f4ad17e551f4af7ad9b6ea5be4a5e2a9f693fa042d3545f0b3a23d6915f0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7c934c652a08737464337891e993701d1647a80cd86092767946a38df9d690194da516d3cbcb62d7b89b877286ecc96f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c3b2036e015d3174fad64b5f6ebae0a1660e9dad62f7d147c45f4ab160cf39f4"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4d5c2e4ce680f5fde47eea90e01254584f2075fddf72a8bf074bb1e36abf95e1f71149670af9c9c713f9bf3eb7b505579741e8c3c29c5d21c9768ab4bd38d7ae"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CC0-1.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-2-Clause",
+            "url" : "https://opensource.org/licenses/BSD-2-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/HdrHistogram/HdrHistogram/issues"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

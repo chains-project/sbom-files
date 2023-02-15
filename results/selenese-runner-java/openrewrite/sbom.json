@@ -1,0 +1,1953 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:d550fc64-9841-4895-a6ef-550d44af6153",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:25:18Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/jp.vmi/selenese-runner-java@4.2.0?type=jar",
+      "group": "jp.vmi",
+      "name": "selenese-runner-java",
+      "version": "4.2.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jp.vmi/selenese-runner-java@4.2.0?type=jar"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-java",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "htmlunit-driver",
+      "version": "3.63.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar",
+      "group": "net.sourceforge.nekohtml",
+      "name": "nekohtml",
+      "version": "1.9.22",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-text",
+      "version": "1.9",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/args4j/args4j@2.33?type=jar",
+      "group": "args4j",
+      "name": "args4j",
+      "version": "2.33",
+      "scope": "required",
+      "purl": "pkg:maven/args4j/args4j@2.33?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar",
+      "group": "org.slf4j",
+      "name": "jcl-over-slf4j",
+      "version": "1.7.36",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.2.11",
+      "scope": "required",
+      "purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xalan/xalan@2.7.2?type=jar",
+      "group": "xalan",
+      "name": "xalan",
+      "version": "2.7.2",
+      "scope": "required",
+      "purl": "pkg:maven/xalan/xalan@2.7.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.inject/guice@5.1.0?type=jar",
+      "group": "com.google.inject",
+      "name": "guice",
+      "version": "5.1.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.inject/guice@5.1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar",
+      "group": "org.slf4j",
+      "name": "jul-to-slf4j",
+      "version": "1.7.36",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.floreysoft/jmte@7.0.0?type=jar",
+      "group": "com.floreysoft",
+      "name": "jmte",
+      "version": "7.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.floreysoft/jmte@7.0.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.gson/gson@2.9.1?type=jar",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.9.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.gson/gson@2.9.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar",
+      "group": "com.assertthat",
+      "name": "selenium-shutterbug",
+      "version": "1.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.3",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-api",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chrome-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v102",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v103",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v104",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-devtools-v85",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-edge-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-firefox-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-ie-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-remote-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-safari-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-support",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit",
+      "version": "2.63.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xerces/xercesImpl@2.11.0?type=jar",
+      "group": "xerces",
+      "name": "xercesImpl",
+      "version": "2.11.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/xerces/xercesImpl@2.11.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.2.11",
+      "scope": "required",
+      "purl": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xalan/serializer@2.7.2?type=jar",
+      "group": "xalan",
+      "name": "serializer",
+      "version": "2.7.2",
+      "scope": "required",
+      "purl": "pkg:maven/xalan/serializer@2.7.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+      "group": "aopalliance",
+      "name": "aopalliance",
+      "version": "1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@31.1-jre?type=jar",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "31.1-jre",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.guava/guava@31.1-jre?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar",
+      "group": "com.github.zafarkhaja",
+      "name": "java-semver",
+      "version": "0.9.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar",
+      "group": "io.github.bonigarcia",
+      "name": "webdrivermanager",
+      "version": "4.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.2",
+      "scope": "required",
+      "purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar",
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar",
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.12",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2",
+      "scope": "required",
+      "purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar",
+      "group": "com.google.auto.service",
+      "name": "auto-service-annotations",
+      "version": "1.0.1",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar",
+      "group": "com.google.auto.service",
+      "name": "auto-service",
+      "version": "1.0.1",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-chromium-driver",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-json",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.beust/jcommander@1.82?type=jar",
+      "group": "com.beust",
+      "name": "jcommander",
+      "version": "1.82",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.beust/jcommander@1.82?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-classes-epoll",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-classes-kqueue",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-api",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-context",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-exporter-logging",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-common",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure-spi",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-extension-autoconfigure",
+      "version": "1.16.0-alpha",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-trace",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-semconv",
+      "version": "1.16.0-alpha",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.ous/jtoml@2.0.0?type=jar",
+      "group": "io.ous",
+      "name": "jtoml",
+      "version": "2.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.ous/jtoml@2.0.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.12.10",
+      "scope": "required",
+      "purl": "pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-exec",
+      "version": "1.3",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client",
+      "version": "2.12.3",
+      "scope": "required",
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar",
+      "group": "org.seleniumhq.selenium",
+      "name": "selenium-http",
+      "version": "4.4.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar",
+      "group": "org.apache.httpcomponents",
+      "name": "httpmime",
+      "version": "4.5.13",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit-core-js",
+      "version": "2.63.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Mozilla Public License, Version 2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar",
+      "group": "net.sourceforge.htmlunit",
+      "name": "neko-htmlunit",
+      "version": "2.63.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar",
+      "group": "net.sourceforge.htmlunit",
+      "name": "htmlunit-cssparser",
+      "version": "1.12.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-net/commons-net@3.8.0?type=jar",
+      "group": "commons-net",
+      "name": "commons-net",
+      "version": "3.8.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-net/commons-net@3.8.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.15",
+      "scope": "required",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.brotli/dec@0.1.2?type=jar",
+      "group": "org.brotli",
+      "name": "dec",
+      "version": "0.1.2",
+      "scope": "required",
+      "purl": "pkg:maven/org.brotli/dec@0.1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar",
+      "group": "com.shapesecurity",
+      "name": "salvation2",
+      "version": "3.0.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-client",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar",
+      "group": "xml-apis",
+      "name": "xml-apis",
+      "version": "1.4.01",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "scope": "required",
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.12.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.11.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar",
+      "group": "org.apache.httpcomponents.client5",
+      "name": "httpclient5",
+      "version": "5.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar",
+      "group": "org.rauschig",
+      "name": "jarchivelib",
+      "version": "1.0.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jsoup/jsoup@1.13.1?type=jar",
+      "group": "org.jsoup",
+      "name": "jsoup",
+      "version": "1.13.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "The MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.auto/auto-common@1.2?type=jar",
+      "group": "com.google.auto",
+      "name": "auto-common",
+      "version": "1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.auto/auto-common@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-handler@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-metrics",
+      "version": "1.16.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar",
+      "group": "io.opentelemetry",
+      "name": "opentelemetry-sdk-logs",
+      "version": "1.16.0-alpha",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-netty-utils",
+      "version": "2.12.3",
+      "scope": "required",
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.60.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.60.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.78.Final",
+      "scope": "required",
+      "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "group": "org.reactivestreams",
+      "name": "reactive-streams",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "CC0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+      "group": "com.typesafe.netty",
+      "name": "netty-reactive-streams",
+      "version": "2.0.4",
+      "scope": "required",
+      "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar",
+      "group": "dev.failsafe",
+      "name": "failsafe",
+      "version": "3.2.4",
+      "scope": "required",
+      "purl": "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.13",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-client",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-io",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-common",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5",
+      "version": "5.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar",
+      "group": "org.apache.httpcomponents.core5",
+      "name": "httpcore5-h2",
+      "version": "5.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.18?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.18",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.18?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.13",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "scope": "required",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-http",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar",
+      "group": "org.eclipse.jetty.websocket",
+      "name": "websocket-api",
+      "version": "9.4.48.v20220622",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-java@4.4.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar",
+      "dependsOn": [
+        "pkg:maven/xerces/xercesImpl@2.11.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/args4j/args4j@2.33?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar"
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar",
+      "dependsOn": [
+        "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/xalan/xalan@2.7.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/xalan/serializer@2.7.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.inject/guice@5.1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.inject/javax.inject@1?type=jar",
+        "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+        "pkg:maven/com.google.guava/guava@31.1-jre?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.floreysoft/jmte@7.0.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.code.gson/gson@2.9.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar",
+        "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar",
+        "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar",
+        "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.beust/jcommander@1.82?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar",
+        "pkg:maven/io.ous/jtoml@2.0.0?type=jar",
+        "pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar",
+        "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar",
+        "pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar",
+        "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar",
+        "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar",
+        "pkg:maven/commons-net/commons-net@3.8.0?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+        "pkg:maven/org.brotli/dec@0.1.2?type=jar",
+        "pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/xerces/xercesImpl@2.11.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"
+    },
+    {
+      "ref": "pkg:maven/xalan/serializer@2.7.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@31.1-jre?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+        "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar",
+        "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar",
+        "pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.auto/auto-common@1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.beust/jcommander@1.82?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-codec@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.78.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-resolver@4.1.78.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar",
+        "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.ous/jtoml@2.0.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+        "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-net/commons-net@3.8.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.brotli/dec@0.1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar",
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar",
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.commons/commons-compress@1.18?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.google.auto/auto-common@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.18?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar"
+    }
+  ]
+}

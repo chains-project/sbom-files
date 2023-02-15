@@ -1,0 +1,229 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "org.jacop:jacop:4.9.0",
+      "type": "application",
+      "group": "org.jacop",
+      "name": "jacop",
+      "version": "4.9.0"
+    },
+    {
+      "bom-ref": "org.scala-lang:scala-compiler:2.13.1",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-compiler",
+      "version": "2.13.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe8aaf3a7b0a4176fe7d26817b6f36f192190ee2bbe53f22aee691a3d029fced"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2669fd1abfe2c76de9201174255f8454aa25c3e2"
+        },
+        {
+          "alg": "MD5",
+          "content": "93f3d6dfc6773e867659c274c9bb41f1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.fusesource.jansi:jansi:1.12",
+      "type": "library",
+      "group": "org.fusesource.jansi",
+      "name": "jansi",
+      "version": "1.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8430808a03cc7a1f49f90132f7517a43cd7493390077ae4390445432826d4811"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "633f12e3ab3cdf2d151b4061fff389c66ee8d01b"
+        },
+        {
+          "alg": "MD5",
+          "content": "e5338dac0a835804bbbef78f6ecb3027"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.scala-lang:scala-reflect:2.13.1",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-reflect",
+      "version": "2.13.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c8acaef84ae06ad83416a7e121ba8cb3da83c8581106be0695b8066c5d7c38ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c4123cd3d2a7502d16f443cd52fb23763bef8402"
+        },
+        {
+          "alg": "MD5",
+          "content": "46fc74afe70812964045fdcceb1871a0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "log4j:log4j:1.2.17",
+      "type": "library",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.17",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5af35056b4d257e4b64b9e8069c0746e8b08629f"
+        },
+        {
+          "alg": "MD5",
+          "content": "04a41f0a068986f0f73485cf507c0f40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.mockito:mockito-all:1.10.19",
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-all",
+      "version": "1.10.19",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d1a7a7ef14b3db5c0fc3e0a63a81b374b510afe85add9f7984b97911f4c70605"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "539df70269cc254a58cccc5d8e43286b4a73bf30"
+        },
+        {
+          "alg": "MD5",
+          "content": "979ec16f27b6b541278e0ecd10efd771"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jline:jline:2.14.6",
+      "type": "library",
+      "group": "jline",
+      "name": "jline",
+      "version": "2.14.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "97d1acaac82409be42e622d7a54d3ae9d08517e8aefdea3d2ba9791150c2f02d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c3aeac59c022bdc497c8c48ed86fa50450e4896a"
+        },
+        {
+          "alg": "MD5",
+          "content": "480423551649bc6980b43f09e4717272"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-log4j12:1.7.24",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-log4j12",
+      "version": "1.7.24",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3263031ada62232de8c3302035329734efc3e97c68a11fe78524a32c98a9d0a4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "309d7b29b14573c05d4c69cc7e44da0cb17212d3"
+        },
+        {
+          "alg": "MD5",
+          "content": "65268a5177e9e211357f6cda3d68b461"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.24",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.24",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "baf3c7fe15fefeaf9e5b000d94547379dc48370f22a8797e239c127e7d7756ec"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3f6b4bd4f8dbe8d4bea06d107a3826469b85c3e9"
+        },
+        {
+          "alg": "MD5",
+          "content": "d18638036e314cdd66f04e2d248b7df9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.scala-lang:scala-library:2.13.1",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-library",
+      "version": "2.13.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "711dcb0ba3d8d8392a52162c1f251d89787148981d2823e30697bc08282521ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1418c956704990564fb9dfac5960647ca54b5a91"
+        },
+        {
+          "alg": "MD5",
+          "content": "975cb7640827ecbe324c3ce85282557d"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "org.jacop:jacop:4.9.0",
+      "dependsOn": [
+        "org.mockito:mockito-all:1.10.19",
+        "org.slf4j:slf4j-log4j12:1.7.24",
+        "org.slf4j:slf4j-api:1.7.24",
+        "org.scala-lang:scala-library:2.13.1",
+        "org.scala-lang:scala-compiler:2.13.1"
+      ]
+    },
+    {
+      "ref": "org.scala-lang:scala-compiler:2.13.1",
+      "dependsOn": [
+        "org.fusesource.jansi:jansi:1.12",
+        "org.scala-lang:scala-reflect:2.13.1",
+        "jline:jline:2.14.6"
+      ]
+    },
+    {
+      "ref": "org.slf4j:slf4j-log4j12:1.7.24",
+      "dependsOn": [
+        "log4j:log4j:1.2.17"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,875 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "ac504292-81cf-46b5-8f9c-f3e3b85a5dc3",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:11:17Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.3 (0f2b41da27c6)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "javaparser-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1091de18b6b716599487746d86ae2b5aef5b3373"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "98804a9cbb9036b05fc06d3edcb11a9b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/resources/javaparser-core-3.0.0-alpha.2.jar!/META-INF/maven/com.github.javaparser/javaparser-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core:core/pom"
+    },
+    {
+      "name" : "javaparser-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9f82d7dbf404be2ffbfc5f498313f698a7b9599f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6dad9f87fee3dc512804232e67afc08a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/resources/javaparser-core-2.1.0.jar!/META-INF/maven/com.github.javaparser/javaparser-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core:core/pom"
+    },
+    {
+      "name" : "javaparser-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9b0cf86d798c85b5900478d83fdc415fb35bce2d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "33f6445db9d3498982ebda534ada5acd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/test_sourcecode/javasymbolsolver_0_6_0/lib/javaparser-core-3.3.0.jar!/META-INF/maven/com.github.javaparser/javaparser-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core:core/pom"
+    },
+    {
+      "name" : "javaparser-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "169f0bd588c8b8ae7dae1909b40819748b567418"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ee5a357e097d96b39dcaaac012d112a0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core/target/javaparser-core-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core:core/pom"
+    },
+    {
+      "name" : "javaparser-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d4153fc85e1cc5f8d56d7fd5cef6bb1d59228efd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5d9d403ea6f730342e97b5234475d1aa"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core/target/javaparser-core-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core:core/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "48af1d20063c23833eb6338c60cdb945b6c15530"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "97629152e1715749b80efaa0e28ee636"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-core/target/javaparser-symbol-solver-core-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-core:core/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "359e7494340ad618930097a632b3ad34e09be108"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3b4b63157d84032b0da7c332667bfd4b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-core/target/javaparser-symbol-solver-core-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-core:core/pom"
+    },
+    {
+      "name" : "javaslang",
+      "version" : "INF/maven/io.javaslang/javaslang/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a6f2b899759cc7fe68e23062893285adb2aa580c"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "63512f98bb48c3966d41772bd1a6278b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.javaslang/javaslang"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/test_sourcecode/javasymbolsolver_0_6_0/lib/javaslang-2.0.3.jar!/META-INF/maven/io.javaslang/javaslang/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaslang:INF/maven/io.javaslang/javaslang/pom"
+    },
+    {
+      "name" : "javaparser-core-metamodel-generator",
+      "version" : "generator/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d65eece39ea50248d7629f7259a643f3e75200d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e4deec3f570064e9099f77bc5d1f3a26"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-metamodel-generator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-metamodel-generator/target/javaparser-core-metamodel-generator-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core-metamodel-generator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-metamodel-generator:generator/pom"
+    },
+    {
+      "name" : "javaparser-core-metamodel-generator",
+      "version" : "generator/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b640ecad62566c84d6f7966c0340adf19f86b586"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "8b221246ca48f04026f9ed725eed5367"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-metamodel-generator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-metamodel-generator/target/javaparser-core-metamodel-generator-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-core-metamodel-generator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-metamodel-generator:generator/pom"
+    },
+    {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3a3d111be1be1b745edfa7d91678a12d7ed38709"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ddc91fd850fa6177c91aab5d4e4d1fa6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/test_sourcecode/javasymbolsolver_0_6_0/lib/guava-21.0.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-logic",
+      "version" : "logic/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a657ec247a815cf09fb2bfb7bc3d9161410fff12"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "00b1534a19a3f18ecea6f9ebb028b8f2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-logic"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-logic/target/javaparser-symbol-solver-logic-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-logic/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-logic:logic/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-logic",
+      "version" : "logic/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "87899fcd8afc9b5b4b79a59c2d9a284a321e00e6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5cffc8d6db686872a0cd1d5b3083b0f5"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-logic"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-logic/target/javaparser-symbol-solver-logic-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-logic/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-logic:logic/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "24aca88290418e4b7f5b964403c370348e3bb0e4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9a67b86fd2c2412ce234d60923d3c252"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-model/target/javaparser-symbol-solver-model-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-model:model/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "6bad2799338823ad984fc22d639828e93f10429b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0a9679539369bab43f761534417626ef"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-model/target/javaparser-symbol-solver-model-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-model:model/pom"
+    },
+    {
+      "name" : "javaparser-core-testing",
+      "version" : "testing/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e2a4a931c14fa4445c69b13597f3ad7ebec24121"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ddb207f7d9fabdb81ee86367d3eb251e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-testing"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-testing/target/javaparser-core-testing-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core-testing/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-testing:testing/pom"
+    },
+    {
+      "name" : "javaparser-symbol-solver-testing",
+      "version" : "testing/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f9554f3d66bc0b177c9f5806468d2ee85f3b722"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ad51aaab7dd13e23beffcad1b3416363"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-symbol-solver-testing"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/target/javaparser-symbol-solver-testing-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-symbol-solver-testing/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-symbol-solver-testing:testing/pom"
+    },
+    {
+      "name" : "javaparser-core-generators",
+      "version" : "generators/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "ef2ddeec16d4dde08214e0efe57e2b1710b08eda"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0c7d7e701ad9befed67bd6178fdaebcf"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-generators"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-generators/target/javaparser-core-generators-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-core-generators/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-generators:generators/pom"
+    },
+    {
+      "name" : "javaparser-core-generators",
+      "version" : "generators/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "45ad267d681fa7c6895f0c2c0f564d2519fc8bdd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "54d1cbda791025e94a5a6558be11063b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-generators"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-generators/target/javaparser-core-generators-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core-generators/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-generators:generators/pom"
+    },
+    {
+      "name" : "javaparser-core-serialization",
+      "version" : "serialization/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "cf62922051c7936318922bf28eb50e36b844a541"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0827a1b8734009870e9ff3c737756dea"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-serialization"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-serialization/target/javaparser-core-serialization-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core-serialization/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-serialization:serialization/pom"
+    },
+    {
+      "name" : "javaparser-core-serialization",
+      "version" : "serialization/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "475ff9e23efb970148e81ef4ec07682f4609b8e2"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "2b1707736264acd71d05380dc2eadad6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-serialization"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-serialization/target/javaparser-core-serialization-3.15.15-sources.jar!/META-INF/maven/com.github.javaparser/javaparser-core-serialization/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-serialization:serialization/pom"
+    },
+    {
+      "name" : "javaparser-core-testing-bdd",
+      "version" : "bdd/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "44c6a912f3a4b1d64be29de8ed72f02de8cf0507"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "89a21f1c171f25319b37269e647d9e59"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/javaparser-core-testing-bdd"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-core-testing-bdd/target/javaparser-core-testing-bdd-3.15.15.jar!/META-INF/maven/com.github.javaparser/javaparser-core-testing-bdd/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:javaparser-core-testing-bdd:bdd/pom"
+    },
+    {
+      "group" : "com.github.javaparser",
+      "name" : "test-artifact",
+      "version" : "1.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "007b7eaad8abfd4657d3497a8055de9609b70c1b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3bb0c4226fced161f3b6ef7268f5a502"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.javaparser/test-artifact@1.0.0",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.javaparser/test-artifact"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/resources/test-artifact-1.0.0.jar!/META-INF/maven/com.github.javaparser/test-artifact/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.javaparser:test-artifact:1.0.0"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/org.javassist/javassist/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "50120f69224dd8684b445a6f3a5b08fe9b5c60f6"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "60974bfbf014085986b1d1eac44222c8"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.javassist/javassist"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/javaparser/./javaparser-symbol-solver-testing/src/test/test_sourcecode/javasymbolsolver_0_6_0/lib/javassist-3.19.0-GA.jar!/META-INF/maven/org.javassist/javassist/pom.xml"
+        }
+      ],
+      "type" : "library"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:javaparser-symbol-solver-model:model/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-core:${project.version}",
+        "org.javassist:javassist:null",
+        "com.google.guava:guava:null"
+      ]
+    },
+    {
+      "ref" : "com.github.javaparser:test-artifact:1.0.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:javaparser-core-testing-bdd:bdd/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-core:${project.version}",
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.jbehave:jbehave-core:4.5",
+        "com.github.valfirst:jbehave-junit-runner:2.3.0"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-core:core/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:guava:INF/maven/com.google.guava/guava/pom",
+      "dependsOn" : [
+        "com.google.code.findbugs:jsr305:null",
+        "com.google.errorprone:error_prone_annotations:null",
+        "com.google.j2objc:j2objc-annotations:null",
+        "org.codehaus.mojo:animal-sniffer-annotations:${animal.sniffer.version}"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-symbol-solver-logic:logic/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-symbol-solver-model:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-core-metamodel-generator:generator/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-core:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-symbol-solver-testing:testing/pom",
+      "dependsOn" : [
+        "org.hamcrest:hamcrest-library:null",
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "org.junit.jupiter:junit-jupiter-params:null",
+        "org.junit-pioneer:junit-pioneer:null",
+        "com.github.javaparser:javaparser-symbol-solver-logic:${project.version}",
+        "org.mockito:mockito-core:null",
+        "com.github.javaparser:javaparser-symbol-solver-model:${project.version}",
+        "com.github.javaparser:javaparser-symbol-solver-core:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:javaslang:INF/maven/io.javaslang/javaslang/pom",
+      "dependsOn" : [
+        "${project.groupId}:javaslang-match:${project.version}",
+        "junit:junit:null",
+        "org.assertj:assertj-core:null"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-core-serialization:serialization/pom",
+      "dependsOn" : [
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "com.github.javaparser:javaparser-core:${project.version}",
+        "javax.json:javax.json-api:1.1.4",
+        "org.glassfish:javax.json:1.1.4"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-core-generators:generators/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-core:${project.version}"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-symbol-solver-core:core/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-symbol-solver-logic:${project.version}",
+        "org.javassist:javassist:null",
+        "com.github.javaparser:javaparser-symbol-solver-model:${project.version}",
+        "com.google.guava:guava:null"
+      ]
+    },
+    {
+      "ref" : "null:javaparser-core-testing:testing/pom",
+      "dependsOn" : [
+        "com.github.javaparser:javaparser-core:${project.version}",
+        "org.junit.jupiter:junit-jupiter-engine:null",
+        "org.hamcrest:hamcrest-library:null",
+        "org.assertj:assertj-core:3.11.1",
+        "com.squareup.okhttp3:okhttp:3.11.0"
+      ]
+    }
+  ]
+}

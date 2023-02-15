@@ -1,0 +1,5547 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "org.eclipse.steady:cli-scanner:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "cli-scanner",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "commons-cli:commons-cli:1.4",
+      "type": "library",
+      "group": "commons-cli",
+      "name": "commons-cli",
+      "version": "1.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd3c7c9545a9cdb2051d1f9155c4f76b1e4ac5a57304404a6eedb578ffba7328"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c51c00206bb913cd8612b24abd9fa98ae89719b1"
+        },
+        {
+          "alg": "MD5",
+          "content": "c966d7e03507c834d5b09b848560174e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.inject.extensions:guice-assistedinject:4.2.3",
+      "type": "library",
+      "group": "com.google.inject.extensions",
+      "name": "guice-assistedinject",
+      "version": "4.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f27810a4b60663fa2d06b8423eda402fa9f8553bfbfde81bf0f0f1f2876b1385"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "acbfddc556ee9496293ed1df250cc378f331d854"
+        },
+        {
+          "alg": "MD5",
+          "content": "acb899a13864c3e0994f3342b7fdc604"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.smali:dexlib2:2.3.4",
+      "type": "library",
+      "group": "org.smali",
+      "name": "dexlib2",
+      "version": "2.3.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b7b45e790da22950b16177a668193d026b8f611c46f7b941340a61cc8cbe8b3b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9a8c80d8404f68922b905b06ce1145a76d5a7fac"
+        },
+        {
+          "alg": "MD5",
+          "content": "ec27df1158c3f007b6d7634d4f24ba1a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm-tree:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-tree",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c0e82b220b0a52c71c7ca2a58c99a2530696c7b58b173052b9d48fe3efb10073"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a3662cf1c1d592893ffe08727f78db35392fa302"
+        },
+        {
+          "alg": "MD5",
+          "content": "de9019ffee1e642e122b529f58ddd74b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        }
+      ]
+    },
+    {
+      "bom-ref": "aopalliance:aopalliance:1.0",
+      "type": "library",
+      "group": "aopalliance",
+      "name": "aopalliance",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0235ba8b489512805ac13a8f9ea77a1ca5ebe3e8"
+        },
+        {
+          "alg": "MD5",
+          "content": "04177054e180d09e3998808efa0401c7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.xml.bind:jaxb-api:2.3.1",
+      "type": "library",
+      "group": "javax.xml.bind",
+      "name": "jaxb-api",
+      "version": "2.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88b955a0df57880a26a74708bc34f74dcaf8ebf4e78843a28b50eae945732b06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8531ad5ac454cc2deb9d4d32c40c4d7451939b5d"
+        },
+        {
+          "alg": "MD5",
+          "content": "bcf270d320f645ad19f5edb60091e87f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.xml.fastinfoset:FastInfoset:1.2.15",
+      "type": "library",
+      "group": "com.sun.xml.fastinfoset",
+      "name": "FastInfoset",
+      "version": "1.2.15",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "785861db11ca1bd0d1956682b974ad73eb19cd3e01a4b3fa82d62eca97210aec"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bb7b7ec0379982b97c62cd17465cb6d9155f68e8"
+        },
+        {
+          "alg": "MD5",
+          "content": "57f3894ad7e069ae740b277d92d10fa0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-lang3:3.11",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568"
+        },
+        {
+          "alg": "MD5",
+          "content": "c592f49f703f9b3ab25556559b1ff379"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.uzh.ifi.seal:changedistiller:0.0.4",
+      "type": "library",
+      "group": "ch.uzh.ifi.seal",
+      "name": "changedistiller",
+      "version": "0.0.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a8d66b2c4f9bef28f31eaac0ff856d904ca726f6f824f8f2486cfa57a2029663"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "96312300e01199cb6a1b0fa44be357738eaf2b0f"
+        },
+        {
+          "alg": "MD5",
+          "content": "337fe70072fc60408baa49d221f16ff1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.bitbucket.mstrobel:procyon-core:0.5.36",
+      "type": "library",
+      "group": "org.bitbucket.mstrobel",
+      "name": "procyon-core",
+      "version": "0.5.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5123b7db09bea2176fd9ec09e3cab05c728e4f3151fc47dabb0b5d7c8e964896"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4f05cad04f40e6233e546b33b8498e60568142b9"
+        },
+        {
+          "alg": "MD5",
+          "content": "f796c4b755f7b3f2b84ff8f26781abf2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.validation:validation-api:2.0.1.Final",
+      "type": "library",
+      "group": "javax.validation",
+      "name": "validation-api",
+      "version": "2.0.1.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9873b46df1833c9ee8f5bc1ff6853375115dadd8897bcb5a0dffb5848835ee6c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cb855558e6271b1b32e716d24cb85c7f583ce09e"
+        },
+        {
+          "alg": "MD5",
+          "content": "5d02c034034a7a16725ceff787e191d6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "com.google.j2objc:j2objc-annotations:1.3",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba035118bc8bac37d7eff77700720999acd9986d"
+        },
+        {
+          "alg": "MD5",
+          "content": "5fa4ec4ec0c5aa70af8a7d4922df1931"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-api:2.18.0",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.18.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b977057233153b242ac58cc5b7d3121136b9c34c86c1e191c042ba4a828144c5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c72ad9b1d8d42e4ea7befd8248bf05877af4c63d"
+        },
+        {
+          "alg": "MD5",
+          "content": "38d29af13312d716f8d1d8fd79736f05"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang-python:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang-python",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "javax.annotation:javax.annotation-api:1.3.2",
+      "type": "library",
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.3.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "934c04d3cfef185a8008e7bf34331b79730a9d43"
+        },
+        {
+          "alg": "MD5",
+          "content": "2ab1973eefffaa2aeec47d50b9e40b9d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.ibm.wala:com.ibm.wala.core:1.4.3",
+      "type": "library",
+      "group": "com.ibm.wala",
+      "name": "com.ibm.wala.core",
+      "version": "1.4.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "262eb3ea8c0dc76578587e5761bb3dd29185bc14f5a9663155479cc1bba96dd0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "60cd6d68dcdd9e9fb84b23717f7e61089b2fe925"
+        },
+        {
+          "alg": "MD5",
+          "content": "8515a552f88d7a2976e99efa3f950ed6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.4.0-b180830.0438",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dec58bd4828227afffe5cdec56ce3b668a8e0ff7c4217999598eec68a8665ae2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2a0705ce8aa988b691c70e8bdcc1613050a148a2"
+        },
+        {
+          "alg": "MD5",
+          "content": "44285523aa85797f4634fcfaa5083db8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.soot-oss:soot:4.3.0",
+      "type": "library",
+      "group": "org.soot-oss",
+      "name": "soot",
+      "version": "4.3.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ee7a4b8bbc41b4c09a11b51b61500208cb424eb4ba0b736ce083c00dec57dd5c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1c1d2a6728e12e0f54c0d056c0778d0b1ed04941"
+        },
+        {
+          "alg": "MD5",
+          "content": "c611564ef405b283146118160e68c949"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:failureaccess:1.0.1",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg": "MD5",
+          "content": "091883993ef5bfa91da01dcc8fc52236"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.ibm.wala:com.ibm.wala.shrike:1.4.3",
+      "type": "library",
+      "group": "com.ibm.wala",
+      "name": "com.ibm.wala.shrike",
+      "version": "1.4.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49de6ec88c24c36be523ad40e3caf2340d0a263bdf0b7d513560718f00791942"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7db1a2333202adeb6f454e1c0642467262eb8282"
+        },
+        {
+          "alg": "MD5",
+          "content": "cd4e627005f49b2b175c4a4488b3a2d6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4ab2fa2b6d2cc9ccb1eaa05ea329c407b47b13ed2915f62f8c4b8cc96258d4de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fa29aa438674ff19d5e1386d2c3527a0267f291e"
+        },
+        {
+          "alg": "MD5",
+          "content": "04fc92647ce25b41121683674a50dfdf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.package-url:packageurl-java:1.4.1",
+      "type": "library",
+      "group": "com.github.package-url",
+      "name": "packageurl-java",
+      "version": "1.4.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8e23280221afd1e6561d433dfb133252cd287167acb0eca5a991667118ff10a2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0a0d1009191c1cf6b04f40d26e4717596f3a90e0"
+        },
+        {
+          "alg": "MD5",
+          "content": "f8b3a23e6402d317b612251c83d292e7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:3.8.0",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.8.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6b83e4a33220272c3a08991498ba9dc09519f190"
+        },
+        {
+          "alg": "MD5",
+          "content": "b9822b33f72326c74abded69b7c717cc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.activation:javax.activation-api:1.2.0",
+      "type": "library",
+      "group": "javax.activation",
+      "name": "javax.activation-api",
+      "version": "1.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "85262acf3ca9816f9537ca47d5adeabaead7cb16"
+        },
+        {
+          "alg": "MD5",
+          "content": "5e50e56bcf4a3ef3bc758f69f7643c3b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-logging:commons-logging:1.2",
+      "type": "library",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg": "MD5",
+          "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.velocity:velocity-engine-core:2.3",
+      "type": "library",
+      "group": "org.apache.velocity",
+      "name": "velocity-engine-core",
+      "version": "2.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b086cee8fd8183e240b4afcf54fe38ec33dd8eb0da414636e5bf7aa4d9856629"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e2133b723d0e42be74880d34de6bf6538ea7f915"
+        },
+        {
+          "alg": "MD5",
+          "content": "e761e6088b946b42289c5d676a515581"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.ibm.wala:com.ibm.wala.util:1.4.3",
+      "type": "library",
+      "group": "com.ibm.wala",
+      "name": "com.ibm.wala.util",
+      "version": "1.4.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c2c1526c208f7efac0eb2641163493a65e4740327ed2bd81ba070e5679b911db"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d6e16b869e0d7b072b74443ef3806a1845b5eee9"
+        },
+        {
+          "alg": "MD5",
+          "content": "1a47f9f8198e6451c1f233c4b91adf6e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
+      "type": "library",
+      "group": "com.github.spotbugs",
+      "name": "spotbugs-annotations",
+      "version": "4.7.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e2b4c654b2d7897490cf1f22a009ac677be4c92bfc493a0dedb5706f5e489839"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3546c0a24a083e7fdfdf5986bef76b19c477a264"
+        },
+        {
+          "alg": "MD5",
+          "content": "f9d6498ee19a3e9ace207f1f6d32bd1d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.bitbucket.mstrobel:procyon-compilertools:0.5.36",
+      "type": "library",
+      "group": "org.bitbucket.mstrobel",
+      "name": "procyon-compilertools",
+      "version": "0.5.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9f737863b5b577746d7594b45187870bf8184ddb3657ac71817ddc950cf6bff5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "14492dac5adad2ec563d0a491a593f9237fc8851"
+        },
+        {
+          "alg": "MD5",
+          "content": "3d9dd40aa03a8e9e601c5d4ac62df9a7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "de.upb.cs.swt:heros:1.2.0",
+      "type": "library",
+      "group": "de.upb.cs.swt",
+      "name": "heros",
+      "version": "1.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "516aa6011d84f348746a918d375f3c02d18076fc9a760305e1bf708725e71e90"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "675778f9cf26035925fcb0f14b059d4b485819c0"
+        },
+        {
+          "alg": "MD5",
+          "content": "08d69842f7122be5f6bce6c4ae7792ed"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.jvnet.staxex:stax-ex:1.8",
+      "type": "library",
+      "group": "org.jvnet.staxex",
+      "name": "stax-ex",
+      "version": "1.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "95b05d9590af4154c6513b9c5dc1fb2e55b539972ba0a9ef28e9a0c01d83ad77"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8cc35f73da321c29973191f2cf143d29d26a1df7"
+        },
+        {
+          "alg": "MD5",
+          "content": "a0ebfdbc6b5a34b174a1d1f732d1bdda"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-codec:commons-codec:1.11",
+      "type": "library",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3acb4705652e16236558f0f4f2192cc33c3bd189"
+        },
+        {
+          "alg": "MD5",
+          "content": "567159b1ae257a43e1391a8f59d24cfe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.inject:guice:4.2.3",
+      "type": "library",
+      "group": "com.google.inject",
+      "name": "guice",
+      "version": "4.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a21e50ffbb67e7adc5b46cf7b9e1a480f1e0f04fd4201ddb1c65da91290601af"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ea992d6d7bdcac7a43111a95d182a4c42eb5ff7"
+        },
+        {
+          "alg": "MD5",
+          "content": "4209f9e543a157db0f194688760409c9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpcore:4.4.13",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
+        },
+        {
+          "alg": "MD5",
+          "content": "e07a248f61c52776a2366c075dcd4963"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.antlr:antlr4-runtime:4.9.3",
+      "type": "library",
+      "group": "org.antlr",
+      "name": "antlr4-runtime",
+      "version": "4.9.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "131a6594969bc4f321d652ea2a33bc0e378ca312685ef87791b2c60b29d01ea5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "81befc16ebedb8b8aea3e4c0835dd5ca7e8523a8"
+        },
+        {
+          "alg": "MD5",
+          "content": "718f199bafa6574ffa1111fa3e10276a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "xmlpull:xmlpull:1.1.3.4d_b4_min",
+      "type": "library",
+      "group": "xmlpull",
+      "name": "xmlpull",
+      "version": "1.1.3.4d_b4_min",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b09c1108a561b4fa92afb105c49f66554b744b0f821c1ac9b92f9fb7c3acb17d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6dcdbef481ff8fbac336a47048048b2b31855015"
+        },
+        {
+          "alg": "MD5",
+          "content": "65b83a177c60e69440a8e4f44f51eb97"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.findbugs:jsr305:3.0.2",
+      "type": "library",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang-java:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang-java",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang-java-reach-soot:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang-java-reach-soot",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "com.sun.istack:istack-commons-runtime:3.0.7",
+      "type": "library",
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6443e10ba2e259fb821d9b6becf10db5316285fc30c53cec9d7b19a3877e7fdf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c197c86ceec7318b1284bffb49b54226ca774003"
+        },
+        {
+          "alg": "MD5",
+          "content": "83e9617b86023b91bd54f65c09838f4b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-compress:1.21",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6aecfd5459728a595601cfa07258d131972ffc39b492eb48bdd596577a2f244a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4ec95b60d4e86b5c95a0e919cb172a0af98011ef"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a713d10331bc4e13459a3dc0463f16f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.13",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada"
+        },
+        {
+          "alg": "MD5",
+          "content": "40d6b9075fbd28fa10292a45a0db9457"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-configuration:commons-configuration:1.10",
+      "type": "library",
+      "group": "commons-configuration",
+      "name": "commons-configuration",
+      "version": "1.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "95d4e6711e88ce78992c82c25bc03c8df9ecf5a357f0de0bec72a26db3399374"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2b36e4adfb66d966c5aef2d73deb6be716389dc9"
+        },
+        {
+          "alg": "MD5",
+          "content": "b16511ce540fefd53981245f5f21c5f8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang-java-reach-wala:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang-java-reach-wala",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "de.fraunhofer.sit.sse.flowdroid:soot-infoflow:2.10.0",
+      "type": "library",
+      "group": "de.fraunhofer.sit.sse.flowdroid",
+      "name": "soot-infoflow",
+      "version": "2.10.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5a726eae2793b53265f7e15fbc3a0be7d1ca386e61fb7141edec4fd461480808"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8bf5dda1f5e9c2822a2d36fd283f8ade0032f2a8"
+        },
+        {
+          "alg": "MD5",
+          "content": "16ddecc07aab480b7e52787d9080e6b9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.13.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac5b27a634942391ca113850ee7db01df1499a240174021263501c05fc653b44"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "858c6cc78e1f08a885b1613e1d817c829df70a6e"
+        },
+        {
+          "alg": "MD5",
+          "content": "7e982dafcf25c24b365b5088eaf8a0a6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-lang:commons-lang:2.6",
+      "type": "library",
+      "group": "commons-lang",
+      "name": "commons-lang",
+      "version": "2.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "50f11b09f877c294d56f24463f47d28f929cf5044f648661c0f0cfbae9a2f49c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+        },
+        {
+          "alg": "MD5",
+          "content": "4d5c1693079575b362edf41500630bbd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-core:2.13.4",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.13.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4c2e043200edd9ee7ba6fc378bd5c17784a5bf2388e152d208068b51fd0839cf"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0cf934c681294b97ef6d80082faeefbe1edadf56"
+        },
+        {
+          "alg": "MD5",
+          "content": "e8f064827ddb8deb06e45d20988bcaa5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-io:commons-io:2.11.0",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        },
+        {
+          "alg": "MD5",
+          "content": "3b4b7ccfaeceeac240b804839ee1a1ca"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm-commons:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-commons",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e5590489d8f1984d85bfeabd3b17374c59c28ae09d48ec4a0ebbd01959ecd358"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "431dc677cf5c56660c1c9004870de1ed1ea7ce6c"
+        },
+        {
+          "alg": "MD5",
+          "content": "a53524cb592585ce48f2de0ada82b885"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ca.mcgill.sable:soot:4.1.0",
+      "type": "library",
+      "group": "ca.mcgill.sable",
+      "name": "soot",
+      "version": "4.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "72a83c14a2ba2a82ab9b86c70c41e8e06325de5f98caba276217cde8588f8b46"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aef5d705862a93daa568c33182ff3fbdc7ee8c16"
+        },
+        {
+          "alg": "MD5",
+          "content": "1518cd8d896459853d074a1de5f51046"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm-util:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-util",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a24485517596ae1003dcf2329c044a2a861e5c25d4476a695ccaacf560c74d1a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5b0b0f8cdb6c90582302ffcf5c20447206122f48"
+        },
+        {
+          "alg": "MD5",
+          "content": "5777b00daedeaf5987b92ad35d2a8cb2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:txw2:2.4.0-b180830.0438",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.4.0-b180830.0438",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "def433e60b3e1fb84950ea57e09ba1664aabc017ffa67c2a4ff7a0557753ba01"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "31bae7fb5924472b3243b265b47cb741da715419"
+        },
+        {
+          "alg": "MD5",
+          "content": "fc3c5b2147a96531196e6d0c69b3dca4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-beanutils:commons-beanutils:1.9.4",
+      "type": "library",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51"
+        },
+        {
+          "alg": "MD5",
+          "content": "07dc532ee316fe1f2f0323e9bd2f8df4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.21",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.21",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1d5aeb6bd98b0fdd151269eae941c05f6468a791ea0f1e68d8e7fe518af3e7df"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "139535a69a4239db087de9bab0bee568bf8e0b70"
+        },
+        {
+          "alg": "MD5",
+          "content": "c9be56284a92dcb2576679282eff80bf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.inject:javax.inject:1",
+      "type": "library",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6975da39a7040257bd51d21a231b76c915872d38"
+        },
+        {
+          "alg": "MD5",
+          "content": "289075e48b909e9e74e6c915b3631d2e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "de.upb.cs.swt:axml:2.0.0",
+      "type": "library",
+      "group": "de.upb.cs.swt",
+      "name": "axml",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "76f0cd142ca974d28ed09276aea9ac9e8f63e9d8502fdc511d6f02615fb875da"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2dccd674060b3756c4bb8e085334bb1ca266be08"
+        },
+        {
+          "alg": "MD5",
+          "content": "2cf30274755c29883d7caa9005a11fae"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.errorprone:error_prone_annotations:2.5.1",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ff80626baaf12a09342befd4e84cba9d50662f5fcd7f7a9b3490a6b7cf87e66c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "562d366678b89ce5d6b6b82c1a073880341e3fba"
+        },
+        {
+          "alg": "MD5",
+          "content": "2bf3239388cf5c817cd83ecb692b045f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:guava:30.1.1-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "30.1.1-jre",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "87e0fd1df874ea3cbe577702fe6f17068b790fd8"
+        },
+        {
+          "alg": "MD5",
+          "content": "05374f163d0a4141db672fff9df95b12"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-collections:commons-collections:3.2.2",
+      "type": "library",
+      "group": "commons-collections",
+      "name": "commons-collections",
+      "version": "3.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+        },
+        {
+          "alg": "MD5",
+          "content": "f54a8510f834a1a57166970bfc982e94"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.13.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c9faff420d9e2c7e1e4711dbeebec2506a32c9942027211c5c293d8d87807eb6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "98b0edfa8e4084078f10b7b356c300ded4a71491"
+        },
+        {
+          "alg": "MD5",
+          "content": "03cb7aea126610e4c96ca6d14d75cc55"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-core:2.18.0",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.18.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ec7a23bfaf4d8ddf3394671561dd4a0f35b69d6fa6918734e3e8bc4066f741c4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "07c1882ede137548925eadb750615edab2f6e13c"
+        },
+        {
+          "alg": "MD5",
+          "content": "8869945da3b66916542b9fdd2e2605f2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ca.mcgill.sable:polyglot:2006",
+      "type": "library",
+      "group": "ca.mcgill.sable",
+      "name": "polyglot",
+      "version": "2006",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d145d53b44264b24b588f649e6c95a6d8934079ba491146e4289f4ac1a631773"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f0e528051faa260d83f53d58275954d973231ce7"
+        },
+        {
+          "alg": "MD5",
+          "content": "e0e85c25cc81f4279a9e608e49c0048f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.functionaljava:functionaljava:4.2",
+      "type": "library",
+      "group": "org.functionaljava",
+      "name": "functionaljava",
+      "version": "4.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d8cfc6ed3071e818d1273c1b243edb4c96c0e10eacf6bed80724aa2987ebdcc5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f26bdd90a8d6b6faeb38ab2ba4c39580c1eb989f"
+        },
+        {
+          "alg": "MD5",
+          "content": "44bbc1184c2ff1c26c8e8ffba2fad2a5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.gson:gson:2.9.0",
+      "type": "library",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.9.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c96d60551331a196dac54b745aa642cd078ef89b6f267146b705f2c2cbef052d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a1167e089096758b49f9b34066ef98b2f4b37aa"
+        },
+        {
+          "alg": "MD5",
+          "content": "53fa3e6753e90d931d62cb89580fde2f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm-analysis:7.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm-analysis",
+      "version": "7.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4612c0511a63db2a2570f07ad1959e19ed8eb703e4114da945cb85682519a55c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "379e0250f7a4a42c66c5e94e14d4c4491b3c2ed3"
+        },
+        {
+          "alg": "MD5",
+          "content": "7f66f9d85c5bf11f6bd94e249392c86f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:lang-java-reach:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "lang-java-reach",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "net.sf.trove4j:trove4j:3.0.3",
+      "type": "library",
+      "group": "net.sf.trove4j",
+      "name": "trove4j",
+      "version": "3.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3c8616203d61a12a7e3487e8b34f3c198c2b5ba9e90da0c7ea32d99cd4958012"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "42ccaf4761f0dfdfa805c9e340d99a755907e2dd"
+        },
+        {
+          "alg": "MD5",
+          "content": "8fc4d4e0129244f9fd39650c5f30feb2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:shared:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "shared",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.javassist:javassist:3.28.0-GA",
+      "type": "library",
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.28.0-GA",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "57d0a9e9286f82f4eaa851125186997f811befce0e2060ff0a15a77f5a9dd9a7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9a958811a88381bb159cc2f5ed79c34a45c4af7a"
+        },
+        {
+          "alg": "MD5",
+          "content": "1a2dd8c76321cef26cc2669fe70a2557"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jdt.core.compiler:ecj:4.6.1",
+      "type": "library",
+      "group": "org.eclipse.jdt.core.compiler",
+      "name": "ecj",
+      "version": "4.6.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9cddda75f4a1b4469e73f44e7b61a3e897d0f657df4797f9106ffe88c4eeade0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5555607add54eb79c5a0729134e663fe2e6300c2"
+        },
+        {
+          "alg": "MD5",
+          "content": "127e660140c0b17ef651295287102555"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:rest-backend:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "rest-backend",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.springframework:spring-expression:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-expression",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c0fea3c2a8dcc231070a74a473f7589b39db22fbd03edf4fd3f4740434ff7814"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "61c51831e49a85fc5bf925253ca63f46fec6f013"
+        },
+        {
+          "alg": "MD5",
+          "content": "240d2a18a4e363082c9748a9663fb7b8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.minidev:json-smart:2.4.8",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "174a9ad578b56644e62b3965d8bf94ac3a76e707c6343b8abac9d3671438b4b2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c62f5f72ab05eb54d40e2abf0360a2fe9ea477f"
+        },
+        {
+          "alg": "MD5",
+          "content": "20a8427206313ed3aa85cdc47f730415"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-aop:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aop",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8678295dd6dfd35960f220087480ec1741a448e7ca018ad6525935672584ee88"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e9cce60c60257ae1d5b3cd675ec3a8286ed1955"
+        },
+        {
+          "alg": "MD5",
+          "content": "b1be5b3d7f482926b4c9c55fff219fd0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-beans:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e962d99bf7b3753cded86ce8ce6b4be5bed27d0b59feeb2a85948e29bba2807d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3f0ea6598a5a1eae0a672f025a33a0b7e0d6dfd3"
+        },
+        {
+          "alg": "MD5",
+          "content": "8afc1c508b017da98daf0f9e1a6a9d2c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.micrometer:micrometer-core:1.7.10",
+      "type": "library",
+      "group": "io.micrometer",
+      "name": "micrometer-core",
+      "version": "1.7.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2035a19821953bc76839c576ebc6e0942385c543e6d41bafc6649d4c0364e1be"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "11e2e84a7bfc13ca5d6f9a9b72d4af831df4cc64"
+        },
+        {
+          "alg": "MD5",
+          "content": "0d3375d39802b9bb98cd1a93af366f3c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-jdbc:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jdbc",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cfb6b8be5b6f4029cce12f78d185c22e38452483069c5ee971a249235378cdac"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b168d4c024cb002377bca91f2b804297d8b74003"
+        },
+        {
+          "alg": "MD5",
+          "content": "c12e56d5bd660d5f7b765164c08f5077"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-autoconfigure:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-autoconfigure",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c186ecde7a6c563212d9425a1235148e76f33adb1bfc1e2901fa3559d343a12c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "59251dea0eac5480100e93ec4c56ca26fbce22f4"
+        },
+        {
+          "alg": "MD5",
+          "content": "945afd28b0df41cb712470e74a66bd56"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.persistence:jakarta.persistence-api:2.2.3",
+      "type": "library",
+      "group": "jakarta.persistence",
+      "name": "jakarta.persistence-api",
+      "version": "2.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0c2d73ab36ad24eeed6e0bea928e9d0ef771de8df689e23b7754d366dda27c53"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8f6ea5daedc614f07a3654a455660145286f024e"
+        },
+        {
+          "alg": "MD5",
+          "content": "e0a655f398f8e68e0afebb0f71fba4e5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.minidev:accessors-smart:2.4.8",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "2.4.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7dd705aa1ac0e030f8ee2624e8e77239ae1eef6ccc2621c0b8c189866ee1c42c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6e1bee5a530caba91893604d6ab41d0edcecca9a"
+        },
+        {
+          "alg": "MD5",
+          "content": "e5761631acc11ded0255af1249937e85"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-lang3:3.12.0",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e"
+        },
+        {
+          "alg": "MD5",
+          "content": "19fe50567358922bdad277959ea69545"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.dataformat",
+      "name": "jackson-dataformat-yaml",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f34baee89a7040b83f5806ef7bd83e7160b0dbaeaf141ba8423004cd9c1864c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cfba448bc4e92b8656968756a9c4af1ad8e502e4"
+        },
+        {
+          "alg": "MD5",
+          "content": "998d69617a7f33297233736002c20b82"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.javassist:javassist:3.27.0-GA",
+      "type": "library",
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.27.0-GA",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0730bdb1547a5a3f458d60400d804078d80f329c5b5dbc2498a4e220de8f7013"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f63e6aa899e15eca8fdaa402a79af4c417252213"
+        },
+        {
+          "alg": "MD5",
+          "content": "05ea852668c9e38294d1bb823af95a70"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-codec:commons-codec:1.15",
+      "type": "library",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.15",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+        },
+        {
+          "alg": "MD5",
+          "content": "303baf002ce6d382198090aedd9d79a2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.module",
+      "name": "jackson-module-parameter-names",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bcd0e6411465100f2b90c9d7c940d191ef037079662fe82d8aba995511206d42"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6149920352cfbdde97e6a3d35437260a72907761"
+        },
+        {
+          "alg": "MD5",
+          "content": "64d9623e71a4d62b7184701d90d310d1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.swagger.core.v3:swagger-annotations:2.1.1",
+      "type": "library",
+      "group": "io.swagger.core.v3",
+      "name": "swagger-annotations",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a138af458693ef5edd32869260e49becaf02a370619e031f817e215275cc48a1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4d645f0d4a1ec1f13bef19ad1b10e72b30fe9307"
+        },
+        {
+          "alg": "MD5",
+          "content": "474583342ea1968dc0d624c9d37c1aa5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4723b82ad4f492bbb4bb2b8e158a52f6b6de5fd508ca3f347628a0f9dbfce527"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "afa269ff27342e8c472a70a4f9355c6b66f16384"
+        },
+        {
+          "alg": "MD5",
+          "content": "0318f1936643f4982ba5251cf69a49f7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-logging:commons-logging:1.1.1",
+      "type": "library",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ce6f913cad1f0db3aad70186d65c5bc7ffcc9a99e3fe8e0b137312819f7c362f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5043bfebc3db072ed80fbd362e7caf00e885d8ae"
+        },
+        {
+          "alg": "MD5",
+          "content": "ed448347fc0104034aa14c8189bf37de"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-web:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-web",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7918618bd44e82fee77ed878e86e556353370c66d1703344b2f5f6a795c9669d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8db103c4109e925ec6f5fbfe577d447d3e95ded5"
+        },
+        {
+          "alg": "MD5",
+          "content": "68bf9d2892d68a1b19060647d6605f24"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "jaxb-runtime",
+      "version": "2.3.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cd87d4b98a8bec1d237aed61472ef4adb6a8bb0515cbde1fd62fdd9781c16770"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1e6cd0e5d9f9919c8c8824fb4d310b09a978a60e"
+        },
+        {
+          "alg": "MD5",
+          "content": "29acad12b7cdd22b2a5ab66cd7439d48"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.interceptor:javax.interceptor-api:1.2.2",
+      "type": "library",
+      "group": "javax.interceptor",
+      "name": "javax.interceptor-api",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a4df5166bf344be3772f9cd81551ea1f03fe90100b1f6ed30713ea30740440b8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b076d5887ff19f7311fd70cbe03fa3d3d8628a8e"
+        },
+        {
+          "alg": "MD5",
+          "content": "d46f2dac1607941fbfb81eb7bc83157a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.webjars:webjars-locator-core:0.46",
+      "type": "library",
+      "group": "org.webjars",
+      "name": "webjars-locator-core",
+      "version": "0.46",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2295de3f8b84fd2f55aca565a97213e826f8bbad1ca8b16a8c75aa98f7a20110"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2c207eae0bf475d6e2444ece594c199f1f418322"
+        },
+        {
+          "alg": "MD5",
+          "content": "467243ddcdf07d23e2bd040ae096d61f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "type": "library",
+      "group": "jakarta.xml.bind",
+      "name": "jakarta.xml.bind-api",
+      "version": "2.3.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c04539f472e9a6dd0c7685ea82d677282269ab8e7baca2e14500e381e0c6cec5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "48e3b9cfc10752fba3521d6511f4165bea951801"
+        },
+        {
+          "alg": "MD5",
+          "content": "61286918ca0192e9f87d1358aef718dd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-core:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ca6fbdcf571fe1ee036d8e0b990175169baf629d38a8714f59e0e0fdc8f7a361"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7ff3000f3342989cb011b6095a0e86f2e5176cef"
+        },
+        {
+          "alg": "MD5",
+          "content": "91eb16af497ab752763f5bb24e1239e7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.yaml:snakeyaml:1.28",
+      "type": "library",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.28",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "35446a1421435d45e4c6ac0de3b5378527d5cc2446c07183e24447730ce1fffa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7cae037c3014350c923776548e71c9feb7a69259"
+        },
+        {
+          "alg": "MD5",
+          "content": "0fac676adf839a85e0ca7a3df05cb28b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.tomcat.embed:tomcat-embed-el:9.0.60",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-el",
+      "version": "9.0.60",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "526e7cbe8d6e3b35e5e355ee299809d5acfb4c9cc948ca1670db6508b07f47be"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "46dad1a278f348ca73466e0b73132bf4c4892c06"
+        },
+        {
+          "alg": "MD5",
+          "content": "99bba291948e6db87de404569b2be6eb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
+      "type": "library",
+      "group": "org.springdoc",
+      "name": "springdoc-openapi-webmvc-core",
+      "version": "1.2.32",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "973b13759b0ae116f0cfd9b2d9ac0b1171799d49509d80cf85658375db22c077"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "caad2a403f73fb61eb2f98c592f8785f76fd827a"
+        },
+        {
+          "alg": "MD5",
+          "content": "93a0a50f76506bfa2fe4f11d5e5026e3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.ow2.asm:asm:9.1",
+      "type": "library",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "9.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a99500cf6eea30535eeac6be73899d048f8d12a8"
+        },
+        {
+          "alg": "MD5",
+          "content": "54b9f5d15e4877a4ea4cf9ec48e07afa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springdoc:springdoc-openapi-ui:1.2.32",
+      "type": "library",
+      "group": "org.springdoc",
+      "name": "springdoc-openapi-ui",
+      "version": "1.2.32",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91792e7e30d22827ae304090f0a94fc76b4f7671d36395d8a3461dc18c55b917"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "473ccb692becebd121577fdff0b61e4c9914b3eb"
+        },
+        {
+          "alg": "MD5",
+          "content": "b4655bb295c09862610469ccf42c0066"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.activation:activation:1.1",
+      "type": "library",
+      "group": "javax.activation",
+      "name": "activation",
+      "version": "1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2881c79c9d6ef01c58e62beea13e9d1ac8b8baa16f2fc198ad6e6776defdcdd3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e6cb541461c2834bdea3eb920f1884d1eb508b50"
+        },
+        {
+          "alg": "MD5",
+          "content": "8ae38e87cd4f86059c0294a8fe3e0b18"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.datatype",
+      "name": "jackson-datatype-jdk8",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3602428cafcef7819ac1fc718fe5b2ab933944f9f781874cbd44a50273bbcee2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ccbbe6e72e3665e7ad9d0eee4613e1d8a09b81ae"
+        },
+        {
+          "alg": "MD5",
+          "content": "2af8967df4fbe28274051430886f5cba"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:guava:30.0-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "30.0-jre",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "56b292df9ec29d102820c1fd7dd581cd749d5c416c7b3aeac008dbda3b984cc2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8ddbc8769f73309fe09b54c5951163f10b0d89fa"
+        },
+        {
+          "alg": "MD5",
+          "content": "a7379037e654274e3544f2488a29b31f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:3.5.0",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "729990b3f18a95606fc2573836b6958bcdb44cb52bfbd1b7aa9c339cff35a5a4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f50520c8abea66fbd8d26e481d3aef5c673b510"
+        },
+        {
+          "alg": "MD5",
+          "content": "4464def1ed5c10f248ebfe1bccbedf1a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.aspectj:aspectjweaver:1.9.7",
+      "type": "library",
+      "group": "org.aspectj",
+      "name": "aspectjweaver",
+      "version": "1.9.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1b448d82bd0f8a8c1842506e6c7edb95ff1a1275ce39f766e7884122b866fe5d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "158f5c255cd3e4408e795b79f7c3fbae9b53b7ca"
+        },
+        {
+          "alg": "MD5",
+          "content": "a4d97c5a2f94b8b5d132761a769e5eeb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.jboss:jandex:2.2.3.Final",
+      "type": "library",
+      "group": "org.jboss",
+      "name": "jandex",
+      "version": "2.2.3.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0544d55ec0cb378fd8f3b20e66277f893f3094cb67e71a1ec0cce6ce150f83b3"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d3865101f0666b63586683bd811d754517f331ab"
+        },
+        {
+          "alg": "MD5",
+          "content": "721b5868cfbb718dd97facc96929dde8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-web:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-web",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "be0c193ac2ca2e39d5a3395f5d07625f04b4a0ab16bb0fb04506ecb2c57e87eb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0c217615248c94a218bb00ea415ad6eebe460ba3"
+        },
+        {
+          "alg": "MD5",
+          "content": "fcdcc7a4407694a34cfcbe22f18fe0a5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.mail:javax.mail:1.6.2",
+      "type": "library",
+      "group": "com.sun.mail",
+      "name": "javax.mail",
+      "version": "1.6.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "45b515e7104944c09e45b9c7bb1ce5dff640486374852dd2b2e80cc3752dfa11"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "935151eb71beff17a2ffac15dd80184a99a0514f"
+        },
+        {
+          "alg": "MD5",
+          "content": "0b81d022797740d72d21620781841374"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+      "type": "library",
+      "group": "org.hibernate.common",
+      "name": "hibernate-commons-annotations",
+      "version": "5.1.2.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1c7ce712b2679fea0a5441eb02a04144297125b768944819be0765befb996275"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e59ffdbc6ad09eeb33507b39ffcf287679a498c8"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a2490b3eb8e7585a6a899d27d7ed43f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.bytebuddy:byte-buddy:1.10.22",
+      "type": "library",
+      "group": "net.bytebuddy",
+      "name": "byte-buddy",
+      "version": "1.10.22",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f931adc4393177afa5244c47257a83955e27fe047c409378c6eda090fb074a84"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ef45d7e2cd1c600d279704f492ed5ce2ceb6cdb5"
+        },
+        {
+          "alg": "MD5",
+          "content": "8307313c20c0b9417cf5f60b2cda7436"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-data-rest",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "23179e1435b2e2fdc7b1aae786d4352394e7f4d6dec723e01cb1ab48d0d11451"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4391a04014c493c72e058c540a1fc5bdf776ac3e"
+        },
+        {
+          "alg": "MD5",
+          "content": "8dd40897670a95a94f4ccfcf1811725c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-actuator:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5cb3307a32f7506ce79cbd0e29b6d4da232ee7d766a8e3d3004084fbbf29f316"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "bbe668b28b7b5736e14bec44030065c1f5fabe72"
+        },
+        {
+          "alg": "MD5",
+          "content": "95697c3e7acbca1ac2b6fb4488373b08"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ba354f3ca0b36da70468b3ce16b8bca52d125f7925c309803889b4398ca30998"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c43224a577cab8985ec17d971cd25ae88c92a94d"
+        },
+        {
+          "alg": "MD5",
+          "content": "82beae27be7cbcdb841dcf9184107e2a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-to-slf4j:2.17.2",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-to-slf4j",
+      "version": "2.17.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9bcfa5273527b950d79739d11e8f8080cfc881908fa2a946b4e891c0293094de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "17dd0fae2747d9a28c67bc9534108823d2376b46"
+        },
+        {
+          "alg": "MD5",
+          "content": "14b27a4266c6d71c949cb4591ee463cc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-jcl:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5769aae0e6addd8f5f59cbacd1b0635d819851e66baec4fce7d6c1fad1fadf8e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7e5d8cd447981bc20d4c397a2ba0a1c65ff2267a"
+        },
+        {
+          "alg": "MD5",
+          "content": "4a258a1588318010d00aa66db45e03ef"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.atteo:evo-inflector:1.2.2",
+      "type": "library",
+      "group": "org.atteo",
+      "name": "evo-inflector",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c485c110870c597ba401dda2c7c5819a3b2e15ee064f539323138302bd591d48"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2551aad98d65ac5464d81fe05f0e1516cfe471c9"
+        },
+        {
+          "alg": "MD5",
+          "content": "da63c9ef600b74c760d81a09f9053d04"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.webjars:swagger-ui:3.25.0",
+      "type": "library",
+      "group": "org.webjars",
+      "name": "swagger-ui",
+      "version": "3.25.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e06d0dd86936192c3e0bbc0d461d9adbc75a02b07b2cf9fb8edf5677525aaf7b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7b41c520c163d4308f19e5f879e1abaf0a3f03f9"
+        },
+        {
+          "alg": "MD5",
+          "content": "9dad163ba9533c3a7db4f5a867133a03"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.postgresql:postgresql:42.4.2",
+      "type": "library",
+      "group": "org.postgresql",
+      "name": "postgresql",
+      "version": "42.4.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "692b7e93f3a0e793d56138582aa2f8107430b8efce8c11faf44b0a20fce4890f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "974fecc1725156b7a646eca68656cbd945201d2f"
+        },
+        {
+          "alg": "MD5",
+          "content": "22e07f2a7c4fa1100b341c29036c5a37"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.glassfish.jaxb:txw2:2.3.6",
+      "type": "library",
+      "group": "org.glassfish.jaxb",
+      "name": "txw2",
+      "version": "2.3.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f8bc249d22ad950257c373aea80c2f16f18f5eb4d557bdb2660bf5e1f1e84776"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "45db7b69a8f1ec2c21eb7d4fc0ee729f53c1addc"
+        },
+        {
+          "alg": "MD5",
+          "content": "dd02e61e4662e6461f0c21b08e721021"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-jdbc",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "baa1dbe2142bded162156311913b5255591ba8bf01f07044b25f6be4cd2dbb53"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0423e05e8769e97be1d1dcfe0b3c151e900ab820"
+        },
+        {
+          "alg": "MD5",
+          "content": "fcf899d1b3add515b85872a8f9c88889"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml:classmate:1.5.1",
+      "type": "library",
+      "group": "com.fasterxml",
+      "name": "classmate",
+      "version": "1.5.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aab4de3006808c09d25dd4ff4a3611cfb63c95463cfd99e73d2e1680d229a33b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3fe0bed568c62df5e89f4f174c101eab25345b6c"
+        },
+        {
+          "alg": "MD5",
+          "content": "e91fcd30ba329fd1b0b6dc5321fd067c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.webjars:webjars-locator:0.38",
+      "type": "library",
+      "group": "org.webjars",
+      "name": "webjars-locator",
+      "version": "0.38",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aa62e73553cd87d9894c13bd8010c8c078af03c68723bbda51cddc38eb72f3ff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d27083737381eadbd11b3f94dbd207149b1a7dd3"
+        },
+        {
+          "alg": "MD5",
+          "content": "ccb0179a7a0db487bdcc811a86faa421"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-actuator-autoconfigure",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b680605023f09c07accc62e9b0be9d007d25acd2d5c7b2ddb7d39ce681b51a82"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2e5435c7b0849b298b53165ef952fbfc6a742cb4"
+        },
+        {
+          "alg": "MD5",
+          "content": "92cf14234178ff3b42f1c86b06df558f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.jboss.logging:jboss-logging:3.4.3.Final",
+      "type": "library",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging",
+      "version": "3.4.3.Final",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0b324cca4d550060e51e70cc0045a6cce62f264278ec1f5082aafeb670fcac49"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea"
+        },
+        {
+          "alg": "MD5",
+          "content": "b298d4b79e591843c1eb1458ea79f070"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.swagger.core.v3:swagger-integration:2.1.1",
+      "type": "library",
+      "group": "io.swagger.core.v3",
+      "name": "swagger-integration",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4853b2bb894570d0fbb104a98b3b20e7ae0db195aa52836eaebc5c0e94ed79d4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "79454bd29a5d133d7cc15f9062488399fbe96c06"
+        },
+        {
+          "alg": "MD5",
+          "content": "7ce4d1435e77c69a7d6e19f4a0c0e9c0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.data:spring-data-rest-core:3.5.10",
+      "type": "library",
+      "group": "org.springframework.data",
+      "name": "spring-data-rest-core",
+      "version": "3.5.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c59dc0bc40b0d2893742569d6c6cbcf1e02455fbc9eeb3b0dbedca55b798c293"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "80fe9d1fb6823a5ba2849b4035fb089790868343"
+        },
+        {
+          "alg": "MD5",
+          "content": "4aa73b1540d388af32173df8d6ac4322"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-tomcat",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cba38d192023500a8b6e35f76a3e07a6ba927fbe472229d651138b1b098c5145"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "15fe18ed97e21ca94e86e6cdd54ddd2baa6964a5"
+        },
+        {
+          "alg": "MD5",
+          "content": "c967cd03a6bef373b4f02a9314e09db0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "antlr:antlr:2.7.7",
+      "type": "library",
+      "group": "antlr",
+      "name": "antlr",
+      "version": "2.7.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88fbda4b912596b9f56e8e12e580cc954bacfb51776ecfddd3e18fc1cf56dc4c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0"
+        },
+        {
+          "alg": "MD5",
+          "content": "f8f1352c52a4c6a500b597596501fc64"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.annotation:jakarta.annotation-api:1.3.5",
+      "type": "library",
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "1.3.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "85fb03fc054cdf4efca8efd9b6712bbb418e1ab98241c4539c8585bbc23e1b8a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "59eb84ee0d616332ff44aba065f3888cf002cd2d"
+        },
+        {
+          "alg": "MD5",
+          "content": "8b165cf58df5f8c2a222f637c0a07c97"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.tomcat.embed:tomcat-embed-core:9.0.60",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-core",
+      "version": "9.0.60",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7f7ce6b70a0750202d8ef7f4f8832fc59d6b474d303c7135cba6646d95a1a314"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0e14045220243804544ddb168cb532f4640a220c"
+        },
+        {
+          "alg": "MD5",
+          "content": "d44c65e29d1a56777c9fdd2453f02159"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.istack:istack-commons-runtime:3.0.12",
+      "type": "library",
+      "group": "com.sun.istack",
+      "name": "istack-commons-runtime",
+      "version": "3.0.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "27d85fc134c9271d5c79d3300fc4669668f017e72409727c428f54f2417f04cd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cbbe1a62b0cc6c85972e99d52aaee350153dc530"
+        },
+        {
+          "alg": "MD5",
+          "content": "1952bd76321f8580cfaa57e332a68287"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-databind:2.12.6.1",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.12.6.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "eb60e494ba8c23e653da4db8e29af0342927fc7e1c60501bf99e93145738c696"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "df01cc0c2d4acb913d73d587274986a12e3dec8c"
+        },
+        {
+          "alg": "MD5",
+          "content": "88088e2e9bbc93adb021ae8bf436e544"
+        }
+      ]
+    },
+    {
+      "bom-ref": "jakarta.activation:jakarta.activation-api:1.2.2",
+      "type": "library",
+      "group": "jakarta.activation",
+      "name": "jakarta.activation-api",
+      "version": "1.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a187a939103aef5849a7af84bd7e27be2d120c410af291437375ffe061f4f09d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "99f53adba383cb1bf7c3862844488574b559621f"
+        },
+        {
+          "alg": "MD5",
+          "content": "1cbb480310fa1987f9db7a3ed7118af7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.github.classgraph:classgraph:4.8.44",
+      "type": "library",
+      "group": "io.github.classgraph",
+      "name": "classgraph",
+      "version": "4.8.44",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c4b213084ca1f4bf88484a5fe3d53cc46b9b6c17ebec74be30abdfd4f1c43790"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "52f4c19484041e8857f444985b7b8f8a9783da56"
+        },
+        {
+          "alg": "MD5",
+          "content": "bfa81305f4fc016325b5ce8ab3f15bf3"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-json:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-json",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1526c9f00bf84835c746f9182228188373864f965d8ac66580af0672634f08bd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "549b45bb8d9edefb693406cc7e6c590943009cd8"
+        },
+        {
+          "alg": "MD5",
+          "content": "97d3415ccb5ecb864f106d1b8d70769e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-orm:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-orm",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "12faa2c7347b58db005424078cb325a9c9f427f91c167d4b926ecda5e70cfc8d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ec32d5f4c718cc63e7c44adf5c4e7c49cdffa147"
+        },
+        {
+          "alg": "MD5",
+          "content": "9888adaf9c9ab46c75bdc9a6c38042f2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-core:1.2.11",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-core",
+      "version": "1.2.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ce1e9397be8298a2e99029f55f955c6fa3cef255171c554d0b9c201cffd0159"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a01230df5ca5c34540cdaa3ad5efb012f1f1f792"
+        },
+        {
+          "alg": "MD5",
+          "content": "115da115b5e66ef64e774ec35af1fb1a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE",
+      "type": "library",
+      "group": "org.springframework.plugin",
+      "name": "spring-plugin-core",
+      "version": "2.0.0.RELEASE",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6e6d026d6b572495533692173a264c6959f48d5ef7f3d6faf4555a577d4a38d2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95fc8c13037630f4aba9c51141f535becec00fe6"
+        },
+        {
+          "alg": "MD5",
+          "content": "a89cd7b77db3ed7d0c9ea71ee9784e2e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.dom4j:dom4j:2.1.3",
+      "type": "library",
+      "group": "org.dom4j",
+      "name": "dom4j",
+      "version": "2.1.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "549f3007c6290f6a901e57d1d331b4ed0e6bf7384f78bf10316ffceeca834de6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a75914155a9f5808963170ec20653668a2ffd2fd"
+        },
+        {
+          "alg": "MD5",
+          "content": "41efcf234c5a05a8c590f9b51d53ca66"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springdoc:springdoc-openapi-common:1.2.32",
+      "type": "library",
+      "group": "org.springdoc",
+      "name": "springdoc-openapi-common",
+      "version": "1.2.32",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "261e12fa645c9ea74f004745268a7d15957816815c91bf472c29051eb06c88fd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "089dac17e97c4e41fcd0227370f9a3213e99574d"
+        },
+        {
+          "alg": "MD5",
+          "content": "e2aacb4423b0c11d33bbe090a251420e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jayway.jsonpath:json-path:2.7.0",
+      "type": "library",
+      "group": "com.jayway.jsonpath",
+      "name": "json-path",
+      "version": "2.7.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "de82f0e4602eea0187df36779ae8cfc1653b6d920125674af4d365d0bca59508"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f9d7d9659f2694e61142046ff8a216c047f263e8"
+        },
+        {
+          "alg": "MD5",
+          "content": "2db2100b179bd83518fef0b563433a15"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.data:spring-data-jpa:2.5.10",
+      "type": "library",
+      "group": "org.springframework.data",
+      "name": "spring-data-jpa",
+      "version": "2.5.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f30a20ac8dcda22319f6df8f1e2ff804dce6fba0669a4a8b23f9b5db746fe551"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25830894d7ccf948e42903b100463a5f9f8c9a3a"
+        },
+        {
+          "alg": "MD5",
+          "content": "1c2afbe3eef42c4039e625fd9806330f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.hateoas:spring-hateoas:1.3.7",
+      "type": "library",
+      "group": "org.springframework.hateoas",
+      "name": "spring-hateoas",
+      "version": "1.3.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4fb7368b7444e6e4fccf0665e7fb93bab94c65430640486a6ffa5cd3e015d4b6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c5b5e4156471bd73ff452aa68e3cc708ceb1d85f"
+        },
+        {
+          "alg": "MD5",
+          "content": "4f96b4605a657db6137dcf12359c6be4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-data-jpa",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "629cabd7b85c7f935aa69c5f4350e93a33a14cfac8f6956350a27c481b6ea73a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fb29004f637a6c55535321e51d6d11837f348d48"
+        },
+        {
+          "alg": "MD5",
+          "content": "3b5d3b17e41ce14f66ed67918d8aee3d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ch.qos.logback:logback-classic:1.2.11",
+      "type": "library",
+      "group": "ch.qos.logback",
+      "name": "logback-classic",
+      "version": "1.2.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d8e899621a3006c2f66e19feab002b11e6cfc5cb1854fc41f01532c00deb2aa"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4741689214e9d1e8408b206506cbe76d1c6a7d60"
+        },
+        {
+          "alg": "MD5",
+          "content": "e13679004cc76ad5792f275f04884fab"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-core:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0026cff293bdba389fbbbc67a20fdd5f73e091554ab46671efa654c25c807ee6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5bf206c0b5982cfcd868b3d9349dc5190db8bab5"
+        },
+        {
+          "alg": "MD5",
+          "content": "3976126e023f2969b4267963fe841f43"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-api:2.17.2",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.17.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "09351b5a03828f369cdcff76f4ed39e6a6fc20f24f046935d0b28ef5152f8ce4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f42d6afa111b4dec5d2aea0fe2197240749a4ea6"
+        },
+        {
+          "alg": "MD5",
+          "content": "0c39d90e7819c92c111e447bdf786a90"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.data:spring-data-commons:2.5.10",
+      "type": "library",
+      "group": "org.springframework.data",
+      "name": "spring-data-commons",
+      "version": "2.5.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "49920a4203c067f09b0b43bbebc1b95086f44e3dd08fd0795bac13d6173e768f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "55040a7d9413d0e9371aca04473f2f362edd3507"
+        },
+        {
+          "alg": "MD5",
+          "content": "8dfc3911f9944ed46f6fda1a42b9a4a6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.swagger.core.v3:swagger-models:2.1.1",
+      "type": "library",
+      "group": "io.swagger.core.v3",
+      "name": "swagger-models",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fb190ca75763ed290f93f08c9079cc02d8621d2a352759880c00c6b53c669233"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9c18e2c834dee2b6c8ec2b67259fdaef2adba3c0"
+        },
+        {
+          "alg": "MD5",
+          "content": "d837ea4186b7f7e35ea3c88d74512496"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.sun.activation:jakarta.activation:1.2.2",
+      "type": "library",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2"
+    },
+    {
+      "bom-ref": "jakarta.transaction:jakarta.transaction-api:1.3.3",
+      "type": "library",
+      "group": "jakarta.transaction",
+      "name": "jakarta.transaction-api",
+      "version": "1.3.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0b02a194dd04ee2e192dc9da9579e10955dd6e8ac707adfc91d92f119b0e67ab"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c4179d48720a1e87202115fbed6089bdc4195405"
+        },
+        {
+          "alg": "MD5",
+          "content": "cc45726045cc9a0728f803f9db4c90c4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-tx:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-tx",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e976af3135e466533ece3ae1fc2fa1ac893f7f766cbc4321b92579e5768544ff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a93f91200e40b22ac0fda1308ecac081b820b099"
+        },
+        {
+          "alg": "MD5",
+          "content": "fc71fae4e214d2a00cdf46fd4f4f47a7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.logging.log4j:log4j-core:2.17.2",
+      "type": "library",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-core",
+      "version": "2.17.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5adb34ff4197cd16a8d24f63035856a933cb59562a6888dde86e9450fcfef646"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fa43ba4467f5300b16d1e0742934149bfc5ac564"
+        },
+        {
+          "alg": "MD5",
+          "content": "b35d06ffd3ea52e5ba9efe455108745c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-logging:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-logging",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "31421249bf449fafbe6ea68057e7ef5886e81836b416be6f3fa0d6c3b1646107"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "de71318e8383c1460902ef336b4a4467bd2fbb19"
+        },
+        {
+          "alg": "MD5",
+          "content": "0b3312dab3d2e84c93e93fe864601162"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.errorprone:error_prone_annotations:2.3.4",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+        },
+        {
+          "alg": "MD5",
+          "content": "67beeee58df00366100061c7da82f4c2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60",
+      "type": "library",
+      "group": "org.apache.tomcat.embed",
+      "name": "tomcat-embed-websocket",
+      "version": "9.0.60",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "673b88109fda4344c484d858a6ad8b8dc87336d9f317a93e3b6ac0ce850c7326"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a88262a55ae2c4b5404149a48122523688be341a"
+        },
+        {
+          "alg": "MD5",
+          "content": "15464af3b2cdd9087643af53e1cfebeb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.data:spring-data-rest-webmvc:3.5.10",
+      "type": "library",
+      "group": "org.springframework.data",
+      "name": "spring-data-rest-webmvc",
+      "version": "3.5.10",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d02533707c4768a5dc188361b93563d986b9d1efc28e7f6e829141c6d57f440d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ced2d9730e8725111c4d15eff3d62fd48c913e56"
+        },
+        {
+          "alg": "MD5",
+          "content": "6909b906b3ecf6a72d7154ced70a4cb0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-webmvc:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-webmvc",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "22bc86890b53dab50522bd646cd57180616a651da45ae588d5e0e1f72aa2bc7d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "806b4ac997761daa32cba3f766d8ac09c132fe81"
+        },
+        {
+          "alg": "MD5",
+          "content": "2cf4d20d68efd5b9adb8aa9fe719ed0d"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.flywaydb:flyway-core:6.5.7",
+      "type": "library",
+      "group": "org.flywaydb",
+      "name": "flyway-core",
+      "version": "6.5.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e940146d5ea10512f43132c3c737a4362825476c07931410d63e636675d56588"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "58c28ead296b8e8152f2beae74ad468b98b3ec96"
+        },
+        {
+          "alg": "MD5",
+          "content": "1c5e9f27f858860ea608a27314da2606"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-aspects:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-aspects",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "13aec9ce656f9dbe64b8d336d0564b6603442a6655bd4aeeaac617500c9a9a05"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "78e473c68f3f579f6dff4810530260bcfe97ca8f"
+        },
+        {
+          "alg": "MD5",
+          "content": "75dad3c83d647a04ec36d14ea09d7f02"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework:spring-context:5.3.18",
+      "type": "library",
+      "group": "org.springframework",
+      "name": "spring-context",
+      "version": "5.3.18",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6f307ea6e140d7f6f7fcffc7bb8c1540dd244c1039d8f7e7b8f3ddec6c73f59c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "34f6683d9dbe6edb02ad9393df3d3211b5484622"
+        },
+        {
+          "alg": "MD5",
+          "content": "3ae3003c3d7da5c8890e8af2b6a41213"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:jul-to-slf4j:1.7.36",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "jul-to-slf4j",
+      "version": "1.7.36",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e641fb142c5f0b0623d6222c09ea87523a41bf6bed48ac79940724010b989de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed46d81cef9c412a88caef405b58f93a678ff2ca"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a3fe73e6cafe8f102facaf2dd65353f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-actuator:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-actuator",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4c3473b2ef7c599557c2e2e82d930275fd0e3073699a2701f51d10c9307f1e34"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4d0366d721e2394649a461e7ee151f221c9eb684"
+        },
+        {
+          "alg": "MD5",
+          "content": "e7e25761ec93f114d7fc3d734eafb8b7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "io.swagger.core.v3:swagger-core:2.1.1",
+      "type": "library",
+      "group": "io.swagger.core.v3",
+      "name": "swagger-core",
+      "version": "2.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c322a84c5fe8ca4e762f61bd50e283be6dca7065dd1f07b0199bcf41f027e48f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7c8d69356c3521734f0225ce6ea15d6b26b1eecc"
+        },
+        {
+          "alg": "MD5",
+          "content": "2a6af5f5deb819f3688d980f38d35522"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.zaxxer:HikariCP:4.0.3",
+      "type": "library",
+      "group": "com.zaxxer",
+      "name": "HikariCP",
+      "version": "4.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7c024aeff1c1063576d74453513f9de6447d8e624d17f8e27f30a2e97688c6c9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "107cbdf0db6780a065f895ae9d8fbf3bb0e1c21f"
+        },
+        {
+          "alg": "MD5",
+          "content": "e725642926105cd1bbf4ad7fdff5d5a9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.hibernate:hibernate-core:5.4.33",
+      "type": "library",
+      "group": "org.hibernate",
+      "name": "hibernate-core",
+      "version": "5.4.33",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "594ee0cb3532db0896f1ded317747bcb6e460adbd37d0ce27f01363237cd1f5b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "23fae08d13475d71acd374928e38d3f8e1baa3d3"
+        },
+        {
+          "alg": "MD5",
+          "content": "9d7ab2e3d7b9e4116415fb47765a05af"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.latencyutils:LatencyUtils:2.0.3",
+      "type": "library",
+      "group": "org.latencyutils",
+      "name": "LatencyUtils",
+      "version": "2.0.3"
+    },
+    {
+      "bom-ref": "org.apache.httpcomponents:httpcore:4.4.15",
+      "type": "library",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.15",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3cbaed088c499a10f96dde58f39dc0e7985171abd88138ca1655a872011bb142"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d"
+        },
+        {
+          "alg": "MD5",
+          "content": "be7c67929df007fcac6c8eff5322d3a0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.hdrhistogram:HdrHistogram:2.1.12",
+      "type": "library",
+      "group": "org.hdrhistogram",
+      "name": "HdrHistogram",
+      "version": "2.1.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9b47fbae444feaac4b7e04f0ea294569e4bc282bc69d8c2ce2ac3f23577281e2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6eb7552156e0d517ae80cc2247be1427c8d90452"
+        },
+        {
+          "alg": "MD5",
+          "content": "4b1acf3448b750cb485da7e37384fcd8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.datatype",
+      "name": "jackson-datatype-jsr310",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b4539d431f019239699691820dfea70a65cf8e882120a72b3a7713ed1dc66fcb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f7d0d854f24c4254885c275a09fb885ef578b48"
+        },
+        {
+          "alg": "MD5",
+          "content": "0dcce05f281b2f8bc0e7d422eebb8f7c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.fasterxml.jackson.core:jackson-annotations:2.12.6",
+      "type": "library",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.12.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ddf46e401a7d9ea3b481c263fa192285d13c50982a5882b22f806639b9645ee4"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9487231edd6b0b1f14692c9cba9e0462809215d1"
+        },
+        {
+          "alg": "MD5",
+          "content": "9c936122eb418ee985b195d183623618"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.springframework.boot:spring-boot-starter-aop:2.5.12",
+      "type": "library",
+      "group": "org.springframework.boot",
+      "name": "spring-boot-starter-aop",
+      "version": "2.5.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9b75645e440ea1eaa35afaa669b2f6684f33fd7efb57cc269de1c104ddf3e9b5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "12d557bf73679e2ae91409bb627e4648a1f085a0"
+        },
+        {
+          "alg": "MD5",
+          "content": "12ad4702492d470680038b590a0de8f2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:patch-lib-analyzer:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "patch-lib-analyzer",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "com.google.errorprone:error_prone_annotations:2.2.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ebd22ca1b9d8ec06d41de8d64e0596981d9607b42035f9ed374f9de271a481a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "88e3c593e9b3586e1c6177f89267da6fc6986f0c"
+        },
+        {
+          "alg": "MD5",
+          "content": "416757b9e6ba0563368ab59e668b3225"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.j2objc:j2objc-annotations:1.1",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed28ded51a8b1c6b112568def5f4b455e6809019"
+        },
+        {
+          "alg": "MD5",
+          "content": "49ae3204bb0bb9b2ac77062641f4a6d7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+      "type": "library",
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.17",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f97ce6decaea32b36101e37979f8b647f00681fb"
+        },
+        {
+          "alg": "MD5",
+          "content": "7ca108b790cf6ab5dbf5422cc79f0d89"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.30",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c"
+        },
+        {
+          "alg": "MD5",
+          "content": "f8be00da99bc4ab64c79ab1e2be7cb7c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:2.5.2",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.5.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "64b02691c8b9d4e7700f8ee2e742dce7ea2c6e81e662b7522c9ee3bf568c040a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cea74543d5904a30861a61b4643a5f2bb372efc4"
+        },
+        {
+          "alg": "MD5",
+          "content": "04acc78b24bbd365423da357da003cf0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:guava:27.1-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "27.1-jre",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4a5aa70cc968a4d137e599ad37553e5cfeed2265e8c193476d7119036c536fe7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e47b59c893079b87743cdcfb6f17ca95c08c592c"
+        },
+        {
+          "alg": "MD5",
+          "content": "1a986c6fa05685f173ad9340b6ab6454"
+        }
+      ]
+    },
+    {
+      "bom-ref": "javax.xml.bind:jaxb-api:2.4.0-b180725.0427",
+      "type": "library",
+      "group": "javax.xml.bind",
+      "name": "jaxb-api",
+      "version": "2.4.0-b180725.0427",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "59ed20be31b88bb8a16ca760ab50082665a680380cbb4bbcf366eeef7f6b39a1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7400ad346870308bcc46bb60f3c553af3e331b4d"
+        },
+        {
+          "alg": "MD5",
+          "content": "ebc2c217121173faeef5c300d26503a9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.5",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe30825245d2336c859dc38d60c0fc5f3668dbf29cd586828d2b5667ec355b91"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6b262da268f8ad9eff941b25503a9198f0a0ac93"
+        },
+        {
+          "alg": "MD5",
+          "content": "3b1ececad9ebc3fbad2953ccf4a070ca"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:kb-importer:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "kb-importer",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.33",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.33",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "336811855ee97fcd8413343dc42f4d26362502860e8a9193e4db305e3e8ef80a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d375aa1b98d34d5ddf73a3f19eaad66e98975b12"
+        },
+        {
+          "alg": "MD5",
+          "content": "de8684fca5e9042d0120cb3306e8278f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.minidev:accessors-smart:2.4.7",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "2.4.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ef5103429f101f7e3ff62f3a182342720439eaea43d2eed3119bba770bb202a9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3970cfc505e6657ca60f3aa57c849f6043000d7a"
+        },
+        {
+          "alg": "MD5",
+          "content": "53cb6c796eb91346af5edb178c42b39b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.minidev:json-smart:2.4.7",
+      "type": "library",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "28c17ed16ac22e6845743fd1e84321edf5d7735fc216e44ee269d106bf3d8146"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8d7f4c1530c07c54930935f3da85f48b83b3c109"
+        },
+        {
+          "alg": "MD5",
+          "content": "f04005088df03f6efac608a7a5d53cd1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:repo-client:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "repo-client",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.sshagent:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.sshagent",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd03fdeb40312846a0827cce1b2f93773d0d1ccc134bdb953dfac2d2cd44b321"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5c09a3d2a0562de53cf616794f43f51a3c0a496c"
+        },
+        {
+          "alg": "MD5",
+          "content": "5c4483e01a032a784be2f0b2ccb983ea"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.pageant:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.pageant",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "609b7b9d00b29021397544652b649045209c41165790612b2b0df6f74c8dfb27"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b40c0d9b10d79a0683ca93e3f70360b3d8045b62"
+        },
+        {
+          "alg": "MD5",
+          "content": "200f22f9b2845e11eaa5f6a8bad51feb"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.java.dev.jna:jna-platform:4.1.0",
+      "type": "library",
+      "group": "net.java.dev.jna",
+      "name": "jna-platform",
+      "version": "4.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f91ba7c0f26c34f04bf57d2ae30d4b19f906e7bb1de90eb3e1f4fdbf45d0c541"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "23457ad1cf75c2c16763330de5565a0e67b4bc0a"
+        },
+        {
+          "alg": "MD5",
+          "content": "533e404eda70bbf8e40de134ffeec95b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.trilead:trilead-ssh2:1.0.0-build221",
+      "type": "library",
+      "group": "com.trilead",
+      "name": "trilead-ssh2",
+      "version": "1.0.0-build221",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b8ece3a1d49859687701738007b76261672f969cb02ca0c05110981678342a78"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c14d6fbab5e4ac1eb355f92e91b4c2c28a17e9b9"
+        },
+        {
+          "alg": "MD5",
+          "content": "0216689db62589e318219f1a746fd8fd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.core:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.core",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5cb21fed78fd2c581e40276e428b6407e4801edb0baa1f7ef0c1025d06a3a7f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9bcf818dc9e5247b01b1b18671a12caac293ae40"
+        },
+        {
+          "alg": "MD5",
+          "content": "0d4248a640962d82159b4e9c4bb48c76"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.svnkit-trilead-ssh2",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d0f54fa650ef7130046dd752c1cf46b2dd1f1009632cf82ad0a2dc6e7dde0f57"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95015f649026507428aa2f37baba69ba8a86dc67"
+        },
+        {
+          "alg": "MD5",
+          "content": "3f5cb0506577bb2c3dd1488079cd789f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "de.regnis.q.sequence:sequence-library:1.0.3",
+      "type": "library",
+      "group": "de.regnis.q.sequence",
+      "name": "sequence-library",
+      "version": "1.0.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cb876d3b370b227ed9852a5a874427dce24a0df3e2f7409a11edfbcc5c4243a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3bcf12fa805a735bb26369cd66c5933767c026de"
+        },
+        {
+          "alg": "MD5",
+          "content": "0c7450d250b594fcbc6bc170dbe2a98e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.googlecode.javaewah:JavaEWAH:1.1.6",
+      "type": "library",
+      "group": "com.googlecode.javaewah",
+      "name": "JavaEWAH",
+      "version": "1.1.6",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f78d44a1e3877f1ce748b4a85df5171e5e8e9a5c3c6f63bb9003db6f84cce952"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94ad16d728b374d65bd897625f3fbb3da223a2b6"
+        },
+        {
+          "alg": "MD5",
+          "content": "ad90237fa8e47defd9fdac73e68608fd"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.usocket-nc:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.usocket-nc",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "231294f658fb855c0c8d070fc1c654d2b82772acc092e8d5ba53e9ae717a7096"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "aff6f0f3a68f9731580d7c48075fdf177532dfe6"
+        },
+        {
+          "alg": "MD5",
+          "content": "b67c8e11e8792fd5a96c08a2e50bddb6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.tmatesoft.svnkit:svnkit:1.9.3",
+      "type": "library",
+      "group": "org.tmatesoft.svnkit",
+      "name": "svnkit",
+      "version": "1.9.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "18d501b481363595dc376fa4c4c81bd02e980e67269a7de35ccc7fe18e408fe7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "58ef49dcf3e565f8008442842812f13faa50981c"
+        },
+        {
+          "alg": "MD5",
+          "content": "fe12b57f5c35612d39c9ea6e25ee5530"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.usocket-jna",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "57b8169c4877a4820a57df9ec5e5306d195d633d90672d3cc05ea876ba6d4999"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "98cf51ca8d7882c203729ffa48e9b7be4c50b835"
+        },
+        {
+          "alg": "MD5",
+          "content": "154b2f744a11226fd8abd92baef84523"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch:0.1.54",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch",
+      "version": "0.1.54",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "92eb273a3316762478fdd4fe03a0ce1842c56f496c9c12fe1235db80450e1fdb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "da3584329a263616e277e15462b387addd1b208d"
+        },
+        {
+          "alg": "MD5",
+          "content": "56a6c6fc5819e21c665355b39b9097d8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.tmatesoft.sqljet:sqljet:1.1.11",
+      "type": "library",
+      "group": "org.tmatesoft.sqljet",
+      "name": "sqljet",
+      "version": "1.1.11",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bbfdd44fe8e00165431aee31bb8988534ea7ba4869076c621d9ee87d097edab6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "68c946d051fa4aa9d3f2a793c556c35fcfba0be3"
+        },
+        {
+          "alg": "MD5",
+          "content": "920464becd225d7419807aaf67cbc26a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jzlib:1.1.1",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jzlib",
+      "version": "1.1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5cb1e9f9cf0be011487545694ff0a178237c6bfcbb21c97865cdc52c60b9347a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a1551373315ffc2f96130a0e5704f74e151777ba"
+        },
+        {
+          "alg": "MD5",
+          "content": "553b605c56ec6f508ab46ed026e21622"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jcraft:jsch.agentproxy.connector-factory:0.0.7",
+      "type": "library",
+      "group": "com.jcraft",
+      "name": "jsch.agentproxy.connector-factory",
+      "version": "0.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b576930d6a822761123365358d90281351d88cec2dd845912873c1696184d6cb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "780e0312287dd4e4f3601d401a073a081e403f2d"
+        },
+        {
+          "alg": "MD5",
+          "content": "50885bf953879373de768314dcf222a7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.java.dev.jna:jna:4.1.0",
+      "type": "library",
+      "group": "net.java.dev.jna",
+      "name": "jna",
+      "version": "4.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1aa37e9ea6baa0ee152d89509f758f0847eac66ec179b955cafe0919e540a92e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1c12d070e602efd8021891cdd7fd18bc129372d4"
+        },
+        {
+          "alg": "MD5",
+          "content": "b0e08c9936dc52aa40439c71fcad6297"
+        }
+      ]
+    },
+    {
+      "bom-ref": "net.java.dev.jna:platform:3.4.0",
+      "type": "library",
+      "group": "net.java.dev.jna",
+      "name": "platform",
+      "version": "3.4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ea89d5090c8303ba4e9a0056e6d8a20429f3e021411e950bfd9eba3b6e6cf15c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e3f70017be8100d3d6923f50b3d2ee17714e9c13"
+        },
+        {
+          "alg": "MD5",
+          "content": "c5057d6dc3a531708e4a91249fadda3f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.2",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3bae789b401333b2a1d1603b7fa573e19908628191707203f6eb708cdee2c052"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0081d61b7f33ebeab314e07de0cc596f8e858d97"
+        },
+        {
+          "alg": "MD5",
+          "content": "21216c2ee1bf4f097a51e49418527100"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r",
+      "type": "library",
+      "group": "org.eclipse.jgit",
+      "name": "org.eclipse.jgit",
+      "version": "4.11.7.201903122105-r",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9a5caa0e467e448796643bfc3a5e3deb09140905f5a640810876d7df706a2a98"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9dcc2516b5eac5aa2d412d776b17ecfbdb411cc3"
+        },
+        {
+          "alg": "MD5",
+          "content": "baf665a45cccd9600301ecff68830990"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.antlr:antlr-runtime:3.4",
+      "type": "library",
+      "group": "org.antlr",
+      "name": "antlr-runtime",
+      "version": "3.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5b7cf53b7b30b034023f58030c8147c433f2bee0fe7dec8fae6bebf3708c5a63"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8f011408269a8e42b8548687e137d8eeb56df4b4"
+        },
+        {
+          "alg": "MD5",
+          "content": "0e0318be407e51fdf7ba6777eabfdf73"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:root:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "root",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.eclipse.steady:patch-analyzer:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "patch-analyzer",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.eclipse.steady:plugin-maven:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "plugin-maven",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.slf4j:slf4j-api:1.7.32",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.32",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cdcff33940d9f2de763bc41ea05a0be5941176c3"
+        },
+        {
+          "alg": "MD5",
+          "content": "fbcf58513bc25b80f075d812aad3e3cf"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-interpolation:1.26",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-interpolation",
+      "version": "1.26",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b3b5412ce17889103ea564bcdfcf9fb3dfa540344ffeac6b538a73c9d7182662"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25b919c664b79795ccde0ede5cee0fd68b544197"
+        },
+        {
+          "alg": "MD5",
+          "content": "1049ae9f5cd8cf618abf5bc5805e6b94"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-core:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-core",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2415e64ffbc3ff4e7265268f651623342c7b0a9e0a77c5c54b4e82d1522f3189"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cb11bac5ed848b900c2533d42ae8f23a73e6a015"
+        },
+        {
+          "alg": "MD5",
+          "content": "a48e7160f4b6769d5c23ce2d93a6bf26"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-settings-builder:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-settings-builder",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7e72b48fcb3c88a146425e3bd1265c3bc4ac546852fe4bbab61064f1dd1835b7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "50bf143b0e338a26651970860e3067dd94cf31aa"
+        },
+        {
+          "alg": "MD5",
+          "content": "37ac108b65138015e749d8ef90c1a729"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-plugin-api:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-plugin-api",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3aa48d91a54aab6fea95d98218345621eb3952e693ae591d41b63ac5b86eb76a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "699bf28a990398caa3c7dc860476c409fe538036"
+        },
+        {
+          "alg": "MD5",
+          "content": "cd69b582bb49b758dc840653497cdf89"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+      "type": "library",
+      "group": "org.eclipse.sisu",
+      "name": "org.eclipse.sisu.inject",
+      "version": "0.3.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5994010bcdce1d2bd603a4d50c47191ddbd7875d1157b23aaa26d33c82fda13"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d4265dd4f0f1d7a06d80df5a5f475d5ff9c17140"
+        },
+        {
+          "alg": "MD5",
+          "content": "1b296b0ddd911ed3750b3df93b395cd5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-builder-support:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-builder-support",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b64161e6ffd30782d97c205942bba219d60c53a8f4442e69abdfd428d7691135"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "19e7c1dd9ab8c3266db19e067e2b7b8764f0fa6a"
+        },
+        {
+          "alg": "MD5",
+          "content": "df11e28001f975f7b04833536fa97375"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+      "type": "library",
+      "group": "org.apache.maven.resolver",
+      "name": "maven-resolver-api",
+      "version": "1.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d0b28ed944058ba4f9be4b54c25d6d5269cc4f3f3c49aa450d4dc2f7e0d552f6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5ee235aa5ac5994b5dc847f8e78ffe9d77dd55d7"
+        },
+        {
+          "alg": "MD5",
+          "content": "c1f8b0046b6219ef49dbd73638ce33e2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.commons:commons-lang3:3.8.1",
+      "type": "library",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.8.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dac807f65b07698ff39b1b07bfef3d87ae3fd46d91bbf8a2bc02b2a831616f68"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6505a72a097d9270f7a9e7bf42c4238283247755"
+        },
+        {
+          "alg": "MD5",
+          "content": "540b1256d887a6993ecbef23371a3302"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.shared:maven-shared-utils:3.3.4",
+      "type": "library",
+      "group": "org.apache.maven.shared",
+      "name": "maven-shared-utils",
+      "version": "3.3.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7925d9c5a0e2040d24b8fae3f612eb399cbffe5838b33ba368777dc7bddf6dda"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f87a61adb1e12a00dcc6cc6005a51e693aa7c4ac"
+        },
+        {
+          "alg": "MD5",
+          "content": "908f2a0107ff330ac9b856356a0acaef"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.ant:ant-launcher:1.10.12",
+      "type": "library",
+      "group": "org.apache.ant",
+      "name": "ant-launcher",
+      "version": "1.10.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "42a7ca7e7bb777fe7ee75a5ed4cc529c766bc43486367fdaad0ab4a32ee9c249"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e090b4f9d3ecf45491cc16e759f1e843a1a224c0"
+        },
+        {
+          "alg": "MD5",
+          "content": "709ed15ea16a95903e7b3e8be130fa1e"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-model:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-model",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "91ec0d6d564a12483e1569b0ef72ff3d9e921c5ba07201fa7ab9c7694db8844a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "71057054ea1e5e341b2196804a426e3243f6cb2e"
+        },
+        {
+          "alg": "MD5",
+          "content": "5c12178e3109a060c91cf231bc798d67"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-classworlds:2.6.0",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-classworlds",
+      "version": "2.6.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "52f77c5ec49f787c9c417ebed5d6efd9922f44a202f217376e4f94c0d74f3549"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8587e80fcb38e70b70fae8d5914b6376bfad6259"
+        },
+        {
+          "alg": "MD5",
+          "content": "67e722b27e3a33b33c1b263b99dd7c43"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-component-annotations",
+      "version": "2.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bde3617ce9b5bcf9584126046080043af6a4b3baea40a3b153f02e7bbc32acac"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2f2147a6cc6a119a1b51a96f31d45c557f6244b9"
+        },
+        {
+          "alg": "MD5",
+          "content": "141fd7a2ae613cb17d25ecd54b43eb3f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+      "type": "library",
+      "group": "org.eclipse.sisu",
+      "name": "org.eclipse.sisu.plexus",
+      "version": "0.3.5",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7e4c61096d70826f20f7a7d55c59a5528e7aa5ad247ee2dfe544e4dd25f6a784"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d71996bb2e536f966b3b70e647067fff3b73d32f"
+        },
+        {
+          "alg": "MD5",
+          "content": "30c4a9fa2137698ed66c8542f1be196a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+      "type": "library",
+      "group": "org.apache.maven.resolver",
+      "name": "maven-resolver-util",
+      "version": "1.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cdcad9355b625743f40e4cead9a96353404e010c39c808d23b044be331afa251"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "07d5a6879037b34c61c2f527dfcfb59084e86ed0"
+        },
+        {
+          "alg": "MD5",
+          "content": "71d7fea851a889aae2cfd632e96d01c1"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-settings:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-settings",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4f12ed49761c4b486c171996643d8d80246286ab14489a736ce0dd06e6bc6886"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ece24ec40b7d73e755f2ebd22bf8471b6c0b8fbd"
+        },
+        {
+          "alg": "MD5",
+          "content": "751088d39fb1c71564058e23ef59240c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-resolver-provider:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-resolver-provider",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "046c7d1635f91283b4f7a41b579953857914c7e0d96545b557491537b327e156"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2ccbd1e2c713922353ccd779e56aeefc7a9fa56f"
+        },
+        {
+          "alg": "MD5",
+          "content": "9824f1a800182fca787cc4f49bb1b58a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+      "type": "library",
+      "group": "org.apache.maven.resolver",
+      "name": "maven-resolver-spi",
+      "version": "1.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "17441a39045ac19bc4a8068fb7284facebf6337754bf2bf8f26a76b5f98ed108"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "176425f73fe768bf9cdb8b5a742e7a00c1d8d178"
+        },
+        {
+          "alg": "MD5",
+          "content": "39ccba873cf05b2b5405d24a55133a37"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-cipher:2.0",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-cipher",
+      "version": "2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9a7f1b5c5a9effd61eadfd8731452a2f76a8e79111fac391ef75ea801bea203a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "425ea8e534716b4bff1ea90f39bd76be951d651b"
+        },
+        {
+          "alg": "MD5",
+          "content": "55d612839faf248cbe3e273969c002c2"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-repository-metadata:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-repository-metadata",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "62a97989068af34eef374bedcca120a1c2b0bd5a2d48460d306944084cc495f9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c62113372f740797767d520f604d0543dcdfc92f"
+        },
+        {
+          "alg": "MD5",
+          "content": "b0aa47731437c6daaf70353756d2da10"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-sec-dispatcher:2.0",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-sec-dispatcher",
+      "version": "2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "873139960c4c780176dda580b003a2c4bf82188bdce5bb99234e224ef7acfceb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f89c5080614ffd0764e49861895dbedde1b47237"
+        },
+        {
+          "alg": "MD5",
+          "content": "e68635a721630177ac70173e441336b6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4",
+      "type": "library",
+      "group": "org.apache.maven.plugin-tools",
+      "name": "maven-plugin-annotations",
+      "version": "3.6.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0fe41f2ffa4fc6f3b8e65c0b16d9e5f00dd256113a4114e7a9466f9c1952eff1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "23dcee7834a0b854365c14eaa9f473d2fed951e5"
+        },
+        {
+          "alg": "MD5",
+          "content": "00a800d6df39e3ae3a96135983e21e36"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.ant:ant:1.10.12",
+      "type": "library",
+      "group": "org.apache.ant",
+      "name": "ant",
+      "version": "1.10.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c6a438c3ebe7a306eba452b09fa307b0e60314926177920bca896c4a504eaf6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "be08c4f63e92e03bac761404cf77bc270928b6c5"
+        },
+        {
+          "alg": "MD5",
+          "content": "f5b97fb267862b35d1eb398defe1831a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.inject:guice:4.2.2",
+      "type": "library",
+      "group": "com.google.inject",
+      "name": "guice",
+      "version": "4.2.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0f4f5fb28609a4d2b38b7f7128be7cf9b541f25283d71b4e56066d99683aafff"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fa13659f9128f4c011c8e1d06f137083b4876377"
+        },
+        {
+          "alg": "MD5",
+          "content": "57d2b333c34d0f834189d54b6e59d1a6"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-artifact:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-artifact",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4273b4e84805f7350eb61a1eea5debfd71d1147414b3b441b92d535218cdf0ae"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6dba6d03ac7abd8b895595b0ee7000ce35c3d421"
+        },
+        {
+          "alg": "MD5",
+          "content": "12fcb750af57b284313d2a356e7de928"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.plexus:plexus-utils:3.4.1",
+      "type": "library",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-utils",
+      "version": "3.4.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "52d85e04b3918722af11d12855b4a8257df96a0e76c8f4e3852e6faa851f357b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4de9992988c534efd668bfcca0480ebe13e0c0eb"
+        },
+        {
+          "alg": "MD5",
+          "content": "c155c4135ef7ba134659bf1af31c5156"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+      "type": "library",
+      "group": "org.apache.maven.resolver",
+      "name": "maven-resolver-impl",
+      "version": "1.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "17aaebe6e3e59df8cb5b4ec210196f7084637312b9bc4ff14cb77ad1ae3c381b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2714ffe60bd71259a41b3e4816122504b5f2db93"
+        },
+        {
+          "alg": "MD5",
+          "content": "2145b5eb9ddd8bdf9f3171122c703d4b"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.apache.maven:maven-model-builder:3.8.4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-model-builder",
+      "version": "3.8.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d0ed4b5cc5c06610f97935982458260165cb7e57c781ca7c9ef8b6e01ce1456"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8e039db854cee3ddbca932b90c0c06cdcb9dc640"
+        },
+        {
+          "alg": "MD5",
+          "content": "096f604d1a8a6fdb6e0a57173945dc62"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:rest-lib-utils:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "rest-lib-utils",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "com.jeantessier:dependency-finder:1.2.1-beta5-log4j",
+      "type": "library",
+      "group": "com.jeantessier",
+      "name": "dependency-finder",
+      "version": "1.2.1-beta5-log4j",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "617189460dac0264997053727bbf2f8de00a284c856394758afc95a678189058"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b6b7f77ce559a1fd86f3ee626d0ebd8682cd4fe6"
+        },
+        {
+          "alg": "MD5",
+          "content": "6609f69643ad810d335b743641ec1f41"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.jayway.jsonpath:json-path:2.5.0",
+      "type": "library",
+      "group": "com.jayway.jsonpath",
+      "name": "json-path",
+      "version": "2.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4ed3c4c2d4e477cb2a349c0ebb8c22f0584702221ddbaafd166fddcd2101029b"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c35ef29095125b51638d19120f63e2b56eff20e9"
+        },
+        {
+          "alg": "MD5",
+          "content": "c16241d78783e2e2b93429afb4c783aa"
+        }
+      ]
+    },
+    {
+      "bom-ref": "oro:oro:2.0.8",
+      "type": "library",
+      "group": "oro",
+      "name": "oro",
+      "version": "2.0.8",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e00ccdad5df7eb43fdee44232ef64602bf63807c2d133a7be83ba09fd49af26e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5592374f834645c4ae250f4c9fbb314c9369d698"
+        },
+        {
+          "alg": "MD5",
+          "content": "42e940d5d2d822f4dc04c65053e630ab"
+        }
+      ]
+    },
+    {
+      "bom-ref": "commons-io:commons-io:2.7",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.7",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4547858fff38bbf15262d520685b184a3dce96897bc1844871f055b96e8f6e95"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3f2bd4ba11c4162733c13cc90ca7c7ea09967102"
+        },
+        {
+          "alg": "MD5",
+          "content": "87709c85b69a685ddba69c65fe6dd6f9"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.gson:gson:2.8.9",
+      "type": "library",
+      "group": "com.google.code.gson",
+      "name": "gson",
+      "version": "2.8.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d3999291855de495c94c743761b8ab5176cfeabe281a5ab0d8e8d45326fd703e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8a432c1d6825781e21a02db2e2c33c5fde2833b9"
+        },
+        {
+          "alg": "MD5",
+          "content": "e67627f67e03301092dc7de0a2d7cef8"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.eclipse.steady:frontend-apps:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "frontend-apps",
+      "version": "3.2.5"
+    },
+    {
+      "bom-ref": "org.eclipse.steady:frontend-bugs:3.2.5",
+      "type": "application",
+      "group": "org.eclipse.steady",
+      "name": "frontend-bugs",
+      "version": "3.2.5"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "org.hibernate:hibernate-core:5.4.33",
+      "dependsOn": [
+        "org.javassist:javassist:3.27.0-GA",
+        "org.jboss:jandex:2.2.3.Final",
+        "net.bytebuddy:byte-buddy:1.10.22",
+        "com.fasterxml:classmate:1.5.1",
+        "org.jboss.logging:jboss-logging:3.4.3.Final",
+        "antlr:antlr:2.7.7",
+        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+        "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+        "org.dom4j:dom4j:2.1.3"
+      ]
+    },
+    {
+      "ref": "net.minidev:accessors-smart:2.4.8",
+      "dependsOn": [
+        "org.ow2.asm:asm:9.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.data:spring-data-rest-core:3.5.10",
+      "dependsOn": [
+        "org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE",
+        "org.springframework.hateoas:spring-hateoas:1.3.7",
+        "org.atteo:evo-inflector:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
+      "dependsOn": [
+        "org.springframework.data:spring-data-rest-webmvc:3.5.10"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r",
+      "dependsOn": [
+        "com.googlecode.javaewah:JavaEWAH:1.1.6",
+        "com.jcraft:jsch:0.1.54",
+        "com.jcraft:jzlib:1.1.1",
+        "org.slf4j:slf4j-api:1.7.2"
+      ]
+    },
+    {
+      "ref": "ca.mcgill.sable:soot:4.1.0",
+      "dependsOn": [
+        "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
+        "de.upb.cs.swt:heros:1.2.0",
+        "xmlpull:xmlpull:1.1.3.4d_b4_min",
+        "org.ow2.asm:asm-util:7.1",
+        "org.slf4j:slf4j-api:1.7.5",
+        "org.smali:dexlib2:2.3.4",
+        "org.ow2.asm:asm-tree:7.1",
+        "javax.annotation:javax.annotation-api:1.3.2",
+        "ca.mcgill.sable:polyglot:2006",
+        "javax.xml.bind:jaxb-api:2.4.0-b180725.0427",
+        "org.ow2.asm:asm:7.1",
+        "org.ow2.asm:asm-commons:7.1",
+        "de.upb.cs.swt:axml:2.0.0"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
+      "dependsOn": [
+        "com.sun.xml.fastinfoset:FastInfoset:1.2.15",
+        "org.jvnet.staxex:stax-ex:1.8",
+        "com.sun.istack:istack-commons-runtime:3.0.7",
+        "org.glassfish.jaxb:txw2:2.4.0-b180830.0438"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter:2.5.12",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-autoconfigure:2.5.12",
+        "org.springframework.boot:spring-boot:2.5.12",
+        "org.springframework:spring-core:5.3.18",
+        "org.yaml:snakeyaml:1.28",
+        "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "org.springframework.boot:spring-boot-starter-logging:2.5.12"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
+      "dependsOn": [
+        "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60",
+        "org.apache.tomcat.embed:tomcat-embed-el:9.0.60",
+        "org.apache.tomcat.embed:tomcat-embed-core:9.0.60"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.12",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-actuator:2.5.12"
+      ]
+    },
+    {
+      "ref": "com.jayway.jsonpath:json-path:2.7.0",
+      "dependsOn": [
+        "net.minidev:json-smart:2.4.8",
+        "org.slf4j:slf4j-api:1.7.33",
+        "net.minidev:json-smart:2.4.7"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-web:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-web:5.3.18",
+        "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
+        "org.springframework.boot:spring-boot-starter-json:2.5.12",
+        "org.springframework:spring-webmvc:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.springframework:spring-core:5.3.18",
+      "dependsOn": [
+        "org.springframework:spring-jcl:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.tmatesoft.svnkit:svnkit:1.9.3",
+      "dependsOn": [
+        "net.java.dev.jna:jna:4.1.0",
+        "net.java.dev.jna:jna-platform:4.1.0",
+        "com.trilead:trilead-ssh2:1.0.0-build221",
+        "com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7",
+        "de.regnis.q.sequence:sequence-library:1.0.3",
+        "org.tmatesoft.sqljet:sqljet:1.1.11",
+        "com.jcraft:jsch.agentproxy.connector-factory:0.0.7"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:rest-lib-utils:3.2.5",
+      "dependsOn": [
+        "com.jeantessier:dependency-finder:1.2.1-beta5-log4j",
+        "oro:oro:2.0.8",
+        "commons-io:commons-io:2.7"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang:3.2.5",
+      "dependsOn": [
+        "org.antlr:antlr4-runtime:4.9.3",
+        "org.apache.commons:commons-compress:1.21",
+        "org.apache.httpcomponents:httpclient:4.5.13",
+        "commons-collections:commons-collections:3.2.2",
+        "com.google.code.gson:gson:2.9.0",
+        "org.eclipse.steady:shared:3.2.5",
+        "com.google.code.gson:gson:2.8.9",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.apache.velocity:velocity-engine-core:2.3",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "org.javassist:javassist:3.28.0-GA",
+        "commons-cli:commons-cli:1.4"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:shared:3.2.5",
+      "dependsOn": [
+        "org.apache.logging.log4j:log4j-api:2.17.2",
+        "org.apache.logging.log4j:log4j-core:2.17.2",
+        "com.github.package-url:packageurl-java:1.4.1",
+        "commons-configuration:commons-configuration:1.10",
+        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+        "com.fasterxml.jackson.core:jackson-core:2.13.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.6.1",
+        "com.fasterxml.jackson.core:jackson-core:2.12.6",
+        "com.fasterxml.jackson.core:jackson-annotations:2.12.6"
+      ]
+    },
+    {
+      "ref": "com.sun.mail:javax.mail:1.6.2",
+      "dependsOn": [
+        "javax.activation:activation:1.1"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:30.0-jre",
+      "dependsOn": [
+        "org.checkerframework:checker-qual:3.5.0",
+        "com.google.errorprone:error_prone_annotations:2.3.4"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-logging:2.5.12",
+      "dependsOn": [
+        "org.apache.logging.log4j:log4j-to-slf4j:2.17.2",
+        "ch.qos.logback:logback-classic:1.2.11",
+        "org.slf4j:jul-to-slf4j:1.7.36"
+      ]
+    },
+    {
+      "ref": "io.swagger.core.v3:swagger-integration:2.1.1",
+      "dependsOn": [
+        "io.swagger.core.v3:swagger-core:2.1.1"
+      ]
+    },
+    {
+      "ref": "com.google.inject:guice:4.2.3",
+      "dependsOn": [
+        "com.google.guava:guava:27.1-jre",
+        "aopalliance:aopalliance:1.0",
+        "javax.inject:javax.inject:1"
+      ]
+    },
+    {
+      "ref": "org.springframework:spring-webmvc:5.3.18",
+      "dependsOn": [
+        "org.springframework:spring-expression:5.3.18",
+        "org.springframework:spring-aop:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-ui:1.2.32",
+      "dependsOn": [
+        "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
+        "org.webjars:swagger-ui:3.25.0",
+        "org.webjars:webjars-locator:0.38"
+      ]
+    },
+    {
+      "ref": "org.springframework:spring-web:5.3.18",
+      "dependsOn": [
+        "org.springframework:spring-beans:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:rest-backend:3.2.5",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-starter-actuator:2.5.12",
+        "javax.interceptor:javax.interceptor-api:1.2.2",
+        "org.springdoc:springdoc-openapi-ui:1.2.32",
+        "org.springframework.boot:spring-boot-starter-web:2.5.12",
+        "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
+        "org.springframework.boot:spring-boot-starter:2.5.12",
+        "com.jayway.jsonpath:json-path:2.7.0",
+        "com.google.guava:guava:30.0-jre",
+        "com.sun.mail:javax.mail:1.6.2",
+        "org.postgresql:postgresql:42.4.2",
+        "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
+        "org.flywaydb:flyway-core:6.5.7"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+      "dependsOn": [
+        "org.glassfish.jaxb:txw2:2.3.6",
+        "com.sun.istack:istack-commons-runtime:3.0.12",
+        "com.sun.activation:jakarta.activation:1.2.2"
+      ]
+    },
+    {
+      "ref": "net.minidev:json-smart:2.4.7",
+      "dependsOn": [
+        "net.minidev:accessors-smart:2.4.7"
+      ]
+    },
+    {
+      "ref": "org.apache.ant:ant:1.10.12",
+      "dependsOn": [
+        "org.apache.ant:ant-launcher:1.10.12"
+      ]
+    },
+    {
+      "ref": "javax.xml.bind:jaxb-api:2.3.1",
+      "dependsOn": [
+        "javax.activation:javax.activation-api:1.2.0"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-core:3.8.4",
+      "dependsOn": [
+        "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+        "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+        "com.google.inject:guice:4.2.2",
+        "org.apache.maven:maven-resolver-provider:3.8.4",
+        "org.slf4j:slf4j-api:1.7.32",
+        "org.apache.maven:maven-settings-builder:3.8.4",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.apache.maven:maven-model:3.8.4",
+        "org.codehaus.plexus:plexus-classworlds:2.6.0",
+        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+        "org.apache.maven:maven-settings:3.8.4",
+        "org.apache.maven:maven-repository-metadata:3.8.4",
+        "org.apache.maven:maven-artifact:3.8.4",
+        "org.apache.maven:maven-model-builder:3.8.4",
+        "org.codehaus.plexus:plexus-interpolation:1.26",
+        "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+        "org.apache.maven:maven-builder-support:3.8.4",
+        "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+        "org.apache.maven.resolver:maven-resolver-spi:1.6.3"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang-java:3.2.5",
+      "dependsOn": [
+        "commons-io:commons-io:2.11.0",
+        "org.eclipse.jdt.core.compiler:ecj:4.6.1",
+        "com.google.inject.extensions:guice-assistedinject:4.2.3",
+        "ch.uzh.ifi.seal:changedistiller:0.0.4",
+        "org.bitbucket.mstrobel:procyon-compilertools:0.5.36"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:cli-scanner:3.2.5",
+      "dependsOn": [
+        "org.apache.logging.log4j:log4j-api:2.18.0",
+        "com.github.spotbugs:spotbugs-annotations:4.7.2",
+        "org.eclipse.steady:lang-java-reach-soot:3.2.5",
+        "org.apache.logging.log4j:log4j-core:2.18.0",
+        "org.eclipse.steady:lang-java-reach:3.2.5",
+        "org.eclipse.steady:shared:3.2.5",
+        "org.eclipse.steady:lang:3.2.5",
+        "org.eclipse.steady:lang-python:3.2.5",
+        "org.eclipse.steady:lang-java-reach-wala:3.2.5",
+        "javax.validation:validation-api:2.0.1.Final"
+      ]
+    },
+    {
+      "ref": "commons-configuration:commons-configuration:1.10",
+      "dependsOn": [
+        "commons-lang:commons-lang:2.6",
+        "commons-logging:commons-logging:1.1.1"
+      ]
+    },
+    {
+      "ref": "com.xebialabs.restito:restito:0.9.4",
+      "dependsOn": [
+        "org.slf4j:slf4j-api:1.7.21"
+      ]
+    },
+    {
+      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "dependsOn": [
+        "jakarta.activation:jakarta.activation-api:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.tmatesoft.sqljet:sqljet:1.1.11",
+      "dependsOn": [
+        "org.antlr:antlr-runtime:3.4"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:plugin-maven:3.2.5",
+      "dependsOn": [
+        "org.apache.maven:maven-core:3.8.4",
+        "org.apache.maven:maven-plugin-api:3.8.4",
+        "org.codehaus.plexus:plexus-cipher:2.0",
+        "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4",
+        "org.apache.ant:ant:1.10.12",
+        "org.codehaus.plexus:plexus-utils:3.4.1"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-settings-builder:3.8.4",
+      "dependsOn": [
+        "org.codehaus.plexus:plexus-sec-dispatcher:2.0"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
+      "dependsOn": [
+        "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
+        "org.springframework.data:spring-data-jpa:2.5.10",
+        "jakarta.transaction:jakarta.transaction-api:1.3.3",
+        "org.springframework:spring-aspects:5.3.18",
+        "org.hibernate:hibernate-core:5.4.33",
+        "org.springframework.boot:spring-boot-starter-aop:2.5.12"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-common:1.2.32",
+      "dependsOn": [
+        "io.swagger.core.v3:swagger-annotations:2.1.1",
+        "io.swagger.core.v3:swagger-integration:2.1.1",
+        "io.github.classgraph:classgraph:4.8.44",
+        "io.swagger.core.v3:swagger-models:2.1.1"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang-java-reach:3.2.5",
+      "dependsOn": [
+        "com.ibm.wala:com.ibm.wala.shrike:1.4.3",
+        "com.ibm.wala:com.ibm.wala.util:1.4.3",
+        "org.eclipse.steady:lang-java:3.2.5",
+        "com.ibm.wala:com.ibm.wala.core:1.4.3"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "dependsOn": [
+        "commons-codec:commons-codec:1.15",
+        "org.apache.httpcomponents:httpcore:4.4.15",
+        "commons-logging:commons-logging:1.2",
+        "commons-codec:commons-codec:1.11",
+        "org.apache.httpcomponents:httpcore:4.4.13"
+      ]
+    },
+    {
+      "ref": "de.upb.cs.swt:heros:1.2.0",
+      "dependsOn": [
+        "org.functionaljava:functionaljava:4.2"
+      ]
+    },
+    {
+      "ref": "org.springframework.data:spring-data-rest-webmvc:3.5.10",
+      "dependsOn": [
+        "org.springframework.data:spring-data-rest-core:3.5.10"
+      ]
+    },
+    {
+      "ref": "io.micrometer:micrometer-core:1.7.10",
+      "dependsOn": [
+        "org.latencyutils:LatencyUtils:2.0.3",
+        "org.hdrhistogram:HdrHistogram:2.1.12"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:30.1.1-jre",
+      "dependsOn": [
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:failureaccess:1.0.1",
+        "org.checkerframework:checker-qual:3.8.0",
+        "com.google.errorprone:error_prone_annotations:2.5.1"
+      ]
+    },
+    {
+      "ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
+      "dependsOn": [
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    {
+      "ref": "ch.qos.logback:logback-classic:1.2.11",
+      "dependsOn": [
+        "ch.qos.logback:logback-core:1.2.11"
+      ]
+    },
+    {
+      "ref": "org.apache.velocity:velocity-engine-core:2.3",
+      "dependsOn": [
+        "org.apache.commons:commons-lang3:3.11",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    },
+    {
+      "ref": "org.bitbucket.mstrobel:procyon-compilertools:0.5.36",
+      "dependsOn": [
+        "org.bitbucket.mstrobel:procyon-core:0.5.36"
+      ]
+    },
+    {
+      "ref": "com.google.inject.extensions:guice-assistedinject:4.2.3",
+      "dependsOn": [
+        "com.google.inject:guice:4.2.3"
+      ]
+    },
+    {
+      "ref": "org.springframework.data:spring-data-jpa:2.5.10",
+      "dependsOn": [
+        "org.springframework:spring-orm:5.3.18",
+        "org.springframework.data:spring-data-commons:2.5.10",
+        "org.springframework:spring-tx:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
+      "dependsOn": [
+        "org.springdoc:springdoc-openapi-common:1.2.32"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:27.1-jre",
+      "dependsOn": [
+        "com.google.j2objc:j2objc-annotations:1.1",
+        "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+        "org.checkerframework:checker-qual:2.5.2",
+        "com.google.errorprone:error_prone_annotations:2.2.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:repo-client:3.2.5",
+      "dependsOn": [
+        "org.tmatesoft.svnkit:svnkit:1.9.3",
+        "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r"
+      ]
+    },
+    {
+      "ref": "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
+      "dependsOn": [
+        "net.java.dev.jna:platform:3.4.0"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-jdbc:5.3.18",
+        "com.zaxxer:HikariCP:4.0.3"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-test:2.5.12",
+      "dependsOn": [
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "com.jayway.jsonpath:json-path:2.5.0"
+      ]
+    },
+    {
+      "ref": "com.jcraft:jsch.agentproxy.connector-factory:0.0.7",
+      "dependsOn": [
+        "com.jcraft:jsch.agentproxy.usocket-nc:0.0.7",
+        "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
+        "com.jcraft:jsch.agentproxy.sshagent:0.0.7",
+        "com.jcraft:jsch.agentproxy.pageant:0.0.7",
+        "com.jcraft:jsch.agentproxy.core:0.0.7"
+      ]
+    },
+    {
+      "ref": "de.fraunhofer.sit.sse.flowdroid:soot-infoflow:2.10.0",
+      "dependsOn": [
+        "org.soot-oss:soot:4.3.0",
+        "net.sf.trove4j:trove4j:3.0.3"
+      ]
+    },
+    {
+      "ref": "org.webjars:webjars-locator:0.38",
+      "dependsOn": [
+        "org.apache.commons:commons-lang3:3.12.0",
+        "org.webjars:webjars-locator-core:0.46"
+      ]
+    },
+    {
+      "ref": "io.swagger.core.v3:swagger-core:2.1.1",
+      "dependsOn": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.6"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-aop:2.5.12",
+      "dependsOn": [
+        "org.aspectj:aspectjweaver:1.9.7"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang-java-reach-soot:3.2.5",
+      "dependsOn": [
+        "de.fraunhofer.sit.sse.flowdroid:soot-infoflow:2.10.0",
+        "ca.mcgill.sable:soot:4.1.0",
+        "com.google.guava:guava:30.1.1-jre"
+      ]
+    },
+    {
+      "ref": "org.ow2.asm:asm-util:7.1",
+      "dependsOn": [
+        "org.ow2.asm:asm-analysis:7.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-actuator:2.5.12",
+      "dependsOn": [
+        "io.micrometer:micrometer-core:1.7.10",
+        "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.12"
+      ]
+    },
+    {
+      "ref": "net.minidev:json-smart:2.4.8",
+      "dependsOn": [
+        "net.minidev:accessors-smart:2.4.8"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-json:2.5.12",
+      "dependsOn": [
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.6",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.6",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.6"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-context:5.3.18"
+      ]
+    }
+  ]
+}

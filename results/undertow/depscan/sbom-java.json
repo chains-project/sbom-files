@@ -1,0 +1,1586 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e8e763a4-37cd-4032-8c48-56aff48f45be",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-12T15:26:42.293Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "5.4.2"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "JBoss by Red Hat",
+      "group": "io.undertow",
+      "name": "undertow-parent",
+      "version": "2.3.2.Final",
+      "description": "Undertow",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.undertow/undertow-parent@2.3.2.Final?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-parent@2.3.2.Final?type=pom"
+    }
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-parser-generator",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.classfilewriter",
+      "name": "jboss-classfilewriter",
+      "version": "1.2.5.Final",
+      "description": "A bytecode writer that creates .class files at runtime",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8aff02544b93158d014df95ebde2ac7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a0340f52f4b8ff873f64a7c3c94bdc69c8ccb443"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "4070b7da5f78365ce6bfdaacc603d8be7514f0d038a3c859b51ef5585b12348f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "381cec2206807990e5640845ed69eb6401b2c94504579c19e474b3a7911da005b0467d8e19945aae4120b0a1b89acbd6b0da4e046d20bbd0a9dfd63437407c85"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f33037f1af6e01893966f3e45dad14fe2e8e268675c3c4e1e14c947801e2da3f6b2cd9891a918cc018be82588d7bf796"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "65316881639d77deb8b6941034ccd48c3aaaea33bb10f03dce0b228815b8a1634c0ccf295b7347730da3381035db064d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9b81e6b78ed29517a99227929385f29144f831dfad4c9f33fb4b8c99e554bc92"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "bd3525f9e9916bf99c97421f3a1d24ae1cd009269901beef487a87b3578ac7e307fdd191a7de452498bcb1b2ab4090af4caccef199a6468eec03bdbab36eea41"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.2.5.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.2.5.Final?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-core",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging",
+      "version": "3.4.3.Final",
+      "description": "The JBoss Logging Framework",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "b298d4b79e591843c1eb1458ea79f070"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c4bd7e12a745c0e7f6cf98c45cdcdf482fd827ea"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0b324cca4d550060e51e70cc0045a6cce62f264278ec1f5082aafeb670fcac49"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "60759c4340a7c1af0f10a5c2252e028150413d2437547f42018a94a838dc4a2bb24256411490a7e5f109b76305e2752ecf37def85e631d7e7b7e8461e0b54dda"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1c07afd380f25c076ca0e568be205ede18c875471547133711f04bb2ffc9936c7c97708605cca18c9a98fc94b072caea"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f17eeff5983e9e0562c90b8b3051b2dbee885818adb104ba8700a399f90a1a3c85a766686dafa06122cd6f8979561ea9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c41833778a14d364e29767d543ac402e93222616bfcc020552f0f037cfc6b02a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0dace1456d22070719b6e7322cdfb64b34f36f5c8f271f62026c691b00fe32fba50ac17f61b467160ec2b7cabdeeac77029ded3d7f9b1e08a4a0f709222a5017"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging-processor",
+      "version": "2.2.1.Final",
+      "description": "Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "892d7183feef6ac2ec0fc22ae3771ea7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "271a8e01caec4017d7a5104ef0b24390b4b06711"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "33a34f022d8eda8f768ed10a8eaf815c10e90854ca2f409a3fe5f2b3dc137102"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "4ae8f55a31589b871f1dcc8f174c5bd59d2541f60ea6668e8c6eac7027d68a0ccd7b98e2660c5cc69464edd4ee78aa4c92896ae9c4e5576f3d5098526d10c4b7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5e2c6108f3e2de6a2c9f5267df4fe907165b342593f519cf92a2fd36974fe7df682f426ec3b0d17ba14f9fa870abaca8"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "237128873f6a1f7b01a7b9b59abb0a52b85a3c42f81b3cd0963ffeba275a7e9e151ba6ef7d28fe8db47b18b223431d0e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b2a90f22aee172106c3ca638b231879cd35612e3763df128bb3e8c6701a0abce"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0b881a7214cce81cec0b43f125c0095ddef41fbb4150e3e49c678461cb662799d0554559c15889283a73b19b196cfefd604b1725f346e1455f00dc08378cdebd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "lgpl",
+            "url": "http://repository.jboss.org/licenses/lgpl-2.1.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logging",
+      "name": "jboss-logging-annotations",
+      "version": "2.2.1.Final",
+      "description": "Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "65ea45ee652a89f43a9a06bd8f0e5139"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ee3db82d956ee22c4f1f2df9c611e048e79a4a43"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f1524fc9d7ed3afc87d365ab0d280ef260c8dd1836435689e8300fd5a51ed178"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "81a9c364bfdbffa50920b91730378a704bc8c73748e028e032d4a5938b20875de47d601b1a55f451530fdeef8cf2a6199285e755682f6f04df50b61fdcc79572"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "c63d0bc5a2abb7639087a5559bd55cc344c52589ad98f956d2199dd19e73c2154059e1c4b078ecd88527a465f4e90412"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c7ccbe80e22ef72215d2ec0e17708d28c0282472841c01442e9fb17a85089a91427904e6e3a5949ee14b1a91856135c3"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0bc405f4bc71ba6159e5680bf9788c8075f24af81cbb03aab1a7b8a6824a3cac"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d86adeaf631775d155e2768d7f65fe1deccb3e3c68bffb271808fba1632a4d89ebe81797c1f1724876e46519a790cc7599d2437097276e5e6a6ef57bbf9728e9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logging/jboss-logging-annotations@2.2.1.Final?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.jboss.logging/jboss-logging-annotations@2.2.1.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.jdeparser",
+      "name": "jdeparser",
+      "version": "2.0.3.Final",
+      "description": "Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1a9cd8093e720b54b2e88ed90cf4b69e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f1982f9caa0ed8a2663d4c648aaa9a82d14eb962"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "aec3ed49b47cb7531e2f88c603eecdc5f5b46ae976d72624162d23ee7fca3803"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e48fadc8248a843681139949928bddd3e4f5a0a2a2b41060db2b954b41914cde23f16fd6941eb352f7afab04de92fc203c6ddcc600f6bef3bf3ead4a5eb89e63"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e9b745e1d2aa6da4906e163801dbdc92d709fe9eeb78feee7ca5937fa2a625d4dd3a39480ae1364ab53a931cb84c9ec1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "b7404911ddc117b920f3d29a3676f7ffbdf520ed1056d4238d0b36b8010a9376f63dd8215dcebdc5b52b2a9069938e5a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "44433a11b6911882954308962c31e2055fc9a57376a23f0754d931c3e687f166"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "7cdea3e09d94e493e7c86ea0626b7459ac1ee0e8d36a0b3016ac8d5cde12a787803229c537bee5fd3ddde9aa880e44b31d59172ae9fa01817f62e80aba117108"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain",
+            "url": "http://repository.jboss.org/licenses/cc0-1.0.txt"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.jdeparser/jdeparser@2.0.3.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.jdeparser/jdeparser@2.0.3.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.xnio",
+      "name": "xnio-api",
+      "version": "3.8.8.Final",
+      "description": "The API JAR of the XNIO project",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "2328488a4a55491d0ec798d689799b70"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1ba9c8b9a8dea1c6cd656155943e6d4c2c631fa7"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "701988bea1c7426d0cdbbd94c02141031cfe3001a470750e2d25b6ac166b7873"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c1cc2d16c7b20106ebf7f1d50ae8b38d1d9e566c4c79880ada110c1a963ecf1c4845110addd5b369a6b9d3fbe9b3c76253d2050c159c517f9aa0ff589f5c7e94"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "49b2da26b5baf3d22684ea563d8d82a9b588995fa1e7e5f1b026a6d77a5c31b163eb0b0acc3e39445d7fabdcfddf5920"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f2ed1ad68bdb47e183dbf3ec125f1e55e016ce8ce537b8479ebc240efd70a6800c1b5f885dbd9bcb03aec30654f2bd9c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "d8d9f57eaeb28feb9354d3bab72179d5c6bd6bf4dae9ea09c0308ad1992e1ad4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6248ae09a17af730c63e92ef5655fb50eac6e83c36aa67fc8195d648dfdb247503c016d88e488c29b7690ef6af0e54df6ed848245ef32a5fb41928396988afab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.xnio/xnio-api@3.8.8.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.xnio/xnio-api@3.8.8.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.common",
+      "name": "wildfly-common",
+      "version": "1.6.0.Final",
+      "description": "Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a398574b26ba0e7127ffb205daf3ff29"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "95271c25e78458b6b22e24cb830a3bbe073ee432"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "27b9a3eb5aba58f17680fd2ae51b8349bc98b5136dafeb1980d885b6ceac7429"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "de0e3eac4166024e14335d7237be36d5b5fc37de53f490d4f81718ff30979a97152f274aee9b85593e25ae86a362a79afdb62766fbd2beacb55a62a04200c575"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "db41dc0919d4d70b4bf180272c87d8d3148abadf327dbba0d7fc661f3463acd50b2d41451d2bf6df63fdef7736621be5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f1493e1f9d4d202c3c2c5567f4d3f7b27dbb61518d909482c7e69d1c2f92afd3f0be5cc147ea8f48bd51820c06f22953"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "01431bba1d4b964d033bb49abb5451b4a06513cca9e851a0f50b77064a50e91d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1838593059e1c25321208416c3a29f81cbb4321d0e6ef942b94d0eed0ba0234d0da51ace91f77ab26301ae040ab20575793d553298de320e5c1975aa8afa1d78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.wildfly.client",
+      "name": "wildfly-client-config",
+      "version": "1.0.1.Final",
+      "description": "Library for supporting WildFly common client configuration",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "77f13d40c0fc70d05b48d43ac8ae2581"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2a803b23c40a0de0f03a90d1fd3755747bc05f4b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "80a4e963ce94ebb043ecb0f2c0e77d327f23dc87d81350b863752eedfa2c3bb3"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f442478c57f7dfac7039f6c7ae014bb2d45cdbd690ee631a3349edbca414adfe1984d065d1439f9b1546fa15fbd032c3a6bfe008f1ad50eef74201467b9f55f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fd6285cf6398f0395c538873c4e52292c467d5f752f47fb8040224b37ec4e39e410136bf040c33ba8b42b3d6cda58a05"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a3f92b65c9914eba7d47ac858ff37d512852691df29d68dd01587e254dd370404a3f0243adf7821a677f1b88904124c9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6e6e537598960954ea18998ed44b696a21a662bfd5268c58dd1fab739882ce34"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "94f46f167853b771ead83d87a93e826512575cb5ef505b841b28d4d818a39f5fe0cbf8b9b155719b4b43569a6fbc4f2c36ab14bfca8fd43ab64963a547fdce74"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.xnio",
+      "name": "xnio-nio",
+      "version": "3.8.8.Final",
+      "description": "The NIO implementation of the XNIO project",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1685f7bb50271b207d9c69f673af50cb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a5d2faf8d02e0a0bb9e9eabca8e38173cb640331"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "714c2d102c16aba245e5f50007bff49aba4d5e06c5303bd398df071c7614bc5f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d0dfb0617b671a97bbf7786e04ea7ead39816e1841cb74c53cf26fdb84e3d9440a3926d6e0b4741deae1792330e8ee6eb855e6de4f585db25670b636deaf93b3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9450648ac1b583c30090e0c8d5dfbfe17d4ed8cd6f14fcc8e21e89a8aab987f4d55b6cd024a088050a30858838add65e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "89b8d506b1c2bf39cda577d70f9f844b221b72fc30a46c027b1b8a71fa32650fe4bfa598c7ad97586d6237ae61feb673"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ae62532301a14b0669c50a3f82b216a12c9588b16c07e5f5935ec4a4269bd6da"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "36d101948d87c4275ce730dc87503f936de798fa9bf34d913d2c15ba67e5680a1fed5085efe54df3b148262aca45d4b987d648505aea5c9581c2d3d845a0a25e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.xnio/xnio-nio@3.8.8.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.xnio/xnio-nio@3.8.8.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.threads",
+      "name": "jboss-threads",
+      "version": "3.5.0.Final",
+      "description": "Provides, via submodules, a base configuration for JBoss project builds, as well as a derived configuration supporting multi-release JARs",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5d440a615acb66963806e7e7808bc322"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dd23d4788b3eafe9597ef3fe028e46ceb293ba8d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e150b67a7f528525fe68dd60841520c22d59e0a831ea237c45a704de48b990b1"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3117f03857adc697064f89c28df1bb4553bfd676f4d5396dea5d95ae085a41488ac966aa8e4bde2a61049c8147ff3b03bb0ada6a1a149466b910fbc8dc50d86c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e76a18d56032514c65db046c3b2d7eade4c46465bb415f130c15902065ec77186afef2b0967c732c4997f20f3a0f3afb"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e34d305439b57f9f189ea90aa9464dbb573439b38f8e6c2b3a0df576edddc59cb0dbff07f39fcd3f29456f30aac2bc08"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bf64fa44e22492b3d7d4a4ac5ae447e5f65bc81022cfce4bb7028268c1fd3874"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d2de9ea2e0afab8aa0e07f2b0a9faf186490d78a0e7d3782601c6819ee9e3ae553f2641c492176eb592638994d62e8eb859086b2a092463d9af323635fa106c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar"
+    },
+    {
+      "publisher": "Mort Bay Consulting",
+      "group": "org.eclipse.jetty.alpn",
+      "name": "alpn-api",
+      "version": "1.1.3.v20160715",
+      "description": "Administrative parent pom for Jetty modules",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "18383950cc83169b8ed61c03fd926e0c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a1bf3a937f91b4c953acd13e8c9552347adc2198"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "07be99758b699e194f70fb9784d94202dc6c98212877829e3d72b020f2660576"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b9570b3323337dcdc192e640288633743736ef9206adc4cda88db7da77df49732bba0a4e85613225ffec32ac72c415a84fcd2353c04f8708dad85142a2b439f8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4d77461790531873d9ecc3eb8e03c526f5cac61a07b2506c52121f0cb9e1323f6666d7e57de8710da77aff711fa97202"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "681e67503222f2517015c7ee77a67e0e07d8bcdedc54898e2f11d6bd9ca4b04754b06fdf98d0418fe280c028418c1405"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c7e69d1f5833cd414f62dfb456a8dee75520366e88a1af4db9b76a14d800b356"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3a4c64a3cb12158119183584c79e5523bc2e460ae942a2927a9f5452e3b0c032442748f4e426466921a3d9f618095901f26a0de77f4e30650c8e22ee79da873c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "EPL-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-servlet",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "jakarta.servlet",
+      "name": "jakarta.servlet-api",
+      "version": "6.0.0",
+      "description": "Eclipse Enterprise for Java (EE4J) is an open source initiative to create standard APIs, implementations of those APIs, and technology compatibility kits for Java runtimes that enable development, deployment, and management of server-side and cloud-native applications.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "4bcb3175ed9b7aa3f038d082879ec2a8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "abecc699286e65035ebba9844c03931357a6a963"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c034eb1afb158987dbb53a5fea0cadf611c8dae8daadd59c44d9d5ab70129cef"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b810ce040ed0671a3161fb197845f3ae750cd38c474ef54c351b7b127ff3b4d624a26c33450c62474f42c1cde21c65324cda63b1b3ea0515a286e0bcb0c0c9d5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2f02e56f5b0a3a7191b6cea6e3b872d8d29503299751c6dabfdf4d61b1ae2b431be9c13801083cd6e516b8f52ab38a95"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "373855d3aef3be1d54046c33d76daa0a3db62b04e0bfa5957670f17ede4f74426b9d858159e67eb6abc723278f272c23"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cb8c3221eb78148915a75489df9d25665cd41b8949ede82c5ee7a792b1b32fe0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "689137c5de2c0972392e181a4f03e5a1b3f839238839a28442da9aa91f4e5c2980eb48a0107c0fbcd2d35a44ab8a4d698fa197e0dadf264f3e547043fc15dba3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "jakarta.annotation",
+      "name": "jakarta.annotation-api",
+      "version": "2.1.1",
+      "description": "Jakarta Annotations API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5dac2f68e8288d0add4dc92cb161711d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "48b9bda22b091b1f48b13af03fe36db3be6e1ae3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "5f65fdaf424eee2b55e1d882ba9bb376be93fb09b37b808be6e22e8851c909fe"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "eabe8b855b735663684052ec4cc357cc737936fa57cebf144eb09f70b3b6c600db7fa6f1c93a4f36c5994b1b37dad2dfcec87a41448872e69552accfd7f52af6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "798597a6b80b423844d70609c54b00d725a357031888da7e5c3efd3914d1770be69aa7135de13ddb89a4420a5550e35b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9629b8ca82f61674f5573723bbb3c137060e1442062eb52fa9c90fc8f57ea7d836eb2fb765d160ec8bf300bcb6b820be"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f71ffc2a2c2bd1a00dfc00c4be67dbe5f374078bd50d5b24c0b29fbcc6634ecb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "aa4e29025a55878db6edb0d984bd3a0633f3af03fa69e1d26c97c87c6d29339714003c96e29ff0a977132ce9c2729d0e27e36e9e245a7488266138239bdba15e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "id": "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-websockets-jsr",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "jakarta.websocket",
+      "name": "jakarta.websocket-api",
+      "version": "2.1.0",
+      "description": "Jakarta WebSocket - Server API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "05cdae5acc6e53e596faa14176fff107"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9b2b5363ead21c4480e37ec15378583e11d3a823"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2f0603daaed334389906ef585003fd877221413a7e55a47771588a50bb4ef01a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2666f0a42536f65bec00d4dcb044ad0be7bc09ef1ee1070b7aca5809d2af1fcc1ec44c4f23ce93badf40897cf38505e5424af86d42c0a55418ea7f41aa96de9e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "418bc9a2a92c1cfa95befbc857a270de8509b31e6a9905f0b9b61ca412415839ad54618bbeee61c782260b21dc9ee152"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a8f1c8de08f5778e1743d91135946233e493554af8d4b7ec6786fa6a7f8abf09c41707868fb8d8f8298363e3e7b2ad72"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "03585eeed9f0e80e26edbd2bf48950125020b609c455222a1825e7ab0ade7b9f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1b64f0a1623d6fa5ac9a604753817a0bff786e9c589c94e6cc337e3e68eb2df153d3c8a0586059311259d710f34fc1b8f59ddb709833bd35e2892b4cd53a57e6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License, version 2 with the GNU Classpath Exception",
+            "url": "https://www.gnu.org/software/classpath/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "jakarta.websocket",
+      "name": "jakarta.websocket-client-api",
+      "version": "2.1.0",
+      "description": "Jakarta WebSocket - Client API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0ff98843ff4a6b9af51cac2d32719ffb"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ac185d7945d4c0a501b79ae003d9f8d9a1ae7eff"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "853b5b5c7544c5289c5db038873da9be5970eef8ec9445bf66c00a09693cda89"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "cf9934f7163f0b8736b7bbe4aee31ba210e03b50308db2e39258dd1db5112c89d9eb116fbde958334bdfb0c02343291bd37e0e0e907690073f68fad516179a68"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d6965d2b803c1cd4f2a03e9965338640e3af51c01a2597b48e1f9c4a7a45d47cffd50c3ab6d9d29e77f82e8a783de047"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4199fb1d245cf413d11c240066db6877d839eec6eb4edffc16f8985ab6c703cc9a51b6a4dfb6c43e7e2cfcafd5d4425e"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "98177271b337c82473a3f5d119f24e478e08fa26d049a039f760a9cb6cb45683"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4328303fb9327a0ad8892003db77b00035e0e95f835cb96a044144d5f5123389685793b7c89191ee349072135a87d6511b6cf580c7d2650ea37fe80d8edf4905"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "EPL-2.0"
+          }
+        },
+        {
+          "license": {
+            "name": "GNU General Public License, version 2 with the GNU Classpath Exception",
+            "url": "https://www.gnu.org/software/classpath/license.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-examples",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "JBoss by Red Hat",
+      "group": "org.jboss.logmanager",
+      "name": "jboss-logmanager",
+      "version": "2.1.19.Final",
+      "description": "An implementation of java.util.logging.LogManager",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "1b9b2d6e54f0591cbd5f1a5c236114b1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d21ac9875c9814fb9f444ab3cec00d3207f60d51"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "22eb9994dab48afb33ebd17269c2d68f0566801663ace410c6b79616f4bcc591"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6edd27261ecada4987bd8d683fef8f9096e30f2baac0759dde19be3a37ba4fdb2310adfe1f79a4ed582bb09d7ff758f7f96aa63158a270351f29b92abaa914d4"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "2a12733d1837a9de5337f9a7a44e2def750d792f8606b4a5daf4913fbfab081520906d1be41a53a924e17d53d7bb78ff"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f2002c4fd2a216ffcca848fd3ecc5cea79dc76e1030acc1f4bd993f2f2de13e571e28d31c9e0a2d41ca15af819e0c0a6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "feeaf2d94c89ee0f916befb1606cbf2d96b9baf00def03c4ab7dc870346137a8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d915de141b2c705b2b6a25ca64288101c20f1092ffad7da123ae12fc75fa5d78c0caf20622d7e152df6bc21305ab0834ffc9b8bf32a5837b06529373ad5bf00e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.undertow",
+      "name": "undertow-benchmarks",
+      "version": "2.3.2.Final",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar"
+    },
+    {
+      "publisher": "Oracle",
+      "group": "org.openjdk.jmh",
+      "name": "jmh-core",
+      "version": "1.21",
+      "description": "The jmh is a Java harness for building, running, and analysing nano/micro/macro benchmarks written in Java and other languages targeting the JVM.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "87fe00275cdaa76a31f73906fc8ee9d7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "442447101f63074c61063858033fbfde8a076873"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "79aecd73ffb5d95d88b1ac36b505fa30ae3e83788e936838e2be9a51074fd2dd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "81bca9388bdd0612fa65ca85ccaec5ba01738d7e45e76ea90f64dfb89539ad4dbfca064189dcc05a43f0f3f1bd0b6124676968a953ff7989b06232ff8d00574b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "7c3c83cdd4163ac3fc0a8fc6b952e9c03d16cf0ff5503a14e102f72824a29d6dfa6616e9ab34ea09a48a864f43c2b921"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "17242c4088e2b9ecfb344bdef73c7afeb64adb1754d378fa8a68f12cdfbf072967974f7235e810709dc7735ef7b53448"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6b5e564bc314682117ff000b55ef65e3d1f7c883dacc72eea701f25075ed5a26"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "529c83010d45291f900f2ea02d974c0da4ebb4f0d2d8583052dc6c6c60fce43d99c3b5ee52437648a9aeb5cc342f7d0594e008b4b0cd3853cd147ed07e1d996f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License (GPL), version 2, with the Classpath exception",
+            "url": "http://openjdk.java.net/legal/gplv2+ce.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjdk.jmh/jmh-core@1.21?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjdk.jmh/jmh-core@1.21?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "net.sf.jopt-simple",
+      "name": "jopt-simple",
+      "version": "4.6",
+      "description": "A Java library for parsing command line options",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "13560a58a79b46b82057686543e8d727"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "306816fb57cf94f108a43c95731b08934dcae15c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3fcfbe3203c2ea521bf7640484fd35d6303186ea2e08e72f032d640ca067ffda"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "18bf59191d7a456e7675c841df8411ebe425da40532e103db95483be5d2a75510d8a38ad9755cdd4e0be27afe7cfd0b358599388a84fcec1ee27e89caa37f5af"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "501ae288afa2a2cafe2b01e8927d7a31b887c891dc1fb37eafbf525c675161b7af14dba1359db686a104881c3944736e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e52b264902d2b9350696cc325949e02e2ca451d787958aaebb9f7c9dcc41d6abd4da5a83001f80e659bfd89aeccab509"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e5c7a060e6bd75fb9ef2b7eeac082550bd4f01049c0da929c57ae71fef59b32a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6b35fe9fcb3497a9e3a4b0c55dab300b63155c76bbce88fae9b3dcc1012f2c55d7c70216173299817830328071f5c3af079a67ce9af96c25b6befbcef915b049"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.commons",
+      "name": "commons-math3",
+      "version": "3.2",
+      "description": "The Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "aaa32530c0f744813570ff73db018698"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ec2544ab27e110d2d431bdad7d538ed509b21e62"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "6268a9a0ea3e769fc493a21446664c0ef668e48c93d126791f6f3f757978fee2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "80fb66a51688c4247b957f9787921e5acb9144d71a4ab0b03b2c30f46427e50c53e6e31ca5ddb04dab2cf5e7c0eedae168103c719f8074be464918ab2e4d6e6d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3aea6a3c2bb79e64b96086bc6b7679780594ea1731f24ae7541e294595275150a12bd63bd4dfb3ddff29e1b672f68664"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6b7fa9eecd9f78db9222438eda47c2f94c7e507c7334b6501ecc7c041e27b084e790956901b3a5a4253510abb9081b28"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4e5c701b4c417493bdb70d4c3f3bfb6019a6eec3c5f17dcce028158de624318c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3a19552d33cbe62a0d174efa39054fbe5e23f7cb466c46616c27480381f232daa2c64c868b354ed965c5d84fbfece08e30e59bc672e3891baf2bb8141b5db8c6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.commons/commons-math3@3.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-math3@3.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.openjdk.jmh",
+      "name": "jmh-generator-annprocess",
+      "version": "1.21",
+      "description": "JMH benchmark generator, based on annotation processors.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "7293df37926cee46f93c5b7e6db94817"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "7aac374614a8a76cad16b91f1a4419d31a7dcda3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c5636ecbc617732f5acf41f94521cf6ae4f5bc6ad3512e82416fbbaabe805fe5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "352deb5304ad54d8089485ce066e409c689012a0dee5af4fd8511402cd35624dd4cabd507b876115304c0c9824b837e96028500e279ba164480e1195a757b45c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "0ea482b5d6a6ff4308b92586744c3c6de163fdb27b79c6aea85611365c60676c96f3261db67cbab5fa2ec68537d5f8dc"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "c4595333caac693e91397dd248ec2ac86654711096466190d3938bd12467e9646d8851ce3893b978164731adb1d0664f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4663386397000d5c0c4e217825672f591cec412365b55dd5ce09a40bdd0b0e43"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "ed59332ba2eb88d2c640b7f456172a3a7d37c843b39a5cd68f8f39335893288f188dc9bd3ea61ed85c8c19836f0bcf90fc90e683ef41765a967027fd76cad095"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU General Public License (GPL), version 2, with the Classpath exception",
+            "url": "http://openjdk.java.net/legal/gplv2+ce.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.5.12",
+      "description": "Apache HttpComponents Client",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "72002652711fe0fa3218d2bf20f47409"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4023a2a80b64c25926911faf350b50cd2a29220f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bc5f065aba5dd815ee559dd24d9bcb797fb102ff9cfa036f5091ebc529bd3b93"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "18ce8b0cd1de30fa397d25b4bcf6760f82706ed00270ed0a1db17f25fab6a7795950a2df171f212c680fc145c2f1125992e184b8f303c97a6498471079fa97fe"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d539db28e5b256c950a7c2082443a3aabcb575a8454ef18484cff80741026b9f191f459510153257b2642be6fce56afa"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "d88246a2dedd6a75d7c8818eca74726d17306ec5643eb78dd8ea9449bcdf2fa1478f84d3b099e093b64689ca4c37cbec"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "bac2d469402a09ddd1fa1145696b8b535d4e7c8cb20732b3d842da97393a9243"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a1b19b9cce96244a4f46e017812f7042b885a1739e2ce1dcb4f02d26e8d01e59020acc4e77c0856e429e9dc249dbddec3a7715aeb9344f89903fe770805107de"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.4.13",
+      "description": "Apache HttpComponents Core (blocking I/O)",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e07a248f61c52776a2366c075dcd4963"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "23430cde8b9bed33c91474ba49f1143284135df1b25fdcbc37bc3bb7e9549e77b3918eb40250093db652ae200367e87316129b23b4f6987e94939d60f467498d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "b776d57492478c162d428bdd3139be0fa6c3cf4503355c3a04710ca7bc3ee74d66627f49eb42814fd8f8364dbd17aa91"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f6f9e70b76717b705d040f0b33857f0dde89736f2e6d55ea56585235eb1b6d0ce4d5aa18c82050391ac968dcb5ec29e2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "721a9fc1bb353ddf3e438bed4306a3fa5b55ffafb474be5dc8715bd23d7a5afa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "c78f9d464e4b840e28266658512b1cab0ece1470bef2764deb2dc20ba69b73d526d92a19494ccb87b4408f9235c4294417f2e10ba709469f4bd62d017b9e3cbe"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "description": "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "publisher": "The Apache Software Foundation",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.11",
+      "description": "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "567159b1ae257a43e1391a8f59d24cfe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3acb4705652e16236558f0f4f2192cc33c3bd189"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d9586162b257386b5871e7e9ae255a38014a9efaeef5148de5e40a3b0200364dad8516bddd554352aa2e5337bec2cc11df88c76c4fdde96a40f3421aa60650d7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "9ae3d8fd4c38f3af52c76c5f98039109901cb0f70700e6d9999b27cc4b30b188e2688aa4adcf6b846376bc3ca125907a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "bd272e22540371e7d834cd897bce9be657293ba9c5584e0d47a4073711dacb524cc59e294e942ffc01613d17ac7d6ac1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "90ec34f9701a8b212c65e6167c505ea6417289f910deedcac8517075b8349728"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "101bc04efae2bd16d7923e61bca922c4a006b0e4b34909e0f8865196cb4df4f4f6269737c17880b4dfd0309cb487b806e88d09c6e1a7dc70237563b3f4312f7f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-codec/commons-codec@1.11?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.11?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/io.undertow/undertow-parent@2.3.2.Final?type=pom",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.2.5.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.2.5.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar",
+        "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar",
+        "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-api@3.8.8.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-nio@3.8.8.Final?type=jar",
+        "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar",
+        "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging-annotations@2.2.1.Final?type=jar",
+        "pkg:maven/org.jboss.jdeparser/jdeparser@2.0.3.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logging/jboss-logging-annotations@2.2.1.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.jdeparser/jdeparser@2.0.3.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.jboss.xnio/xnio-api@3.8.8.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final?type=jar",
+        "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.xnio/xnio-nio@3.8.8.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.xnio/xnio-api@3.8.8.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+        "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
+        "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
+        "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+        "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar",
+        "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar",
+        "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+        "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar",
+        "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
+        "pkg:maven/org.jboss.xnio/xnio-nio@3.8.8.Final?type=jar",
+        "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar",
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+        "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar",
+        "pkg:maven/org.openjdk.jmh/jmh-core@1.21?type=jar",
+        "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar",
+        "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.openjdk.jmh/jmh-core@1.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6?type=jar",
+        "pkg:maven/org.apache.commons/commons-math3@3.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-math3@3.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.openjdk.jmh/jmh-core@1.21?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.11?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.11?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/undertow/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:454936bd-e458-466b-86b2-1f48486656f2",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:22:48Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.neo4j/parent@5.3.0-SNAPSHOT?type=jar",
+      "group": "org.neo4j",
+      "name": "parent",
+      "version": "5.3.0-SNAPSHOT",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Affero General Public License, Version 3 with the Commons Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.neo4j/parent@5.3.0-SNAPSHOT?type=jar"
+    }
+  }
+}

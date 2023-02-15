@@ -1,0 +1,1014 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "62a9e998-c40e-49e9-b964-298076523d6c",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:26:13Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (7bfec2e1ad0d)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "group" : "org.apache.commons",
+      "name" : "commons-math3",
+      "version" : "3.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-math3@3.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-math3"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.apache.commons/commons-math3/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.apache.commons:commons-math3:3.2"
+    },
+    {
+      "group" : "org.jboss.threads",
+      "name" : "jboss-threads",
+      "version" : "3.5.0.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jboss.threads/jboss-threads"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.jboss.threads/jboss-threads/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jboss.threads:jboss-threads:3.5.0.Final"
+    },
+    {
+      "name" : "xnio-nio",
+      "version" : "nio/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jboss.xnio/xnio-nio"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.jboss.xnio/xnio-nio/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:xnio-nio:nio/pom"
+    },
+    {
+      "group" : "net.sf.jopt-simple",
+      "name" : "jopt-simple",
+      "version" : "4.6",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/net.sf.jopt-simple/jopt-simple"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/net.sf.jopt-simple/jopt-simple/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "net.sf.jopt-simple:jopt-simple:4.6"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-servlet",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "cc3020375d758867a5e484a0d4f47a3e5b87b2c8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e63fb0ce878a70697e578a639afec94e"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-servlet"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./servlet/target/undertow-servlet-2.3.2.Final-javadoc.jar!/META-INF/maven/io.undertow/undertow-servlet/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-servlet:2.3.2.Final"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-servlet",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "80d3cf941a4119b7fafe346660468f5a19efc250"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3ab56dd1546c1086cfad3a4169ed7a24"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-servlet"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./servlet/target/undertow-servlet-2.3.2.Final-sources.jar!/META-INF/maven/io.undertow/undertow-servlet/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-servlet:2.3.2.Final"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-servlet",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "62be063e8e14bb505205c055654831ec4dd6f4ab"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "02c841bc189c527ae9fc85c7c727628d"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-servlet"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./servlet/target/undertow-servlet-2.3.2.Final.jar!/META-INF/maven/io.undertow/undertow-servlet/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-servlet:2.3.2.Final"
+    },
+    {
+      "name" : "httpcore",
+      "version" : "INF/maven/org.apache.httpcomponents/httpcore/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.httpcomponents/httpcore"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:httpcore:INF/maven/org.apache.httpcomponents/httpcore/pom"
+    },
+    {
+      "group" : "org.wildfly.common",
+      "name" : "wildfly-common",
+      "version" : "1.6.0.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.wildfly.common/wildfly-common@1.6.0.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.wildfly.common/wildfly-common"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.wildfly.common/wildfly-common/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.wildfly.common:wildfly-common:1.6.0.Final"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-core",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-core@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/io.undertow/undertow-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-core:2.3.2.Final"
+    },
+    {
+      "name" : "pom",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.openjdk.jmh/jmh-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.openjdk.jmh/jmh-core/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.jboss.logmanager",
+      "name" : "jboss-logmanager",
+      "version" : "2.1.19.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jboss.logmanager/jboss-logmanager"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.jboss.logmanager/jboss-logmanager/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jboss.logmanager:jboss-logmanager:2.1.19.Final"
+    },
+    {
+      "group" : "org.jboss.logging",
+      "name" : "jboss-logging",
+      "version" : "3.4.3.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jboss.logging/jboss-logging"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.jboss.logging/jboss-logging/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.jboss.logging:jboss-logging:3.4.3.Final"
+    },
+    {
+      "name" : "pom",
+      "version" : "logging/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/commons-logging/commons-logging"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/commons-logging/commons-logging/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "codec/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/commons-codec/commons-codec"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/commons-codec/commons-codec/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-parser-generator",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3d4d38ab7690e8371ce9d98ac67c37aa20f9e755"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f8a4efb81bf7dde7967227681ca61cbd"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-parser-generator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./parser-generator/target/undertow-parser-generator-2.3.2.Final-javadoc.jar!/META-INF/maven/io.undertow/undertow-parser-generator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-parser-generator:2.3.2.Final"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-parser-generator",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a37c85a2295eed1f868fed3e2acbee575a443097"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "136772a85834707800fe95a6d849209e"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-parser-generator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./parser-generator/target/undertow-parser-generator-2.3.2.Final.jar!/META-INF/maven/io.undertow/undertow-parser-generator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-parser-generator:2.3.2.Final"
+    },
+    {
+      "group" : "io.undertow",
+      "name" : "undertow-parser-generator",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "06a7ee14cf774119f113355b8d0b9444a549c9b1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "cd77c3c1dacf9542388f8282e14f9a15"
+        }
+      ],
+      "purl" : "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-parser-generator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./parser-generator/target/undertow-parser-generator-2.3.2.Final-sources.jar!/META-INF/maven/io.undertow/undertow-parser-generator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "io.undertow:undertow-parser-generator:2.3.2.Final"
+    },
+    {
+      "group" : "org.wildfly.client",
+      "name" : "wildfly-client-config",
+      "version" : "1.0.1.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.wildfly.client/wildfly-client-config@1.0.1.Final",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.wildfly.client/wildfly-client-config"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.wildfly.client/wildfly-client-config/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.wildfly.client:wildfly-client-config:1.0.1.Final"
+    },
+    {
+      "name" : "httpclient",
+      "version" : "INF/maven/org.apache.httpcomponents/httpclient/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.httpcomponents/httpclient"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:httpclient:INF/maven/org.apache.httpcomponents/httpclient/pom"
+    },
+    {
+      "name" : "xnio-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.jboss.xnio/xnio-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/org.jboss.xnio/xnio-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:xnio-api:api/pom"
+    },
+    {
+      "name" : "undertow-benchmarks",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5f57c2f018ea9e8629150df01e73c8832bc28740"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "556757e4038add3710fdc25008432d04"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-benchmarks"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks.jar!/META-INF/maven/io.undertow/undertow-benchmarks/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:undertow-benchmarks:2.3.2.Final"
+    },
+    {
+      "name" : "undertow-benchmarks",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "87b3a62afb9720a57cfee83a16152b7da7cae43b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "562c99e4b586b831436c37e7246d4f59"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-benchmarks"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks-sources.jar!/META-INF/maven/io.undertow/undertow-benchmarks/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:undertow-benchmarks:2.3.2.Final"
+    },
+    {
+      "name" : "undertow-benchmarks",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "311bbc9235aac3ea5c3ccc0efa51333daec0ee63"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0c9ccc9c0939d29d8671a9019996edcd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-benchmarks"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/original-undertow-benchmarks.jar!/META-INF/maven/io.undertow/undertow-benchmarks/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:undertow-benchmarks:2.3.2.Final"
+    },
+    {
+      "name" : "undertow-benchmarks",
+      "version" : "2.3.2.Final",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "409fd86236678e9193d0489532e44377d0ff12eb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5df567225c01d12e13ff45aeafca312e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/io.undertow/undertow-benchmarks"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/undertow/./benchmarks/target/undertow-benchmarks-javadoc.jar!/META-INF/maven/io.undertow/undertow-benchmarks/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:undertow-benchmarks:2.3.2.Final"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:xnio-api:api/pom",
+      "dependsOn" : [
+        "org.jboss.logging:jboss-logging:null",
+        "org.jboss.logmanager:jboss-logmanager:null",
+        "org.jboss.logging:jboss-logging-processor:null",
+        "org.wildfly.common:wildfly-common:null",
+        "org.wildfly.client:wildfly-client-config:null",
+        "org.jboss.threads:jboss-threads:null",
+        "org.jboss.logging:jboss-logging-annotations:null",
+        "org.osgi:org.osgi.core:null",
+        "junit:junit:null",
+        "org.jmock:jmock:null",
+        "org.jmock:jmock-junit4:null",
+        "org.jboss.byteman:byteman:null",
+        "org.jboss.byteman:byteman-bmunit:null",
+        "org.jboss.byteman:byteman-install:null"
+      ]
+    },
+    {
+      "ref" : "org.wildfly.client:wildfly-client-config:1.0.1.Final",
+      "dependsOn" : [
+        "org.jboss.logging:jboss-logging:${version.org.jboss.logging.jboss-logging}",
+        "org.jboss.logging:jboss-logging-processor:${version.org.jboss.logging.jboss-logging-processor}",
+        "org.jboss.logmanager:jboss-logmanager:${version.org.jboss.logmanager}",
+        "org.wildfly.common:wildfly-common:${version.org.wildfly.common}",
+        "junit:junit:4.12"
+      ]
+    },
+    {
+      "ref" : "net.sf.jopt-simple:jopt-simple:4.6",
+      "dependsOn" : [
+        "joda-time:joda-time:2.1",
+        "org.apache.ant:ant:1.7.0",
+        "org.hamcrest:hamcrest-all:1.3",
+        "junit:junit:4.11",
+        "org.infinitest:continuous-testing-toolkit:1.0"
+      ]
+    },
+    {
+      "ref" : "org.apache.commons:commons-math3:3.2",
+      "dependsOn" : [
+        "junit:junit:4.10"
+      ]
+    },
+    {
+      "ref" : "null:httpclient:INF/maven/org.apache.httpcomponents/httpclient/pom",
+      "dependsOn" : [
+        "org.apache.httpcomponents:httpcore:null",
+        "commons-logging:commons-logging:null",
+        "commons-codec:commons-codec:null",
+        "junit:junit:null",
+        "org.mockito:mockito-core:null"
+      ]
+    },
+    {
+      "ref" : "null:xnio-nio:nio/pom",
+      "dependsOn" : [
+        "org.jboss.logging:jboss-logging:null",
+        "org.jboss.logging:jboss-logging-processor:null",
+        "org.jboss.logging:jboss-logging-annotations:null",
+        "org.jboss.xnio:xnio-api:null",
+        "org.osgi:org.osgi.core:null",
+        "junit:junit:null",
+        "org.jboss.logmanager:jboss-logmanager:null",
+        "org.jboss.byteman:byteman:null",
+        "org.jboss.byteman:byteman-bmunit:null",
+        "org.jboss.byteman:byteman-install:null"
+      ]
+    },
+    {
+      "ref" : "org.jboss.logging:jboss-logging:3.4.3.Final",
+      "dependsOn" : [
+        "org.jboss.logmanager:jboss-logmanager:${version.org.jboss.logmanager}",
+        "log4j:log4j:${version.org.apache.log4j}",
+        "org.apache.logging.log4j:log4j-api:${version.org.apache.logging.log4j}",
+        "org.slf4j:slf4j-api:${version.org.sfl4j}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "ch.qos.logback:logback-classic:${version.ch.qos.logback}",
+        "org.apache.logging.log4j:log4j-core:${version.org.apache.logging.log4j}"
+      ]
+    },
+    {
+      "ref" : "io.undertow:undertow-servlet:2.3.2.Final",
+      "dependsOn" : [
+        "io.undertow:undertow-core:null",
+        "org.jboss.logging:jboss-logging-processor:null",
+        "jakarta.servlet:jakarta.servlet-api:null",
+        "jakarta.annotation:jakarta.annotation-api:null",
+        "io.netty:netty-all:null",
+        "org.jboss.xnio:xnio-nio:null",
+        "junit:junit:null",
+        "org.apache.httpcomponents:httpclient:null",
+        "org.jboss.logmanager:jboss-logmanager:null",
+        "org.apache.httpcomponents:httpmime:null",
+        "org.wildfly.openssl:wildfly-openssl:${version.org.wildfly.openssl}"
+      ]
+    },
+    {
+      "ref" : "null:undertow-benchmarks:2.3.2.Final",
+      "dependsOn" : [
+        "io.undertow:undertow-core:null",
+        "org.jboss.logmanager:jboss-logmanager:null",
+        "org.openjdk.jmh:jmh-core:null",
+        "org.openjdk.jmh:jmh-generator-annprocess:null",
+        "org.apache.httpcomponents:httpclient:null"
+      ]
+    },
+    {
+      "ref" : "null:httpcore:INF/maven/org.apache.httpcomponents/httpcore/pom",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.mockito:mockito-core:null",
+        "commons-logging:commons-logging:null"
+      ]
+    },
+    {
+      "ref" : "org.jboss.threads:jboss-threads:3.5.0.Final",
+      "dependsOn" : [
+        "org.graalvm.nativeimage:svm:19.3.1",
+        "org.jboss.logging:jboss-logging-annotations:2.2.0.Final",
+        "org.jboss.logging:jboss-logging-processor:2.2.0.Final",
+        "org.jboss.logging:jboss-logging:3.4.1.Final",
+        "org.wildfly.common:wildfly-common:1.5.0.Final",
+        "junit:junit:4.13.1",
+        "org.assertj:assertj-core:3.16.1",
+        "org.awaitility:awaitility:4.0.2",
+        "org.jboss.logmanager:jboss-logmanager:2.1.14.Final"
+      ]
+    },
+    {
+      "ref" : "io.undertow:undertow-parser-generator:2.3.2.Final",
+      "dependsOn" : [
+        "org.jboss.classfilewriter:jboss-classfilewriter:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "io.undertow:undertow-core:2.3.2.Final",
+      "dependsOn" : [
+        "io.undertow:undertow-parser-generator:null",
+        "org.jboss.logging:jboss-logging:null",
+        "org.jboss.logging:jboss-logging-processor:null",
+        "org.jboss.xnio:xnio-api:null",
+        "org.jboss.xnio:xnio-nio:null",
+        "org.jboss.threads:jboss-threads:null",
+        "org.eclipse.jetty.alpn:alpn-api:null",
+        "io.netty:netty-all:null",
+        "com.twitter:hpack:null",
+        "junit:junit:null",
+        "org.apache.directory.server:apacheds-test-framework:null",
+        "org.apache.directory.server:apacheds-interceptor-kerberos:null",
+        "org.apache.httpcomponents:httpclient:null",
+        "org.apache.httpcomponents:httpmime:null",
+        "org.easymock:easymock:null",
+        "org.jboss.logmanager:jboss-logmanager:null",
+        "com.h2database:h2:null",
+        "org.wildfly.openssl:wildfly-openssl:${version.org.wildfly.openssl}"
+      ]
+    },
+    {
+      "ref" : "org.wildfly.common:wildfly-common:1.6.0.Final",
+      "dependsOn" : [
+        "org.graalvm.sdk:graal-sdk:1.0.0-rc9",
+        "com.oracle.substratevm:svm:1.0.0-rc9",
+        "org.jboss.logging:jboss-logging-annotations:${version.org.jboss.logging.jboss-logging-tools}",
+        "org.jboss.logging:jboss-logging-processor:${version.org.jboss.logging.jboss-logging-tools}",
+        "org.jboss.logging:jboss-logging:${version.org.jboss.logging.jboss-logging}",
+        "javax.annotation:javax.annotation-api:1.3",
+        "junit:junit:4.12"
+      ]
+    },
+    {
+      "ref" : "org.jboss.logmanager:jboss-logmanager:2.1.19.Final",
+      "dependsOn" : [
+        "org.jboss.modules:jboss-modules:${version.org.jboss.modules.jboss-modules}",
+        "org.wildfly.common:wildfly-common:${version.org.wildfly.common.wildfly-common}",
+        "jakarta.json:jakarta.json-api:${version.jakarta.json}",
+        "org.glassfish:jakarta.json:${version.org.glassfish.jakarta.json}",
+        "org.jboss.byteman:byteman:${version.org.byteman}",
+        "org.jboss.byteman:byteman-submit:${version.org.byteman}",
+        "org.jboss.byteman:byteman-install:${version.org.byteman}",
+        "org.jboss.byteman:byteman-bmunit:${version.org.byteman}",
+        "junit:junit:${version.junit.junit}"
+      ]
+    }
+  ]
+}

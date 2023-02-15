@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:a590e89e-3499-4607-97dc-8b3ad7607b75",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:12:53Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.jknack/handlebars.java@4.2.1?type=jar",
+      "group": "com.github.jknack",
+      "name": "handlebars.java",
+      "version": "4.2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.jknack/handlebars.java@4.2.1?type=jar"
+    }
+  }
+}

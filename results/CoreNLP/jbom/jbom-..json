@@ -1,0 +1,1303 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "a8ef03e6-f6d9-4c44-b70c-6c33883533d2",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:01:36Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.4 (717eff247458)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "pom",
+      "version" : "lang3/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "905075e6c80f206bbe6cf1e809d2caa69f420c76"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "71b48e6b3e1b1dc73fe705604b9c7584"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-lang3"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/commons-lang3-3.1.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "protobuf-java",
+      "version" : "java/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e958ce38f96b612d3819ff1c753d4d70609aea74"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "44fbac26a62fda84b2542f8e842f846b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.protobuf/protobuf-java"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/protobuf-java-3.19.2.jar!/META-INF/maven/com.google.protobuf/protobuf-java/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:protobuf-java:java/pom"
+    },
+    {
+      "group" : "org.junit.contrib",
+      "name" : "junit-theories",
+      "version" : "4.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "2f2fe4fd21613f52c984d5703454b4e032e52bf3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "884467a29666755fd75ddab4f0a1fbd0"
+        }
+      ],
+      "purl" : "pkg:maven/org.junit.contrib/junit-theories@4.12",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.junit.contrib/junit-theories"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/junit-theories.jar!/META-INF/maven/org.junit.contrib/junit-theories/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.junit.contrib:junit-theories:4.12"
+    },
+    {
+      "name" : "resources2",
+      "version" : "INF/lib/resources2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "aa2745d280c214918332d678a162f25f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a911bee33d57404797dad51776e15d91e0ac6e6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "apache-tomcat-7.0.12-src/test/webapp-3.0-fragments/WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "resources2.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/tomcat/apache-tomcat-7.0.12-src.zip!/apache-tomcat-7.0.12-src/test/webapp-3.0-fragments/WEB-INF/lib/resources2.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:3a911bee33d57404797dad51776e15d91e0ac6e6"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-impl",
+      "version" : "impl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "36c706e05d7ac6d2dc9fa5a26219fa14d746cceb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "17592722531afdb7ab017cc5b58b5001"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-impl@impl%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.sun.xml.bind/jaxb-impl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/jaxb-impl-2.4.0-b180830.0438-sources.jar!/META-INF/maven/com.sun.xml.bind/jaxb-impl/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.sun.xml.bind:jaxb-impl:impl/pom"
+    },
+    {
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-impl",
+      "version" : "impl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e133f064d99dd6d9d7aad94b86feff78106e97a3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "55045a652be6b6ea57a407e589746d04"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-impl@impl%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.sun.xml.bind/jaxb-impl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jaxb-impl-2.4.0-b180830.0438.jar!/META-INF/maven/com.sun.xml.bind/jaxb-impl/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.sun.xml.bind:jaxb-impl:impl/pom"
+    },
+    {
+      "name" : "sample",
+      "version" : "src/webapps/docs/appdev/sample/sample",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "570f196c4a1025a717269d16d11d6f37"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "80f5053b166c69d81697ba21113c673f8372aca0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "apache-tomcat-7.0.12-src/webapps/docs/appdev/sample"
+        },
+        {
+          "name" : "archive",
+          "value" : "sample.war"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/tomcat/apache-tomcat-7.0.12-src.zip!/apache-tomcat-7.0.12-src/webapps/docs/appdev/sample/sample.war"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:80f5053b166c69d81697ba21113c673f8372aca0"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.apache",
+      "name" : "jakarta-taglibs 'standard': an implementation of JSTL",
+      "version" : "INF/lib/standard",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "65351d0487ad57edda9171bb3b46b98c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a17e8a4d9a1f7fcc5eed606721c9ed6b7f18acf7"
+        }
+      ],
+      "purl" : "pkg:maven/org.apache/jakarta-taglibs%20%27standard%27%3A%20an%20implementation%20of%20JSTL@INF%2Flib%2Fstandard",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "apache-tomcat-7.0.12-src/webapps/examples/WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "standard.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/tomcat/apache-tomcat-7.0.12-src.zip!/apache-tomcat-7.0.12-src/webapps/examples/WEB-INF/lib/standard.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:a17e8a4d9a1f7fcc5eed606721c9ed6b7f18acf7"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jflex",
+      "version" : "INF/maven/de.jflex/jflex/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f993a10394af134537d46ecc708a16702f69850f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "027a5350002d77b3cc4e37f8e4ef90ea"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/de.jflex/jflex"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jflex-full-1.8.2.jar!/META-INF/maven/de.jflex/jflex/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jflex:INF/maven/de.jflex/jflex/pom"
+    },
+    {
+      "group" : "com.googlecode.json-simple",
+      "name" : "json-simple",
+      "version" : "1.1.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f1535657ebe122f89bad3f75a2dcedad"
+        }
+      ],
+      "purl" : "pkg:maven/com.googlecode.json-simple/json-simple@1.1.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.googlecode.json-simple/json-simple"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/json-simple.jar!/META-INF/maven/com.googlecode.json-simple/json-simple/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.googlecode.json-simple:json-simple:1.1.1"
+    },
+    {
+      "name" : "slf4j-simple",
+      "version" : "simple/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "42db62298b899818ff17352cbc00050e940bbfb0"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "cb57410c6be440d04777d60ad4e17dcd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-simple"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/slf4j-simple.jar!/META-INF/maven/org.slf4j/slf4j-simple/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-simple:simple/pom"
+    },
+    {
+      "name" : "istack-commons-runtime",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c899ff66b36c0cf814b3996d5dd9aa6b4684212c"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d5a2c587d6c5540f7ae62e8707b3d384"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.sun.istack/istack-commons-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/istack-commons-runtime-3.0.7-sources.jar!/META-INF/maven/com.sun.istack/istack-commons-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:istack-commons-runtime:runtime/pom"
+    },
+    {
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-runtime",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "36c706e05d7ac6d2dc9fa5a26219fa14d746cceb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "17592722531afdb7ab017cc5b58b5001"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@runtime%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.jaxb/jaxb-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/jaxb-impl-2.4.0-b180830.0438-sources.jar!/META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish.jaxb:jaxb-runtime:runtime/pom"
+    },
+    {
+      "group" : "com.github.vbmacher",
+      "name" : "java-cup-runtime",
+      "version" : "11b-20160615",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f993a10394af134537d46ecc708a16702f69850f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "027a5350002d77b3cc4e37f8e4ef90ea"
+        }
+      ],
+      "purl" : "pkg:maven/com.github.vbmacher/java-cup-runtime@11b-20160615",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.github.vbmacher/java-cup-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jflex-full-1.8.2.jar!/META-INF/maven/com.github.vbmacher/java-cup-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.github.vbmacher:java-cup-runtime:11b-20160615"
+    },
+    {
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-runtime",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e133f064d99dd6d9d7aad94b86feff78106e97a3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "55045a652be6b6ea57a407e589746d04"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@runtime%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish.jaxb/jaxb-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jaxb-impl-2.4.0-b180830.0438.jar!/META-INF/maven/org.glassfish.jaxb/jaxb-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish.jaxb:jaxb-runtime:runtime/pom"
+    },
+    {
+      "name" : "istack-commons-runtime",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c197c86ceec7318b1284bffb49b54226ca774003"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "83e9617b86023b91bd54f65c09838f4b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.sun.istack/istack-commons-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/istack-commons-runtime-3.0.7.jar!/META-INF/maven/com.sun.istack/istack-commons-runtime/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:istack-commons-runtime:runtime/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "runtime/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0c4ca32c2be1b22a5553dd3171f51f9b2b04030b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "769744bebda43cae1d5878fd7d43afd4"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.antlr/antlr-runtime"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/antlr-runtime.jar!/META-INF/maven/org.antlr/antlr-runtime/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/org.javaruntype/javaruntype/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d7595d6aa87b56ad207961157d15b2c59f0afb53"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "66bc32b0eaec51b076510cdc8b5a4b41"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.javaruntype/javaruntype"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/javaruntype.jar!/META-INF/maven/org.javaruntype/javaruntype/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "junit-quickcheck-core",
+      "version" : "0.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "57a9122069ef5259ccd32ee53b7ab68bee61a9ff"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "111b794a497bceac36d352e3f4d9f6ce"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.pholser/junit-quickcheck-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/junit-quickcheck-core-0.4.jar!/META-INF/maven/com.pholser/junit-quickcheck-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:junit-quickcheck-core:0.4"
+    },
+    {
+      "group" : "de.jollyday",
+      "name" : "jollyday",
+      "version" : "0.4.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f29c859f06027772ea70a8412db7322eba8930cb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "38ec7450ab1add3392cc50d7a34546c1"
+        }
+      ],
+      "purl" : "pkg:maven/de.jollyday/jollyday@0.4.9",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/de.jollyday/jollyday"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jollyday-0.4.9.jar!/META-INF/maven/de.jollyday/jollyday/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "de.jollyday:jollyday:0.4.9"
+    },
+    {
+      "name" : "res",
+      "version" : "com/oracle/appbundler/res",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e2fdc5e377085eaaecd4d70f79b9c153"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4c38620c24f65f19bc1af2fcc063a9604890feaa"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "com/oracle/appbundler"
+        },
+        {
+          "name" : "archive",
+          "value" : "res.zip"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/appbundler-1.0.jar!/com/oracle/appbundler/res.zip"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:4c38620c24f65f19bc1af2fcc063a9604890feaa"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "logging/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/commons-logging/commons-logging"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/commons-logging.jar!/META-INF/maven/commons-logging/commons-logging/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "edu.stanford.nlp",
+      "name" : "stanford-corenlp",
+      "version" : "4.5.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "49781f10b1546a4bf7e6393de12e6ca2b4bfac68"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f5d1640fc759b016fbf8b5452470a3fd"
+        }
+      ],
+      "purl" : "pkg:maven/edu.stanford.nlp/stanford-corenlp@4.5.1",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/edu.stanford.nlp/stanford-corenlp"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./target/stanford-corenlp-4.5.1.jar!/META-INF/maven/edu.stanford.nlp/stanford-corenlp/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "edu.stanford.nlp:stanford-corenlp:4.5.1"
+    },
+    {
+      "group" : "com.sun",
+      "name" : "JavaServer Pages Standard Tag Library API Reference Implementation",
+      "version" : "INF/lib/jstl",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c2ced5f8505fe9d1cae685201e9cba07"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3375e43c620df4f1114959400ff9bb90d12a2feb"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun/JavaServer%20Pages%20Standard%20Tag%20Library%20API%20Reference%20Implementation@INF%2Flib%2Fjstl",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "apache-tomcat-7.0.12-src/webapps/examples/WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "jstl.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/tomcat/apache-tomcat-7.0.12-src.zip!/apache-tomcat-7.0.12-src/webapps/examples/WEB-INF/lib/jstl.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:3375e43c620df4f1114959400ff9bb90d12a2feb"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/net.java.dev.javacc/javacc/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "dcd8c8d0fa24be0664661e1fd1549ccdb4e95416"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "9534d88a1b8f79bec887731cfc4e6774"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/net.java.dev.javacc/javacc"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/javacc.jar!/META-INF/maven/net.java.dev.javacc/javacc/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "src/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "51ab5e868022eded7701b869dd1502df5bbf9acf"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7d4ee9d91831d6495a7f335229ce95f8"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "commons-logging-1.2-src"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/commons-logging-1.2-src.zip!/commons-logging-1.2-src/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "resources",
+      "version" : "INF/lib/resources",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4e7bf5dc132115d035c56cb24ac2171d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8e0ce98adf71c68e6f32537270303082f24eb563"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "apache-tomcat-7.0.12-src/test/webapp-3.0-fragments/WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "resources.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/tomcat/apache-tomcat-7.0.12-src.zip!/apache-tomcat-7.0.12-src/test/webapp-3.0-fragments/WEB-INF/lib/resources.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8e0ce98adf71c68e6f32537270303082f24eb563"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "time/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "820534b99e18949ee89e739c95b6f5ccf0ad8810"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "87c5138ffa5b898e98d353a97d8ff700"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/joda-time/joda-time"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/joda-time-2.10.5-sources.jar!/META-INF/maven/joda-time/joda-time/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "jaxb-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "76eeee760b97819cb6fd6e3dd24df05ebbe6f9f8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "61f4ba3d1cba9e0171227ff055c03f0e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/javax.xml.bind/jaxb-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./libsrc/jaxb-api-2.4.0-b180830.0359-sources.jar!/META-INF/maven/javax.xml.bind/jaxb-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jaxb-api:api/pom"
+    },
+    {
+      "name" : "jaxb-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b54184b7dcab2031add3f525550c7f1b7e12209d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "a9b97f6723902f40287c02980aa66eef"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/javax.xml.bind/jaxb-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/jaxb-api-2.4.0-b180830.0359.jar!/META-INF/maven/javax.xml.bind/jaxb-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:jaxb-api:api/pom"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "8e20852d05222dc286bf1c71d78d0531e177c317"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "68910bf95dbcf90ce5859128f0f75d1e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.slf4j/slf4j-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/slf4j-api.jar!/META-INF/maven/org.slf4j/slf4j-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-api:api/pom"
+    },
+    {
+      "group" : "javax.activation",
+      "name" : "javax.activation-api",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "85262acf3ca9816f9537ca47d5adeabaead7cb16"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5e50e56bcf4a3ef3bc758f69f7643c3b"
+        }
+      ],
+      "purl" : "pkg:maven/javax.activation/javax.activation-api@api%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/javax.activation/javax.activation-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/javax.activation-api-1.2.0.jar!/META-INF/maven/javax.activation/javax.activation-api/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "javax.activation:javax.activation-api:api/pom"
+    },
+    {
+      "name" : "junit-quickcheck-generators",
+      "version" : "0.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "9f71a67bcf35a89916c34def02019b5f1c626f92"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "4f626737031fb6dffc183222ab28c664"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.pholser/junit-quickcheck-generators"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/junit-quickcheck-generators-0.4.jar!/META-INF/maven/com.pholser/junit-quickcheck-generators/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:junit-quickcheck-generators:0.4"
+    },
+    {
+      "group" : "org.glassfish",
+      "name" : "javax.json",
+      "version" : "INF/maven/org.glassfish/javax.json/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3178f73569fd7a1e5ffc464e680f7a8cc784b85a"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "569870f975deeeb6691fcb9bc02a9555"
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish/javax.json@INF%2Fmaven%2Forg.glassfish%2Fjavax.json%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.glassfish/javax.json"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./lib/javax.json.jar!/META-INF/maven/org.glassfish/javax.json/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.glassfish:javax.json:INF/maven/org.glassfish/javax.json/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/ognl/ognl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e35387ec9e4ca6908dcf184cd4766dd1fa8838d8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3a2a1357277814fa148477b6bcbbc328"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ognl/ognl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/CoreNLP/./liblocal/ognl.jar!/META-INF/maven/ognl/ognl/pom.xml"
+        }
+      ],
+      "type" : "library"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "de.jollyday:jollyday:0.4.9",
+      "dependsOn" : [
+        "joda-time:joda-time:2.4",
+        "junit:junit:4.11",
+        "javax.xml.bind:jaxb-api:2.2.7",
+        "com.sun.xml.bind:jaxb-impl:2.2.7",
+        "org.mockito:mockito-core:1.9.5"
+      ]
+    },
+    {
+      "ref" : "org.junit.contrib:junit-theories:4.12",
+      "dependsOn" : [
+        "junit:junit:4.12",
+        "org.javaruntype:javaruntype:1.2"
+      ]
+    },
+    {
+      "ref" : "org.glassfish.jaxb:jaxb-runtime:runtime/pom",
+      "dependsOn" : [
+        "javax.xml.bind:jaxb-api:null",
+        "${project.groupId}:txw2:${project.version}",
+        "com.sun.istack:istack-commons-runtime:null",
+        "org.jvnet.staxex:stax-ex:null",
+        "com.sun.xml.fastinfoset:FastInfoset:null",
+        "junit:junit:null",
+        "javax.activation:javax.activation-api:null"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-api:api/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "javax.activation:javax.activation-api:api/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.sun.xml.bind:jaxb-impl:impl/pom",
+      "dependsOn" : [
+        "org.glassfish.jaxb:jaxb-runtime:null",
+        "junit:junit:null"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-simple:simple/pom",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null"
+      ]
+    },
+    {
+      "ref" : "null:junit-quickcheck-core:0.4",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.junit.contrib:junit-theories:4.12",
+        "org.javaruntype:javaruntype:1.2",
+        "ognl:ognl:3.0.5",
+        "org.hamcrest:hamcrest-core:null",
+        "org.hamcrest:hamcrest-library:null",
+        "org.mockito:mockito-all:null",
+        "com.google.guava:guava:null"
+      ]
+    },
+    {
+      "ref" : "null:jaxb-api:api/pom",
+      "dependsOn" : [
+        "javax.activation:javax.activation-api:null"
+      ]
+    },
+    {
+      "ref" : "null:jflex:INF/maven/de.jflex/jflex/pom",
+      "dependsOn" : [
+        "com.github.vbmacher:java-cup-runtime:${cup.version}",
+        "org.apache.ant:ant:null",
+        "com.google.auto.value:auto-value-annotations:null",
+        "junit:junit:null",
+        "com.google.guava:guava:null",
+        "com.google.truth:truth:null",
+        "com.pholser:junit-quickcheck-core:0.9",
+        "com.pholser:junit-quickcheck-generators:0.9",
+        "org.slf4j:slf4j-simple:1.7.28"
+      ]
+    },
+    {
+      "ref" : "com.github.vbmacher:java-cup-runtime:11b-20160615",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:protobuf-java:java/pom",
+      "dependsOn" : [
+        "junit:junit:null",
+        "org.easymock:easymock:null",
+        "com.google.guava:guava:null",
+        "com.google.truth:truth:null"
+      ]
+    },
+    {
+      "ref" : "com.googlecode.json-simple:json-simple:1.1.1",
+      "dependsOn" : [
+        "junit:junit:4.10"
+      ]
+    },
+    {
+      "ref" : "null:junit-quickcheck-generators:0.4",
+      "dependsOn" : [
+        "junit:junit:null",
+        "com.pholser:junit-quickcheck-core:0.4",
+        "org.hamcrest:hamcrest-core:null",
+        "org.hamcrest:hamcrest-library:null",
+        "org.mockito:mockito-all:null",
+        "com.google.guava:guava:null",
+        "com.google.guava:guava-testlib:null"
+      ]
+    },
+    {
+      "ref" : "edu.stanford.nlp:stanford-corenlp:4.5.1",
+      "dependsOn" : [
+        "com.apple:AppleJavaExtensions:1.4",
+        "de.jollyday:jollyday:0.4.9",
+        "org.apache.commons:commons-lang3:3.3.1",
+        "org.apache.lucene:lucene-queryparser:7.5.0",
+        "org.apache.lucene:lucene-analyzers-common:7.5.0",
+        "org.apache.lucene:lucene-core:7.5.0",
+        "javax.servlet:javax.servlet-api:3.0.1",
+        "xom:xom:1.3.7",
+        "joda-time:joda-time:2.10.5",
+        "org.ejml:ejml-core:0.39",
+        "org.ejml:ejml-ddense:0.39",
+        "org.ejml:ejml-simple:0.39",
+        "org.glassfish:javax.json:1.0.4",
+        "org.slf4j:slf4j-api:1.7.12",
+        "com.google.protobuf:protobuf-java:3.19.2",
+        "junit:junit:4.13.1",
+        "com.pholser:junit-quickcheck-core:0.5",
+        "com.pholser:junit-quickcheck-generators:0.5",
+        "javax.activation:javax.activation-api:1.2.0",
+        "javax.xml.bind:jaxb-api:2.4.0-b180830.0359",
+        "com.sun.istack:istack-commons-runtime:3.0.7",
+        "com.sun.xml.bind:jaxb-impl:2.4.0-b180830.0438",
+        "com.googlecode.json-simple:json-simple:1.1.1"
+      ]
+    },
+    {
+      "ref" : "org.glassfish:javax.json:INF/maven/org.glassfish/javax.json/pom",
+      "dependsOn" : [
+        "javax.json:javax.json-api:null"
+      ]
+    },
+    {
+      "ref" : "null:istack-commons-runtime:runtime/pom",
+      "dependsOn" : [
+        "junit:junit:4.12"
+      ]
+    }
+  ]
+}

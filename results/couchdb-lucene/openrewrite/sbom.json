@@ -1,0 +1,1223 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:f2964cb1-e836-4d95-a4d4-457615eb0092",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:08:47Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.rnewson.couchdb.lucene/couchdb-lucene@2.1.0?type=jar",
+      "group": "com.github.rnewson.couchdb.lucene",
+      "name": "couchdb-lucene",
+      "version": "2.1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.rnewson.couchdb.lucene/couchdb-lucene@2.1.0?type=jar"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar",
+      "group": "org.apache.httpcomponents",
+      "name": "httpclient",
+      "version": "4.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar",
+      "group": "org.apache.httpcomponents",
+      "name": "httpcore",
+      "version": "4.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar",
+      "group": "net.jcip",
+      "name": "jcip-annotations",
+      "version": "1.0",
+      "scope": "required",
+      "purl": "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-server",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-servlet",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-servlets",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@1.4?type=jar",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "1.4",
+      "scope": "required",
+      "purl": "pkg:maven/commons-io/commons-io@1.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-configuration/commons-configuration@1.6?type=jar",
+      "group": "commons-configuration",
+      "name": "commons-configuration",
+      "version": "1.6",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-configuration/commons-configuration@1.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.5?type=jar",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.5",
+      "scope": "required",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.json/json@20090211?type=jar",
+      "group": "org.json",
+      "name": "json",
+      "version": "20090211",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "provided without support or warranty"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.json/json@20090211?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mozilla/rhino@1.7R4?type=jar",
+      "group": "org.mozilla",
+      "name": "rhino",
+      "version": "1.7R4",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Mozilla Public License, Version 2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mozilla/rhino@1.7R4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-core@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-core",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-core@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-analyzers-common@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-analyzers-common",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-common@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-analyzers-smartcn@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-analyzers-smartcn",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-analyzers-smartcn@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-queryparser@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-queryparser",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-queryparser@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-queries",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-core@1.6?type=jar",
+      "group": "org.apache.tika",
+      "name": "tika-core",
+      "version": "1.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.tika/tika-core@1.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-highlighter@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-highlighter",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-highlighter@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.tika/tika-parsers@1.6?type=jar",
+      "group": "org.apache.tika",
+      "name": "tika-parsers",
+      "version": "1.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.tika/tika-parsers@1.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.poi/ooxml-schemas@1.1?type=jar",
+      "group": "org.apache.poi",
+      "name": "ooxml-schemas",
+      "version": "1.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.poi/ooxml-schemas@1.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.erlang.otp/jinterface@1.5.3.2?type=jar",
+      "group": "org.erlang.otp",
+      "name": "jinterface",
+      "version": "1.5.3.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "ERLANG PUBLIC LICENSE 1.1"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.erlang.otp/jinterface@1.5.3.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5?type=jar",
+      "group": "org.slf4j",
+      "name": "slf4j-log4j12",
+      "version": "1.7.5",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/log4j/log4j@1.2.14?type=jar",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.14",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/log4j/log4j@1.2.14?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.1.1",
+      "scope": "required",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "group": "javax.servlet",
+      "name": "javax.servlet-api",
+      "version": "3.1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL \u002B GPLv2 with classpath exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-http",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-io",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-security",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-continuation",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar",
+      "group": "org.eclipse.jetty",
+      "name": "jetty-util",
+      "version": "9.3.9.v20160517",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.1?type=jar",
+      "group": "commons-collections",
+      "name": "commons-collections",
+      "version": "3.2.1",
+      "scope": "required",
+      "purl": "pkg:maven/commons-collections/commons-collections@3.2.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-lang/commons-lang@2.4?type=jar",
+      "group": "commons-lang",
+      "name": "commons-lang",
+      "version": "2.4",
+      "scope": "required",
+      "purl": "pkg:maven/commons-lang/commons-lang@2.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-digester/commons-digester@1.8?type=jar",
+      "group": "commons-digester",
+      "name": "commons-digester",
+      "version": "1.8",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-digester/commons-digester@1.8?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils-core@1.8.0?type=jar",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils-core",
+      "version": "1.8.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils-core@1.8.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-sandbox",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-join@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-join",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-join@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.lucene/lucene-memory@6.4.1?type=jar",
+      "group": "org.apache.lucene",
+      "name": "lucene-memory",
+      "version": "6.4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.lucene/lucene-memory@6.4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar",
+      "group": "org.gagravarr",
+      "name": "vorbis-java-tika",
+      "version": "0.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar",
+      "group": "edu.ucar",
+      "name": "netcdf",
+      "version": "4.2.20",
+      "scope": "required",
+      "purl": "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar",
+      "group": "net.sourceforge.jmatio",
+      "name": "jmatio",
+      "version": "1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2?type=jar",
+      "group": "org.apache.james",
+      "name": "apache-mime4j-core",
+      "version": "0.7.2",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar",
+      "group": "org.apache.james",
+      "name": "apache-mime4j-dom",
+      "version": "0.7.2",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.8.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.tukaani/xz@1.5?type=jar",
+      "group": "org.tukaani",
+      "name": "xz",
+      "version": "1.5",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Public Domain"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.tukaani/xz@1.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.pdfbox/pdfbox@1.8.6?type=jar",
+      "group": "org.apache.pdfbox",
+      "name": "pdfbox",
+      "version": "1.8.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.pdfbox/pdfbox@1.8.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar",
+      "group": "org.bouncycastle",
+      "name": "bcmail-jdk15",
+      "version": "1.45",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Bouncy Castle Licence"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar",
+      "group": "org.bouncycastle",
+      "name": "bcprov-jdk15",
+      "version": "1.45",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Bouncy Castle Licence"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.poi/poi@3.11-beta2?type=jar",
+      "group": "org.apache.poi",
+      "name": "poi",
+      "version": "3.11-beta2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.poi/poi@3.11-beta2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.poi/poi-scratchpad@3.11-beta2?type=jar",
+      "group": "org.apache.poi",
+      "name": "poi-scratchpad",
+      "version": "3.11-beta2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.poi/poi-scratchpad@3.11-beta2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.poi/poi-ooxml@3.11-beta2?type=jar",
+      "group": "org.apache.poi",
+      "name": "poi-ooxml",
+      "version": "3.11-beta2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.poi/poi-ooxml@3.11-beta2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar",
+      "group": "org.ccil.cowan.tagsoup",
+      "name": "tagsoup",
+      "version": "1.2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm-debug-all@4.1?type=jar",
+      "group": "org.ow2.asm",
+      "name": "asm-debug-all",
+      "version": "4.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.ow2.asm/asm-debug-all@4.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar",
+      "group": "com.googlecode.mp4parser",
+      "name": "isoparser",
+      "version": "1.0.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?type=jar",
+      "group": "com.drewnoakes",
+      "name": "metadata-extractor",
+      "version": "2.6.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0?type=jar",
+      "group": "de.l3s.boilerpipe",
+      "name": "boilerpipe",
+      "version": "1.1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/rome/rome@1.0?type=jar",
+      "group": "rome",
+      "name": "rome",
+      "version": "1.0",
+      "scope": "required",
+      "purl": "pkg:maven/rome/rome@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.gagravarr/vorbis-java-core@0.6?type=jar",
+      "group": "org.gagravarr",
+      "name": "vorbis-java-core",
+      "version": "0.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.gagravarr/vorbis-java-core@0.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3?type=jar",
+      "group": "com.googlecode.juniversalchardet",
+      "name": "juniversalchardet",
+      "version": "1.0.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Mozilla Public License 1.1 (MPL 1.1)"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.uwyn/jhighlight@1.0?type=jar",
+      "group": "com.uwyn",
+      "name": "jhighlight",
+      "version": "1.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL, v1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.uwyn/jhighlight@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.pff/java-libpst@0.8.1?type=jar",
+      "group": "com.pff",
+      "name": "java-libpst",
+      "version": "0.8.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.pff/java-libpst@0.8.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar",
+      "group": "org.apache.xmlbeans",
+      "name": "xmlbeans",
+      "version": "2.3.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.5",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.7.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar",
+      "group": "edu.ucar",
+      "name": "unidataCommon",
+      "version": "4.2.20",
+      "scope": "required",
+      "purl": "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+      "group": "commons-httpclient",
+      "name": "commons-httpclient",
+      "version": "3.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.pdfbox/fontbox@1.8.6?type=jar",
+      "group": "org.apache.pdfbox",
+      "name": "fontbox",
+      "version": "1.8.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.pdfbox/fontbox@1.8.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.pdfbox/jempbox@1.8.6?type=jar",
+      "group": "org.apache.pdfbox",
+      "name": "jempbox",
+      "version": "1.8.6",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.pdfbox/jempbox@1.8.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.poi/poi-ooxml-schemas@3.11-beta2?type=jar",
+      "group": "org.apache.poi",
+      "name": "poi-ooxml-schemas",
+      "version": "3.11-beta2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.apache.poi/poi-ooxml-schemas@3.11-beta2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.aspectj/aspectjrt@1.8.0?type=jar",
+      "group": "org.aspectj",
+      "name": "aspectjrt",
+      "version": "1.8.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Eclipse Public License - v 1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.aspectj/aspectjrt@1.8.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.adobe.xmp/xmpcore@5.1.2?type=jar",
+      "group": "com.adobe.xmp",
+      "name": "xmpcore",
+      "version": "5.1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "The BSD License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.adobe.xmp/xmpcore@5.1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xerces/xercesImpl@2.8.1?type=jar",
+      "group": "xerces",
+      "name": "xercesImpl",
+      "version": "2.8.1",
+      "scope": "required",
+      "purl": "pkg:maven/xerces/xercesImpl@2.8.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/jdom/jdom@1.0?type=jar",
+      "group": "jdom",
+      "name": "jdom",
+      "version": "1.0",
+      "scope": "required",
+      "purl": "pkg:maven/jdom/jdom@1.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/stax/stax-api@1.0.1?type=jar",
+      "group": "stax",
+      "name": "stax-api",
+      "version": "1.0.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/stax/stax-api@1.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xml-apis/xml-apis@1.3.03?type=jar",
+      "group": "xml-apis",
+      "name": "xml-apis",
+      "version": "1.3.03",
+      "scope": "required",
+      "purl": "pkg:maven/xml-apis/xml-apis@1.3.03?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-server@9.3.9.v20160517?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.9.v20160517?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-security@9.3.9.v20160517?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-servlets@9.3.9.v20160517?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@1.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-configuration/commons-configuration@1.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-collections/commons-collections@3.2.1?type=jar",
+        "pkg:maven/commons-lang/commons-lang@2.4?type=jar",
+        "pkg:maven/commons-digester/commons-digester@1.8?type=jar",
+        "pkg:maven/commons-beanutils/commons-beanutils-core@1.8.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.5?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.json/json@20090211?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.mozilla/rhino@1.7R4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-core@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-analyzers-common@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-analyzers-smartcn@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-queryparser@6.4.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.tika/tika-core@1.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-highlighter@6.4.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.lucene/lucene-join@6.4.1?type=jar",
+        "pkg:maven/org.apache.lucene/lucene-memory@6.4.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.tika/tika-parsers@1.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar",
+        "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar",
+        "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar",
+        "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2?type=jar",
+        "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar",
+        "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar",
+        "pkg:maven/org.tukaani/xz@1.5?type=jar",
+        "pkg:maven/org.apache.pdfbox/pdfbox@1.8.6?type=jar",
+        "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar",
+        "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar",
+        "pkg:maven/org.apache.poi/poi@3.11-beta2?type=jar",
+        "pkg:maven/org.apache.poi/poi-scratchpad@3.11-beta2?type=jar",
+        "pkg:maven/org.apache.poi/poi-ooxml@3.11-beta2?type=jar",
+        "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar",
+        "pkg:maven/org.ow2.asm/asm-debug-all@4.1?type=jar",
+        "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar",
+        "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?type=jar",
+        "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0?type=jar",
+        "pkg:maven/rome/rome@1.0?type=jar",
+        "pkg:maven/org.gagravarr/vorbis-java-core@0.6?type=jar",
+        "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3?type=jar",
+        "pkg:maven/com.uwyn/jhighlight@1.0?type=jar",
+        "pkg:maven/com.pff/java-libpst@0.8.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.poi/ooxml-schemas@1.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.erlang.otp/jinterface@1.5.3.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/log4j/log4j@1.2.14?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-security@9.3.9.v20160517?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-collections/commons-collections@3.2.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-lang/commons-lang@2.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-digester/commons-digester@1.8?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-beanutils/commons-beanutils-core@1.8.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-join@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.lucene/lucene-memory@6.4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar",
+      "dependsOn": [
+        "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar",
+        "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.tukaani/xz@1.5?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.pdfbox/pdfbox@1.8.6?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.pdfbox/fontbox@1.8.6?type=jar",
+        "pkg:maven/org.apache.pdfbox/jempbox@1.8.6?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.poi/poi@3.11-beta2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.poi/poi-scratchpad@3.11-beta2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.poi/poi-ooxml@3.11-beta2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.poi/poi-ooxml-schemas@3.11-beta2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm-debug-all@4.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.aspectj/aspectjrt@1.8.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.adobe.xmp/xmpcore@5.1.2?type=jar",
+        "pkg:maven/xerces/xercesImpl@2.8.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/rome/rome@1.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/jdom/jdom@1.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.gagravarr/vorbis-java-core@0.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.uwyn/jhighlight@1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.pff/java-libpst@0.8.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/stax/stax-api@1.0.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.pdfbox/fontbox@1.8.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.pdfbox/jempbox@1.8.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.poi/poi-ooxml-schemas@3.11-beta2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.aspectj/aspectjrt@1.8.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.adobe.xmp/xmpcore@5.1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/xerces/xercesImpl@2.8.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/xml-apis/xml-apis@1.3.03?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jdom/jdom@1.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/stax/stax-api@1.0.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/xml-apis/xml-apis@1.3.03?type=jar"
+    }
+  ]
+}

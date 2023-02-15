@@ -1,0 +1,1885 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://github.com/rnewson/couchdb-lucene",
+    "creationInfo": {
+        "creators": [
+            "Organization: Kubernetes Release Engineering",
+            "Tool: sigs.k8s.io/bom/pkg/spdx"
+        ],
+        "created": "2023-02-10T14:17:34Z",
+        "licenseListVersion": "3.6"
+    },
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "SBOM-SPDX-63735116-aa24-4cbc-a8cb-9a0d7129c772",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-couchdb-lucene",
+            "name": "couchdb-lucene",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "2db76a0eaf8924cf745ed40d3be20a60b36210c3"
+            },
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "hasFiles": [
+                "SPDXRef-File-couchdb-lucene-.gitignore",
+                "SPDXRef-File-couchdb-lucene-.travis.yml",
+                "SPDXRef-File-couchdb-lucene-BREAKINGC95CHANGES",
+                "SPDXRef-File-couchdb-lucene-CONFIGURINGC95ANALYZERS.md",
+                "SPDXRef-File-couchdb-lucene-LICENSE",
+                "SPDXRef-File-couchdb-lucene-NEWS",
+                "SPDXRef-File-couchdb-lucene-THANKS.md",
+                "SPDXRef-File-couchdb-lucene-TODO",
+                "SPDXRef-File-couchdb-lucene-couchdb-external-hook.py",
+                "SPDXRef-File-couchdb-lucene-README.md",
+                "SPDXRef-File-couchdb-lucene-src-main-bin-killC95ppid",
+                "SPDXRef-File-couchdb-lucene-src-main-assembly-dist.xml",
+                "SPDXRef-File-couchdb-lucene-pom.xml",
+                "SPDXRef-File-couchdb-lucene-src-main-bin-run",
+                "SPDXRef-File-couchdb-lucene-src-main-bin-run.bat",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Config.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-CustomQueryParser.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-DocumentConverter.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-DatabaseIndexer.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-HttpClientFactory.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-IndexKey.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-JSONErrorHandler.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Main.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-PathParts.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-LuceneServlet.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-QueryPlan.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Tika.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-TypedField.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-Couch.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-CouchDocument.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-DatabaseInfo.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-DesignDocument.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-Database.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-HttpUtils.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-FieldType.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-UpdateSequence.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-View.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-rhino-JSLog.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-rhino-RhinoDocument.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-ViewSettings.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Analyzers.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-ErrorPreservingResponseHandler.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Constants.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-ServletUtils.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-StatusCodeResponseHandler.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-StopWatch.java",
+                "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Utils.java",
+                "SPDXRef-File-couchdb-lucene-src-main-resources-log4j.xml",
+                "SPDXRef-File-couchdb-lucene-src-main-tools-etc-init.d-couchdb-lucene",
+                "SPDXRef-File-couchdb-lucene-src-main-resources-couchdb-lucene.ini",
+                "SPDXRef-File-couchdb-lucene-src-main-webapp-WEB-INF-web.xml",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-ConfigTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-CustomQueryParserTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-PathPartsTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-JsonTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-DocumentConverterTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-TikaTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-CouchDocumentTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-DesignDocumentTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-util-AnalyzersTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-UpdateSequenceTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-ViewTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-util-UtilsTest.java",
+                "SPDXRef-File-couchdb-lucene-src-test-resources-couchdb-lucene.ini",
+                "SPDXRef-File-couchdb-lucene-src-test-resources-example.xml",
+                "SPDXRef-File-couchdb-lucene-src-test-resources-log4j.xml",
+                "SPDXRef-File-couchdb-lucene-src-test-resources-paxos-simple.pdf",
+                "SPDXRef-File-couchdb-lucene-src-test-resources-example.doc"
+            ]
+        }
+    ],
+    "files": [
+        {
+            "fileName": ".gitignore",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-.gitignore",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0f1b63b0896b78fba938863f00ada744144a7194"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7b2a82914b68f20a99c4ff9c0cf9ac4ed5e0c142b5687fc9330439abe9a0784a"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "13d152876d308f93ec158a875f06ea71b3c9cfd2d2deb68419d089cc96fef64ca1a59ff5a6630f0f5fdef385fbbc8ab8f4b37a2ca5823341457376459fd6d48f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": ".travis.yml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-.travis.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c26ffd1eb2914dad8cf755dc185f217cf69f9dd6"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "dae519943f0ecc0014bd3dda710416e872f692b07274acd7da22a0706eda2564"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "8cdcc991e9e19aee4e507ab082547b1c4dddef52f463e58c819b57151ea1814cdbbf0e3faa2aa165f380c2056bf34d6586268157371bd05d79499c294a26db72"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": "BREAKING_CHANGES",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-BREAKINGC95CHANGES",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d93c6e6e14a9e8166cc9cde580805fffa7d78799"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6c256d8115fe59f940ef7a10bd67f72937234c75e1f6796863d619ae6147f16c"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "3e40e0b2d587f1703b403f56fd40b6ef97fad2a7dbc963057b7d920fd04f0e328771b9d8c5ad7053959d8868e606ae6ab7df80ef801a96f2fc0a95527f1d8f13"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "BINARY",
+                "APPLICATION"
+            ]
+        },
+        {
+            "fileName": "CONFIGURING_ANALYZERS.md",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-CONFIGURINGC95ANALYZERS.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5420e28a899bca09d9dde323e5dfafd674ede8de"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6690d7f041ba3a4d770609b22d61a81d374caab0f2fd1c342485cc84d81de3b3"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "e44fbff121f65b78a659bb416f737340e1a4bea83da4ad3532897897c74d67ba17497400ac4739a1ba8cf036802c6014c2bede731ff9e363d7a95c69d9a26a5c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "LICENSE",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-LICENSE",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a6a5418b4d67d9f3a33cbf184b25ac7f9fa87d33"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "add743bad5520a68a110a767efdb417761e3c2a6bab24ed533478b3e8ccfdbbab4b817b79c60cac42ba9ecfba209a7f4f698393f018c1aa0a1e74669266baeeb"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "NEWS",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-NEWS",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4b873086ccb0a3d91f3b1ed8a232d631dcb112cc"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "86f5765f732be6e24d2f237a646ff0d5daf3a32a6e59ea79636b8fd8c3a7d030"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "b1f7fce8e1e18845c82886b671734f0486cf9ff3b00d202897a627653251fb0d50cda91e895427a51f2fa2ebf0d1e05906768fdaac6b1f056fc837575207f799"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "THANKS.md",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-THANKS.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7f9a5ceeed2a16cc084b5b547b0d4826e4fdb635"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0ea6eaa6a4144b9b7de1fdb903f017d4d95178c2aa137ca94b9e530934bf5cc6"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "42128408d29ccd7c010b033b524640a56fe3430942a0b3e0d47d7d38f232f6b9adc2ccf24bcff8098e6f745e27ef7ba9d0acfe53da535045b02759b6ac9c4039"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "TODO",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-TODO",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ae6b0a5a79c4913f7cbc582e29ae6e6ff8d8683e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "fb0b416370b8334b0461ccada2b17c2a4063ae3537fc01354541c5c1423b9cb1"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "7c96366f292d5e20f937cf87fad7fb0135c2ad0150399933934eceb5bf8fb3c175ea9e347390919a7c802a42460a1d5e56b51d4aad3de536fb1f48807e8bc1f7"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "couchdb-external-hook.py",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-couchdb-external-hook.py",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "03469a0a005ba43dc525b76b3175a26db50650a4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "658ff749c23d1e21e1bf1a05bd811f23183255368e157f98262733610fa0b1df"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "f8c66e7d4ebd50125f25e44a20cbdf26f7e0940d1656dce8d512bd5cf78b5fc7b3a6b545c1cfe1fb95e47de16725e8d46b2c46a22e58aaf239545c68cea2d6b9"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "README.md",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cf9d85cb166f9c080ba392daca0d88f4e9c1d5ff"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ea8c6796c205083e234790298792bca43d300808d9436ec4d93cd8de3326e299"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a92a9fd1b2e4ca32b06f816404f9cd756cfec204436219206dce8c5e87e33ec774e20b40f0ad19e106785b784e9d9c0fead29bf45d9c443097a5e6ca027a20ba"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/bin/kill_ppid",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-bin-killC95ppid",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "66699ec347e05e839c7abdee09695225464dc301"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "14d7d03c0f9066390c166563fddb35cf5f53b03c3525e3828245107f2301c1f3"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "22749fdc5a2ecdd43368f4b49e3867d4b799d743f02d5a2294c75382056287606fd799c8b3deefb7684b59da25fbccc6488bf8f78de0e702c3412fa6bcda7091"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "BINARY",
+                "APPLICATION"
+            ]
+        },
+        {
+            "fileName": "src/main/assembly/dist.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-assembly-dist.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a70ebc8332f6bf0e7a53d450ab814967fe87311d"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "064f01a057d27bcd7e5980cf5f252f5b7b0b63667b533513909846f008818b5c"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "8cdf3d98c4a3e3432da572aefd76d8f5a42108d3540ef44cedbc46eb09d722438249fa566b30eb2a268686e70e3c329156a9eace396afce84b84ea9ecf996ca3"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "pom.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-pom.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9f83d93e7c2df984b31ea8a83d7eca91fd5e6e67"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "94cb600cea537304a5da8cbeca6dba996901df13a703040e645f11b79953548c"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "8fa63417e8743286c56ceb1c429622c6eaa039ad9d9d595e32af9e6df7d4638022ad8ab2ce89711103e20fe1e0f6c59fc886ddfc45319b0fce0a8d567392bd60"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/main/bin/run",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-bin-run",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4f202bc280d8a931a6ca0f4e4ae6d33e19389409"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a54cb8ece452ff680cf06eebecf9dae132c2b2e736a5532507a6396b8b95af5f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "e195f9833a10b643adf9612c6697ab238f5fe5e41c66269d1ad34da16214f32af36192c2dbd0ea35cb36d29e78a5a095617a16df7805135156bac2b6ba96e6f0"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "BINARY",
+                "APPLICATION"
+            ]
+        },
+        {
+            "fileName": "src/main/bin/run.bat",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-bin-run.bat",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c066b190fdc7d0731b282442ec7e45334a9ab022"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e244b279ab589c912438a74cf4582cc6ca603a92409c6e10c33cd4a4b09b686d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "f6b336b83ea68db81b1afb625a5f0558f6d9264d10fc10c1ff416ca43332ab7be23914196f8b4adcbf4cb5cb7f3bbc92328db0fd0106d8cfd1a3bf37deb50f1c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "BINARY",
+                "APPLICATION"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/Config.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Config.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "37da8b373304f294ff02d7d33f839db3cced38e3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f973cf18a02d57ce809d670aad7d883e0c1ba069b617f911a2b202aa653bb303"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a46441c3985c653b568d430e731067a1b13d42138825c07781a2bc1ca81fdddc62c82c8f7c2eb86771b6a8a6821116967b0ce7396526b4f3739fdc8e18fbe146"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/CustomQueryParser.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-CustomQueryParser.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "64cd3c4b77dab0a4cc7f7ae99f91f034f6931c58"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d12671af56a475edaca7dc4fba9206ff145cec3e4f37b07752ae7d19507d6274"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "110aa50a114d21edf5eff956d37e8552c3da04462beedf25905dd6c65459db24e855fc1450d329e7e5e94758b31f807848a4d58dc9000dd4a4c11ebf6c5b0a57"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/DocumentConverter.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-DocumentConverter.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2ecb36ea595729bab8a03619dc2365d789f2d0d9"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8768abbd20d322b43419a79dd00c9d9645397726dbcfaa6d2725b7e535bf6c86"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "0e404289092326182b60ec55c4d38e4b3822c70dafd3572dd3f87d0b70c6e069c867848948d02cbae429068c66717080af3b5963c24538a9ee2526a7870f9b89"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/DatabaseIndexer.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-DatabaseIndexer.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7c6e25d543b7d1bd4254a2836de1a334373517ac"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f4b60498ad8a1d5dd5ae8706ec3b96484ffd91df56a1bee2c722e4d5888fad68"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4291d64a5ed88f4825eeef06a747c758d81f539a9cfb7870df4ef63150c5cd6277bf4a2c321f10f49d1f2f063e272b73849442a5f17993009bf931cd47211e3e"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/HttpClientFactory.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-HttpClientFactory.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d9fb4b786eff31eafbaaf793f93431b8825e5142"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0e5bcf21d16acd794d6cab20c8712f367a5cd78a3f9dcdc9eb0a2fe6827e3286"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "3cd944862ee04966a57ef6d24380d57334e56c0641f1631fcadd44cdfdc98364c79784b170f5aa1020b9b2730ed0f85c9c0cb1f568b7d7fb54fdd93d2e9bfebc"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/IndexKey.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-IndexKey.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bef4cbf8bb3ce8e5aabe8a6cef29231a12e1bf85"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "56503ed8cbdb730095329a96e380e1fe5b12ce2fd0adbd7beb93b7a8da4430b2"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "65727fe7a19ff2682e7e10b92d20c4c84a3ea1a765ecaa3d3c929e960f8c2ee8ae7fd6e1befdd53895d31c87dff89f5ba5d40596cc731a4e8403163e20b9eebd"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/JSONErrorHandler.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-JSONErrorHandler.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "051f2d98d87faa76b1ec9ecc0ccf00e3b9429855"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "eabd19bac7ddfaaf64266b7fdc41d4a462a990d8628acb05b221d2eccde29a2f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "9ec431e526f11c4b53bf49b68238d627a030aa92a41bd2d668288ed6d74f1e8ded9e986f863496949dd1cfd7e602915d301ac8c0072f2ce0149624b9457a83fe"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/Main.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Main.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "04eb519d6a95617ddcdaf55d2473149c38e863e3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ac6515d524fc129d9e8c578f036544c2eaafb817f0ed75c9b6a4bad70ecf0412"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "1fa3a5a0d0816d03fb018f90d2c19481faaabad32b95a1ff78fc614b466568a8d070a7d1ad5c77a25fab6f232bc82357ab3e721f0ea35df88994b7b5de63bd93"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/PathParts.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-PathParts.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b5d3e9307ad3a72bb6f069e18e85d81b69c76ed9"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "318d03c001ae4813dbc8c0a77c9c30fd48073f3654cf290a3b5bc94af1fe4ec8"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "098b3eb24c2d81f39e4009f3e89c0193998109a77c03c5117e205d47c14cc88aa8a672e34c90fcd878d28d5ef66ac96068cfb092e4e28c44bc06ddf6ab7ffe4a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/LuceneServlet.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-LuceneServlet.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3bb7b871438ea8c8d335526e57b449367edae690"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8f5d564478b0925bbec0daed824057829b2a93e3b6af9e9a9c80b86908bf515f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "53f2b95b9f835f2b3c9b4baeef2e9239b4fe4bedfedc557910e8f453d028293112ccd96133ca374b2c647f23cdd0649197acee14cd771f1f3e8fabf8a1558057"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/QueryPlan.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-QueryPlan.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "43fdcffafee300314632ca1f75fc0a3c86641028"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "719b8f333d3704b939eeeec44602677922847eca3f1e386d458372801d3dcff8"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a199dfe9d1879c7b1dd233df59c3897642e5d89aa6802fa0584b506795723ba2018a66c0baa9280513ba049930fcb4bb41725d10dd6f04ae008158ca17fefa0e"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/Tika.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-Tika.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "14b693e549ad4f1bc48b33673320b4e51fbf7e2f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "751e8c65a7421a26d5fda6ab26e3df85a1b420cec8040461dc586192d85b9f5d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "16bf4bbfbf7471033e28c3be5cc174a942b58a962a9e772145dca6ceaa0d1a0bef71f7a8d45761c6e7219cb263c9bae551f0c0ae65eb5e199f85afbcbcf38d9c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/TypedField.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-TypedField.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ef9dcd9986c3fba1f8deea556a04403c4be2e42a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3cf1ebac54364296d7d61861469b0201ea8701afccb50d6033c0ffc18dd17aef"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "28ce44f9920c19ec118d163bc22ebe8bb627b4933064af5401b0d7077beea772d64e76afc420d35208d991ff237a50e3bab0c95b184fede6246b5d1a709d9123"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/Couch.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-Couch.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "af99f29cb611ef8b18a0a68995470015aee5ecce"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "78f035d3b09baec971d053d36a52221e4cc5754c68260e8d34bbe7bb77065e6e"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "69fdf1edf6d66b52e0935e4ec49fd47021296db6cb913c21b951565413ad45ad9b81c8e88dc398ab1df17db92242e3d40cdc7ba4de759b902c45e5449d8740fb"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/CouchDocument.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-CouchDocument.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ae999d6f950743dc4bd0ade4f56bd373d970a1cb"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "871582af8e531c4bc9a9f7404dc03ebe32f06581a6b5d9f67a6d77bccd45218d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "76d06b63153a837112830381506f327e336e0bdab353cde3a65ce8c1a8bb730d371c0a7b0aa2f7b477986d18f1a0c4d23c49512dfc7c5cd54832a7866471821a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/DatabaseInfo.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-DatabaseInfo.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0b678382ed353eb04327e7992fb5a6986176ae84"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f2e81e2cea575014aec2facebf3c716ebdd9752774abb0c3ed52753332b2046d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "452ec14c31475f8dc6ecf4e8f6f641b88da1939f26fd59e389a8832075914e08966652b0c66af23984e37682a191dca27cfe5290432c3f50c1b95102a6232184"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/DesignDocument.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-DesignDocument.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "35a5ef563079896cdf57ea5826a07586b9643675"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "37d6bad819110ad8c2d9044a407f7fe0ed1945581aa5c52569d81ae2d9e32bdc"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "cfe29bbeddcb0ee85f9a2ceed420d74e335a23a17f0f1b4d15b522ebaaad66404ef0d502d39b546f83724f23ff2344f7200e00efd9572eb6c5920efcbc2ba0ba"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/Database.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-Database.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8d420eba34d5a0ea6240481c4b56da3797b12b53"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "479f5a694bc933ab0452c87fe5bbcce5c5abdfbb79e7503a51bdae7853d115a1"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "1aebc95589ee429fdbc5cb9e810e638faa788d834984563c58689b34d7957136b9ae0931977a9ea9eadb2bf9f65e68762dc90152047ec3274d21ce8cefb226b2"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/HttpUtils.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-HttpUtils.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3a390082f9e0d5c9d6ff30bdc088a2b482e782e4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6e83c32cdd2537c0c10cb4eab769159bf981b756559e6724767cde833a92c821"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "36935b239e0003f0cedc5bb748454bf7fb42ba523164eef9506ad1d4aebe50a0edd1e544178261278982fa8de2e57c4eed50ca2bccc3d8d85df36ecacc26dd02"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/FieldType.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-FieldType.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8951d6b5f5df3fb78858caf5295726164a6fc794"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "78e335d659f70f4a28f8e9eb029acc2f3c965d215dd90d630fdc87b5a30ab3d2"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "7d6b78eac1136174c71c669c7f3fc90c7e235153bfc93b4f98da5e8d15bb28dd396e14c4616955f632b702cba95071038028929b6604221fe7cdbfc77eea618d"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/UpdateSequence.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-UpdateSequence.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3a474781425c43d0ab0a376a7020720dda4a3a76"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e856108b85999ee90c430f664decd114318ca1ce4c7d054b20d1b34e3d71d767"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "99a20c6175ebd41587d6cd38a252208fe34b572c172fbba1e75dbd9dfa73382a65549d8a89d6272d8ed3e3e693935339405ba0ef5af35fa9bdb402824a6e3fa8"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/View.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-View.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "526a6942d9fa5c760347d8084a69e527c067b5b9"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ccab7722d84caebe30d2eca7649dd595cb02d17de01e23e89bbef78097a6a6e2"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "b4c6d996cbf4772ed03ea3e1c7066402fbdc4e2b7c74b92acc509565371aa37464e4e2ae818d5340e583e6aba42304335bbcca96fdd4456178bd429593c27098"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/rhino/JSLog.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-rhino-JSLog.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "048ddf3e3a2d513de947d137b8eeb6b9dd455329"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d6428fb280c558d2cd502637e9530a3a90e796f47bcc495692543daf525787c2"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4c8fbd2a0d79e7d6e5e795888ebceb671d95e08a165a7bd10bfc306deace61e1df95278eaef1352648548ee78551bc80e0e1412d4d67ec8cc6b42b08423a7291"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/rhino/RhinoDocument.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-rhino-RhinoDocument.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cca7a31a8f50f71d8152fcc67ac67b1123e72407"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bbdce5a286a2113d77c46857c7f599e73013be54fd282a8c41e6beb7970bd34f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "21f1ecd5901bfda9933702d6fda05b0b0ca1f7873e5895c6420a9900acf5e8aa645cdf186b5107c8cb770adeb1e232bb4a9a036ae788a0c348bb9a69f3834d3c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/couchdb/ViewSettings.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-couchdb-ViewSettings.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "dc974b7ac987944f9fdf2d8b32e54dddb186e3ca"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8f4aca065427a128076dc1e0b67ee3a905f9d2626aa0ec0e06d11834dabd010e"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "37ad3ad3ca0b84372f83628728e66f05724db00bd3fb761b4a1f9b1e0eef1ea0ec4fe8806ee45d5c8af9afe8e5e447d4cb65d4b5c295fb54208ea500db782490"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/Analyzers.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Analyzers.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "557b141abfd7b905cc9d637dd29db0a0dab9de63"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4c7c5ab32c0f97b462fa27f669c2c6eb6cede708f2902778d7b0c5a6dd7acda4"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "fa11dd7d3090868c050882174e64d2edb7edd82b915589070c12fda8f3faa977fa9f276b90324b6716f18feff4764c1460e0ce47f6bc998788af3ae76542d1b5"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/ErrorPreservingResponseHandler.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-ErrorPreservingResponseHandler.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d215ce0c43a30b87dfd1455f47b1aec4ba8460a2"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5214778514dc7f17b5d5dada950f8005d9ef96049461fcb7cb9d12a99aeab96d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "4b48b9fe5ae25f6941ec57ee0df0f48f075999f66128026f3fbd277f2e3c163174e6d6f8a002bfa2e7deaa3ac7aa6d526cba9e42ce6e7bb33465fce75cfd2409"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/Constants.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Constants.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "be9e55f3266348494da953404de36c03ef23aebb"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "853a3bca1c361a2fdf868c8c01e07fc797a67377412ad9fb3363a968f42c8697"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "3fa8aea546fe9c1eda51513019e3048686fdcd85a60b8f841b6ae19650da390c76cb7accf19b66f62c5219cab8c16c7e17a9ecffa99b90ef7e19225087f0ad5c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/ServletUtils.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-ServletUtils.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b472846a262941c9fea16e10620f7cb498fddda3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b4c678fbd6f1e294026cff7cbc069f68dfa80e0b7bae641354dc27287769f445"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "6e8fa2eb119428d1c99273150f14ebc2a76273277b3b90169b0e675adb4b40d36ba47724dbd40fcd53289cf99dde7f93e293bcc11017f714a2750359aeedaebc"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/StatusCodeResponseHandler.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-StatusCodeResponseHandler.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9a027cb2223de85f75442c9410bd376dcb537d75"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3cd8ab5b2052becbe06316c4e34e5cd9534cee98eec96bdd8ae9f44af043872a"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "3c9f13c90d11b8356c7d7cccb6439a4efa316b554db64a54acb0f53c19b16c58d755bbcfd986fbf2c9f967f8c4cf79e8732fa11ba637c83f3da26306832d8ebc"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/StopWatch.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-StopWatch.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b2cc32a8bf56dfa2c6f3b2f7560e982a2004ccd8"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "f029316bb7790fe9061fec20ce160bb6f3e7a2e6ecf307b5f2cb8eab033a8b50"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "7f92d508c0293823bcf4ee2cb4384987303beab3456a44370ce4a84426fec08df274ea3a4fa026547f83ade14798fd9ee3b438c8d66d96a789fc42b453475a5e"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/com/github/rnewson/couchdb/lucene/util/Utils.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-java-com-github-rnewson-couchdb-lucene-util-Utils.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "18ef73517eb691ba104b7a278e1fe249d3add556"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "765ca8a77c1d527c1955122fd0c8d4765d76bea4e64a39461c134ad9bf081c87"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "aa5d436d6b6434e01e6a4c873dcebefae4ba142f043dbc4b0462a5e9ef08b64a151c143f5f563d91f83d0c1c2083485df0e1ad7c584f8f9af8d8928383e7619a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/resources/log4j.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-resources-log4j.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7ca25d98add906b8db60b860635ee9fd49098428"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "98c60e7376962476249c33caf79f36d1d203933abc2a6ac6823021c7766e4ea9"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "59a48a23d01021f59c81eb65fd39912ab747a6d9c6b48da0c803edb4ee40b2c56845b83352d651cc2e4aa227188282335dec53ce66844b0a71371233f821cc1f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/main/tools/etc/init.d/couchdb-lucene",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-tools-etc-init.d-couchdb-lucene",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c09b236f7c7a8e410c6f95065c49a280c4075167"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8ca36b864f3c304e41dafc2e51841ec6d70a39e7a2cc4a751be9fab40bd3afe6"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a73ae27050bacc3075ba994dfd4df5acf63047d6d18fe0da88ec1a96a149505fb8ab58c96f6354bd1dfee5aba6d15f61e9a3326ee3a2134ad24ced190dc3d5d0"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/resources/couchdb-lucene.ini",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-resources-couchdb-lucene.ini",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ec8d5b465dfd07772eda17e9a227ba5967fd63fc"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c4fb569819eacf3c8a1fa3f1bce52b1aca0e0544e482d50d3b869585f63a3ffc"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "036cb693f3c689359d52c1fa113a890c208380e7b2d371a3d54e29665bdef532ba10319532019b57d928abaae5a0270914d3f11faa7190cf2cb9ba58039116d7"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/main/webapp/WEB-INF/web.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-main-webapp-WEB-INF-web.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fedd10307860e52e9aaf50423d37f1de96251c61"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cf4e92e92aa1fb71470a9dd01bf71b13cb8f60aee15bdbbe480136820780513b"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "25b4f6b551c31e3d119e7f247775006348418f87e3ec0557af92b50d6783ef9ee1c82ba8fca4e16865567ccefa6ef119e1c4df02f94b77aab686baad2e5ead30"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/ConfigTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-ConfigTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "511cb561293755126d9574a61d4943727cbb4ef7"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "d734a6c94028e59a420e7756caca68836311f9bcb6f0f1a0c81fcb534680faf8"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "57f8dd6a5fb68bf567e8bec3dc0c9eb538a008cb9f72b4ce62405edc89f6d33ea0a7496cc2606f7445eadb5ff1a18ea0a45a78ee38fa4874c76b97a6f7fa97fa"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/CustomQueryParserTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-CustomQueryParserTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bc5816246a6fcd7bf8403352159be3d46045d191"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c5e4b9a6adf51215a40a532fb2e637a67effa886ecf3b29583135ddab9f196f0"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "b03c2d7e7d008826c859e117e29945e64135816e661edb9cf5759a14eb067a5632d10b36ea5b8eaa67ccd1d928aac7f366c5c4ba849f421633830d7c08a05be4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/PathPartsTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-PathPartsTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7984646b5da5a18b2dc41c0c7bb06692dea30294"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2036ac139a0891a61842ad5ef3bfe13782e96cfc48980f83c4be37f4b2da25d9"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "97dbefc8e62e6dc538160d384c2d87231c7d086c40fe8df126ab22f2833f910217fce196300b13ef77982a24f02e6b54778d1ce8f1807976d1b4ef21796ee15c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/JsonTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-JsonTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8f8c649fb056a865b38ef863325939eec200ca4e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "970deacb3c26975b98762992fbfbc8ebe170901719efc69b3b866e50fcb071fd"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "805aba0171107f3a7195f912dd0522ca89d2572375cffca49ebd52a47c9636b5a360e1f9ddc9732eb8e0d9a1b2ab3c320152872c6ab7bf2b7f9b344a77fd454a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/DocumentConverterTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-DocumentConverterTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b33035ea663f1573eac94a438ac325985027173a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "ee1bec9e5a2eb86399b10221fce121abe98bd836ebfdcc62b4472133fca65733"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "ae6ede1b213414d72a544bf57f230342b0ace49ce850ddaa301a5e1d83259af88d1be32536927bb3849c4c18d4cadd94b1ae94efa5e338c10a7230f466fea843"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/TikaTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-TikaTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "620a7d26391c1ea7488603f1ef0d61848df521af"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "88ff6ad197249a55a35eec37f66440f0c4ac4c8b175e1850205e8d5af90a2d64"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "221d297570f51d4d2f1061d7e9dff2bda011e85f5c9a381bd9c6d297363060dcf2265d3ab030d70b27defc77ecc28c62e9df47a0b3cb34866381909e2cca4cb4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/couchdb/CouchDocumentTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-CouchDocumentTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4132bb017a3af4810290389715d93cc96eab2f59"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "15d706d1964ad07d32a10b55d4d1f6001eb80f50e9b34fa71701aa30b59a5b7c"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "5a4549a1ecd63ad12ea209422d12d76b5b4556d33cc83d37987bc5265a24d4bbf912be7aca0c867b8b3e81ebd1cf8ee279e8d6d2c99a9825da909e5e5ce42b43"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/couchdb/DesignDocumentTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-DesignDocumentTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d7dc715aac525008e0b22b48292a0b0ef3995cff"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3efcf88361ca3897880bfb00b3bc3ed8d7a7140a06675a8a67e73259c24eeae1"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "c7e355c7db235e4ff4d54a34e03d828774e0bd73914dad752650ee34410ffacc7a0b0f55bad56c65ba662c0c1224f1c44d4af917496b779dedc7e19baa6e9550"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/util/AnalyzersTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-util-AnalyzersTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "130efb4bfbbfcb201923913d5f4dd2db27e9b72d"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "6d9577e14982d0d574951148b7e452abc81c288a79687ba83aa2f4c9f07a5610"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "f1bd78f0a8936737df62c23efc3aea21925a629cd97706a11cad0a7bcfbe53f45714503c73bc0b1f12da0e36343386ab0b679e0f6b0c28bb4564bff6bc2810ce"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/couchdb/UpdateSequenceTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-UpdateSequenceTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6b17d63597a92f24caa0ecb97e6f725c2413e2b2"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3273ce581bd51923d255c332cedfb473d22ff891e1d02aa9de849b1f7a4a7555"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "9da46e905312f7e170ffbf36e85c4b9545c368f09f381d626c1dc70cf3fa603b846410902bf4d1abfb975f0f8e24eb3c6bf89445412a3d0014f517d261111a3c"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/couchdb/ViewTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-couchdb-ViewTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "190513093129505ec162d85801ed96db13c4dcf4"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "8c95d4ffb76ef165e67ac2c798d03325b603b64874f672c57f3db6a0c467cb39"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "72179624587db884c9bdc7a15ed3d95f2ae75e1f1f945cc83211ff2185f935424d4ee67ed56b74e4ea908afdbca155a7ea8cf83e34f8b734b3e39bf18bec088e"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/com/github/rnewson/couchdb/lucene/util/UtilsTest.java",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-java-com-github-rnewson-couchdb-lucene-util-UtilsTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "40e8dfb13f9adbda28775bec0c1236c702b4f32a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5950ba84db601291c9a0934f1516e6b9510917b61f8596410950b957f402d1bb"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "c41021630f8b9886a73d4cf57c64d6cc9f46c7c6b2c81733c67cc5d7e57b954bb7f472623ccdf4a9bfb5e9a6ee2aef0cb71b5b15bf35f3dd83e9788fc961a37f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/couchdb-lucene.ini",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-resources-couchdb-lucene.ini",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f12e067fed2966962f833aea3132509c9e76ae95"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "e950c516438ecc299cd101b978f5dcb6589b16f94642243968bb067d9ba86dd7"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "18d820c89a8c37fb910241f80c6cd85a706e6295d4af03924b37e211468953127173b33242e4769426dcf6f3f3508d351de77081792bd9180939e1fed4739130"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/example.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-resources-example.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9565e9f986c1b3e18cdf708744a84bd4b1f41b39"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7fd2a0a9ea228fa187c88fe7f3d82d245800e02aac3e1ae36e3d4ed34f851a1c"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "60b54b60b52b5202767e57b63d48818c3f864b1d11dc494f9d47f10a79c01d64af33204fb85ed7e89c2ccafa095ac778908f7725a93505833ecf7a4c2c950886"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/log4j.xml",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-resources-log4j.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d4fcc8940aefb2e1bed26a99923cb41bfe50143c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "5e6e7a8e518823f34d25b22a30f2b26a92f0982f83eae9fe7110ca8958c9f036"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "6aeb6f690d3dbce3474953cb10834230eb4b7c1ed57b9f567d2d8e37ac3f2fcb2047572d899001571dd7ec0410f1019216a49d4775da5e5d1bf3edc6c3931fa0"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/paxos-simple.pdf",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-resources-paxos-simple.pdf",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "763d0321ced31b774bd4ba2f9f369c087cbd278e"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "c83b5141257730d6fd20097ef17ebd02a02dfcb1809bad5873b7739659bb3f2b"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "056ab846159c8e809f38b3b9ad3198d1ab8d06f493acaad6bbeb8ae02a3ae93be28e6db7b3ee41928d88f03cb8795d0894afd0789230d2679a17c68c42fe1531"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/test/resources/example.doc",
+            "SPDXID": "SPDXRef-File-couchdb-lucene-src-test-resources-example.doc",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4aec821c5b799105c7ebd933a02487fb3cdcf79b"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "809f8ca1463ea8317a5f800bb36a993d668d1231ff50df02203f23306433024e"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "da6be6c1e4a69992f160ffd395c1412ede6580c3bd544e7fc424ca541a075fb0a6da406a8a983eeefd481efb44e85d7df6eea07c63ca35d1c26e5536314a6dea"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        }
+    ],
+    "documentDescribes": [
+        "SPDXRef-Package-couchdb-lucene"
+    ]
+}

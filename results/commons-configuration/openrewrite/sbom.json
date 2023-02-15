@@ -1,0 +1,368 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:70148128-e4c8-444e-91b4-bba4c561fb17",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:06:15Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-configuration2@2.8.0?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-configuration2",
+      "version": "2.8.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-configuration2@2.8.0?type=jar"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-text",
+      "version": "1.9",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "scope": "required",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.9.4",
+      "scope": "required",
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+      "group": "commons-codec",
+      "name": "commons-codec",
+      "version": "1.15",
+      "scope": "required",
+      "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-jexl",
+      "version": "2.1.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-vfs2",
+      "version": "2.9.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar",
+      "group": "commons-jxpath",
+      "name": "commons-jxpath",
+      "version": "1.3",
+      "scope": "required",
+      "purl": "pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/xml-resolver/xml-resolver@1.2?type=jar",
+      "group": "xml-resolver",
+      "name": "xml-resolver",
+      "version": "1.2",
+      "scope": "required",
+      "purl": "pkg:maven/xml-resolver/xml-resolver@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-core@5.3.21?type=jar",
+      "group": "org.springframework",
+      "name": "spring-core",
+      "version": "5.3.21",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-core@5.3.21?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar",
+      "group": "org.springframework",
+      "name": "spring-beans",
+      "version": "5.3.21",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
+      "group": "org.yaml",
+      "name": "snakeyaml",
+      "version": "1.30",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.13.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.17",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+      "group": "commons-collections",
+      "name": "commons-collections",
+      "version": "3.2.2",
+      "scope": "required",
+      "purl": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar",
+      "group": "org.apache.hadoop",
+      "name": "hadoop-hdfs-client",
+      "version": "3.3.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar",
+      "group": "org.springframework",
+      "name": "spring-jcl",
+      "version": "5.3.21",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.13.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.13.3",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar",
+      "group": "com.squareup.okhttp",
+      "name": "okhttp",
+      "version": "2.7.5",
+      "scope": "required",
+      "purl": "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar",
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "1.6.0",
+      "scope": "required",
+      "purl": "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar",
+      "group": "javax.servlet",
+      "name": "servlet-api",
+      "version": "2.5",
+      "scope": "optional",
+      "purl": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-text@1.9?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/xml-resolver/xml-resolver@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-core@5.3.21?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-beans@5.3.21?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.yaml/snakeyaml@1.30?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.servlet/servlet-api@2.5?type=jar"
+    }
+  ]
+}

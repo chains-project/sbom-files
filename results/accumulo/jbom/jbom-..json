@@ -1,0 +1,727 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "f9a3ab20-3540-4b1f-8d57-3721f3a8668b",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T15:42:01Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.5 (cb96c7b5c548)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "accumulo-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "7027553c4b7482c73b42528586a8167b812d3b07"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "0a3133242b037395c43df0fdee1265f2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./core/target/accumulo-core-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-core:core/pom"
+    },
+    {
+      "name" : "accumulo-iterator-test-harness",
+      "version" : "harness/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "43415b4f1fc0f00474c6e28fd7ccff2ae204e2ef"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "33acabef0ab78b2a1922e38537d37c11"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-iterator-test-harness"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./iterator-test-harness/target/accumulo-iterator-test-harness-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-iterator-test-harness/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-iterator-test-harness:harness/pom"
+    },
+    {
+      "name" : "accumulo-start",
+      "version" : "start/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5aacad203a79492496ea180c385bda1852c3f7c9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "24c2bc67ad53b1a10a2f059ab1380044"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-start"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./start/target/accumulo-start-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-start/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-start:start/pom"
+    },
+    {
+      "name" : "accumulo-tserver",
+      "version" : "tserver/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f514f361efd057113eda2c0bf662829a730dc8cc"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d50355f7765c55db11e0948d6b0270e2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-tserver"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/tserver/target/accumulo-tserver-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-tserver/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-tserver:tserver/pom"
+    },
+    {
+      "name" : "accumulo-compactor",
+      "version" : "compactor/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f0c0ae101303a6f185e07efd5eab772fc1d0da00"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "77feff0f791557ef1d7d82bacd58f268"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-compactor"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/compactor/target/accumulo-compactor-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-compactor/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-compactor:compactor/pom"
+    },
+    {
+      "name" : "accumulo-gc",
+      "version" : "gc/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "54544949dd10a55d8c1c3b9455651bc36dc58743"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "b87da0b4322a5e71771a81ad69090252"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-gc"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/gc/target/accumulo-gc-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-gc/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-gc:gc/pom"
+    },
+    {
+      "name" : "accumulo-monitor",
+      "version" : "monitor/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3bf8c329798e6bcf5657cdba16962b9499fb775e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f2c5551b31f18d44f1f5ac2168e7d883"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-monitor"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/monitor/target/accumulo-monitor-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-monitor/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-monitor:monitor/pom"
+    },
+    {
+      "name" : "accumulo-minicluster",
+      "version" : "minicluster/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a0bfed8cca0dbb892acdb7d12ca91e56ee630664"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c4ca11b20ef5ecf2668431f4b77d27f6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-minicluster"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./minicluster/target/accumulo-minicluster-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-minicluster/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-minicluster:minicluster/pom"
+    },
+    {
+      "name" : "accumulo-manager",
+      "version" : "manager/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5fa97fb2082680c14bd0b9522421055097c7f410"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "528318731da0878fc819a82053983aa8"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-manager"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/manager/target/accumulo-manager-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-manager/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-manager:manager/pom"
+    },
+    {
+      "name" : "accumulo-shell",
+      "version" : "shell/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "da714901329aaf68b02fec74bd468100d8fa44c4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "b219b6e986d43ee4c03027e6c01a9903"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-shell"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./shell/target/accumulo-shell-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-shell/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-shell:shell/pom"
+    },
+    {
+      "name" : "accumulo-server-base",
+      "version" : "base/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "ae6e7f1799c0d5a2b0cac213f201d5f27d590ba3"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5e9575b73516bfb394afd16f7c9341b1"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-server-base"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/base/target/accumulo-server-base-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-server-base/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-server-base:base/pom"
+    },
+    {
+      "name" : "accumulo-compaction-coordinator",
+      "version" : "coordinator/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b46b7a4e56dde10e073f4164aafd0536c96c1b94"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "8a5f54c17178d6d705cf2186c735b47f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.accumulo/accumulo-compaction-coordinator"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/accumulo/./server/compaction-coordinator/target/accumulo-compaction-coordinator-2.1.0.jar!/META-INF/maven/org.apache.accumulo/accumulo-compaction-coordinator/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:accumulo-compaction-coordinator:coordinator/pom"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:accumulo-start:start/pom",
+      "dependsOn" : [
+        "commons-io:commons-io:null",
+        "commons-logging:commons-logging:null",
+        "org.apache.commons:commons-configuration2:null",
+        "org.apache.commons:commons-vfs2:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.hadoop:hadoop-client-minicluster:null",
+        "org.apache.logging.log4j:log4j-1.2-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.junit.jupiter:junit-jupiter-api:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.powermock:powermock-api-easymock:null",
+        "org.powermock:powermock-module-junit4:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-manager:manager/pom",
+      "dependsOn" : [
+        "com.google.auto.service:auto-service:null",
+        "com.google.code.gson:gson:null",
+        "com.google.guava:guava:null",
+        "com.google.protobuf:protobuf-java:null",
+        "commons-codec:commons-codec:null",
+        "commons-io:commons-io:null",
+        "io.micrometer:micrometer-core:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.apache.zookeeper:zookeeper-jute:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-tserver:tserver/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.github.ben-manes.caffeine:caffeine:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.guava:guava:null",
+        "com.google.protobuf:protobuf-java:null",
+        "commons-codec:commons-codec:null",
+        "io.micrometer:micrometer-core:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.commons:commons-collections4:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.checkerframework:checker-qual:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "commons-io:commons-io:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-monitor:monitor/pom",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.code.gson:gson:null",
+        "jakarta.inject:jakarta.inject-api:null",
+        "jakarta.servlet:jakarta.servlet-api:null",
+        "jakarta.validation:jakarta.validation-api:null",
+        "jakarta.ws.rs:jakarta.ws.rs-api:null",
+        "jakarta.xml.bind:jakarta.xml.bind-api:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-web:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.eclipse.jetty:jetty-server:null",
+        "org.eclipse.jetty:jetty-servlet:null",
+        "org.eclipse.jetty:jetty-util:null",
+        "org.glassfish.hk2:hk2-api:null",
+        "org.glassfish.jersey.containers:jersey-container-servlet-core:null",
+        "org.glassfish.jersey.core:jersey-common:null",
+        "org.glassfish.jersey.core:jersey-server:null",
+        "org.glassfish.jersey.ext:jersey-mvc:null",
+        "org.glassfish.jersey.ext:jersey-mvc-freemarker:null",
+        "org.glassfish.jersey.media:jersey-media-json-jackson:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.glassfish.jaxb:txw2:null",
+        "org.glassfish.jersey.ext:jersey-bean-validation:null",
+        "org.glassfish.jersey.inject:jersey-hk2:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.glassfish.jersey.core:jersey-client:null",
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core:null",
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-core:core/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.github.ben-manes.caffeine:caffeine:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.code.gson:gson:null",
+        "com.google.guava:guava:null",
+        "com.google.protobuf:protobuf-java:null",
+        "commons-io:commons-io:null",
+        "commons-logging:commons-logging:null",
+        "io.micrometer:micrometer-core:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "io.opentelemetry:opentelemetry-semconv:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.commons:commons-collections4:null",
+        "org.apache.commons:commons-configuration2:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.commons:commons-math3:null",
+        "org.apache.datasketches:datasketches-java:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.logging.log4j:log4j-1.2-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.apache.zookeeper:zookeeper-jute:null",
+        "org.slf4j:slf4j-api:null",
+        "org.yaml:snakeyaml:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.hadoop:hadoop-client-minicluster:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-iterator-test-harness:harness/pom",
+      "dependsOn" : [
+        "com.google.guava:guava:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.junit.jupiter:junit-jupiter-api:null",
+        "org.junit.jupiter:junit-jupiter-params:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-compaction-coordinator:coordinator/pom",
+      "dependsOn" : [
+        "com.github.ben-manes.caffeine:caffeine:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.guava:guava:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.logging.log4j:log4j-1.2-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.powermock:powermock-api-easymock:null",
+        "org.powermock:powermock-module-junit4:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-compactor:compactor/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.guava:guava:null",
+        "io.micrometer:micrometer-core:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.logging.log4j:log4j-1.2-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.powermock:powermock-api-easymock:null",
+        "org.powermock:powermock-module-junit4:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-shell:shell/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.code.gson:gson:null",
+        "com.google.guava:guava:null",
+        "commons-cli:commons-cli:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.commons:commons-collections4:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.jline:jline:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "commons-io:commons-io:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-gc:gc/pom",
+      "dependsOn" : [
+        "com.google.auto.service:auto-service:null",
+        "com.google.guava:guava:null",
+        "com.google.protobuf:protobuf-java:null",
+        "io.micrometer:micrometer-core:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-server-base:base/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.github.ben-manes.caffeine:caffeine:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.code.gson:gson:null",
+        "com.google.guava:guava:null",
+        "com.google.protobuf:protobuf-java:null",
+        "commons-codec:commons-codec:null",
+        "io.micrometer:micrometer-core:null",
+        "io.opentelemetry:opentelemetry-api:null",
+        "io.opentelemetry:opentelemetry-context:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.commons:commons-collections4:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.apache.zookeeper:zookeeper-jute:null",
+        "org.checkerframework:checker-qual:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    },
+    {
+      "ref" : "null:accumulo-minicluster:minicluster/pom",
+      "dependsOn" : [
+        "com.beust:jcommander:null",
+        "com.google.auto.service:auto-service:null",
+        "com.google.guava:guava:null",
+        "commons-io:commons-io:null",
+        "org.apache.accumulo:accumulo-compaction-coordinator:null",
+        "org.apache.accumulo:accumulo-compactor:null",
+        "org.apache.accumulo:accumulo-core:null",
+        "org.apache.accumulo:accumulo-gc:null",
+        "org.apache.accumulo:accumulo-manager:null",
+        "org.apache.accumulo:accumulo-monitor:null",
+        "org.apache.accumulo:accumulo-server-base:null",
+        "org.apache.accumulo:accumulo-start:null",
+        "org.apache.accumulo:accumulo-tserver:null",
+        "org.apache.hadoop:hadoop-client-api:null",
+        "org.apache.hadoop:hadoop-client-minicluster:null",
+        "org.apache.thrift:libthrift:null",
+        "org.apache.zookeeper:zookeeper:null",
+        "org.slf4j:slf4j-api:null",
+        "org.apache.hadoop:hadoop-client-runtime:null",
+        "org.apache.commons:commons-configuration2:null",
+        "org.apache.curator:curator-framework:null",
+        "org.apache.curator:curator-test:null",
+        "org.apache.logging.log4j:log4j-1.2-api:null",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:null",
+        "org.easymock:easymock:null",
+        "org.junit.jupiter:junit-jupiter-api:null"
+      ]
+    }
+  ]
+}

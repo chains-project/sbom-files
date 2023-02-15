@@ -1,0 +1,32 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:196eb8bb-a21d-45fc-bd01-394f28b8b543",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-14T17:15:03Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.javaparser/javaparser-parent@3.15.15?type=jar",
+      "group": "com.github.javaparser",
+      "name": "javaparser-parent",
+      "version": "3.15.15",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Lesser General Public License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.javaparser/javaparser-parent@3.15.15?type=jar"
+    }
+  }
+}

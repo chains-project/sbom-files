@@ -1,0 +1,529 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://github.com/giltene/jHiccup",
+    "creationInfo": {
+        "creators": [
+            "Organization: Kubernetes Release Engineering",
+            "Tool: sigs.k8s.io/bom/pkg/spdx"
+        ],
+        "created": "2023-02-10T14:27:04Z",
+        "licenseListVersion": "3.6"
+    },
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "SBOM-SPDX-962e8b32-8bd7-4ec0-8829-75626ecbb15e",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-jHiccup",
+            "name": "jHiccup",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": true,
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "89f14cbf8174dd3b8d38108d163ae5d36e0b8c77"
+            },
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "hasFiles": [
+                "SPDXRef-File-jHiccup-.gitignore",
+                "SPDXRef-File-jHiccup-Dockerfile",
+                "SPDXRef-File-jHiccup-.travis.yml",
+                "SPDXRef-File-jHiccup-LICENSE.txt",
+                "SPDXRef-File-jHiccup-COPYING.txt",
+                "SPDXRef-File-jHiccup-jHiccup",
+                "SPDXRef-File-jHiccup-jHiccupLogProcessor",
+                "SPDXRef-File-jHiccup-README.md",
+                "SPDXRef-File-jHiccup-src-main-assembly-dist.xml",
+                "SPDXRef-File-jHiccup-pom.xml",
+                "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-HiccupMeterAttacher.java",
+                "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-Idle.java",
+                "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-HiccupMeter.java",
+                "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-Version.java.template",
+                "SPDXRef-File-jHiccup-src-test-java-org-jhiccup-HiccupConfigurationTest.java",
+                "SPDXRef-File-jHiccup-examplePlot.png",
+                "SPDXRef-File-jHiccup-src-test-java-org-jhiccup-HiccupMeterTest.java",
+                "SPDXRef-File-jHiccup-jHiccupPlotter.xls"
+            ]
+        }
+    ],
+    "files": [
+        {
+            "fileName": ".gitignore",
+            "SPDXID": "SPDXRef-File-jHiccup-.gitignore",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "07ddc2263174299657313292bebaa74a0441897a"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "0bdaf279f45a61dfaa298bc74e3c93e8e8281a5be0ed573585ffbaed21db9f82"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "f166337c9bc0a8a9bf244a208ad8ef9f0bebe12d7a7a54493571b6b0fd8fb2333c3176332697a354490bed5210c045f42fa459e31ce960cd91e904c087a34a55"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "Dockerfile",
+            "SPDXID": "SPDXRef-File-jHiccup-Dockerfile",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e7a89055139f90d26b97ffdfba255666c8cdf071"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "bd71b9fa26ce7224a911301b0238bc6c4e6d8029f732d25c6ee296241d3b7bfd"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "bf6e9a6c584d0f6ae5637c5b7660bcd424eebd069788c09c1ff6f7649869be2371ee51acaeed9dd6662b61cb4cfaad140482357fb272a5ccbc957ab5bd5d27ff"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "BINARY",
+                "APPLICATION"
+            ]
+        },
+        {
+            "fileName": ".travis.yml",
+            "SPDXID": "SPDXRef-File-jHiccup-.travis.yml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0d0b57ee629daa394920c45fadf3d75ac214283b"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "4418cab9882b16d63a410691b82d0694121f87102602b8c130eca0c5f7931769"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "d6591b5c9ef5e9269314338b0b676f73b610750304d7acdc74838f93aefb1bca33389b8776e7f761d729c73a30cf300fa334769491906cb4f6698749c63de58d"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT"
+            ]
+        },
+        {
+            "fileName": "LICENSE.txt",
+            "SPDXID": "SPDXRef-File-jHiccup-LICENSE.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ea76de222560361c015877c60bfedd81af0ede07"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "acb1155a7a17adb507ad68afafa253d978c7080b83443cf288508caab2c9e588"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "ddd6017d3dc11c9355ffc109642938d2876bc9294e81d9abd34608e9f27832aa14ed6bbd86b4d98cfb7051ca9432cf81ba9103be7ecded5e232cbeaa95703f21"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "BSD-2-Clause"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "COPYING.txt",
+            "SPDXID": "SPDXRef-File-jHiccup-COPYING.txt",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "82da472f6d00dc5f0a651f33ebb320aa9c7b08d0"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "1eb4436f8d58766cbe99db97e5e8c0db8a706376afd291c337de1ba7a6b066d3791dc85ad034bdd54ea336bed6e6e8e7a037d8b04b2773c9c7517b9d9921d1fa"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseInfoInFiles": [
+                "CC0-1.0"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "jHiccup",
+            "SPDXID": "SPDXRef-File-jHiccup-jHiccup",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "21ca2f09881e75bdc542afef8c562e320a5a9df8"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "3ce173a38db4ef4b80badc6355eb9bc2dda625faa4ed5d229c80e7644bd7982f"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a4efc4886718de8082d248022f8226eef0a4293deed95bbabb957a2d14c4c45f970c4e903f12835c2a69a6622987a823b7e70dca96cb0fe0a3cf4aa22d9297fd"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "jHiccupLogProcessor",
+            "SPDXID": "SPDXRef-File-jHiccup-jHiccupLogProcessor",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "302f015469afc7f993ddaf75d374b5c7b1c45bc6"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b2ed32dd66c3f72b641dc82dc676acd0a65f0dee372bf4b0264bb49988879bf8"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "148359d83e2b96549c7f5f4e563fa2b0250dc82c1e184af136a4a6f6098ddeaf7cd0d7277c4d2f6ea444fde96d012a0f506e63191634019890d05abd5826a425"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "README.md",
+            "SPDXID": "SPDXRef-File-jHiccup-README.md",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "acecc8bf2080796eea00d67d22835a37317c75a8"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "97353dd49389a4efe9360024cfa23179d868718b1941bea08bf0f9dd1873cf41"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "50bc0dca52ec35c0cbe107008a3a74a8cc5a057cdf46727091cdfd9c42473fde1243429198a0e8e246f726da4f0f8225ab73b46eadaf8d9cb086eb571bc9fa50"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        },
+        {
+            "fileName": "src/main/assembly/dist.xml",
+            "SPDXID": "SPDXRef-File-jHiccup-src-main-assembly-dist.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c1b7a17a14e0d907cc6d5d6e8aef825ccb89b448"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1b6c0d0ffbd94130ef78f50b5caf605f35394f9abf9a98ef20b9caef06b8f187"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "a9289a9def82b8342322c481c29143a93c1529746f82ef99abfd30936681a24445738d10b10dd76b47821e4f3dd3d929e22fd77b7e8bf2d69fc5a6bbe02d204f"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "pom.xml",
+            "SPDXID": "SPDXRef-File-jHiccup-pom.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bac00f08172ebb47c7121e8507ef1a60a2ca475c"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "63daecc07ef9b014fbf8caa9f7b445c991a25c42f2f087849b1643ea712e074e"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "faaf855c1f72e40c366a07f131be7a75e92a643a1e8862e3de7c0ee335355f7d3ace5283771bafe88d74e7a5a5dda5d31c5321c976bb3fabfa7da7ae105cf584"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/main/java/org/jhiccup/HiccupMeterAttacher.java",
+            "SPDXID": "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-HiccupMeterAttacher.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "df63556b011935dd07f2c08955a863922d58cb36"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "7ce12d43f90208756fc0a6ab471f372b04b598ec0f4545d674a358684344a183"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "ee1221a01c960dc66166902ec6a909ac6dff576ae3f4291d897ff7564e2d0229a9c80ed8dd521b788442b42c0753c765e803ebd078c4fda024e271351f1a38e6"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/org/jhiccup/Idle.java",
+            "SPDXID": "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-Idle.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ef72059a420a6069642b58428f3c24cdd46691f3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "85f9c2a1a321da0786c3de86d5b33e5dcb5871fab9c1285fa08795a8c2ccdd3d"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "40c8142f13f749bbc74a8fe0045e591cedeccf53179232be50defbbd65678b33757fdb8a495dc2cd5270d0bc2109f50f113441402c4e42c64beb3e8ece0d544d"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/org/jhiccup/HiccupMeter.java",
+            "SPDXID": "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-HiccupMeter.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d74356195fea528ef3105eccd0d6581d8f06fecf"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "09c9fecb39a056180aa614f82bb0a4172221bc0c0bcec2d3910186b7394d8378"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "19566e25f664bc15ada1a01bc3ebcd91683eb2c7c16104d25c991dd38455b497e582ae3c647a4da8cf087573a1b34a7258982b304dd49a28d9605fc197ed9bd2"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "src/main/java/org/jhiccup/Version.java.template",
+            "SPDXID": "SPDXRef-File-jHiccup-src-main-java-org-jhiccup-Version.java.template",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b85288e685003c824496cf34eca035dde34e842f"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "27370347169b07e24f0523a0ed9559e76e4c93ecb314bcc183b156310c73ba84"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "dfb63236a7cc4d8cff58cdf39a11d790fc73cfa633f8fdb383f8190d11f7ccf9519feb1e01ce267a891b68a6ea7ee8addb582d551a238e135a390bdb4831e749"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "OTHER"
+            ]
+        },
+        {
+            "fileName": "src/test/java/org/jhiccup/HiccupConfigurationTest.java",
+            "SPDXID": "SPDXRef-File-jHiccup-src-test-java-org-jhiccup-HiccupConfigurationTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "96cfcd75b42dbb191ad4f7f645c293cf2fe70219"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "9de45180f96ac1e883122b828b598f1585ea0e125b715ec6edee3f16cd65c6d7"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "933704642cadc7082b436388f79a99f58aadc7de2d9c49379073631bd0a89154540c648bb0db9cea4cc92039dc5f6bc95360b4232297cefe553af8b6bfa23e76"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "examplePlot.png",
+            "SPDXID": "SPDXRef-File-jHiccup-examplePlot.png",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "44ef0b291a90ec5f4fdd5b20c813311728c86df3"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "829db3c49819b03dc2ea43543bf32d143c16e820919f50fd214ce6f43a54cc87"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "772a66417d87bdfa80de106750904cbb363ef3e1a3ae62b2eee151e5fa382599e6c6e0937d783227e265e34bd593f653f377f747f934703a8030f654bd3eb140"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "IMAGE"
+            ]
+        },
+        {
+            "fileName": "src/test/java/org/jhiccup/HiccupMeterTest.java",
+            "SPDXID": "SPDXRef-File-jHiccup-src-test-java-org-jhiccup-HiccupMeterTest.java",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fb63ae775ebdf34f7c1eda1d90c900c7ccef1b01"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "2ba0cf97c9afaad05066d75a055545aee88ea32739b011efa4839e284d49d776"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "2e5af5f6ebbed9ebdf334e1aecdcd7e9c88a318df2d5e27c28463abc2e5564bc3be0af23fe875e9a1a74ca233401c82e07f5ba9bf0e8f949d4704d566d2494dd"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "SOURCE"
+            ]
+        },
+        {
+            "fileName": "jHiccupPlotter.xls",
+            "SPDXID": "SPDXRef-File-jHiccup-jHiccupPlotter.xls",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2c577205f7a043bfbb8fcc4f021d7b30dbdb1405"
+                },
+                {
+                    "algorithm": "SHA256",
+                    "checksumValue": "24789b2ca52d2eb0a213e2af05fa722c7e49be3cd6ed43263406597ff5805312"
+                },
+                {
+                    "algorithm": "SHA512",
+                    "checksumValue": "1df56e2f7c3e0d4b4f41f5b5a56d72a758dc303b17f140be2d0ae0db08d9e7cf52d17b634818dfd0772726f8c1eac07a38e0dabdc280df2f0930ed9cda9b533d"
+                }
+            ],
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseInfoInFiles": [
+                "NONE"
+            ],
+            "copyrightText": "NOASSERTION",
+            "fileTypes": [
+                "TEXT",
+                "DOCUMENTATION"
+            ]
+        }
+    ],
+    "documentDescribes": [
+        "SPDXRef-Package-jHiccup"
+    ]
+}

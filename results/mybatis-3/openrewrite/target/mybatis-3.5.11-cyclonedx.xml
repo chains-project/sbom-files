@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:393c90bc-5212-428e-bbc1-d1f3335241bf" version="1">
+    <metadata>
+        <timestamp>2023-02-08T15:06:07.779584Z</timestamp>
+        <tools>
+            <tool>
+                <vendor>OpenRewrite</vendor>
+                <name>OpenRewrite CycloneDX</name>
+                <version>7.18.0</version>
+            </tool>
+        </tools>
+        <component bom-ref="pkg:maven/org.mybatis/mybatis@3.5.11?type=jar" type="library">
+            <group>org.mybatis</group>
+            <name>mybatis</name>
+            <version>3.5.11</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.mybatis/mybatis@3.5.11?type=jar</purl>
+        </component>
+    </metadata>
+    <components>
+        <component bom-ref="pkg:maven/ognl/ognl@3.3.4?type=jar" type="library">
+            <group>ognl</group>
+            <name>ognl</name>
+            <version>3.3.4</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/ognl/ognl@3.3.4?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar" type="library">
+            <group>org.javassist</group>
+            <name>javassist</name>
+            <version>3.29.2-GA</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>MPL 1.1</name>
+                </license>
+                <license>
+                    <name>LGPL 2.1</name>
+                </license>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar" type="library">
+            <group>org.slf4j</group>
+            <name>slf4j-api</name>
+            <version>2.0.1</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar" type="library">
+            <group>ch.qos.reload4j</group>
+            <name>reload4j</name>
+            <version>1.2.22</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar" type="library">
+            <group>org.apache.logging.log4j</group>
+            <name>log4j-api</name>
+            <version>2.19.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar" type="library">
+            <group>commons-logging</group>
+            <name>commons-logging</name>
+            <version>1.2</version>
+            <scope>required</scope>
+            <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/cglib/cglib@3.3.0?type=jar" type="library">
+            <group>cglib</group>
+            <name>cglib</name>
+            <version>3.3.0</version>
+            <scope>required</scope>
+            <purl>pkg:maven/cglib/cglib@3.3.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar" type="library">
+            <group>org.ow2.asm</group>
+            <name>asm</name>
+            <version>7.1</version>
+            <scope>required</scope>
+            <licenses>
+                <license>
+                    <name>BSD</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/org.ow2.asm/asm@7.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar" type="library">
+            <group>com.microsoft.sqlserver</group>
+            <name>mssql-jdbc</name>
+            <version>11.2.0.jre8</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar" type="library">
+            <group>com.microsoft.azure</group>
+            <name>msal4j</name>
+            <version>1.13.0</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <name>MIT License</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar" type="library">
+            <group>com.nimbusds</group>
+            <name>oauth2-oidc-sdk</name>
+            <version>9.35</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar" type="library">
+            <group>net.minidev</group>
+            <name>json-smart</name>
+            <version>2.4.8</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.minidev/json-smart@2.4.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-databind</name>
+            <version>2.13.2.1</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar" type="library">
+            <group>com.github.stephenc.jcip</group>
+            <name>jcip-annotations</name>
+            <version>1.0-1</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>Apache License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar" type="library">
+            <group>com.nimbusds</group>
+            <name>content-type</name>
+            <version>2.2</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.nimbusds/content-type@2.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar" type="library">
+            <group>com.nimbusds</group>
+            <name>lang-tag</name>
+            <version>1.6</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.nimbusds/lang-tag@1.6?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar" type="library">
+            <group>com.nimbusds</group>
+            <name>nimbus-jose-jwt</name>
+            <version>9.22</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar" type="library">
+            <group>net.minidev</group>
+            <name>accessors-smart</name>
+            <version>2.4.8</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-annotations</name>
+            <version>2.13.2</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar</purl>
+        </component>
+        <component bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar" type="library">
+            <group>com.fasterxml.jackson.core</group>
+            <name>jackson-core</name>
+            <version>2.13.2</version>
+            <scope>optional</scope>
+            <licenses>
+                <license>
+                    <id>Apache-2.0</id>
+                    <name>The Apache Software License, Version 2.0</name>
+                </license>
+            </licenses>
+            <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar</purl>
+        </component>
+    </components>
+    <dependencies>
+        <dependency ref="pkg:maven/ognl/ognl@3.3.4?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/cglib/cglib@3.3.0?type=jar">
+            <dependency ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar">
+            <dependency ref="pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar">
+            <dependency ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar"/>
+            <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar">
+            <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"/>
+            <dependency ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar"/>
+            <dependency ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"/>
+            <dependency ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar">
+            <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar">
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar"/>
+            <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"/>
+        </dependency>
+        <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar">
+        </dependency>
+        <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar">
+        </dependency>
+    </dependencies>
+</bom>

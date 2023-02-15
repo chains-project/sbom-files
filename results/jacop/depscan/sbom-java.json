@@ -1,0 +1,581 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:64703cd7-844f-46ae-b3f9-b3a3b1d7694f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-12T14:35:55.277Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "5.4.2"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "",
+      "group": "org.jacop",
+      "name": "jacop",
+      "version": "4.9.0",
+      "description": "Finite domain solver written in java.",
+      "licenses": [
+        {
+          "license": {
+            "name": "GNU Affero General Public License, Version 3",
+            "url": "http://www.gnu.org/licenses/agpl-3.0-standalone.html"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jacop/jacop@4.9.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jacop/jacop@4.9.0?type=jar"
+    }
+  },
+  "components": [
+    {
+      "publisher": "",
+      "group": "org.mockito",
+      "name": "mockito-all",
+      "version": "1.10.19",
+      "description": "Mock objects library for java",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "979ec16f27b6b541278e0ecd10efd771"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "539df70269cc254a58cccc5d8e43286b4a73bf30"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d1a7a7ef14b3db5c0fc3e0a63a81b374b510afe85add9f7984b97911f4c70605"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "ab8517299f41d300ec697ffa37dda7952fb686cf0262bdddb795a377a6e1fefc9165d665aff21f795eec6677dbdbee8686cc5934a14c090346724a35192717d5"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "75ddc8379423fc50016f36c2a747436b04864f5d613f906285c25c7102d7ebd02b61a61e2b414b72492a08142a0b295b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3ef7195c361920e7b6c474dd8580422eabda2ed0a7455b096b25181355f013a5bc8ced3da98a9e5c71d77251c048f13a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4a357d976cf30fefa01869158ac66686f6a774b4cfd5065eab6b0aaa88978f71"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4c1c10777ad07b9470c9a6d15ab598fe8619090be69cf4a424c2a9cbdd5e1d545ae445dcee2de993b61b025c456718897721ef4895caca9b0b16b403a2c9e83e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.mockito/mockito-all@1.10.19?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mockito/mockito-all@1.10.19?type=jar"
+    },
+    {
+      "publisher": "LAMP/EPFL",
+      "group": "org.scala-lang",
+      "name": "scala-library",
+      "version": "2.13.1",
+      "description": "Standard library for the Scala Programming Language",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "975cb7640827ecbe324c3ce85282557d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1418c956704990564fb9dfac5960647ca54b5a91"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "711dcb0ba3d8d8392a52162c1f251d89787148981d2823e30697bc08282521ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "7289744974f82d76492ef25e67c0ef72d7a6a4462ea689695fd03e9d78ce3baef785bbefa374db8ba537e0e4ef070cc14ae8f38082ea053f81f5ce574d2c6e34"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fbac2a7f6d7f7242ad90ed744b18a41791b62a8ac06eedf4d3925757631828b6bb1145669dd287428339087acbf3e563"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "af354b10324f25ba89125ba71d9435e8277e84486048c3d2ce30818236024b52f3e0099fc048f1ddfd09ab267a3d741d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1bf8fd50350f136c09a72bc1e9dad2de6bba44fcf834d46a398797a712041c41"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f0f43165b4e6b361747eac70bd2b17967aa41c72dc7c4e8c1588842faba9d0e7ec313daad165f5ae50036ade17ca8aced031a36d69d517e5c0e2e1d49c96ad16"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar"
+    },
+    {
+      "publisher": "LAMP/EPFL",
+      "group": "org.scala-lang",
+      "name": "scala-compiler",
+      "version": "2.13.1",
+      "description": "Compiler for the Scala Programming Language",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "93f3d6dfc6773e867659c274c9bb41f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2669fd1abfe2c76de9201174255f8454aa25c3e2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fe8aaf3a7b0a4176fe7d26817b6f36f192190ee2bbe53f22aee691a3d029fced"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "05dcdfe0052b4edc86c7799fc20b4a68020de7885576f7e5faf071e47953c97fab28952ede4e62b0c0ae3bed9cb92d337e9f4e47553ff21a4bfdd0a1dd8458b2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "bc1cc8def504c37bf5b043b8e01bc5dce3f2065c7e51793d17beb7c654d4ce9eb67ec81544890f38597f4c2d0a6c392b"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "54896679d5bd85a7f1254c0cfa56301889b14e80f1d06052576609ed375466ae2aca509337d205b91f6c3d5827a5cfa2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1c90d4bc0789e2339272c611839dd469446ff533c4db54e12dd2f253a2c94a92"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d44b643ab234b312cd87c6d02bbbf4f899fe7e1410d3ed7c9bb7262d48444cbdcb7561fb508f6c891af2c038aa43d0060b39a8cf8970b01ac4b782512f230a73"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.scala-lang/scala-compiler@2.13.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.scala-lang/scala-compiler@2.13.1?type=jar"
+    },
+    {
+      "publisher": "LAMP/EPFL",
+      "group": "org.scala-lang",
+      "name": "scala-reflect",
+      "version": "2.13.1",
+      "description": "Compiler for the Scala Programming Language",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "46fc74afe70812964045fdcceb1871a0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c4123cd3d2a7502d16f443cd52fb23763bef8402"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "c8acaef84ae06ad83416a7e121ba8cb3da83c8581106be0695b8066c5d7c38ae"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "86f6e349ea734c0e5a601d51b233ef16f5bb9681d461c9f06d640a54d4f9194c705485b7f1b905271b637c7d6eff3f5c57677dcfe2c41134514d9c0501568424"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f47403a90e560739583d1cead1287f34b755cfef1ad9f48de7e9ab3b631e887a7af3f862ee6ebf1d80bb02a4fec32e5e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "5449fd7dc7d11fa7ca6b7876714f902acb9ab58d6074cfd013dc29b5cee73b128596de52da836af7df25437218222e0f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0dee03489a4736db4ae5d63d8af0c7a29e585a386159ae0d22c13a15f9d33350"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8ee90907ac319044bfb7d4d0ebfd93cf6d5a200e89754f68fad791e99741787d640ee8d9113ddeb350315fe73c3819850cb3f6ff6e001e96bbf0263cdd34867f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.scala-lang/scala-reflect@2.13.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "jline",
+      "name": "jline",
+      "version": "2.14.6",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "480423551649bc6980b43f09e4717272"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c3aeac59c022bdc497c8c48ed86fa50450e4896a"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "97d1acaac82409be42e622d7a54d3ae9d08517e8aefdea3d2ba9791150c2f02d"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "27f6e2523e539383cede51d8eae7e97d49038c5a66cb4a94a9ce85165f16e7382b937a238cdb0c92e1136af56c5f57bcc6c04435a370c5d49f7e4bd32f0d9194"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3ccd9d87500b42c743c91654b0f12d2e2c06a953eaf3d6acb07f2b9c2c861ffb8aaffdc5ed0aabefdc400f0d33944e00"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "68cff80ade4fbb8180d7e6c28088150a5be3d2fa1178fb25f14ec9a2c74451378c44b6326b5ec78627d6b22ef14af15f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cd69c13b1942eca5906ee8d780b72ac3a0b2f6e460c9d8b33f5504f233de9264"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b3fcbc1ab0d65f5e6f3655c0f45e6b0fadbaec62160aa7f8199b9795c5938b14bf43bfe87093129ec63699b75102576a369ab2a7574a103efc6807c98d57f95b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-4-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/jline/jline@2.14.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/jline/jline@2.14.6?type=jar"
+    },
+    {
+      "publisher": "FuseSource, Corp.",
+      "group": "org.fusesource.jansi",
+      "name": "jansi",
+      "version": "1.12",
+      "description": "Jansi is a java library for generating and interpreting ANSI escape sequences.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "e5338dac0a835804bbbef78f6ecb3027"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "633f12e3ab3cdf2d151b4061fff389c66ee8d01b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8430808a03cc7a1f49f90132f7517a43cd7493390077ae4390445432826d4811"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b0f0cc29bf5f7b1b4faa6e7a567b7c640151a5f8750bd9768600731007e0611a02d73062cf04afed5d3dd3d9c1eb000b0ed3a4aa14cd2d56ecdd141bfa1eac2f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "5554f3d5fdf48820d5017eec161999ceee4ad10d8ab5dcf805d451eb1e131d7e995de99d679b7dab7fb1625c9827383c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4981170fa22dd2c2c3eb8efe72eadcd6097850f959423c9e6e436cf6f63956c73bbbd1fa4bd4008281860f2a71c3269f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f16c1bb5126a69913eba3ce41075af67d411c60da5c95fb5ff71ff64d3e86f62"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "78771359449c4b895509ed0d6ab7f40afedaa76b9193eb150a328eb8acea3b034a039a282f10128b81e4bc908624f786ea5b5da1a4118eedcc322637072753aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.fusesource.jansi/jansi@1.12?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.fusesource.jansi/jansi@1.12?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.24",
+      "description": "The slf4j API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d18638036e314cdd66f04e2d248b7df9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "3f6b4bd4f8dbe8d4bea06d107a3826469b85c3e9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf3c7fe15fefeaf9e5b000d94547379dc48370f22a8797e239c127e7d7756ec"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "1056f39a4d4acb507a7489b043884ba827d61331c007480bf3d136aaa7aa295c3ff8831dc17bca61487168beeed3c59f40b1cda25c83c50e70d747a383b7500c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "42e72600a2389ecc8e01e4f904fbc89cf23989a6b6399dcc1a5a6d3170ba23239b71e946dd410088a4c7bfa5e210dc19"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f04c3056e86b5ae748528cfcbd032f21cf4454c9618574ab62a315fa10d15a789682d49098a047375fe8c291a54411a8"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "aa8a89b533a1feed6555fa235e7eb06348a2dc9e9bd61fd9dc8c035ef02536d4"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3091c41712c293ae851efba24110e354bb1ae5d91fff1894096b72f75a9673f6a791c586be3c66bb4f352bb87356be2350f89fdaaa6ad7d8ffeaf2eea6b9d67b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar"
+    },
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-log4j12",
+      "version": "1.7.24",
+      "description": "SLF4J LOG4J-12 Binding",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "65268a5177e9e211357f6cda3d68b461"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "309d7b29b14573c05d4c69cc7e44da0cb17212d3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "3263031ada62232de8c3302035329734efc3e97c68a11fe78524a32c98a9d0a4"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6b6eb6903f4c12a5547130bd6bcc02cac1207425ab8ab899e47c740fe460c3501728204ca4e61bed185bcdf01851111dbec547b55941299811415a51d62a2c47"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "be56b0aaf942c7dc397f2b7a5291ee1cd1dd2b7183adfee9d96cb528aac398fc99e72882d6f3fc559b2426540e24bb4e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9c338916c658a75d898b14296115f6d09d956426a2b796ecceecb4928c819fc484dcb3d9acd398ac7db33705dee7ef1f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e4d2a2195b0e8ef8a5256cb2d4a44add759b92a73309f12cbfc6fd11a17641cd"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4532170e85857c0c75d32b867e72387a1ec8c7e651517823a4be360610dd49b059ed29472222bf6601832249745702a470a7003bdc1c4948c49c7007a267e4b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar"
+    },
+    {
+      "publisher": "Apache Software Foundation",
+      "group": "log4j",
+      "name": "log4j",
+      "version": "1.2.17",
+      "description": "Apache Log4j 1.2",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "04a41f0a068986f0f73485cf507c0f40"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5af35056b4d257e4b64b9e8069c0746e8b08629f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f12937a69ba60d0f5e86265168d6a0d069ce20d95b99a3ace463987655e7c63053f4d7e36e32f2b53f86992b888ca477bf81253ad04c721896b397f94ee57fc"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "80b79d5872dec949dff23d221636b5faf312f08fbea2b5e2a8db84a5f5955e13864aff4a288935cb53d4da3d61defbe1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0be025582340080ea191c4e2559395fe9957c8d0aeea040239dea8504ce035bd24150162898d18c863092697ef52501b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "f7f31abcf8b57cf6fd18380b5d1a13f999e3d3d1d89bd25a4a3885fc832f4a29"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0e4a21cb87a6b8626aa8f580b307039d2b060a6abc53d35feac9ecb8ffc2e80b627a12a869b5b5bf30a6e9348cd4c5c3edca937859141614f3c1b14bd8d4ef93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/log4j/log4j@1.2.17?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.jacop/jacop@4.9.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.mockito/mockito-all@1.10.19?type=jar",
+        "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar",
+        "pkg:maven/org.scala-lang/scala-compiler@2.13.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar",
+        "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.mockito/mockito-all@1.10.19?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang/scala-compiler@2.13.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar",
+        "pkg:maven/org.scala-lang/scala-reflect@2.13.1?type=jar",
+        "pkg:maven/jline/jline@2.14.6?type=jar",
+        "pkg:maven/org.fusesource.jansi/jansi@1.12?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.scala-lang/scala-reflect@2.13.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.scala-lang/scala-library@2.13.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/jline/jline@2.14.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.fusesource.jansi/jansi@1.12?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.24?type=jar",
+        "pkg:maven/log4j/log4j@1.2.17?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/log4j/log4j@1.2.17?type=jar",
+      "dependsOn": []
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/jacop/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}

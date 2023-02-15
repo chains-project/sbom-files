@@ -1,0 +1,2126 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:09ec7d57-22e5-4722-baab-4fc7ffb61738",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-12T14:13:44.522Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "5.4.2"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-project",
+      "version": "2.12.3",
+      "description": "The Async Http Client (AHC) library's purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the response.",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom"
+    }
+  },
+  "components": [
+    {
+      "publisher": "QOS.ch",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.30",
+      "description": "The slf4j API",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f8be00da99bc4ab64c79ab1e2be7cb7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b5a4b6d16ab13e34a88fae84c35cd5d68cac922c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "cdba07964d1bb40a0761485c6b1e8c2f8fd9eb1d19c53928ac0d7f9510105c57"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e5435852569dda596ba46138af8ee9c4ecba8a7a43f4f1e7897aeb4430523a0f037088a7b63877df5734578f19d331f03d7b0f32d5ae6c425df211947b3e6173"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d8061c2f86f33b813cb86d3d54c615d26aa89afb43cabf8d828ff6a3f4f8e63d4a3b27355033f67ba60c2cdf2558d9de"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9f0fcb3bab20dce3b4cd094145976ce7c9da8702c891ff6f3882072c5a0acc763aeb11c446ef08a80e1bec695b11cb60"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "7fd51c94b174d462a8c7ce103ea7b1858e2c0943da8d21b4407f71a250377c8e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a51d2d7d68a41e0ef1430c90d5b4f182d34be2233b92ad6fc32c1def5504b5089afcbda3349fd401df5d8accdbb0571096e91b2badadcec275bcf3bb0cacc7f7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"
+    },
+    {
+      "publisher": "Eclipse Foundation",
+      "group": "com.sun.activation",
+      "name": "jakarta.activation",
+      "version": "1.2.2",
+      "description": "${project.name}",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "0b8bee3bf29b9a015f8b992035581a7c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "74548703f9851017ce2f556066659438019e7eb5"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8bd94a4370b827e3904f31253b022e5c1851896d3b616ca7daebfef259238cedc56d4ced32c74f24a13c3e2295b0ea012af5d04656b7f713cc53a2f18d5e2cf7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1cb0aff8b73ba52a9931b2cf13c75a1ce6665fb826bf97ede66db75c532136aa189fb53a1925e62b6eef572309ef3b9a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "83801332576d931f4091ba65ea240d49c23e3b93dae939ce2eed63de943f80f251a4347638b99900de5b831796b12590"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "5363211b59dfaff6e1973e93548e5e4062189c6d0f43d7802627ebeb7b7ff37d"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "0c7b62a3432b19ffad02eafffc7e598391cd32b1313d075f94cda09913402770b4ba2314716625571f266431067229c93cec36e17c3ea598623542988634ca0a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-bom",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-bom@2.12.3?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-bom@2.12.3?type=pom"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-netty-utils",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-buffer",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "6478c2438c22f97964ae7c71330aa0d8"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "9d213d090deeca2541ad6827eb3345bcd6e1e701"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "39c44c864c7f0cc0b437b47e4d708ff38fdaafe6b0e5d354dabc8abdd53826f8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e3e644731fa84cc08eedeafca995ee9054664f038ed0194fe57a30b7643f780540d0b88bc3445e8f91dfc45a385c854cb1e308a0d1063ccef901941ac2d582a3"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "25eb9bce13f160fbbc3b6cc5e7a03354e125f5d0ab293f70134136824d0ac5d22d910e168a4adf743678dfeb6a864f45"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "16e630e688302dfc30bce7d751393ddc04bd46d8f89a5697feb10c3c6155235d0c2f783957b1227634c819035a40c989"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "04506254b36ebe6c48b19ce719c4605ee5a1be4a63416ccdfd6242bbd02ab20f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d7fcd8370cebfafdb5a1b6bf1c66fc1655e1e827ae1f6bea0f67c60a58975666f0ea3e9954439375af74581e2cdd199aefca1e06df6243b61097a25ee6135829"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-common",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "660a65928a60a6e59bc9c096ec239c1c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "44540113f7148f1014be879663501db8da1c37b0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "181a2a9b2ee9c886b67fe47a3aa0973d7b553d779eeacef9e4b0222e57781378"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b050b891713b289619832f78fdcd67cf21a26bef7ae4404a4a042812358171dc413a922c0f93442eca9acff9c50030922690ab1a6618cc6848469f6123809555"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "56cd4027a648e71653fcbe9ac0d18f8b202bfbb0b4f671482bf3a81b4e40ada62d1a4b4760f2d13a8a0962df9607a445"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "fb6322a837cb95159d342cf5e2ca75845079dfdd9aab6cdeb2e25c6e6d66bf6f69a38db1614a5278137ff41005969447"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "80a3b90b35ca40364a909306cbc78de80938f5e4fea01b38430fdc89f88b14c3"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a66630502a119cb783a095809368a11957ea54d7d31b2aba429b2a2f6d88a8582f6a2ba1e4f8ceea2125a78684caa9bca00392123dc43a2bdf8105fc48e43a89"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec-http",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "3cfd911639b94a925e06ef586debe930"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "354ca712f909fcd9d8a22e16bf84afcfdc44ec8d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "bfa5623a70002d819cf3a4ea6efc3b147f48bbe37eac10b2ac5995054d3a0bb7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "e376050789231d877f044b63289c683afc01f7109a59c85f774932512c69fe6d5b8c6d978bab3b1b480e3539599790ea81c5b898c51a838494dec8e12edac09e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "adeba33f03e198b6557c57a808a064e2c3e89dc27d85f4c4614bd16f04fe9cdeecdb9ec133484b09295d888ee19f9c44"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ef3cb776ad4d33c6c46ed837283364aafe446b2e9aba7bbd9efc46a162fd34d6cf6f7c3e2f0ec7204dbd4a470f63bbb0"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "884c67e0354152603aa0a7dce14ac8d9ca06cb05816b1797f5832c27a97fa871"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "5a561e53d655588b814f6ea746cfdb32a954f8e7b41a4090e423c34b93d7e9d6552b6cde5854287266682531dc9afb689238da6dfca3aebe3ed79b5a737b92fc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-http@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-http@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "921dd18b3e65754fddc9abc21dc8b94c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "94350c81cc7a78212fb0f52a500f22d1aa9c44d8"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9bb15a5eb2524e6096b4d1e038ad5130b3cbb31b6d7a1838af3c88b486fd44c5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "59bd0435d50f08b0e4aab34aff68c34944b85920426750e561d5c60ed3d1bc36c23969af5b30b5171257985373eebfa1efd6300576dc00d19355a61e2bf93c5e"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1098c39f9e155f5c813bef25f6e4f7552066b2a76b9e57580115b7af2e089712f81317b436ca1663718aedb377365dd5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "df260d9ca9ed7b70c31fec62b12eca51e5adfb44bd00492ff379e2a20e511ee8f726bf6f941901fc3c54586e69772f29"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b909b5e7b1015b5655f0ba381898578a05793f6be90a731c34570f0df1fcfc3a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "e421eda89c2999f1e0ca460f795c0cd81a9c39801de88aab63f39d3bcd7fae6fb0fbfde85f3b8314dabb0583ca12533620b15f57eb0b603a627c1faf930a2f34"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "488582d0f4cde5b4018d9474772b7bf1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b740d51babe3312a33b505cd8b62c02f3731b2e3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "719fbd0b384d9aad386138722e4818068606bfd75c4ce3a3cba566381999f663"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "9534b43210844a1d379ba5d7ddc6afebbf88765cffbaa74bac5913ddd82766612ba0b7a10eca3fc7eccaaebd0e67841ec2e6f64ab81ab2556ee54838b77fe974"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "fbfd68fcb63a337ea4e5f13f9ff186f1feff5c449a1650970fe8305e73f2e6c919b81826dda398bcb3892a446c60382e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3115291276132862d0e5fb136dfd2a67dbf110f299ce0d4455697d165daa7717163de165cd6cd72194da3a674cd44ab7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "dd55aeaff998090a05bc19e7fe7a2c872f735966ef56966cbf15e01683d33598"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9a82c5ae2b917f3fb80295497fac4d98858f1d9fe22bca1093ff7ddfa5f8f1a82ac11c338906c5263d3fabde970106cdcba3d979b7a0978ca2e5e50c586060ad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-handler",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "f418612c6f3e41f4c87cc8f06e164065"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "14e28bab0173be10c9631a85069636a0d0221dfe"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9b7c70a5a8f8723f2047ee2bd29f859d94fc4276b1fd11c0ecfdd69f4b96b037"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2e502dfce25a23b4813ded375592d438d872ac41ea3599734991208b97ea5d7b97a3837c601d28de5eaf3f493e3db4542ae2ef70695725c48296a2f531c35102"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "1c75b2390978d4a9e2986bb6c36acfb7c0c02bd92a54de7936b80b8babac5322945ad5cf9749493057d6ae5a69394b72"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "0a5a32ace5ac680a4fac7a376e82dfdb0545b98b4bae087471af67396bf30b2e6d3366f3cceb2825d22f2d937b990623"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "138d7dfc1cce59724557ce619b5acd6857439e28a46b72415c46e884438d138a"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "36b8fa00da08e063b5d5093a4cb240d1d7dd095b5364a5a0046e17a1967983092a8f99fa464d367dfa3f605a322acdfe41418ab3a299e823885f88bdf90b6a43"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-resolver",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67fdf53b9566ba06d8946a281f2eca5c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "caba5004618d27386ee9d5ee8b23b09b6548fb0b"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "192dcd724f97666c3287f7c375fcfc4a1d639941afbdaff68f49cc180906f9b5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b95570a24232a5fdd79cb2e0974535056fcacc55a71bd532bdf24ccdcb379ab89f8da8063661c55a63f9839e821fe4f28a53e2dcc65015281cc17bb051fd5993"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "e27ed7a531e015504d38e3b285e34362ed920a7c8e5b66372f96b943abbd3c52db2b32815a89d9a38b507f7811d73b63"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "deb5f28b41f54792de948267b9827c5dfb5697f8f463125c350a9dc4cdc3f9386b72840dfb7bec9638afcc1aaecf88d2"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "b5f5c140753703bdf7ddf8b2441b65234ec5608af34f006b1e405f84cc5137be"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d7dee38d5d14a0a2333275e95394891bbce5c8ac0e208b23b7103936b577407b34db5243cde13f5d8b9d2ed334d2e043a8bb9816c1e98400c2d824f3396dcfb2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-codec-socks",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "63a724eae52cfd6074417bc6d500195c"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "6f4573281df659265bd709fd10471c3e00ef6c70"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "76bfb4306c67fc25ce6a817ef5ffb0cebc9250506a685fa6ec06052848c14efd"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b5c1d94a1fee13af0c6bcb8ed663ae6a987c3ea9adbfe57f229bd09492825d1e47eb019b7c2bafa061ee8adc348066e2f003c0a44569dc11652ed76bc15fac6c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "4117cdb794540c192104a7163e1b7573c8cd5065d297f926bb4751c3e4acfe491d376064187560ad7d3d252c8b3dc2d9"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1a3151a1465236e9687f3829797672a3c0c161f1324caa24052c652e49a16a66137e7d24c48d37073f532edd216a1d12"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "29ff872963091547ec0c624a74df38cc1d8258d0cb1e795b24c82fd962839bc2"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a9b3aa43f3118251436a3e71beef888af7479fbf2f46e75f2aa8289d72e7df696bc745dbb0d3550102c7e279254cc6dbe036546541204d7568df7835d9c867e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-handler-proxy",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "787ed6ab8f37ccdac712dd44dc548673"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2352f12826400e5db64b36fd951508ce9a61c196"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "7c797450f50a5bc549bade856e91f4bed95cc6396e85b720efbaab133b13b5d5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b520d950b92a50ddcdaaea6a1c89f8b9db6fdec2aba2f984731728cf2dc79d00969a2f4a4cd4e30ae5f3d05fd754f8fa6f210d52ae531004fd8cb2735f57718c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "30500be26c26fb517adea33b8898a8c80e9a221717c2ff7b680ca3b3825babaa460e310bc06fb41537794edf5b5c27e2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "583eeb560ea6c0f07428a1d829c293c7d8a9a3542e2a3c606de587598fb76499fa8e05b7bb1b8d0c97181d7ee24a98e1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "52743cdb02e153b1e5e41f4a8b552bc8595440e2afbe37d41fe81adb6eba9a9c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d60e363eda7af322da4e4eb493efea9afe49fd2931670988939fe5d2080450343117595703054dfadacd9911fa00d0aa277ebbcdfb631ad293cb6e2e7c49ce61"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-epoll",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "29d7bda4d17bebc7ded02d5c81eb6b74"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "048bd240fa29a4410e22b64b6d4c26429577d6f4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "8a7339ccfeb2ef88283a32226f207aedb963bd452e691f2e0de2c98b5758a79c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "926ab1f6e05e5d544c026e3a2d4863c0108c04020f99ee2b384b9ea38456f54f5ec8bee8c890b979b3b8c84e6557f18bf89fa305a9aa2cea5ea3ecca28a5480c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "792c53c6e0ee11a2006eb596f88c2ae5e509c558c1106a0eff95d4ca959966ce1eb4db6cfe6bd6fb8a9432eead272a75"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "276bf59a739f432ec4df49e6198726d5f3651dae0b18e660665822819eddef90b10dd1052654090da0c1588272651c1d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "2cfb4718158163d765b5260c9b1074ace0d2a9ecf8e5f5a9e05fc1060605f354"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "1b30aee2c826986db5dad11341090807c5677f1c97ddc2421f9799499c78921cfd53b7a5c64e65dbb830f2cc547953fc67e287330e835ce76884bbdec86cbc0c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-unix-common",
+      "version": "4.1.60.Final",
+      "description": "Static library which contains common unix utilities.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "512e8f4ec47d4908b7714b83d5b0a161"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "fad098b98df67e50135c67e4a26af56c7800daf4"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "410155d54c989a7c8962a2a65b345309a31be162646f36a2abf6fa89cf9f6fe5"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "6e9555ef1df43a01b7f6df237c6b72bc9a91c3191584b398898b8940126d10027dd26835786d5c5f8bf60eb6247e45daa353a6998738f3d50daa75c116c39b70"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d6df73522b2eaa634bd68a7e0769bee74a1bfaa591fa1c5c8e592012c567a5eebe2b5b7a6222527a04b69519bca9d51e"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "2064cba135d93dbc3f69c2aa0ffa4308a3d5e707eac1ac149ef52d65618a5d5411527b9508f5228547a797834b9cf55c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "faf436ac0c3db3067b7e948339888ad609d295f1c23e5baacea7469ca19339ad"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "f975d92a2e9eedf77aea9be718a9652ca8c276bef8ba2b62fb28d381a887cbeeaad0e253853e2e6e92747dc055b7c2683ada834e34df1dfac0a2cf795d62074d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.60.Final?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.60.Final?type=jar"
+    },
+    {
+      "publisher": "The Netty Project",
+      "group": "io.netty",
+      "name": "netty-transport-native-kqueue",
+      "version": "4.1.60.Final",
+      "description": "Netty is an asynchronous event-driven network application framework for rapid development of maintainable high performance protocol servers and clients.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "962299b6692114755a34dfd8a84f48e9"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b1f14b5d5b0e52e4385f1cd1a6c4934521a8ed3c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "67337e52e4bf24c39b52d1fbcadf04f762272726b437f03d3efcbbe98b22b27f"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "8a9f13a8adc0397c4a0195a27bdf2d39abb33f5774aecf5eeffaa08f9713f693c36c990f97bbc99d8ff27e3e642e3b8aa047203906eceebe90d4b7388f9c3ba6"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "25dbdd30280d6a4949e6e01ec3bb8a0a4fa24c64293d75a25427eb0b26fe0c92c8aad0003fc2778c0829ba14e60b40de"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "360b5a6811a9c18cbe03b982c87bed683f42b105b876561a376d862d99f8c03e74782c30489babab90510fc0d1abc00c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "fcea5dccc702535183d78edc4c7a07b08b0f17f780b0ddf15df3b8d59f7696eb"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9f333340a1a46b54197cbc452f24569ac284c62fdcbbc23dc7233e9e10406e05c99e7649528cd116df7a4054554c100e714e8af41e46e58a863f4b991dd297c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.reactivestreams",
+      "name": "reactive-streams",
+      "version": "1.0.3",
+      "description": "A Protocol for Asynchronous Non-Blocking Data Sequence",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "69122b098fff1c6b1bf2cd3b355e7e03"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "aafc86186d82b4f3bd44ef7f955978481172eab267d208aa80b24f8ca218bd902d69b587fcae2fe44a888b7a9f81fc5a209e837958307fdc0ee815248f7065f9"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "dde10163531896f3b60261795a977cea1d0114514e8fc95f1ac4b6f34789c4b78c4c83ead210901a2edb3cae9f113ed4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "4f9e101774f39c8ebcb2ccd3f2fe996a1f99bd879fa34ac9ba319e824752f6bdc6159d242497d38587d7191bba796e3a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "45c5459f651963c5797e32c87e3b8456238229f9f9e64f543eb21d6a6b7a812e"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9edc79ccfd2edabe1339ad79a10137cd0f1614671f976d6a8a603428b8e5179c9a6afbf4f9fcd44e6e3795be5c487cc5aa97a1d3e6d9a3e88a62d3f4de60a2ab"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "CC0-1.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+    },
+    {
+      "publisher": "Typesafe",
+      "group": "com.typesafe.netty",
+      "name": "netty-reactive-streams",
+      "version": "2.0.4",
+      "description": "Reactive streams implementation for Netty.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "a10a0d529ec175ec5d5401a394e785f0"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "0f77c8eaa7d5e2f2160b6d21ba385cf726f164b2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "eafc52d500b49e891db095ee7baac0420aea8a97015ab7671ba1f1ccabf799d2"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5e72d66dfb462146de2cae9a062c5dfc5d9e3bb0beda316a97261e108c04b02f5b03b4ed448495a0a1df6ec264144fe5046422b2a3f6ea30c67a02c7755b255f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "3119863e661a6b9e9ea967491d5cfcbb6b4d84f83ec5acc6c97fef5127d2f31ebf55d4e35611ccfcf65de8b85c7b7bf2"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "3f6f9f716b195c5033944e62c30a116de81265e17a62d3a1ed79fe47ea772eef6f9343de53b182024130b0445f138652"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "01807b478ec11d29805afb3a33a06ad7b6ae73f11d0260b63eef266e43040caa"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "a5cfd72d3ab862134fa841f9931ad9d2a677e6d6eac443dc453738552d6b6e6f055dcce0a2a95185d457a8520a34466ea9587e4f63738af3f17193cd5a82c294"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-parent",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-parent@2.12.3?type=pom",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-parent@2.12.3?type=pom"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-guava",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "28.2-jre",
+      "description": "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "33083157d8725e867b2c71fb4ddf5e59"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8ec9ed76528425762174f0011ce8f74ad845b756"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "fc3aa363ad87223d1fbea584eee015a862150f6d34c71f24dc74088a635f08ef"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "5a9be8bc2a5c8a8a0fd41d33ca68d14ed551d275f747cf67f2e4d5fc8a077e5dffda24e25db22b43a6aac822cc323a18ffd443bfbffaf827fc7c52139c87641b"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "739d18b5d92e5305290ded423ce4bf24720d9d18dafea3dce82070749fed2d3c1f1804c8d71b9107544ee82cd046fcf1"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9d750f77698585801f513d632ccf863bc6d54bc73a0ab482cbcfcb69061c8d9075979d0ba262fbaeb92e5ef0c7c545aa"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0939f58b903d7eef2d88d1bc216b9d43273b9b2a9e66e5829626d3d3334c6cf0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "4dd84fcaade69d4fae6b0099a4f8054fb83549afd35811664e8a0f3ffdfe1611ee44885edbf6f286eef17730b074a4ca571294b4e02a1d97fad9c8469dbb1ac7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/guava@28.2-jre?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/guava@28.2-jre?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0.1",
+      "description": "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes is conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "091883993ef5bfa91da01dcc8fc52236"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "f8d59b808d6ba617252305b66d5590937da9b2b843d492d06b8d0b1b1f397e39f360d5817707797b979a5bf20bf21987b35333e7a15c44ed7401fea2d2119cae"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "67659dbd9647ec303d7f15128dc9dba19b98fd8d74758ee3b602451e32c855e236ccaafe08edf4bbfa245f981268440f"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1460875f0331c5fa3791772a6a322a7db180261bc2adacf7271df1fbf3b088a587a755a604c039982cb593c5cfc1f101"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "ea86406e75fcd93eafe3cde1b3135ba485f1bb9b75fed98894a0bf1f0aee04f0"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "52ac0f487ab5dd27c9f2e54fd1d84c7a620cae9d49be4072aa2b11501787bf4391ddaa13d02eccdf19e8eea46aecbea5f6064b26777c1b836108a280652e04ac"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "description": "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "description": "JSR305 Annotations for Findbugs",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "bb09db62919a50fa5b55906013be6ca4fc7acb2e87455fac5eaf9ede2e41ce8bbafc0e5a385a561264ea4cd71bbbd3ef5a45e02d63277a201d06a0ae1636f804"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ca0b169d3eb2d0922dc031133a021f861a043bb3e405a88728215fd6ff00fa52fdc7347842dcc2031472e3726164bdc4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "9903fd7505218999f8262efedb3d935d64bcef84aae781064ab5e1b24755466b269517cada562fa140cd1d417ede57a1"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "223fda9a89a461afaae73b177a2dc20ed4a90f2f8757f5c65f3241b0510f00ff"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "3996b5af57a5d5c6a0cd62b11773360fb051dd86a2ba968476806a2a5d32049b82d69a24a3c694e8fe4d735be6a28e41000cc500cc2a9fb577e058045855d2d6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.10.0",
+      "description": "Checker Qual is the set of annotations (qualifiers) and supporting classes used by the Checker Framework to type check Java source code. Please see artifact: org.checkerframework:checker",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "ef26289b4355269fa45ca0174d4d6652"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "5786699a0cb71f9dc32e6cca1d665eef07a0882f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d261fde25d590f6b69db7721d469ac1b0a19a17ccaaaa751c31f0d8b8260b894"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "28e6bd26434803086432751e50f22d1f412fe69a52ec8159720b24a83510f9dd75ea8afc1ad470522f56ba5daa4be21a43fc81735155697d96b72dbc02aac4f8"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "23f3bcfaa968efe1ff4604806f2e7a4f38d6c351b2bd06d8780a515b2183a269bfa51eb74c1ba0dce5c7ff6a25fb20df"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "beadb0d482c462f74c1a4c2029036788a265105ff2c6392323d32614128538da9afaedae87722b8f3fb6607d54de79f9"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "c7dea1325018babd0784950d44f518bded9b2674203c2f720f09f29118b44c60"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "b6eecb87813326d4b57022e59b8564d1d8ed316e5d50f35ccfe929064212526a182d1b03ea3b6a9b56dc731f53aa1568d4d2da5fe73f1168048a041a5f80b993"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.checkerframework/checker-qual@2.10.0?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@2.10.0?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.3.4",
+      "description": "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "67beeee58df00366100061c7da82f4c2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dac170e4594de319655ffb62f41cbd6dbb5e601e"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "baf7d6ea97ce606c53e11b6854ba5f2ce7ef5c24dddf0afa18d1260bd25b002c"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "d48080d877aa121a7e46323f0af3581c583c6375ad3b4632332a63290c0a4bd454f908caf777448ba83288968d532fcdb5400ea2a84bc0549f4fd4c38a9bfd7a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "f034bbbaad111dc7935696875e09d103ae0e4d2e6ae1dab7f69cc93c6d1ebf48d73e7f42c5f7c0610fb43cf528c32049"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "dd8e705636f0ce876bb7d05cb94ffd233599f1e65e618c20a048fa9d1962c494c7c6b61b50cf0504d9db4021043772b7"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6ea64e731417e1230c440c44f52fffa9b90682249b835e97ca9980ac76ea0742"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "9196dde8dbffc6e111d1b17c57709e453dc999e1f8d601cef8d8c1c9618ab1008ff80f132d139b47c3110cbcd6c4e8e565045e55ac43e5653517b0cf0069e2f9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.3",
+      "description": "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "5fa4ec4ec0c5aa70af8a7d4922df1931"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ba035118bc8bac37d7eff77700720999acd9986d"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "51ea975179f809cb260751d11a513881b643bf016d15949bcb63b57d3c8868a2197e0620ccbaa5739e032797ec6faa3aa6d64606e999fce32930314780ca4115"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "d2a54e4bb17793a98f85fb8f91138cd3b3d311385b7fb2c09d05c3112d42218a6da29154ba184f00031919548022aa71"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "8ba512ee47d36d5712335849e8f0fae21498c983c48fc2b4749ac7dfb4eeddf75dd51d21366667f90d6414db032a7b5b"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "e97bbe4e1ac9f9785ad0b81fd29fc9c6b0d9e37acc6da6d0b31ce9e6da072664"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "864bc6181c8ad8372e0a05ec3b0bdebc876571692331d3519e19df54a21ef333e992fe5c4e84759f010cf0657f9ea1c435bea8f103735ec3dc9dd31493e7d4a6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-jdeferred",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.jdeferred",
+      "name": "jdeferred-core",
+      "version": "1.2.6",
+      "description": "Java Deferred/Promise library similar to JQuery.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "86bc57697e2ed8284c117271ff79829d"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5c180cd40977c2b8211fe1f023ad87f76e3aad3"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "38d2de8bd377ba66f5fee785627c34588b602fe91a55625f3abfc388ca3196d9"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "2c29e5d3a4294ad666569044ab0f59b990989844fe4a99d5c91889a5525da095bba14560ef8178bd991085bc4bb5de0ccb9deda3f19a2126fa4517a08ac30c3c"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "806968d3198c2940f5a8a5c90d69e9de390ab8b548be9b729d5f8b2ab0e22a29edb296f4a2a40361961b8784fab684b4"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "a07b94e2b649400171cf254bad13717daf5b94f575bede5b05e0c21bf86e39240a89e34f8a621f5fbbd25c8078c6aaff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "161ec386827cb6106200d31c238912b2145a11cce9dab8271d9624d4d86f0087"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "d406a0600604bfca1f845226650c709e0cfa53449f03ace2dda696bfc95f8320ccdf22a334ee882a39aad69a5301ee88f9c2c032632dfe6d31883ecde136ee77"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-registry",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-rxjava",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.reactivex",
+      "name": "rxjava",
+      "version": "1.3.8",
+      "description": "rxjava",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "62b34782c8ce3462d5796da7c1e9a9b5"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8c192792ad2e65a90867ab418ac49703f44d2baf"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "387df880f226b01cea4b1026d96d34e1da27d5801562742cfce0413c21ef7690"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "25a37a853a943724b96068cf05232c927754f1102f1265590c1b9e0088cc815e26fd2bc249aeb3b317ad0f2fa8499ebff81cbe2cea00790016dc6f7b7eff4e78"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "688db0e12f6d6d5ca4547cf9c74b3555ad84018e069a6e591be4d528ea57a7268090cc36b25e30cdc80673c4285c1543"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "23b6fb92796b67225756361e326cf296c9f952fac688041423eb9ee04844f7c690c707c66d5dd2969639d9a3bf3ef34a"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cbab6a76bac5a193d0ab20b59b05699bdb8aebabec450303e0d5681ebb2a7199"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "45692b24a8f710743031ba69ac23ddce76536741e04195dbfc1f07ea2fb1af95b8334caf945a764537900adbd9d89717aa588405ebf85ac8ac8d8c317526e680"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.reactivex/rxjava@1.3.8?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.reactivex/rxjava@1.3.8?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-rxjava2",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "io.reactivex.rxjava2",
+      "name": "rxjava",
+      "version": "2.2.19",
+      "description": "Reactive Extensions for Java",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "09782f4a3380af5469e473a6f909ed89"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1a79a902bbfcde95ad6f34eb6d1860e6b37f0da9"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "153fb4934a135e949354bd777260a70922b6a790b224268fee3efc867e422220"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "b04f5423cc0b061917227e7e2bd98f4f947385d627aad9d4ee09750acda9198d9b0949523348ab81c7aa6e6aef272d3c53ba544b2f85bf400bb65a22f766f28a"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "704616ae1680b878e40bb8b7cc23ce64fe85affc4161c59dc256009743f16c35e1f88899268346577efca72ce027e798"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "6597fbfe4dc75d14cad4614158169df78c5bce2760de72acd87237d9c5ff8b8a3e7353464893d71ab9ddb074a06e28ff"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "8fdda588a8a6fe49441d3d079551d52569a4d4754411afca24808b984fe8728c"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "65c381157ebbdf8c706ed5e9a17fe8175d6d14050ead7bf797a53ae01c6e7e5636187ac966f1767ce71452604873a6512bb65b938be8c1b112577afc72f050f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar",
+      "type": "framework",
+      "bom-ref": "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-simple",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-retrofit2",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.projectlombok",
+      "name": "lombok",
+      "version": "1.18.12",
+      "description": "Spice up your java: Automatic Resource Management, automatic generation of getters, setters, equals, hashCode and toString, and more!",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "9a1e84dfd05b2a0821fc56298d6ed0de"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "48e4e5d60309ebd833bc528dcf77668eab3cd72c"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "49381508ecb02b3c173368436ef71b24c0d4418ad260e6cc98becbcf4b345406"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "40e596f065229b1c4049441fafe3102eca9bee0290ed8660013ef508cf7a624b4d8b53a6998e768f6df9e82acd0a5ea425b1797fcd96b38df59333751c41dea2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "df2b2420327f10964f785dd176cc164ed22a5f72f8783b4ed9e85409ffaa63dd7accf48f4ff8bef0b50792e44dc7abbf"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "ad729f92923c038197a1261b20d58a0b8ed5b1def7809f1e1ffa26ccc08a6f3e2aa421d4f7f398ea882f3f00405a89c6"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "4f9016dd9793069deba70249f751e28c90230c1d12fc8569034d3770c4e105b8"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "272bce45dd62de5541d2950d793fa68a97bad7e2cb56663a24f71f84bd7ee8e6f64ffab74cfa122a97a8438e80afaca857946921420f2ccdf08019f487331d6d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.projectlombok/lombok@1.18.12?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.projectlombok/lombok@1.18.12?type=jar"
+    },
+    {
+      "publisher": "Square, Inc.",
+      "group": "com.squareup.retrofit2",
+      "name": "retrofit",
+      "version": "2.7.2",
+      "description": "Type-safe HTTP client for Android and Java by Square, Inc.",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "8dbee9c822e3bf4bcbfa4294117d2185"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b98baad220c2091db369e5943265f9d083cad1cc"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "54b9d05e90fb5ae6777329fabb9b345705b3e2074d3729313d84fae727129f6b"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "667f7f773ee8ef94f14a20e8e25c1177fdd24c0e2d10effef4f734ba09cd6c76e9ff45bc0700c312381bb9b108eea99a2528eb90dd66c9220b06734be0dca9f2"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "ea63f8eae0c5bd76e8360d5d390f32d1e26971075ea2d9f0ac6354e93b775f8d87e387023535098d3f93692096b27f1c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "50d971aa6b7f186d2140c342d9932ce6a7dd269d9309ac1196177c81b0530082f8beb3331c327cceb7c0517bc8dade94"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "be374f9dfccce08493cc05e1b942c60f8b4994b4b603f6ac77f2ce219621af33"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "acc9f5b65da91311da2f91913ce7fff513aad7e7ad44073008cd38b096db3675ce75284b429f6ec14c721aeda779530c671256d10affb376d6ccfeb48466f5a0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.retrofit2/retrofit@2.7.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.retrofit2/retrofit@2.7.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.squareup.okhttp3",
+      "name": "okhttp",
+      "version": "3.14.7",
+      "description": "An HTTP+HTTP/2 client for Android and Java applications",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "46fa74c5a760f81f448f3b86a3c1bddd"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "a8656952ad4315057d92e7b58bfd232c823e034f"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "620d4fa43c5c6a5ef625760204a88799e1e4a65e1c7a1d8da02e061c4cbb8000"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3f26500ef5f1afe201da84988673b1f13be207a4b5d356b717d68ae1da895a7a2cabe50720599b6236f5a9728de14f1d59432e74d8e5f2f170fad82c1a025f60"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "62d22dee460fcc25c4f1f0903b09a8afb3b907b38b72e93ba75a3c006a01d0722184709535197e351195359775a35999"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "f532f29bcf77d72dd8f44c694ec540b9cd43122ac4cf0bfe4dda7daf69a95ef360a0d580152ca0bb99ea7417505d19c4"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "0ea8d526d0883a6839ac5bad31b4e9c85a37f3658e70850c6cd0190134c7de67"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "8eaf81cc2975cecc2d409fc8a5e20711f2a3ae961aae63f4b99df707a2758bdce05c71fa18fff120ffbb375dfd0d84e196ab24ed7b55d5d0d89931c1a4f854ad"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "com.squareup.okio",
+      "name": "okio",
+      "version": "1.17.2",
+      "description": "A modern I/O API for Java",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "54a6a8979bd8e64e1fbf21d511654737"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "78c7820b205002da4d2d137f6f312bd64b3d6049"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "f80ce42d2ffac47ad4c47e1d6f980d604d247ceb1a886705cf4581ab0c9fe2b8"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "3ad9127705ad00962b96a10d134a06378a3ef5558b0c5955ace54e15a771027a11503981a8dcf0959fb806d35ba8da9b12282a5a2f3d6dd7c71266120a4e0b4d"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "98a16e221860faf4ae809743fbc956614aa32b0d78b35703d8ceb78c42a42e9afe7f1b3c8c9df5c63b9ee6e0fcfcd98c"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "1118bb002f8389c4fb0829b8a7151aab2b2f99197f5987cb6b760afc7503be39e544e92e272fddbbaf6dd292fe2cb54d"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "6fb3af2f7a46a6897f4ebe343cc6aa5ad97a3c74d943129c393671ffb686f7ed"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "121da9911e31293293aac0012fe2fcd665971a62f633df4dbb0ac5e5e87ee384827e5d440cb7e6d9817ad0a0730d25934ab00dd7b97a04ea013f68565797fc60"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.squareup.okio/okio@1.17.2?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.squareup.okio/okio@1.17.2?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-extras-typesafe-config",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar"
+    },
+    {
+      "publisher": "com.typesafe",
+      "group": "com.typesafe",
+      "name": "config",
+      "version": "1.3.3",
+      "description": "config",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "MD5",
+          "content": "77370e0a125ed8a196c2ecdb58a6570e"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b68c2d5d0403bb4015520fcfabc88d0cbc4d117"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "b5f1d6071f1548d05be82f59f9039c7d37a1787bd8e3c677e31ee275af4a4621"
+        },
+        {
+          "alg": "SHA-512",
+          "content": "c7d99fb8f450e2c918043ca73821a846363642dafe473b06f248f65ca0736beac6e27d8a2354cc3a6792f7b87556354eef4f7b4ba7efeebea3da070788f432c7"
+        },
+        {
+          "alg": "SHA-384",
+          "content": "751a0e70976dfae76a340ea29881162fd3a0f4f60d5184992a89aa8f35db7e6405697f9dfe1a2d83e214df5d9460918a"
+        },
+        {
+          "alg": "SHA3-384",
+          "content": "97920a68676c8c30ab110bcb673b6215d9d4f7a7f9396079cd5dfb355fb647657d4da445256249825d3c3be35aa5030c"
+        },
+        {
+          "alg": "SHA3-256",
+          "content": "cedafd8eeb877e030ad23594a371cde3e387da24346be05e977c6e8bba23bed7"
+        },
+        {
+          "alg": "SHA3-512",
+          "content": "babdc624dd343b813712ac4f2f989d7dd3665f1e458d692102324d85cce2769a2331a60d834b1272c118d7dc7bbae7a57b2a9e3a83f7c58817acc2efeac09097"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.typesafe/config@1.3.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/com.typesafe/config@1.3.3?type=jar"
+    },
+    {
+      "publisher": "",
+      "group": "org.asynchttpclient",
+      "name": "async-http-client-example",
+      "version": "2.12.3",
+      "description": "",
+      "licenses": [],
+      "purl": "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar",
+      "type": "library",
+      "bom-ref": "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-bom@2.12.3?type=pom",
+        "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-parent@2.12.3?type=pom",
+        "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-bom@2.12.3?type=pom",
+      "dependsOn": [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+        "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+        "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-http@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-handler-proxy@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-epoll@4.1.60.Final?classifier=linux-x86_64&type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.60.Final?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.60.Final?classifier=osx-x86_64&type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-common@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.60.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.60.Final?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.netty/netty-handler@4.1.60.Final?type=jar",
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-parent@2.12.3?type=pom",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/guava@28.2-jre?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/guava@28.2-jre?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+        "pkg:maven/org.checkerframework/checker-qual@2.10.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.checkerframework/checker-qual@2.10.0?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.reactivex/rxjava@1.3.8?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.reactivex/rxjava@1.3.8?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.projectlombok/lombok@1.18.12?type=jar",
+        "pkg:maven/com.squareup.retrofit2/retrofit@2.7.2?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.projectlombok/lombok@1.18.12?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/com.squareup.retrofit2/retrofit@2.7.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.squareup.okio/okio@1.17.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.squareup.okio/okio@1.17.2?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.typesafe/config@1.3.3?type=jar",
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.typesafe/config@1.3.3?type=jar",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/async-http-client/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}

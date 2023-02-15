@@ -1,0 +1,42 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:9af9a32d-e22a-454a-856f-e09ce997b712",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-11T18:29:36.998Z",
+    "tools": [
+      {
+        "vendor": "AppThreat",
+        "name": "cdxgen",
+        "version": "7.0.5"
+      }
+    ],
+    "authors": [
+      {
+        "name": "Team AppThreat",
+        "email": "cloud@appthreat.com"
+      }
+    ],
+    "component": {
+      "group": "",
+      "name": "flink",
+      "version": "",
+      "type": "application"
+    }
+  },
+  "components": [],
+  "dependencies": [],
+  "externalReferences": [
+    {
+      "type": "other",
+      "url": ".",
+      "comment": "Base path"
+    },
+    {
+      "type": "other",
+      "url": "/flink/pom.xml",
+      "comment": "Package file"
+    }
+  ]
+}

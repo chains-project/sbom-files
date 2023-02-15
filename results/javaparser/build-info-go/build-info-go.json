@@ -1,0 +1,323 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "version": 1,
+  "components": [
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core-testing:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core-testing",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-parent:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-parent",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core-generators:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core-generators",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core-serialization:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core-serialization",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "javax.json:javax.json-api:1.1.4",
+      "type": "library",
+      "group": "javax.json",
+      "name": "javax.json-api",
+      "version": "1.1.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0bdb79a0a5e0cce2d8d2d339ad53453cdf90045fe34c5e4b19b064bb1aee5876"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c8efa3cfaeee2b05c2dfd54cba21548a081b1746"
+        },
+        {
+          "alg": "MD5",
+          "content": "6128da383f9a4a45593650fc263a0998"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-symbol-solver-core:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-symbol-solver-core",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.google.guava:failureaccess:1.0",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "failureaccess",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d084bef9cd07a8537a1753e4850a69b7e8bab1d1e22e9f3a1e4826309a7a2336"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "50bacb0bdbbeeda25142aff57e2214c402e1193c"
+        },
+        {
+          "alg": "MD5",
+          "content": "5649f9c63537d7dd13bed8073624e37a"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.code.findbugs:jsr305:3.0.2",
+      "type": "library",
+      "group": "com.google.code.findbugs",
+      "name": "jsr305",
+      "version": "3.0.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg": "MD5",
+          "content": "dd83accb899363c32b07d7a1b2e4ce40"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-symbol-solver-model:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-symbol-solver-model",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "org.checkerframework:checker-qual:2.5.2",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "2.5.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "64b02691c8b9d4e7700f8ee2e742dce7ea2c6e81e662b7522c9ee3bf568c040a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "cea74543d5904a30861a61b4643a5f2bb372efc4"
+        },
+        {
+          "alg": "MD5",
+          "content": "04acc78b24bbd365423da357da003cf0"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.errorprone:error_prone_annotations:2.2.0",
+      "type": "library",
+      "group": "com.google.errorprone",
+      "name": "error_prone_annotations",
+      "version": "2.2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6ebd22ca1b9d8ec06d41de8d64e0596981d9607b42035f9ed374f9de271a481a"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "88e3c593e9b3586e1c6177f89267da6fc6986f0c"
+        },
+        {
+          "alg": "MD5",
+          "content": "416757b9e6ba0563368ab59e668b3225"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-symbol-solver-logic:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-symbol-solver-logic",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "listenablefuture",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg": "MD5",
+          "content": "d094c22570d65e132c19cea5d352e381"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.javassist:javassist:3.24.0-GA",
+      "type": "library",
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.24.0-GA",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aba81efa678b621203fb89aeff81d6f126f7a9dd709401e5609c42976684ae23"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "d7466fc2e3af7c023e95c510f06448ad29b225b3"
+        },
+        {
+          "alg": "MD5",
+          "content": "23fd22d0d089ddfac567a39ce0cb1a91"
+        }
+      ]
+    },
+    {
+      "bom-ref": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+      "type": "library",
+      "group": "org.codehaus.mojo",
+      "name": "animal-sniffer-annotations",
+      "version": "1.17",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f97ce6decaea32b36101e37979f8b647f00681fb"
+        },
+        {
+          "alg": "MD5",
+          "content": "7ca108b790cf6ab5dbf5422cc79f0d89"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.j2objc:j2objc-annotations:1.1",
+      "type": "library",
+      "group": "com.google.j2objc",
+      "name": "j2objc-annotations",
+      "version": "1.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "ed28ded51a8b1c6b112568def5f4b455e6809019"
+        },
+        {
+          "alg": "MD5",
+          "content": "49ae3204bb0bb9b2ac77062641f4a6d7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.google.guava:guava:27.0-jre",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "27.0-jre",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "63b09db6861011e7fb2481be7790c7fd4b03f0bb884b3de2ecba8823ad19bf3f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c6ad87d2575af8ac8ec38e28e75aefa882cc3a1f"
+        },
+        {
+          "alg": "MD5",
+          "content": "0dc595a4dfd1f0cf268203c5c3bed367"
+        }
+      ]
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core-testing-bdd:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core-testing-bdd",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-symbol-solver-testing:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-symbol-solver-testing",
+      "version": "3.15.15"
+    },
+    {
+      "bom-ref": "com.github.javaparser:javaparser-core-metamodel-generator:3.15.15",
+      "type": "application",
+      "group": "com.github.javaparser",
+      "name": "javaparser-core-metamodel-generator",
+      "version": "3.15.15"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "com.github.javaparser:javaparser-core-serialization:3.15.15",
+      "dependsOn": [
+        "javax.json:javax.json-api:1.1.4"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:27.0-jre",
+      "dependsOn": [
+        "com.google.errorprone:error_prone_annotations:2.2.0",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+        "com.google.j2objc:j2objc-annotations:1.1",
+        "com.google.guava:failureaccess:1.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:checker-qual:2.5.2"
+      ]
+    },
+    {
+      "ref": "com.github.javaparser:javaparser-symbol-solver-core:3.15.15",
+      "dependsOn": [
+        "com.github.javaparser:javaparser-symbol-solver-model:3.15.15",
+        "com.github.javaparser:javaparser-symbol-solver-logic:3.15.15",
+        "org.javassist:javassist:3.24.0-GA",
+        "com.google.guava:guava:27.0-jre"
+      ]
+    }
+  ]
+}
