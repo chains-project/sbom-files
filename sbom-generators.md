@@ -8,7 +8,7 @@
 |https://github.com/openrewrite/rewrite|CycloneDX with changes                                         | ✔️ |
 |https://www.scanoss.co.uk/|Unique                                             | :x: only a list of files |
 |https://github.com/spdx/spdx-maven-plugin|SPDX                                   | ✔️        |
-|https://github.com/anchore/syft|Unique                                             | ✔️ |
+|https://github.com/anchore/syft|CycloneDX with changes                                             | ✔️ |
 |https://github.com/microsoft/sbom-tool|SPDX                                               | ✔️ |
 |https://github.com/oss-review-toolkit/ort|Unique                                             | ✔️ |
 |https://github.com/nexB/scancode-toolkit|Unique| ✔️ |
