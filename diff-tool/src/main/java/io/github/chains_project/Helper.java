@@ -17,10 +17,10 @@ public class Helper {
   public static void main(String[] args) throws Exception {
     new Helper().createData(Path.of("./results"));
   }
-
+//TODO: openrewrite+errorprone
   public void createData(Path resultFolder) throws IOException {
     StringBuilder sb = new StringBuilder();
-    sb.append("project,analyzer,TP,FP,FN,P,R,F1,SIZE,TP,FP,FN,P,R,F1,SIZE").append(System.lineSeparator());
+    sb.append("project,analyzer,D_TP,D_FP,D_FN,D_P,D_R,D_F1,D_SIZE,T_TP,T_FP,T_FN,T_P,T_R,T_F1,T_SIZE").append(System.lineSeparator());
     for (Path project : Files.list(resultFolder).toArray(Path[]::new)) {
       for (Path analyzerResult : Files.list(project).toArray(Path[]::new)) {
         try {
