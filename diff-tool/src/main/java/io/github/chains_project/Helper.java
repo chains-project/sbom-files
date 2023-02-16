@@ -17,48 +17,56 @@ public class Helper {
   public static void main(String[] args) throws Exception {
     new Helper().createData(Path.of("./results"));
   }
-//TODO: openrewrite+errorprone
+  private static final List<String> analyzerNames = List.of("build-info-go", "cdxgen", "cyclonedx-maven-plugin", "depscan","jbom","openrewrite");
+
   public void createData(Path resultFolder) throws IOException {
     StringBuilder sb = new StringBuilder();
-    sb.append("project,analyzer,D_TP,D_FP,D_FN,D_P,D_R,D_F1,D_SIZE,T_TP,T_FP,T_FN,T_P,T_R,T_F1,T_SIZE").append(System.lineSeparator());
+    sb.append(
+        "project,analyzer,D_TP,D_FP,D_FN,D_P,D_R,D_F1,D_SIZE,T_TP,T_FP,T_FN,T_P,T_R,T_F1,T_SIZE")
+        .append(System.lineSeparator());
+
     for (Path project : Files.list(resultFolder).toArray(Path[]::new)) {
-      for (Path analyzerResult : Files.list(project).toArray(Path[]::new)) {
+      Path truthJson = getMavenTruth(project);
+
+      for (String analyzerName : analyzerNames) {
         try {
-          Path inputFile = findJsonFile(analyzerResult);
-          Path truthJson = findJsonFile(Files.walk(project)
-              .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny()
-              .get());
-          Path file = Files.createTempFile("chains", ".json");
-          String command = "python3 ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
+          Path analyzerResult = project.resolve(analyzerName);
+          if (!Files.exists(analyzerResult)) {
+            sb.append(project.getFileName()).append(",");
+            sb.append(analyzerResult.getFileName()).append(",");
+            sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
+            continue;
+          }
           String sbomType = fileNameToType(analyzerResult.getFileName().toString());
-          if (sbomType.isEmpty()) {
+          if (sbomType.isEmpty() || sbomType.equals("truth")) {
             continue;
           }
-          if (sbomType.equals("truth")) {
-            continue;
-          }
+          System.out.println("Processing: " + project.getFileName() + " with " + analyzerResult
+              .getFileName() + " (" + sbomType + ")");
+
+          Path file = Files.createTempFile("chains", ".json");
+          Path inputFile = findJsonFile(analyzerResult);
+
           sb.append(project.getFileName()).append(",");
           sb.append(analyzerResult.getFileName()).append(",");
-          command = command.formatted(sbomType, inputFile.toAbsolutePath(), file);
-          ProcessBuilder builder = new ProcessBuilder();
-          builder.redirectErrorStream(true);
-          builder.inheritIO();
-          if (System.getProperty("os.name").toLowerCase().contains("windows")) {
-            builder.command("cmd.exe", "/c", command);
-          } else {
-            builder.command("sh", "-c", command);
+          if (inputFile == null) {
+            sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
+            System.out.println("No input file found for " + analyzerResult.getFileName());
+            continue;
           }
-          Process process = builder.start();
-          process.waitFor();
+          System.out.println("Input: " + inputFile);
+          System.out.println("Output: " + file);
+
+          if(!invokePython(inputFile, file, sbomType)) {
+            sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
+            continue;
+          }
+
           FileReader jsonReader = new JsonReader();
           List<Dependency> input = jsonReader.readFile(file);
           List<Dependency> truth = jsonReader.readFile(truthJson);
-          var directDependencyResult =
-              calculateResult(input.stream().filter(this::isDirectDependency).toList(),
-                  truth.stream().filter(v -> v.getDepth() == 1).toList());
-          var transitiveDeps =
-              calculateResult(input.stream().filter(v -> v.getDepth() > 1).toList(),
-                  truth.stream().filter(v -> v.getDepth() > 1).toList());
+          var directDependencyResult = calculateResult(getDirectDeps(input), getDirectDeps(truth));
+          var transitiveDeps = calculateResult(getTransitiveDeps(input), getTransitiveDeps(truth));
           ObjectMapper mapper = new ObjectMapper();
           File output = new File("./resultCalc/" + project.getFileName() + "_"
               + analyzerResult.getFileName() + ".json");
@@ -74,9 +82,54 @@ public class Helper {
         }
       }
     }
-    Files.writeString(Path.of("./Results.csv"), sb.toString().lines().filter(v -> !v.equals("0,0,0,0,0,0,0,0,0,0,0,0,0,0")).collect(Collectors.joining(System.lineSeparator()))
-    );
+    Files.writeString(Path.of("./Results.csv"),
+        sb.toString());
   }
+
+  private List<Dependency> getDirectDeps(List<Dependency> truth) {
+    return truth.stream().filter(this::isDirectDependency).toList();
+  }
+
+  private List<Dependency> getTransitiveDeps(List<Dependency> input) {
+    return input.stream().filter(v -> v.getDepth() > 1).toList();
+  }
+
+  private Path getMavenTruth(Path project) throws IOException {
+    return findJsonFile(Files.walk(project)
+        .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny().get());
+  }
+
+  /**
+   * This function invokes the python script in the transformer directory to convert the input file to the desired format
+   *
+   * @param inputFile: Path to the input file
+   * @param file: Path to the output file
+   * @param sbomType: The desired output format
+   */
+  private boolean invokePython(Path inputFile, Path file, String sbomType) {
+    String command = "python3 ./transformer/main.py -s %s -i \"%s\" -o \"%s\"";
+    command = command.formatted(sbomType, inputFile.toAbsolutePath(), file);
+    ProcessBuilder builder = new ProcessBuilder();
+    builder.redirectErrorStream(true);
+    builder.inheritIO();
+    if (System.getProperty("os.name").toLowerCase().contains("windows")) {
+      builder.command("cmd.exe", "/c", command);
+    } else {
+      builder.command("sh", "-c", command);
+    } 
+    int error = 0;
+    try {
+      Process process = builder.start();
+      error = process.waitFor();
+    } catch (Exception e) {
+      return false;
+    }
+    if(file.toFile().length() == 0 || error != 0) {
+      return false;
+    }
+    return true;
+  }
+
 
   private void appendTransitiveDeps(StringBuilder sb, List<Dependency> truth, PrintOut value) {
     var metrics = calculateMetrics(value.transitiveDeps());
@@ -108,7 +161,7 @@ public class Helper {
       List<Dependency> falseNegative) {
   }
   record PrintOut(Result directDeps, Result transitiveDeps) {
-  };
+  }
 
   record Metrics(int precision, int recall, int f1) {
   }
@@ -168,7 +221,7 @@ public class Helper {
 
   private Path findJsonFile(Path folder) throws IOException {
     return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
-        .get();
+        .orElse(null);
   }
 
   private Result calculateResult(List<Dependency> input, List<Dependency> truth) {
@@ -192,8 +245,7 @@ public class Helper {
           / (truePositive.size() + result.falsePositive().size()));
     }
     if (truePositive.size() + result.falseNegative().size() > 0) {
-      recall = (int) (truePositive.size() * 100.0
-          / (truePositive.size() + falseNegative.size()));
+      recall = (int) (truePositive.size() * 100.0 / (truePositive.size() + falseNegative.size()));
     }
     if (precision + recall > 0) {
       f1 = (int) (2 * precision * recall / (precision + recall));

@@ -1,23 +1,1317 @@
-NAME                      VERSION               TYPE         
-Saxon-HE                  11.4                  java-archive  
-ant                       1.10.12               java-archive  
-antlr4-runtime            4.11.1                java-archive  
-archunit-junit5           1.0.0                 java-archive  
-cacio-tta                 1.11                  java-archive  
-checker-qual              3.27.0                java-archive  
-commons-beanutils         1.9.4                 java-archive  
-commons-io                2.11.0                java-archive  
-equalsverifier            3.12.3                java-archive  
-forbiddenapis             3.4                   java-archive  
-guava                     31.1-jre              java-archive  
-junit-jupiter-api         5.9.1                 java-archive  
-junit-jupiter-engine      5.9.1                 java-archive  
-junit-pioneer             1.7.1                 java-archive  
-junit5-system-extensions  1.2.0                 java-archive  
-mockito-inline            4.11.0                java-archive  
-org.eclipse.jgit          6.4.0.202211300538-r  java-archive  
-org.jacoco.agent          0.8.8                 java-archive  
-picocli                   4.7.0                 java-archive  
-reflections               0.10.2                java-archive  
-slf4j-simple              2.0.6                 java-archive  
-truth                     1.1.3                 java-archive  
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:8465863f-d879-4be1-8b8f-b9b5b7261aff",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-15T15:39:06Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.70.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/net.sf.saxon/Saxon-HE@11.4?package-id=a1485c92d1d79f7a",
+      "type": "library",
+      "group": "net.sf.saxon",
+      "name": "Saxon-HE",
+      "version": "11.4",
+      "cpe": "cpe:2.3:a:Saxon-HE:Saxon-HE:11.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.saxon/Saxon-HE@11.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon-HE:Saxon_HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon_HE:Saxon-HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon_HE:Saxon_HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon-HE:saxon:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon:Saxon-HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon:Saxon_HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon_HE:saxon:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:saxon:Saxon-HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:saxon:Saxon_HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:Saxon:saxon:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:saxon:saxon:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:Saxon-HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:Saxon_HE:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:saxon:11.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.saxon"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.ant/ant@1.10.12?package-id=e93da950d7c45542",
+      "type": "library",
+      "group": "org.apache.ant",
+      "name": "ant",
+      "version": "1.10.12",
+      "cpe": "cpe:2.3:a:apache:ant:1.10.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ant/ant@1.10.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.ant"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.antlr/antlr4-runtime@4.11.1?package-id=a170fd35bd92d5b7",
+      "type": "library",
+      "group": "org.antlr",
+      "name": "antlr4-runtime",
+      "version": "4.11.1",
+      "cpe": "cpe:2.3:a:antlr4-runtime:antlr4-runtime:4.11.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.antlr/antlr4-runtime@4.11.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr4-runtime:antlr4_runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr4_runtime:antlr4-runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr4_runtime:antlr4_runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr4:antlr4-runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr4:antlr4_runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr:antlr4-runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:antlr:antlr4_runtime:4.11.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.antlr"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.tngtech.archunit/archunit-junit5@1.0.0?package-id=c12c1f9006a2a720",
+      "type": "library",
+      "group": "com.tngtech.archunit",
+      "name": "archunit-junit5",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:archunit-junit5:archunit-junit5:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.tngtech.archunit/archunit-junit5@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit-junit5:archunit_junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit_junit5:archunit-junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit_junit5:archunit_junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit-junit5:archunit:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit:archunit-junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit:archunit_junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit_junit5:archunit:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tngtech:archunit-junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tngtech:archunit_junit5:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:archunit:archunit:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:tngtech:archunit:1.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.tngtech.archunit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.github.caciocavallosilano/cacio-tta@1.11?package-id=b95f5cc24d5f97ad",
+      "type": "library",
+      "group": "com.github.caciocavallosilano",
+      "name": "cacio-tta",
+      "version": "1.11",
+      "cpe": "cpe:2.3:a:caciocavallosilano:caciocavallosilano:1.11:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.github.caciocavallosilano/cacio-tta@1.11",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio-tta:caciocavallosilano:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio_tta:caciocavallosilano:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:caciocavallosilano:cacio-tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:caciocavallosilano:cacio_tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:caciocavallosilano:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio:caciocavallosilano:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio-tta:cacio-tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio-tta:cacio_tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio_tta:cacio-tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio_tta:cacio_tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:cacio-tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:github:cacio_tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio:cacio-tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:cacio:cacio_tta:1.11:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.github.caciocavallosilano"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.checkerframework/checker-qual@3.27.0?package-id=2a08e313abfa5eba",
+      "type": "library",
+      "group": "org.checkerframework",
+      "name": "checker-qual",
+      "version": "3.27.0",
+      "cpe": "cpe:2.3:a:checkerframework:checker-qual:3.27.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.checkerframework/checker-qual@3.27.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checkerframework:checker_qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:checker-qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker-qual:checker_qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:checker-qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker_qual:checker_qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:checker-qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:checker:checker_qual:3.27.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.checkerframework"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?package-id=907e871939506d69",
+      "type": "library",
+      "group": "commons-beanutils",
+      "name": "commons-beanutils",
+      "version": "1.9.4",
+      "cpe": "cpe:2.3:a:commons-beanutils:commons-beanutils:1.9.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-beanutils:commons_beanutils:1.9.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_beanutils:commons-beanutils:1.9.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_beanutils:commons_beanutils:1.9.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-beanutils:1.9.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_beanutils:1.9.4:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-beanutils"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0?package-id=ad8f473b449a458b",
+      "type": "library",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "cpe": "cpe:2.3:a:commons-io:commons-io:2.11.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/commons-io/commons-io@2.11.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons-io:commons_io:2.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_io:commons-io:2.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons_io:commons_io:2.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons-io:2.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:commons:commons_io:2.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "commons-io"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/equalsverifier/equalsverifier@3.12.3?package-id=d576095207150f42",
+      "type": "library",
+      "group": "nl.jqno.equalsverifier",
+      "name": "equalsverifier",
+      "version": "3.12.3",
+      "cpe": "cpe:2.3:a:equalsverifier:equalsverifier:3.12.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/equalsverifier/equalsverifier@3.12.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "nl.jqno.equalsverifier"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/forbiddenapis/forbiddenapis@3.4?package-id=1d75ae03aa240ac",
+      "type": "library",
+      "group": "de.thetaphi",
+      "name": "forbiddenapis",
+      "version": "3.4",
+      "cpe": "cpe:2.3:a:forbiddenapis:forbiddenapis:3.4:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/forbiddenapis/forbiddenapis@3.4",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "de.thetaphi"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.guava/guava@31.1-jre?package-id=6a9a151267c13896",
+      "type": "library",
+      "group": "com.google.guava",
+      "name": "guava",
+      "version": "31.1-jre",
+      "cpe": "cpe:2.3:a:google:guava:31.1-jre:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.guava/guava@31.1-jre",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:guava:guava:31.1-jre:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.guava"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1?package-id=568f7c67185e3267",
+      "type": "library",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-api",
+      "version": "5.9.1",
+      "cpe": "cpe:2.3:a:junit-jupiter-api:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter-api:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_api:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_api:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter-api:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_api:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit-jupiter-api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit_jupiter_api:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.junit.jupiter"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1?package-id=5d27f3c4091f6b6c",
+      "type": "library",
+      "group": "org.junit.jupiter",
+      "name": "junit-jupiter-engine",
+      "version": "5.9.1",
+      "cpe": "cpe:2.3:a:junit-jupiter-engine:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter-engine:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_engine:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_engine:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter-engine:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter_engine:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit-jupiter-engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit_jupiter_engine:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jupiter:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:jupiter:5.9.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.junit.jupiter"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.junit-pioneer/junit-pioneer@1.7.1?package-id=b9445fc8edfa9de9",
+      "type": "library",
+      "group": "org.junit-pioneer",
+      "name": "junit-pioneer",
+      "version": "1.7.1",
+      "cpe": "cpe:2.3:a:junit-pioneer:junit-pioneer:1.7.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.junit-pioneer/junit-pioneer@1.7.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit-pioneer:junit_pioneer:1.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_pioneer:junit-pioneer:1.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit_pioneer:junit_pioneer:1.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit-pioneer:1.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit:junit_pioneer:1.7.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.junit-pioneer"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.itsallcode/junit5-system-extensions@1.2.0?package-id=b7ecadf8aa59feb1",
+      "type": "library",
+      "group": "org.itsallcode",
+      "name": "junit5-system-extensions",
+      "version": "1.2.0",
+      "cpe": "cpe:2.3:a:junit5-system-extensions:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.itsallcode/junit5-system-extensions@1.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5-system-extensions:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5_system_extensions:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5_system_extensions:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5-system:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5-system:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5_system:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5_system:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:itsallcode:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:itsallcode:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5:junit5-system-extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:junit5:junit5_system_extensions:1.2.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.itsallcode"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mockito/mockito-inline@4.11.0?package-id=d4f76280382eb944",
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-inline",
+      "version": "4.11.0",
+      "cpe": "cpe:2.3:a:mockito-inline:mockito-inline:4.11.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mockito/mockito-inline@4.11.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito-inline:mockito_inline:4.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito_inline:mockito-inline:4.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito_inline:mockito_inline:4.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito:mockito-inline:4.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito:mockito_inline:4.11.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mockito"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@6.4.0.202211300538-r?package-id=a2c9972afd99c4ee",
+      "type": "library",
+      "group": "org.eclipse.jgit",
+      "name": "org.eclipse.jgit",
+      "version": "6.4.0.202211300538-r",
+      "cpe": "cpe:2.3:a:org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.eclipse.jgit/org.eclipse.jgit@6.4.0.202211300538-r",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:org.eclipse.jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jgit:org.eclipse.jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:org.eclipse.jgit:jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:eclipse:jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jgit:jgit:6.4.0.202211300538-r:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.eclipse.jgit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.8?package-id=b01ac3f334e5efcb",
+      "type": "library",
+      "group": "org.jacoco",
+      "name": "org.jacoco.agent",
+      "version": "0.8.8",
+      "cpe": "cpe:2.3:a:org.jacoco.agent:org.jacoco.agent:0.8.8:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.jacoco/org.jacoco.agent@0.8.8",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:jacoco:org.jacoco.agent:0.8.8:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.jacoco"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/picocli/picocli@4.7.0?package-id=876034eaff4ead36",
+      "type": "library",
+      "group": "info.picocli",
+      "name": "picocli",
+      "version": "4.7.0",
+      "cpe": "cpe:2.3:a:picocli:picocli:4.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/picocli/picocli@4.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "info.picocli"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.reflections/reflections@0.10.2?package-id=6823186db9c3ab58",
+      "type": "library",
+      "group": "org.reflections",
+      "name": "reflections",
+      "version": "0.10.2",
+      "cpe": "cpe:2.3:a:reflections:reflections:0.10.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.reflections/reflections@0.10.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.reflections"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-simple@2.0.6?package-id=745c2254a0fbd764",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-simple",
+      "version": "2.0.6",
+      "cpe": "cpe:2.3:a:slf4j-simple:slf4j-simple:2.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-simple@2.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-simple:slf4j_simple:2.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_simple:slf4j-simple:2.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_simple:slf4j_simple:2.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-simple:2.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_simple:2.0.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.google.truth/truth@1.1.3?package-id=e42bcd1059d16273",
+      "type": "library",
+      "group": "com.google.truth",
+      "name": "truth",
+      "version": "1.1.3",
+      "cpe": "cpe:2.3:a:google:truth:1.1.3:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.google.truth/truth@1.1.3",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:truth:truth:1.1.3:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.google.truth"
+        }
+      ]
+    }
+  ]
+}

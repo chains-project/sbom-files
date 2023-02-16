@@ -1,13 +1,535 @@
-NAME                          VERSION  TYPE         
-ant                           1.10.12  java-archive  
-junit                         4.13.2   java-archive  
-launch4j                      3.50     java-archive  
-maven-artifact                3.8.6    java-archive  
-maven-artifact-transfer       0.13.1   java-archive  
-maven-compat                  3.8.2    java-archive  
-maven-core                    3.8.6    java-archive  
-maven-model                   3.8.6    java-archive  
-maven-plugin-annotations      3.7.0    java-archive  
-maven-plugin-api              3.8.6    java-archive  
-maven-plugin-testing-harness  3.3.0    java-archive  
-xstream                       1.4.19   java-archive  
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:c93cd47f-3450-44dd-bec8-4066cc4de577",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-15T15:43:20Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.70.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.apache.ant/ant@1.10.12?package-id=e93da950d7c45542",
+      "type": "library",
+      "group": "org.apache.ant",
+      "name": "ant",
+      "version": "1.10.12",
+      "cpe": "cpe:2.3:a:apache:ant:1.10.12:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.ant/ant@1.10.12",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.ant"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.13.2?package-id=d922e72fdc976766",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.2",
+      "cpe": "cpe:2.3:a:junit:junit:4.13.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.13.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/net.sf.launch4j/launch4j@3.50?package-id=95fed75886ab9bcf",
+      "type": "library",
+      "group": "net.sf.launch4j",
+      "name": "launch4j",
+      "version": "3.50",
+      "cpe": "cpe:2.3:a:launch4j:launch4j:3.50:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/net.sf.launch4j/launch4j@3.50",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:sf:launch4j:3.50:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "net.sf.launch4j"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven/maven-artifact@3.8.6?package-id=8a8a0c3ba14c671d",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-artifact",
+      "version": "3.8.6",
+      "cpe": "cpe:2.3:a:apache:maven-artifact:3.8.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven/maven-artifact@3.8.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_artifact:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven.shared/maven-artifact-transfer@0.13.1?package-id=1e09109e7cb54a18",
+      "type": "library",
+      "group": "org.apache.maven.shared",
+      "name": "maven-artifact-transfer",
+      "version": "0.13.1",
+      "cpe": "cpe:2.3:a:apache:maven-artifact-transfer:0.13.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven.shared/maven-artifact-transfer@0.13.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_artifact_transfer:0.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:shared:0.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:0.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven.shared"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven/maven-compat@3.8.2?package-id=17654707d47ca171",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-compat",
+      "version": "3.8.2",
+      "cpe": "cpe:2.3:a:apache:maven-compat:3.8.2:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven/maven-compat@3.8.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_compat:3.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.8.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven/maven-core@3.8.6?package-id=2e80852cd793fce4",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-core",
+      "version": "3.8.6",
+      "cpe": "cpe:2.3:a:apache:maven-core:3.8.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven/maven-core@3.8.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_core:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven/maven-model@3.8.6?package-id=33e09c354a33dd7b",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-model",
+      "version": "3.8.6",
+      "cpe": "cpe:2.3:a:apache:maven-model:3.8.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven/maven-model@3.8.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_model:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.7.0?package-id=a825a2adfd3077da",
+      "type": "library",
+      "group": "org.apache.maven.plugin-tools",
+      "name": "maven-plugin-annotations",
+      "version": "3.7.0",
+      "cpe": "cpe:2.3:a:apache:maven-plugin-annotations:3.7.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.7.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_plugin_annotations:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plugin-tools:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plugin_tools:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.7.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven.plugin-tools"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven/maven-plugin-api@3.8.6?package-id=d23e5daa293469d6",
+      "type": "library",
+      "group": "org.apache.maven",
+      "name": "maven-plugin-api",
+      "version": "3.8.6",
+      "cpe": "cpe:2.3:a:apache:maven-plugin-api:3.8.6:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven/maven-plugin-api@3.8.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_plugin_api:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.8.6:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.apache.maven.plugin-testing/maven-plugin-testing-harness@3.3.0?package-id=930f5d931dace92",
+      "type": "library",
+      "group": "org.apache.maven.plugin-testing",
+      "name": "maven-plugin-testing-harness",
+      "version": "3.3.0",
+      "cpe": "cpe:2.3:a:apache:maven-plugin-testing-harness:3.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.apache.maven.plugin-testing/maven-plugin-testing-harness@3.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven_plugin_testing_harness:3.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plugin-testing:3.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:plugin_testing:3.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:apache:maven:3.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.apache.maven.plugin-testing"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?package-id=684c626bb4e5cebd",
+      "type": "library",
+      "group": "com.thoughtworks.xstream",
+      "name": "xstream",
+      "version": "1.4.19",
+      "cpe": "cpe:2.3:a:thoughtworks:xstream:1.4.19:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.19",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:xstream:xstream:1.4.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "com.thoughtworks.xstream"
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,365 @@
-NAME            VERSION  TYPE         
-junit           4.13.1   java-archive  
-mockito-all     1.10.19  java-archive  
-scala-compiler  2.13.1   java-archive  
-scala-library   2.13.1   java-archive  
-slf4j-api       1.7.24   java-archive  
-slf4j-log4j12   1.7.24   java-archive  
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:9e618404-5ab5-4dba-9864-dbcec5df7d52",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-15T15:42:17Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.70.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.13.1?package-id=7203ddd0781d55f6",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.13.1",
+      "cpe": "cpe:2.3:a:junit:junit:4.13.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.13.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.mockito/mockito-all@1.10.19?package-id=e38b59d2d1c707f",
+      "type": "library",
+      "group": "org.mockito",
+      "name": "mockito-all",
+      "version": "1.10.19",
+      "cpe": "cpe:2.3:a:mockito-all:mockito-all:1.10.19:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.mockito/mockito-all@1.10.19",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito-all:mockito_all:1.10.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito_all:mockito-all:1.10.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito_all:mockito_all:1.10.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito:mockito-all:1.10.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:mockito:mockito_all:1.10.19:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.mockito"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-compiler@2.13.1?package-id=40eff97f725bd237",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-compiler",
+      "version": "2.13.1",
+      "cpe": "cpe:2.3:a:scala-compiler:scala-compiler:2.13.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scala-lang/scala-compiler@2.13.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-compiler:scala_compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_compiler:scala-compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_compiler:scala_compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala-compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala_compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala-compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala_compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala-compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala_compiler:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.scala-lang"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.scala-lang/scala-library@2.13.1?package-id=bc72287b765af39e",
+      "type": "library",
+      "group": "org.scala-lang",
+      "name": "scala-library",
+      "version": "2.13.1",
+      "cpe": "cpe:2.3:a:scala-library:scala-library:2.13.1:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.scala-lang/scala-library@2.13.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-library:scala_library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala-library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_library:scala_library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala-library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala-lang:scala_library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala-library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala_lang:scala_library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala-library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:scala:scala_library:2.13.1:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.scala-lang"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.24?package-id=b64613decb36ccc0",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.24",
+      "cpe": "cpe:2.3:a:slf4j-api:slf4j-api:1.7.24:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.24",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-api:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j-api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_api:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_api:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24?package-id=845b366fef7e30",
+      "type": "library",
+      "group": "org.slf4j",
+      "name": "slf4j-log4j12",
+      "version": "1.7.24",
+      "cpe": "cpe:2.3:a:slf4j-log4j12:slf4j-log4j12:1.7.24:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.slf4j/slf4j-log4j12@1.7.24",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j-log4j12:slf4j_log4j12:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_log4j12:slf4j-log4j12:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j_log4j12:slf4j_log4j12:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j-log4j12:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:slf4j:slf4j_log4j12:1.7.24:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.slf4j"
+        }
+      ]
+    }
+  ]
+}

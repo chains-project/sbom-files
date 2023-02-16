@@ -1,3 +1,97 @@
-NAME          VERSION  TYPE         
-HdrHistogram  2.1.10   java-archive  
-junit         4.10     java-archive  
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:a61a8a81-c1b6-4c44-b5d4-d9dce9878129",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-15T15:40:50Z",
+    "tools": [
+      {
+        "vendor": "anchore",
+        "name": "syft",
+        "version": "0.70.0"
+      }
+    ],
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "."
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?package-id=73df47482e04b227",
+      "type": "library",
+      "group": "org.hdrhistogram",
+      "name": "HdrHistogram",
+      "version": "2.1.10",
+      "cpe": "cpe:2.3:a:HdrHistogram:HdrHistogram:2.1.10:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:hdrhistogram:HdrHistogram:2.1.10:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "org.hdrhistogram"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:maven/junit/junit@4.10?package-id=76e8d6e36f5fcd1",
+      "type": "library",
+      "group": "junit",
+      "name": "junit",
+      "version": "4.10",
+      "cpe": "cpe:2.3:a:junit:junit:4.10:*:*:*:*:*:*:*",
+      "purl": "pkg:maven/junit/junit@4.10",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "java-pom-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "java"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "JavaMetadata"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "java-archive"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "pom.xml"
+        },
+        {
+          "name": "syft:metadata:-:groupID",
+          "value": "junit"
+        }
+      ]
+    }
+  ]
+}
