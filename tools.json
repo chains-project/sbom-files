@@ -5,7 +5,10 @@
         "format": "CycloneDX",
         "collectionStep": "Maven compile phase",
         "url": "https://github.com/jfrog/build-info-go",
-        "scope": false
+        "scope": false,
+        "hashAlgorithms": [
+            "SHA-256", "SHA-1", "MD5"
+        ]
     },
     {
         "name": "CycloneDX Generator",
@@ -13,7 +16,10 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cdxgen",
-        "scope": true
+        "scope": true,
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ]
 
     },
     {
@@ -22,7 +28,10 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
-        "scope": true
+        "scope": true,
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ]
     },
     {
         "name": "jbom",
@@ -30,7 +39,10 @@
         "format": "CycloneDX",
         "collectionStep": "Static source code",
         "url": "https://github.com/Contrast-Security-OSS/jbom",
-        "scope": false
+        "scope": false,
+        "hashAlgorithms": [
+            "MD5", "SHA-1"
+        ]
     },
     {
         "name": "Rewrite",
@@ -38,7 +50,8 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin",
-        "scope": true
+        "scope": true,
+        "hashAlgorithms": []
     },
     {
         "name": "Depscan",
@@ -46,6 +59,9 @@
         "format": "CycloneDX",
         "collectionStep": "Static source code",
         "url": "https://github.com/AppThreat/dep-scan",
-        "scope": true
+        "scope": true,
+        "hashAlgorithms": [
+            "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
+        ]
     }
 ]
