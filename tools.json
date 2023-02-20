@@ -8,7 +8,9 @@
         "scope": false,
         "hashAlgorithms": [
             "SHA-256", "SHA-1", "MD5"
-        ]
+        ],
+        "license": false,
+        "externalReferences": false
     },
     {
         "name": "CycloneDX Generator",
@@ -19,7 +21,9 @@
         "scope": true,
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
-        ]
+        ],
+        "license": true,
+        "externalReferences": false
 
     },
     {
@@ -31,7 +35,9 @@
         "scope": true,
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
-        ]
+        ],
+        "license": true,
+        "externalReferences": true
     },
     {
         "name": "jbom",
@@ -42,7 +48,9 @@
         "scope": false,
         "hashAlgorithms": [
             "MD5", "SHA-1"
-        ]
+        ],
+        "license": false,
+        "externalReferences": false
     },
     {
         "name": "Rewrite",
@@ -51,7 +59,9 @@
         "collectionStep": "Maven package phase",
         "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin",
         "scope": true,
-        "hashAlgorithms": []
+        "hashAlgorithms": [],
+        "license": true,
+        "externalReferences": false
     },
     {
         "name": "Depscan",
@@ -62,6 +72,8 @@
         "scope": true,
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
-        ]
+        ],
+        "license": true,
+        "externalReferences": false
     }
 ]

@@ -12,4 +12,9 @@ for i in tools_object:
     hash_algorithms = ','.join(i['hashAlgorithms'])
     if hash_algorithms == '':
         hash_algorithms = None
-    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {check  if i["scope"] else wrong}  \\\\')
+    
+    scope = check  if i["scope"] else wrong
+    license = check  if i["license"] else wrong
+    externalReferences = check  if i["externalReferences"] else wrong
+
+    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {scope} & {license} & {externalReferences}  \\\\')
