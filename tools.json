@@ -3,14 +3,14 @@
         "name": "Build Info Go",
         "version": "1.8.7",
         "format": "CycloneDX",
-        "collectionStep": "Build",
+        "collectionStep": "Maven compile phase",
         "url": "https://github.com/jfrog/build-info-go"
     },
     {
         "name": "CycloneDX Generator",
         "version": "8.0.5",
         "format": "CycloneDX",
-        "collectionStep": "Static source code",
+        "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cdxgen"
 
     },
@@ -18,7 +18,7 @@
         "name": "CycloneDX Maven Plugin",
         "version": "2.7.5",
         "format": "CycloneDX",
-        "collectionStep": "Static source code",
+        "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cyclonedx-maven-plugin"
     },
     {
@@ -32,7 +32,7 @@
         "name": "Rewrite",
         "version": "4.40.0",
         "format": "CycloneDX",
-        "collectionStep": "Static source code",
+        "collectionStep": "Maven package phase",
         "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin"
     },
     {
