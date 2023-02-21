@@ -10,7 +10,8 @@
             "SHA-256", "SHA-1", "MD5"
         ],
         "license": false,
-        "externalReferences": false
+        "externalReferences": false,
+        "canResolveTree": true
     },
     {
         "name": "CycloneDX Generator",
@@ -23,7 +24,8 @@
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true
+        "externalReferences": true,
+        "canResolveTree": true
 
     },
     {
@@ -37,7 +39,8 @@
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true
+        "externalReferences": true,
+        "canResolveTree": true
     },
     {
         "name": "jbom",
@@ -50,7 +53,8 @@
             "MD5", "SHA-1"
         ],
         "license": false,
-        "externalReferences": false
+        "externalReferences": false,
+        "canResolveTree": false
     },
     {
         "name": "OpenRewrite",
@@ -61,7 +65,8 @@
         "scope": true,
         "hashAlgorithms": [],
         "license": true,
-        "externalReferences": false
+        "externalReferences": false,
+        "canResolveTree": true
     },
     {
         "name": "Depscan",
@@ -74,6 +79,7 @@
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true
+        "externalReferences": true,
+        "canResolveTree": false
     }
 ]

@@ -16,5 +16,6 @@ for i in tools_object:
     scope = check  if i["scope"] else wrong
     license = check  if i["license"] else wrong
     externalReferences = check  if i["externalReferences"] else wrong
+    canResolveTree = check  if i["canResolveTree"] else wrong
 
-    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {scope} & {externalReferences}  \\\\')
+    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {scope} & {externalReferences} & {canResolveTree}  \\\\')
