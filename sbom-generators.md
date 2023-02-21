@@ -1,21 +1,12 @@
 # Finalised tools
-|Tool   |Output format                                      | Done? |
-|-------|---------------------------------------------------|----|
-|https://github.com/jfrog/build-info-go|CycloneDX                                          | ✔️ |
-|https://github.com/AppThreat/cdxgen|CycloneDX                                          | ✔️ |
-|https://github.com/CycloneDX/cyclonedx-maven-plugin|CycloneDX                                          | ✔️ |
-|https://github.com/Contrast-Security-OSS/jbom|CycloneDX with changes                                         | ✔️  |
-|https://github.com/openrewrite/rewrite|CycloneDX with changes                                         | ✔️ |
-|https://www.scanoss.co.uk/|Unique                                             | :x: only a list of files |
-|https://github.com/spdx/spdx-maven-plugin|SPDX                                   | ✔️        |
-|https://github.com/anchore/syft|CycloneDX with changes                                             | :x: no transitive dependencies |
-|https://github.com/microsoft/sbom-tool|SPDX                                               | ✔️ |
-|https://github.com/oss-review-toolkit/ort|Unique                                             | ✔️ |
-|https://github.com/nexB/scancode-toolkit|Unique| ✔️ |
-|https://github.com/opensbom-generator/spdx-sbom-generator|SPDX                                               | ✔️ |
-|https://github.com/usnistgov/swid-tools|SWID                                               | ✔️ |
-|https://github.com/AppThreat/dep-scan|CycloneDX| ✔️ |
-|https://github.com/kubernetes-sigs/bom|SPDX| :x: only a list of files |
+|Tool   |Output format                                      |
+|-------|---------------------------------------------------|
+| https://github.com/jfrog/build-info-go | CycloneDX |
+| https://github.com/CycloneDX/cdxgen | CycloneDX |
+| https://github.com/CycloneDX/cyclonedx-maven-plugin | CycloneDX |
+| https://github.com/Contrast-Security-OSS/jbom | CycloneDX with changes |
+| https://docs.openrewrite.org/reference/rewrite-maven-plugin | CycloneDX with changes |
+| https://github.com/AppThreat/dep-scan | CycloneDX |
 
 # CycloneDX tools
 - https://github.com/CycloneDX/cyclonedx-maven-plugin
