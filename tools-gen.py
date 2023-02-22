@@ -9,13 +9,11 @@ wrong = r'\xmark'
 tools_object = sorted(tools_object, key=lambda k: len(k['hashAlgorithms']))
 
 for i in tools_object:
-    hash_algorithms = ','.join(i['hashAlgorithms'])
-    if hash_algorithms == '':
-        hash_algorithms = None
+    hash_algorithms = len(i['hashAlgorithms'])
     
-    scope = check  if i["scope"] else wrong
+    scope = len(i['scope'])
     license = check  if i["license"] else wrong
-    externalReferences = check  if i["externalReferences"] else wrong
+    externalReferences = len(i["externalReferences"])
     canResolveTree = check  if i["canResolveTree"] else wrong
 
     print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {scope} & {externalReferences} & {canResolveTree}  \\\\')

@@ -5,12 +5,12 @@
         "format": "CycloneDX",
         "collectionStep": "Maven compile phase",
         "url": "https://github.com/jfrog/build-info-go",
-        "scope": false,
+        "scope": [],
         "hashAlgorithms": [
             "SHA-256", "SHA-1", "MD5"
         ],
         "license": false,
-        "externalReferences": false,
+        "externalReferences": [],
         "canResolveTree": true
     },
     {
@@ -19,12 +19,12 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cdxgen",
-        "scope": true,
+        "scope": ["optional"],
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true,
+        "externalReferences": ["other"],
         "canResolveTree": true
 
     },
@@ -34,12 +34,12 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
-        "scope": true,
+        "scope": ["optional"],
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true,
+        "externalReferences": ["issue-tracker", "vcs", "mailing-list", "website", "build-system", "distribution"],
         "canResolveTree": true
     },
     {
@@ -48,12 +48,12 @@
         "format": "CycloneDX",
         "collectionStep": "Static source code",
         "url": "https://github.com/Contrast-Security-OSS/jbom",
-        "scope": false,
+        "scope": ["required"],
         "hashAlgorithms": [
             "MD5", "SHA-1"
         ],
         "license": false,
-        "externalReferences": false,
+        "externalReferences": [],
         "canResolveTree": false
     },
     {
@@ -62,10 +62,10 @@
         "format": "CycloneDX",
         "collectionStep": "Maven package phase",
         "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin",
-        "scope": true,
+        "scope": ["optional", "required"],
         "hashAlgorithms": [],
         "license": true,
-        "externalReferences": false,
+        "externalReferences": [],
         "canResolveTree": true
     },
     {
@@ -74,12 +74,12 @@
         "format": "CycloneDX",
         "collectionStep": "Static source code",
         "url": "https://github.com/AppThreat/dep-scan",
-        "scope": true,
+        "scope": ["optional"],
         "hashAlgorithms": [
             "MD5", "SHA-1","SHA-256","SHA-512","SHA-384","SHA3-384","SHA3-256","SHA3-512"
         ],
         "license": true,
-        "externalReferences": true,
+        "externalReferences": ["other"],
         "canResolveTree": false
     }
 ]
