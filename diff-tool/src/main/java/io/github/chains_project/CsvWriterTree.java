@@ -25,6 +25,19 @@ public class CsvWriterTree {
       appendTransitives(sb, analyzerResult);
     }
     Files.writeString(Path.of("./resultsTree.csv"), sb.toString());
+    list = new CreateDataTreeAllDeps().createData(Path.of("./results"));
+    sb.setLength(0);
+    sb.append("project,analyzer,D_P,D_R,D_F,SIZE");
+    sb.append(System.lineSeparator());
+    for (AnalyzerResult analyzerResult : list) {
+      sb.append(analyzerResult.project());
+      sb.append(",");
+      sb.append(analyzerResult.name());
+      sb.append(",");
+      appendDirect(sb, analyzerResult);
+      sb.append(System.lineSeparator());
+    }
+    Files.writeString(Path.of("./resultsTreeAll.csv"), sb.toString());
   }
 
   private static void appendDirect(StringBuilder sb, AnalyzerResult analyzerResult) {
