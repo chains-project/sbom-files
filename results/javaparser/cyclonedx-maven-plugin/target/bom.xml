@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:b623ad8c-7e3c-47ae-96aa-2d4e3a55b889" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:82266f00-3a38-4f95-ae1d-7dab0a60c386" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:19:08Z</timestamp>
+    <timestamp>2023-02-26T01:57:47Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -34,7 +34,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-parent@3.15.15?type=pom</purl>
-      <externalReferences><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -42,37 +42,103 @@
       <group>com.github.javaparser</group>
       <name>javaparser-core</name>
       <version>3.15.15</version>
+      <description>The core parser functionality. This may be all you need.</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-core-testing@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-core-testing</name>
       <version>3.15.15</version>
+      <description>The test suite for javaparser-core</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core-testing@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core-testing</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core-testing</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-core-testing-bdd@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-core-testing-bdd</name>
       <version>3.15.15</version>
+      <description>The BDD test suite for javaparser-core</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core-testing-bdd@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core-testing-bdd</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core-testing-bdd</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-core-generators@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-core-generators</name>
       <version>3.15.15</version>
+      <description>A code generator framework, and the generators for javaparser-core</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core-generators@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core-generators</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core-generators</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-core-metamodel-generator@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-core-metamodel-generator</name>
       <version>3.15.15</version>
+      <description>The tool that generates the code in the javaparser-metamodel module</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core-metamodel-generator@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core-metamodel-generator</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core-metamodel-generator</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-core-serialization@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-core-serialization</name>
       <version>3.15.15</version>
+      <description>Serializers for the JavaParser AST.</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-core-serialization@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-core-serialization</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-core-serialization</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.json/javax.json-api@1.1.4?type=jar">
       <publisher>Oracle</publisher>
@@ -91,15 +157,28 @@
         <hash alg="SHA3-256">e4163d03ba00d439137c448baa853ca32543e5ab9873580d6dd3a96cabc0c0db</hash>
         <hash alg="SHA3-512">af54fa4e5fb9146097f18a9bc5acd492d118fa8b8ab292a864dcb8d1e37370d68b21f746ede20be060abe7cef6b02b575337445f858fc638485ef81795e7acb9</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.1 OR GPL-2.0-only)</expression>
+      </licenses>
       <purl>pkg:maven/javax.json/javax.json-api@1.1.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com</url></reference><reference type="vcs"><url>https://github.com/javaee/jsonp</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://javaee.github.io/jsonp</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/javaee/jsonp/javax.json-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-symbol-solver-model@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-symbol-solver-model</name>
       <version>3.15.15</version>
+      <description>A Symbol Solver for Java, built on top of JavaParser (model)</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-symbol-solver-model@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-symbol-solver-model</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-symbol-solver-model</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar">
       <publisher>Shigeru Chiba, www.javassist.org</publisher>
@@ -132,7 +211,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.javassist.org/</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference><reference type="vcs"><url>scm:git:git@github.com:jboss-javassist/javassist.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@27.0-jre?type=jar">
       <group>com.google.guava</group>
@@ -158,7 +237,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@27.0-jre?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/guava</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/failureaccess@1.0?type=jar">
       <group>com.google.guava</group>
@@ -187,7 +266,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/failureaccess@1.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/failureaccess</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/failureaccess</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
       <group>com.google.guava</group>
@@ -226,7 +305,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/listenablefuture</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/listenablefuture</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
       <group>com.google.code.findbugs</group>
@@ -249,7 +328,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar">
       <group>org.checkerframework</group>
@@ -275,7 +354,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/checker-qual@2.5.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar">
       <group>com.google.errorprone</group>
@@ -298,7 +377,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.2.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/google/error-prone</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar">
       <group>com.google.j2objc</group>
@@ -322,7 +401,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/j2objc/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar">
       <publisher>MojoHaus</publisher>
@@ -347,25 +426,58 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.17?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/mojohaus/animal-sniffer</url></reference><reference type="issue-tracker"><url>https://github.com/mojohaus/animal-sniffer/issues</url></reference><reference type="vcs"><url>https://github.com/mojohaus/animal-sniffer</url></reference><reference type="website"><url>http://www.mojohaus.org</url></reference><reference type="distribution"><url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/mojohaus-dev</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.mojohaus.org/animal-sniffer/animal-sniffer-annotations</url></reference><reference type="build-system"><url>https://travis-ci.org/mojohaus/animal-sniffer</url></reference><reference type="distribution"><url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/mojohaus/animal-sniffer/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/mojohaus-dev</url></reference><reference type="vcs"><url>https://github.com/mojohaus/animal-sniffer/animal-sniffer-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-symbol-solver-logic@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-symbol-solver-logic</name>
       <version>3.15.15</version>
+      <description>A Symbol Solver for Java, built on top of JavaParser (logic)</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-symbol-solver-logic@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-symbol-solver-logic</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-symbol-solver-logic</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-symbol-solver-core@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-symbol-solver-core</name>
       <version>3.15.15</version>
+      <description>A Symbol Solver for Java, built on top of JavaParser (core)</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-symbol-solver-core@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-symbol-solver-core</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-symbol-solver-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.javaparser/javaparser-symbol-solver-testing@3.15.15?type=jar">
       <group>com.github.javaparser</group>
       <name>javaparser-symbol-solver-testing</name>
       <version>3.15.15</version>
+      <description>A Symbol Solver for Java, built on top of JavaParser (tests)</description>
+      <licenses>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/lgpl-3.0.html</url>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.github.javaparser/javaparser-symbol-solver-testing@3.15.15?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/javaparser/javaparser-symbol-solver-testing</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/javaparser/JavaParser/javaparser/;publish=1</url></reference><reference type="issue-tracker"><url>https://github.com/javaparser/javaparser/issues</url></reference><reference type="vcs"><url>https://github.com/javaparser/javaparser.git/javaparser-symbol-solver-testing</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>

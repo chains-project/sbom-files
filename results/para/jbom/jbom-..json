@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.3",
-  "serialNumber" : "f4f16bb0-b4fe-43b9-8a20-b278a5af2924",
+  "serialNumber" : "439fea3d-c704-48f6-9e7c-a1a74905c9b5",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-12T16:19:53Z",
+    "timestamp" : "2023-02-26T04:31:12Z",
     "tools" : [
       {
         "vendor" : "Contrast Security - https://contrastsecurity.com",
@@ -13,7 +13,7 @@
       }
     ],
     "component" : {
-      "name" : "172.17.0.2 (6971d9823550)",
+      "name" : "172.17.0.2 (b033bf488458)",
       "description" : "Java",
       "type" : "application"
     },
@@ -60,11 +60,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "content" : "0b983ed9ca31f4941241a03e7e525fafd602e939"
         },
         {
           "alg" : "MD5",
-          "content" : "1aff0d147d26a7898251277bf0ffd6a6"
+          "content" : "5a02eab0f67caa8ee0251a125728daba"
         }
       ],
       "properties" : [
@@ -124,11 +124,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "content" : "0b983ed9ca31f4941241a03e7e525fafd602e939"
         },
         {
           "alg" : "MD5",
-          "content" : "1aff0d147d26a7898251277bf0ffd6a6"
+          "content" : "5a02eab0f67caa8ee0251a125728daba"
         }
       ],
       "properties" : [
@@ -178,6 +178,76 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jetty-server:server/pom"
+    },
+    {
+      "name" : "metrics-spi",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d30ad3d60fcdcb6e9047e69f6157f64f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eef7a82df0d894726bc95389ebadc72cd1d85635"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "metrics-spi-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/metrics-spi-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:eef7a82df0d894726bc95389ebadc72cd1d85635"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:metrics-spi:2.20.12"
+    },
+    {
+      "name" : "metrics-spi",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d30ad3d60fcdcb6e9047e69f6157f64f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eef7a82df0d894726bc95389ebadc72cd1d85635"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "metrics-spi-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/metrics-spi-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:eef7a82df0d894726bc95389ebadc72cd1d85635"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:metrics-spi:2.20.12"
     },
     {
       "name" : "Starter for using Jetty as the embedded servlet container. An alternative to spring-boot-starter-tomcat",
@@ -254,11 +324,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "ac15548094dedeedd178d45da934ff37"
+          "content" : "89fc9a70787a69b62ab9ec2763709775"
         },
         {
           "alg" : "SHA-1",
-          "content" : "9f3fc4d2a1f10bef480c77875244a117730b2df7"
+          "content" : "4f8e74b725861119c7cd1fe8b93d5f77c1ce797c"
         }
       ],
       "properties" : [
@@ -276,7 +346,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:9f3fc4d2a1f10bef480c77875244a117730b2df7"
+          "value" : "https://search.maven.org/search?q=1:4f8e74b725861119c7cd1fe8b93d5f77c1ce797c"
         }
       ],
       "type" : "library",
@@ -289,11 +359,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "ac15548094dedeedd178d45da934ff37"
+          "content" : "89fc9a70787a69b62ab9ec2763709775"
         },
         {
           "alg" : "SHA-1",
-          "content" : "9f3fc4d2a1f10bef480c77875244a117730b2df7"
+          "content" : "4f8e74b725861119c7cd1fe8b93d5f77c1ce797c"
         }
       ],
       "properties" : [
@@ -311,7 +381,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:9f3fc4d2a1f10bef480c77875244a117730b2df7"
+          "value" : "https://search.maven.org/search?q=1:4f8e74b725861119c7cd1fe8b93d5f77c1ce797c"
         }
       ],
       "type" : "library",
@@ -1296,6 +1366,146 @@
       "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.14.0-rc2"
     },
     {
+      "name" : "utils",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "61635581f21dc3f0390bbfce3c3b62ce"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "utils-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/utils-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:utils:2.20.12"
+    },
+    {
+      "name" : "utils",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "61635581f21dc3f0390bbfce3c3b62ce"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "utils-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/utils-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:utils:2.20.12"
+    },
+    {
+      "name" : "regions",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "382ea6bd5671abe4293cffb3b5a92eb5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9319177986ff52b585574f1daec43df6ceae64a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "regions-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/regions-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f9319177986ff52b585574f1daec43df6ceae64a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:regions:2.20.12"
+    },
+    {
+      "name" : "regions",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "382ea6bd5671abe4293cffb3b5a92eb5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9319177986ff52b585574f1daec43df6ceae64a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "regions-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/regions-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:f9319177986ff52b585574f1daec43df6ceae64a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:regions:2.20.12"
+    },
+    {
       "name" : "osgi-resource-locator-1.0.3",
       "version" : "1.0.3",
       "scope" : "required",
@@ -1328,6 +1538,76 @@
         }
       ],
       "type" : "library"
+    },
+    {
+      "name" : "ses",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0808ecffde507c0d580fd81bc9e9a749"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c148951681d957e48601bce6e4e6463b4031a347"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "ses-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/ses-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:c148951681d957e48601bce6e4e6463b4031a347"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:ses:2.20.12"
+    },
+    {
+      "name" : "ses",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0808ecffde507c0d580fd81bc9e9a749"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "c148951681d957e48601bce6e4e6463b4031a347"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "ses-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/ses-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:c148951681d957e48601bce6e4e6463b4031a347"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:ses:2.20.12"
     },
     {
       "name" : "flexmark-util-html",
@@ -1465,17 +1745,17 @@
       "bom-ref" : "null:flexmark-ext-gfm-tasklist:0.64.0"
     },
     {
-      "name" : "netty-nio-client",
-      "version" : "2.20.2",
+      "name" : "aws-core",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c250dcb1cfd80da5e24ec1c0871b3385"
+          "content" : "adda6f7a43d5a2279bfffd9c4d66a99a"
         },
         {
           "alg" : "SHA-1",
-          "content" : "6568414a3bcff7cc072d2a381462aa5db1205522"
+          "content" : "2c80555d9e9c9de3a6e939b60575df58323fd0b7"
         }
       ],
       "properties" : [
@@ -1485,32 +1765,32 @@
         },
         {
           "name" : "archive",
-          "value" : "netty-nio-client-2.20.2.jar"
+          "value" : "aws-core-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/netty-nio-client-2.20.2.jar"
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-core-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:6568414a3bcff7cc072d2a381462aa5db1205522"
+          "value" : "https://search.maven.org/search?q=1:2c80555d9e9c9de3a6e939b60575df58323fd0b7"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:netty-nio-client:2.20.2"
+      "bom-ref" : "null:aws-core:2.20.12"
     },
     {
-      "name" : "netty-nio-client",
-      "version" : "2.20.2",
+      "name" : "aws-core",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c250dcb1cfd80da5e24ec1c0871b3385"
+          "content" : "adda6f7a43d5a2279bfffd9c4d66a99a"
         },
         {
           "alg" : "SHA-1",
-          "content" : "6568414a3bcff7cc072d2a381462aa5db1205522"
+          "content" : "2c80555d9e9c9de3a6e939b60575df58323fd0b7"
         }
       ],
       "properties" : [
@@ -1520,19 +1800,19 @@
         },
         {
           "name" : "archive",
-          "value" : "netty-nio-client-2.20.2.jar"
+          "value" : "aws-core-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/netty-nio-client-2.20.2.jar"
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-core-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:6568414a3bcff7cc072d2a381462aa5db1205522"
+          "value" : "https://search.maven.org/search?q=1:2c80555d9e9c9de3a6e939b60575df58323fd0b7"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:netty-nio-client:2.20.2"
+      "bom-ref" : "null:aws-core:2.20.12"
     },
     {
       "name" : "logback-access",
@@ -1850,41 +2130,6 @@
       "bom-ref" : "org.apache:httpcore5-h2:5.1.3"
     },
     {
-      "name" : "aws-query-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ef06929c413f0ecd50817f7e13ea07fa"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0c8237bcbaed5e38e202fba46b48c4ade6c98766"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-query-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-query-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0c8237bcbaed5e38e202fba46b48c4ade6c98766"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-query-protocol:2.20.2"
-    },
-    {
       "group" : "com.sun.mail",
       "name" : "jakarta.mail",
       "version" : "1.6.7",
@@ -1959,122 +2204,17 @@
       "bom-ref" : "com.sun.mail:jakarta.mail:1.6.7"
     },
     {
-      "name" : "aws-query-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ef06929c413f0ecd50817f7e13ea07fa"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0c8237bcbaed5e38e202fba46b48c4ade6c98766"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-query-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-query-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0c8237bcbaed5e38e202fba46b48c4ade6c98766"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-query-protocol:2.20.2"
-    },
-    {
-      "name" : "http-client-spi",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "263dc0acf0cf66169f685673e122d901"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "4270f5520ea5288de0e7c9be6838f8cb2a40debf"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "http-client-spi-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/http-client-spi-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:4270f5520ea5288de0e7c9be6838f8cb2a40debf"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:http-client-spi:2.20.2"
-    },
-    {
-      "name" : "http-client-spi",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "263dc0acf0cf66169f685673e122d901"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "4270f5520ea5288de0e7c9be6838f8cb2a40debf"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "http-client-spi-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/http-client-spi-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:4270f5520ea5288de0e7c9be6838f8cb2a40debf"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:http-client-spi:2.20.2"
-    },
-    {
       "name" : "para-war",
       "version" : "war/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "8d1df25e3dfc1aed8a3ea1ea6c50725c1773ab0d"
+          "content" : "ea3a70f5a489cff55d8e8ab700149d9046aa218f"
         },
         {
           "alg" : "MD5",
-          "content" : "b940dd7b9caced1e07452e00339893fc"
+          "content" : "7a3dea24ac338e3776bafb3310f8288c"
         }
       ],
       "properties" : [
@@ -2204,41 +2344,6 @@
       "bom-ref" : "null:metrics-core:4.2.12"
     },
     {
-      "name" : "ses",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "a72be099fa1bb830676c5620c19f0832"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "103247bde580e7090501838f662246c962270716"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "ses-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/ses-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:103247bde580e7090501838f662246c962270716"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:ses:2.20.2"
-    },
-    {
       "name" : "metrics-core",
       "version" : "4.2.12",
       "scope" : "required",
@@ -2272,41 +2377,6 @@
       ],
       "type" : "library",
       "bom-ref" : "null:metrics-core:4.2.12"
-    },
-    {
-      "name" : "ses",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "a72be099fa1bb830676c5620c19f0832"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "103247bde580e7090501838f662246c962270716"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "ses-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/ses-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:103247bde580e7090501838f662246c962270716"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:ses:2.20.2"
     },
     {
       "name" : "flexmark-util-format",
@@ -2414,6 +2484,40 @@
       "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
     },
     {
+      "name" : "spring-security-web",
+      "version" : "5.7.5",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "11ab0543ffc9d5438adc0dfac1a4c0ca"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9fb08a657ca1e0b55f34182cb6b474a0c3c4c408"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-security-web-5.7.5.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-security-web-5.7.5.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9fb08a657ca1e0b55f34182cb6b474a0c3c4c408"
+        }
+      ],
+      "type" : "library"
+    },
+    {
       "group" : "org.hibernate.validator",
       "name" : "hibernate-validator",
       "version" : "6.2.5.Final",
@@ -2449,40 +2553,6 @@
       ],
       "type" : "library",
       "bom-ref" : "org.hibernate.validator:hibernate-validator:6.2.5.Final"
-    },
-    {
-      "name" : "spring-security-web",
-      "version" : "5.7.5",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "11ab0543ffc9d5438adc0dfac1a4c0ca"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "9fb08a657ca1e0b55f34182cb6b474a0c3c4c408"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "spring-security-web-5.7.5.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-security-web-5.7.5.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:9fb08a657ca1e0b55f34182cb6b474a0c3c4c408"
-        }
-      ],
-      "type" : "library"
     },
     {
       "group" : "org.hibernate.validator",
@@ -2912,6 +2982,40 @@
       "type" : "library"
     },
     {
+      "name" : "spring-expression",
+      "version" : "5.3.23",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "561b0a8c63dccf2a3f67e26bc4708979"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a676bf4b9bc42bd37ab5ad264acb6ceb63397a2"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-expression-5.3.23.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-expression-5.3.23.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:3a676bf4b9bc42bd37ab5ad264acb6ceb63397a2"
+        }
+      ],
+      "type" : "library"
+    },
+    {
       "name" : "Core starter, including auto-configuration support, logging and YAML",
       "version" : "2.7.5",
       "scope" : "required",
@@ -2962,40 +3066,6 @@
       "properties" : [
         {
           "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "spring-expression-5.3.23.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-expression-5.3.23.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:3a676bf4b9bc42bd37ab5ad264acb6ceb63397a2"
-        }
-      ],
-      "type" : "library"
-    },
-    {
-      "name" : "spring-expression",
-      "version" : "5.3.23",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "561b0a8c63dccf2a3f67e26bc4708979"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "3a676bf4b9bc42bd37ab5ad264acb6ceb63397a2"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
           "value" : "BOOT-INF/lib"
         },
         {
@@ -3014,48 +3084,17 @@
       "type" : "library"
     },
     {
-      "name" : "endpoints-spi",
-      "version" : "spi/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "0f730f7cafc1ad7b2525515ce7910f0a3d601060"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "20b6c38812a55be8b536bf1d0924c45c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/endpoints-spi"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/endpoints-spi-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/endpoints-spi/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:endpoints-spi:spi/pom"
-    },
-    {
       "name" : "http-client-spi",
       "version" : "spi/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "4270f5520ea5288de0e7c9be6838f8cb2a40debf"
+          "content" : "7eb5de03797c78211a8290767a31a2b4b7c51387"
         },
         {
           "alg" : "MD5",
-          "content" : "263dc0acf0cf66169f685673e122d901"
+          "content" : "e3176dd72d2c8065121ccc8714974c4e"
         }
       ],
       "properties" : [
@@ -3069,11 +3108,42 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/http-client-spi-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/http-client-spi/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/http-client-spi-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/http-client-spi/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:http-client-spi:spi/pom"
+    },
+    {
+      "name" : "endpoints-spi",
+      "version" : "spi/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "68385f66028ac2820b99853d4622c713afc432bd"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c2075191d173d45d5f0c92e703dc1230"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/endpoints-spi"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/endpoints-spi-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/endpoints-spi/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:endpoints-spi:spi/pom"
     },
     {
       "name" : "metrics-spi",
@@ -3082,11 +3152,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "839026b4b577080e4c3032b24ff605373f662f50"
+          "content" : "eef7a82df0d894726bc95389ebadc72cd1d85635"
         },
         {
           "alg" : "MD5",
-          "content" : "c1911d624eaffca0cd44cecdf06e8343"
+          "content" : "d30ad3d60fcdcb6e9047e69f6157f64f"
         }
       ],
       "properties" : [
@@ -3100,7 +3170,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/metrics-spi-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/metrics-spi/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/metrics-spi-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/metrics-spi/pom.xml"
         }
       ],
       "type" : "library",
@@ -3942,48 +4012,17 @@
       "bom-ref" : "org.glassfish.hk2:hk2-api:2.6.1"
     },
     {
-      "name" : "aws-query-protocol",
-      "version" : "protocol/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "0c8237bcbaed5e38e202fba46b48c4ade6c98766"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "ef06929c413f0ecd50817f7e13ea07fa"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/aws-query-protocol"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-query-protocol-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/aws-query-protocol/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-query-protocol:protocol/pom"
-    },
-    {
       "name" : "aws-json-protocol",
       "version" : "protocol/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "77551572e0008401e9d179c1ae1320e7c2c78d5e"
+          "content" : "29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
         },
         {
           "alg" : "MD5",
-          "content" : "8e59d7cbe80404d90c17f973b08a2f14"
+          "content" : "a13eaaa66cc89dd2047471d0464f2319"
         }
       ],
       "properties" : [
@@ -3997,7 +4036,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-json-protocol-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/aws-json-protocol/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-json-protocol-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/aws-json-protocol/pom.xml"
         }
       ],
       "type" : "library",
@@ -4010,11 +4049,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "55d31b4aee2fea1ab6ed3cf784768798d4788a6e"
+          "content" : "62b9245f010191f63df129a584eed6603e1f8dc4"
         },
         {
           "alg" : "MD5",
-          "content" : "93e7ce6b80cb0f67ff18a29e8e687167"
+          "content" : "91406009587e7cd5fd9d57e0f6e1dc84"
         }
       ],
       "properties" : [
@@ -4028,11 +4067,42 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-xml-protocol-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/aws-xml-protocol/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-xml-protocol-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/aws-xml-protocol/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:aws-xml-protocol:protocol/pom"
+    },
+    {
+      "name" : "aws-query-protocol",
+      "version" : "protocol/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c8db0001f3ab1d527d7f6c55e7bdd668"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/aws-query-protocol"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-query-protocol-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/aws-query-protocol/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-query-protocol:protocol/pom"
     },
     {
       "name" : "jsoup Java HTML Parser",
@@ -4449,87 +4519,17 @@
       "type" : "library"
     },
     {
-      "name" : "aws-json-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "8e59d7cbe80404d90c17f973b08a2f14"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "77551572e0008401e9d179c1ae1320e7c2c78d5e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-json-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-json-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:77551572e0008401e9d179c1ae1320e7c2c78d5e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-json-protocol:2.20.2"
-    },
-    {
-      "name" : "aws-json-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "8e59d7cbe80404d90c17f973b08a2f14"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "77551572e0008401e9d179c1ae1320e7c2c78d5e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-json-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-json-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:77551572e0008401e9d179c1ae1320e7c2c78d5e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-json-protocol:2.20.2"
-    },
-    {
       "name" : "sqs",
       "version" : "INF/maven/software.amazon.awssdk/sqs/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "f00e47352ce831e6e46596bc708b93bf54e8d8e2"
+          "content" : "382b4e310ae16898d65375f13e4be0feab781d2e"
         },
         {
           "alg" : "MD5",
-          "content" : "41855dc5c346fb033cd79a8d0ae03e8a"
+          "content" : "9729f256d8439075227221b83b25a488"
         }
       ],
       "properties" : [
@@ -4543,7 +4543,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/sqs-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/sqs/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/sqs-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/sqs/pom.xml"
         }
       ],
       "type" : "library",
@@ -4624,6 +4624,76 @@
       "bom-ref" : "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:rc2"
     },
     {
+      "name" : "annotations",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23f65b5ec8e904996fc350b49f276bff"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "287889383924906b1d8d71d5ff6a2ee1b53abac7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "annotations-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/annotations-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:287889383924906b1d8d71d5ff6a2ee1b53abac7"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:annotations:2.20.12"
+    },
+    {
+      "name" : "annotations",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23f65b5ec8e904996fc350b49f276bff"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "287889383924906b1d8d71d5ff6a2ee1b53abac7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "annotations-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/annotations-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:287889383924906b1d8d71d5ff6a2ee1b53abac7"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:annotations:2.20.12"
+    },
+    {
       "group" : "io.netty",
       "name" : "netty-transport",
       "version" : "4.1.86.Final",
@@ -4698,76 +4768,6 @@
       "bom-ref" : "io.netty:netty-transport:4.1.86.Final"
     },
     {
-      "name" : "dynamodb",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "f4669fb4372309ddcc47e7e0195441f6"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "51a89cdd257f69ef0a3e9ac9c045e24cb73b4000"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "dynamodb-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/dynamodb-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:51a89cdd257f69ef0a3e9ac9c045e24cb73b4000"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:dynamodb:2.20.2"
-    },
-    {
-      "name" : "dynamodb",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "f4669fb4372309ddcc47e7e0195441f6"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "51a89cdd257f69ef0a3e9ac9c045e24cb73b4000"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "dynamodb-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/dynamodb-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:51a89cdd257f69ef0a3e9ac9c045e24cb73b4000"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:dynamodb:2.20.2"
-    },
-    {
       "name" : "jetty-plus",
       "version" : "plus/pom",
       "scope" : "required",
@@ -4833,6 +4833,41 @@
       "type" : "library"
     },
     {
+      "name" : "endpoints-spi",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c2075191d173d45d5f0c92e703dc1230"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "68385f66028ac2820b99853d4622c713afc432bd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "endpoints-spi-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/endpoints-spi-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:68385f66028ac2820b99853d4622c713afc432bd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:endpoints-spi:2.20.12"
+    },
+    {
       "name" : "spring-security-core",
       "version" : "5.7.5",
       "scope" : "required",
@@ -4865,6 +4900,41 @@
         }
       ],
       "type" : "library"
+    },
+    {
+      "name" : "endpoints-spi",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c2075191d173d45d5f0c92e703dc1230"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "68385f66028ac2820b99853d4622c713afc432bd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "endpoints-spi-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/endpoints-spi-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:68385f66028ac2820b99853d4622c713afc432bd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:endpoints-spi:2.20.12"
     },
     {
       "name" : "flexmark-util-html",
@@ -4935,76 +5005,6 @@
       ],
       "type" : "library",
       "bom-ref" : "null:flexmark-util-html:0.64.0"
-    },
-    {
-      "name" : "profiles",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "0ecb8d47413bbb5d643cac8fbc995c1c"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8fd0f108b9efde26ad64e72d15cef37fa53603df"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "profiles-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/profiles-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:8fd0f108b9efde26ad64e72d15cef37fa53603df"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:profiles:2.20.2"
-    },
-    {
-      "name" : "profiles",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "0ecb8d47413bbb5d643cac8fbc995c1c"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8fd0f108b9efde26ad64e72d15cef37fa53603df"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "profiles-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/profiles-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:8fd0f108b9efde26ad64e72d15cef37fa53603df"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:profiles:2.20.2"
     },
     {
       "name" : "org.apache.lucene",
@@ -5278,6 +5278,76 @@
       "type" : "library"
     },
     {
+      "name" : "netty-nio-client",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7ad1a9b4cce0647ccaa2d7b000248f01"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9d4c0b6e6f24b9902318ed417b3b56f7969ca6fa"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "netty-nio-client-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/netty-nio-client-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9d4c0b6e6f24b9902318ed417b3b56f7969ca6fa"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:netty-nio-client:2.20.12"
+    },
+    {
+      "name" : "netty-nio-client",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7ad1a9b4cce0647ccaa2d7b000248f01"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9d4c0b6e6f24b9902318ed417b3b56f7969ca6fa"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "netty-nio-client-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/netty-nio-client-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:9d4c0b6e6f24b9902318ed417b3b56f7969ca6fa"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:netty-nio-client:2.20.12"
+    },
+    {
       "name" : "jetty-ajp",
       "version" : "ajp/pom",
       "scope" : "required",
@@ -5307,6 +5377,76 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jetty-ajp:ajp/pom"
+    },
+    {
+      "name" : "sqs",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9729f256d8439075227221b83b25a488"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "382b4e310ae16898d65375f13e4be0feab781d2e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "sqs-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/sqs-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:382b4e310ae16898d65375f13e4be0feab781d2e"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sqs:2.20.12"
+    },
+    {
+      "name" : "sqs",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9729f256d8439075227221b83b25a488"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "382b4e310ae16898d65375f13e4be0feab781d2e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "sqs-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/sqs-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:382b4e310ae16898d65375f13e4be0feab781d2e"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sqs:2.20.12"
     },
     {
       "name" : "flexmark-ext-tables",
@@ -5464,6 +5604,76 @@
       "bom-ref" : "null:jetty-http:http/pom"
     },
     {
+      "name" : "arns",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4bbd3c98428a0daf438159e39fc15e14"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "arns-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/arns-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:arns:2.20.12"
+    },
+    {
+      "name" : "arns",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4bbd3c98428a0daf438159e39fc15e14"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "arns-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/arns-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:arns:2.20.12"
+    },
+    {
       "name" : "spring-core",
       "version" : "5.3.23",
       "scope" : "required",
@@ -5530,6 +5740,76 @@
         }
       ],
       "type" : "library"
+    },
+    {
+      "name" : "apache-client",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ef9373467af5738d6793eb498523a738"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2b388c469b5a0b98ece630b426e68b190662561d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "apache-client-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/apache-client-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:2b388c469b5a0b98ece630b426e68b190662561d"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:apache-client:2.20.12"
+    },
+    {
+      "name" : "apache-client",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ef9373467af5738d6793eb498523a738"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2b388c469b5a0b98ece630b426e68b190662561d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "apache-client-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/apache-client-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:2b388c469b5a0b98ece630b426e68b190662561d"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:apache-client:2.20.12"
     },
     {
       "name" : "jetty-continuation",
@@ -5632,76 +5912,6 @@
       "type" : "library"
     },
     {
-      "name" : "protocol-core",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "46e5020c85f1673ca3e5c4e73a0dd083"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "431100ab8a5f458d00b6f94441c5d01340c47dca"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "protocol-core-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/protocol-core-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:431100ab8a5f458d00b6f94441c5d01340c47dca"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:protocol-core:2.20.2"
-    },
-    {
-      "name" : "protocol-core",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "46e5020c85f1673ca3e5c4e73a0dd083"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "431100ab8a5f458d00b6f94441c5d01340c47dca"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "protocol-core-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/protocol-core-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:431100ab8a5f458d00b6f94441c5d01340c47dca"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:protocol-core:2.20.2"
-    },
-    {
       "group" : "com.samskivert",
       "name" : "jmustache",
       "version" : "1.15",
@@ -5735,37 +5945,6 @@
       "bom-ref" : "com.samskivert:jmustache:1.15"
     },
     {
-      "name" : "arns",
-      "version" : "INF/maven/software.amazon.awssdk/arns/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "9ecdb8be3a1e04ebc8f75a682d8713f9ed59eaac"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "ae66848f169163b3bab70f1b3da21d4d"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/arns"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/arns-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/arns/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:arns:INF/maven/software.amazon.awssdk/arns/pom"
-    },
-    {
       "name" : "jetty-webapp",
       "version" : "webapp/pom",
       "scope" : "required",
@@ -5795,6 +5974,37 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jetty-webapp:webapp/pom"
+    },
+    {
+      "name" : "arns",
+      "version" : "INF/maven/software.amazon.awssdk/arns/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "4bbd3c98428a0daf438159e39fc15e14"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/arns"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/arns-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/arns/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:arns:INF/maven/software.amazon.awssdk/arns/pom"
     },
     {
       "name" : "jetty-webapp",
@@ -5972,11 +6182,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "1aff0d147d26a7898251277bf0ffd6a6"
+          "content" : "5a02eab0f67caa8ee0251a125728daba"
         },
         {
           "alg" : "SHA-1",
-          "content" : "7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "content" : "0b983ed9ca31f4941241a03e7e525fafd602e939"
         }
       ],
       "properties" : [
@@ -5994,7 +6204,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "value" : "https://search.maven.org/search?q=1:0b983ed9ca31f4941241a03e7e525fafd602e939"
         }
       ],
       "type" : "library",
@@ -6007,11 +6217,11 @@
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "1aff0d147d26a7898251277bf0ffd6a6"
+          "content" : "5a02eab0f67caa8ee0251a125728daba"
         },
         {
           "alg" : "SHA-1",
-          "content" : "7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "content" : "0b983ed9ca31f4941241a03e7e525fafd602e939"
         }
       ],
       "properties" : [
@@ -6029,7 +6239,7 @@
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:7e8f02a4ef36565e8515cf88b98a65d44e54108e"
+          "value" : "https://search.maven.org/search?q=1:0b983ed9ca31f4941241a03e7e525fafd602e939"
         }
       ],
       "type" : "library",
@@ -7120,76 +7330,6 @@
       "bom-ref" : "null:flexmark-util-builder:builder/pom"
     },
     {
-      "name" : "apache-client",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "3de18eaafe1d9198a3521cd3d602ff25"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "bee94dcb45bfbcc3ffc32c7316f13391445ec58c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "apache-client-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/apache-client-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:bee94dcb45bfbcc3ffc32c7316f13391445ec58c"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:apache-client:2.20.2"
-    },
-    {
-      "name" : "apache-client",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "3de18eaafe1d9198a3521cd3d602ff25"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "bee94dcb45bfbcc3ffc32c7316f13391445ec58c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "apache-client-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/apache-client-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:bee94dcb45bfbcc3ffc32c7316f13391445ec58c"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:apache-client:2.20.2"
-    },
-    {
       "name" : "failureaccess",
       "version" : "1.0.1",
       "scope" : "required",
@@ -7219,6 +7359,76 @@
       ],
       "type" : "library",
       "bom-ref" : "null:failureaccess:1.0.1"
+    },
+    {
+      "name" : "aws-json-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a13eaaa66cc89dd2047471d0464f2319"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-json-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-json-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-json-protocol:2.20.12"
+    },
+    {
+      "name" : "aws-json-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a13eaaa66cc89dd2047471d0464f2319"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-json-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-json-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-json-protocol:2.20.12"
     },
     {
       "group" : "com.fasterxml.jackson.jaxrs",
@@ -7295,17 +7505,17 @@
       "bom-ref" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:rc2"
     },
     {
-      "name" : "sqs",
-      "version" : "2.20.2",
+      "name" : "http-client-spi",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "41855dc5c346fb033cd79a8d0ae03e8a"
+          "content" : "e3176dd72d2c8065121ccc8714974c4e"
         },
         {
           "alg" : "SHA-1",
-          "content" : "f00e47352ce831e6e46596bc708b93bf54e8d8e2"
+          "content" : "7eb5de03797c78211a8290767a31a2b4b7c51387"
         }
       ],
       "properties" : [
@@ -7315,32 +7525,32 @@
         },
         {
           "name" : "archive",
-          "value" : "sqs-2.20.2.jar"
+          "value" : "http-client-spi-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/sqs-2.20.2.jar"
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/http-client-spi-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:f00e47352ce831e6e46596bc708b93bf54e8d8e2"
+          "value" : "https://search.maven.org/search?q=1:7eb5de03797c78211a8290767a31a2b4b7c51387"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sqs:2.20.2"
+      "bom-ref" : "null:http-client-spi:2.20.12"
     },
     {
-      "name" : "sqs",
-      "version" : "2.20.2",
+      "name" : "http-client-spi",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "41855dc5c346fb033cd79a8d0ae03e8a"
+          "content" : "e3176dd72d2c8065121ccc8714974c4e"
         },
         {
           "alg" : "SHA-1",
-          "content" : "f00e47352ce831e6e46596bc708b93bf54e8d8e2"
+          "content" : "7eb5de03797c78211a8290767a31a2b4b7c51387"
         }
       ],
       "properties" : [
@@ -7350,19 +7560,19 @@
         },
         {
           "name" : "archive",
-          "value" : "sqs-2.20.2.jar"
+          "value" : "http-client-spi-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/sqs-2.20.2.jar"
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/http-client-spi-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:f00e47352ce831e6e46596bc708b93bf54e8d8e2"
+          "value" : "https://search.maven.org/search?q=1:7eb5de03797c78211a8290767a31a2b4b7c51387"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sqs:2.20.2"
+      "bom-ref" : "null:http-client-spi:2.20.12"
     },
     {
       "name" : "caffeine-3.1.1",
@@ -7501,76 +7711,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "name" : "aws-xml-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "93e7ce6b80cb0f67ff18a29e8e687167"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "55d31b4aee2fea1ab6ed3cf784768798d4788a6e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-xml-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-xml-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:55d31b4aee2fea1ab6ed3cf784768798d4788a6e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-xml-protocol:2.20.2"
-    },
-    {
-      "name" : "aws-xml-protocol",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "93e7ce6b80cb0f67ff18a29e8e687167"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "55d31b4aee2fea1ab6ed3cf784768798d4788a6e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-xml-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-xml-protocol-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:55d31b4aee2fea1ab6ed3cf784768798d4788a6e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-xml-protocol:2.20.2"
     },
     {
       "name" : "org.apache.lucene",
@@ -7782,11 +7922,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "60033f171b1991759a74db929c09ffa1dc5d279e"
+          "content" : "f9319177986ff52b585574f1daec43df6ceae64a"
         },
         {
           "alg" : "MD5",
-          "content" : "32517c65756c19e86e79c5f1882e4f8a"
+          "content" : "382ea6bd5671abe4293cffb3b5a92eb5"
         }
       ],
       "properties" : [
@@ -7800,7 +7940,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/regions-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/regions/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/regions-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/regions/pom.xml"
         }
       ],
       "type" : "library",
@@ -8169,76 +8309,6 @@
       "type" : "library"
     },
     {
-      "name" : "arns",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ae66848f169163b3bab70f1b3da21d4d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "9ecdb8be3a1e04ebc8f75a682d8713f9ed59eaac"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "arns-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/arns-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:9ecdb8be3a1e04ebc8f75a682d8713f9ed59eaac"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:arns:2.20.2"
-    },
-    {
-      "name" : "arns",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ae66848f169163b3bab70f1b3da21d4d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "9ecdb8be3a1e04ebc8f75a682d8713f9ed59eaac"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "arns-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/arns-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:9ecdb8be3a1e04ebc8f75a682d8713f9ed59eaac"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:arns:2.20.2"
-    },
-    {
       "group" : "org.glassfish.hk2.external",
       "name" : "jakarta.inject",
       "version" : "INF/maven/org.glassfish.hk2.external/jakarta.inject/pom",
@@ -8575,11 +8645,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "51a89cdd257f69ef0a3e9ac9c045e24cb73b4000"
+          "content" : "949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
         },
         {
           "alg" : "MD5",
-          "content" : "f4669fb4372309ddcc47e7e0195441f6"
+          "content" : "84afbc5d592d124f6d01e96353a64986"
         }
       ],
       "properties" : [
@@ -8593,7 +8663,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/dynamodb-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/dynamodb/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/dynamodb-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/dynamodb/pom.xml"
         }
       ],
       "type" : "library",
@@ -8837,6 +8907,76 @@
         }
       ],
       "type" : "library"
+    },
+    {
+      "name" : "sdk-core",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "42191ca67bbdb60b3b2ac5fa0aae9288"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "sdk-core-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/sdk-core-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sdk-core:2.20.12"
+    },
+    {
+      "name" : "sdk-core",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "42191ca67bbdb60b3b2ac5fa0aae9288"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "sdk-core-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/sdk-core-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sdk-core:2.20.12"
     },
     {
       "name" : "jetty-policy",
@@ -9185,11 +9325,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "103247bde580e7090501838f662246c962270716"
+          "content" : "c148951681d957e48601bce6e4e6463b4031a347"
         },
         {
           "alg" : "MD5",
-          "content" : "a72be099fa1bb830676c5620c19f0832"
+          "content" : "0808ecffde507c0d580fd81bc9e9a749"
         }
       ],
       "properties" : [
@@ -9203,81 +9343,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/ses-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/ses/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/ses-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/ses/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:ses:INF/maven/software.amazon.awssdk/ses/pom"
-    },
-    {
-      "name" : "json-utils",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "880edc9c4594f1428e3cd4b36f8da0c2"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "3f85d3e864d2a9006a096794f3229988a555116a"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "json-utils-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/json-utils-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:3f85d3e864d2a9006a096794f3229988a555116a"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:json-utils:2.20.2"
-    },
-    {
-      "name" : "json-utils",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "880edc9c4594f1428e3cd4b36f8da0c2"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "3f85d3e864d2a9006a096794f3229988a555116a"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "json-utils-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/json-utils-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:3f85d3e864d2a9006a096794f3229988a555116a"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:json-utils:2.20.2"
     },
     {
       "group" : "com.google.j2objc",
@@ -9484,6 +9554,76 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jackson-dataformat-smile:smile/pom"
+    },
+    {
+      "name" : "json-utils",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23668ed0769f4891fa78bc1e97d4e6a5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "json-utils-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/json-utils-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:json-utils:2.20.12"
+    },
+    {
+      "name" : "json-utils",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23668ed0769f4891fa78bc1e97d4e6a5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "json-utils-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/json-utils-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:json-utils:2.20.12"
     },
     {
       "group" : "org.joda",
@@ -9841,11 +9981,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "e4497c5d99e346f21b9897c47a64d143067d750c"
+          "content" : "e4944b60c2fdd3b5b753232dd152ddb5787188f9"
         },
         {
           "alg" : "MD5",
-          "content" : "f31de7852945d08542f454d34d69a8ab"
+          "content" : "db7aa855c712e9fa46b221819bc83675"
         }
       ],
       "properties" : [
@@ -9866,48 +10006,17 @@
       "bom-ref" : "null:para-client:client/pom"
     },
     {
-      "name" : "apache-client",
-      "version" : "client/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "bee94dcb45bfbcc3ffc32c7316f13391445ec58c"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "3de18eaafe1d9198a3521cd3d602ff25"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/apache-client"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/apache-client-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/apache-client/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:apache-client:client/pom"
-    },
-    {
       "name" : "netty-nio-client",
       "version" : "client/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "6568414a3bcff7cc072d2a381462aa5db1205522"
+          "content" : "9d4c0b6e6f24b9902318ed417b3b56f7969ca6fa"
         },
         {
           "alg" : "MD5",
-          "content" : "c250dcb1cfd80da5e24ec1c0871b3385"
+          "content" : "7ad1a9b4cce0647ccaa2d7b000248f01"
         }
       ],
       "properties" : [
@@ -9921,7 +10030,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/netty-nio-client-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/netty-nio-client/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/netty-nio-client-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/netty-nio-client/pom.xml"
         }
       ],
       "type" : "library",
@@ -9964,11 +10073,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "6b0914caff46c0a3e22a03d6c6485046f8d28910"
+          "content" : "287889383924906b1d8d71d5ff6a2ee1b53abac7"
         },
         {
           "alg" : "MD5",
-          "content" : "2f77f3cf7d8f5a9f7968a717f9489990"
+          "content" : "23f65b5ec8e904996fc350b49f276bff"
         }
       ],
       "properties" : [
@@ -9982,7 +10091,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/annotations-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/annotations/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/annotations-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/annotations/pom.xml"
         }
       ],
       "type" : "library",
@@ -10528,11 +10637,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "43c54f3608738efffba6e48018d4e18d46e4e01f"
+          "content" : "d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
         },
         {
           "alg" : "MD5",
-          "content" : "ce5df331302fec924cbc94a16d5a7cb8"
+          "content" : "97050adc35e44352682d55663c0f940c"
         }
       ],
       "properties" : [
@@ -10546,11 +10655,81 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/s3-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/s3/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/s3-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/s3/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:s3:INF/maven/software.amazon.awssdk/s3/pom"
+    },
+    {
+      "name" : "s3",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "97050adc35e44352682d55663c0f940c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "s3-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/s3-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:s3:2.20.12"
+    },
+    {
+      "name" : "s3",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "97050adc35e44352682d55663c0f940c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "s3-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/s3-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:s3:2.20.12"
     },
     {
       "name" : "pom",
@@ -10655,76 +10834,6 @@
       ],
       "type" : "library",
       "bom-ref" : "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:rc2"
-    },
-    {
-      "name" : "aws-core",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "71dc4526bc576f1d4eec4f58056f010d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "1bf1e51da6fa085443d2fe93065845ba6df5078c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-core-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-core-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:1bf1e51da6fa085443d2fe93065845ba6df5078c"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-core:2.20.2"
-    },
-    {
-      "name" : "aws-core",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "71dc4526bc576f1d4eec4f58056f010d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "1bf1e51da6fa085443d2fe93065845ba6df5078c"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "aws-core-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-core-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:1bf1e51da6fa085443d2fe93065845ba6df5078c"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:aws-core:2.20.2"
     },
     {
       "name" : "metrics-jmx",
@@ -11126,6 +11235,76 @@
       "bom-ref" : "null:flexmark-util-collection:collection/pom"
     },
     {
+      "name" : "aws-xml-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "91406009587e7cd5fd9d57e0f6e1dc84"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "62b9245f010191f63df129a584eed6603e1f8dc4"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-xml-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-xml-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:62b9245f010191f63df129a584eed6603e1f8dc4"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-xml-protocol:2.20.12"
+    },
+    {
+      "name" : "aws-xml-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "91406009587e7cd5fd9d57e0f6e1dc84"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "62b9245f010191f63df129a584eed6603e1f8dc4"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-xml-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-xml-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:62b9245f010191f63df129a584eed6603e1f8dc4"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-xml-protocol:2.20.12"
+    },
+    {
       "name" : "jetty-http",
       "version" : "9.4.49.v20220914",
       "scope" : "required",
@@ -11261,17 +11440,17 @@
       "bom-ref" : "null:metrics-graphite:graphite/pom"
     },
     {
-      "name" : "sdk-core",
-      "version" : "2.20.2",
+      "name" : "applicationautoscaling",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "529073ded307c47b26fd28978d66738c"
+          "content" : "6c3dea6136412c6fc5b08044819aa747"
         },
         {
           "alg" : "SHA-1",
-          "content" : "b43f15833c069912d2594ff8fbf8a34cc7f6f9f3"
+          "content" : "1b09210e6645082a030f48b163447ed6a37c4b2c"
         }
       ],
       "properties" : [
@@ -11281,32 +11460,32 @@
         },
         {
           "name" : "archive",
-          "value" : "sdk-core-2.20.2.jar"
+          "value" : "applicationautoscaling-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/sdk-core-2.20.2.jar"
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/applicationautoscaling-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:b43f15833c069912d2594ff8fbf8a34cc7f6f9f3"
+          "value" : "https://search.maven.org/search?q=1:1b09210e6645082a030f48b163447ed6a37c4b2c"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sdk-core:2.20.2"
+      "bom-ref" : "null:applicationautoscaling:2.20.12"
     },
     {
-      "name" : "sdk-core",
-      "version" : "2.20.2",
+      "name" : "applicationautoscaling",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "529073ded307c47b26fd28978d66738c"
+          "content" : "6c3dea6136412c6fc5b08044819aa747"
         },
         {
           "alg" : "SHA-1",
-          "content" : "b43f15833c069912d2594ff8fbf8a34cc7f6f9f3"
+          "content" : "1b09210e6645082a030f48b163447ed6a37c4b2c"
         }
       ],
       "properties" : [
@@ -11316,19 +11495,19 @@
         },
         {
           "name" : "archive",
-          "value" : "sdk-core-2.20.2.jar"
+          "value" : "applicationautoscaling-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/sdk-core-2.20.2.jar"
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/applicationautoscaling-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:b43f15833c069912d2594ff8fbf8a34cc7f6f9f3"
+          "value" : "https://search.maven.org/search?q=1:1b09210e6645082a030f48b163447ed6a37c4b2c"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sdk-core:2.20.2"
+      "bom-ref" : "null:applicationautoscaling:2.20.12"
     },
     {
       "name" : "javax.inject-1",
@@ -11467,146 +11646,6 @@
       "type" : "library"
     },
     {
-      "name" : "regions",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "32517c65756c19e86e79c5f1882e4f8a"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "60033f171b1991759a74db929c09ffa1dc5d279e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "regions-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/regions-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:60033f171b1991759a74db929c09ffa1dc5d279e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:regions:2.20.2"
-    },
-    {
-      "name" : "regions",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "32517c65756c19e86e79c5f1882e4f8a"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "60033f171b1991759a74db929c09ffa1dc5d279e"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "regions-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/regions-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:60033f171b1991759a74db929c09ffa1dc5d279e"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:regions:2.20.2"
-    },
-    {
-      "name" : "utils",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "d465ff120cb831cd8279624531d43bb7"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "868b53539b44adcae06aaeebe0b286e759614425"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "utils-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/utils-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:868b53539b44adcae06aaeebe0b286e759614425"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:utils:2.20.2"
-    },
-    {
-      "name" : "utils",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "d465ff120cb831cd8279624531d43bb7"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "868b53539b44adcae06aaeebe0b286e759614425"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "utils-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/utils-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:868b53539b44adcae06aaeebe0b286e759614425"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:utils:2.20.2"
-    },
-    {
       "name" : "flexmark",
       "version" : "INF/maven/com.vladsch.flexmark/flexmark/pom",
       "scope" : "required",
@@ -11644,11 +11683,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "fb0cb841e1488d7d498b6999853a5310b4e9461b"
+          "content" : "4ee7797c96c83e32abb2641f923eb15885b7404d"
         },
         {
           "alg" : "MD5",
-          "content" : "0558ebb9df34af4bd2afa5b626de644d"
+          "content" : "43ae2f3b08786d36862bea9b8df0b799"
         }
       ],
       "properties" : [
@@ -11662,45 +11701,11 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/auth-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/auth/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/auth-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/auth/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:auth:INF/maven/software.amazon.awssdk/auth/pom"
-    },
-    {
-      "name" : "spring-web",
-      "version" : "5.3.23",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "19c1f44c123f1bed8e36816f64c873ae"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0193f5276092d9cbe3222c63885b47ca7b2cce97"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "spring-web-5.3.23.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-web-5.3.23.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0193f5276092d9cbe3222c63885b47ca7b2cce97"
-        }
-      ],
-      "type" : "library"
     },
     {
       "name" : "Apache Commons IO",
@@ -11732,6 +11737,40 @@
         {
           "name" : "maven",
           "value" : "https://search.maven.org/search?q=1:a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "spring-web",
+      "version" : "5.3.23",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "19c1f44c123f1bed8e36816f64c873ae"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0193f5276092d9cbe3222c63885b47ca7b2cce97"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-web-5.3.23.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-web-5.3.23.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:0193f5276092d9cbe3222c63885b47ca7b2cce97"
         }
       ],
       "type" : "library"
@@ -12009,40 +12048,6 @@
       "type" : "library"
     },
     {
-      "name" : "third-party-jackson-core-2.20.2",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "bacaff222a580b65578205ae0d1cb561"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8b34038d112b2327ce2fd673e948b27ba9779413"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "third-party-jackson-core-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/third-party-jackson-core-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:8b34038d112b2327ce2fd673e948b27ba9779413"
-        }
-      ],
-      "type" : "library"
-    },
-    {
       "group" : "org.nibor.autolink",
       "name" : "autolink",
       "version" : "0.6.0",
@@ -12177,76 +12182,6 @@
       "bom-ref" : "null:flexmark-util:0.64.0"
     },
     {
-      "name" : "annotations",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "2f77f3cf7d8f5a9f7968a717f9489990"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "6b0914caff46c0a3e22a03d6c6485046f8d28910"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "annotations-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/annotations-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:6b0914caff46c0a3e22a03d6c6485046f8d28910"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:annotations:2.20.2"
-    },
-    {
-      "name" : "annotations",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "2f77f3cf7d8f5a9f7968a717f9489990"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "6b0914caff46c0a3e22a03d6c6485046f8d28910"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "annotations-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/annotations-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:6b0914caff46c0a3e22a03d6c6485046f8d28910"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:annotations:2.20.2"
-    },
-    {
       "name" : "flexmark-util-dependency",
       "version" : "dependency/pom",
       "scope" : "required",
@@ -12379,76 +12314,6 @@
       "bom-ref" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jsr310/pom"
     },
     {
-      "name" : "s3",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ce5df331302fec924cbc94a16d5a7cb8"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "43c54f3608738efffba6e48018d4e18d46e4e01f"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "s3-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/s3-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:43c54f3608738efffba6e48018d4e18d46e4e01f"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:s3:2.20.2"
-    },
-    {
-      "name" : "s3",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "ce5df331302fec924cbc94a16d5a7cb8"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "43c54f3608738efffba6e48018d4e18d46e4e01f"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "s3-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/s3-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:43c54f3608738efffba6e48018d4e18d46e4e01f"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:s3:2.20.2"
-    },
-    {
       "name" : "pom",
       "version" : "INF/maven/org.javassist/javassist/pom",
       "scope" : "required",
@@ -12485,11 +12350,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "444f06c9d705189b08e651a7aa05e29149d60cca"
+          "content" : "1b09210e6645082a030f48b163447ed6a37c4b2c"
         },
         {
           "alg" : "MD5",
-          "content" : "964febaff04e37c89ed03a2d8af1705e"
+          "content" : "6c3dea6136412c6fc5b08044819aa747"
         }
       ],
       "properties" : [
@@ -12503,7 +12368,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/applicationautoscaling-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/applicationautoscaling/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/applicationautoscaling-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/applicationautoscaling/pom.xml"
         }
       ],
       "type" : "library",
@@ -12654,41 +12519,6 @@
       "bom-ref" : "org.glassfish.jersey.core:jersey-server:2.37"
     },
     {
-      "name" : "auth",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "0558ebb9df34af4bd2afa5b626de644d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "fb0cb841e1488d7d498b6999853a5310b4e9461b"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "auth-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/auth-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:fb0cb841e1488d7d498b6999853a5310b4e9461b"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:auth:2.20.2"
-    },
-    {
       "group" : "com.fasterxml",
       "name" : "ClassMate",
       "version" : "1.5.1",
@@ -12723,41 +12553,6 @@
         }
       ],
       "type" : "library"
-    },
-    {
-      "name" : "auth",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "0558ebb9df34af4bd2afa5b626de644d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "fb0cb841e1488d7d498b6999853a5310b4e9461b"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "auth-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/auth-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:fb0cb841e1488d7d498b6999853a5310b4e9461b"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:auth:2.20.2"
     },
     {
       "group" : "com.fasterxml",
@@ -13540,11 +13335,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "8fd0f108b9efde26ad64e72d15cef37fa53603df"
+          "content" : "73bac950d47a00ad296814442e520d39c9f46a3f"
         },
         {
           "alg" : "MD5",
-          "content" : "0ecb8d47413bbb5d643cac8fbc995c1c"
+          "content" : "3bcaf37c84b4d522c4c2a06c58b6c7bf"
         }
       ],
       "properties" : [
@@ -13558,7 +13353,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/profiles-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/profiles/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/profiles-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/profiles/pom.xml"
         }
       ],
       "type" : "library",
@@ -13791,40 +13586,6 @@
       "bom-ref" : "null:gson:INF/maven/com.google.code.gson/gson/pom"
     },
     {
-      "name" : "Spring Boot",
-      "version" : "2.7.5",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "a7fed1122641f069bc7de65729fa2971"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "fd04e228e6e21b7ad13c10ae29afd31868d842e5"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "spring-boot-2.7.5.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-boot-2.7.5.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:fd04e228e6e21b7ad13c10ae29afd31868d842e5"
-        }
-      ],
-      "type" : "library"
-    },
-    {
       "name" : "flexmark-ext-emoji",
       "version" : "0.64.0",
       "scope" : "required",
@@ -13858,6 +13619,40 @@
       ],
       "type" : "library",
       "bom-ref" : "null:flexmark-ext-emoji:0.64.0"
+    },
+    {
+      "name" : "Spring Boot",
+      "version" : "2.7.5",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a7fed1122641f069bc7de65729fa2971"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fd04e228e6e21b7ad13c10ae29afd31868d842e5"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "spring-boot-2.7.5.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/spring-boot-2.7.5.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:fd04e228e6e21b7ad13c10ae29afd31868d842e5"
+        }
+      ],
+      "type" : "library"
     },
     {
       "name" : "flexmark-ext-emoji",
@@ -14488,17 +14283,17 @@
       "bom-ref" : "null:jetty-overlay-deployer:deployer/pom"
     },
     {
-      "name" : "metrics-spi",
-      "version" : "2.20.2",
+      "name" : "third-party-jackson-core-2.20.12",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c1911d624eaffca0cd44cecdf06e8343"
+          "content" : "b38bc7303980117c46abd5c09b09b0d1"
         },
         {
           "alg" : "SHA-1",
-          "content" : "839026b4b577080e4c3032b24ff605373f662f50"
+          "content" : "d1080fd1b4f34512cd8d655fed4ca2273849bb31"
         }
       ],
       "properties" : [
@@ -14508,54 +14303,18 @@
         },
         {
           "name" : "archive",
-          "value" : "metrics-spi-2.20.2.jar"
+          "value" : "third-party-jackson-core-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/metrics-spi-2.20.2.jar"
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/third-party-jackson-core-2.20.12.jar"
         },
         {
           "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:839026b4b577080e4c3032b24ff605373f662f50"
+          "value" : "https://search.maven.org/search?q=1:d1080fd1b4f34512cd8d655fed4ca2273849bb31"
         }
       ],
-      "type" : "library",
-      "bom-ref" : "null:metrics-spi:2.20.2"
-    },
-    {
-      "name" : "metrics-spi",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "c1911d624eaffca0cd44cecdf06e8343"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "839026b4b577080e4c3032b24ff605373f662f50"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "metrics-spi-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/metrics-spi-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:839026b4b577080e4c3032b24ff605373f662f50"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:metrics-spi:2.20.2"
+      "type" : "library"
     },
     {
       "name" : "listenablefuture",
@@ -14789,41 +14548,6 @@
       "bom-ref" : "null:jetty-util:util/pom"
     },
     {
-      "name" : "flexmark-util-misc",
-      "version" : "0.64.0",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "7a9298d0cb2eedcc6e66ab7b01d1b5d4"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "d2129f4f2b55fbf645e3499c7b0cdddcfef81112"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "flexmark-util-misc-0.64.0.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/flexmark-util-misc-0.64.0.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:d2129f4f2b55fbf645e3499c7b0cdddcfef81112"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:flexmark-util-misc:0.64.0"
-    },
-    {
       "group" : "org.nibor.autolink",
       "name" : "autolink",
       "version" : "0.6.0",
@@ -14859,6 +14583,41 @@
       ],
       "type" : "library",
       "bom-ref" : "org.nibor.autolink:autolink:0.6.0"
+    },
+    {
+      "name" : "flexmark-util-misc",
+      "version" : "0.64.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7a9298d0cb2eedcc6e66ab7b01d1b5d4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d2129f4f2b55fbf645e3499c7b0cdddcfef81112"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "flexmark-util-misc-0.64.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/flexmark-util-misc-0.64.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:d2129f4f2b55fbf645e3499c7b0cdddcfef81112"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:flexmark-util-misc:0.64.0"
     },
     {
       "name" : "flexmark-util-misc",
@@ -15511,6 +15270,76 @@
       "bom-ref" : "null:jetty-xml:xml/pom"
     },
     {
+      "name" : "dynamodb",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "84afbc5d592d124f6d01e96353a64986"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "dynamodb-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/dynamodb-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:dynamodb:2.20.12"
+    },
+    {
+      "name" : "dynamodb",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "84afbc5d592d124f6d01e96353a64986"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "dynamodb-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/dynamodb-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:dynamodb:2.20.12"
+    },
+    {
       "name" : "jetty-start",
       "version" : "start/pom",
       "scope" : "required",
@@ -15548,11 +15377,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "868b53539b44adcae06aaeebe0b286e759614425"
+          "content" : "dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
         },
         {
           "alg" : "MD5",
-          "content" : "d465ff120cb831cd8279624531d43bb7"
+          "content" : "61635581f21dc3f0390bbfce3c3b62ce"
         }
       ],
       "properties" : [
@@ -15566,7 +15395,7 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/utils-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/utils/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/utils-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/utils/pom.xml"
         }
       ],
       "type" : "library",
@@ -16804,76 +16633,6 @@
       "bom-ref" : "null:httpclient:INF/maven/org.apache.httpcomponents/httpclient/pom"
     },
     {
-      "name" : "applicationautoscaling",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "964febaff04e37c89ed03a2d8af1705e"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "444f06c9d705189b08e651a7aa05e29149d60cca"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "applicationautoscaling-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/applicationautoscaling-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:444f06c9d705189b08e651a7aa05e29149d60cca"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:applicationautoscaling:2.20.2"
-    },
-    {
-      "name" : "applicationautoscaling",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "964febaff04e37c89ed03a2d8af1705e"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "444f06c9d705189b08e651a7aa05e29149d60cca"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "applicationautoscaling-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/applicationautoscaling-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:444f06c9d705189b08e651a7aa05e29149d60cca"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:applicationautoscaling:2.20.2"
-    },
-    {
       "name" : "Starter for logging using Logback. Default logging starter",
       "version" : "2.7.5",
       "scope" : "required",
@@ -16937,6 +16696,76 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jackson-dataformat-yaml:yaml/pom"
+    },
+    {
+      "name" : "aws-query-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c8db0001f3ab1d527d7f6c55e7bdd668"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-query-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/aws-query-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-query-protocol:2.20.12"
+    },
+    {
+      "name" : "aws-query-protocol",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c8db0001f3ab1d527d7f6c55e7bdd668"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "aws-query-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/aws-query-protocol-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-query-protocol:2.20.12"
     },
     {
       "group" : "org.jctools",
@@ -17013,6 +16842,76 @@
       "bom-ref" : "org.jctools:jctools-core:3.1.0"
     },
     {
+      "name" : "protocol-core",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4d6f4c5fb0f2021ff4dd3f1fe8a32791"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4b4149a2d16909817346af9e1196cfd6e69a525a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "protocol-core-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/protocol-core-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:4b4149a2d16909817346af9e1196cfd6e69a525a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:protocol-core:2.20.12"
+    },
+    {
+      "name" : "protocol-core",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4d6f4c5fb0f2021ff4dd3f1fe8a32791"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4b4149a2d16909817346af9e1196cfd6e69a525a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "protocol-core-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/protocol-core-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:4b4149a2d16909817346af9e1196cfd6e69a525a"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:protocol-core:2.20.12"
+    },
+    {
       "name" : "flexmark-ext-autolink",
       "version" : "autolink/pom",
       "scope" : "required",
@@ -17074,87 +16973,17 @@
       "type" : "library"
     },
     {
-      "name" : "endpoints-spi",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "20b6c38812a55be8b536bf1d0924c45c"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0f730f7cafc1ad7b2525515ce7910f0a3d601060"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "endpoints-spi-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/endpoints-spi-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0f730f7cafc1ad7b2525515ce7910f0a3d601060"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:endpoints-spi:2.20.2"
-    },
-    {
-      "name" : "endpoints-spi",
-      "version" : "2.20.2",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "20b6c38812a55be8b536bf1d0924c45c"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "0f730f7cafc1ad7b2525515ce7910f0a3d601060"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "BOOT-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "endpoints-spi-2.20.2.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/endpoints-spi-2.20.2.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:0f730f7cafc1ad7b2525515ce7910f0a3d601060"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:endpoints-spi:2.20.2"
-    },
-    {
       "name" : "para-jar",
       "version" : "jar/pom",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "2a5cf599fb5029f4f62aadf3a4c7d9be42c0df54"
+          "content" : "779b3d53f1888d9064cd828e96ce2ea4810667cc"
         },
         {
           "alg" : "MD5",
-          "content" : "87e5278f4b0105b616ae8ddb2c021491"
+          "content" : "09feea213d9f01de932dc3558f7bddb7"
         }
       ],
       "properties" : [
@@ -17181,11 +17010,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "1a938e2b6c85ff9a3208ecbb978eab27e83819ba"
+          "content" : "17c2e1fbade5b44bf990efd2f2811021b87dc651"
         },
         {
           "alg" : "MD5",
-          "content" : "9b0e253529924b47b4d6bd85989219a2"
+          "content" : "bbc2be49661c8d2c4cf595d3a2fa57d0"
         }
       ],
       "properties" : [
@@ -17206,35 +17035,74 @@
       "bom-ref" : "null:para-jar:jar/pom"
     },
     {
-      "name" : "sdk-core",
-      "version" : "core/pom",
+      "name" : "auth",
+      "version" : "2.20.12",
       "scope" : "required",
       "hashes" : [
         {
-          "alg" : "SHA-1",
-          "content" : "b43f15833c069912d2594ff8fbf8a34cc7f6f9f3"
+          "alg" : "MD5",
+          "content" : "43ae2f3b08786d36862bea9b8df0b799"
         },
         {
-          "alg" : "MD5",
-          "content" : "529073ded307c47b26fd28978d66738c"
+          "alg" : "SHA-1",
+          "content" : "4ee7797c96c83e32abb2641f923eb15885b7404d"
         }
       ],
       "properties" : [
         {
           "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/sdk-core"
+          "value" : "WEB-INF/lib"
         },
         {
           "name" : "archive",
-          "value" : "pom.xml"
+          "value" : "auth-2.20.12.jar"
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/sdk-core-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/sdk-core/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/auth-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:4ee7797c96c83e32abb2641f923eb15885b7404d"
         }
       ],
       "type" : "library",
-      "bom-ref" : "null:sdk-core:core/pom"
+      "bom-ref" : "null:auth:2.20.12"
+    },
+    {
+      "name" : "auth",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "43ae2f3b08786d36862bea9b8df0b799"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4ee7797c96c83e32abb2641f923eb15885b7404d"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "auth-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/auth-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:4ee7797c96c83e32abb2641f923eb15885b7404d"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:auth:2.20.12"
     },
     {
       "name" : "protocol-core",
@@ -17243,11 +17111,11 @@
       "hashes" : [
         {
           "alg" : "SHA-1",
-          "content" : "431100ab8a5f458d00b6f94441c5d01340c47dca"
+          "content" : "4b4149a2d16909817346af9e1196cfd6e69a525a"
         },
         {
           "alg" : "MD5",
-          "content" : "46e5020c85f1673ca3e5c4e73a0dd083"
+          "content" : "4d6f4c5fb0f2021ff4dd3f1fe8a32791"
         }
       ],
       "properties" : [
@@ -17261,11 +17129,42 @@
         },
         {
           "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/protocol-core-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/protocol-core/pom.xml"
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/protocol-core-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/protocol-core/pom.xml"
         }
       ],
       "type" : "library",
       "bom-ref" : "null:protocol-core:core/pom"
+    },
+    {
+      "name" : "aws-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "2c80555d9e9c9de3a6e939b60575df58323fd0b7"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "adda6f7a43d5a2279bfffd9c4d66a99a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/aws-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/aws-core-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/aws-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:aws-core:core/pom"
     },
     {
       "name" : "java-saml-core",
@@ -17328,6 +17227,37 @@
       ],
       "type" : "library",
       "bom-ref" : "null:jersey-container-servlet-core:core/pom"
+    },
+    {
+      "name" : "sdk-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "42191ca67bbdb60b3b2ac5fa0aae9288"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/sdk-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/sdk-core-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/sdk-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:sdk-core:core/pom"
     },
     {
       "name" : "pom",
@@ -17486,6 +17416,41 @@
       "type" : "library"
     },
     {
+      "name" : "flexmark-util-options",
+      "version" : "0.64.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e582bfc9cc4b3698f8ff167c748ef3af"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "74f82ed65f116e4329777f4c8d5c638db03b1151"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "flexmark-util-options-0.64.0.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/flexmark-util-options-0.64.0.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:74f82ed65f116e4329777f4c8d5c638db03b1151"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:flexmark-util-options:0.64.0"
+    },
+    {
       "group" : "com.sun.activation",
       "name" : "jakarta.activation",
       "version" : "1.2.1",
@@ -17521,41 +17486,6 @@
       ],
       "type" : "library",
       "bom-ref" : "com.sun.activation:jakarta.activation:1.2.1"
-    },
-    {
-      "name" : "flexmark-util-options",
-      "version" : "0.64.0",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "e582bfc9cc4b3698f8ff167c748ef3af"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "74f82ed65f116e4329777f4c8d5c638db03b1151"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "WEB-INF/lib"
-        },
-        {
-          "name" : "archive",
-          "value" : "flexmark-util-options-0.64.0.jar"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/flexmark-util-options-0.64.0.jar"
-        },
-        {
-          "name" : "maven",
-          "value" : "https://search.maven.org/search?q=1:74f82ed65f116e4329777f4c8d5c638db03b1151"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:flexmark-util-options:0.64.0"
     },
     {
       "name" : "flexmark-util-options",
@@ -17872,37 +17802,6 @@
       "bom-ref" : "io.netty:netty-transport-classes-epoll:4.1.86.Final"
     },
     {
-      "name" : "json-utils",
-      "version" : "utils/pom",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "SHA-1",
-          "content" : "3f85d3e864d2a9006a096794f3229988a555116a"
-        },
-        {
-          "alg" : "MD5",
-          "content" : "880edc9c4594f1428e3cd4b36f8da0c2"
-        }
-      ],
-      "properties" : [
-        {
-          "name" : "path",
-          "value" : "META-INF/maven/software.amazon.awssdk/json-utils"
-        },
-        {
-          "name" : "archive",
-          "value" : "pom.xml"
-        },
-        {
-          "name" : "codesource",
-          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/json-utils-2.20.2.jar!/META-INF/maven/software.amazon.awssdk/json-utils/pom.xml"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "null:json-utils:utils/pom"
-    },
-    {
       "group" : "org.glassfish.hk2",
       "name" : "hk2-utils",
       "version" : "utils/pom",
@@ -17934,6 +17833,107 @@
       ],
       "type" : "library",
       "bom-ref" : "org.glassfish.hk2:hk2-utils:utils/pom"
+    },
+    {
+      "name" : "json-utils",
+      "version" : "utils/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "23668ed0769f4891fa78bc1e97d4e6a5"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/software.amazon.awssdk/json-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2/WEB-INF/lib/json-utils-2.20.12.jar!/META-INF/maven/software.amazon.awssdk/json-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:json-utils:utils/pom"
+    },
+    {
+      "name" : "profiles",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3bcaf37c84b4d522c4c2a06c58b6c7bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "73bac950d47a00ad296814442e520d39c9f46a3f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "WEB-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "profiles-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-war/target/para-war-1.47.2.war!/WEB-INF/lib/profiles-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:73bac950d47a00ad296814442e520d39c9f46a3f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:profiles:2.20.12"
+    },
+    {
+      "name" : "profiles",
+      "version" : "2.20.12",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3bcaf37c84b4d522c4c2a06c58b6c7bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "73bac950d47a00ad296814442e520d39c9f46a3f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "BOOT-INF/lib"
+        },
+        {
+          "name" : "archive",
+          "value" : "profiles-2.20.12.jar"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/para/./para-jar/target/para-1.47.2.jar!/BOOT-INF/lib/profiles-2.20.12.jar"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:73bac950d47a00ad296814442e520d39c9f46a3f"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:profiles:2.20.12"
     },
     {
       "group" : "com.fasterxml.jackson.core",
@@ -18327,28 +18327,37 @@
       ]
     },
     {
-      "ref" : "null:regions:2.20.2",
+      "ref" : "null:aws-xml-protocol:2.20.12",
       "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
         "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
-        "org.slf4j:slf4j-api:null",
-        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
         "org.junit.jupiter:junit-jupiter:null",
         "org.junit.vintage:junit-vintage-engine:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
         "org.assertj:assertj-core:null",
-        "org.mockito:mockito-core:null",
-        "nl.jqno.equalsverifier:equalsverifier:null"
+        "org.mockito:mockito-core:null"
       ]
     },
     {
-      "ref" : "null:applicationautoscaling:2.20.2",
+      "ref" : "null:apache-client:2.20.12",
       "dependsOn" : [
-        "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}"
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "org.apache.httpcomponents:httpclient:null",
+        "org.apache.httpcomponents:httpcore:null",
+        "commons-codec:commons-codec:${commons-codec.verion}",
+        "software.amazon.awssdk:http-client-tests:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.assertj:assertj-core:null",
+        "org.hamcrest:hamcrest-all:null",
+        "com.github.tomakehurst:wiremock-jre8:null"
       ]
     },
     {
@@ -18401,15 +18410,6 @@
       ]
     },
     {
-      "ref" : "null:endpoints-spi:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "nl.jqno.equalsverifier:equalsverifier:null",
-        "org.assertj:assertj-core:null"
-      ]
-    },
-    {
       "ref" : "null:gson:INF/maven/com.google.code.gson/gson/pom",
       "dependsOn" : [
         "junit:junit:null"
@@ -18439,10 +18439,6 @@
         "org.assertj:assertj-core:${assertj-core.version}",
         "org.mockito:mockito-core:${mockito-core.version}"
       ]
-    },
-    {
-      "ref" : "null:annotations:2.20.2",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "null:jetty-server:9.4.49.v20220914",
@@ -18500,6 +18496,20 @@
         "com.vladsch.flexmark:flexmark:null",
         "com.vladsch.flexmark:flexmark-test-util:null",
         "com.vladsch.flexmark:flexmark-core-test:null"
+      ]
+    },
+    {
+      "ref" : "null:aws-query-protocol:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.assertj:assertj-core:null"
       ]
     },
     {
@@ -18627,6 +18637,13 @@
       ]
     },
     {
+      "ref" : "null:applicationautoscaling:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}"
+      ]
+    },
+    {
       "ref" : "null:flexmark-util-ast:ast/pom",
       "dependsOn" : [
         "com.vladsch.flexmark:flexmark-util-collection:${project.version}",
@@ -18669,36 +18686,6 @@
         "com.vladsch.flexmark:flexmark:null",
         "com.vladsch.flexmark:flexmark-test-util:null",
         "com.vladsch.flexmark:flexmark-core-test:null"
-      ]
-    },
-    {
-      "ref" : "null:metrics-spi:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "org.assertj:assertj-core:null",
-        "org.mockito:mockito-core:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null"
-      ]
-    },
-    {
-      "ref" : "null:http-client-spi:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
-        "org.reactivestreams:reactive-streams:${reactive-streams.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null",
-        "org.reactivestreams:reactive-streams-tck:null",
-        "nl.jqno.equalsverifier:equalsverifier:null"
       ]
     },
     {
@@ -18750,6 +18737,18 @@
       ]
     },
     {
+      "ref" : "null:json-utils:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:third-party-jackson-core:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.assertj:assertj-core:null",
+        "org.mockito:mockito-core:null"
+      ]
+    },
+    {
       "ref" : "org.apache:httpcore5-h2:5.1.3",
       "dependsOn" : [
         "org.apache.httpcomponents.core5:httpcore5:${project.version}",
@@ -18759,39 +18758,6 @@
         "org.slf4j:slf4j-api:null",
         "org.apache.logging.log4j:log4j-slf4j-impl:null",
         "org.apache.logging.log4j:log4j-core:null"
-      ]
-    },
-    {
-      "ref" : "null:netty-nio-client:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
-        "io.netty:netty-codec-http:null",
-        "io.netty:netty-codec-http2:null",
-        "io.netty:netty-codec:null",
-        "io.netty:netty-transport:null",
-        "io.netty:netty-common:null",
-        "io.netty:netty-buffer:null",
-        "io.netty:netty-handler:null",
-        "io.netty:netty-transport-classes-epoll:null",
-        "org.reactivestreams:reactive-streams:null",
-        "org.slf4j:slf4j-api:null",
-        "software.amazon.awssdk:http-client-tests:${awsjavasdk.version}",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "org.apache.commons:commons-lang3:null",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.testng:testng:null",
-        "org.mockito:mockito-core:null",
-        "org.assertj:assertj-core:null",
-        "org.reactivestreams:reactive-streams-tck:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null",
-        "io.netty:netty-tcnative-boringssl-static:null",
-        "io.reactivex.rxjava2:rxjava:null"
       ]
     },
     {
@@ -18889,6 +18855,7 @@
         "software.amazon.awssdk:annotations:${awsjavasdk.version}",
         "org.apache.httpcomponents:httpclient:null",
         "org.apache.httpcomponents:httpcore:null",
+        "commons-codec:commons-codec:${commons-codec.verion}",
         "software.amazon.awssdk:http-client-tests:${awsjavasdk.version}",
         "org.junit.jupiter:junit-jupiter:null",
         "org.junit.vintage:junit-vintage-engine:null",
@@ -19031,42 +18998,6 @@
       ]
     },
     {
-      "ref" : "null:sdk-core:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:endpoints-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "org.slf4j:slf4j-api:null",
-        "org.reactivestreams:reactive-streams:null",
-        "software.amazon.awssdk:apache-client:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "com.google.guava:guava:null",
-        "org.apache.commons:commons-lang3:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null",
-        "org.hamcrest:hamcrest-all:null",
-        "commons-io:commons-io:null",
-        "org.mockito:mockito-core:null",
-        "nl.jqno.equalsverifier:equalsverifier:null",
-        "org.unitils:unitils-core:null",
-        "org.assertj:assertj-core:null",
-        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
-        "org.reactivestreams:reactive-streams-tck:null",
-        "com.google.jimfs:jimfs:null",
-        "org.apache.httpcomponents:httpclient:null",
-        "org.apache.httpcomponents:httpcore:null",
-        "org.hamcrest:hamcrest-core:null",
-        "software.amazon.awssdk:netty-nio-client:${awsjavasdk.version}",
-        "io.reactivex.rxjava2:rxjava:null"
-      ]
-    },
-    {
       "ref" : "null:json-utils:utils/pom",
       "dependsOn" : [
         "software.amazon.awssdk:utils:${awsjavasdk.version}",
@@ -19128,20 +19059,8 @@
       ]
     },
     {
-      "ref" : "null:aws-xml-protocol:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null",
-        "org.mockito:mockito-core:null"
-      ]
+      "ref" : "null:annotations:2.20.12",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "null:logback-classic:1.2.11",
@@ -19236,48 +19155,6 @@
       ]
     },
     {
-      "ref" : "null:protocol-core:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null"
-      ]
-    },
-    {
-      "ref" : "null:auth:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:regions:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
-        "software.amazon.eventstream:eventstream:null",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null",
-        "software.amazon.awssdk:test-utils:null",
-        "commons-io:commons-io:null",
-        "commons-lang:commons-lang:null",
-        "org.assertj:assertj-core:null",
-        "org.hamcrest:hamcrest-all:null",
-        "org.mockito:mockito-core:null",
-        "nl.jqno.equalsverifier:equalsverifier:null",
-        "org.unitils:unitils-core:null",
-        "io.reactivex.rxjava2:rxjava:null",
-        "org.apache.commons:commons-lang3:null",
-        "com.google.jimfs:jimfs:${jimfs.version}"
-      ]
-    },
-    {
       "ref" : "null:netty-transport:transport/pom",
       "dependsOn" : [
         "${project.groupId}:netty-common:${project.version}",
@@ -19315,27 +19192,6 @@
     {
       "ref" : "null:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
       "dependsOn" : [ ]
-    },
-    {
-      "ref" : "null:s3:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:aws-xml-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:arns:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "software.amazon.awssdk.crt:aws-crt:${awscrt.version}",
-        "commons-io:commons-io:null",
-        "software.amazon.awssdk:sns:${awsjavasdk.version}",
-        "software.amazon.awssdk:iam:${awsjavasdk.version}",
-        "software.amazon.awssdk:sts:${awsjavasdk.version}",
-        "software.amazon.awssdk:kms:${awsjavasdk.version}",
-        "org.apache.commons:commons-lang3:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "org.reactivestreams:reactive-streams-tck:null",
-        "software.amazon.awssdk:auth-crt:${awsjavasdk.version}",
-        "io.netty:netty-transport:null",
-        "software.amazon.eventstream:eventstream:null"
-      ]
     },
     {
       "ref" : "null:ses:INF/maven/software.amazon.awssdk/ses/pom",
@@ -19396,6 +19252,35 @@
       ]
     },
     {
+      "ref" : "null:arns:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.assertj:assertj-core:null",
+        "software.amazon.awssdk:test-utils:null"
+      ]
+    },
+    {
+      "ref" : "null:aws-json-protocol:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:third-party-jackson-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.hamcrest:hamcrest-all:null",
+        "org.assertj:assertj-core:null",
+        "org.mockito:mockito-core:null"
+      ]
+    },
+    {
       "ref" : "null:error_prone_annotations:2.14.0",
       "dependsOn" : [
         "junit:junit:${junit.version}"
@@ -19427,6 +19312,15 @@
         "org.slf4j:slf4j-api:null",
         "org.apache.logging.log4j:log4j-slf4j-impl:null",
         "org.apache.logging.log4j:log4j-core:null"
+      ]
+    },
+    {
+      "ref" : "null:dynamodb:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "software.amazon.awssdk:sts:${awsjavasdk.version}"
       ]
     },
     {
@@ -19468,20 +19362,6 @@
         "org.eclipse.jetty:jetty-util:${project.version}",
         "javax.servlet:javax.servlet-api:null",
         "org.eclipse.jetty.toolchain:jetty-test-helper:null"
-      ]
-    },
-    {
-      "ref" : "null:aws-query-protocol:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null"
       ]
     },
     {
@@ -19528,37 +19408,6 @@
       ]
     },
     {
-      "ref" : "null:aws-core:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:regions:${awsjavasdk.version}",
-        "software.amazon.awssdk:auth:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:endpoints-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.eventstream:eventstream:null",
-        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null",
-        "com.github.tomakehurst:wiremock-jre8:null",
-        "org.hamcrest:hamcrest-all:null",
-        "commons-io:commons-io:null",
-        "org.mockito:mockito-core:null",
-        "nl.jqno.equalsverifier:equalsverifier:null",
-        "org.unitils:unitils-core:null",
-        "software.amazon.awssdk:apache-client:${awsjavasdk.version}",
-        "org.assertj:assertj-core:null",
-        "com.google.guava:guava:null",
-        "io.reactivex.rxjava2:rxjava:null"
-      ]
-    },
-    {
       "ref" : "null:jetty-plus:plus/pom",
       "dependsOn" : [
         "org.apache.derby:derby:10.1.2.1",
@@ -19598,15 +19447,6 @@
         "org.slf4j:slf4j-api:null",
         "org.slf4j:slf4j-jdk14:${slf4j.version}",
         "org.awaitility:awaitility:null"
-      ]
-    },
-    {
-      "ref" : "null:dynamodb:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
-        "software.amazon.awssdk:sts:${awsjavasdk.version}"
       ]
     },
     {
@@ -19727,6 +19567,24 @@
       ]
     },
     {
+      "ref" : "null:regions:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
+        "org.slf4j:slf4j-api:null",
+        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.assertj:assertj-core:null",
+        "org.mockito:mockito-core:null",
+        "nl.jqno.equalsverifier:equalsverifier:null"
+      ]
+    },
+    {
       "ref" : "io.netty:netty-codec-http2:4.1.86.Final",
       "dependsOn" : [
         "${project.groupId}:netty-common:${project.version}",
@@ -19799,14 +19657,6 @@
         "io.netty:netty-buffer:${project.version}",
         "io.netty:netty-transport:${project.version}",
         "io.netty:netty-transport-native-unix-common:${project.version}"
-      ]
-    },
-    {
-      "ref" : "null:ses:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "commons-io:commons-io:null"
       ]
     },
     {
@@ -20125,6 +19975,27 @@
       ]
     },
     {
+      "ref" : "null:s3:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:aws-xml-protocol:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:arns:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "software.amazon.awssdk.crt:aws-crt:${awscrt.version}",
+        "commons-io:commons-io:null",
+        "software.amazon.awssdk:sns:${awsjavasdk.version}",
+        "software.amazon.awssdk:iam:${awsjavasdk.version}",
+        "software.amazon.awssdk:sts:${awsjavasdk.version}",
+        "software.amazon.awssdk:kms:${awsjavasdk.version}",
+        "org.apache.commons:commons-lang3:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.reactivestreams:reactive-streams-tck:null",
+        "software.amazon.awssdk:auth-crt:${awsjavasdk.version}",
+        "io.netty:netty-transport:null",
+        "software.amazon.eventstream:eventstream:null"
+      ]
+    },
+    {
       "ref" : "null:flexmark-ext-emoji:0.64.0",
       "dependsOn" : [
         "com.vladsch.flexmark:flexmark-util:null",
@@ -20179,20 +20050,15 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "null:apache-client:2.20.2",
+      "ref" : "null:protocol-core:2.20.12",
       "dependsOn" : [
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
         "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "org.apache.httpcomponents:httpclient:null",
-        "org.apache.httpcomponents:httpcore:null",
-        "software.amazon.awssdk:http-client-tests:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
         "org.junit.jupiter:junit-jupiter:null",
         "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null",
-        "org.hamcrest:hamcrest-all:null",
-        "com.github.tomakehurst:wiremock-jre8:null"
+        "org.assertj:assertj-core:null"
       ]
     },
     {
@@ -20207,27 +20073,6 @@
         "org.eclipse.jetty:jetty-jmx:${project.version}",
         "org.eclipse.jetty:jetty-servlet:${project.version}",
         "org.eclipse.jetty.toolchain:jetty-test-helper:null"
-      ]
-    },
-    {
-      "ref" : "null:utils:2.20.2",
-      "dependsOn" : [
-        "org.reactivestreams:reactive-streams:null",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "org.slf4j:slf4j-api:null",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.hamcrest:hamcrest-all:null",
-        "org.hamcrest:hamcrest-core:null",
-        "org.mockito:mockito-core:null",
-        "org.mockito:mockito-junit-jupiter:null",
-        "org.assertj:assertj-core:null",
-        "commons-io:commons-io:null",
-        "org.reactivestreams:reactive-streams-tck:null",
-        "org.apache.logging.log4j:log4j-api:null",
-        "org.apache.logging.log4j:log4j-core:null",
-        "org.apache.logging.log4j:log4j-slf4j-impl:null",
-        "org.slf4j:jcl-over-slf4j:${slf4j.version}"
       ]
     },
     {
@@ -20346,6 +20191,27 @@
       ]
     },
     {
+      "ref" : "null:utils:2.20.12",
+      "dependsOn" : [
+        "org.reactivestreams:reactive-streams:null",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "org.slf4j:slf4j-api:null",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.hamcrest:hamcrest-all:null",
+        "org.hamcrest:hamcrest-core:null",
+        "org.mockito:mockito-core:null",
+        "org.mockito:mockito-junit-jupiter:null",
+        "org.assertj:assertj-core:null",
+        "commons-io:commons-io:null",
+        "org.reactivestreams:reactive-streams-tck:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null",
+        "org.slf4j:jcl-over-slf4j:${slf4j.version}"
+      ]
+    },
+    {
       "ref" : "null:flexmark-util-html:html/pom",
       "dependsOn" : [
         "com.vladsch.flexmark:flexmark-util-misc:null",
@@ -20355,21 +20221,14 @@
       ]
     },
     {
-      "ref" : "null:aws-json-protocol:2.20.2",
+      "ref" : "null:sqs:2.20.12",
       "dependsOn" : [
-        "software.amazon.awssdk:aws-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
         "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:third-party-jackson-core:${awsjavasdk.version}",
-        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.hamcrest:hamcrest-all:null",
-        "org.assertj:assertj-core:null",
-        "org.mockito:mockito-core:null"
+        "org.unitils:unitils-core:null",
+        "software.amazon.awssdk:iam:${awsjavasdk.version}",
+        "software.amazon.awssdk:sts:${awsjavasdk.version}",
+        "org.assertj:assertj-core:${assertj.version}"
       ]
     },
     {
@@ -20390,6 +20249,20 @@
         "com.github.luben:zstd-jni:null",
         "org.reflections:reflections:null",
         "com.google.code.gson:gson:null"
+      ]
+    },
+    {
+      "ref" : "null:http-client-spi:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
+        "org.reactivestreams:reactive-streams:${reactive-streams.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.assertj:assertj-core:null",
+        "org.reactivestreams:reactive-streams-tck:null",
+        "nl.jqno.equalsverifier:equalsverifier:null"
       ]
     },
     {
@@ -20567,16 +20440,6 @@
       ]
     },
     {
-      "ref" : "null:profiles:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
-        "org.assertj:assertj-core:null",
-        "com.google.jimfs:jimfs:${jimfs.version}"
-      ]
-    },
-    {
       "ref" : "null:flexmark-util-ast:0.64.0",
       "dependsOn" : [
         "com.vladsch.flexmark:flexmark-util-collection:${project.version}",
@@ -20608,6 +20471,14 @@
         "org.eclipse.jetty:jetty-servlet:${project.version}",
         "org.eclipse.jetty:jetty-websocket:${project.version}",
         "org.eclipse.jetty.toolchain:jetty-test-helper:null"
+      ]
+    },
+    {
+      "ref" : "null:ses:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
+        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
+        "commons-io:commons-io:null"
       ]
     },
     {
@@ -20861,18 +20732,6 @@
       ]
     },
     {
-      "ref" : "null:json-utils:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:third-party-jackson-core:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null",
-        "org.mockito:mockito-core:null"
-      ]
-    },
-    {
       "ref" : "null:flexmark-util-dependency:dependency/pom",
       "dependsOn" : [
         "com.vladsch.flexmark:flexmark-util-collection:null",
@@ -21014,17 +20873,6 @@
       ]
     },
     {
-      "ref" : "null:arns:2.20.2",
-      "dependsOn" : [
-        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
-        "software.amazon.awssdk:utils:${awsjavasdk.version}",
-        "org.junit.jupiter:junit-jupiter:null",
-        "org.junit.vintage:junit-vintage-engine:null",
-        "org.assertj:assertj-core:null",
-        "software.amazon.awssdk:test-utils:null"
-      ]
-    },
-    {
       "ref" : "null:logback-classic:classic/pom",
       "dependsOn" : [
         "ch.qos.logback:logback-core:null",
@@ -21043,6 +20891,36 @@
         "org.subethamail:subethasmtp:2.1.0",
         "org.apache.felix:org.apache.felix.main:2.0.2",
         "org.mockito:mockito-core:null"
+      ]
+    },
+    {
+      "ref" : "null:auth:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:regions:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:json-utils:${awsjavasdk.version}",
+        "software.amazon.eventstream:eventstream:null",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null",
+        "software.amazon.awssdk:test-utils:null",
+        "commons-io:commons-io:null",
+        "commons-lang:commons-lang:null",
+        "org.assertj:assertj-core:null",
+        "org.hamcrest:hamcrest-all:null",
+        "org.mockito:mockito-core:null",
+        "nl.jqno.equalsverifier:equalsverifier:null",
+        "org.unitils:unitils-core:null",
+        "io.reactivex.rxjava2:rxjava:null",
+        "org.apache.commons:commons-lang3:null",
+        "com.google.jimfs:jimfs:${jimfs.version}"
       ]
     },
     {
@@ -21075,6 +20953,39 @@
         "org.openjdk.jmh:jmh-core:null",
         "org.openjdk.jmh:jmh-generator-annprocess:null",
         "log4j:log4j:1.2.17"
+      ]
+    },
+    {
+      "ref" : "null:netty-nio-client:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
+        "io.netty:netty-codec-http:null",
+        "io.netty:netty-codec-http2:null",
+        "io.netty:netty-codec:null",
+        "io.netty:netty-transport:null",
+        "io.netty:netty-common:null",
+        "io.netty:netty-buffer:null",
+        "io.netty:netty-handler:null",
+        "io.netty:netty-transport-classes-epoll:null",
+        "org.reactivestreams:reactive-streams:null",
+        "org.slf4j:slf4j-api:null",
+        "software.amazon.awssdk:http-client-tests:${awsjavasdk.version}",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.testng:testng:null",
+        "org.mockito:mockito-core:null",
+        "org.assertj:assertj-core:null",
+        "org.reactivestreams:reactive-streams-tck:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null",
+        "io.netty:netty-tcnative-boringssl-static:null",
+        "io.reactivex.rxjava2:rxjava:null"
       ]
     },
     {
@@ -21133,20 +21044,59 @@
       ]
     },
     {
+      "ref" : "null:aws-core:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:regions:${awsjavasdk.version}",
+        "software.amazon.awssdk:auth:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "software.amazon.awssdk:sdk-core:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:endpoints-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.eventstream:eventstream:null",
+        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.hamcrest:hamcrest-all:null",
+        "commons-io:commons-io:null",
+        "org.mockito:mockito-core:null",
+        "nl.jqno.equalsverifier:equalsverifier:null",
+        "org.unitils:unitils-core:null",
+        "software.amazon.awssdk:apache-client:${awsjavasdk.version}",
+        "org.assertj:assertj-core:null",
+        "com.google.guava:guava:null",
+        "io.reactivex.rxjava2:rxjava:null"
+      ]
+    },
+    {
       "ref" : "org.glassfish.hk2.external:aopalliance-repackaged:2.6.1",
       "dependsOn" : [
         "aopalliance:aopalliance:${aopalliance.version}"
       ]
     },
     {
-      "ref" : "null:sqs:2.20.2",
+      "ref" : "null:endpoints-spi:2.20.12",
       "dependsOn" : [
-        "software.amazon.awssdk:aws-query-protocol:${awsjavasdk.version}",
-        "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
-        "org.unitils:unitils-core:null",
-        "software.amazon.awssdk:iam:${awsjavasdk.version}",
-        "software.amazon.awssdk:sts:${awsjavasdk.version}",
-        "org.assertj:assertj-core:${assertj.version}"
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "nl.jqno.equalsverifier:equalsverifier:null",
+        "org.assertj:assertj-core:null"
+      ]
+    },
+    {
+      "ref" : "null:profiles:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "org.assertj:assertj-core:null",
+        "com.google.jimfs:jimfs:${jimfs.version}"
       ]
     },
     {
@@ -21192,6 +21142,13 @@
       ]
     },
     {
+      "ref" : "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:rc2",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-databind:null",
+        "org.yaml:snakeyaml:1.33"
+      ]
+    },
+    {
       "ref" : "null:jersey-hk2:2.37",
       "dependsOn" : [
         "org.glassfish.jersey.core:jersey-common:${project.version}",
@@ -21199,13 +21156,6 @@
         "org.javassist:javassist:${javassist.version}",
         "junit:junit:null",
         "org.hamcrest:hamcrest:null"
-      ]
-    },
-    {
-      "ref" : "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:rc2",
-      "dependsOn" : [
-        "com.fasterxml.jackson.core:jackson-databind:null",
-        "org.yaml:snakeyaml:1.33"
       ]
     },
     {
@@ -21222,6 +21172,42 @@
         "commons-codec:commons-codec:null",
         "junit:junit:null",
         "org.mockito:mockito-core:null"
+      ]
+    },
+    {
+      "ref" : "null:sdk-core:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:http-client-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:metrics-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:endpoints-spi:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:profiles:${awsjavasdk.version}",
+        "org.slf4j:slf4j-api:null",
+        "org.reactivestreams:reactive-streams:null",
+        "software.amazon.awssdk:apache-client:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "com.google.guava:guava:null",
+        "org.apache.commons:commons-lang3:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null",
+        "org.hamcrest:hamcrest-all:null",
+        "commons-io:commons-io:null",
+        "org.mockito:mockito-core:null",
+        "nl.jqno.equalsverifier:equalsverifier:null",
+        "org.unitils:unitils-core:null",
+        "org.assertj:assertj-core:null",
+        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "org.reactivestreams:reactive-streams-tck:null",
+        "com.google.jimfs:jimfs:null",
+        "org.apache.httpcomponents:httpclient:null",
+        "org.apache.httpcomponents:httpcore:null",
+        "org.hamcrest:hamcrest-core:null",
+        "software.amazon.awssdk:netty-nio-client:${awsjavasdk.version}",
+        "io.reactivex.rxjava2:rxjava:null"
       ]
     },
     {
@@ -21300,16 +21286,16 @@
       ]
     },
     {
+      "ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "dependsOn" : [
+        "junit:junit:${junit.version}"
+      ]
+    },
+    {
       "ref" : "null:applicationautoscaling:INF/maven/software.amazon.awssdk/applicationautoscaling/pom",
       "dependsOn" : [
         "software.amazon.awssdk:aws-json-protocol:${awsjavasdk.version}",
         "software.amazon.awssdk:protocol-core:${awsjavasdk.version}"
-      ]
-    },
-    {
-      "ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom",
-      "dependsOn" : [
-        "junit:junit:${junit.version}"
       ]
     },
     {
@@ -21352,6 +21338,22 @@
         "software.amazon.awssdk:protocol-core:${awsjavasdk.version}",
         "software.amazon.awssdk:profiles:${awsjavasdk.version}",
         "software.amazon.awssdk:sts:${awsjavasdk.version}"
+      ]
+    },
+    {
+      "ref" : "null:metrics-spi:2.20.12",
+      "dependsOn" : [
+        "software.amazon.awssdk:annotations:${awsjavasdk.version}",
+        "software.amazon.awssdk:utils:${awsjavasdk.version}",
+        "software.amazon.awssdk:test-utils:${awsjavasdk.version}",
+        "org.junit.jupiter:junit-jupiter:null",
+        "org.junit.vintage:junit-vintage-engine:null",
+        "com.github.tomakehurst:wiremock-jre8:null",
+        "org.assertj:assertj-core:null",
+        "org.mockito:mockito-core:null",
+        "org.apache.logging.log4j:log4j-api:null",
+        "org.apache.logging.log4j:log4j-core:null",
+        "org.apache.logging.log4j:log4j-slf4j-impl:null"
       ]
     },
     {

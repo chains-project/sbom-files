@@ -3828,316 +3828,23 @@
   ],
   "dependencies": [
     {
-      "ref": "org.jenkins-ci.main:websocket-jetty10:2.384",
-      "dependsOn": [
-        "org.kohsuke.metainf-services:metainf-services:1.9",
-        "org.jenkins-ci:winstone:6.7"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:junit:1166.va_436e268e972",
-      "dependsOn": [
-        "io.jenkins.plugins:checks-api:1.8.0",
-        "org.jenkins-ci.plugins.workflow:workflow-api:1200.v8005c684b_a_c6",
-        "io.jenkins.plugins:bootstrap5-api:5.2.0-1",
-        "io.jenkins.plugins:echarts-api:5.4.0-1",
-        "org.jenkins-ci.plugins:display-url-api:2.3.7",
-        "org.jenkins-ci.plugins:script-security:1228.vd93135a_2fb_25",
-        "org.jenkins-ci.plugins.workflow:workflow-step-api:639.v6eca_cd8c04a_a_",
-        "org.jenkins-ci.plugins:jackson2-api:2.13.4.20221013-295.v8e29ea_354141",
-        "io.jenkins.plugins:plugin-util-api:2.17.0"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-war:2.384",
-      "dependsOn": [
-        "org.slf4j:slf4j-jdk14:2.0.6",
-        "org.junit.jupiter:junit-jupiter:5.9.1"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:gradle:1.24",
-      "dependsOn": [
-        "org.jenkins-ci.lib:dry-run-lib:0.1"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-core:2.384",
-      "dependsOn": [
-        "org.jenkins-ci.main:remoting:3085.vc4c6977c075a",
-        "org.connectbot.jbcrypt:jbcrypt:1.0.0",
-        "org.antlr:antlr4-runtime:4.11.1",
-        "org.kohsuke:access-modifier-annotation:1.30",
-        "com.thoughtworks.xstream:xstream:1.4.19",
-        "net.java.sezpoz:sezpoz:1.13",
-        "xpp3:xpp3:1.1.4c",
-        "jline:jline:2.14.6",
-        "commons-codec:commons-codec:1.15",
-        "org.jenkins-ci.main:websocket-spi:2.384",
-        "org.ow2.asm:asm-tree:9.4",
-        "commons-collections:commons-collections:3.2.2",
-        "commons-jelly:commons-jelly-tags-fmt:1.0",
-        "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:1.2.7",
-        "org.jenkins-ci:memory-monitor:1.12",
-        "org.jenkins-ci:core-annotation-processors:1.0",
-        "org.jenkins-ci:version-number:1.11",
-        "jaxen:jaxen:2.0.0",
-        "org.ow2.asm:asm:9.4",
-        "com.github.spotbugs:spotbugs-annotations:4.7.3",
-        "com.sun.solaris:embedded_su4j:1.1",
-        "org.jenkins-ci:task-reactor:1.8",
-        "org.jvnet.winp:winp:1.30",
-        "net.jcip:jcip-annotations:1.0",
-        "org.slf4j:log4j-over-slf4j:2.0.6",
-        "org.apache.ant:ant:1.10.12",
-        "commons-fileupload:commons-fileupload:1.4",
-        "org.xmlunit:xmlunit-matchers:2.9.0",
-        "com.infradna.tool:bridge-method-annotation:1.25",
-        "org.ow2.asm:asm-commons:9.4",
-        "org.kohsuke.jinterop:j-interop:2.0.8-kohsuke-1",
-        "org.jfree:jfreechart:1.0.19",
-        "commons-lang:commons-lang:2.6",
-        "org.kohsuke.stapler:json-lib:2.4-jenkins-3",
-        "org.jenkins-ci:commons-jexl:1.1-jenkins-20111212",
-        "org.ow2.asm:asm-analysis:9.4",
-        "org.codehaus.groovy:groovy-all:2.4.21",
-        "commons-beanutils:commons-beanutils:1.9.4",
-        "org.ow2.asm:asm-util:9.4",
-        "net.sf.kxml:kxml2:2.3.0",
-        "com.google.guava:guava:31.1-jre",
-        "commons-jelly:commons-jelly-tags-xml:1.1",
-        "com.sun.xml.txw2:txw2:20110809",
-        "net.java.dev.jna:jna:5.12.1",
-        "org.fusesource.jansi:jansi:1.11",
-        "org.jvnet.localizer:localizer:1.31",
-        "org.xmlunit:xmlunit-core:2.9.0",
-        "io.jenkins.stapler:jenkins-stapler-support:1.1",
-        "org.jvnet.hudson:commons-jelly-tags-define:1.0.1-hudson-20071021",
-        "commons-io:commons-io:2.11.0",
-        "com.google.inject:guice:5.1.0",
-        "org.springframework.security:spring-security-web:5.8.1",
-        "jakarta.servlet:jakarta.servlet-api:4.0.4",
-        "org.jenkins-ci:crypto-util:1.8",
-        "org.kohsuke.stapler:stapler-adjunct-codemirror:1.3",
-        "org.jvnet.robust-http-client:robust-http-client:1.2",
-        "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061",
-        "org.slf4j:jcl-over-slf4j:2.0.6",
-        "org.apache.commons:commons-compress:1.22",
-        "org.kohsuke.stapler:stapler-adjunct-timeline:1.5",
-        "org.jenkins-ci:symbol-annotation:1.24",
-        "org.jenkins-ci:annotation-indexer:1.17",
-        "args4j:args4j:2.33",
-        "com.jcraft:jzlib:1.1.3-kohsuke-1",
-        "org.kohsuke:windows-package-checker:1.2",
-        "org.kohsuke.stapler:stapler:1756.vec9071748061"
-      ]
-    },
-    {
       "ref": "org.springframework.security:spring-security-web:5.8.1",
       "dependsOn": [
-        "org.springframework:spring-beans:5.3.24",
-        "org.springframework:spring-expression:5.3.24",
-        "org.springframework:spring-context:5.3.24",
         "org.springframework:spring-core:5.3.24",
         "org.springframework:spring-web:5.3.24",
         "org.springframework.security:spring-security-core:5.8.1",
-        "org.springframework:spring-aop:5.3.24"
+        "org.springframework:spring-aop:5.3.24",
+        "org.springframework:spring-beans:5.3.24",
+        "org.springframework:spring-expression:5.3.24",
+        "org.springframework:spring-context:5.3.24"
       ]
     },
     {
-      "ref": "org.kohsuke.stapler:json-lib:2.4-jenkins-3",
+      "ref": "org.jenkins-ci.plugins:bouncycastle-api:2.26",
       "dependsOn": [
-        "net.sf.ezmorph:ezmorph:1.0.6"
-      ]
-    },
-    {
-      "ref": "org.kohsuke.jinterop:j-interop:2.0.8-kohsuke-1",
-      "dependsOn": [
-        "org.kohsuke.jinterop:j-interopdeps:2.0.8-kohsuke-1"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins.workflow:workflow-api:1200.v8005c684b_a_c6",
-      "dependsOn": [
-        "org.jenkins-ci.plugins:scm-api:608.vfa_f971c5a_a_e9"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty:jetty-webapp:10.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty:jetty-xml:10.0.12",
-        "org.eclipse.jetty:jetty-servlet:10.0.12"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-test-harness-htmlunit:127.v28144890db_46",
-      "dependsOn": [
-        "com.shapesecurity:salvation2:3.0.1",
-        "commons-net:commons-net:3.8.0",
-        "org.brotli:dec:0.1.2"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:commons-text-api:1.10.0-27.vb_fa_3896786a_7",
-      "dependsOn": [
-        "org.apache.commons:commons-text:1.10.0"
-      ]
-    },
-    {
-      "ref": "org.jboss.marshalling:jboss-marshalling-river:2.1.0.Final",
-      "dependsOn": [
-        "org.jboss.marshalling:jboss-marshalling:2.1.0.Final"
-      ]
-    },
-    {
-      "ref": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4",
-      "dependsOn": [
-        "com.fasterxml.woodstox:woodstox-core:6.3.1",
-        "org.codehaus.woodstox:stax2-api:4.2.1"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:bootstrap5-api:5.2.0-1",
-      "dependsOn": [
-        "io.jenkins.plugins:popper2-api:2.11.5-2"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:31.1-jre",
-      "dependsOn": [
-        "com.google.guava:failureaccess:1.0.1",
-        "com.google.code.findbugs:jsr305:3.0.2",
-        "com.google.code.findbugs:jsr305:3.0.1",
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:font-awesome-api:6.2.1-1",
-      "dependsOn": [
-        "io.jenkins.plugins:commons-text-api:1.10.0-27.vb_fa_3896786a_7",
-        "io.jenkins.plugins:commons-lang3-api:3.12.0-36.vd97de6465d5b_"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:jackson2-api:2.13.4.20221013-295.v8e29ea_354141",
-      "dependsOn": [
-        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4",
-        "io.jenkins.plugins:jaxb:2.3.6-1",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.4",
-        "io.jenkins.plugins:snakeyaml-api:1.29.1",
-        "com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.13.4",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4",
-        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.4",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4",
-        "com.fasterxml.jackson.core:jackson-core:2.13.4",
-        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4",
-        "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:script-security:1228.vd93135a_2fb_25",
-      "dependsOn": [
-        "io.jenkins.plugins:caffeine-api:2.9.3-65.v6a_47d0f4d1fe",
-        "org.kohsuke:groovy-sandbox:1.32"
-      ]
-    },
-    {
-      "ref": "org.xmlunit:xmlunit-core:2.9.0",
-      "dependsOn": [
-        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3"
-      ]
-    },
-    {
-      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
-      "dependsOn": [
-        "org.junit.platform:junit-platform-commons:1.9.1",
-        "org.apiguardian:apiguardian-api:1.1.2",
-        "org.opentest4j:opentest4j:1.2.0"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-test-harness:1912.v0cdf15450b_fb",
-      "dependsOn": [
-        "org.jenkins-ci.main:jenkins-test-harness-htmlunit:127.v28144890db_46",
-        "org.openjdk.jmh:jmh-generator-annprocess:1.36",
-        "org.openjdk.jmh:jmh-core:1.36",
-        "org.eclipse.jetty.websocket:websocket-jetty-server:10.0.12",
-        "io.jenkins.lib:support-log-formatter:1.2",
-        "org.hamcrest:hamcrest:2.2",
-        "org.jvnet.hudson:embedded-rhino-debugger:1.2",
-        "org.eclipse.jetty:jetty-security:10.0.12",
-        "org.eclipse.jetty:jetty-webapp:10.0.12",
-        "org.hamcrest:hamcrest-library:2.2",
-        "junit:junit:4.13.2",
-        "org.netbeans.modules:org-netbeans-insane:RELEASE160"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:jakarta-activation-api:2.0.0-2",
-      "dependsOn": [
-        "com.sun.activation:jakarta.activation:2.0.0"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty.websocket:websocket-jetty-common:10.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty.websocket:websocket-core-common:10.0.12"
-      ]
-    },
-    {
-      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
-      "dependsOn": [
-        "org.junit.platform:junit-platform-engine:1.9.1"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-test:2.384",
-      "dependsOn": [
-        "org.hamcrest:hamcrest-core:2.2",
-        "org.jenkins-ci.main:jenkins-war:2.384",
-        "org.jenkins-ci.main:jenkins-test-harness:1912.v0cdf15450b_fb",
-        "org.jenkins-ci.modules:instance-identity:142.v04572ca_5b_265",
-        "org.awaitility:awaitility:4.2.0",
-        "io.jenkins.plugins:javax-mail-api:1.6.2-8",
-        "org.jenkins-ci.plugins:cloudbees-folder:6.800.v71307ca_b_986b",
-        "org.mockito:mockito-inline:4.9.0",
-        "org.jenkins-ci.plugins:matrix-project:785.v06b_7f47b_c631",
-        "org.jenkins-ci.plugins:credentials:1214.v1de940103927",
-        "org.jenkins-ci.plugins:structs:324.va_f5d6774f3a_d",
-        "org.junit.vintage:junit-vintage-engine:5.9.1",
-        "org.jenkins-ci.plugins:matrix-auth:3.1.6",
-        "org.jenkins-ci:test-annotations:1.4",
-        "org.jenkins-ci.plugins:junit:1166.va_436e268e972",
-        "org.jenkins-ci.main:jenkins-test-harness-tools:2.2",
-        "org.jenkins-ci.plugins:mailer:438.v02c7f0a_12fa_4",
-        "org.jenkins-ci.plugins:antisamy-markup-formatter:155.v795fb_8702324"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:checks-api:1.8.0",
-      "dependsOn": [
-        "org.jenkins-ci.plugins.workflow:workflow-support:838.va_3a_087b_4055b"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins.workflow:workflow-support:838.va_3a_087b_4055b",
-      "dependsOn": [
-        "org.jboss.marshalling:jboss-marshalling-river:2.1.0.Final"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:jakarta-mail-api:2.0.0-5",
-      "dependsOn": [
-        "com.sun.mail:jakarta.mail:2.0.0",
-        "io.jenkins.plugins:jakarta-activation-api:2.0.0-2"
-      ]
-    },
-    {
-      "ref": "commons-beanutils:commons-beanutils:1.9.4",
-      "dependsOn": [
-        "commons-logging:commons-logging:1.2"
+        "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "org.bouncycastle:bcutil-jdk15on:1.70",
+        "org.bouncycastle:bcprov-jdk15on:1.70"
       ]
     },
     {
@@ -4147,79 +3854,15 @@
       ]
     },
     {
-      "ref": "org.junit.jupiter:junit-jupiter:5.9.1",
+      "ref": "io.jenkins.plugins:commons-text-api:1.10.0-27.vb_fa_3896786a_7",
       "dependsOn": [
-        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
-        "org.junit.jupiter:junit-jupiter-api:5.9.1",
-        "org.junit.jupiter:junit-jupiter-params:5.9.1"
+        "org.apache.commons:commons-text:1.10.0"
       ]
     },
     {
-      "ref": "org.mockito:mockito-core:4.9.0",
+      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
       "dependsOn": [
-        "org.objenesis:objenesis:3.3",
-        "net.bytebuddy:byte-buddy:1.12.16",
-        "net.bytebuddy:byte-buddy-agent:1.12.16"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.modules:instance-identity:142.v04572ca_5b_265",
-      "dependsOn": [
-        "org.jenkins-ci.plugins:bouncycastle-api:2.26"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:echarts-api:5.4.0-1",
-      "dependsOn": [
-        "org.eclipse.collections:eclipse-collections:9.2.0",
-        "org.eclipse.collections:eclipse-collections-api:9.2.0",
-        "io.jenkins.plugins:font-awesome-api:6.2.1-1",
-        "io.jenkins.plugins:jquery3-api:3.6.0-4"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:bouncycastle-api:2.26",
-      "dependsOn": [
-        "org.bouncycastle:bcutil-jdk15on:1.70",
-        "org.bouncycastle:bcprov-jdk15on:1.70",
-        "org.bouncycastle:bcpkix-jdk15on:1.70"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:websocket-spi:2.384",
-      "dependsOn": [
-        "javax.servlet:javax.servlet-api:3.1.0"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:cli:2.384",
-      "dependsOn": [
-        "org.slf4j:slf4j-jdk14:2.0.6",
-        "commons-lang:commons-lang:2.6",
-        "org.junit.jupiter:junit-jupiter:5.9.1",
-        "org.apache.sshd:sshd-common:2.9.2",
-        "com.github.spotbugs:spotbugs-annotations:4.7.3",
-        "org.apache.sshd:sshd-core:2.9.2",
-        "net.i2p.crypto:eddsa:0.3.0",
-        "commons-io:commons-io:2.11.0",
-        "org.jvnet.localizer:localizer:1.31",
-        "org.glassfish.tyrus.bundles:tyrus-standalone-client-jdk:2.1.2"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:javax-mail-api:1.6.2-8",
-      "dependsOn": [
-        "com.sun.mail:javax.mail:1.6.2",
-        "io.jenkins.plugins:javax-activation-api:1.2.0-4"
-      ]
-    },
-    {
-      "ref": "org.kohsuke.stapler:stapler:1756.vec9071748061",
-      "dependsOn": [
-        "javax.annotation:javax.annotation-api:1.3.2",
-        "org.jvnet:tiger-types:2.2",
-        "jakarta.annotation:jakarta.annotation-api:2.1.1",
-        "commons-discovery:commons-discovery:0.5"
+        "jakarta.activation:jakarta.activation-api:1.2.2"
       ]
     },
     {
@@ -4230,125 +3873,27 @@
       ]
     },
     {
-      "ref": "com.sun.xml.txw2:txw2:20110809",
-      "dependsOn": [
-        "relaxngDatatype:relaxngDatatype:20020414"
-      ]
-    },
-    {
       "ref": "io.jenkins.plugins:caffeine-api:2.9.3-65.v6a_47d0f4d1fe",
       "dependsOn": [
         "com.github.ben-manes.caffeine:caffeine:2.9.3"
       ]
     },
     {
-      "ref": "io.jenkins.plugins:snakeyaml-api:1.29.1",
+      "ref": "org.jenkins-ci.plugins:gradle:1.24",
       "dependsOn": [
-        "org.yaml:snakeyaml:1.29"
+        "org.jenkins-ci.lib:dry-run-lib:0.1"
       ]
     },
     {
-      "ref": "org.kohsuke:access-modifier-annotation:1.30",
+      "ref": "org.eclipse.jetty:jetty-security:10.0.12",
       "dependsOn": [
-        "org.jenkins-ci:annotation-indexer:1.17"
+        "org.eclipse.jetty:jetty-server:10.0.12"
       ]
     },
     {
-      "ref": "org.jenkins-ci.plugins:mailer:438.v02c7f0a_12fa_4",
+      "ref": "org.springframework.security:spring-security-core:5.8.1",
       "dependsOn": [
-        "io.jenkins.plugins:jakarta-mail-api:2.0.0-5"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty:jetty-server:10.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty:jetty-http:10.0.12",
-        "org.eclipse.jetty:jetty-io:10.0.12"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:antisamy-markup-formatter:155.v795fb_8702324",
-      "dependsOn": [
-        "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20220608.1"
-      ]
-    },
-    {
-      "ref": "com.thoughtworks.xstream:xstream:1.4.19",
-      "dependsOn": [
-        "io.github.x-stream:mxparser:1.2.2"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty.websocket:websocket-jetty-server:10.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty.websocket:websocket-jetty-common:10.0.12",
-        "org.eclipse.jetty.websocket:websocket-jetty-api:10.0.12",
-        "org.eclipse.jetty.websocket:websocket-servlet:10.0.12",
-        "org.eclipse.jetty.toolchain:jetty-servlet-api:4.0.6"
-      ]
-    },
-    {
-      "ref": "org.openjdk.jmh:jmh-core:1.36",
-      "dependsOn": [
-        "org.apache.commons:commons-math3:3.2",
-        "net.sf.jopt-simple:jopt-simple:5.0.4"
-      ]
-    },
-    {
-      "ref": "org.apache.ant:ant:1.10.12",
-      "dependsOn": [
-        "org.apache.ant:ant-launcher:1.10.12"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty.websocket:websocket-servlet:10.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty.websocket:websocket-core-server:10.0.12"
-      ]
-    },
-    {
-      "ref": "io.jenkins.plugins:jaxb:2.3.6-1",
-      "dependsOn": [
-        "javax.xml.bind:jaxb-api:2.3.1",
-        "com.sun.xml.bind:jaxb-impl:2.3.6"
-      ]
-    },
-    {
-      "ref": "org.mockito:mockito-inline:4.9.0",
-      "dependsOn": [
-        "org.mockito:mockito-core:4.9.0"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.plugins:cloudbees-folder:6.800.v71307ca_b_986b",
-      "dependsOn": [
-        "io.jenkins.plugins:ionicons-api:31.v4757b_6987003"
-      ]
-    },
-    {
-      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
-      "dependsOn": [
-        "jakarta.activation:jakarta.activation-api:1.2.2"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-coverage:2.384",
-      "dependsOn": [
-        "org.jenkins-ci.main:jenkins-test:2.384",
-        "org.jenkins-ci.main:jenkins-core:2.384",
-        "org.jenkins-ci.main:cli:2.384"
-      ]
-    },
-    {
-      "ref": "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061",
-      "dependsOn": [
-        "org.kohsuke.stapler:stapler-jelly:1756.vec9071748061"
-      ]
-    },
-    {
-      "ref": "com.google.inject:guice:5.1.0",
-      "dependsOn": [
-        "javax.inject:javax.inject:1"
+        "org.springframework.security:spring-security-crypto:5.8.1"
       ]
     },
     {
@@ -4358,25 +3903,12 @@
       ]
     },
     {
-      "ref": "org.jenkins-ci.main:websocket-jetty9:2.384",
+      "ref": "io.jenkins.plugins:echarts-api:5.4.0-1",
       "dependsOn": [
-        "org.jenkins-ci:winstone:5.25",
-        "org.kohsuke.metainf-services:metainf-services:1.9",
-        "org.kohsuke:access-modifier-annotation:1.30"
-      ]
-    },
-    {
-      "ref": "org.apache.sshd:sshd-common:2.9.2",
-      "dependsOn": [
-        "org.slf4j:jcl-over-slf4j:2.0.6",
-        "org.slf4j:slf4j-api:2.0.6"
-      ]
-    },
-    {
-      "ref": "org.jenkins-ci.main:jenkins-test-harness-tools:2.2",
-      "dependsOn": [
-        "org.jenkins-ci.plugins:ant:481.v7b_09e538fcca",
-        "org.jenkins-ci.plugins:gradle:1.24"
+        "org.eclipse.collections:eclipse-collections-api:9.2.0",
+        "io.jenkins.plugins:font-awesome-api:6.2.1-1",
+        "io.jenkins.plugins:jquery3-api:3.6.0-4",
+        "org.eclipse.collections:eclipse-collections:9.2.0"
       ]
     },
     {
@@ -4386,9 +3918,10 @@
       ]
     },
     {
-      "ref": "org.springframework.security:spring-security-core:5.8.1",
+      "ref": "org.eclipse.jetty:jetty-server:10.0.12",
       "dependsOn": [
-        "org.springframework.security:spring-security-crypto:5.8.1"
+        "org.eclipse.jetty:jetty-http:10.0.12",
+        "org.eclipse.jetty:jetty-io:10.0.12"
       ]
     },
     {
@@ -4405,9 +3938,469 @@
       ]
     },
     {
+      "ref": "org.mockito:mockito-core:4.9.0",
+      "dependsOn": [
+        "net.bytebuddy:byte-buddy:1.12.16",
+        "net.bytebuddy:byte-buddy-agent:1.12.16",
+        "org.objenesis:objenesis:3.3"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins.workflow:workflow-api:1200.v8005c684b_a_c6",
+      "dependsOn": [
+        "org.jenkins-ci.plugins:scm-api:608.vfa_f971c5a_a_e9"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:junit:1166.va_436e268e972",
+      "dependsOn": [
+        "org.jenkins-ci.plugins.workflow:workflow-api:1200.v8005c684b_a_c6",
+        "org.jenkins-ci.plugins:display-url-api:2.3.7",
+        "org.jenkins-ci.plugins:script-security:1228.vd93135a_2fb_25",
+        "io.jenkins.plugins:plugin-util-api:2.17.0",
+        "org.jenkins-ci.plugins:jackson2-api:2.13.4.20221013-295.v8e29ea_354141",
+        "io.jenkins.plugins:checks-api:1.8.0",
+        "io.jenkins.plugins:bootstrap5-api:5.2.0-1",
+        "io.jenkins.plugins:echarts-api:5.4.0-1",
+        "org.jenkins-ci.plugins.workflow:workflow-step-api:639.v6eca_cd8c04a_a_"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.modules:instance-identity:142.v04572ca_5b_265",
+      "dependsOn": [
+        "org.jenkins-ci.plugins:bouncycastle-api:2.26"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
+      "dependsOn": [
+        "org.apiguardian:apiguardian-api:1.1.2",
+        "org.opentest4j:opentest4j:1.2.0",
+        "org.junit.platform:junit-platform-commons:1.9.1"
+      ]
+    },
+    {
+      "ref": "org.mockito:mockito-inline:4.9.0",
+      "dependsOn": [
+        "org.mockito:mockito-core:4.9.0"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:checks-api:1.8.0",
+      "dependsOn": [
+        "org.jenkins-ci.plugins.workflow:workflow-support:838.va_3a_087b_4055b"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:cloudbees-folder:6.800.v71307ca_b_986b",
+      "dependsOn": [
+        "io.jenkins.plugins:ionicons-api:31.v4757b_6987003"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:snakeyaml-api:1.29.1",
+      "dependsOn": [
+        "org.yaml:snakeyaml:1.29"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter:5.9.1",
+      "dependsOn": [
+        "org.junit.jupiter:junit-jupiter-params:5.9.1",
+        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+        "org.junit.jupiter:junit-jupiter-api:5.9.1"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty.websocket:websocket-jetty-common:10.0.12",
+      "dependsOn": [
+        "org.eclipse.jetty.websocket:websocket-core-common:10.0.12"
+      ]
+    },
+    {
+      "ref": "org.kohsuke:access-modifier-annotation:1.30",
+      "dependsOn": [
+        "org.jenkins-ci:annotation-indexer:1.17"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty.websocket:websocket-jetty-server:10.0.12",
+      "dependsOn": [
+        "org.eclipse.jetty.websocket:websocket-jetty-common:10.0.12",
+        "org.eclipse.jetty.websocket:websocket-jetty-api:10.0.12",
+        "org.eclipse.jetty.websocket:websocket-servlet:10.0.12",
+        "org.eclipse.jetty.toolchain:jetty-servlet-api:4.0.6"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:mailer:438.v02c7f0a_12fa_4",
+      "dependsOn": [
+        "io.jenkins.plugins:jakarta-mail-api:2.0.0-5"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins.workflow:workflow-support:838.va_3a_087b_4055b",
+      "dependsOn": [
+        "org.jboss.marshalling:jboss-marshalling-river:2.1.0.Final"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-coverage:2.384",
+      "dependsOn": [
+        "org.jenkins-ci.main:jenkins-test:2.384",
+        "org.jenkins-ci.main:jenkins-core:2.384",
+        "org.jenkins-ci.main:cli:2.384"
+      ]
+    },
+    {
+      "ref": "org.kohsuke.stapler:json-lib:2.4-jenkins-3",
+      "dependsOn": [
+        "net.sf.ezmorph:ezmorph:1.0.6"
+      ]
+    },
+    {
+      "ref": "org.openjdk.jmh:jmh-core:1.36",
+      "dependsOn": [
+        "org.apache.commons:commons-math3:3.2",
+        "net.sf.jopt-simple:jopt-simple:5.0.4"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:cli:2.384",
+      "dependsOn": [
+        "org.apache.sshd:sshd-core:2.9.2",
+        "net.i2p.crypto:eddsa:0.3.0",
+        "commons-lang:commons-lang:2.6",
+        "org.jvnet.localizer:localizer:1.31",
+        "org.junit.jupiter:junit-jupiter:5.9.1",
+        "org.glassfish.tyrus.bundles:tyrus-standalone-client-jdk:2.1.2",
+        "com.github.spotbugs:spotbugs-annotations:4.7.3",
+        "org.slf4j:slf4j-jdk14:2.0.6",
+        "commons-io:commons-io:2.11.0",
+        "org.apache.sshd:sshd-common:2.9.2"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-test-harness-htmlunit:127.v28144890db_46",
+      "dependsOn": [
+        "com.shapesecurity:salvation2:3.0.1",
+        "commons-net:commons-net:3.8.0",
+        "org.brotli:dec:0.1.2"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-test-harness-tools:2.2",
+      "dependsOn": [
+        "org.jenkins-ci.plugins:gradle:1.24",
+        "org.jenkins-ci.plugins:ant:481.v7b_09e538fcca"
+      ]
+    },
+    {
+      "ref": "org.kohsuke.stapler:stapler:1756.vec9071748061",
+      "dependsOn": [
+        "jakarta.annotation:jakarta.annotation-api:2.1.1",
+        "commons-discovery:commons-discovery:0.5",
+        "javax.annotation:javax.annotation-api:1.3.2",
+        "org.jvnet:tiger-types:2.2"
+      ]
+    },
+    {
+      "ref": "org.kohsuke.jinterop:j-interop:2.0.8-kohsuke-1",
+      "dependsOn": [
+        "org.kohsuke.jinterop:j-interopdeps:2.0.8-kohsuke-1"
+      ]
+    },
+    {
+      "ref": "com.thoughtworks.xstream:xstream:1.4.19",
+      "dependsOn": [
+        "io.github.x-stream:mxparser:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:websocket-jetty9:2.384",
+      "dependsOn": [
+        "org.jenkins-ci:winstone:5.25",
+        "org.kohsuke.metainf-services:metainf-services:1.9",
+        "org.kohsuke:access-modifier-annotation:1.30"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:jakarta-activation-api:2.0.0-2",
+      "dependsOn": [
+        "com.sun.activation:jakarta.activation:2.0.0"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:jakarta-mail-api:2.0.0-5",
+      "dependsOn": [
+        "com.sun.mail:jakarta.mail:2.0.0",
+        "io.jenkins.plugins:jakarta-activation-api:2.0.0-2"
+      ]
+    },
+    {
+      "ref": "org.xmlunit:xmlunit-core:2.9.0",
+      "dependsOn": [
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3"
+      ]
+    },
+    {
+      "ref": "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061",
+      "dependsOn": [
+        "org.kohsuke.stapler:stapler-jelly:1756.vec9071748061"
+      ]
+    },
+    {
+      "ref": "org.apache.ant:ant:1.10.12",
+      "dependsOn": [
+        "org.apache.ant:ant-launcher:1.10.12"
+      ]
+    },
+    {
+      "ref": "org.apache.sshd:sshd-common:2.9.2",
+      "dependsOn": [
+        "org.slf4j:jcl-over-slf4j:2.0.6",
+        "org.slf4j:slf4j-api:2.0.6"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty:jetty-webapp:10.0.12",
+      "dependsOn": [
+        "org.eclipse.jetty:jetty-servlet:10.0.12",
+        "org.eclipse.jetty:jetty-xml:10.0.12"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:antisamy-markup-formatter:155.v795fb_8702324",
+      "dependsOn": [
+        "com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20220608.1"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:font-awesome-api:6.2.1-1",
+      "dependsOn": [
+        "io.jenkins.plugins:commons-lang3-api:3.12.0-36.vd97de6465d5b_",
+        "io.jenkins.plugins:commons-text-api:1.10.0-27.vb_fa_3896786a_7"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-war:2.384",
+      "dependsOn": [
+        "org.slf4j:slf4j-jdk14:2.0.6",
+        "org.junit.jupiter:junit-jupiter:5.9.1"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty.websocket:websocket-servlet:10.0.12",
+      "dependsOn": [
+        "org.eclipse.jetty.websocket:websocket-core-server:10.0.12"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-core:2.384",
+      "dependsOn": [
+        "org.jenkins-ci.main:websocket-spi:2.384",
+        "org.jvnet.localizer:localizer:1.31",
+        "org.xmlunit:xmlunit-matchers:2.9.0",
+        "jline:jline:2.14.6",
+        "org.ow2.asm:asm-commons:9.4",
+        "com.github.spotbugs:spotbugs-annotations:4.7.3",
+        "com.sun.solaris:embedded_su4j:1.1",
+        "org.slf4j:log4j-over-slf4j:2.0.6",
+        "org.ow2.asm:asm-tree:9.4",
+        "org.apache.ant:ant:1.10.12",
+        "org.jenkins-ci:task-reactor:1.8",
+        "jaxen:jaxen:2.0.0",
+        "org.jenkins-ci.main:remoting:3085.vc4c6977c075a",
+        "org.kohsuke.jinterop:j-interop:2.0.8-kohsuke-1",
+        "jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:1.2.7",
+        "org.antlr:antlr4-runtime:4.11.1",
+        "org.jenkins-ci:annotation-indexer:1.17",
+        "org.kohsuke.stapler:json-lib:2.4-jenkins-3",
+        "xpp3:xpp3:1.1.4c",
+        "commons-lang:commons-lang:2.6",
+        "commons-io:commons-io:2.11.0",
+        "io.jenkins.stapler:jenkins-stapler-support:1.1",
+        "com.google.inject:guice:5.1.0",
+        "com.jcraft:jzlib:1.1.3-kohsuke-1",
+        "com.thoughtworks.xstream:xstream:1.4.19",
+        "org.springframework.security:spring-security-web:5.8.1",
+        "org.jenkins-ci:memory-monitor:1.12",
+        "net.jcip:jcip-annotations:1.0",
+        "org.connectbot.jbcrypt:jbcrypt:1.0.0",
+        "net.java.dev.jna:jna:5.12.1",
+        "commons-collections:commons-collections:3.2.2",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "org.jvnet.robust-http-client:robust-http-client:1.2",
+        "commons-fileupload:commons-fileupload:1.4",
+        "org.jenkins-ci:commons-jexl:1.1-jenkins-20111212",
+        "org.ow2.asm:asm:9.4",
+        "org.jfree:jfreechart:1.0.19",
+        "org.kohsuke.stapler:stapler-adjunct-timeline:1.5",
+        "org.fusesource.jansi:jansi:1.11",
+        "org.kohsuke.stapler:stapler:1756.vec9071748061",
+        "org.jenkins-ci:symbol-annotation:1.24",
+        "commons-jelly:commons-jelly-tags-xml:1.1",
+        "org.codehaus.groovy:groovy-all:2.4.21",
+        "net.java.sezpoz:sezpoz:1.13",
+        "org.slf4j:jcl-over-slf4j:2.0.6",
+        "args4j:args4j:2.33",
+        "org.kohsuke.stapler:stapler-groovy:1756.vec9071748061",
+        "org.jvnet.hudson:commons-jelly-tags-define:1.0.1-hudson-20071021",
+        "org.kohsuke:windows-package-checker:1.2",
+        "com.infradna.tool:bridge-method-annotation:1.25",
+        "org.kohsuke.stapler:stapler-adjunct-codemirror:1.3",
+        "org.apache.commons:commons-compress:1.22",
+        "net.sf.kxml:kxml2:2.3.0",
+        "org.kohsuke:access-modifier-annotation:1.30",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "org.xmlunit:xmlunit-core:2.9.0",
+        "org.jenkins-ci:crypto-util:1.8",
+        "org.ow2.asm:asm-util:9.4",
+        "org.jenkins-ci:core-annotation-processors:1.0",
+        "org.jenkins-ci:version-number:1.11",
+        "commons-jelly:commons-jelly-tags-fmt:1.0",
+        "org.jvnet.winp:winp:1.30",
+        "commons-codec:commons-codec:1.15",
+        "org.ow2.asm:asm-analysis:9.4",
+        "com.google.guava:guava:31.1-jre",
+        "com.sun.xml.txw2:txw2:20110809"
+      ]
+    },
+    {
+      "ref": "com.google.inject:guice:5.1.0",
+      "dependsOn": [
+        "javax.inject:javax.inject:1"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:websocket-spi:2.384",
+      "dependsOn": [
+        "javax.servlet:javax.servlet-api:3.1.0"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:websocket-jetty10:2.384",
+      "dependsOn": [
+        "org.kohsuke.metainf-services:metainf-services:1.9",
+        "org.jenkins-ci:winstone:6.7"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-test:2.384",
+      "dependsOn": [
+        "org.jenkins-ci.main:jenkins-war:2.384",
+        "org.jenkins-ci.plugins:credentials:1214.v1de940103927",
+        "org.jenkins-ci.plugins:structs:324.va_f5d6774f3a_d",
+        "org.junit.vintage:junit-vintage-engine:5.9.1",
+        "org.jenkins-ci:test-annotations:1.4",
+        "org.jenkins-ci.plugins:junit:1166.va_436e268e972",
+        "io.jenkins.plugins:javax-mail-api:1.6.2-8",
+        "org.jenkins-ci.plugins:cloudbees-folder:6.800.v71307ca_b_986b",
+        "org.jenkins-ci.main:jenkins-test-harness:1912.v0cdf15450b_fb",
+        "org.jenkins-ci.plugins:mailer:438.v02c7f0a_12fa_4",
+        "org.jenkins-ci.modules:instance-identity:142.v04572ca_5b_265",
+        "org.jenkins-ci.plugins:matrix-auth:3.1.6",
+        "org.jenkins-ci.plugins:antisamy-markup-formatter:155.v795fb_8702324",
+        "org.mockito:mockito-inline:4.9.0",
+        "org.hamcrest:hamcrest-core:2.2",
+        "org.awaitility:awaitility:4.2.0",
+        "org.jenkins-ci.plugins:matrix-project:785.v06b_7f47b_c631",
+        "org.jenkins-ci.main:jenkins-test-harness-tools:2.2"
+      ]
+    },
+    {
+      "ref": "commons-beanutils:commons-beanutils:1.9.4",
+      "dependsOn": [
+        "commons-logging:commons-logging:1.2"
+      ]
+    },
+    {
       "ref": "io.jenkins.plugins:commons-lang3-api:3.12.0-36.vd97de6465d5b_",
       "dependsOn": [
         "org.apache.commons:commons-lang3:3.12.0"
+      ]
+    },
+    {
+      "ref": "org.jboss.marshalling:jboss-marshalling-river:2.1.0.Final",
+      "dependsOn": [
+        "org.jboss.marshalling:jboss-marshalling:2.1.0.Final"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:script-security:1228.vd93135a_2fb_25",
+      "dependsOn": [
+        "io.jenkins.plugins:caffeine-api:2.9.3-65.v6a_47d0f4d1fe",
+        "org.kohsuke:groovy-sandbox:1.32"
+      ]
+    },
+    {
+      "ref": "com.sun.xml.txw2:txw2:20110809",
+      "dependsOn": [
+        "relaxngDatatype:relaxngDatatype:20020414"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-engine:1.9.1"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:jaxb:2.3.6-1",
+      "dependsOn": [
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "com.sun.xml.bind:jaxb-impl:2.3.6"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.main:jenkins-test-harness:1912.v0cdf15450b_fb",
+      "dependsOn": [
+        "org.jvnet.hudson:embedded-rhino-debugger:1.2",
+        "org.eclipse.jetty:jetty-security:10.0.12",
+        "org.eclipse.jetty:jetty-webapp:10.0.12",
+        "junit:junit:4.13.2",
+        "org.netbeans.modules:org-netbeans-insane:RELEASE160",
+        "org.eclipse.jetty.websocket:websocket-jetty-server:10.0.12",
+        "io.jenkins.lib:support-log-formatter:1.2",
+        "org.jenkins-ci.main:jenkins-test-harness-htmlunit:127.v28144890db_46",
+        "org.hamcrest:hamcrest:2.2",
+        "org.openjdk.jmh:jmh-generator-annprocess:1.36",
+        "org.openjdk.jmh:jmh-core:1.36",
+        "org.hamcrest:hamcrest-library:2.2"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:javax-mail-api:1.6.2-8",
+      "dependsOn": [
+        "com.sun.mail:javax.mail:1.6.2",
+        "io.jenkins.plugins:javax-activation-api:1.2.0-4"
+      ]
+    },
+    {
+      "ref": "org.jenkins-ci.plugins:jackson2-api:2.13.4.20221013-295.v8e29ea_354141",
+      "dependsOn": [
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4",
+        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+        "io.jenkins.plugins:jaxb:2.3.6-1",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.4",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.4",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4",
+        "com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.13.4",
+        "com.fasterxml.jackson.core:jackson-core:2.13.4",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.4",
+        "io.jenkins.plugins:snakeyaml-api:1.29.1",
+        "com.fasterxml.jackson.datatype:jackson-datatype-json-org:2.13.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:31.1-jre",
+      "dependsOn": [
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.google.code.findbugs:jsr305:3.0.1",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
       ]
     },
     {
@@ -4417,9 +4410,16 @@
       ]
     },
     {
-      "ref": "org.eclipse.jetty:jetty-security:10.0.12",
+      "ref": "com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.13.4",
       "dependsOn": [
-        "org.eclipse.jetty:jetty-server:10.0.12"
+        "org.codehaus.woodstox:stax2-api:4.2.1",
+        "com.fasterxml.woodstox:woodstox-core:6.3.1"
+      ]
+    },
+    {
+      "ref": "io.jenkins.plugins:bootstrap5-api:5.2.0-1",
+      "dependsOn": [
+        "io.jenkins.plugins:popper2-api:2.11.5-2"
       ]
     }
   ]

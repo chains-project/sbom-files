@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:c3d5b2d2-10b4-4bb1-bd61-ce388ff5cb1a",
+  "serialNumber" : "urn:uuid:cd5267e9-457b-45b9-9c18-7a1bb1ea52f9",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:10:04Z",
+    "timestamp" : "2023-02-26T01:51:05Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -63,7 +63,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://www.apache.org/"
+          "url" : "https://commons.apache.org/proper/commons-configuration/"
         },
         {
           "type" : "build-system",
@@ -142,28 +142,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/LANG"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
         }
       ],
       "type" : "library",
@@ -220,28 +220,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/TEXT"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-text"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TEXT"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
         }
       ],
       "type" : "library",
@@ -298,28 +298,28 @@
       "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LOGGING"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-logging/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
         }
       ],
       "type" : "library",
@@ -376,28 +376,28 @@
       "purl" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/BEANUTILS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-beanutils/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/BEANUTILS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
         }
       ],
       "type" : "library",
@@ -453,28 +453,28 @@
       "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/collections/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
         }
       ],
       "type" : "library",
@@ -531,28 +531,28 @@
       "purl" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/apache/commons-codec"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-codec/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/CODEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/commons-codec"
         }
       ],
       "type" : "library",
@@ -609,28 +609,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/JEXL"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/jexl/tags/COMMONS_JEXL_2_1_1"
+          "type" : "website",
+          "url" : "http://commons.apache.org/jexl/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JEXL"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/jexl/tags/COMMONS_JEXL_2_1_1"
         }
       ],
       "type" : "library",
@@ -687,28 +687,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/VFS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-vfs.git"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-vfs/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/VFS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-vfs.git/commons-vfs2"
         }
       ],
       "type" : "library",
@@ -764,8 +764,8 @@
       "purl" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "website",
-          "url" : "https://www.apache.org"
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         }
       ],
       "type" : "library",
@@ -820,16 +820,20 @@
       "purl" : "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/square/okhttp/okhttp"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/square/okhttp/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/square/okhttp/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/square/okhttp/okhttp/"
         }
       ],
       "type" : "library",
@@ -884,16 +888,20 @@
       "purl" : "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/square/okio/okio"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/square/okio/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/square/okio/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/square/okio/okio/"
         }
       ],
       "type" : "library",
@@ -950,24 +958,28 @@
       "purl" : "pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/JXPATH"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/jxpath/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/jxpath/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JXPATH"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/jxpath/trunk"
         }
       ],
       "type" : "library",
@@ -1024,6 +1036,14 @@
       "purl" : "pkg:maven/xml-resolver/xml-resolver@1.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://xml.apache.org/commons/components/resolver/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/bugzilla/"
         },
@@ -1034,10 +1054,6 @@
         {
           "type" : "vcs",
           "url" : "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-resolver-1_2/"
-        },
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
         }
       ],
       "type" : "library",
@@ -1095,7 +1111,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -1160,7 +1176,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -1226,7 +1242,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -1334,6 +1350,14 @@
       "purl" : "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://bitbucket.org/snakeyaml/snakeyaml"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://bitbucket.org/snakeyaml/snakeyaml/issues"
         },
@@ -1396,16 +1420,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-databind"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "http://github.com/FasterXML/jackson"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-databind"
         }
       ],
       "type" : "library",
@@ -1461,16 +1489,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-annotations"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "http://github.com/FasterXML/jackson"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-annotations"
         }
       ],
       "type" : "library",
@@ -1526,16 +1558,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-core"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "https://github.com/FasterXML/jackson-core"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-core"
         }
       ],
       "type" : "library",
@@ -1593,11 +1629,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org"
+          "url" : "http://logging.apache.org/log4j/1.2/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmgump.apache.org/gump/public/logging-log4j-12/logging-log4j-12/index.html"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/builds/logging/repo/"
         },
         {
           "type" : "issue-tracker",
@@ -1643,7 +1683,9 @@
     },
     {
       "ref" : "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
@@ -1666,7 +1708,9 @@
     },
     {
       "ref" : "pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar",
@@ -1679,7 +1723,9 @@
     {
       "ref" : "pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"
+        "pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar"
       ]
     },
     {
@@ -1691,6 +1737,17 @@
     {
       "ref" : "pkg:maven/com.squareup.okio/okio@1.6.0?type=jar",
       "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar",
@@ -1722,17 +1779,6 @@
     },
     {
       "ref" : "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
-      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar",
-      "dependsOn" : [
-        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
-        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"
-      ]
-    },
-    {
-      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar",
       "dependsOn" : [ ]
     },
     {

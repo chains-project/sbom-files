@@ -158,23 +158,44 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:utils:2.20.3",
+      "bom-ref": "software.amazon.awssdk:annotations:2.20.12",
       "type": "library",
       "group": "software.amazon.awssdk",
-      "name": "utils",
-      "version": "2.20.3",
+      "name": "annotations",
+      "version": "2.20.12",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "2f71fdb81fae77d31f5c90a1d4a8cc8db15d80bceb6ae515019e6d457d9cd400"
+          "content": "cc49d1a01e6f7eb6a527f4b25798c1d5580df332b8718e17cf7bb0b01325b4a5"
         },
         {
           "alg": "SHA-1",
-          "content": "fba6eb819149bf34264c801a2211c9f4b04da199"
+          "content": "287889383924906b1d8d71d5ff6a2ee1b53abac7"
         },
         {
           "alg": "MD5",
-          "content": "02de87df56f7504803c8849dbd24a2f9"
+          "content": "23f65b5ec8e904996fc350b49f276bff"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:metrics-spi:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "metrics-spi",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "483e01bfcdae25922afcb8075edc4b88cf2ad41ad2afe70579b692a8fb588ffe"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "eef7a82df0d894726bc95389ebadc72cd1d85635"
+        },
+        {
+          "alg": "MD5",
+          "content": "d30ad3d60fcdcb6e9047e69f6157f64f"
         }
       ]
     },
@@ -259,6 +280,27 @@
         {
           "alg": "MD5",
           "content": "872da51f5de7f3923da4de871d57fd85"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:profiles:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "profiles",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e886aae13f848ba6608e70cf7402d4c2a46c6e04ee932e485aefeddfe68a9802"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "73bac950d47a00ad296814442e520d39c9f46a3f"
+        },
+        {
+          "alg": "MD5",
+          "content": "3bcaf37c84b4d522c4c2a06c58b6c7bf"
         }
       ]
     },
@@ -368,6 +410,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:json-utils:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "json-utils",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "488fba4cf83eb46fd7da1bd7b377df4921f77446e4fd3353a3181532d8f96844"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "56d44965ca563a2b59d81f6ddaa9e3aacb3b16ef"
+        },
+        {
+          "alg": "MD5",
+          "content": "23668ed0769f4891fa78bc1e97d4e6a5"
+        }
+      ]
+    },
+    {
       "bom-ref": "com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.0",
       "type": "library",
       "group": "com.vladsch.flexmark",
@@ -406,6 +469,48 @@
         {
           "alg": "MD5",
           "content": "4f16c3b17b8c1b0173b1ed9f99f2c27c"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:regions:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "regions",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "51586ccce671d2e3ea46a9b2fa528783aeddfa938ce86bc3ebbd0010c8855673"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "f9319177986ff52b585574f1daec43df6ceae64a"
+        },
+        {
+          "alg": "MD5",
+          "content": "382ea6bd5671abe4293cffb3b5a92eb5"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:endpoints-spi:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "endpoints-spi",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bc3bd309ee9591d591eb0bd804b918a39a5989e613b82f1fe2eae4f6e4113ad6"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "68385f66028ac2820b99853d4622c713afc432bd"
+        },
+        {
+          "alg": "MD5",
+          "content": "c2075191d173d45d5f0c92e703dc1230"
         }
       ]
     },
@@ -511,27 +616,6 @@
         {
           "alg": "MD5",
           "content": "811aad31317f93c82046ce041ef83d41"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:regions:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "regions",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "341d0d7b530c6988fb92def3532571817adde122ba8f6adaf420938e4e963940"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "4100e57724c3f01e13ab48bd99b92fa685071c8c"
-        },
-        {
-          "alg": "MD5",
-          "content": "9fdda0c3832998236e4adb54e79b2b12"
         }
       ]
     },
@@ -683,6 +767,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:sdk-core:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "sdk-core",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "50ac6ef46793e4230c2df036b7b396503bf2baa440d9d15a708450a7a90b81f2"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "e5f8613fba7d51b21af1ca4ab6e4993db2b088c1"
+        },
+        {
+          "alg": "MD5",
+          "content": "42191ca67bbdb60b3b2ac5fa0aae9288"
+        }
+      ]
+    },
+    {
       "bom-ref": "ch.qos.logback:logback-classic:1.2.11",
       "type": "library",
       "group": "ch.qos.logback",
@@ -767,23 +872,23 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:auth:2.20.3",
+      "bom-ref": "software.amazon.awssdk:http-client-spi:2.20.12",
       "type": "library",
       "group": "software.amazon.awssdk",
-      "name": "auth",
-      "version": "2.20.3",
+      "name": "http-client-spi",
+      "version": "2.20.12",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "9b95765c9b0e58b10054ca69f867766155790ea4394338440a5b40a85ad3631a"
+          "content": "b64ac1ace09ee0d6c9f8c3b5d79755ecb59d3d7f0143391bd26b7618d9bafc07"
         },
         {
           "alg": "SHA-1",
-          "content": "ca1dc5f3a82201fc09fbd4e06a6b35e9b9eae411"
+          "content": "7eb5de03797c78211a8290767a31a2b4b7c51387"
         },
         {
           "alg": "MD5",
-          "content": "127717a704c30eef60b613143a5018bd"
+          "content": "e3176dd72d2c8065121ccc8714974c4e"
         }
       ]
     },
@@ -809,65 +914,23 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:annotations:2.20.3",
+      "bom-ref": "software.amazon.awssdk:third-party-jackson-core:2.20.12",
       "type": "library",
       "group": "software.amazon.awssdk",
-      "name": "annotations",
-      "version": "2.20.3",
+      "name": "third-party-jackson-core",
+      "version": "2.20.12",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "6a3075a663dde40caa8f919a04863b2d942f77069219d1b3ad0acb9c23f35623"
+          "content": "6f8f37ca20bc482e05f6a950ff853dc828137dffc221a67cbaaefb5ff1b9f82c"
         },
         {
           "alg": "SHA-1",
-          "content": "760380af73dfcfb4058b3a829f35fc3acec307e5"
+          "content": "d1080fd1b4f34512cd8d655fed4ca2273849bb31"
         },
         {
           "alg": "MD5",
-          "content": "21addf516254ca2cb2204c57f1421744"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:json-utils:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "json-utils",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "3c823768d4c51926c943501d427ad029c8d7d011c2cdbf8ec297730ff2bc83b9"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f99229371a94f8e0d5565af1b49d614812f42d32"
-        },
-        {
-          "alg": "MD5",
-          "content": "bcf0f26293790a41eecbf89a8793432e"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:sdk-core:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "sdk-core",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "d9a8a85737419be828474b5588d9f9e4b824c01640f5db8df0fe2c2120290c1d"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "79caf40fed827f8859e72f16b7ddf37e6c14d48a"
-        },
-        {
-          "alg": "MD5",
-          "content": "1ab59a6e30c1fea5d131ffb11f8be184"
+          "content": "b38bc7303980117c46abd5c09b09b0d1"
         }
       ]
     },
@@ -931,6 +994,27 @@
         {
           "alg": "MD5",
           "content": "52ee373b84e39570c78c0815006375bc"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:auth:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "auth",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7914890e198a367f151eaf799c28bdea0a0fb4c2cdc03f10e56dec39c98e70f1"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4ee7797c96c83e32abb2641f923eb15885b7404d"
+        },
+        {
+          "alg": "MD5",
+          "content": "43ae2f3b08786d36862bea9b8df0b799"
         }
       ]
     },
@@ -1145,27 +1229,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:endpoints-spi:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "endpoints-spi",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "2a8e6e28c96bfd534885701a258989ad45ddbf1c0dd6ad94439fd2809b7f8676"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "85a6f691ca1bcbec26170ab455dedec95c7e4cfa"
-        },
-        {
-          "alg": "MD5",
-          "content": "cbee50833320ac2baff32aea87da0ffc"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.codehaus.woodstox:stax2-api:4.2.1",
       "type": "library",
       "group": "org.codehaus.woodstox",
@@ -1292,48 +1355,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:metrics-spi:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "metrics-spi",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "7a8b33e260e550d65ef97eec029a1d46b8994987cefe5b5695cab0371b6f5861"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "b515c980bc892439cfacccfad83f02d6f361fbae"
-        },
-        {
-          "alg": "MD5",
-          "content": "06eb281dcb61b4b1f7b81f64bfcafcd1"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:profiles:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "profiles",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "96a60d6d98f8cb94b2f92e59a60a499e0ede550e3a10f6873d41435fc894f410"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "e2d1f7cac3d51047f24894242dfbc90f32470d3b"
-        },
-        {
-          "alg": "MD5",
-          "content": "7b870d5cb81f5886d5291c4f14c10341"
-        }
-      ]
-    },
-    {
       "bom-ref": "commons-beanutils:commons-beanutils:1.9.4",
       "type": "library",
       "group": "commons-beanutils",
@@ -1351,6 +1372,27 @@
         {
           "alg": "MD5",
           "content": "07dc532ee316fe1f2f0323e9bd2f8df4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:utils:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "utils",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "08aa131d20c5069b325cae2e680dcae9f96e69aacfca64328cd6c5768d3ecc86"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "dc71fe5c9ce1bbc737ec703315934fac57b7c87f"
+        },
+        {
+          "alg": "MD5",
+          "content": "61635581f21dc3f0390bbfce3c3b62ce"
         }
       ]
     },
@@ -1376,27 +1418,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:http-client-spi:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "http-client-spi",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "13ad044bb60f57c906df529a1bb570477a21914c402660e4655086233ed51b99"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "c6a5e716221b8d8256b50bbcc21751cb76e9982f"
-        },
-        {
-          "alg": "MD5",
-          "content": "2c4a6c4814b6539e3f3a872761b4277e"
-        }
-      ]
-    },
-    {
       "bom-ref": "jakarta.inject:jakarta.inject-api:1.0.5",
       "type": "library",
       "group": "jakarta.inject",
@@ -1414,27 +1435,6 @@
         {
           "alg": "MD5",
           "content": "2ef9822768fe9a182d21ae64f48a81ad"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:third-party-jackson-core:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "third-party-jackson-core",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "ec075d935a866600c2af3683a4efac032f643bfc1b106b92e36c229d500bf6b8"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "040419bb27b094a7a6f7241fe95d163bbc0238ac"
-        },
-        {
-          "alg": "MD5",
-          "content": "3be8cf3eff27af1e2ad819d1096231bd"
         }
       ]
     },
@@ -1572,27 +1572,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:ses:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "ses",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "32a74cca05d0c0932d59c3059f6ab5edd2ef6aa582d4c6d9e3c82f7082a96e00"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "7336891ecde5ec5dfaa279007eb02d5b302cb107"
-        },
-        {
-          "alg": "MD5",
-          "content": "7164a2415966cf5304d2a3990d2b7895"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.glassfish.hk2.external:jakarta.inject:2.6.1",
       "type": "library",
       "group": "org.glassfish.hk2.external",
@@ -1631,48 +1610,6 @@
         {
           "alg": "MD5",
           "content": "dfd358720393d83b01747928db6e3912"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:sqs:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "sqs",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "a5a8fcbfcfc69b087faec2cbe98aaad5654f6c9aaa64db5e7a601d416a67882c"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "8bc7fb57d52581cdf08fd54af0d5f3a1d9e307d7"
-        },
-        {
-          "alg": "MD5",
-          "content": "278ae1ba752e01b3edfc5aca8960a9b9"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:aws-xml-protocol:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "aws-xml-protocol",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "6cc9a33151755aadcaf691d160380e73447f48ebf17886d3b54d24acdf2652cd"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "23efa07aa4b2a79f5b3926df5f25821188f428d1"
-        },
-        {
-          "alg": "MD5",
-          "content": "989478fc74c17967b2406d81d5f310c4"
         }
       ]
     },
@@ -1761,27 +1698,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:aws-query-protocol:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "aws-query-protocol",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "88edfbc789a79db8496300419cc35b849bf17a47fc9d9415e08029f1ed6e768e"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "8bf1efaeb263bba675c5ec4d57fe0f2123fca10b"
-        },
-        {
-          "alg": "MD5",
-          "content": "6fef11d680ddb18f16aa14bb6b067603"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.springframework:spring-context-support:5.3.23",
       "type": "library",
       "group": "org.springframework",
@@ -1841,27 +1757,6 @@
         {
           "alg": "MD5",
           "content": "3757f6dd7a5829260e057f3852ef7b58"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:arns:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "arns",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "9dad4d5d37999b663bb59081af9da36d0fc452346b05a4de25e43e1c5963ce3a"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f3432a67697a6a9e0245b119fa5fe092d4b80e10"
-        },
-        {
-          "alg": "MD5",
-          "content": "c24fff96a5c4359ae426863c1d8573ea"
         }
       ]
     },
@@ -2034,27 +1929,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:aws-json-protocol:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "aws-json-protocol",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "7dee2c4bd341d16f861be6c5a14def3c79a9235c71d0901d19df6b11858016fb"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "f3a3773ac5512502d9056f91dedc1b567b02ebfa"
-        },
-        {
-          "alg": "MD5",
-          "content": "d661c9efac5c01ac0e0cb36f9770051e"
-        }
-      ]
-    },
-    {
       "bom-ref": "com.onelogin:java-saml:2.9.0",
       "type": "library",
       "group": "com.onelogin",
@@ -2177,6 +2051,48 @@
         {
           "alg": "MD5",
           "content": "a8ef11f7de27f4eaf3766b5315a6f8d7"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:arns:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "arns",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a8d380244032ad3613661c83178fe75b0be677ee0a65a1e9d1473223bfcc3f22"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "8114cde9248c72c1eb38c1ebeaa108db4f508786"
+        },
+        {
+          "alg": "MD5",
+          "content": "4bbd3c98428a0daf438159e39fc15e14"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:aws-xml-protocol:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "aws-xml-protocol",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c01b212ce07674228ece2babd4b6295a5855829961ba2ecca373bcf47262143"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "62b9245f010191f63df129a584eed6603e1f8dc4"
+        },
+        {
+          "alg": "MD5",
+          "content": "91406009587e7cd5fd9d57e0f6e1dc84"
         }
       ]
     },
@@ -2433,6 +2349,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:aws-query-protocol:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "aws-query-protocol",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c0f8442df70b9696ce660ae6e0fe4f97589450d511d6424c4e0ab58c2f829194"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "b5fe6fc8e66c68f7b78a08002e126f858b7d36f0"
+        },
+        {
+          "alg": "MD5",
+          "content": "c8db0001f3ab1d527d7f6c55e7bdd668"
+        }
+      ]
+    },
+    {
       "bom-ref": "org.glassfish.jersey.containers:jersey-container-servlet:2.37",
       "type": "library",
       "group": "org.glassfish.jersey.containers",
@@ -2475,27 +2412,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:protocol-core:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "protocol-core",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "ac15a107439c448c1407b253681152e1c9ca5d7e9f1c45fa1e63f7fce8be314a"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "d485672ef7781fabe8964ea706ba25315c0b6621"
-        },
-        {
-          "alg": "MD5",
-          "content": "8694a2713a4636638cc5cb4dd0558a72"
-        }
-      ]
-    },
-    {
       "bom-ref": "org.springframework.security:spring-security-crypto:5.7.5",
       "type": "library",
       "group": "org.springframework.security",
@@ -2534,27 +2450,6 @@
         {
           "alg": "MD5",
           "content": "de743b404e22bcb7d1048febe14c1c85"
-        }
-      ]
-    },
-    {
-      "bom-ref": "software.amazon.awssdk:dynamodb:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "dynamodb",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "559b07b7df8efca05d1c79070dc05bf2119bf80aff36f4f5e52b982b0883b4a3"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "ef9001926ebf81832227091f83218044ce2041ad"
-        },
-        {
-          "alg": "MD5",
-          "content": "65592ff849379c669475e79e983ba994"
         }
       ]
     },
@@ -2790,6 +2685,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:aws-core:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "aws-core",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a3b06492033e4db135c394ed98d8e7c8f7ba50b5f5bea83bc1893b89c7adf886"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "2c80555d9e9c9de3a6e939b60575df58323fd0b7"
+        },
+        {
+          "alg": "MD5",
+          "content": "adda6f7a43d5a2279bfffd9c4d66a99a"
+        }
+      ]
+    },
+    {
       "bom-ref": "org.springframework:spring-core:5.3.23",
       "type": "library",
       "group": "org.springframework",
@@ -3021,27 +2937,6 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:s3:2.20.3",
-      "type": "library",
-      "group": "software.amazon.awssdk",
-      "name": "s3",
-      "version": "2.20.3",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "65a59f2aa774b99a3d53541dbfb97f7cfa80a3fb9258af1910156ae9a9a0feea"
-        },
-        {
-          "alg": "SHA-1",
-          "content": "6a848420680f75c84aa1ea4fb369c58fd26c2043"
-        },
-        {
-          "alg": "MD5",
-          "content": "b2c72922047bb9bb801803c3dee17100"
-        }
-      ]
-    },
-    {
       "bom-ref": "jakarta.annotation:jakarta.annotation-api:1.3.5",
       "type": "library",
       "group": "jakarta.annotation",
@@ -3105,23 +3000,23 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:applicationautoscaling:2.20.3",
+      "bom-ref": "software.amazon.awssdk:s3:2.20.12",
       "type": "library",
       "group": "software.amazon.awssdk",
-      "name": "applicationautoscaling",
-      "version": "2.20.3",
+      "name": "s3",
+      "version": "2.20.12",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "8d60e874be6c98ad95e63806c4468579879b56be778b084beb376a2c73c43880"
+          "content": "5fdb06e9a4e0142cab637a1222558247de99f503ad3fb983ef1065630c3a2e22"
         },
         {
           "alg": "SHA-1",
-          "content": "7c302f9670b34f8e5bfca940a60fb86c3da1052f"
+          "content": "d7ec9b21fd884051fa5f01eb549858156c1fdcbd"
         },
         {
           "alg": "MD5",
-          "content": "f179422358d5917553876e012425ed96"
+          "content": "97050adc35e44352682d55663c0f940c"
         }
       ]
     },
@@ -3189,23 +3084,23 @@
       ]
     },
     {
-      "bom-ref": "software.amazon.awssdk:aws-core:2.20.3",
+      "bom-ref": "software.amazon.awssdk:dynamodb:2.20.12",
       "type": "library",
       "group": "software.amazon.awssdk",
-      "name": "aws-core",
-      "version": "2.20.3",
+      "name": "dynamodb",
+      "version": "2.20.12",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "1954eeb6969afd5367c3f3f41b2de9ad89c995f8de6d51934dc50d916b31d462"
+          "content": "842d6f50e327c7bf1a9610966daab45c698be0ea29f4061790665064d69b86a6"
         },
         {
           "alg": "SHA-1",
-          "content": "6238e900d88ce7474676c8f4febe717b272bf4dd"
+          "content": "949f0c5431f40b43debdbcc5b81a8e82be45c2a9"
         },
         {
           "alg": "MD5",
-          "content": "8281a58ad602db4128402f549917c7ad"
+          "content": "84afbc5d592d124f6d01e96353a64986"
         }
       ]
     },
@@ -3448,6 +3343,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:sqs:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "sqs",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "875147126df0af4ff1515fdd9843711f749b2f9efbb288710ec9e58ee205bf0f"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "382b4e310ae16898d65375f13e4be0feab781d2e"
+        },
+        {
+          "alg": "MD5",
+          "content": "9729f256d8439075227221b83b25a488"
+        }
+      ]
+    },
+    {
       "bom-ref": "org.apache.santuario:xmlsec:2.2.3",
       "type": "library",
       "group": "org.apache.santuario",
@@ -3465,6 +3381,48 @@
         {
           "alg": "MD5",
           "content": "3ce56109cd24b76243c3846e42b4a493"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:ses:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "ses",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a1a2bd86fb24666737a89e630fe522c7d5326e9dcce0a706d7c2aa6cbaa10fce"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "c148951681d957e48601bce6e4e6463b4031a347"
+        },
+        {
+          "alg": "MD5",
+          "content": "0808ecffde507c0d580fd81bc9e9a749"
+        }
+      ]
+    },
+    {
+      "bom-ref": "software.amazon.awssdk:applicationautoscaling:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "applicationautoscaling",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a2ffecab74c2f1b8d9eab114f2fd1e2343429ca9d3f9d2be3f289137fa43de52"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "1b09210e6645082a030f48b163447ed6a37c4b2c"
+        },
+        {
+          "alg": "MD5",
+          "content": "6c3dea6136412c6fc5b08044819aa747"
         }
       ]
     },
@@ -3742,6 +3700,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:aws-json-protocol:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "aws-json-protocol",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6051704f4bb538defa45a5ad35c057190036df86d254a8a3dc9144e33601ce45"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "29bd9494bfe82d83a8da5bcfc34f1c1b75b7b928"
+        },
+        {
+          "alg": "MD5",
+          "content": "a13eaaa66cc89dd2047471d0464f2319"
+        }
+      ]
+    },
+    {
       "bom-ref": "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3",
       "type": "library",
       "group": "org.apache.httpcomponents.core5",
@@ -3805,6 +3784,27 @@
       ]
     },
     {
+      "bom-ref": "software.amazon.awssdk:protocol-core:2.20.12",
+      "type": "library",
+      "group": "software.amazon.awssdk",
+      "name": "protocol-core",
+      "version": "2.20.12",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b158bd7cb861dbcaf3f8d77427f8a587df9f76040d30519c07e0ca3cec3f9927"
+        },
+        {
+          "alg": "SHA-1",
+          "content": "4b4149a2d16909817346af9e1196cfd6e69a525a"
+        },
+        {
+          "alg": "MD5",
+          "content": "4d6f4c5fb0f2021ff4dd3f1fe8a32791"
+        }
+      ]
+    },
+    {
       "bom-ref": "org.springframework.boot:spring-boot:2.7.5",
       "type": "library",
       "group": "org.springframework.boot",
@@ -3849,119 +3849,17 @@
   ],
   "dependencies": [
     {
-      "ref": "com.vladsch.flexmark:flexmark-ext-autolink:0.64.0",
+      "ref": "com.sun.mail:jakarta.mail:1.6.7",
       "dependsOn": [
-        "org.nibor.autolink:autolink:0.6.0"
+        "com.sun.activation:jakarta.activation:1.2.1"
       ]
     },
     {
-      "ref": "software.amazon.awssdk:sdk-core:2.20.3",
+      "ref": "software.amazon.awssdk:dynamodb:2.20.12",
       "dependsOn": [
-        "software.amazon.awssdk:endpoints-spi:2.20.3",
-        "software.amazon.awssdk:metrics-spi:2.20.3"
-      ]
-    },
-    {
-      "ref": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0-rc2",
-      "dependsOn": [
-        "org.yaml:snakeyaml:1.33"
-      ]
-    },
-    {
-      "ref": "software.amazon.awssdk:s3:2.20.3",
-      "dependsOn": [
-        "software.amazon.awssdk:aws-xml-protocol:2.20.3",
-        "software.amazon.awssdk:arns:2.20.3"
-      ]
-    },
-    {
-      "ref": "org.apache.lucene:lucene-spatial-extras:9.4.0",
-      "dependsOn": [
-        "org.locationtech.spatial4j:spatial4j:0.8",
-        "io.sgr:s2-geometry-library-java:1.0.0",
-        "org.apache.lucene:lucene-spatial3d:9.4.0"
-      ]
-    },
-    {
-      "ref": "com.erudika:para-core:1.47.2",
-      "dependsOn": [
-        "com.vladsch.flexmark:flexmark:0.64.0",
-        "com.typesafe:config:1.4.2",
-        "commons-beanutils:commons-beanutils:1.9.4",
-        "ch.qos.logback:logback-core:1.2.11",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.14.0-rc2",
-        "org.slf4j:slf4j-api:1.7.36",
-        "javax.validation:validation-api:2.0.1.Final",
-        "com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.0",
-        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.14.0-rc2",
-        "com.fasterxml.jackson.core:jackson-annotations:2.14.0-rc2",
-        "com.vladsch.flexmark:flexmark-ext-emoji:0.64.0",
-        "com.vladsch.flexmark:flexmark-ext-tables:0.64.0",
-        "javax.el:javax.el-api:3.0.1-b06",
-        "com.vladsch.flexmark:flexmark-ext-autolink:0.64.0",
-        "org.codehaus.woodstox:stax2-api:4.2.1",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.0-rc2",
-        "software.amazon.awssdk:auth:2.20.3",
-        "io.github.hakky54:sslcontext-kickstart:7.4.7",
-        "org.glassfish.web:javax.el:2.2.6",
-        "jakarta.inject:jakarta.inject-api:1.0.5",
-        "com.samskivert:jmustache:1.15",
-        "javax.ws.rs:javax.ws.rs-api:2.1.1",
-        "io.dropwizard.metrics:metrics-core:4.2.12",
-        "com.fasterxml.jackson.core:jackson-databind:2.14.0-rc2",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0-rc2",
-        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.14.0-rc2",
-        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.0-rc2",
-        "org.apache.commons:commons-lang3:3.12.0",
-        "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.64.0",
-        "com.vladsch.flexmark:flexmark-ext-media-tags:0.64.0",
-        "org.jsoup:jsoup:1.15.3",
-        "ch.qos.logback:logback-classic:1.2.11",
-        "io.github.classgraph:classgraph:4.8.149",
-        "org.slf4j:jul-to-slf4j:1.7.36",
-        "com.fasterxml.jackson.core:jackson-core:2.14.0-rc2",
-        "ch.qos.logback:logback-access:1.2.11",
-        "org.hibernate.validator:hibernate-validator:6.2.5.Final",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0-rc2",
-        "commons-io:commons-io:2.11.0",
-        "de.svenkubiak:jBCrypt:0.4.3",
-        "commons-codec:commons-codec:1.15",
-        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.14.0-rc2"
-      ]
-    },
-    {
-      "ref": "com.vladsch.flexmark:flexmark-util-ast:0.64.0",
-      "dependsOn": [
-        "org.jetbrains:annotations:15.0"
-      ]
-    },
-    {
-      "ref": "com.vladsch.flexmark:flexmark:0.64.0",
-      "dependsOn": [
-        "com.vladsch.flexmark:flexmark-util-html:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-ast:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-data:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-misc:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-sequence:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-builder:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-collection:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-format:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-visitor:0.64.0",
-        "com.vladsch.flexmark:flexmark-util-dependency:0.64.0"
-      ]
-    },
-    {
-      "ref": "com.erudika:para-dao-sql:1.45.8",
-      "dependsOn": [
-        "com.zaxxer:HikariCP:5.0.1",
-        "com.h2database:h2:2.1.214",
-        "org.xerial:sqlite-jdbc:3.39.3.0"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty:jetty-security:9.4.49.v20220914",
-      "dependsOn": [
-        "org.eclipse.jetty:jetty-server:9.4.49.v20220914"
+        "software.amazon.awssdk:aws-core:2.20.12",
+        "software.amazon.awssdk:aws-json-protocol:2.20.12",
+        "software.amazon.awssdk:protocol-core:2.20.12"
       ]
     },
     {
@@ -3971,15 +3869,28 @@
       ]
     },
     {
-      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
+      "ref": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
       "dependsOn": [
-        "jakarta.activation:jakarta.activation-api:1.2.1"
+        "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3"
       ]
     },
     {
-      "ref": "software.amazon.awssdk:json-utils:2.20.3",
+      "ref": "software.amazon.awssdk:auth:2.20.12",
       "dependsOn": [
-        "software.amazon.awssdk:third-party-jackson-core:2.20.3"
+        "software.amazon.awssdk:http-client-spi:2.20.12",
+        "software.amazon.eventstream:eventstream:1.0.1",
+        "software.amazon.awssdk:utils:2.20.12",
+        "software.amazon.awssdk:annotations:2.20.12",
+        "software.amazon.awssdk:profiles:2.20.12",
+        "software.amazon.awssdk:json-utils:2.20.12",
+        "software.amazon.awssdk:regions:2.20.12",
+        "software.amazon.awssdk:sdk-core:2.20.12"
+      ]
+    },
+    {
+      "ref": "com.vladsch.flexmark:flexmark-ext-autolink:0.64.0",
+      "dependsOn": [
+        "org.nibor.autolink:autolink:0.6.0"
       ]
     },
     {
@@ -3990,160 +3901,10 @@
       ]
     },
     {
-      "ref": "org.glassfish.hk2:hk2-locator:2.6.1",
+      "ref": "org.eclipse.jetty:jetty-servlet:9.4.49.v20220914",
       "dependsOn": [
-        "org.glassfish.hk2:hk2-utils:2.6.1",
-        "org.glassfish.hk2.external:aopalliance-repackaged:2.6.1",
-        "org.glassfish.hk2:hk2-api:2.6.1"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter:2.7.5",
-      "dependsOn": [
-        "org.springframework.boot:spring-boot-autoconfigure:2.7.5",
-        "org.springframework.boot:spring-boot-starter-logging:2.7.5",
-        "org.springframework.boot:spring-boot:2.7.5"
-      ]
-    },
-    {
-      "ref": "com.erudika:para-jar:1.47.2",
-      "dependsOn": [
-        "com.erudika:para-server:1.47.2",
-        "com.erudika:para-search-lucene:1.45.8",
-        "com.erudika:para-dao-sql:1.45.8"
-      ]
-    },
-    {
-      "ref": "com.nimbusds:nimbus-jose-jwt:9.25.6",
-      "dependsOn": [
-        "com.github.stephenc.jcip:jcip-annotations:1.0-1"
-      ]
-    },
-    {
-      "ref": "org.springframework.security:spring-security-web:5.7.5",
-      "dependsOn": [
-        "org.springframework:spring-web:5.3.23"
-      ]
-    },
-    {
-      "ref": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
-      "dependsOn": [
-        "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3"
-      ]
-    },
-    {
-      "ref": "com.vladsch.flexmark:flexmark-ext-emoji:0.64.0",
-      "dependsOn": [
-        "com.vladsch.flexmark:flexmark-util:0.64.0"
-      ]
-    },
-    {
-      "ref": "com.erudika:para-server:1.47.2",
-      "dependsOn": [
-        "org.glassfish.jersey.inject:jersey-hk2:2.37",
-        "io.dropwizard.metrics:metrics-graphite:4.2.12",
-        "org.springframework.security:spring-security-web:5.7.5",
-        "org.apache.httpcomponents.client5:httpclient5:5.1.3",
-        "software.amazon.awssdk:ses:2.20.3",
-        "com.unboundid:unboundid-ldapsdk:6.0.6",
-        "javax.servlet:javax.servlet-api:4.0.1",
-        "software.amazon.awssdk:applicationautoscaling:2.20.3",
-        "org.springframework.security:spring-security-config:5.7.5",
-        "software.amazon.awssdk:dynamodb:2.20.3",
-        "com.fasterxml.woodstox:woodstox-core:6.4.0",
-        "org.glassfish.jersey.containers:jersey-container-servlet:2.37",
-        "org.apache.httpcomponents.core5:httpcore5:5.1.4",
-        "software.amazon.awssdk:sqs:2.20.3",
-        "org.springframework.ldap:spring-ldap-core:2.4.1",
-        "io.dropwizard.metrics:metrics-jmx:4.2.12",
-        "com.google.inject:guice:5.1.0",
-        "org.springframework.security:spring-security-core:5.7.5",
-        "org.springframework.boot:spring-boot-starter-jetty:2.7.5",
-        "com.github.ben-manes.caffeine:caffeine:3.1.1",
-        "org.springframework.boot:spring-boot-starter-web:2.7.5",
-        "com.nimbusds:nimbus-jose-jwt:9.25.6",
-        "com.onelogin:java-saml:2.9.0",
-        "org.springframework.security:spring-security-ldap:5.7.5",
-        "org.glassfish.jersey.core:jersey-server:2.37",
-        "org.springframework.boot:spring-boot-starter-mail:2.7.5",
-        "software.amazon.awssdk:s3:2.20.3"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jersey.core:jersey-server:2.37",
-      "dependsOn": [
-        "org.glassfish.jersey.core:jersey-client:2.37",
-        "org.glassfish.hk2.external:jakarta.inject:2.6.1",
-        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
-        "org.glassfish.jersey.core:jersey-common:2.37",
-        "jakarta.annotation:jakarta.annotation-api:1.3.5"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-mail:2.7.5",
-      "dependsOn": [
-        "org.springframework:spring-context-support:5.3.23",
-        "com.sun.mail:jakarta.mail:1.6.7"
-      ]
-    },
-    {
-      "ref": "org.springframework.security:spring-security-core:5.7.5",
-      "dependsOn": [
-        "org.springframework:spring-context:5.3.23",
-        "org.springframework:spring-expression:5.3.23",
-        "org.springframework:spring-aop:5.3.23",
-        "org.springframework:spring-beans:5.3.23",
-        "org.springframework.security:spring-security-crypto:5.7.5",
-        "org.springframework:spring-core:5.3.23"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jersey.containers:jersey-container-servlet:2.37",
-      "dependsOn": [
-        "org.glassfish.jersey.containers:jersey-container-servlet-core:2.37"
-      ]
-    },
-    {
-      "ref": "org.apache.santuario:xmlsec:2.2.3",
-      "dependsOn": [
-        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
-      ]
-    },
-    {
-      "ref": "com.vladsch.flexmark:flexmark-util:0.64.0",
-      "dependsOn": [
-        "com.vladsch.flexmark:flexmark-util-options:0.64.0"
-      ]
-    },
-    {
-      "ref": "software.amazon.awssdk:ses:2.20.3",
-      "dependsOn": [
-        "software.amazon.awssdk:aws-query-protocol:2.20.3"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:30.1-jre",
-      "dependsOn": [
-        "com.google.j2objc:j2objc-annotations:1.3",
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.guava:failureaccess:1.0.1",
-        "com.google.code.findbugs:jsr305:3.0.2"
-      ]
-    },
-    {
-      "ref": "com.erudika:para-search-lucene:1.45.8",
-      "dependsOn": [
-        "org.apache.lucene:lucene-core:9.4.0",
-        "org.apache.lucene:lucene-spatial-extras:9.4.0",
-        "org.apache.lucene:lucene-backward-codecs:9.4.0",
-        "org.apache.lucene:lucene-queryparser:9.4.0",
-        "org.apache.lucene:lucene-analysis-common:9.4.0"
-      ]
-    },
-    {
-      "ref": "com.sun.mail:jakarta.mail:1.6.7",
-      "dependsOn": [
-        "com.sun.activation:jakarta.activation:1.2.1"
+        "org.eclipse.jetty:jetty-security:9.4.49.v20220914",
+        "org.eclipse.jetty:jetty-util-ajax:9.4.49.v20220914"
       ]
     },
     {
@@ -4156,93 +3917,59 @@
       ]
     },
     {
-      "ref": "org.eclipse.jetty:jetty-webapp:9.4.49.v20220914",
+      "ref": "com.vladsch.flexmark:flexmark-ext-emoji:0.64.0",
       "dependsOn": [
-        "org.eclipse.jetty:jetty-xml:9.4.49.v20220914",
-        "org.eclipse.jetty:jetty-servlet:9.4.49.v20220914"
+        "com.vladsch.flexmark:flexmark-util:0.64.0"
       ]
     },
     {
-      "ref": "org.springframework.security:spring-security-ldap:5.7.5",
+      "ref": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0-rc2",
       "dependsOn": [
-        "org.springframework:spring-tx:5.3.23"
-      ]
-    },
-    {
-      "ref": "software.amazon.awssdk:auth:2.20.3",
-      "dependsOn": [
-        "software.amazon.awssdk:json-utils:2.20.3",
-        "software.amazon.awssdk:sdk-core:2.20.3",
-        "software.amazon.eventstream:eventstream:1.0.1",
-        "software.amazon.awssdk:profiles:2.20.3",
-        "software.amazon.awssdk:http-client-spi:2.20.3",
-        "software.amazon.awssdk:utils:2.20.3",
-        "software.amazon.awssdk:regions:2.20.3",
-        "software.amazon.awssdk:annotations:2.20.3"
-      ]
-    },
-    {
-      "ref": "software.amazon.awssdk:utils:2.20.3",
-      "dependsOn": [
-        "org.reactivestreams:reactive-streams:1.0.3"
+        "org.yaml:snakeyaml:1.33"
       ]
     },
     {
       "ref": "com.google.inject:guice:5.1.0",
       "dependsOn": [
+        "javax.inject:javax.inject:1",
         "com.google.guava:guava:30.1-jre",
-        "aopalliance:aopalliance:1.0",
-        "javax.inject:javax.inject:1"
+        "aopalliance:aopalliance:1.0"
       ]
     },
     {
-      "ref": "io.dropwizard.metrics:metrics-graphite:4.2.12",
+      "ref": "org.springframework.boot:spring-boot-starter-jetty:2.7.5",
       "dependsOn": [
-        "com.rabbitmq:amqp-client:5.15.0"
+        "jakarta.websocket:jakarta.websocket-api:1.1.2",
+        "org.eclipse.jetty:jetty-webapp:9.4.49.v20220914",
+        "jakarta.servlet:jakarta.servlet-api:4.0.4",
+        "org.apache.tomcat.embed:tomcat-embed-el:9.0.68",
+        "org.eclipse.jetty:jetty-servlets:9.4.49.v20220914"
       ]
     },
     {
-      "ref": "org.eclipse.jetty:jetty-servlet:9.4.49.v20220914",
+      "ref": "com.erudika:para-jar:1.47.2",
       "dependsOn": [
-        "org.eclipse.jetty:jetty-security:9.4.49.v20220914",
-        "org.eclipse.jetty:jetty-util-ajax:9.4.49.v20220914"
+        "com.erudika:para-search-lucene:1.45.8",
+        "com.erudika:para-dao-sql:1.45.8",
+        "com.erudika:para-server:1.47.2"
       ]
     },
     {
-      "ref": "org.apache.lucene:lucene-queryparser:9.4.0",
+      "ref": "org.glassfish.jersey.containers:jersey-container-servlet:2.37",
       "dependsOn": [
-        "org.apache.lucene:lucene-sandbox:9.4.0",
-        "org.apache.lucene:lucene-queries:9.4.0"
+        "org.glassfish.jersey.containers:jersey-container-servlet-core:2.37"
       ]
     },
     {
-      "ref": "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+      "ref": "com.vladsch.flexmark:flexmark-util-ast:0.64.0",
       "dependsOn": [
-        "com.fasterxml:classmate:1.5.1",
-        "org.jboss.logging:jboss-logging:3.4.1.Final",
-        "jakarta.validation:jakarta.validation-api:2.0.2"
+        "org.jetbrains:annotations:15.0"
       ]
     },
     {
-      "ref": "commons-beanutils:commons-beanutils:1.9.4",
+      "ref": "com.vladsch.flexmark:flexmark-util:0.64.0",
       "dependsOn": [
-        "commons-collections:commons-collections:3.2.2"
-      ]
-    },
-    {
-      "ref": "software.amazon.awssdk:dynamodb:2.20.3",
-      "dependsOn": [
-        "software.amazon.awssdk:aws-json-protocol:2.20.3",
-        "software.amazon.awssdk:protocol-core:2.20.3",
-        "software.amazon.awssdk:aws-core:2.20.3"
-      ]
-    },
-    {
-      "ref": "com.onelogin:java-saml:2.9.0",
-      "dependsOn": [
-        "com.onelogin:java-saml-core:2.9.0",
-        "joda-time:joda-time:2.10.6",
-        "org.apache.santuario:xmlsec:2.2.3"
+        "com.vladsch.flexmark:flexmark-util-options:0.64.0"
       ]
     },
     {
@@ -4254,13 +3981,72 @@
       ]
     },
     {
-      "ref": "org.springframework.boot:spring-boot-starter-jetty:2.7.5",
+      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2",
       "dependsOn": [
-        "org.eclipse.jetty:jetty-webapp:9.4.49.v20220914",
-        "jakarta.servlet:jakarta.servlet-api:4.0.4",
-        "org.apache.tomcat.embed:tomcat-embed-el:9.0.68",
-        "org.eclipse.jetty:jetty-servlets:9.4.49.v20220914",
-        "jakarta.websocket:jakarta.websocket-api:1.1.2"
+        "jakarta.activation:jakarta.activation-api:1.2.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.security:spring-security-web:5.7.5",
+      "dependsOn": [
+        "org.springframework:spring-web:5.3.23"
+      ]
+    },
+    {
+      "ref": "software.amazon.awssdk:utils:2.20.12",
+      "dependsOn": [
+        "org.reactivestreams:reactive-streams:1.0.3"
+      ]
+    },
+    {
+      "ref": "software.amazon.awssdk:json-utils:2.20.12",
+      "dependsOn": [
+        "software.amazon.awssdk:third-party-jackson-core:2.20.12"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:30.1-jre",
+      "dependsOn": [
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    {
+      "ref": "com.nimbusds:nimbus-jose-jwt:9.25.6",
+      "dependsOn": [
+        "com.github.stephenc.jcip:jcip-annotations:1.0-1"
+      ]
+    },
+    {
+      "ref": "commons-beanutils:commons-beanutils:1.9.4",
+      "dependsOn": [
+        "commons-collections:commons-collections:3.2.2"
+      ]
+    },
+    {
+      "ref": "com.erudika:para-dao-sql:1.45.8",
+      "dependsOn": [
+        "com.zaxxer:HikariCP:5.0.1",
+        "com.h2database:h2:2.1.214",
+        "org.xerial:sqlite-jdbc:3.39.3.0"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter:2.7.5",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-autoconfigure:2.7.5",
+        "org.springframework.boot:spring-boot-starter-logging:2.7.5",
+        "org.springframework.boot:spring-boot:2.7.5"
+      ]
+    },
+    {
+      "ref": "org.apache.lucene:lucene-spatial-extras:9.4.0",
+      "dependsOn": [
+        "org.locationtech.spatial4j:spatial4j:0.8",
+        "io.sgr:s2-geometry-library-java:1.0.0",
+        "org.apache.lucene:lucene-spatial3d:9.4.0"
       ]
     },
     {
@@ -4268,6 +4054,220 @@
       "dependsOn": [
         "org.checkerframework:checker-qual:3.22.0",
         "com.google.errorprone:error_prone_annotations:2.14.0"
+      ]
+    },
+    {
+      "ref": "org.apache.santuario:xmlsec:2.2.3",
+      "dependsOn": [
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.2"
+      ]
+    },
+    {
+      "ref": "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+      "dependsOn": [
+        "org.jboss.logging:jboss-logging:3.4.1.Final",
+        "jakarta.validation:jakarta.validation-api:2.0.2",
+        "com.fasterxml:classmate:1.5.1"
+      ]
+    },
+    {
+      "ref": "com.erudika:para-search-lucene:1.45.8",
+      "dependsOn": [
+        "org.apache.lucene:lucene-analysis-common:9.4.0",
+        "org.apache.lucene:lucene-core:9.4.0",
+        "org.apache.lucene:lucene-spatial-extras:9.4.0",
+        "org.apache.lucene:lucene-backward-codecs:9.4.0",
+        "org.apache.lucene:lucene-queryparser:9.4.0"
+      ]
+    },
+    {
+      "ref": "org.springframework.security:spring-security-core:5.7.5",
+      "dependsOn": [
+        "org.springframework:spring-core:5.3.23",
+        "org.springframework:spring-context:5.3.23",
+        "org.springframework:spring-expression:5.3.23",
+        "org.springframework:spring-aop:5.3.23",
+        "org.springframework:spring-beans:5.3.23",
+        "org.springframework.security:spring-security-crypto:5.7.5"
+      ]
+    },
+    {
+      "ref": "software.amazon.awssdk:s3:2.20.12",
+      "dependsOn": [
+        "software.amazon.awssdk:arns:2.20.12",
+        "software.amazon.awssdk:aws-xml-protocol:2.20.12"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty:jetty-security:9.4.49.v20220914",
+      "dependsOn": [
+        "org.eclipse.jetty:jetty-server:9.4.49.v20220914"
+      ]
+    },
+    {
+      "ref": "io.dropwizard.metrics:metrics-graphite:4.2.12",
+      "dependsOn": [
+        "com.rabbitmq:amqp-client:5.15.0"
+      ]
+    },
+    {
+      "ref": "com.vladsch.flexmark:flexmark:0.64.0",
+      "dependsOn": [
+        "com.vladsch.flexmark:flexmark-util-misc:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-sequence:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-builder:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-format:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-visitor:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-dependency:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-html:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-ast:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-collection:0.64.0",
+        "com.vladsch.flexmark:flexmark-util-data:0.64.0"
+      ]
+    },
+    {
+      "ref": "software.amazon.awssdk:sdk-core:2.20.12",
+      "dependsOn": [
+        "software.amazon.awssdk:metrics-spi:2.20.12",
+        "software.amazon.awssdk:endpoints-spi:2.20.12"
+      ]
+    },
+    {
+      "ref": "org.glassfish.hk2:hk2-locator:2.6.1",
+      "dependsOn": [
+        "org.glassfish.hk2:hk2-api:2.6.1",
+        "org.glassfish.hk2:hk2-utils:2.6.1",
+        "org.glassfish.hk2.external:aopalliance-repackaged:2.6.1"
+      ]
+    },
+    {
+      "ref": "com.erudika:para-server:1.47.2",
+      "dependsOn": [
+        "com.google.inject:guice:5.1.0",
+        "org.glassfish.jersey.core:jersey-server:2.37",
+        "org.springframework.security:spring-security-ldap:5.7.5",
+        "software.amazon.awssdk:dynamodb:2.20.12",
+        "software.amazon.awssdk:sqs:2.20.12",
+        "com.nimbusds:nimbus-jose-jwt:9.25.6",
+        "org.springframework.boot:spring-boot-starter-mail:2.7.5",
+        "com.onelogin:java-saml:2.9.0",
+        "org.springframework.security:spring-security-config:5.7.5",
+        "software.amazon.awssdk:applicationautoscaling:2.20.12",
+        "io.dropwizard.metrics:metrics-graphite:4.2.12",
+        "software.amazon.awssdk:s3:2.20.12",
+        "org.springframework.boot:spring-boot-starter-web:2.7.5",
+        "org.springframework.ldap:spring-ldap-core:2.4.1",
+        "com.github.ben-manes.caffeine:caffeine:3.1.1",
+        "org.springframework.security:spring-security-web:5.7.5",
+        "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+        "org.glassfish.jersey.containers:jersey-container-servlet:2.37",
+        "org.springframework.security:spring-security-core:5.7.5",
+        "org.glassfish.jersey.inject:jersey-hk2:2.37",
+        "javax.servlet:javax.servlet-api:4.0.1",
+        "io.dropwizard.metrics:metrics-jmx:4.2.12",
+        "com.fasterxml.woodstox:woodstox-core:6.4.0",
+        "com.unboundid:unboundid-ldapsdk:6.0.6",
+        "org.springframework.boot:spring-boot-starter-jetty:2.7.5",
+        "org.apache.httpcomponents.core5:httpcore5:5.1.4",
+        "software.amazon.awssdk:ses:2.20.12"
+      ]
+    },
+    {
+      "ref": "org.apache.lucene:lucene-queryparser:9.4.0",
+      "dependsOn": [
+        "org.apache.lucene:lucene-sandbox:9.4.0",
+        "org.apache.lucene:lucene-queries:9.4.0"
+      ]
+    },
+    {
+      "ref": "com.onelogin:java-saml:2.9.0",
+      "dependsOn": [
+        "joda-time:joda-time:2.10.6",
+        "org.apache.santuario:xmlsec:2.2.3",
+        "com.onelogin:java-saml-core:2.9.0"
+      ]
+    },
+    {
+      "ref": "software.amazon.awssdk:ses:2.20.12",
+      "dependsOn": [
+        "software.amazon.awssdk:aws-query-protocol:2.20.12"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jetty:jetty-webapp:9.4.49.v20220914",
+      "dependsOn": [
+        "org.eclipse.jetty:jetty-xml:9.4.49.v20220914",
+        "org.eclipse.jetty:jetty-servlet:9.4.49.v20220914"
+      ]
+    },
+    {
+      "ref": "com.erudika:para-core:1.47.2",
+      "dependsOn": [
+        "com.samskivert:jmustache:1.15",
+        "com.vladsch.flexmark:flexmark-ext-gfm-tasklist:0.64.0",
+        "com.vladsch.flexmark:flexmark:0.64.0",
+        "software.amazon.awssdk:auth:2.20.12",
+        "jakarta.inject:jakarta.inject-api:1.0.5",
+        "javax.el:javax.el-api:3.0.1-b06",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "ch.qos.logback:logback-classic:1.2.11",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.0-rc2",
+        "com.fasterxml.jackson.core:jackson-databind:2.14.0-rc2",
+        "org.slf4j:slf4j-api:1.7.36",
+        "com.typesafe:config:1.4.2",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.0-rc2",
+        "ch.qos.logback:logback-access:1.2.11",
+        "com.vladsch.flexmark:flexmark-ext-media-tags:0.64.0",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.0-rc2",
+        "org.jsoup:jsoup:1.15.3",
+        "io.dropwizard.metrics:metrics-core:4.2.12",
+        "commons-codec:commons-codec:1.15",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.14.0-rc2",
+        "org.hibernate.validator:hibernate-validator:6.2.5.Final",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.14.0-rc2",
+        "org.slf4j:jul-to-slf4j:1.7.36",
+        "org.codehaus.woodstox:stax2-api:4.2.1",
+        "io.github.hakky54:sslcontext-kickstart:7.4.7",
+        "javax.validation:validation-api:2.0.1.Final",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.14.0-rc2",
+        "com.vladsch.flexmark:flexmark-ext-autolink:0.64.0",
+        "de.svenkubiak:jBCrypt:0.4.3",
+        "com.vladsch.flexmark:flexmark-ext-gfm-strikethrough:0.64.0",
+        "org.glassfish.web:javax.el:2.2.6",
+        "com.fasterxml.jackson.core:jackson-core:2.14.0-rc2",
+        "com.vladsch.flexmark:flexmark-ext-tables:0.64.0",
+        "javax.ws.rs:javax.ws.rs-api:2.1.1",
+        "com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.14.0-rc2",
+        "com.fasterxml.jackson.core:jackson-annotations:2.14.0-rc2",
+        "ch.qos.logback:logback-core:1.2.11",
+        "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.14.0-rc2",
+        "com.vladsch.flexmark:flexmark-ext-emoji:0.64.0",
+        "io.github.classgraph:classgraph:4.8.149",
+        "commons-io:commons-io:2.11.0"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.core:jersey-server:2.37",
+      "dependsOn": [
+        "org.glassfish.hk2.external:jakarta.inject:2.6.1",
+        "jakarta.ws.rs:jakarta.ws.rs-api:2.1.6",
+        "org.glassfish.jersey.core:jersey-common:2.37",
+        "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "org.glassfish.jersey.core:jersey-client:2.37"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-mail:2.7.5",
+      "dependsOn": [
+        "com.sun.mail:jakarta.mail:1.6.7",
+        "org.springframework:spring-context-support:5.3.23"
+      ]
+    },
+    {
+      "ref": "org.springframework.security:spring-security-ldap:5.7.5",
+      "dependsOn": [
+        "org.springframework:spring-tx:5.3.23"
       ]
     }
   ]

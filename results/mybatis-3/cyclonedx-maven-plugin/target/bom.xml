@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:5e9c396c-98c6-4434-bfcb-38da9634291c" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:24c2ef9d-980a-450f-a6b1-cbe1f02bf8e2" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:22:13Z</timestamp>
+    <timestamp>2023-02-26T02:01:04Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -34,7 +34,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.mybatis/mybatis@3.5.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.mybatis.org/</url></reference><reference type="build-system"><url>https://github.com/mybatis/mybatis-3/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/mybatis/mybatis-3/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/mybatis-dev</url></reference><reference type="vcs"><url>https://github.com/mybatis/mybatis-3</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://www.mybatis.org/mybatis-3</url></reference><reference type="build-system"><url>https://github.com/mybatis/mybatis-3/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/mybatis/mybatis-3/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/mybatis-dev</url></reference><reference type="vcs"><url>https://github.com/mybatis/mybatis-3</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -61,7 +61,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/ognl/ognl@3.3.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.opensymphony.com</url></reference><reference type="issue-tracker"><url>http://jira.opensymphony.com/browse/OGNL</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/trunk/oss/oss-parent-9</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jkuhnert/ognl/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://jira.opensymphony.com/browse/OGNL</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar">
       <publisher>Shigeru Chiba, www.javassist.org</publisher>
@@ -94,7 +94,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.javassist.org/</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference><reference type="vcs"><url>scm:git:git@github.com:jboss-javassist/javassist.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar">
       <publisher>QOS.ch</publisher>
@@ -120,7 +120,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar">
       <publisher>QOS.CH Sarl (Switzerland)</publisher>
@@ -170,7 +170,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/apache/logging-log4j2/actions</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://logging.apache.org/log4j/2.x/log4j-api/</url></reference><reference type="build-system"><url>https://github.com/apache/logging-log4j2/actions</url></reference><reference type="distribution"><url>https://logging.apache.org/log4j/2.x/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LOG4J2</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=logging-log4j2.git/log4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -196,7 +196,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/cglib/cglib@3.3.0?type=jar">
       <group>cglib</group>
@@ -220,7 +220,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/cglib/cglib@3.3.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/cglib/cglib</url></reference><reference type="issue-tracker"><url>https://github.com/cglib/cglib/issues</url></reference><reference type="vcs"><url>https://github.com/cglib/cglib</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/cglib/cglib/cglib</url></reference><reference type="build-system"><url>https://travis-ci.org/cglib/cglib</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/cglib/cglib/issues</url></reference><reference type="vcs"><url>https://github.com/cglib/cglib/cglib</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar">
       <publisher>OW2</publisher>
@@ -244,7 +244,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm@7.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.org/</url></reference><reference type="distribution"><url>http://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3?type=jar">
       <publisher>FasterXML</publisher>
@@ -268,7 +268,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-annotations/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar">
       <publisher>Microsoft Corporation</publisher>
@@ -294,7 +294,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/Microsoft/mssql-jdbc</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/Microsoft/mssql-jdbc</url></reference><reference type="vcs"><url>https://github.com/Microsoft/mssql-jdbc</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar">
       <group>com.microsoft.azure</group>
@@ -320,7 +320,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/AzureAD/microsoft-authentication-library-for-java</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/AzureAD/microsoft-authentication-library-for-java</url></reference><reference type="vcs"><url>https://github.com/AzureAD/microsoft-authentication-library-for-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar">
       <publisher>Connect2id Ltd.</publisher>
@@ -345,7 +345,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://connect2id.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar">
       <group>com.github.stephenc.jcip</group>
@@ -368,7 +368,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://github.com/stephenc/jcip-annotations/issues</url></reference><reference type="vcs"><url>http://github.com/stephenc/jcip-annotations/tree/master/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://stephenc.github.com/jcip-annotations</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/stephenc/jcip-annotations/issues</url></reference><reference type="vcs"><url>http://github.com/stephenc/jcip-annotations/tree/master/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar">
       <publisher>Connect2id Ltd.</publisher>
@@ -392,7 +392,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.nimbusds/content-type@2.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://connect2id.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-content-type</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/connect2id/nimbus-content-type</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-content-type</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar">
       <publisher>Connect2id Ltd.</publisher>
@@ -416,7 +416,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.nimbusds/lang-tag@1.6?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://connect2id.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-language-tags.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/connect2id/nimbus-language-tags</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-language-tags.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar">
       <publisher>Connect2id Ltd.</publisher>
@@ -441,7 +441,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://connect2id.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-jose-jwt</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/connect2id/nimbus-jose-jwt</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://bitbucket.org/connect2id/nimbus-jose-jwt</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar">
       <publisher>Chemouni Uriel</publisher>
@@ -513,7 +513,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-databind/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar">
       <publisher>FasterXML</publisher>
@@ -537,7 +537,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-core/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -551,7 +551,9 @@
       <dependency ref="pkg:maven/cglib/cglib@3.3.0?type=jar"/>
       <dependency ref="pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/ognl/ognl@3.3.4?type=jar"/>
+    <dependency ref="pkg:maven/ognl/ognl@3.3.4?type=jar">
+      <dependency ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"/>
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar"/>
     <dependency ref="pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar"/>
@@ -567,27 +569,33 @@
     <dependency ref="pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar">
       <dependency ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar"/>
       <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar">
       <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"/>
       <dependency ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar"/>
+      <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar"/>
       <dependency ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"/>
       <dependency ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"/>
     <dependency ref="pkg:maven/com.nimbusds/content-type@2.2?type=jar"/>
+    <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar">
+      <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"/>
     <dependency ref="pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar">
       <dependency ref="pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/net.minidev/json-smart@2.4.8?type=jar">
-      <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"/>
+    <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar">
+      <dependency ref="pkg:maven/org.ow2.asm/asm@7.1?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3?type=jar"/>
       <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"/>
   </dependencies>
 </bom>

@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:391b8745-ef60-489e-a7f0-d9208409f22d",
+  "serialNumber" : "urn:uuid:b21abefd-68f6-46ba-8dc2-c8b19eeae92e",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:20:16Z",
+    "timestamp" : "2023-02-26T01:59:06Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -61,8 +61,16 @@
       "purl" : "pkg:maven/org.jhiccup/jHiccup@2.0.10?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://jhiccup.org"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/giltene/jHiccup/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git://github.com/giltene/jHiccup.git"
         }
       ],
       "type" : "library",
@@ -126,12 +134,20 @@
       "purl" : "pkg:maven/org.hdrhistogram/HdrHistogram@2.1.10?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/HdrHistogram/HdrHistogram/issues"
+          "type" : "website",
+          "url" : "http://hdrhistogram.github.io/HdrHistogram/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/HdrHistogram/HdrHistogram/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git://github.com/HdrHistogram/HdrHistogram.git"
         }
       ],
       "type" : "library",

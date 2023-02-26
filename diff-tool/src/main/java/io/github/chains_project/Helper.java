@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.github.chains_project.data.AnalyzerResult;
 import io.github.chains_project.data.Dependency;
 
 public class Helper {
@@ -20,6 +20,7 @@ public class Helper {
   private static final List<String> analyzerNames = List.of("build-info-go", "cdxgen", "cyclonedx-maven-plugin", "depscan","jbom","openrewrite");
 
   public void createData(Path resultFolder) throws IOException {
+    List<AnalyzerResult> results = new ArrayList<>();
     StringBuilder sb = new StringBuilder();
     sb.append(
         "project,analyzer,D_TP,D_FP,D_FN,D_P,D_R,D_F1,D_SIZE,T_TP,T_FP,T_FN,T_P,T_R,T_F1,T_SIZE")
@@ -37,7 +38,7 @@ public class Helper {
             sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
             continue;
           }
-          String sbomType = fileNameToType(analyzerResult.getFileName().toString());
+          String sbomType = SbomType.fileNameToType(analyzerResult.getFileName().toString());
           if (sbomType.isEmpty() || sbomType.equals("truth")) {
             continue;
           }
@@ -195,29 +196,7 @@ public class Helper {
     return new ArrayList<>(diffFirst);
   }
 
-  private String fileNameToType(String fileName) {
-    return switch (fileName) {
 
-      case "build-info-go" -> "cyclonedx";
-      case "cdxgen" -> "cyclonedx";
-      case "cyclonedx-maven-plugin" -> "cyclonedx";
-      case "depscan" -> "cyclonedx";
-      case "jbom" -> "jbom"; // it is almost cyclonedx but not quite
-      case "maven-dependency-tree" -> "truth";
-      case "openrewrite" -> "openrewrite";
-      // case "bom" -> "spdx";
-      /* 
-      case "ort" -> "ort";
-      case "sbom-tool" -> "spdx";
-      case "scancode" -> "scancode";
-      case "scanoss" -> "scanoss";
-      case "spdx-maven-plugin" -> "spdx";
-      case "spdx-sbom-generator" -> "spdx";
-      case "syft" -> "syft";
-      */
-      default -> "";
-    };
-  }
 
   private Path findJsonFile(Path folder) throws IOException {
     return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()

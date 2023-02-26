@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:05263203-83cb-4c05-93d6-d51bfa41d6e7" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:1ccd2e98-51cf-4f41-b2d2-7384509bf4f9" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:26:52Z</timestamp>
+    <timestamp>2023-02-26T02:05:57Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -31,7 +31,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/jp.vmi/selenese-runner-java@4.2.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/vmi/selenese-runner-java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -57,7 +57,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-java@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -80,7 +80,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -103,7 +103,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar">
       <publisher>Google LLC</publisher>
@@ -127,7 +127,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/service</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar">
       <publisher>Google LLC</publisher>
@@ -151,7 +151,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/service</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar">
       <publisher>Google LLC</publisher>
@@ -175,7 +175,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.auto/auto-common@1.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/common</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -198,7 +198,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -221,7 +221,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -244,7 +244,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -267,7 +267,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -290,7 +290,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -313,7 +313,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -336,7 +336,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -359,7 +359,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -382,7 +382,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -405,7 +405,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.beust/jcommander@1.82?type=jar">
       <group>com.beust</group>
@@ -428,7 +428,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.beust/jcommander@1.82?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/cbeust/jcommander/issues</url></reference><reference type="vcs"><url>https://github.com/cbeust/jcommander</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://jcommander.org</url></reference><reference type="issue-tracker"><url>https://github.com/cbeust/jcommander/issues</url></reference><reference type="vcs"><url>https://github.com/cbeust/jcommander</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -454,7 +454,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-buffer/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-buffer</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -480,7 +480,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec-http/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec-http</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -506,7 +506,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-common/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -532,7 +532,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-classes-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-classes-epoll</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -558,7 +558,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-classes-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-classes-kqueue</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -584,7 +584,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-epoll</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -610,7 +610,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-kqueue</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -634,7 +634,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-unix-common/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-unix-common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -660,7 +660,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -683,6 +683,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -705,6 +706,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -727,6 +729,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -749,6 +752,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar">
       <group>io.opentelemetry</group>
@@ -771,6 +775,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -793,6 +798,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -815,6 +821,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar">
       <group>io.opentelemetry</group>
@@ -837,6 +844,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -859,6 +867,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar">
       <group>io.opentelemetry</group>
@@ -881,6 +890,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar">
       <group>io.opentelemetry</group>
@@ -903,6 +913,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/open-telemetry/opentelemetry-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.ous/jtoml@2.0.0?type=jar">
       <group>io.ous</group>
@@ -925,7 +936,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.ous/jtoml@2.0.0?type=jar</purl>
-      <externalReferences/>
+      <externalReferences><reference type="website"><url>https://github.com/asafh/jtoml</url></reference><reference type="vcs"><url>scm:git:git@github.com:asafh/jtoml.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar">
       <group>net.bytebuddy</group>
@@ -949,7 +960,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/raphw/byte-buddy/issues</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bytebuddy.net/byte-buddy</url></reference><reference type="distribution"><url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/raphw/byte-buddy/issues</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-exec@1.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -973,7 +984,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-exec@1.3?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/EXEC</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/exec/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-exec/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/EXEC</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/exec/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar">
       <group>org.asynchttpclient</group>
@@ -996,7 +1007,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/AsyncHttpClient/async-http-client/issues</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/asynchttpclient/topics</url></reference><reference type="vcs"><url>https://github.com/AsyncHttpClient/async-http-client/tree/master</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/AsyncHttpClient/async-http-client/async-http-client</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/AsyncHttpClient/async-http-client/issues</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/asynchttpclient/topics</url></reference><reference type="vcs"><url>https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar">
       <group>org.asynchttpclient</group>
@@ -1021,7 +1032,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/AsyncHttpClient/async-http-client/issues</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/asynchttpclient/topics</url></reference><reference type="vcs"><url>https://github.com/AsyncHttpClient/async-http-client/tree/master</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/AsyncHttpClient/async-http-client/async-http-client-netty-utils</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/AsyncHttpClient/async-http-client/issues</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/asynchttpclient/topics</url></reference><reference type="vcs"><url>https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-netty-utils</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar">
       <group>org.reactivestreams</group>
@@ -1044,6 +1055,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.reactive-streams.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar">
       <publisher>Typesafe</publisher>
@@ -1067,7 +1079,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://typesafe.com/</url></reference><reference type="issue-tracker"><url>https://github.com/playframework/netty-reactive-streams/issues</url></reference><reference type="vcs"><url>https://github.com/playframework/netty-reactive-streams</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/playframework/netty-reactive-streams/netty-reactive-streams</url></reference><reference type="issue-tracker"><url>https://github.com/playframework/netty-reactive-streams/issues</url></reference><reference type="vcs"><url>https://github.com/playframework/netty-reactive-streams/netty-reactive-streams</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -1090,7 +1102,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar">
       <group>dev.failsafe</group>
@@ -1113,7 +1125,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/failsafe-lib/failsafe</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://failsafe.dev/failsafe</url></reference><reference type="vcs"><url>https://github.com/failsafe-lib/failsafe/failsafe</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -1136,7 +1148,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -1159,7 +1171,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://selenium.dev/</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/selenium/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar">
       <group>org.seleniumhq.selenium</group>
@@ -1183,7 +1195,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/htmlunit-driver</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/SeleniumHQ/htmlunit-driver</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/SeleniumHQ/htmlunit-driver</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar">
       <publisher>Gargoyle Software Inc.</publisher>
@@ -1207,7 +1219,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit@2.63.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.GargoyleSoftware.com/</url></reference><reference type="build-system"><url>https://jenkins.wetator.org/view/HtmlUnit/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/HtmlUnit/htmlunit/issues/</url></reference><reference type="mailing-list"><url>https://sourceforge.net/p/htmlunit/mailman/htmlunit-user/</url></reference><reference type="vcs"><url>https://github.com/HtmlUnit/htmlunit</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://htmlunit.sourceforge.net</url></reference><reference type="build-system"><url>https://jenkins.wetator.org/view/HtmlUnit/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/HtmlUnit/htmlunit/issues/</url></reference><reference type="mailing-list"><url>https://sourceforge.net/p/htmlunit/mailman/htmlunit-user/</url></reference><reference type="vcs"><url>https://github.com/HtmlUnit/htmlunit</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1231,7 +1243,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents/httpmime@4.5.13?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-client</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-client/tree/4.5.13/httpmime</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1255,7 +1267,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-client</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-client/tree/4.5.13/httpclient</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1279,7 +1291,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-core-ga</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/4.4.13/httpcore</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar">
       <publisher>Gargoyle Software Inc.</publisher>
@@ -1304,7 +1316,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.GargoyleSoftware.com/</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://htmlunit.sourceforge.net</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar">
       <publisher>Gargoyle Software Inc.</publisher>
@@ -1329,7 +1341,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.GargoyleSoftware.com/</url></reference><reference type="build-system"><url>https://jenkins.wetator.org/view/HtmlUnit/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://htmlunit.sourceforge.net</url></reference><reference type="build-system"><url>https://jenkins.wetator.org/view/HtmlUnit/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar">
       <group>net.sourceforge.htmlunit</group>
@@ -1352,7 +1364,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/HtmlUnit/htmlunit-cssparser</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>https://github.com/htmlunit</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-net/commons-net@3.8.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1377,7 +1389,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/commons-net/commons-net@3.8.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/NET</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/commons-net</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-net/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/NET</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/commons-net</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1404,7 +1416,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.brotli/dec@0.1.2?type=jar">
       <group>org.brotli</group>
@@ -1428,7 +1440,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.brotli/dec@0.1.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/google/brotli</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://brotli.org/dec</url></reference><reference type="vcs"><url>https://github.com/google/brotli/dec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar">
       <group>com.shapesecurity</group>
@@ -1451,7 +1463,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://cspvalidator.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1478,7 +1490,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-client@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/websocket-parent/websocket-client</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/websocket-parent/websocket-client</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1505,7 +1517,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-client@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-client</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-client</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1532,7 +1544,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-http@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-http</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-http</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1559,7 +1571,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-util@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-util</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1586,7 +1598,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty/jetty-io@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-io</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-io</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1613,7 +1625,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-common@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/websocket-parent/websocket-common</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/websocket-parent/websocket-common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar">
       <publisher>Webtide</publisher>
@@ -1640,7 +1652,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jetty.websocket/websocket-api@9.4.48.v20220622?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://webtide.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/websocket-parent/websocket-api</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/websocket-parent/websocket-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar">
       <group>net.sourceforge.nekohtml</group>
@@ -1664,7 +1676,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://nekohtml.svn.sourceforge.net/viewvc/nekohtml/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nekohtml.sourceforge.net/</url></reference><reference type="distribution"><url>http://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://nekohtml.svn.sourceforge.net/viewvc/nekohtml/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar">
       <group>xerces</group>
@@ -1695,7 +1707,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/xerces/xercesImpl@2.11.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://svn.apache.org/repos/asf/xerces/java/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://xerces.apache.org/xerces2-j/</url></reference><reference type="vcs"><url>https://svn.apache.org/repos/asf/xerces/java/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar">
       <group>xml-apis</group>
@@ -1733,7 +1745,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/xml-apis/xml-apis@1.4.01?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>https://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_4_01/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/commons/components/external/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>https://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_4_01/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1760,7 +1772,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1785,7 +1797,7 @@ Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Tel
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-text@1.9?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/TEXT</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-text.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-text</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/TEXT</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-text.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1811,7 +1823,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-io/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/args4j/args4j@2.33?type=jar">
       <publisher>Kohsuke Kawaguchi</publisher>
@@ -1837,7 +1849,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/args4j/args4j@2.33?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.kohsuke.org/</url></reference><reference type="issue-tracker"><url>https://args4j.dev.java.net/issues</url></reference><reference type="mailing-list"><url>https://args4j.dev.java.net/servlets/SummarizeList?listName=users</url></reference><reference type="vcs"><url>http://args4j.kohsuke.org/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://args4j.kohsuke.org/args4j/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://args4j.dev.java.net/issues</url></reference><reference type="mailing-list"><url>https://args4j.dev.java.net/servlets/SummarizeList?listName=users</url></reference><reference type="vcs"><url>http://args4j.kohsuke.org/args4j/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
       <publisher>QOS.ch</publisher>
@@ -1863,7 +1875,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar">
       <publisher>QOS.ch</publisher>
@@ -1888,7 +1900,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/jcl-over-slf4j</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar">
       <publisher>QOS.ch</publisher>
@@ -1917,7 +1929,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-classic</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback/logback-classic</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar">
       <publisher>QOS.ch</publisher>
@@ -1945,7 +1957,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback/logback-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xalan/xalan@2.7.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1973,7 +1985,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/xalan/xalan@2.7.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/xalan-j/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/xalan</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xalan/serializer@2.7.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1998,7 +2010,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/xalan/serializer@2.7.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/xalan-j/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/serializer</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.inject/guice@5.1.0?type=jar">
       <publisher>Google, Inc.</publisher>
@@ -2023,7 +2035,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.inject/guice@5.1.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guice</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guice/issues/</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/google-guice/topics</url></reference><reference type="vcs"><url>https://github.com/google/guice</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guice/guice</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guice</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guice/issues/</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/google-guice/topics</url></reference><reference type="vcs"><url>https://github.com/google/guice/guice</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
       <group>javax.inject</group>
@@ -2046,7 +2058,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/atinject/</url></reference><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar">
       <group>aopalliance</group>
@@ -2069,6 +2081,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/aopalliance/aopalliance@1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://aopalliance.sourceforge.net</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@31.1-jre?type=jar">
       <group>com.google.guava</group>
@@ -2093,7 +2106,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@31.1-jre?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava</url></reference><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
       <group>com.google.guava</group>
@@ -2122,7 +2135,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/failureaccess</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/failureaccess</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
       <group>com.google.guava</group>
@@ -2161,7 +2174,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/listenablefuture</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/listenablefuture</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
       <group>com.google.code.findbugs</group>
@@ -2184,7 +2197,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar">
       <group>org.checkerframework</group>
@@ -2208,7 +2221,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar">
       <publisher>Google LLC</publisher>
@@ -2232,7 +2245,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.11.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="vcs"><url>https://github.com/google/error-prone</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_annotations</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar">
       <group>com.google.j2objc</group>
@@ -2256,7 +2269,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/j2objc/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar">
       <publisher>QOS.ch</publisher>
@@ -2282,7 +2295,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/jul-to-slf4j@1.7.36?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/jul-to-slf4j</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.floreysoft/jmte@7.0.0?type=jar">
       <group>com.floreysoft</group>
@@ -2306,7 +2319,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.floreysoft/jmte@7.0.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/DJCordhose/jmte</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/jmte/</url></reference><reference type="vcs"><url>https://github.com/DJCordhose/jmte</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.9.1?type=jar">
       <group>com.google.code.gson</group>
@@ -2331,7 +2344,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.gson/gson@2.9.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/google/gson/issues</url></reference><reference type="vcs"><url>https://github.com/google/gson/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/gson/gson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/gson/issues</url></reference><reference type="vcs"><url>https://github.com/google/gson/gson/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -2357,7 +2370,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -2383,7 +2396,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-codec-socks/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-codec-socks</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -2409,7 +2422,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-handler/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-handler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -2435,7 +2448,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-handler-proxy/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-handler-proxy</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar">
       <publisher>The Netty Project</publisher>
@@ -2461,7 +2474,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-resolver/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-resolver</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&amp;type=jar">
       <publisher>The Netty Project</publisher>
@@ -2487,7 +2500,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&amp;type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-epoll/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-epoll</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&amp;type=jar">
       <publisher>The Netty Project</publisher>
@@ -2513,7 +2526,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&amp;type=jar</purl>
-      <externalReferences><reference type="website"><url>https://netty.io/</url></reference><reference type="vcs"><url>https://github.com/netty/netty</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://netty.io/netty-transport-native-kqueue/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/netty/netty/netty-transport-native-kqueue</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar">
       <group>com.assertthat</group>
@@ -2538,7 +2551,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/assertthat/selenium-shutterbug</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.assertthat.com</url></reference><reference type="vcs"><url>https://github.com/assertthat/selenium-shutterbug</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar">
       <group>com.github.zafarkhaja</group>
@@ -2561,7 +2574,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/zafarkhaja/jsemver</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/zafarkhaja/jsemver</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/zafarkhaja/jsemver</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar">
       <group>io.github.bonigarcia</group>
@@ -2584,7 +2597,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/bonigarcia/webdrivermanager/issues</url></reference><reference type="vcs"><url>https://github.com/bonigarcia/webdrivermanager</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/bonigarcia/webdrivermanager</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/bonigarcia/webdrivermanager/issues</url></reference><reference type="vcs"><url>https://github.com/bonigarcia/webdrivermanager</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -2608,7 +2621,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-client</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCLIENT</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-client/tree/5.0/httpclient5</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -2632,7 +2645,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-core-ga</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/5.0/httpcore5</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -2656,7 +2669,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hc.apache.org/httpcomponents-core-ga</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/5.0/httpcore5-h2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar">
       <group>org.rauschig</group>
@@ -2680,7 +2693,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/thrau/jarchivelib</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://rauschig.org/jarchivelib</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/thrau/jarchivelib</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-compress@1.18?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -2707,7 +2720,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-compress@1.18?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/COMPRESS</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-compress.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-compress/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/COMPRESS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-compress.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jsoup/jsoup@1.13.1?type=jar">
       <publisher>Jonathan Hedley</publisher>
@@ -2731,7 +2744,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jsoup/jsoup@1.13.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://jhy.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jhy/jsoup/issues</url></reference><reference type="vcs"><url>https://github.com/jhy/jsoup</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://jsoup.org/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jhy/jsoup/issues</url></reference><reference type="vcs"><url>https://github.com/jhy/jsoup</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -2756,14 +2769,14 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-api.git</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar">
       <publisher>Eclipse Foundation</publisher>
       <group>jakarta.activation</group>
       <name>jakarta.activation-api</name>
       <version>1.2.2</version>
-      <description>${project.name}</description>
+      <description>Jakarta Activation API jar</description>
       <hashes>
         <hash alg="MD5">1cbb480310fa1987f9db7a3ed7118af7</hash>
         <hash alg="SHA-1">99f53adba383cb1bf7c3862844488574b559621f</hash>
@@ -2780,7 +2793,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -2805,7 +2818,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-runtime-parent/jaxb-runtime</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -2829,7 +2842,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -2853,14 +2866,14 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-runtime</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
       <publisher>Eclipse Foundation</publisher>
       <group>com.sun.activation</group>
       <name>jakarta.activation</name>
       <version>1.2.2</version>
-      <description>${project.name}</description>
+      <description>Jakarta Activation</description>
       <hashes>
         <hash alg="MD5">0b8bee3bf29b9a015f8b992035581a7c</hash>
         <hash alg="SHA-1">74548703f9851017ce2f556066659438019e7eb5</hash>
@@ -2877,7 +2890,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -3047,11 +3060,16 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"/>
       <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
       <dependency ref="pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar">
       <dependency ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"/>
       <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar"/>
     <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar">
       <dependency ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"/>
       <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
@@ -3083,6 +3101,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar"/>
       <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar"/>
     <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar">
       <dependency ref="pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar"/>
     </dependency>
@@ -3135,16 +3154,43 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/org.apache.commons/commons-exec@1.3?type=jar"/>
     <dependency ref="pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar">
       <dependency ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&amp;type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&amp;type=jar"/>
       <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
       <dependency ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
       <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
       <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar"/>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&amp;type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar"/>
+      <dependency ref="pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
     <dependency ref="pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar">
+      <dependency ref="pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar"/>
       <dependency ref="pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar">
@@ -3183,6 +3229,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar"/>
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
       <dependency ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar"/>
+      <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
       <dependency ref="pkg:maven/commons-net/commons-net@3.8.0?type=jar"/>
       <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
       <dependency ref="pkg:maven/org.brotli/dec@0.1.2?type=jar"/>
@@ -3200,10 +3247,18 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     </dependency>
     <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"/>
     <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-core-js@2.63.0?type=jar"/>
-    <dependency ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar"/>
+    <dependency ref="pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar">
+      <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar">
+      <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar"/>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar">
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
     <dependency ref="pkg:maven/commons-net/commons-net@3.8.0?type=jar"/>
     <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
     <dependency ref="pkg:maven/org.brotli/dec@0.1.2?type=jar"/>
@@ -3235,21 +3290,19 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar">
       <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/xerces/xercesImpl@2.11.0?type=jar">
-      <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"/>
-    </dependency>
     <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"/>
-    <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
     <dependency ref="pkg:maven/args4j/args4j@2.33?type=jar"/>
-    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     <dependency ref="pkg:maven/org.slf4j/jcl-over-slf4j@1.7.36?type=jar">
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar">
       <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"/>
-    <dependency ref="pkg:maven/xalan/serializer@2.7.2?type=jar"/>
+    <dependency ref="pkg:maven/xalan/serializer@2.7.2?type=jar">
+      <dependency ref="pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.google.inject/guice@5.1.0?type=jar">
       <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
       <dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar"/>
@@ -3269,11 +3322,16 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/com.floreysoft/jmte@7.0.0?type=jar"/>
     <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.1?type=jar"/>
     <dependency ref="pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar">
+      <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
       <dependency ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar"/>
       <dependency ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar"/>
     <dependency ref="pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.code.gson/gson@2.9.1?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
       <dependency ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar"/>
       <dependency ref="pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar"/>
       <dependency ref="pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"/>
@@ -3281,6 +3339,8 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
     <dependency ref="pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar">
       <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar"/>
       <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+      <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar"/>
     <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar">

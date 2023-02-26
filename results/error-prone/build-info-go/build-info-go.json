@@ -1238,120 +1238,9 @@
   ],
   "dependencies": [
     {
-      "ref": "com.google.common.html.types:types:1.0.8",
+      "ref": "com.google.truth.extensions:truth-proto-extension:1.1.3",
       "dependsOn": [
-        "javax.annotation:jsr250-api:1.0"
-      ]
-    },
-    {
-      "ref": "org.jmock:jmock-testjar:2.12.0",
-      "dependsOn": [
-        "com.google.code.findbugs:annotations:3.0.1"
-      ]
-    },
-    {
-      "ref": "com.google.errorprone:error_prone_test_helpers:2.17.0",
-      "dependsOn": [
-        "com.google.googlejavaformat:google-java-format:1.13.0",
-        "org.checkerframework:dataflow-errorprone:3.27.0",
-        "com.google.errorprone:error_prone_check_api:2.17.0",
-        "com.google.testing.compile:compile-testing:0.19",
-        "com.google.guava:guava-testlib:31.0.1-jre",
-        "org.hamcrest:hamcrest-core:2.2",
-        "com.google.auto.value:auto-value:1.9",
-        "org.mockito:mockito-core:4.9.0",
-        "com.google.auto.service:auto-service:1.0.1",
-        "org.hamcrest:hamcrest-library:2.2",
-        "com.google.truth:truth:1.1.3",
-        "com.google.jimfs:jimfs:1.2",
-        "com.google.errorprone:error_prone_annotation:2.17.0",
-        "junit:junit:4.13.2",
-        "com.google.code.findbugs:jsr305:3.0.2"
-      ]
-    },
-    {
-      "ref": "com.google.truth:truth:1.1.3",
-      "dependsOn": [
-        "org.checkerframework:checker-qual:3.13.0",
-        "com.google.auto.value:auto-value-annotations:1.8.1",
-        "org.ow2.asm:asm:9.1"
-      ]
-    },
-    {
-      "ref": "com.google.errorprone:error_prone_core:2.17.0",
-      "dependsOn": [
-        "org.gwtproject:gwt-user:2.10.0",
-        "com.google.protobuf:protobuf-java-util:3.19.2",
-        "com.google.testing.compile:compile-testing:0.19",
-        "com.google.common.html.types:proto:1.0.8",
-        "com.google.protobuf:protobuf-java:3.19.2",
-        "com.google.errorprone:error_prone_type_annotations:2.17.0",
-        "com.google.truth.extensions:truth-proto-extension:1.1.3",
-        "org.assertj:assertj-core:3.22.0",
-        "com.google.inject.extensions:guice-servlet:5.1.0",
-        "com.ibm.icu:icu4j:70.1",
-        "com.google.auto:auto-common:1.2.1",
-        "com.google.inject.extensions:guice-testlib:5.1.0",
-        "org.jmock:jmock:2.12.0",
-        "com.google.testparameterinjector:test-parameter-injector:1.1",
-        "com.google.inject.extensions:guice-assistedinject:5.1.0",
-        "org.pcollections:pcollections:3.1.4",
-        "com.google.dagger:dagger:2.40.5",
-        "org.hamcrest:hamcrest-library:1.3",
-        "org.easymock:easymock:4.3",
-        "io.netty:netty-all:5.0.0.Alpha2",
-        "com.google.flogger:flogger:0.7.4",
-        "org.threeten:threeten-extra:1.7.0",
-        "com.google.gwt.inject:gin:2.1.2",
-        "org.jspecify:jspecify:0.2.0",
-        "com.google.auto.factory:auto-factory:1.0.1",
-        "com.google.auto.value:auto-value:1.9",
-        "com.google.truth.extensions:truth-java8-extension:1.1.3",
-        "com.google.dagger:dagger-producers:2.40.5",
-        "pl.pragmatists:JUnitParams:1.1.1",
-        "joda-time:joda-time:2.10.13",
-        "org.jmock:jmock-junit4:2.12.0",
-        "com.google.common.html.types:types:1.0.8",
-        "com.google.inject:guice:5.1.0"
-      ]
-    },
-    {
-      "ref": "com.google.protobuf:protobuf-java-util:3.19.2",
-      "dependsOn": [
-        "com.google.code.gson:gson:2.8.6"
-      ]
-    },
-    {
-      "ref": "com.google.errorprone:error_prone_annotations:2.17.0",
-      "dependsOn": [
-        "junit:junit:4.13.2"
-      ]
-    },
-    {
-      "ref": "org.mockito:mockito-core:4.9.0",
-      "dependsOn": [
-        "org.objenesis:objenesis:3.3",
-        "net.bytebuddy:byte-buddy-agent:1.12.16",
-        "net.bytebuddy:byte-buddy:1.12.16"
-      ]
-    },
-    {
-      "ref": "io.github.java-diff-utils:java-diff-utils:4.0",
-      "dependsOn": [
-        "org.eclipse.jgit:org.eclipse.jgit:4.4.1.201607150455-r"
-      ]
-    },
-    {
-      "ref": "com.google.dagger:dagger-producers:2.40.5",
-      "dependsOn": [
-        "org.checkerframework:checker-compat-qual:2.5.5"
-      ]
-    },
-    {
-      "ref": "com.google.inject:guice:5.1.0",
-      "dependsOn": [
-        "aopalliance:aopalliance:1.0",
-        "javax.inject:javax.inject:1"
+        "com.google.truth.extensions:truth-liteproto-extension:1.1.3"
       ]
     },
     {
@@ -1363,22 +1252,46 @@
       ]
     },
     {
-      "ref": "com.google.guava:guava:31.0.1-jre",
+      "ref": "com.google.errorprone:error_prone_annotations:2.17.0",
       "dependsOn": [
-        "com.google.errorprone:error_prone_annotations:2.7.1",
-        "org.checkerframework:checker-qual:3.12.0",
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.guava:failureaccess:1.0.1"
+        "junit:junit:4.13.2"
       ]
     },
     {
       "ref": "com.google.errorprone:error_prone_check_api:2.17.0",
       "dependsOn": [
+        "org.hamcrest:hamcrest-core:2.2",
         "com.google.auto.value:auto-value-annotations:1.9",
         "com.github.kevinstern:software-and-algorithms:1.0",
         "com.github.ben-manes.caffeine:caffeine:3.0.5",
-        "io.github.java-diff-utils:java-diff-utils:4.0",
-        "org.hamcrest:hamcrest-core:2.2"
+        "io.github.java-diff-utils:java-diff-utils:4.0"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava-testlib:31.0.1-jre",
+      "dependsOn": [
+        "com.google.j2objc:j2objc-annotations:1.3"
+      ]
+    },
+    {
+      "ref": "org.jmock:jmock-legacy:2.12.0",
+      "dependsOn": [
+        "cglib:cglib:3.2.8"
+      ]
+    },
+    {
+      "ref": "com.google.testparameterinjector:test-parameter-injector:1.1",
+      "dependsOn": [
+        "org.yaml:snakeyaml:1.27"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:31.0.1-jre",
+      "dependsOn": [
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.errorprone:error_prone_annotations:2.7.1",
+        "org.checkerframework:checker-qual:3.12.0"
       ]
     },
     {
@@ -1389,9 +1302,9 @@
       ]
     },
     {
-      "ref": "com.google.errorprone:error_prone_docgen_processor:2.17.0",
+      "ref": "com.google.errorprone:error_prone_refaster:2.17.0",
       "dependsOn": [
-        "com.google.code.gson:gson:2.8.9"
+        "com.google.errorprone:error_prone_core:2.17.0"
       ]
     },
     {
@@ -1401,57 +1314,116 @@
       ]
     },
     {
-      "ref": "com.google.guava:guava-testlib:31.0.1-jre",
+      "ref": "com.google.errorprone:error_prone_docgen_processor:2.17.0",
       "dependsOn": [
-        "com.google.j2objc:j2objc-annotations:1.3"
+        "com.google.code.gson:gson:2.8.9"
       ]
     },
     {
-      "ref": "com.google.errorprone:error_prone_refaster:2.17.0",
+      "ref": "com.google.errorprone:error_prone_core:2.17.0",
       "dependsOn": [
-        "com.google.errorprone:error_prone_core:2.17.0"
+        "com.google.inject.extensions:guice-assistedinject:5.1.0",
+        "org.jmock:jmock:2.12.0",
+        "org.easymock:easymock:4.3",
+        "org.jmock:jmock-junit4:2.12.0",
+        "org.gwtproject:gwt-user:2.10.0",
+        "com.google.protobuf:protobuf-java-util:3.19.2",
+        "com.google.common.html.types:types:1.0.8",
+        "com.google.dagger:dagger-producers:2.40.5",
+        "io.netty:netty-all:5.0.0.Alpha2",
+        "com.google.inject.extensions:guice-servlet:5.1.0",
+        "com.google.protobuf:protobuf-java:3.19.2",
+        "com.google.dagger:dagger:2.40.5",
+        "org.hamcrest:hamcrest-library:1.3",
+        "com.google.testparameterinjector:test-parameter-injector:1.1",
+        "org.pcollections:pcollections:3.1.4",
+        "com.google.auto.value:auto-value:1.9",
+        "pl.pragmatists:JUnitParams:1.1.1",
+        "org.threeten:threeten-extra:1.7.0",
+        "com.google.common.html.types:proto:1.0.8",
+        "com.google.flogger:flogger:0.7.4",
+        "com.google.errorprone:error_prone_type_annotations:2.17.0",
+        "org.assertj:assertj-core:3.22.0",
+        "org.jspecify:jspecify:0.2.0",
+        "com.google.testing.compile:compile-testing:0.19",
+        "com.ibm.icu:icu4j:70.1",
+        "com.google.auto:auto-common:1.2.1",
+        "com.google.gwt.inject:gin:2.1.2",
+        "com.google.truth.extensions:truth-proto-extension:1.1.3",
+        "com.google.inject.extensions:guice-testlib:5.1.0",
+        "com.google.truth.extensions:truth-java8-extension:1.1.3",
+        "com.google.inject:guice:5.1.0",
+        "com.google.auto.factory:auto-factory:1.0.1",
+        "joda-time:joda-time:2.10.13"
+      ]
+    },
+    {
+      "ref": "com.google.common.html.types:types:1.0.8",
+      "dependsOn": [
+        "javax.annotation:jsr250-api:1.0"
+      ]
+    },
+    {
+      "ref": "org.mockito:mockito-core:4.9.0",
+      "dependsOn": [
+        "net.bytebuddy:byte-buddy:1.12.16",
+        "org.objenesis:objenesis:3.3",
+        "net.bytebuddy:byte-buddy-agent:1.12.16"
+      ]
+    },
+    {
+      "ref": "org.hamcrest:hamcrest-core:2.2",
+      "dependsOn": [
+        "org.hamcrest:hamcrest:2.2"
+      ]
+    },
+    {
+      "ref": "com.google.inject:guice:5.1.0",
+      "dependsOn": [
+        "aopalliance:aopalliance:1.0",
+        "javax.inject:javax.inject:1"
+      ]
+    },
+    {
+      "ref": "com.google.protobuf:protobuf-java-util:3.19.2",
+      "dependsOn": [
+        "com.google.code.gson:gson:2.8.6"
+      ]
+    },
+    {
+      "ref": "com.google.errorprone:error_prone_test_helpers:2.17.0",
+      "dependsOn": [
+        "com.google.truth:truth:1.1.3",
+        "com.google.auto.value:auto-value:1.9",
+        "junit:junit:4.13.2",
+        "com.google.testing.compile:compile-testing:0.19",
+        "org.hamcrest:hamcrest-library:2.2",
+        "org.mockito:mockito-core:4.9.0",
+        "com.google.errorprone:error_prone_check_api:2.17.0",
+        "com.google.jimfs:jimfs:1.2",
+        "org.checkerframework:dataflow-errorprone:3.27.0",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.hamcrest:hamcrest-core:2.2",
+        "com.google.guava:guava-testlib:31.0.1-jre",
+        "com.google.auto.service:auto-service:1.0.1",
+        "com.google.googlejavaformat:google-java-format:1.13.0",
+        "com.google.errorprone:error_prone_annotation:2.17.0"
+      ]
+    },
+    {
+      "ref": "com.google.truth:truth:1.1.3",
+      "dependsOn": [
+        "org.ow2.asm:asm:9.1",
+        "org.checkerframework:checker-qual:3.13.0",
+        "com.google.auto.value:auto-value-annotations:1.8.1"
       ]
     },
     {
       "ref": "org.jmock:jmock:2.12.0",
       "dependsOn": [
-        "org.jmock:jmock-testjar:2.12.0",
         "org.apache-extras.beanshell:bsh:2.0b6",
-        "org.hamcrest:hamcrest:2.1"
-      ]
-    },
-    {
-      "ref": "com.google.testparameterinjector:test-parameter-injector:1.1",
-      "dependsOn": [
-        "org.yaml:snakeyaml:1.27"
-      ]
-    },
-    {
-      "ref": "com.google.truth.extensions:truth-proto-extension:1.1.3",
-      "dependsOn": [
-        "com.google.truth.extensions:truth-liteproto-extension:1.1.3"
-      ]
-    },
-    {
-      "ref": "com.google.auto.factory:auto-factory:1.0.1",
-      "dependsOn": [
-        "com.squareup:javapoet:1.13.0"
-      ]
-    },
-    {
-      "ref": "org.jmock:jmock-junit4:2.12.0",
-      "dependsOn": [
-        "org.jmock:jmock-imposters:2.12.0",
-        "org.jmock:jmock-legacy:2.12.0"
-      ]
-    },
-    {
-      "ref": "org.gwtproject:gwt-user:2.10.0",
-      "dependsOn": [
-        "org.w3c.css:sac:1.3",
-        "javax.validation:validation-api:1.0.0.GA",
-        "com.google.jsinterop:jsinterop-annotations:2.0.0",
-        "javax.servlet:javax.servlet-api:3.1.0"
+        "org.hamcrest:hamcrest:2.1",
+        "org.jmock:jmock-testjar:2.12.0"
       ]
     },
     {
@@ -1463,14 +1435,14 @@
     {
       "ref": "com.google.errorprone:error_prone_annotation:2.17.0",
       "dependsOn": [
-        "com.google.guava:guava:31.0.1-jre",
-        "com.google.truth:truth:1.1.3"
+        "com.google.truth:truth:1.1.3",
+        "com.google.guava:guava:31.0.1-jre"
       ]
     },
     {
-      "ref": "org.hamcrest:hamcrest-core:2.2",
+      "ref": "io.github.java-diff-utils:java-diff-utils:4.0",
       "dependsOn": [
-        "org.hamcrest:hamcrest:2.2"
+        "org.eclipse.jgit:org.eclipse.jgit:4.4.1.201607150455-r"
       ]
     },
     {
@@ -1480,9 +1452,37 @@
       ]
     },
     {
-      "ref": "org.jmock:jmock-legacy:2.12.0",
+      "ref": "org.gwtproject:gwt-user:2.10.0",
       "dependsOn": [
-        "cglib:cglib:3.2.8"
+        "com.google.jsinterop:jsinterop-annotations:2.0.0",
+        "javax.servlet:javax.servlet-api:3.1.0",
+        "org.w3c.css:sac:1.3",
+        "javax.validation:validation-api:1.0.0.GA"
+      ]
+    },
+    {
+      "ref": "org.jmock:jmock-junit4:2.12.0",
+      "dependsOn": [
+        "org.jmock:jmock-legacy:2.12.0",
+        "org.jmock:jmock-imposters:2.12.0"
+      ]
+    },
+    {
+      "ref": "com.google.dagger:dagger-producers:2.40.5",
+      "dependsOn": [
+        "org.checkerframework:checker-compat-qual:2.5.5"
+      ]
+    },
+    {
+      "ref": "org.jmock:jmock-testjar:2.12.0",
+      "dependsOn": [
+        "com.google.code.findbugs:annotations:3.0.1"
+      ]
+    },
+    {
+      "ref": "com.google.auto.factory:auto-factory:1.0.1",
+      "dependsOn": [
+        "com.squareup:javapoet:1.13.0"
       ]
     }
   ]

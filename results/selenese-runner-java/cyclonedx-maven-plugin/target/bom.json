@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:05263203-83cb-4c05-93d6-d51bfa41d6e7",
+  "serialNumber" : "urn:uuid:1ccd2e98-51cf-4f41-b2d2-7384509bf4f9",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:26:52Z",
+    "timestamp" : "2023-02-26T02:05:57Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -60,6 +60,10 @@
       ],
       "purl" : "pkg:maven/jp.vmi/selenese-runner-java@4.2.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/vmi/selenese-runner-java"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -120,6 +124,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-java@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -176,6 +184,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-api@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -231,6 +243,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-chrome-driver@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -289,20 +305,20 @@
       "purl" : "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
+          "type" : "website",
+          "url" : "https://github.com/google/auto/tree/master/service"
         },
         {
-          "type" : "website",
-          "url" : "http://www.google.com"
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
         },
         {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
@@ -358,20 +374,20 @@
       "purl" : "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
+          "type" : "website",
+          "url" : "https://github.com/google/auto/tree/master/service"
         },
         {
-          "type" : "website",
-          "url" : "http://www.google.com"
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
         },
         {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
@@ -428,7 +444,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/auto/tree/master/common"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -437,10 +457,6 @@
         {
           "type" : "vcs",
           "url" : "http://github.com/google/auto"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -494,6 +510,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-chromium-driver@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -551,6 +571,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-json@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -606,6 +630,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v102@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -663,6 +691,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v103@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -718,6 +750,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v104@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -775,6 +811,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-devtools-v85@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -830,6 +870,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-edge-driver@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -887,6 +931,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-firefox-driver@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -942,6 +990,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-ie-driver@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -999,6 +1051,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-remote-driver@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -1054,6 +1110,10 @@
       ],
       "purl" : "pkg:maven/com.beust/jcommander@1.82?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jcommander.org"
+        },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/cbeust/jcommander/issues"
@@ -1117,15 +1177,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-buffer/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-buffer"
         }
       ],
       "type" : "library",
@@ -1182,15 +1242,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec-http/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec-http"
         }
       ],
       "type" : "library",
@@ -1247,15 +1307,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-common/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-common"
         }
       ],
       "type" : "library",
@@ -1312,15 +1372,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-classes-epoll/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-classes-epoll"
         }
       ],
       "type" : "library",
@@ -1377,15 +1437,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-classes-kqueue/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-classes-kqueue"
         }
       ],
       "type" : "library",
@@ -1442,15 +1502,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-epoll/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-epoll"
         }
       ],
       "type" : "library",
@@ -1507,15 +1567,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-kqueue/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-kqueue"
         }
       ],
       "type" : "library",
@@ -1572,15 +1632,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-unix-common/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-unix-common"
         }
       ],
       "type" : "library",
@@ -1637,15 +1697,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport"
         }
       ],
       "type" : "library",
@@ -1698,6 +1758,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar"
     },
@@ -1748,6 +1814,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-context@1.16.0?type=jar"
     },
@@ -1798,6 +1870,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-exporter-logging@1.16.0?type=jar"
     },
@@ -1848,6 +1926,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-metrics@1.16.0?type=jar"
     },
@@ -1898,6 +1982,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-logs@1.16.0-alpha?type=jar"
     },
@@ -1948,6 +2038,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.16.0?type=jar"
     },
@@ -1998,6 +2094,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi@1.16.0?type=jar"
     },
@@ -2048,6 +2150,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure@1.16.0-alpha?type=jar"
     },
@@ -2098,6 +2206,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.16.0?type=jar"
     },
@@ -2148,6 +2262,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-sdk@1.16.0?type=jar"
     },
@@ -2198,6 +2318,12 @@
         }
       ],
       "purl" : "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/open-telemetry/opentelemetry-java"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.opentelemetry/opentelemetry-semconv@1.16.0-alpha?type=jar"
     },
@@ -2248,7 +2374,16 @@
         }
       ],
       "purl" : "pkg:maven/io.ous/jtoml@2.0.0?type=jar",
-      "externalReferences" : [ ],
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/asafh/jtoml"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:asafh/jtoml.git"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.ous/jtoml@2.0.0?type=jar"
     },
@@ -2300,6 +2435,14 @@
       ],
       "purl" : "pkg:maven/net.bytebuddy/byte-buddy@1.12.10?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://bytebuddy.net/byte-buddy"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://s01.oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/raphw/byte-buddy/issues"
@@ -2358,28 +2501,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-exec@1.3?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/EXEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/exec/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-exec/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/EXEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/exec/trunk"
         }
       ],
       "type" : "library",
@@ -2434,6 +2577,10 @@
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
@@ -2447,7 +2594,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master"
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client"
         }
       ],
       "type" : "library",
@@ -2502,6 +2649,10 @@
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-netty-utils"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
@@ -2515,7 +2666,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master"
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-netty-utils"
         }
       ],
       "type" : "library",
@@ -2568,6 +2719,12 @@
         }
       ],
       "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.reactive-streams.org/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
     },
@@ -2622,7 +2779,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://typesafe.com/"
+          "url" : "https://github.com/playframework/netty-reactive-streams/netty-reactive-streams"
         },
         {
           "type" : "issue-tracker",
@@ -2630,7 +2787,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/playframework/netty-reactive-streams"
+          "url" : "https://github.com/playframework/netty-reactive-streams/netty-reactive-streams"
         }
       ],
       "type" : "library",
@@ -2684,6 +2841,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-http@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -2741,8 +2902,12 @@
       "purl" : "pkg:maven/dev.failsafe/failsafe@3.2.4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://failsafe.dev/failsafe"
+        },
+        {
           "type" : "vcs",
-          "url" : "https://github.com/failsafe-lib/failsafe"
+          "url" : "https://github.com/failsafe-lib/failsafe/failsafe"
         }
       ],
       "type" : "library",
@@ -2796,6 +2961,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-safari-driver@4.4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
@@ -2853,6 +3022,10 @@
       "purl" : "pkg:maven/org.seleniumhq.selenium/selenium-support@4.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://selenium.dev/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/SeleniumHQ/selenium/"
         }
@@ -2909,6 +3082,10 @@
       ],
       "purl" : "pkg:maven/org.seleniumhq.selenium/htmlunit-driver@3.63.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/SeleniumHQ/htmlunit-driver"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
@@ -2972,7 +3149,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.GargoyleSoftware.com/"
+          "url" : "http://htmlunit.sourceforge.net"
         },
         {
           "type" : "build-system",
@@ -3049,7 +3226,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -3060,8 +3241,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-client/tree/4.5.13/httpmime"
         }
       ],
       "type" : "library",
@@ -3118,7 +3299,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -3129,8 +3314,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-client/tree/4.5.13/httpclient"
         }
       ],
       "type" : "library",
@@ -3187,7 +3372,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -3198,8 +3387,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/4.4.13/httpcore"
         }
       ],
       "type" : "library",
@@ -3257,7 +3446,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.GargoyleSoftware.com/"
+          "url" : "http://htmlunit.sourceforge.net"
         },
         {
           "type" : "vcs",
@@ -3318,7 +3507,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.GargoyleSoftware.com/"
+          "url" : "http://htmlunit.sourceforge.net"
         },
         {
           "type" : "build-system",
@@ -3385,6 +3574,10 @@
       "purl" : "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/HtmlUnit/htmlunit-cssparser"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
         },
@@ -3446,28 +3639,28 @@
       "purl" : "pkg:maven/commons-net/commons-net@3.8.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/NET"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf/commons-net"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-net/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/NET"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-net"
         }
       ],
       "type" : "library",
@@ -3523,28 +3716,28 @@
       "purl" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/apache/commons-codec"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-codec/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/CODEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/commons-codec"
         }
       ],
       "type" : "library",
@@ -3600,8 +3793,12 @@
       "purl" : "pkg:maven/org.brotli/dec@0.1.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://brotli.org/dec"
+        },
+        {
           "type" : "vcs",
-          "url" : "https://github.com/google/brotli"
+          "url" : "https://github.com/google/brotli/dec"
         }
       ],
       "type" : "library",
@@ -3655,6 +3852,10 @@
       ],
       "purl" : "pkg:maven/com.shapesecurity/salvation2@3.0.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://cspvalidator.org"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -3719,7 +3920,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-client"
         },
         {
           "type" : "distribution",
@@ -3735,7 +3936,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-client"
         }
       ],
       "type" : "library",
@@ -3797,7 +3998,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/jetty-client"
         },
         {
           "type" : "distribution",
@@ -3813,7 +4014,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/jetty-client"
         }
       ],
       "type" : "library",
@@ -3875,7 +4076,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/jetty-http"
         },
         {
           "type" : "distribution",
@@ -3891,7 +4092,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/jetty-http"
         }
       ],
       "type" : "library",
@@ -3953,7 +4154,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/jetty-util"
         },
         {
           "type" : "distribution",
@@ -3969,7 +4170,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/jetty-util"
         }
       ],
       "type" : "library",
@@ -4031,7 +4232,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/jetty-io"
         },
         {
           "type" : "distribution",
@@ -4047,7 +4248,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/jetty-io"
         }
       ],
       "type" : "library",
@@ -4109,7 +4310,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-common"
         },
         {
           "type" : "distribution",
@@ -4125,7 +4326,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-common"
         }
       ],
       "type" : "library",
@@ -4187,7 +4388,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://webtide.com"
+          "url" : "https://eclipse.org/jetty/websocket-parent/websocket-api"
         },
         {
           "type" : "distribution",
@@ -4203,7 +4404,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
+          "url" : "https://github.com/eclipse/jetty.project/websocket-parent/websocket-api"
         }
       ],
       "type" : "library",
@@ -4258,6 +4459,10 @@
       ],
       "purl" : "pkg:maven/net.sourceforge.nekohtml/nekohtml@1.9.22?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nekohtml.sourceforge.net/"
+        },
         {
           "type" : "distribution",
           "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -4318,6 +4523,10 @@
       ],
       "purl" : "pkg:maven/xerces/xercesImpl@2.11.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://xerces.apache.org/xerces2-j/"
+        },
         {
           "type" : "vcs",
           "url" : "https://svn.apache.org/repos/asf/xerces/java/"
@@ -4387,6 +4596,10 @@
       "purl" : "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://xml.apache.org/commons/components/external/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/bugzilla/"
         },
@@ -4453,28 +4666,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/LANG"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
         }
       ],
       "type" : "library",
@@ -4531,28 +4744,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/TEXT"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-text"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TEXT"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-text.git"
         }
       ],
       "type" : "library",
@@ -4609,28 +4822,28 @@
       "purl" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/IO"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-io/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
         }
       ],
       "type" : "library",
@@ -4689,7 +4902,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.kohsuke.org/"
+          "url" : "http://args4j.kohsuke.org/args4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -4701,11 +4918,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://args4j.kohsuke.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "http://args4j.kohsuke.org/args4j/"
         }
       ],
       "type" : "library",
@@ -4764,7 +4977,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -4772,7 +4985,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -4830,7 +5043,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -4838,7 +5051,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/jcl-over-slf4j"
         }
       ],
       "type" : "library",
@@ -4902,7 +5115,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://logback.qos.ch/logback-classic"
         },
         {
           "type" : "distribution",
@@ -4910,7 +5123,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/logback"
+          "url" : "https://github.com/ceki/logback/logback-classic"
         }
       ],
       "type" : "library",
@@ -4973,7 +5186,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://logback.qos.ch/logback-core"
         },
         {
           "type" : "distribution",
@@ -4981,7 +5194,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/logback"
+          "url" : "https://github.com/ceki/logback/logback-core"
         }
       ],
       "type" : "library",
@@ -5039,7 +5252,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://xml.apache.org/xalan-j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
         },
         {
           "type" : "mailing-list",
@@ -5047,7 +5264,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4"
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4/xalan"
         }
       ],
       "type" : "library",
@@ -5104,7 +5321,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://xml.apache.org/xalan-j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
         },
         {
           "type" : "mailing-list",
@@ -5112,7 +5333,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4"
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4/serializer"
         }
       ],
       "type" : "library",
@@ -5170,7 +5391,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/guice/guice"
         },
         {
           "type" : "build-system",
@@ -5190,7 +5411,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guice"
+          "url" : "https://github.com/google/guice/guice"
         }
       ],
       "type" : "library",
@@ -5244,6 +5465,10 @@
       ],
       "purl" : "pkg:maven/javax.inject/javax.inject@1?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/atinject/"
+        },
         {
           "type" : "vcs",
           "url" : "http://code.google.com/p/atinject/source/checkout"
@@ -5299,6 +5524,12 @@
         }
       ],
       "purl" : "pkg:maven/aopalliance/aopalliance@1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://aopalliance.sourceforge.net"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/aopalliance/aopalliance@1.0?type=jar"
     },
@@ -5351,6 +5582,10 @@
       "purl" : "pkg:maven/com.google.guava/guava@31.1-jre?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava"
+        },
+        {
           "type" : "build-system",
           "url" : "https://github.com/google/guava/actions"
         },
@@ -5364,7 +5599,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
+          "url" : "https://github.com/google/guava/guava"
         }
       ],
       "type" : "library",
@@ -5419,8 +5654,16 @@
       "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/failureaccess"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -5428,11 +5671,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/failureaccess"
         }
       ],
       "type" : "library",
@@ -5487,8 +5726,16 @@
       "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -5496,11 +5743,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/listenablefuture"
         }
       ],
       "type" : "library",
@@ -5555,12 +5798,16 @@
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/p/jsr-305/"
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/p/jsr-305/"
         }
       ],
       "type" : "library",
@@ -5614,6 +5861,10 @@
       ],
       "purl" : "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/typetools/checker-framework.git"
@@ -5673,11 +5924,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://errorprone.info/error_prone_annotations"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/error-prone"
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
         }
       ],
       "type" : "library",
@@ -5732,12 +5983,16 @@
       "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/j2objc/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations"
         }
       ],
       "type" : "library",
@@ -5796,7 +6051,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -5804,7 +6059,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/jul-to-slf4j"
         }
       ],
       "type" : "library",
@@ -5859,6 +6114,10 @@
       ],
       "purl" : "pkg:maven/com.floreysoft/jmte@7.0.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/jmte/"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/DJCordhose/jmte"
@@ -5918,16 +6177,20 @@
       "purl" : "pkg:maven/com.google.code.gson/gson@2.9.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/gson/gson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/google/gson/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/gson/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/gson/gson/"
         }
       ],
       "type" : "library",
@@ -5984,15 +6247,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec"
         }
       ],
       "type" : "library",
@@ -6049,15 +6312,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec-socks/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec-socks"
         }
       ],
       "type" : "library",
@@ -6114,15 +6377,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-handler/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-handler"
         }
       ],
       "type" : "library",
@@ -6179,15 +6442,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-handler-proxy/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-handler-proxy"
         }
       ],
       "type" : "library",
@@ -6244,15 +6507,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-resolver/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-resolver"
         }
       ],
       "type" : "library",
@@ -6309,15 +6572,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-epoll/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-epoll"
         }
       ],
       "type" : "library",
@@ -6374,15 +6637,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-kqueue/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-kqueue"
         }
       ],
       "type" : "library",
@@ -6438,6 +6701,10 @@
       ],
       "purl" : "pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.assertthat.com"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/assertthat/selenium-shutterbug"
@@ -6495,12 +6762,16 @@
       "purl" : "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
+          "type" : "website",
           "url" : "https://github.com/zafarkhaja/jsemver"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/zafarkhaja/jsemver"
         }
       ],
       "type" : "library",
@@ -6554,6 +6825,10 @@
       ],
       "purl" : "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/bonigarcia/webdrivermanager"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -6621,7 +6896,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -6632,8 +6911,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-client/tree/5.0/httpclient5"
         }
       ],
       "type" : "library",
@@ -6690,7 +6969,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -6701,8 +6984,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/5.0/httpcore5"
         }
       ],
       "type" : "library",
@@ -6759,7 +7042,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -6770,8 +7057,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/5.0/httpcore5-h2"
         }
       ],
       "type" : "library",
@@ -6826,12 +7113,16 @@
       "purl" : "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/thrau/jarchivelib"
+          "type" : "website",
+          "url" : "http://rauschig.org/jarchivelib"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/thrau/jarchivelib"
         }
       ],
       "type" : "library",
@@ -6887,28 +7178,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-compress@1.18?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://git-wip-us.apache.org/repos/asf?p=commons-compress.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-compress/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf?p=commons-compress.git"
         }
       ],
       "type" : "library",
@@ -6965,7 +7256,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://jhy.io/"
+          "url" : "https://jsoup.org/"
         },
         {
           "type" : "distribution",
@@ -7034,6 +7325,14 @@
       "purl" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaxb-api/issues"
         },
@@ -7043,11 +7342,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaxb-api.git"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api"
         }
       ],
       "type" : "library",
@@ -7058,7 +7353,7 @@
       "group" : "jakarta.activation",
       "name" : "jakarta.activation-api",
       "version" : "1.2.2",
-      "description" : "${project.name}",
+      "description" : "Jakarta Activation API jar",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -7103,20 +7398,24 @@
       "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaf"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
-        },
-        {
           "type" : "mailing-list",
           "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
         }
       ],
       "type" : "library",
@@ -7173,6 +7472,14 @@
       "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
         },
@@ -7182,11 +7489,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-runtime-parent/jaxb-runtime"
         }
       ],
       "type" : "library",
@@ -7242,6 +7545,14 @@
       "purl" : "pkg:maven/org.glassfish.jaxb/txw2@2.3.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
         },
@@ -7251,11 +7562,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2"
         }
       ],
       "type" : "library",
@@ -7311,6 +7618,14 @@
       "purl" : "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/issues"
         },
@@ -7320,11 +7635,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-runtime"
         }
       ],
       "type" : "library",
@@ -7335,7 +7646,7 @@
       "group" : "com.sun.activation",
       "name" : "jakarta.activation",
       "version" : "1.2.2",
-      "description" : "${project.name}",
+      "description" : "Jakarta Activation",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -7380,20 +7691,24 @@
       "purl" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaf"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
-        },
-        {
           "type" : "mailing-list",
           "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
         }
       ],
       "type" : "library",
@@ -7631,15 +7946,26 @@
       "dependsOn" : [
         "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
         "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
-        "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar"
+        "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar"
       ]
     },
     {
       "ref" : "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
       "dependsOn" : [
         "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
-        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar"
+        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar"
       ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-codec@4.1.79.Final?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar",
@@ -7686,6 +8012,10 @@
         "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar",
         "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"
       ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-resolver@4.1.79.Final?type=jar",
+      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/io.opentelemetry/opentelemetry-api@1.16.0?type=jar",
@@ -7783,20 +8113,61 @@
       "ref" : "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
       "dependsOn" : [
         "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+        "pkg:maven/io.netty/netty-codec-http@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar",
+        "pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar",
+        "pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&type=jar",
+        "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&type=jar",
         "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
         "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
         "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
       ]
     },
     {
       "ref" : "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
       "dependsOn" : [
+        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
         "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
       ]
     },
     {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
       "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-codec-socks@4.1.79.Final?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-handler-proxy@4.1.79.Final?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-transport-native-epoll@4.1.79.Final?classifier=linux-x86_64&type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-epoll@4.1.78.Final?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.netty/netty-transport-native-kqueue@4.1.79.Final?classifier=osx-x86_64&type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.netty/netty-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-buffer@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-native-unix-common@4.1.78.Final?type=jar",
+        "pkg:maven/io.netty/netty-transport-classes-kqueue@4.1.78.Final?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
@@ -7805,6 +8176,7 @@
     {
       "ref" : "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar",
       "dependsOn" : [
+        "pkg:maven/io.netty/netty-handler@4.1.79.Final?type=jar",
         "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
       ]
     },
@@ -7861,6 +8233,7 @@
         "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar",
         "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
         "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
         "pkg:maven/commons-net/commons-net@3.8.0?type=jar",
         "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
         "pkg:maven/org.brotli/dec@0.1.2?type=jar",
@@ -7896,7 +8269,15 @@
     },
     {
       "ref" : "pkg:maven/net.sourceforge.htmlunit/neko-htmlunit@2.63.0?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/xerces/xercesImpl@2.11.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/xerces/xercesImpl@2.11.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/net.sourceforge.htmlunit/htmlunit-cssparser@1.12.0?type=jar",
@@ -7908,6 +8289,12 @@
     },
     {
       "ref" : "pkg:maven/org.apache.commons/commons-text@1.9?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -7978,25 +8365,11 @@
       ]
     },
     {
-      "ref" : "pkg:maven/xerces/xercesImpl@2.11.0?type=jar",
-      "dependsOn" : [
-        "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
-      ]
-    },
-    {
       "ref" : "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
       "ref" : "pkg:maven/args4j/args4j@2.33?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
-      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -8008,7 +8381,8 @@
     {
       "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.2.11?type=jar",
       "dependsOn" : [
-        "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar"
+        "pkg:maven/ch.qos.logback/logback-core@1.2.11?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
       ]
     },
     {
@@ -8017,7 +8391,9 @@
     },
     {
       "ref" : "pkg:maven/xalan/serializer@2.7.2?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.google.inject/guice@5.1.0?type=jar",
@@ -8076,6 +8452,7 @@
     {
       "ref" : "pkg:maven/com.assertthat/selenium-shutterbug@1.6?type=jar",
       "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
         "pkg:maven/com.github.zafarkhaja/java-semver@0.9.0?type=jar",
         "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar"
       ]
@@ -8087,6 +8464,10 @@
     {
       "ref" : "pkg:maven/io.github.bonigarcia/webdrivermanager@4.0.0?type=jar",
       "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.9.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
         "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar",
         "pkg:maven/org.rauschig/jarchivelib@1.0.0?type=jar",
         "pkg:maven/org.jsoup/jsoup@1.13.1?type=jar"
@@ -8096,7 +8477,9 @@
       "ref" : "pkg:maven/org.apache.httpcomponents.client5/httpclient5@5.0?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.0?type=jar",
-        "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar"
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5-h2@5.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
       ]
     },
     {

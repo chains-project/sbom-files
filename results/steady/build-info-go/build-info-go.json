@@ -4955,17 +4955,44 @@
   ],
   "dependencies": [
     {
-      "ref": "org.hibernate:hibernate-core:5.4.33",
+      "ref": "org.bitbucket.mstrobel:procyon-compilertools:0.5.36",
       "dependsOn": [
-        "org.javassist:javassist:3.27.0-GA",
-        "org.jboss:jandex:2.2.3.Final",
-        "net.bytebuddy:byte-buddy:1.10.22",
-        "com.fasterxml:classmate:1.5.1",
-        "org.jboss.logging:jboss-logging:3.4.3.Final",
-        "antlr:antlr:2.7.7",
-        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
-        "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
-        "org.dom4j:dom4j:2.1.3"
+        "org.bitbucket.mstrobel:procyon-core:0.5.36"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
+      "dependsOn": [
+        "org.apache.tomcat.embed:tomcat-embed-el:9.0.60",
+        "org.apache.tomcat.embed:tomcat-embed-core:9.0.60",
+        "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:30.1.1-jre",
+      "dependsOn": [
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:failureaccess:1.0.1",
+        "org.checkerframework:checker-qual:3.8.0",
+        "com.google.errorprone:error_prone_annotations:2.5.1",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:rest-backend:3.2.5",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
+        "org.postgresql:postgresql:42.4.2",
+        "com.jayway.jsonpath:json-path:2.7.0",
+        "org.flywaydb:flyway-core:6.5.7",
+        "org.springframework.boot:spring-boot-starter-actuator:2.5.12",
+        "javax.interceptor:javax.interceptor-api:1.2.2",
+        "com.google.guava:guava:30.0-jre",
+        "com.sun.mail:javax.mail:1.6.2",
+        "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
+        "org.springdoc:springdoc-openapi-ui:1.2.32",
+        "org.springframework.boot:spring-boot-starter-web:2.5.12",
+        "org.springframework.boot:spring-boot-starter:2.5.12"
       ]
     },
     {
@@ -4975,505 +5002,46 @@
       ]
     },
     {
-      "ref": "org.springframework.data:spring-data-rest-core:3.5.10",
+      "ref": "org.apache.maven:maven-core:3.8.4",
       "dependsOn": [
-        "org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE",
-        "org.springframework.hateoas:spring-hateoas:1.3.7",
-        "org.atteo:evo-inflector:1.2.2"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
-      "dependsOn": [
-        "org.springframework.data:spring-data-rest-webmvc:3.5.10"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r",
-      "dependsOn": [
-        "com.googlecode.javaewah:JavaEWAH:1.1.6",
-        "com.jcraft:jsch:0.1.54",
-        "com.jcraft:jzlib:1.1.1",
-        "org.slf4j:slf4j-api:1.7.2"
-      ]
-    },
-    {
-      "ref": "ca.mcgill.sable:soot:4.1.0",
-      "dependsOn": [
-        "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
-        "de.upb.cs.swt:heros:1.2.0",
-        "xmlpull:xmlpull:1.1.3.4d_b4_min",
-        "org.ow2.asm:asm-util:7.1",
-        "org.slf4j:slf4j-api:1.7.5",
-        "org.smali:dexlib2:2.3.4",
-        "org.ow2.asm:asm-tree:7.1",
-        "javax.annotation:javax.annotation-api:1.3.2",
-        "ca.mcgill.sable:polyglot:2006",
-        "javax.xml.bind:jaxb-api:2.4.0-b180725.0427",
-        "org.ow2.asm:asm:7.1",
-        "org.ow2.asm:asm-commons:7.1",
-        "de.upb.cs.swt:axml:2.0.0"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
-      "dependsOn": [
-        "com.sun.xml.fastinfoset:FastInfoset:1.2.15",
-        "org.jvnet.staxex:stax-ex:1.8",
-        "com.sun.istack:istack-commons-runtime:3.0.7",
-        "org.glassfish.jaxb:txw2:2.4.0-b180830.0438"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter:2.5.12",
-      "dependsOn": [
-        "org.springframework.boot:spring-boot-autoconfigure:2.5.12",
-        "org.springframework.boot:spring-boot:2.5.12",
-        "org.springframework:spring-core:5.3.18",
-        "org.yaml:snakeyaml:1.28",
-        "jakarta.annotation:jakarta.annotation-api:1.3.5",
-        "org.springframework.boot:spring-boot-starter-logging:2.5.12"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
-      "dependsOn": [
-        "org.apache.tomcat.embed:tomcat-embed-websocket:9.0.60",
-        "org.apache.tomcat.embed:tomcat-embed-el:9.0.60",
-        "org.apache.tomcat.embed:tomcat-embed-core:9.0.60"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.12",
-      "dependsOn": [
-        "org.springframework.boot:spring-boot-actuator:2.5.12"
-      ]
-    },
-    {
-      "ref": "com.jayway.jsonpath:json-path:2.7.0",
-      "dependsOn": [
-        "net.minidev:json-smart:2.4.8",
-        "org.slf4j:slf4j-api:1.7.33",
-        "net.minidev:json-smart:2.4.7"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-web:2.5.12",
-      "dependsOn": [
-        "org.springframework:spring-web:5.3.18",
-        "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
-        "org.springframework.boot:spring-boot-starter-json:2.5.12",
-        "org.springframework:spring-webmvc:5.3.18"
-      ]
-    },
-    {
-      "ref": "org.springframework:spring-core:5.3.18",
-      "dependsOn": [
-        "org.springframework:spring-jcl:5.3.18"
-      ]
-    },
-    {
-      "ref": "org.tmatesoft.svnkit:svnkit:1.9.3",
-      "dependsOn": [
-        "net.java.dev.jna:jna:4.1.0",
-        "net.java.dev.jna:jna-platform:4.1.0",
-        "com.trilead:trilead-ssh2:1.0.0-build221",
-        "com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7",
-        "de.regnis.q.sequence:sequence-library:1.0.3",
-        "org.tmatesoft.sqljet:sqljet:1.1.11",
-        "com.jcraft:jsch.agentproxy.connector-factory:0.0.7"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:rest-lib-utils:3.2.5",
-      "dependsOn": [
-        "com.jeantessier:dependency-finder:1.2.1-beta5-log4j",
-        "oro:oro:2.0.8",
-        "commons-io:commons-io:2.7"
+        "org.apache.maven:maven-settings:3.8.4",
+        "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+        "org.apache.maven:maven-artifact:3.8.4",
+        "org.slf4j:slf4j-api:1.7.32",
+        "org.codehaus.plexus:plexus-interpolation:1.26",
+        "org.apache.maven:maven-builder-support:3.8.4",
+        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+        "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+        "org.apache.maven:maven-settings-builder:3.8.4",
+        "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+        "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "org.apache.maven:maven-resolver-provider:3.8.4",
+        "org.apache.commons:commons-lang3:3.8.1",
+        "org.apache.maven:maven-model:3.8.4",
+        "org.apache.maven:maven-repository-metadata:3.8.4",
+        "org.apache.maven:maven-model-builder:3.8.4",
+        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+        "org.codehaus.plexus:plexus-classworlds:2.6.0",
+        "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+        "com.google.inject:guice:4.2.2",
+        "org.apache.maven.resolver:maven-resolver-impl:1.6.3"
       ]
     },
     {
       "ref": "org.eclipse.steady:lang:3.2.5",
       "dependsOn": [
+        "commons-cli:commons-cli:1.4",
+        "javax.xml.bind:jaxb-api:2.3.1",
+        "org.apache.httpcomponents:httpclient:4.5.13",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "commons-collections:commons-collections:3.2.2",
+        "com.google.code.gson:gson:2.8.9",
+        "org.apache.velocity:velocity-engine-core:2.3",
         "org.antlr:antlr4-runtime:4.9.3",
         "org.apache.commons:commons-compress:1.21",
-        "org.apache.httpcomponents:httpclient:4.5.13",
-        "commons-collections:commons-collections:3.2.2",
         "com.google.code.gson:gson:2.9.0",
         "org.eclipse.steady:shared:3.2.5",
-        "com.google.code.gson:gson:2.8.9",
-        "javax.xml.bind:jaxb-api:2.3.1",
-        "org.apache.velocity:velocity-engine-core:2.3",
-        "commons-beanutils:commons-beanutils:1.9.4",
-        "org.javassist:javassist:3.28.0-GA",
-        "commons-cli:commons-cli:1.4"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:shared:3.2.5",
-      "dependsOn": [
-        "org.apache.logging.log4j:log4j-api:2.17.2",
-        "org.apache.logging.log4j:log4j-core:2.17.2",
-        "com.github.package-url:packageurl-java:1.4.1",
-        "commons-configuration:commons-configuration:1.10",
-        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
-        "com.fasterxml.jackson.core:jackson-core:2.13.4",
-        "com.fasterxml.jackson.core:jackson-databind:2.13.4",
-        "com.fasterxml.jackson.core:jackson-databind:2.12.6.1",
-        "com.fasterxml.jackson.core:jackson-core:2.12.6",
-        "com.fasterxml.jackson.core:jackson-annotations:2.12.6"
-      ]
-    },
-    {
-      "ref": "com.sun.mail:javax.mail:1.6.2",
-      "dependsOn": [
-        "javax.activation:activation:1.1"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:30.0-jre",
-      "dependsOn": [
-        "org.checkerframework:checker-qual:3.5.0",
-        "com.google.errorprone:error_prone_annotations:2.3.4"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-logging:2.5.12",
-      "dependsOn": [
-        "org.apache.logging.log4j:log4j-to-slf4j:2.17.2",
-        "ch.qos.logback:logback-classic:1.2.11",
-        "org.slf4j:jul-to-slf4j:1.7.36"
-      ]
-    },
-    {
-      "ref": "io.swagger.core.v3:swagger-integration:2.1.1",
-      "dependsOn": [
-        "io.swagger.core.v3:swagger-core:2.1.1"
-      ]
-    },
-    {
-      "ref": "com.google.inject:guice:4.2.3",
-      "dependsOn": [
-        "com.google.guava:guava:27.1-jre",
-        "aopalliance:aopalliance:1.0",
-        "javax.inject:javax.inject:1"
-      ]
-    },
-    {
-      "ref": "org.springframework:spring-webmvc:5.3.18",
-      "dependsOn": [
-        "org.springframework:spring-expression:5.3.18",
-        "org.springframework:spring-aop:5.3.18"
-      ]
-    },
-    {
-      "ref": "org.springdoc:springdoc-openapi-ui:1.2.32",
-      "dependsOn": [
-        "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
-        "org.webjars:swagger-ui:3.25.0",
-        "org.webjars:webjars-locator:0.38"
-      ]
-    },
-    {
-      "ref": "org.springframework:spring-web:5.3.18",
-      "dependsOn": [
-        "org.springframework:spring-beans:5.3.18"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:rest-backend:3.2.5",
-      "dependsOn": [
-        "org.springframework.boot:spring-boot-starter-actuator:2.5.12",
-        "javax.interceptor:javax.interceptor-api:1.2.2",
-        "org.springdoc:springdoc-openapi-ui:1.2.32",
-        "org.springframework.boot:spring-boot-starter-web:2.5.12",
-        "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
-        "org.springframework.boot:spring-boot-starter:2.5.12",
-        "com.jayway.jsonpath:json-path:2.7.0",
-        "com.google.guava:guava:30.0-jre",
-        "com.sun.mail:javax.mail:1.6.2",
-        "org.postgresql:postgresql:42.4.2",
-        "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
-        "org.flywaydb:flyway-core:6.5.7"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
-      "dependsOn": [
-        "org.glassfish.jaxb:txw2:2.3.6",
-        "com.sun.istack:istack-commons-runtime:3.0.12",
-        "com.sun.activation:jakarta.activation:1.2.2"
-      ]
-    },
-    {
-      "ref": "net.minidev:json-smart:2.4.7",
-      "dependsOn": [
-        "net.minidev:accessors-smart:2.4.7"
-      ]
-    },
-    {
-      "ref": "org.apache.ant:ant:1.10.12",
-      "dependsOn": [
-        "org.apache.ant:ant-launcher:1.10.12"
-      ]
-    },
-    {
-      "ref": "javax.xml.bind:jaxb-api:2.3.1",
-      "dependsOn": [
-        "javax.activation:javax.activation-api:1.2.0"
-      ]
-    },
-    {
-      "ref": "org.apache.maven:maven-core:3.8.4",
-      "dependsOn": [
-        "org.apache.maven.resolver:maven-resolver-api:1.6.3",
-        "org.apache.maven.resolver:maven-resolver-util:1.6.3",
-        "com.google.inject:guice:4.2.2",
-        "org.apache.maven:maven-resolver-provider:3.8.4",
-        "org.slf4j:slf4j-api:1.7.32",
-        "org.apache.maven:maven-settings-builder:3.8.4",
-        "org.apache.commons:commons-lang3:3.8.1",
-        "org.apache.maven:maven-model:3.8.4",
-        "org.codehaus.plexus:plexus-classworlds:2.6.0",
-        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
-        "org.apache.maven:maven-settings:3.8.4",
-        "org.apache.maven:maven-repository-metadata:3.8.4",
-        "org.apache.maven:maven-artifact:3.8.4",
-        "org.apache.maven:maven-model-builder:3.8.4",
-        "org.codehaus.plexus:plexus-interpolation:1.26",
-        "org.apache.maven.shared:maven-shared-utils:3.3.4",
-        "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
-        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
-        "org.apache.maven:maven-builder-support:3.8.4",
-        "org.codehaus.plexus:plexus-component-annotations:2.1.0",
-        "org.apache.maven.resolver:maven-resolver-spi:1.6.3"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:lang-java:3.2.5",
-      "dependsOn": [
-        "commons-io:commons-io:2.11.0",
-        "org.eclipse.jdt.core.compiler:ecj:4.6.1",
-        "com.google.inject.extensions:guice-assistedinject:4.2.3",
-        "ch.uzh.ifi.seal:changedistiller:0.0.4",
-        "org.bitbucket.mstrobel:procyon-compilertools:0.5.36"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:cli-scanner:3.2.5",
-      "dependsOn": [
-        "org.apache.logging.log4j:log4j-api:2.18.0",
-        "com.github.spotbugs:spotbugs-annotations:4.7.2",
-        "org.eclipse.steady:lang-java-reach-soot:3.2.5",
-        "org.apache.logging.log4j:log4j-core:2.18.0",
-        "org.eclipse.steady:lang-java-reach:3.2.5",
-        "org.eclipse.steady:shared:3.2.5",
-        "org.eclipse.steady:lang:3.2.5",
-        "org.eclipse.steady:lang-python:3.2.5",
-        "org.eclipse.steady:lang-java-reach-wala:3.2.5",
-        "javax.validation:validation-api:2.0.1.Final"
-      ]
-    },
-    {
-      "ref": "commons-configuration:commons-configuration:1.10",
-      "dependsOn": [
-        "commons-lang:commons-lang:2.6",
-        "commons-logging:commons-logging:1.1.1"
-      ]
-    },
-    {
-      "ref": "com.xebialabs.restito:restito:0.9.4",
-      "dependsOn": [
-        "org.slf4j:slf4j-api:1.7.21"
-      ]
-    },
-    {
-      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
-      "dependsOn": [
-        "jakarta.activation:jakarta.activation-api:1.2.2"
-      ]
-    },
-    {
-      "ref": "org.tmatesoft.sqljet:sqljet:1.1.11",
-      "dependsOn": [
-        "org.antlr:antlr-runtime:3.4"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:plugin-maven:3.2.5",
-      "dependsOn": [
-        "org.apache.maven:maven-core:3.8.4",
-        "org.apache.maven:maven-plugin-api:3.8.4",
-        "org.codehaus.plexus:plexus-cipher:2.0",
-        "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4",
-        "org.apache.ant:ant:1.10.12",
-        "org.codehaus.plexus:plexus-utils:3.4.1"
-      ]
-    },
-    {
-      "ref": "org.apache.maven:maven-settings-builder:3.8.4",
-      "dependsOn": [
-        "org.codehaus.plexus:plexus-sec-dispatcher:2.0"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
-      "dependsOn": [
-        "jakarta.persistence:jakarta.persistence-api:2.2.3",
-        "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
-        "org.springframework.data:spring-data-jpa:2.5.10",
-        "jakarta.transaction:jakarta.transaction-api:1.3.3",
-        "org.springframework:spring-aspects:5.3.18",
-        "org.hibernate:hibernate-core:5.4.33",
-        "org.springframework.boot:spring-boot-starter-aop:2.5.12"
-      ]
-    },
-    {
-      "ref": "org.springdoc:springdoc-openapi-common:1.2.32",
-      "dependsOn": [
-        "io.swagger.core.v3:swagger-annotations:2.1.1",
-        "io.swagger.core.v3:swagger-integration:2.1.1",
-        "io.github.classgraph:classgraph:4.8.44",
-        "io.swagger.core.v3:swagger-models:2.1.1"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:lang-java-reach:3.2.5",
-      "dependsOn": [
-        "com.ibm.wala:com.ibm.wala.shrike:1.4.3",
-        "com.ibm.wala:com.ibm.wala.util:1.4.3",
-        "org.eclipse.steady:lang-java:3.2.5",
-        "com.ibm.wala:com.ibm.wala.core:1.4.3"
-      ]
-    },
-    {
-      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
-      "dependsOn": [
-        "commons-codec:commons-codec:1.15",
-        "org.apache.httpcomponents:httpcore:4.4.15",
-        "commons-logging:commons-logging:1.2",
-        "commons-codec:commons-codec:1.11",
-        "org.apache.httpcomponents:httpcore:4.4.13"
-      ]
-    },
-    {
-      "ref": "de.upb.cs.swt:heros:1.2.0",
-      "dependsOn": [
-        "org.functionaljava:functionaljava:4.2"
-      ]
-    },
-    {
-      "ref": "org.springframework.data:spring-data-rest-webmvc:3.5.10",
-      "dependsOn": [
-        "org.springframework.data:spring-data-rest-core:3.5.10"
-      ]
-    },
-    {
-      "ref": "io.micrometer:micrometer-core:1.7.10",
-      "dependsOn": [
-        "org.latencyutils:LatencyUtils:2.0.3",
-        "org.hdrhistogram:HdrHistogram:2.1.12"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:30.1.1-jre",
-      "dependsOn": [
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.j2objc:j2objc-annotations:1.3",
-        "com.google.guava:failureaccess:1.0.1",
-        "org.checkerframework:checker-qual:3.8.0",
-        "com.google.errorprone:error_prone_annotations:2.5.1"
-      ]
-    },
-    {
-      "ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
-      "dependsOn": [
-        "com.google.code.findbugs:jsr305:3.0.2"
-      ]
-    },
-    {
-      "ref": "ch.qos.logback:logback-classic:1.2.11",
-      "dependsOn": [
-        "ch.qos.logback:logback-core:1.2.11"
-      ]
-    },
-    {
-      "ref": "org.apache.velocity:velocity-engine-core:2.3",
-      "dependsOn": [
-        "org.apache.commons:commons-lang3:3.11",
-        "org.slf4j:slf4j-api:1.7.30"
-      ]
-    },
-    {
-      "ref": "org.bitbucket.mstrobel:procyon-compilertools:0.5.36",
-      "dependsOn": [
-        "org.bitbucket.mstrobel:procyon-core:0.5.36"
-      ]
-    },
-    {
-      "ref": "com.google.inject.extensions:guice-assistedinject:4.2.3",
-      "dependsOn": [
-        "com.google.inject:guice:4.2.3"
-      ]
-    },
-    {
-      "ref": "org.springframework.data:spring-data-jpa:2.5.10",
-      "dependsOn": [
-        "org.springframework:spring-orm:5.3.18",
-        "org.springframework.data:spring-data-commons:2.5.10",
-        "org.springframework:spring-tx:5.3.18"
-      ]
-    },
-    {
-      "ref": "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
-      "dependsOn": [
-        "org.springdoc:springdoc-openapi-common:1.2.32"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:27.1-jre",
-      "dependsOn": [
-        "com.google.j2objc:j2objc-annotations:1.1",
-        "org.codehaus.mojo:animal-sniffer-annotations:1.17",
-        "org.checkerframework:checker-qual:2.5.2",
-        "com.google.errorprone:error_prone_annotations:2.2.0"
-      ]
-    },
-    {
-      "ref": "org.eclipse.steady:repo-client:3.2.5",
-      "dependsOn": [
-        "org.tmatesoft.svnkit:svnkit:1.9.3",
-        "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r"
-      ]
-    },
-    {
-      "ref": "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
-      "dependsOn": [
-        "net.java.dev.jna:platform:3.4.0"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
-      "dependsOn": [
-        "org.springframework:spring-jdbc:5.3.18",
-        "com.zaxxer:HikariCP:4.0.3"
-      ]
-    },
-    {
-      "ref": "org.springframework.boot:spring-boot-starter-test:2.5.12",
-      "dependsOn": [
-        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
-        "com.jayway.jsonpath:json-path:2.5.0"
-      ]
-    },
-    {
-      "ref": "com.jcraft:jsch.agentproxy.connector-factory:0.0.7",
-      "dependsOn": [
-        "com.jcraft:jsch.agentproxy.usocket-nc:0.0.7",
-        "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
-        "com.jcraft:jsch.agentproxy.sshagent:0.0.7",
-        "com.jcraft:jsch.agentproxy.pageant:0.0.7",
-        "com.jcraft:jsch.agentproxy.core:0.0.7"
+        "org.javassist:javassist:3.28.0-GA"
       ]
     },
     {
@@ -5491,15 +5059,376 @@
       ]
     },
     {
+      "ref": "com.jayway.jsonpath:json-path:2.7.0",
+      "dependsOn": [
+        "net.minidev:json-smart:2.4.8",
+        "org.slf4j:slf4j-api:1.7.33",
+        "net.minidev:json-smart:2.4.7"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-data-jpa:2.5.12",
+      "dependsOn": [
+        "org.hibernate:hibernate-core:5.4.33",
+        "org.springframework.boot:spring-boot-starter-aop:2.5.12",
+        "jakarta.persistence:jakarta.persistence-api:2.2.3",
+        "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
+        "org.springframework.data:spring-data-jpa:2.5.10",
+        "jakarta.transaction:jakarta.transaction-api:1.3.3",
+        "org.springframework:spring-aspects:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:plugin-maven:3.2.5",
+      "dependsOn": [
+        "org.apache.maven.plugin-tools:maven-plugin-annotations:3.6.4",
+        "org.apache.ant:ant:1.10.12",
+        "org.codehaus.plexus:plexus-utils:3.4.1",
+        "org.apache.maven:maven-core:3.8.4",
+        "org.apache.maven:maven-plugin-api:3.8.4",
+        "org.codehaus.plexus:plexus-cipher:2.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang-java:3.2.5",
+      "dependsOn": [
+        "com.google.inject.extensions:guice-assistedinject:4.2.3",
+        "ch.uzh.ifi.seal:changedistiller:0.0.4",
+        "org.bitbucket.mstrobel:procyon-compilertools:0.5.36",
+        "commons-io:commons-io:2.11.0",
+        "org.eclipse.jdt.core.compiler:ecj:4.6.1"
+      ]
+    },
+    {
+      "ref": "ca.mcgill.sable:soot:4.1.0",
+      "dependsOn": [
+        "de.upb.cs.swt:axml:2.0.0",
+        "ca.mcgill.sable:polyglot:2006",
+        "org.smali:dexlib2:2.3.4",
+        "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
+        "org.ow2.asm:asm:7.1",
+        "de.upb.cs.swt:heros:1.2.0",
+        "xmlpull:xmlpull:1.1.3.4d_b4_min",
+        "org.ow2.asm:asm-commons:7.1",
+        "javax.xml.bind:jaxb-api:2.4.0-b180725.0427",
+        "org.slf4j:slf4j-api:1.7.5",
+        "org.ow2.asm:asm-tree:7.1",
+        "javax.annotation:javax.annotation-api:1.3.2",
+        "org.ow2.asm:asm-util:7.1"
+      ]
+    },
+    {
+      "ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
+      "dependsOn": [
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-common:1.2.32",
+      "dependsOn": [
+        "io.github.classgraph:classgraph:4.8.44",
+        "io.swagger.core.v3:swagger-models:2.1.1",
+        "io.swagger.core.v3:swagger-annotations:2.1.1",
+        "io.swagger.core.v3:swagger-integration:2.1.1"
+      ]
+    },
+    {
+      "ref": "net.minidev:json-smart:2.4.7",
+      "dependsOn": [
+        "net.minidev:accessors-smart:2.4.7"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:30.0-jre",
+      "dependsOn": [
+        "org.checkerframework:checker-qual:3.5.0",
+        "com.google.errorprone:error_prone_annotations:2.3.4"
+      ]
+    },
+    {
+      "ref": "com.jcraft:jsch.agentproxy.connector-factory:0.0.7",
+      "dependsOn": [
+        "com.jcraft:jsch.agentproxy.sshagent:0.0.7",
+        "com.jcraft:jsch.agentproxy.pageant:0.0.7",
+        "com.jcraft:jsch.agentproxy.core:0.0.7",
+        "com.jcraft:jsch.agentproxy.usocket-nc:0.0.7",
+        "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7"
+      ]
+    },
+    {
+      "ref": "com.jcraft:jsch.agentproxy.usocket-jna:0.0.7",
+      "dependsOn": [
+        "net.java.dev.jna:platform:3.4.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:lang-java-reach:3.2.5",
+      "dependsOn": [
+        "com.ibm.wala:com.ibm.wala.util:1.4.3",
+        "org.eclipse.steady:lang-java:3.2.5",
+        "com.ibm.wala:com.ibm.wala.core:1.4.3",
+        "com.ibm.wala:com.ibm.wala.shrike:1.4.3"
+      ]
+    },
+    {
+      "ref": "com.google.inject.extensions:guice-assistedinject:4.2.3",
+      "dependsOn": [
+        "com.google.inject:guice:4.2.3"
+      ]
+    },
+    {
+      "ref": "commons-configuration:commons-configuration:1.10",
+      "dependsOn": [
+        "commons-lang:commons-lang:2.6",
+        "commons-logging:commons-logging:1.1.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-context:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.tmatesoft.sqljet:sqljet:1.1.11",
+      "dependsOn": [
+        "org.antlr:antlr-runtime:3.4"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-ui:1.2.32",
+      "dependsOn": [
+        "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
+        "org.webjars:swagger-ui:3.25.0",
+        "org.webjars:webjars-locator:0.38"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-actuator-autoconfigure:2.5.12",
+      "dependsOn": [
+        "org.springframework.boot:spring-boot-actuator:2.5.12"
+      ]
+    },
+    {
+      "ref": "org.springframework.data:spring-data-jpa:2.5.10",
+      "dependsOn": [
+        "org.springframework.data:spring-data-commons:2.5.10",
+        "org.springframework:spring-tx:5.3.18",
+        "org.springframework:spring-orm:5.3.18"
+      ]
+    },
+    {
+      "ref": "io.swagger.core.v3:swagger-integration:2.1.1",
+      "dependsOn": [
+        "io.swagger.core.v3:swagger-core:2.1.1"
+      ]
+    },
+    {
+      "ref": "org.apache.httpcomponents:httpclient:4.5.13",
+      "dependsOn": [
+        "org.apache.httpcomponents:httpcore:4.4.15",
+        "commons-logging:commons-logging:1.2",
+        "commons-codec:commons-codec:1.11",
+        "org.apache.httpcomponents:httpcore:4.4.13",
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    {
+      "ref": "org.springframework:spring-web:5.3.18",
+      "dependsOn": [
+        "org.springframework:spring-beans:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.springframework.data:spring-data-rest-core:3.5.10",
+      "dependsOn": [
+        "org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE",
+        "org.springframework.hateoas:spring-hateoas:1.3.7",
+        "org.atteo:evo-inflector:1.2.2"
+      ]
+    },
+    {
+      "ref": "javax.xml.bind:jaxb-api:2.3.1",
+      "dependsOn": [
+        "javax.activation:javax.activation-api:1.2.0"
+      ]
+    },
+    {
+      "ref": "ch.qos.logback:logback-classic:1.2.11",
+      "dependsOn": [
+        "ch.qos.logback:logback-core:1.2.11"
+      ]
+    },
+    {
+      "ref": "org.tmatesoft.svnkit:svnkit:1.9.3",
+      "dependsOn": [
+        "com.trilead:trilead-ssh2:1.0.0-build221",
+        "com.jcraft:jsch.agentproxy.svnkit-trilead-ssh2:0.0.7",
+        "de.regnis.q.sequence:sequence-library:1.0.3",
+        "org.tmatesoft.sqljet:sqljet:1.1.11",
+        "com.jcraft:jsch.agentproxy.connector-factory:0.0.7",
+        "net.java.dev.jna:jna:4.1.0",
+        "net.java.dev.jna:jna-platform:4.1.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r",
+      "dependsOn": [
+        "org.slf4j:slf4j-api:1.7.2",
+        "com.googlecode.javaewah:JavaEWAH:1.1.6",
+        "com.jcraft:jsch:0.1.54",
+        "com.jcraft:jzlib:1.1.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-jdbc:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-jdbc:5.3.18",
+        "com.zaxxer:HikariCP:4.0.3"
+      ]
+    },
+    {
       "ref": "io.swagger.core.v3:swagger-core:2.1.1",
       "dependsOn": [
         "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.6"
       ]
     },
     {
+      "ref": "com.sun.mail:javax.mail:1.6.2",
+      "dependsOn": [
+        "javax.activation:activation:1.1"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter:2.5.12",
+      "dependsOn": [
+        "org.yaml:snakeyaml:1.28",
+        "jakarta.annotation:jakarta.annotation-api:1.3.5",
+        "org.springframework.boot:spring-boot-starter-logging:2.5.12",
+        "org.springframework.boot:spring-boot-autoconfigure:2.5.12",
+        "org.springframework.boot:spring-boot:2.5.12",
+        "org.springframework:spring-core:5.3.18"
+      ]
+    },
+    {
+      "ref": "net.minidev:json-smart:2.4.8",
+      "dependsOn": [
+        "net.minidev:accessors-smart:2.4.8"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-logging:2.5.12",
+      "dependsOn": [
+        "org.apache.logging.log4j:log4j-to-slf4j:2.17.2",
+        "ch.qos.logback:logback-classic:1.2.11",
+        "org.slf4j:jul-to-slf4j:1.7.36"
+      ]
+    },
+    {
+      "ref": "org.springframework:spring-webmvc:5.3.18",
+      "dependsOn": [
+        "org.springframework:spring-expression:5.3.18",
+        "org.springframework:spring-aop:5.3.18"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-test:2.5.12",
+      "dependsOn": [
+        "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+        "com.jayway.jsonpath:json-path:2.5.0"
+      ]
+    },
+    {
       "ref": "org.springframework.boot:spring-boot-starter-aop:2.5.12",
       "dependsOn": [
         "org.aspectj:aspectjweaver:1.9.7"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+      "dependsOn": [
+        "org.glassfish.jaxb:txw2:2.3.6",
+        "com.sun.istack:istack-commons-runtime:3.0.12",
+        "com.sun.activation:jakarta.activation:1.2.2"
+      ]
+    },
+    {
+      "ref": "io.micrometer:micrometer-core:1.7.10",
+      "dependsOn": [
+        "org.latencyutils:LatencyUtils:2.0.3",
+        "org.hdrhistogram:HdrHistogram:2.1.12"
+      ]
+    },
+    {
+      "ref": "com.google.inject:guice:4.2.3",
+      "dependsOn": [
+        "javax.inject:javax.inject:1",
+        "com.google.guava:guava:27.1-jre",
+        "aopalliance:aopalliance:1.0"
+      ]
+    },
+    {
+      "ref": "org.apache.velocity:velocity-engine-core:2.3",
+      "dependsOn": [
+        "org.apache.commons:commons-lang3:3.11",
+        "org.slf4j:slf4j-api:1.7.30"
+      ]
+    },
+    {
+      "ref": "com.xebialabs.restito:restito:0.9.4",
+      "dependsOn": [
+        "org.slf4j:slf4j-api:1.7.21"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:repo-client:3.2.5",
+      "dependsOn": [
+        "org.tmatesoft.svnkit:svnkit:1.9.3",
+        "org.eclipse.jgit:org.eclipse.jgit:4.11.7.201903122105-r"
+      ]
+    },
+    {
+      "ref": "org.apache.ant:ant:1.10.12",
+      "dependsOn": [
+        "org.apache.ant:ant-launcher:1.10.12"
+      ]
+    },
+    {
+      "ref": "org.springframework.boot:spring-boot-starter-web:2.5.12",
+      "dependsOn": [
+        "org.springframework:spring-web:5.3.18",
+        "org.springframework.boot:spring-boot-starter-tomcat:2.5.12",
+        "org.springframework.boot:spring-boot-starter-json:2.5.12",
+        "org.springframework:spring-webmvc:5.3.18"
+      ]
+    },
+    {
+      "ref": "jakarta.xml.bind:jakarta.xml.bind-api:2.3.3",
+      "dependsOn": [
+        "jakarta.activation:jakarta.activation-api:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:rest-lib-utils:3.2.5",
+      "dependsOn": [
+        "commons-io:commons-io:2.7",
+        "com.jeantessier:dependency-finder:1.2.1-beta5-log4j",
+        "oro:oro:2.0.8"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:cli-scanner:3.2.5",
+      "dependsOn": [
+        "org.eclipse.steady:lang-java-reach:3.2.5",
+        "org.eclipse.steady:lang:3.2.5",
+        "org.eclipse.steady:lang-java-reach-soot:3.2.5",
+        "org.eclipse.steady:lang-java-reach-wala:3.2.5",
+        "org.apache.logging.log4j:log4j-core:2.18.0",
+        "org.eclipse.steady:shared:3.2.5",
+        "javax.validation:validation-api:2.0.1.Final",
+        "org.apache.logging.log4j:log4j-api:2.18.0",
+        "org.eclipse.steady:lang-python:3.2.5",
+        "com.github.spotbugs:spotbugs-annotations:4.7.2"
       ]
     },
     {
@@ -5511,9 +5440,56 @@
       ]
     },
     {
-      "ref": "org.ow2.asm:asm-util:7.1",
+      "ref": "org.springframework.boot:spring-boot-starter-json:2.5.12",
       "dependsOn": [
-        "org.ow2.asm:asm-analysis:7.1"
+        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.6",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.6",
+        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.6"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-settings-builder:3.8.4",
+      "dependsOn": [
+        "org.codehaus.plexus:plexus-sec-dispatcher:2.0"
+      ]
+    },
+    {
+      "ref": "org.eclipse.steady:shared:3.2.5",
+      "dependsOn": [
+        "com.github.package-url:packageurl-java:1.4.1",
+        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+        "com.fasterxml.jackson.core:jackson-core:2.12.6",
+        "org.apache.logging.log4j:log4j-core:2.17.2",
+        "com.fasterxml.jackson.core:jackson-annotations:2.12.6",
+        "commons-configuration:commons-configuration:1.10",
+        "com.fasterxml.jackson.core:jackson-core:2.13.4",
+        "com.fasterxml.jackson.core:jackson-databind:2.12.6.1",
+        "org.apache.logging.log4j:log4j-api:2.17.2"
+      ]
+    },
+    {
+      "ref": "org.springdoc:springdoc-openapi-webmvc-core:1.2.32",
+      "dependsOn": [
+        "org.springdoc:springdoc-openapi-common:1.2.32"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:27.1-jre",
+      "dependsOn": [
+        "com.google.errorprone:error_prone_annotations:2.2.0",
+        "com.google.j2objc:j2objc-annotations:1.1",
+        "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+        "org.checkerframework:checker-qual:2.5.2"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-runtime:2.4.0-b180830.0438",
+      "dependsOn": [
+        "com.sun.xml.fastinfoset:FastInfoset:1.2.15",
+        "org.jvnet.staxex:stax-ex:1.8",
+        "com.sun.istack:istack-commons-runtime:3.0.7",
+        "org.glassfish.jaxb:txw2:2.4.0-b180830.0438"
       ]
     },
     {
@@ -5524,23 +5500,47 @@
       ]
     },
     {
-      "ref": "net.minidev:json-smart:2.4.8",
+      "ref": "org.springframework.boot:spring-boot-starter-data-rest:2.5.12",
       "dependsOn": [
-        "net.minidev:accessors-smart:2.4.8"
+        "org.springframework.data:spring-data-rest-webmvc:3.5.10"
       ]
     },
     {
-      "ref": "org.springframework.boot:spring-boot-starter-json:2.5.12",
+      "ref": "org.springframework:spring-core:5.3.18",
       "dependsOn": [
-        "com.fasterxml.jackson.module:jackson-module-parameter-names:2.12.6",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.12.6",
-        "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.6"
+        "org.springframework:spring-jcl:5.3.18"
       ]
     },
     {
-      "ref": "org.springframework.boot:spring-boot:2.5.12",
+      "ref": "org.springframework.data:spring-data-rest-webmvc:3.5.10",
       "dependsOn": [
-        "org.springframework:spring-context:5.3.18"
+        "org.springframework.data:spring-data-rest-core:3.5.10"
+      ]
+    },
+    {
+      "ref": "de.upb.cs.swt:heros:1.2.0",
+      "dependsOn": [
+        "org.functionaljava:functionaljava:4.2"
+      ]
+    },
+    {
+      "ref": "org.ow2.asm:asm-util:7.1",
+      "dependsOn": [
+        "org.ow2.asm:asm-analysis:7.1"
+      ]
+    },
+    {
+      "ref": "org.hibernate:hibernate-core:5.4.33",
+      "dependsOn": [
+        "org.javassist:javassist:3.27.0-GA",
+        "org.glassfish.jaxb:jaxb-runtime:2.3.6",
+        "org.hibernate.common:hibernate-commons-annotations:5.1.2.Final",
+        "org.jboss.logging:jboss-logging:3.4.3.Final",
+        "org.dom4j:dom4j:2.1.3",
+        "org.jboss:jandex:2.2.3.Final",
+        "net.bytebuddy:byte-buddy:1.10.22",
+        "com.fasterxml:classmate:1.5.1",
+        "antlr:antlr:2.7.7"
       ]
     }
   ]

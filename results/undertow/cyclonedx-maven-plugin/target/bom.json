@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:3a8889a3-f437-4b9f-a1df-64b8e5ce62fd",
+  "serialNumber" : "urn:uuid:13b98ddf-d828-4431-927a-2965be0f57e3",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:30:48Z",
+    "timestamp" : "2023-02-26T02:09:56Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -63,7 +63,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/undertow-parent"
         },
         {
           "type" : "distribution",
@@ -88,10 +88,41 @@
   },
   "components" : [
     {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-parser-generator",
       "version" : "2.3.2.Final",
+      "description" : "An annotation processor that is used to generate the HTTP parser",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/undertow-parent/undertow-parser-generator"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jboss.org/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/undertow-io/undertow/undertow-parser-generator"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.undertow/undertow-parser-generator@2.3.2.Final?type=jar"
     },
@@ -147,7 +178,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "https://github.com/jbossas/jboss-classfilewriter"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -156,16 +191,51 @@
         {
           "type" : "mailing-list",
           "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git://github.com/jbossas/jboss-classfilewriter.git"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jboss.classfilewriter/jboss-classfilewriter@1.2.5.Final?type=jar"
     },
     {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-core",
       "version" : "2.3.2.Final",
+      "description" : "Undertow",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/undertow-parent/undertow-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jboss.org/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/undertow-io/undertow/undertow-core"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.undertow/undertow-core@2.3.2.Final?type=jar"
     },
@@ -220,12 +290,12 @@
       "purl" : "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/jboss-logging/jboss-logging"
-        },
-        {
           "type" : "website",
           "url" : "http://www.jboss.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -234,6 +304,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jboss-logging/jboss-logging"
         }
       ],
       "type" : "library",
@@ -291,12 +365,12 @@
       "purl" : "pkg:maven/org.jboss.logging/jboss-logging-processor@2.2.1.Final?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/jboss-logging/jboss-logging-tools"
+          "type" : "website",
+          "url" : "http://www.jboss.org/jboss-logging-tools-parent/jboss-logging-processor"
         },
         {
-          "type" : "website",
-          "url" : "http://www.jboss.org"
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -305,6 +379,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/jboss-logging/jboss-logging-tools/jboss-logging-processor"
         }
       ],
       "type" : "library",
@@ -360,12 +438,12 @@
       "purl" : "pkg:maven/org.jboss.logging/jboss-logging-annotations@2.2.1.Final?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/jboss-logging/jboss-logging-tools"
+          "type" : "website",
+          "url" : "http://www.jboss.org/jboss-logging-tools-parent/jboss-logging-annotations"
         },
         {
-          "type" : "website",
-          "url" : "http://www.jboss.org"
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -374,6 +452,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/jboss-logging/jboss-logging-tools/jboss-logging-annotations"
         }
       ],
       "type" : "library",
@@ -431,7 +513,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/jdeparser"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -443,7 +529,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "http://github.com/jboss/jboss-parent-pom/jdeparser"
         }
       ],
       "type" : "library",
@@ -502,7 +588,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/xnio"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -514,7 +604,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "http://github.com/jboss/jboss-parent-pom/xnio-all/xnio-api"
         }
       ],
       "type" : "library",
@@ -572,7 +662,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/wildfly-common"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -584,7 +678,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "http://github.com/jboss/jboss-parent-pom/wildfly-common"
         }
       ],
       "type" : "library",
@@ -642,7 +736,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/wildfly-client-config"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -654,7 +752,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "http://github.com/jboss/jboss-parent-pom/wildfly-client-config"
         }
       ],
       "type" : "library",
@@ -713,7 +811,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/xnio-all/xnio-nio"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -725,7 +827,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "http://github.com/jboss/jboss-parent-pom/xnio-all/xnio-nio"
         }
       ],
       "type" : "library",
@@ -783,20 +885,24 @@
       "purl" : "pkg:maven/org.jboss.threads/jboss-threads@3.5.0.Final?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://www.jboss.org/jboss-threads"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://issues.jboss.org/browse/JBTHR"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/jbossas/jboss-threads"
-        },
-        {
-          "type" : "website",
-          "url" : "http://www.jboss.org"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jbossas/jboss-threads"
         }
       ],
       "type" : "library",
@@ -858,12 +964,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://git.eclipse.org/c/jetty/org.eclipse.jetty.alpn.git/tree"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.mortbay.com"
+          "url" : "http://www.eclipse.org/jetty/alpn-api"
         },
         {
           "type" : "distribution",
@@ -876,16 +978,427 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://git.eclipse.org/c/jetty/org.eclipse.jetty.alpn.git/tree"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.eclipse.jetty.alpn/alpn-api@1.1.3.v20160715?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpclient",
+      "version" : "4.5.12",
+      "description" : "Apache HttpComponents Client",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "72002652711fe0fa3218d2bf20f47409"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4023a2a80b64c25926911faf350b50cd2a29220f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bc5f065aba5dd815ee559dd24d9bcb797fb102ff9cfa036f5091ebc529bd3b93"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "18ce8b0cd1de30fa397d25b4bcf6760f82706ed00270ed0a1db17f25fab6a7795950a2df171f212c680fc145c2f1125992e184b8f303c97a6498471079fa97fe"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d539db28e5b256c950a7c2082443a3aabcb575a8454ef18484cff80741026b9f191f459510153257b2642be6fce56afa"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d88246a2dedd6a75d7c8818eca74726d17306ec5643eb78dd8ea9449bcdf2fa1478f84d3b099e093b64689ca4c37cbec"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "bac2d469402a09ddd1fa1145696b8b535d4e7c8cb20732b3d842da97393a9243"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a1b19b9cce96244a4f46e017812f7042b885a1739e2ce1dcb4f02d26e8d01e59020acc4e77c0856e429e9dc249dbddec3a7715aeb9344f89903fe770805107de"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-client/tree/4.5.12/httpclient"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.httpcomponents",
+      "name" : "httpcore",
+      "version" : "4.4.13",
+      "description" : "Apache HttpComponents Core (blocking I/O)",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e07a248f61c52776a2366c075dcd4963"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "23430cde8b9bed33c91474ba49f1143284135df1b25fdcbc37bc3bb7e9549e77b3918eb40250093db652ae200367e87316129b23b4f6987e94939d60f467498d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b776d57492478c162d428bdd3139be0fa6c3cf4503355c3a04710ca7bc3ee74d66627f49eb42814fd8f8364dbd17aa91"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f6f9e70b76717b705d040f0b33857f0dde89736f2e6d55ea56585235eb1b6d0ce4d5aa18c82050391ac968dcb5ec29e2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "721a9fc1bb353ddf3e438bed4306a3fa5b55ffafb474be5dc8715bd23d7a5afa"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c78f9d464e4b840e28266658512b1cab0ece1470bef2764deb2dc20ba69b73d526d92a19494ccb87b4408f9235c4294417f2e10ba709469f4bd62d017b9e3cbe"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/4.4.13/httpcore"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-logging",
+      "name" : "commons-logging",
+      "version" : "1.2",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-logging/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-codec",
+      "name" : "commons-codec",
+      "version" : "1.11",
+      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "567159b1ae257a43e1391a8f59d24cfe"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3acb4705652e16236558f0f4f2192cc33c3bd189"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d9586162b257386b5871e7e9ae255a38014a9efaeef5148de5e40a3b0200364dad8516bddd554352aa2e5337bec2cc11df88c76c4fdde96a40f3421aa60650d7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9ae3d8fd4c38f3af52c76c5f98039109901cb0f70700e6d9999b27cc4b30b188e2688aa4adcf6b846376bc3ca125907a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bd272e22540371e7d834cd897bce9be657293ba9c5584e0d47a4073711dacb524cc59e294e942ffc01613d17ac7d6ac1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "90ec34f9701a8b212c65e6167c505ea6417289f910deedcac8517075b8349728"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "101bc04efae2bd16d7923e61bca922c4a006b0e4b34909e0f8865196cb4df4f4f6269737c17880b4dfd0309cb487b806e88d09c6e1a7dc70237563b3f4312f7f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-codec/commons-codec@1.11?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-codec/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/CODEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.11?type=jar"
+    },
+    {
+      "publisher" : "JBoss by Red Hat",
+      "group" : "org.jboss.logmanager",
+      "name" : "jboss-logmanager",
+      "version" : "2.1.19.Final",
+      "description" : "An implementation of java.util.logging.LogManager",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1b9b2d6e54f0591cbd5f1a5c236114b1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d21ac9875c9814fb9f444ab3cec00d3207f60d51"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "22eb9994dab48afb33ebd17269c2d68f0566801663ace410c6b79616f4bcc591"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6edd27261ecada4987bd8d683fef8f9096e30f2baac0759dde19be3a37ba4fdb2310adfe1f79a4ed582bb09d7ff758f7f96aa63158a270351f29b92abaa914d4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2a12733d1837a9de5337f9a7a44e2def750d792f8606b4a5daf4913fbfab081520906d1be41a53a924e17d53d7bb78ff"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f2002c4fd2a216ffcca848fd3ecc5cea79dc76e1030acc1f4bd993f2f2de13e571e28d31c9e0a2d41ca15af819e0c0a6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "feeaf2d94c89ee0f916befb1606cbf2d96b9baf00def03c4ab7dc870346137a8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d915de141b2c705b2b6a25ca64288101c20f1092ffad7da123ae12fc75fa5d78c0caf20622d7e152df6bc21305ab0834ffc9b8bf32a5837b06529373ad5bf00e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/jboss-logmanager"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.redhat.com/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/jboss/jboss-parent-pom/jboss-logmanager"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar"
+    },
+    {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-servlet",
       "version" : "2.3.2.Final",
+      "description" : "Undertow",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/undertow-parent/undertow-servlet"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jboss.org/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/undertow-io/undertow/undertow-servlet"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.undertow/undertow-servlet@2.3.2.Final?type=jar"
     },
@@ -945,6 +1458,14 @@
       "purl" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@6.0.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.servlet"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/servlet-api/issues"
         },
@@ -955,10 +1476,6 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/eclipse-ee4j/servlet-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
         }
       ],
       "type" : "library",
@@ -1020,6 +1537,14 @@
       "purl" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.ca"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/common-annotations-api/issues"
         },
@@ -1030,20 +1555,47 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/eclipse-ee4j/common-annotations-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar"
     },
     {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-websockets-jsr",
       "version" : "2.3.2.Final",
+      "description" : "Undertow",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/undertow-parent/undertow-websockets-jsr"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jboss.org/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/undertow-io/undertow/undertow-websockets-jsr"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.undertow/undertow-websockets-jsr@2.3.2.Final?type=jar"
     },
@@ -1104,6 +1656,14 @@
       "purl" : "pkg:maven/jakarta.websocket/jakarta.websocket-api@2.1.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.websocket"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/websocket-api/issues"
         },
@@ -1113,11 +1673,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/websocket-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/websocket-api/jakarta.websocket-api"
         }
       ],
       "type" : "library",
@@ -1180,6 +1736,14 @@
       "purl" : "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.websocket"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/websocket-api/issues"
         },
@@ -1189,82 +1753,38 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/websocket-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
+          "url" : "https://github.com/eclipse-ee4j/websocket-api/jakarta.websocket-client-api"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/jakarta.websocket/jakarta.websocket-client-api@2.1.0?type=jar"
     },
     {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-examples",
       "version" : "2.3.2.Final",
-      "purl" : "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar",
-      "type" : "library",
-      "bom-ref" : "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar"
-    },
-    {
-      "publisher" : "JBoss by Red Hat",
-      "group" : "org.jboss.logmanager",
-      "name" : "jboss-logmanager",
-      "version" : "2.1.19.Final",
-      "description" : "An implementation of java.util.logging.LogManager",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "1b9b2d6e54f0591cbd5f1a5c236114b1"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "d21ac9875c9814fb9f444ab3cec00d3207f60d51"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "22eb9994dab48afb33ebd17269c2d68f0566801663ace410c6b79616f4bcc591"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "6edd27261ecada4987bd8d683fef8f9096e30f2baac0759dde19be3a37ba4fdb2310adfe1f79a4ed582bb09d7ff758f7f96aa63158a270351f29b92abaa914d4"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "2a12733d1837a9de5337f9a7a44e2def750d792f8606b4a5daf4913fbfab081520906d1be41a53a924e17d53d7bb78ff"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "f2002c4fd2a216ffcca848fd3ecc5cea79dc76e1030acc1f4bd993f2f2de13e571e28d31c9e0a2d41ca15af819e0c0a6"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "feeaf2d94c89ee0f916befb1606cbf2d96b9baf00def03c4ab7dc870346137a8"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "d915de141b2c705b2b6a25ca64288101c20f1092ffad7da123ae12fc75fa5d78c0caf20622d7e152df6bc21305ab0834ffc9b8bf32a5837b06529373ad5bf00e"
-        }
-      ],
+      "description" : "Undertow",
       "licenses" : [
         {
           "license" : {
-            "id" : "Apache-2.0",
-            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+            "id" : "Apache-2.0"
           }
         }
       ],
-      "purl" : "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar",
+      "purl" : "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jboss.org"
+          "url" : "http://www.jboss.org/undertow-parent/undertow-examples"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
-          "url" : "https://issues.redhat.com/"
+          "url" : "https://issues.jboss.org/"
         },
         {
           "type" : "mailing-list",
@@ -1272,17 +1792,48 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/jboss/jboss-parent-pom"
+          "url" : "https://github.com/undertow-io/undertow/undertow-examples"
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.jboss.logmanager/jboss-logmanager@2.1.19.Final?type=jar"
+      "bom-ref" : "pkg:maven/io.undertow/undertow-examples@2.3.2.Final?type=jar"
     },
     {
+      "publisher" : "JBoss by Red Hat",
       "group" : "io.undertow",
       "name" : "undertow-benchmarks",
       "version" : "2.3.2.Final",
+      "description" : "Undertow",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.jboss.org/undertow-parent/undertow-benchmarks"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jboss.org/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://lists.jboss.org/pipermail/jboss-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/undertow-io/undertow/undertow-benchmarks"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/io.undertow/undertow-benchmarks@2.3.2.Final?type=jar"
     },
@@ -1339,11 +1890,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://openjdk.java.net/"
+          "url" : "http://openjdk.java.net/projects/code-tools/jmh/jmh-core/"
         },
         {
           "type" : "vcs",
-          "url" : "http://hg.openjdk.java.net/code-tools/jmh/"
+          "url" : "http://hg.openjdk.java.net/code-tools/jmh/jmh-core/"
         }
       ],
       "type" : "library",
@@ -1398,16 +1949,20 @@
       "purl" : "pkg:maven/net.sf.jopt-simple/jopt-simple@4.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://pholser.github.com/jopt-simple"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://github.com/pholser/jopt-simple/issues"
         },
         {
           "type" : "vcs",
           "url" : "http://github.com/pholser/jopt-simple"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -1463,28 +2018,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-math3@3.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/MATH"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/math/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-math/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MATH"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/math/trunk"
         }
       ],
       "type" : "library",
@@ -1541,305 +2096,16 @@
       "purl" : "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://openjdk.java.net/projects/code-tools/jmh/jmh-generator-annprocess/"
+        },
+        {
           "type" : "vcs",
-          "url" : "http://hg.openjdk.java.net/code-tools/jmh/"
+          "url" : "http://hg.openjdk.java.net/code-tools/jmh/jmh-generator-annprocess/"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openjdk.jmh/jmh-generator-annprocess@1.21?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "org.apache.httpcomponents",
-      "name" : "httpclient",
-      "version" : "4.5.12",
-      "description" : "Apache HttpComponents Client",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "72002652711fe0fa3218d2bf20f47409"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "4023a2a80b64c25926911faf350b50cd2a29220f"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "bc5f065aba5dd815ee559dd24d9bcb797fb102ff9cfa036f5091ebc529bd3b93"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "18ce8b0cd1de30fa397d25b4bcf6760f82706ed00270ed0a1db17f25fab6a7795950a2df171f212c680fc145c2f1125992e184b8f303c97a6498471079fa97fe"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "d539db28e5b256c950a7c2082443a3aabcb575a8454ef18484cff80741026b9f191f459510153257b2642be6fce56afa"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "d88246a2dedd6a75d7c8818eca74726d17306ec5643eb78dd8ea9449bcdf2fa1478f84d3b099e093b64689ca4c37cbec"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "bac2d469402a09ddd1fa1145696b8b535d4e7c8cb20732b3d842da97393a9243"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "a1b19b9cce96244a4f46e017812f7042b885a1739e2ce1dcb4f02d26e8d01e59020acc4e77c0856e429e9dc249dbddec3a7715aeb9344f89903fe770805107de"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.5.12?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "org.apache.httpcomponents",
-      "name" : "httpcore",
-      "version" : "4.4.13",
-      "description" : "Apache HttpComponents Core (blocking I/O)",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "e07a248f61c52776a2366c075dcd4963"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "23430cde8b9bed33c91474ba49f1143284135df1b25fdcbc37bc3bb7e9549e77b3918eb40250093db652ae200367e87316129b23b4f6987e94939d60f467498d"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "b776d57492478c162d428bdd3139be0fa6c3cf4503355c3a04710ca7bc3ee74d66627f49eb42814fd8f8364dbd17aa91"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "f6f9e70b76717b705d040f0b33857f0dde89736f2e6d55ea56585235eb1b6d0ce4d5aa18c82050391ac968dcb5ec29e2"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "721a9fc1bb353ddf3e438bed4306a3fa5b55ffafb474be5dc8715bd23d7a5afa"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "c78f9d464e4b840e28266658512b1cab0ece1470bef2764deb2dc20ba69b73d526d92a19494ccb87b4408f9235c4294417f2e10ba709469f4bd62d017b9e3cbe"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "commons-logging",
-      "name" : "commons-logging",
-      "version" : "1.2",
-      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "040b4b4d8eac886f6b4a2a3bd2f31b00"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "4bfc12adfe4842bf07b657f0369c4cb522955686"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "628eb4407e95dca84da1a06b08a6d9b832a49de8472b1b217e8607f08efeeed18b996232d64dd07f03e78e0e3bb4b078"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "9aab62deccf156ee6e324c925dfc30ecb53e8465802863a551901a461424e807"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "3fd76857f6d20c03799537cc961c1c4ddf1c375c6c192fb982363e3b9397ba138b77f24ef38b4202f44e37586789c0320e4de18fdadd2772304fd14a9b26d552"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LOGGING"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://continuum-ci.apache.org/"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
-        },
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
-    },
-    {
-      "publisher" : "The Apache Software Foundation",
-      "group" : "commons-codec",
-      "name" : "commons-codec",
-      "version" : "1.11",
-      "description" : "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "567159b1ae257a43e1391a8f59d24cfe"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "3acb4705652e16236558f0f4f2192cc33c3bd189"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "d9586162b257386b5871e7e9ae255a38014a9efaeef5148de5e40a3b0200364dad8516bddd554352aa2e5337bec2cc11df88c76c4fdde96a40f3421aa60650d7"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "9ae3d8fd4c38f3af52c76c5f98039109901cb0f70700e6d9999b27cc4b30b188e2688aa4adcf6b846376bc3ca125907a"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "bd272e22540371e7d834cd897bce9be657293ba9c5584e0d47a4073711dacb524cc59e294e942ffc01613d17ac7d6ac1"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "90ec34f9701a8b212c65e6167c505ea6417289f910deedcac8517075b8349728"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "101bc04efae2bd16d7923e61bca922c4a006b0e4b34909e0f8865196cb4df4f4f6269737c17880b4dfd0309cb487b806e88d09c6e1a7dc70237563b3f4312f7f"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/commons-codec/commons-codec@1.11?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://builds.apache.org/"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.11?type=jar"
     }
   ],
   "dependencies" : [

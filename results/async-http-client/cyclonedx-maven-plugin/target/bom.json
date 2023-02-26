@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:af6d8316-3269-477b-8485-ef7039e7bbbf",
+  "serialNumber" : "urn:uuid:434b6667-9a15-444b-aac1-fb58f958f9a4",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:08:41Z",
+    "timestamp" : "2023-02-26T01:49:50Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -60,6 +60,10 @@
       ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-project@2.12.3?type=pom",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -135,7 +139,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -143,7 +147,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -154,7 +158,7 @@
       "group" : "com.sun.activation",
       "name" : "jakarta.activation",
       "version" : "1.2.2",
-      "description" : "${project.name}",
+      "description" : "Jakarta Activation",
       "scope" : "optional",
       "hashes" : [
         {
@@ -200,20 +204,24 @@
       "purl" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/jaf"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
-        },
-        {
           "type" : "mailing-list",
           "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
         }
       ],
       "type" : "library",
@@ -231,7 +239,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-netty-utils",
       "version" : "2.12.3",
+      "description" : "The Async Http Client (AHC) library's purpose is to allow Java applications to easily execute HTTP requests and asynchronously process the response.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-netty-utils"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-netty-utils"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-netty-utils@2.12.3?type=jar"
     },
@@ -287,15 +325,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-buffer/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-buffer"
         }
       ],
       "type" : "library",
@@ -352,15 +390,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-common/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-common"
         }
       ],
       "type" : "library",
@@ -370,7 +408,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client",
       "version" : "2.12.3",
+      "description" : "The Async Http Client (AHC) classes.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client@2.12.3?type=jar"
     },
@@ -426,15 +494,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec-http/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec-http"
         }
       ],
       "type" : "library",
@@ -491,15 +559,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport"
         }
       ],
       "type" : "library",
@@ -556,15 +624,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec"
         }
       ],
       "type" : "library",
@@ -622,15 +690,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-handler/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-handler"
         }
       ],
       "type" : "library",
@@ -687,15 +755,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-resolver/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-resolver"
         }
       ],
       "type" : "library",
@@ -753,15 +821,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-codec-socks/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-codec-socks"
         }
       ],
       "type" : "library",
@@ -819,15 +887,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-handler-proxy/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-handler-proxy"
         }
       ],
       "type" : "library",
@@ -885,15 +953,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-epoll/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-epoll"
         }
       ],
       "type" : "library",
@@ -950,15 +1018,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-unix-common/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-unix-common"
         }
       ],
       "type" : "library",
@@ -1016,15 +1084,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://netty.io/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/netty/netty"
+          "url" : "https://netty.io/netty-transport-native-kqueue/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/netty/netty/netty-transport-native-kqueue"
         }
       ],
       "type" : "library",
@@ -1078,6 +1146,12 @@
         }
       ],
       "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.reactive-streams.org/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.3?type=jar"
     },
@@ -1133,7 +1207,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://typesafe.com/"
+          "url" : "https://github.com/playframework/netty-reactive-streams/netty-reactive-streams"
         },
         {
           "type" : "issue-tracker",
@@ -1141,11 +1215,76 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/playframework/netty-reactive-streams"
+          "url" : "https://github.com/playframework/netty-reactive-streams/netty-reactive-streams"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.typesafe.netty/netty-reactive-streams@2.0.4?type=jar"
+    },
+    {
+      "group" : "io.reactivex.rxjava2",
+      "name" : "rxjava",
+      "version" : "2.2.19",
+      "description" : "Reactive Extensions for Java",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "09782f4a3380af5469e473a6f909ed89"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1a79a902bbfcde95ad6f34eb6d1860e6b37f0da9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "153fb4934a135e949354bd777260a70922b6a790b224268fee3efc867e422220"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b04f5423cc0b061917227e7e2bd98f4f947385d627aad9d4ee09750acda9198d9b0949523348ab81c7aa6e6aef272d3c53ba544b2f85bf400bb65a22f766f28a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "704616ae1680b878e40bb8b7cc23ce64fe85affc4161c59dc256009743f16c35e1f88899268346577efca72ce027e798"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6597fbfe4dc75d14cad4614158169df78c5bce2760de72acd87237d9c5ff8b8a3e7353464893d71ab9ddb074a06e28ff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8fdda588a8a6fe49441d3d079551d52569a4d4754411afca24808b984fe8728c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "65c381157ebbdf8c706ed5e9a17fe8175d6d14050ead7bf797a53ae01c6e7e5636187ac966f1767ce71452604873a6512bb65b938be8c1b112577afc72f050f3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/ReactiveX/RxJava"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/ReactiveX/RxJava/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:ReactiveX/RxJava.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar"
     },
     {
       "group" : "org.asynchttpclient",
@@ -1159,7 +1298,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-guava",
       "version" : "2.12.3",
+      "description" : "The Async Http Client Guava Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-guava"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-guava@2.12.3?type=jar"
     },
@@ -1213,6 +1382,10 @@
       "purl" : "pkg:maven/com.google.guava/guava@28.2-jre?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/guava"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
         },
@@ -1226,7 +1399,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
+          "url" : "https://github.com/google/guava/guava"
         }
       ],
       "type" : "library",
@@ -1281,8 +1454,16 @@
       "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/failureaccess"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1290,11 +1471,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/failureaccess"
         }
       ],
       "type" : "library",
@@ -1349,8 +1526,16 @@
       "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1358,11 +1543,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/listenablefuture"
         }
       ],
       "type" : "library",
@@ -1417,12 +1598,16 @@
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/p/jsr-305/"
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/p/jsr-305/"
         }
       ],
       "type" : "library",
@@ -1476,6 +1661,10 @@
       ],
       "purl" : "pkg:maven/org.checkerframework/checker-qual@2.10.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/typetools/checker-framework.git"
@@ -1533,12 +1722,16 @@
       "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.3.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/google/error-prone"
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
         }
       ],
       "type" : "library",
@@ -1593,12 +1786,16 @@
       "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/j2objc/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations"
         }
       ],
       "type" : "library",
@@ -1608,7 +1805,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-jdeferred",
       "version" : "2.12.3",
+      "description" : "The Async Http Client jDeffered Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-jdeferred"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-jdeferred"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-jdeferred@2.12.3?type=jar"
     },
@@ -1662,6 +1889,10 @@
       "purl" : "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jdeferred/jdeferred"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/jdeferred/jdeferred.git"
         }
@@ -1673,7 +1904,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-registry",
       "version" : "2.12.3",
+      "description" : "The Async Http Client Registry Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-registry"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-registry"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar"
     },
@@ -1681,7 +1942,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-rxjava",
       "version" : "2.12.3",
+      "description" : "The Async Http Client RxJava Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-rxjava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-rxjava"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava@2.12.3?type=jar"
     },
@@ -1735,6 +2026,10 @@
       "purl" : "pkg:maven/io.reactivex/rxjava@1.3.8?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/ReactiveX/RxJava"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/ReactiveX/RxJava.git"
         }
@@ -1746,50 +2041,7 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-rxjava2",
       "version" : "2.12.3",
-      "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar",
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar"
-    },
-    {
-      "group" : "io.reactivex.rxjava2",
-      "name" : "rxjava",
-      "version" : "2.2.19",
-      "description" : "Reactive Extensions for Java",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "09782f4a3380af5469e473a6f909ed89"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "1a79a902bbfcde95ad6f34eb6d1860e6b37f0da9"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "153fb4934a135e949354bd777260a70922b6a790b224268fee3efc867e422220"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "b04f5423cc0b061917227e7e2bd98f4f947385d627aad9d4ee09750acda9198d9b0949523348ab81c7aa6e6aef272d3c53ba544b2f85bf400bb65a22f766f28a"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "704616ae1680b878e40bb8b7cc23ce64fe85affc4161c59dc256009743f16c35e1f88899268346577efca72ce027e798"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "6597fbfe4dc75d14cad4614158169df78c5bce2760de72acd87237d9c5ff8b8a3e7353464893d71ab9ddb074a06e28ff"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "8fdda588a8a6fe49441d3d079551d52569a4d4754411afca24808b984fe8728c"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "65c381157ebbdf8c706ed5e9a17fe8175d6d14050ead7bf797a53ae01c6e7e5636187ac966f1767ce71452604873a6512bb65b938be8c1b112577afc72f050f3"
-        }
-      ],
+      "description" : "The Async Http Client RxJava2 Extras.",
       "licenses" : [
         {
           "license" : {
@@ -1797,21 +2049,67 @@
           }
         }
       ],
-      "purl" : "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar",
+      "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-rxjava2"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
-          "url" : "https://github.com/ReactiveX/RxJava/issues"
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-rxjava2"
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/io.reactivex.rxjava2/rxjava@2.2.19?type=jar"
+      "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-rxjava2@2.12.3?type=jar"
     },
     {
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-simple",
       "version" : "2.12.3",
+      "description" : "The Async Http Simple Client.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-simple"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-simple"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-simple@2.12.3?type=jar"
     },
@@ -1819,7 +2117,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-retrofit2",
       "version" : "2.12.3",
+      "description" : "The Async Http Client Retrofit2 Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-retrofit2"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-retrofit2"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-retrofit2@2.12.3?type=jar"
     },
@@ -1872,6 +2200,10 @@
       ],
       "purl" : "pkg:maven/org.projectlombok/lombok@1.18.12?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projectlombok.org"
+        },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/rzwitserloot/lombok/issues"
@@ -1936,7 +2268,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://squareup.com"
+          "url" : "https://github.com/square/retrofit/retrofit/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1944,11 +2280,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/square/retrofit"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/square/retrofit/retrofit"
         }
       ],
       "type" : "library",
@@ -2003,16 +2335,20 @@
       "purl" : "pkg:maven/com.squareup.okhttp3/okhttp@3.14.7?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/square/okhttp/okhttp"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/square/okhttp/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/square/okhttp/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/square/okhttp/okhttp/"
         }
       ],
       "type" : "library",
@@ -2067,16 +2403,20 @@
       "purl" : "pkg:maven/com.squareup.okio/okio@1.17.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/square/okio/okio"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/square/okio/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/square/okio/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/square/okio/okio/"
         }
       ],
       "type" : "library",
@@ -2086,7 +2426,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-extras-typesafe-config",
       "version" : "2.12.3",
+      "description" : "The Async Http Client Typesafe Config Extras.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-extras-parent/async-http-client-extras-typesafe-config"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-extras-parent/async-http-client-extras-typesafe-config"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-typesafe-config@2.12.3?type=jar"
     },
@@ -2139,7 +2509,16 @@
         }
       ],
       "purl" : "pkg:maven/com.typesafe/config@1.3.3?type=jar",
-      "externalReferences" : [ ],
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/lightbend/config"
+        },
+        {
+          "type" : "vcs",
+          "url" : "git://github.com/lightbend/config.git"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.typesafe/config@1.3.3?type=jar"
     },
@@ -2147,7 +2526,37 @@
       "group" : "org.asynchttpclient",
       "name" : "async-http-client-example",
       "version" : "2.12.3",
+      "description" : "The Async Http Client example.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/AsyncHttpClient/async-http-client/async-http-client-example"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/asynchttpclient/topics"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/AsyncHttpClient/async-http-client/tree/master/async-http-client-example"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.asynchttpclient/async-http-client-example@2.12.3?type=jar"
     }
@@ -2384,7 +2793,9 @@
     },
     {
       "ref" : "pkg:maven/org.jdeferred/jdeferred-core@1.2.6?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.asynchttpclient/async-http-client-extras-registry@2.12.3?type=jar",

@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:4daa6c3b-670d-4837-b97b-6b4a15d523a9",
+  "serialNumber" : "urn:uuid:2c040799-bd95-4de2-907b-ac643467c463",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:11:43Z",
+    "timestamp" : "2023-02-26T01:53:10Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -60,6 +60,10 @@
       ],
       "purl" : "pkg:maven/com.github.rnewson.couchdb.lucene/couchdb-lucene@2.1.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/rnewson/couchdb-lucene/"
+        },
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/rnewson/couchdb-lucene/issues"
@@ -126,19 +130,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
         },
         {
-          "type" : "vcs",
-          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.0.1"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.0.1/httpclient"
         }
       ],
       "type" : "library",
@@ -194,24 +202,28 @@
       "purl" : "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LOGGING"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1"
+          "type" : "website",
+          "url" : "http://commons.apache.org/logging"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-commits/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1"
         }
       ],
       "type" : "library",
@@ -269,19 +281,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-core/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.0.1/httpcore"
         }
       ],
       "type" : "library",
@@ -328,6 +344,12 @@
       ],
       "licenses" : [ ],
       "purl" : "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jcip.net/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar"
     },
@@ -387,12 +409,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-server@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -405,6 +423,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-server"
         }
       ],
       "type" : "library",
@@ -450,24 +472,32 @@
           "content" : "ab5f85d424640ddcf6fc13a41d12ffdee0be9508cd4cdc581168b31cf7917323f6e0d984a0631068e0e01c098098fe0037d1c4176352fd89ba3a4da5d641ca3d"
         }
       ],
-      "licenses" : [ ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
       "purl" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://glassfish.dev.java.net"
+          "url" : "http://servlet-spec.java.net"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://java.net/jira/browse/SERVLET_SPEC"
         },
         {
-          "type" : "vcs",
-          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+          "type" : "mailing-list",
+          "url" : "users@servlet-spec.java.net"
         },
         {
-          "type" : "distribution",
-          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
         }
       ],
       "type" : "library",
@@ -528,12 +558,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-http@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -546,6 +572,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-http"
         }
       ],
       "type" : "library",
@@ -606,12 +636,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-io@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -624,6 +650,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-io"
         }
       ],
       "type" : "library",
@@ -685,12 +715,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-servlet@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -703,6 +729,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-servlet"
         }
       ],
       "type" : "library",
@@ -763,12 +793,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-security@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -781,6 +807,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-security"
         }
       ],
       "type" : "library",
@@ -842,12 +872,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-servlets@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -860,6 +886,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-servlets"
         }
       ],
       "type" : "library",
@@ -920,12 +950,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-continuation@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -938,6 +964,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-continuation"
         }
       ],
       "type" : "library",
@@ -998,12 +1028,8 @@
       "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@9.3.9.v20160517?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse/jetty.project"
-        },
-        {
           "type" : "website",
-          "url" : "http://webtide.com"
+          "url" : "http://www.eclipse.org/jetty"
         },
         {
           "type" : "distribution",
@@ -1016,6 +1042,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse/jetty.project/jetty-util"
         }
       ],
       "type" : "library",
@@ -1072,24 +1102,28 @@
       "purl" : "pkg:maven/commons-io/commons-io@1.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/IO"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/io/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/io/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/IO"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-commits/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/io/trunk"
         }
       ],
       "type" : "library",
@@ -1146,24 +1180,16 @@
       "purl" : "pkg:maven/commons-configuration/commons-configuration@1.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "distribution",
+          "url" : "www.apache.org//www/www.apache.org/dist/java-repository/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/CONFIGURATION"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/configuration/trunk"
-        },
-        {
-          "type" : "build-system",
-          "url" : "http://vmbuild.apache.org/continuum/"
-        },
-        {
           "type" : "mailing-list",
-          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
-        },
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-dev/"
         }
       ],
       "type" : "library",
@@ -1219,24 +1245,28 @@
       "purl" : "pkg:maven/commons-collections/commons-collections@3.2.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/collections/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
         }
       ],
       "type" : "library",
@@ -1292,24 +1322,28 @@
       "purl" : "pkg:maven/commons-lang/commons-lang@2.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LANG"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/lang/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/lang/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LANG"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/lang/trunk"
         }
       ],
       "type" : "library",
@@ -1366,7 +1400,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://jakarta.apache.org"
+          "url" : "http://jakarta.apache.org/commons/digester/"
         },
         {
           "type" : "distribution",
@@ -1482,7 +1516,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://commons.apache.org/beanutils/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
         },
         {
           "type" : "mailing-list",
@@ -1490,7 +1528,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4"
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-4/commons-beanutils-core"
         }
       ],
       "type" : "library",
@@ -1547,28 +1585,28 @@
       "purl" : "pkg:maven/commons-codec/commons-codec@1.5?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/codec/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/CODEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
         }
       ],
       "type" : "library",
@@ -1627,7 +1665,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://json.org/"
+          "url" : "http://www.json.org/java/index.html"
         }
       ],
       "type" : "library",
@@ -1686,15 +1724,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.mozilla.org"
+          "url" : "https://developer.mozilla.org/en/Rhino"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
         }
       ],
       "type" : "library",
@@ -1751,8 +1785,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-core@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-core"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1763,16 +1805,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/core"
         }
       ],
       "type" : "library",
@@ -1829,8 +1863,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-analyzers-common"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1841,16 +1883,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/analysis/common"
         }
       ],
       "type" : "library",
@@ -1907,8 +1941,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-analyzers-smartcn@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-analyzers-smartcn"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1919,16 +1961,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/analysis/smartcn"
         }
       ],
       "type" : "library",
@@ -1985,8 +2019,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-queryparser@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-queryparser"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1997,16 +2039,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queryparser"
         }
       ],
       "type" : "library",
@@ -2062,8 +2096,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-sandbox@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-sandbox"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -2074,16 +2116,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox"
         }
       ],
       "type" : "library",
@@ -2140,8 +2174,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-queries@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-queries"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -2152,16 +2194,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queries"
         }
       ],
       "type" : "library",
@@ -2219,27 +2253,27 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org"
+          "url" : "http://tika.apache.org/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/job/Tika-trunk/"
         },
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/TIKA"
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/tika/tags/1.6-rc2/core"
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TIKA"
         },
         {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/tika-dev/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/tika/tags/1.6-rc2/core"
         }
       ],
       "type" : "library",
@@ -2296,8 +2330,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-highlighter@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-highlighter"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -2308,16 +2350,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/highlighter"
         }
       ],
       "type" : "library",
@@ -2373,8 +2407,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-join@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-join"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -2385,16 +2427,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/join"
         }
       ],
       "type" : "library",
@@ -2450,8 +2484,16 @@
       "purl" : "pkg:maven/org.apache.lucene/lucene-memory@6.4.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://lucene.apache.org/lucene-parent/lucene-memory"
+        },
+        {
           "type" : "build-system",
           "url" : "https://builds.apache.org/computer/lucene/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -2462,16 +2504,8 @@
           "url" : "http://mail-archives.apache.org/mod_mbox/lucene-general/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
-        },
-        {
           "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/apache-13"
+          "url" : "https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/memory"
         }
       ],
       "type" : "library",
@@ -2529,27 +2563,27 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org"
+          "url" : "http://tika.apache.org/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/job/Tika-trunk/"
         },
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/TIKA"
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/tika/tags/1.6-rc2/tika-parsers"
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TIKA"
         },
         {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/tika-dev/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/tika/tags/1.6-rc2/tika-parsers"
         }
       ],
       "type" : "library",
@@ -2604,12 +2638,16 @@
       "purl" : "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/Gagravarr/VorbisJava"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/Gagravarr/VorbisJava"
+          "url" : "https://github.com/Gagravarr/VorbisJava/vorbis-java-tika"
         }
       ],
       "type" : "library",
@@ -2665,12 +2703,8 @@
       "purl" : "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://svn.unidata.ucar.edu/repos/thredds/trunk/cdm"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.ucar.edu/"
+          "url" : "http://www.unidata.ucar.edu/software/netcdf-java/"
         },
         {
           "type" : "distribution",
@@ -2679,6 +2713,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://www.unidata.ucar.edu/support/mailinglist/mailing-list-form.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.unidata.ucar.edu/repos/thredds/trunk/cdm"
         }
       ],
       "type" : "library",
@@ -2734,12 +2772,8 @@
       "purl" : "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://svn.unidata.ucar.edu/repos/thredds/tags/netcdf-4.2.20/common"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.ucar.edu/"
+          "url" : "http://www.unidata.ucar.edu/software/netcdf-java/"
         },
         {
           "type" : "distribution",
@@ -2748,6 +2782,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://www.unidata.ucar.edu/support/mailinglist/mailing-list-form.html"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.unidata.ucar.edu/repos/thredds/tags/netcdf-4.2.20/common"
         }
       ],
       "type" : "library",
@@ -2804,7 +2842,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://jakarta.apache.org/"
+          "url" : "http://jakarta.apache.org/httpcomponents/httpclient-3.x/"
         },
         {
           "type" : "issue-tracker",
@@ -2871,6 +2909,10 @@
       "purl" : "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://sourceforge.net/projects/jmatio/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/codemercenary/jmatio.git"
         }
@@ -2928,28 +2970,28 @@
       "purl" : "pkg:maven/org.apache.james/apache-mime4j-core@0.7.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/MIME4J"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/james/mime4j/tags/apache-mime4j-project-0.7.2"
+          "type" : "website",
+          "url" : "http://james.apache.org/mime4j/apache-mime4j-core"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MIME4J"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/james/mime4j/tags/apache-mime4j-project-0.7.2/apache-mime4j-core"
         }
       ],
       "type" : "library",
@@ -3005,28 +3047,28 @@
       "purl" : "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/MIME4J"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/james/mime4j/tags/apache-mime4j-project-0.7.2"
+          "type" : "website",
+          "url" : "http://james.apache.org/mime4j/apache-mime4j-dom"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MIME4J"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/james/mime4j/tags/apache-mime4j-project-0.7.2/apache-mime4j-dom"
         }
       ],
       "type" : "library",
@@ -3082,28 +3124,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/COMPRESS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.8.1"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-compress/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/compress/tags/COMPRESS-1.8.1"
         }
       ],
       "type" : "library",
@@ -3157,6 +3199,10 @@
       ],
       "purl" : "pkg:maven/org.tukaani/xz@1.5?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://tukaani.org/xz/java.html"
+        },
         {
           "type" : "vcs",
           "url" : "http://git.tukaani.org/?p=xz-java.git"
@@ -3216,23 +3262,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://pdfbox.apache.org"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent"
+          "url" : "http://www.apache.org/pdfbox-parent/pdfbox/"
         },
         {
           "type" : "distribution",
           "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent/pdfbox"
         }
       ],
       "type" : "library",
@@ -3289,23 +3335,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://pdfbox.apache.org"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent"
+          "url" : "http://pdfbox.apache.org/"
         },
         {
           "type" : "distribution",
           "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent/fontbox"
         }
       ],
       "type" : "library",
@@ -3362,23 +3408,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://pdfbox.apache.org"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent"
+          "url" : "http://www.apache.org/pdfbox-parent/jempbox/"
         },
         {
           "type" : "distribution",
           "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/PDFBOX"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/maven/pom/tags/1.8.6/pdfbox-parent/jempbox"
         }
       ],
       "type" : "library",
@@ -3433,6 +3479,10 @@
       ],
       "purl" : "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.bouncycastle.org/java.html"
+        },
         {
           "type" : "vcs",
           "url" : "http://www.bouncycastle.org/viewcvs/viewcvs.cgi/java"
@@ -3490,6 +3540,10 @@
       ],
       "purl" : "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.bouncycastle.org/java.html"
+        },
         {
           "type" : "vcs",
           "url" : "http://www.bouncycastle.org/viewcvs/viewcvs.cgi/java"
@@ -3549,7 +3603,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://poi.apache.org/"
         },
         {
           "type" : "mailing-list",
@@ -3610,7 +3664,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://poi.apache.org/"
         },
         {
           "type" : "mailing-list",
@@ -3671,7 +3725,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://poi.apache.org/"
         },
         {
           "type" : "mailing-list",
@@ -3732,7 +3786,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://poi.apache.org/"
         },
         {
           "type" : "mailing-list",
@@ -3792,6 +3846,10 @@
       "purl" : "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://home.ccil.org/~cowan/XML/tagsoup/"
+        },
+        {
           "type" : "vcs",
           "url" : "http://home.ccil.org/~cowan/tagsoup/tagsoup-1.2.1-src.zip"
         }
@@ -3850,7 +3908,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.objectweb.org/"
+          "url" : "http://asm.objectweb.org/asm-debug-all/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -3862,11 +3924,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "http://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+          "url" : "http://svn.forge.objectweb.org/cgi-bin/viewcvs.cgi/asm/trunk/asm-debug-all/"
         }
       ],
       "type" : "library",
@@ -3920,6 +3978,10 @@
       ],
       "purl" : "pkg:maven/com.googlecode.mp4parser/isoparser@1.0.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/mp4parser/"
+        },
         {
           "type" : "build-system",
           "url" : "https://sannies.ci.cloudbees.com/job/IsoParser/"
@@ -3989,6 +4051,10 @@
       "purl" : "pkg:maven/org.aspectj/aspectjrt@1.8.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://www.aspectj.org"
+        },
+        {
           "type" : "vcs",
           "url" : "http://dev.eclipse.org/viewcvs/index.cgi/org.aspectj/?root=Tools_Project"
         }
@@ -4045,12 +4111,16 @@
       "purl" : "pkg:maven/com.drewnoakes/metadata-extractor@2.6.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/r/raygauss-metadata-extractor/"
+          "type" : "website",
+          "url" : "http://code.google.com/p/metadata-extractor/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/r/raygauss-metadata-extractor/"
         }
       ],
       "type" : "library",
@@ -4104,6 +4174,10 @@
       ],
       "purl" : "pkg:maven/com.adobe.xmp/xmpcore@5.1.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.adobe.com/devnet/xmp.html"
+        },
         {
           "type" : "vcs",
           "url" : "http://www.adobe.com/devnet/xmp.html"
@@ -4162,6 +4236,14 @@
       "purl" : "pkg:maven/xerces/xercesImpl@2.8.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://xerces.apache.org/xerces2-j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/XERCESJ"
         },
@@ -4172,10 +4254,6 @@
         {
           "type" : "vcs",
           "url" : "http://svn.apache.org/viewvc/xerces/java/tags/Xerces-J_2_8_1/"
-        },
-        {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
         }
       ],
       "type" : "library",
@@ -4231,12 +4309,12 @@
       "purl" : "pkg:maven/xml-apis/xml-apis@1.3.03?type=jar",
       "externalReferences" : [
         {
-          "type" : "distribution",
-          "url" : "http://www.apache.org/dist/xml/xerces-j/Xerces-J-bin.2.8.0.tar.gz"
+          "type" : "website",
+          "url" : "http://xml.apache.org/commons/#external"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
+          "type" : "distribution",
+          "url" : "http://www.apache.org/dist/xml/xerces-j/Xerces-J-bin.2.8.0.tar.gz"
         },
         {
           "type" : "mailing-list",
@@ -4296,6 +4374,10 @@
       "purl" : "pkg:maven/de.l3s.boilerpipe/boilerpipe@1.1.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://code.google.com/p/boilerpipe/"
+        },
+        {
           "type" : "vcs",
           "url" : "http://code.google.com/p/boilerpipe/source/browse/"
         }
@@ -4348,7 +4430,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://java.sun.com/"
+          "url" : "https://rome.dev.java.net/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "java-net:/maven2-repository/trunk/repository/"
         },
         {
           "type" : "issue-tracker",
@@ -4458,12 +4544,16 @@
       "purl" : "pkg:maven/org.gagravarr/vorbis-java-core@0.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/Gagravarr/VorbisJava"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/Gagravarr/VorbisJava"
+          "url" : "https://github.com/Gagravarr/VorbisJava/vorbis-java-core"
         }
       ],
       "type" : "library",
@@ -4518,6 +4608,10 @@
       ],
       "purl" : "pkg:maven/com.googlecode.juniversalchardet/juniversalchardet@1.0.3?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://juniversalchardet.googlecode.com/"
+        },
         {
           "type" : "vcs",
           "url" : "http://code.google.com/p/juniversalchardet/source/browse/"
@@ -4583,7 +4677,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://uwyn.com/"
+          "url" : "https://jhighlight.dev.java.net/"
         },
         {
           "type" : "issue-tracker",
@@ -4646,12 +4740,16 @@
       "purl" : "pkg:maven/com.pff/java-libpst@0.8.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/rjohnsondev/java-libpst/tags/java-libpst-0.8.1"
+          "type" : "website",
+          "url" : "https://code.google.com/p/java-libpst/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/rjohnsondev/java-libpst/tags/java-libpst-0.8.1"
         }
       ],
       "type" : "library",
@@ -4709,7 +4807,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://poi.apache.org/"
         },
         {
           "type" : "mailing-list",
@@ -4770,7 +4868,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://xmlbeans.apache.org/"
+          "url" : "http://xmlbeans.apache.org"
         },
         {
           "type" : "issue-tracker",
@@ -4837,6 +4935,10 @@
       "purl" : "pkg:maven/stax/stax-api@1.0.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://stax.codehaus.org/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://jira.codehaus.org/browse/STAX"
         },
@@ -4901,7 +5003,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.erlang.org/"
+          "url" : "http://erlang.org/"
         },
         {
           "type" : "distribution",
@@ -4968,7 +5070,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -4976,7 +5078,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/slf4j"
+          "url" : "https://github.com/ceki/slf4j/slf4j-log4j12"
         }
       ],
       "type" : "library",
@@ -5034,7 +5136,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -5042,7 +5144,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/slf4j"
+          "url" : "https://github.com/ceki/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -5100,7 +5202,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org"
+          "url" : "http://logging.apache.org/log4j/docs/"
         },
         {
           "type" : "issue-tracker",
@@ -5152,7 +5254,8 @@
       "ref" : "pkg:maven/org.apache.httpcomponents/httpclient@4.0.1?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.httpcomponents/httpcore@4.0.1?type=jar",
-        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.5?type=jar"
       ]
     },
     {
@@ -5161,6 +5264,10 @@
     },
     {
       "ref" : "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-codec/commons-codec@1.5?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -5245,22 +5352,21 @@
     {
       "ref" : "pkg:maven/commons-digester/commons-digester@1.8?type=jar",
       "dependsOn" : [
-        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar"
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
       ]
     },
     {
       "ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.7.0?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/commons-beanutils/commons-beanutils-core@1.8.0?type=jar",
       "dependsOn" : [
         "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/commons-codec/commons-codec@1.5?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.json/json@20090211?type=jar",
@@ -5338,6 +5444,7 @@
         "pkg:maven/org.apache.james/apache-mime4j-dom@0.7.2?type=jar",
         "pkg:maven/org.apache.commons/commons-compress@1.8.1?type=jar",
         "pkg:maven/org.tukaani/xz@1.5?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.5?type=jar",
         "pkg:maven/org.apache.pdfbox/pdfbox@1.8.6?type=jar",
         "pkg:maven/org.bouncycastle/bcmail-jdk15@1.45?type=jar",
         "pkg:maven/org.bouncycastle/bcprov-jdk15@1.45?type=jar",
@@ -5358,24 +5465,35 @@
     },
     {
       "ref" : "pkg:maven/org.gagravarr/vorbis-java-tika@0.6?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.apache.tika/tika-core@1.6?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/edu.ucar/netcdf@4.2.20?type=jar",
       "dependsOn" : [
         "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar",
-        "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar"
+        "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
       ]
     },
     {
       "ref" : "pkg:maven/edu.ucar/unidataCommon@4.2.20?type=jar",
       "dependsOn" : [
-        "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar"
+        "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
       "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+        "pkg:maven/commons-codec/commons-codec@1.5?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/net.sourceforge.jmatio/jmatio@1.0?type=jar",
@@ -5429,7 +5547,9 @@
     },
     {
       "ref" : "pkg:maven/org.apache.poi/poi@3.11-beta2?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/commons-codec/commons-codec@1.5?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.apache.poi/poi-scratchpad@3.11-beta2?type=jar",
@@ -5446,7 +5566,15 @@
     },
     {
       "ref" : "pkg:maven/org.apache.poi/poi-ooxml-schemas@3.11-beta2?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/stax/stax-api@1.0.1?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.ccil.cowan.tagsoup/tagsoup@1.2.1?type=jar",
@@ -5524,12 +5652,6 @@
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.xmlbeans/xmlbeans@2.3.0?type=jar",
-      "dependsOn" : [
-        "pkg:maven/stax/stax-api@1.0.1?type=jar"
-      ]
-    },
-    {
       "ref" : "pkg:maven/stax/stax-api@1.0.1?type=jar",
       "dependsOn" : [ ]
     },
@@ -5540,12 +5662,9 @@
     {
       "ref" : "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar"
+        "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
+        "pkg:maven/log4j/log4j@1.2.14?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.5?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/log4j/log4j@1.2.14?type=jar",

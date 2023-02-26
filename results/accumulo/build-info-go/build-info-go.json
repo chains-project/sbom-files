@@ -4451,38 +4451,19 @@
   ],
   "dependencies": [
     {
-      "ref": "org.glassfish.jersey.containers:jersey-container-grizzly2-http:3.0.8",
+      "ref": "org.apache.accumulo:accumulo-test:2.1.0",
       "dependsOn": [
-        "org.glassfish.grizzly:grizzly-http-server:3.0.1"
-      ]
-    },
-    {
-      "ref": "io.netty:netty-handler:4.1.73.Final",
-      "dependsOn": [
-        "io.netty:netty-buffer:4.1.73.Final",
-        "io.netty:netty-transport:4.1.73.Final",
-        "io.netty:netty-codec:4.1.73.Final",
-        "io.netty:netty-resolver:4.1.73.Final",
-        "io.netty:netty-common:4.1.73.Final"
-      ]
-    },
-    {
-      "ref": "org.glassfish.hk2:hk2-api:3.0.3",
-      "dependsOn": [
-        "org.glassfish.hk2.external:aopalliance-repackaged:3.0.3",
-        "org.glassfish.hk2:hk2-utils:3.0.3"
-      ]
-    },
-    {
-      "ref": "io.netty:netty-tcnative:2.0.48.Final",
-      "dependsOn": [
-        "io.netty:netty-tcnative-classes:2.0.48.Final"
-      ]
-    },
-    {
-      "ref": "com.github.ben-manes.caffeine:caffeine:3.1.1",
-      "dependsOn": [
-        "com.google.errorprone:error_prone_annotations:2.15.0"
+        "org.apache.hadoop:hadoop-distcp:3.3.4",
+        "org.apache.accumulo:accumulo-native:2.1.0",
+        "org.apache.hadoop:hadoop-minikdc:3.3.4",
+        "io.micrometer:micrometer-registry-statsd:1.9.5",
+        "commons-cli:commons-cli:1.5.0",
+        "org.apache.curator:curator-test:5.3.0",
+        "org.apache.accumulo:accumulo-iterator-test-harness:2.1.0",
+        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+        "org.bouncycastle:bcpkix-jdk15on:1.70",
+        "org.jline:jline:3.21.0",
+        "org.bouncycastle:bcprov-jdk15on:1.70"
       ]
     },
     {
@@ -4493,49 +4474,46 @@
       ]
     },
     {
-      "ref": "org.bouncycastle:bcpkix-jdk15on:1.70",
+      "ref": "org.apache.accumulo:accumulo-core:2.1.0",
       "dependsOn": [
-        "org.bouncycastle:bcutil-jdk15on:1.70"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-server-base:2.1.0",
-      "dependsOn": [
-        "commons-codec:commons-codec:1.15"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-shell:2.1.0",
-      "dependsOn": [
-        "commons-cli:commons-cli:1.5.0",
-        "org.jline:jline:3.21.0"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-tserver:2.1.0",
-      "dependsOn": [
-        "com.google.protobuf:protobuf-java:3.21.7",
-        "org.apache.thrift:libthrift:0.17.0",
-        "org.checkerframework:checker-qual:3.26.0",
-        "io.opentelemetry:opentelemetry-context:1.19.0",
-        "io.micrometer:micrometer-core:1.9.5",
+        "com.google.code.gson:gson:2.9.1",
+        "org.apache.commons:commons-math3:3.6.1",
         "com.github.ben-manes.caffeine:caffeine:3.1.1",
-        "org.apache.commons:commons-collections4:4.4",
-        "commons-io:commons-io:2.11.0",
-        "org.apache.zookeeper:zookeeper:3.8.0",
-        "org.apache.hadoop:hadoop-client-api:3.3.4",
-        "org.junit.jupiter:junit-jupiter-api:5.9.1",
-        "com.beust:jcommander:1.82",
-        "commons-codec:commons-codec:1.15",
+        "org.apache.datasketches:datasketches-java:3.3.0",
+        "org.yaml:snakeyaml:1.33",
+        "io.opentelemetry:opentelemetry-context:1.19.0",
+        "commons-logging:commons-logging:1.2",
         "io.opentelemetry:opentelemetry-api:1.19.0",
-        "com.google.guava:guava:31.1-jre",
+        "com.google.protobuf:protobuf-java:3.21.7",
+        "org.apache.hadoop:hadoop-client-runtime:3.3.4",
+        "commons-io:commons-io:2.11.0",
+        "org.apache.commons:commons-configuration2:2.8.0",
+        "org.apache.zookeeper:zookeeper-jute:3.8.0",
+        "org.apache.commons:commons-collections4:4.4",
+        "io.opentelemetry:opentelemetry-semconv:1.19.0-alpha",
         "org.apache.commons:commons-lang3:3.12.0"
       ]
     },
     {
-      "ref": "org.apache.curator:curator-test:5.3.0",
+      "ref": "org.powermock:powermock-reflect:2.0.9",
       "dependsOn": [
-        "io.dropwizard.metrics:metrics-core:3.2.5"
+        "net.bytebuddy:byte-buddy:1.10.14",
+        "net.bytebuddy:byte-buddy-agent:1.10.14"
+      ]
+    },
+    {
+      "ref": "org.junit.vintage:junit-vintage-engine:5.9.1",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-engine:1.9.1",
+        "junit:junit:4.13.2",
+        "org.apiguardian:apiguardian-api:1.1.2"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:3.0.8",
+      "dependsOn": [
+        "org.glassfish.grizzly:grizzly-http-servlet:3.0.1",
+        "org.glassfish.jersey.containers:jersey-container-servlet:3.0.8"
       ]
     },
     {
@@ -4545,23 +4523,69 @@
       ]
     },
     {
-      "ref": "org.powermock:powermock-module-junit4:2.0.9",
+      "ref": "io.netty:netty-handler:4.1.73.Final",
       "dependsOn": [
-        "org.powermock:powermock-module-junit4-common:2.0.9",
-        "org.hamcrest:hamcrest-core:1.3"
+        "io.netty:netty-transport:4.1.73.Final",
+        "io.netty:netty-codec:4.1.73.Final",
+        "io.netty:netty-resolver:4.1.73.Final",
+        "io.netty:netty-common:4.1.73.Final",
+        "io.netty:netty-buffer:4.1.73.Final"
       ]
     },
     {
-      "ref": "org.powermock:powermock-reflect:2.0.9",
+      "ref": "org.apache.accumulo:accumulo-compactor:2.1.0",
       "dependsOn": [
-        "net.bytebuddy:byte-buddy-agent:1.10.14",
-        "net.bytebuddy:byte-buddy:1.10.14"
+        "org.apache.logging.log4j:log4j-core:2.19.0",
+        "org.apache.accumulo:accumulo-start:2.1.0",
+        "com.beust:jcommander:1.82",
+        "org.powermock:powermock-api-easymock:2.0.9",
+        "org.junit.vintage:junit-vintage-engine:5.9.1",
+        "org.apache.thrift:libthrift:0.17.0",
+        "org.apache.accumulo:accumulo-core:2.1.0",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
+        "org.easymock:easymock:4.3",
+        "org.apache.hadoop:hadoop-client-api:3.3.4",
+        "org.slf4j:slf4j-api:2.0.3",
+        "org.apache.accumulo:accumulo-server-base:2.1.0",
+        "org.apache.logging.log4j:log4j-1.2-api:2.19.0",
+        "com.google.guava:guava:31.1-jre",
+        "io.micrometer:micrometer-core:1.9.5",
+        "org.apache.zookeeper:zookeeper:3.8.0",
+        "org.powermock:powermock-module-junit4:2.0.9",
+        "com.github.spotbugs:spotbugs-annotations:4.7.2",
+        "com.google.auto.service:auto-service:1.0.1"
       ]
     },
     {
-      "ref": "junit:junit:4.13.2",
+      "ref": "io.netty:netty-transport-native-epoll:4.1.73.Final",
       "dependsOn": [
-        "org.hamcrest:hamcrest-core:1.3"
+        "io.netty:netty-transport-classes-epoll:4.1.73.Final",
+        "io.netty:netty-transport-native-unix-common:4.1.73.Final"
+      ]
+    },
+    {
+      "ref": "org.apache.accumulo:accumulo-master:2.1.0",
+      "dependsOn": [
+        "com.github.spotbugs:spotbugs-annotations:4.7.2"
+      ]
+    },
+    {
+      "ref": "org.glassfish.hk2:hk2-api:3.0.3",
+      "dependsOn": [
+        "org.glassfish.hk2.external:aopalliance-repackaged:3.0.3",
+        "org.glassfish.hk2:hk2-utils:3.0.3"
+      ]
+    },
+    {
+      "ref": "com.github.ben-manes.caffeine:caffeine:3.1.1",
+      "dependsOn": [
+        "com.google.errorprone:error_prone_annotations:2.15.0"
+      ]
+    },
+    {
+      "ref": "org.apache.kerby:kerb-server:1.0.1",
+      "dependsOn": [
+        "org.apache.kerby:kerb-identity:1.0.1"
       ]
     },
     {
@@ -4572,9 +4596,123 @@
       ]
     },
     {
-      "ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
+      "ref": "org.apache.logging.log4j:log4j-1.2-api:2.19.0",
       "dependsOn": [
-        "com.google.code.findbugs:jsr305:3.0.2"
+        "org.apache.logging.log4j:log4j-api:2.19.0"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.containers:jersey-container-grizzly2-http:3.0.8",
+      "dependsOn": [
+        "org.glassfish.grizzly:grizzly-http-server:3.0.1"
+      ]
+    },
+    {
+      "ref": "org.apache.zookeeper:zookeeper:3.8.0",
+      "dependsOn": [
+        "io.netty:netty-transport-native-epoll:4.1.73.Final",
+        "org.apache.yetus:audience-annotations:0.12.0",
+        "io.netty:netty-handler:4.1.73.Final",
+        "io.netty:netty-tcnative:2.0.48.Final"
+      ]
+    },
+    {
+      "ref": "org.apache.curator:curator-test:5.3.0",
+      "dependsOn": [
+        "io.dropwizard.metrics:metrics-core:3.2.5"
+      ]
+    },
+    {
+      "ref": "org.apache.accumulo:accumulo-shell:2.1.0",
+      "dependsOn": [
+        "commons-cli:commons-cli:1.5.0",
+        "org.jline:jline:3.21.0"
+      ]
+    },
+    {
+      "ref": "org.apache.kerby:kerb-simplekdc:1.0.1",
+      "dependsOn": [
+        "org.apache.kerby:kerb-admin:1.0.1",
+        "org.apache.kerby:kerb-client:1.0.1"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jaxb:jaxb-core:4.0.0",
+      "dependsOn": [
+        "org.eclipse.angus:angus-activation:1.0.0"
+      ]
+    },
+    {
+      "ref": "org.apache.hadoop:hadoop-client-api:3.3.4",
+      "dependsOn": [
+        "org.xerial.snappy:snappy-java:1.1.8.4"
+      ]
+    },
+    {
+      "ref": "org.powermock:powermock-module-junit4:2.0.9",
+      "dependsOn": [
+        "org.hamcrest:hamcrest-core:1.3",
+        "org.powermock:powermock-module-junit4-common:2.0.9"
+      ]
+    },
+    {
+      "ref": "io.netty:netty-tcnative:2.0.48.Final",
+      "dependsOn": [
+        "io.netty:netty-tcnative-classes:2.0.48.Final"
+      ]
+    },
+    {
+      "ref": "org.apache.accumulo:accumulo-tserver:2.1.0",
+      "dependsOn": [
+        "com.google.guava:guava:31.1-jre",
+        "org.checkerframework:checker-qual:3.26.0",
+        "io.opentelemetry:opentelemetry-context:1.19.0",
+        "commons-codec:commons-codec:1.15",
+        "io.opentelemetry:opentelemetry-api:1.19.0",
+        "org.apache.thrift:libthrift:0.17.0",
+        "org.junit.jupiter:junit-jupiter-api:5.9.1",
+        "org.apache.commons:commons-collections4:4.4",
+        "commons-io:commons-io:2.11.0",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "org.apache.zookeeper:zookeeper:3.8.0",
+        "com.beust:jcommander:1.82",
+        "com.github.ben-manes.caffeine:caffeine:3.1.1",
+        "org.apache.hadoop:hadoop-client-api:3.3.4",
+        "com.google.protobuf:protobuf-java:3.21.7",
+        "io.micrometer:micrometer-core:1.9.5"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.core:jersey-common:3.0.8",
+      "dependsOn": [
+        "org.glassfish.hk2:osgi-resource-locator:1.0.3",
+        "jakarta.annotation:jakarta.annotation-api:2.0.0"
+      ]
+    },
+    {
+      "ref": "org.apache.hadoop:hadoop-minikdc:3.3.4",
+      "dependsOn": [
+        "org.apache.kerby:kerb-simplekdc:1.0.1"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-engine:1.9.1"
+      ]
+    },
+    {
+      "ref": "org.apache.kerby:kerby-pkix:1.0.1",
+      "dependsOn": [
+        "org.apache.kerby:kerby-util:1.0.1",
+        "org.apache.kerby:kerby-asn1:1.0.1"
+      ]
+    },
+    {
+      "ref": "org.powermock:powermock-api-support:2.0.9",
+      "dependsOn": [
+        "org.powermock:powermock-core:2.0.9",
+        "org.powermock:powermock-reflect:2.0.9"
       ]
     },
     {
@@ -4584,49 +4722,21 @@
       ]
     },
     {
-      "ref": "org.apache.accumulo:accumulo-compactor:2.1.0",
+      "ref": "org.glassfish.grizzly:grizzly-http-server:3.0.1",
       "dependsOn": [
-        "org.apache.thrift:libthrift:0.17.0",
-        "org.slf4j:slf4j-api:2.0.3",
-        "com.google.auto.service:auto-service:1.0.1",
-        "org.junit.vintage:junit-vintage-engine:5.9.1",
-        "com.github.spotbugs:spotbugs-annotations:4.7.2",
-        "org.apache.logging.log4j:log4j-1.2-api:2.19.0",
-        "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
-        "io.micrometer:micrometer-core:1.9.5",
-        "org.apache.accumulo:accumulo-start:2.1.0",
-        "org.apache.hadoop:hadoop-client-api:3.3.4",
-        "org.easymock:easymock:4.3",
-        "org.apache.zookeeper:zookeeper:3.8.0",
-        "org.apache.accumulo:accumulo-core:2.1.0",
-        "com.google.guava:guava:31.1-jre",
-        "org.apache.accumulo:accumulo-server-base:2.1.0",
-        "org.apache.logging.log4j:log4j-core:2.19.0",
-        "com.beust:jcommander:1.82",
-        "org.powermock:powermock-module-junit4:2.0.9",
-        "org.powermock:powermock-api-easymock:2.0.9"
+        "org.glassfish.grizzly:grizzly-http:3.0.1"
       ]
     },
     {
-      "ref": "org.glassfish.jersey.inject:jersey-hk2:3.0.8",
+      "ref": "org.eclipse.jetty:jetty-servlet:11.0.12",
       "dependsOn": [
-        "org.javassist:javassist:3.29.2-GA",
-        "org.glassfish.hk2:hk2-locator:3.0.3"
+        "org.eclipse.jetty:jetty-security:11.0.12"
       ]
     },
     {
-      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
+      "ref": "org.apache.accumulo:accumulo-native:2.1.0",
       "dependsOn": [
-        "org.opentest4j:opentest4j:1.2.0",
-        "org.junit.platform:junit-platform-commons:1.9.1",
-        "org.apiguardian:apiguardian-api:1.1.2"
-      ]
-    },
-    {
-      "ref": "org.apache.kerby:kerb-simplekdc:1.0.1",
-      "dependsOn": [
-        "org.apache.kerby:kerb-client:1.0.1",
-        "org.apache.kerby:kerb-admin:1.0.1"
+        "org.slf4j:slf4j-api:2.0.3"
       ]
     },
     {
@@ -4644,50 +4754,21 @@
       ]
     },
     {
-      "ref": "io.micrometer:micrometer-core:1.9.5",
+      "ref": "org.glassfish.grizzly:grizzly-http:3.0.1",
       "dependsOn": [
-        "org.hdrhistogram:HdrHistogram:2.1.12",
-        "org.latencyutils:LatencyUtils:2.0.3"
+        "org.glassfish.grizzly:grizzly-framework:3.0.1"
       ]
     },
     {
-      "ref": "org.apache.commons:commons-configuration2:2.8.0",
+      "ref": "junit:junit:4.13.2",
       "dependsOn": [
-        "org.apache.commons:commons-text:1.10.0"
+        "org.hamcrest:hamcrest-core:1.3"
       ]
     },
     {
-      "ref": "org.glassfish.jersey.test-framework:jersey-test-framework-core:3.0.8",
+      "ref": "org.apache.datasketches:datasketches-java:3.3.0",
       "dependsOn": [
-        "org.glassfish.jersey.media:jersey-media-jaxb:3.0.8",
-        "junit:junit:4.13.2"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jetty:jetty-servlet:11.0.12",
-      "dependsOn": [
-        "org.eclipse.jetty:jetty-security:11.0.12"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jaxb:jaxb-core:4.0.0",
-      "dependsOn": [
-        "org.eclipse.angus:angus-activation:1.0.0"
-      ]
-    },
-    {
-      "ref": "org.apache.zookeeper:zookeeper:3.8.0",
-      "dependsOn": [
-        "io.netty:netty-transport-native-epoll:4.1.73.Final",
-        "org.apache.yetus:audience-annotations:0.12.0",
-        "io.netty:netty-handler:4.1.73.Final",
-        "io.netty:netty-tcnative:2.0.48.Final"
-      ]
-    },
-    {
-      "ref": "org.apache.logging.log4j:log4j-1.2-api:2.19.0",
-      "dependsOn": [
-        "org.apache.logging.log4j:log4j-api:2.19.0"
+        "org.apache.datasketches:datasketches-memory:2.1.0"
       ]
     },
     {
@@ -4697,15 +4778,11 @@
       ]
     },
     {
-      "ref": "org.glassfish.grizzly:grizzly-http:3.0.1",
+      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
       "dependsOn": [
-        "org.glassfish.grizzly:grizzly-framework:3.0.1"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-master:2.1.0",
-      "dependsOn": [
-        "com.github.spotbugs:spotbugs-annotations:4.7.2"
+        "org.opentest4j:opentest4j:1.2.0",
+        "org.junit.platform:junit-platform-commons:1.9.1",
+        "org.apiguardian:apiguardian-api:1.1.2"
       ]
     },
     {
@@ -4716,31 +4793,27 @@
       ]
     },
     {
-      "ref": "org.eclipse.jetty:jetty-server:11.0.12",
+      "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
       "dependsOn": [
-        "org.eclipse.jetty.toolchain:jetty-jakarta-servlet-api:5.0.2",
-        "org.eclipse.jetty:jetty-http:11.0.12",
-        "org.eclipse.jetty:jetty-io:11.0.12"
+        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+        "com.fasterxml.jackson.core:jackson-core:2.13.4"
       ]
     },
     {
-      "ref": "org.apache.kerby:kerb-core:1.0.1",
+      "ref": "org.glassfish.jersey.test-framework:jersey-test-framework-core:3.0.8",
       "dependsOn": [
-        "org.apache.kerby:kerby-pkix:1.0.1"
+        "org.glassfish.jersey.media:jersey-media-jaxb:3.0.8",
+        "junit:junit:4.13.2"
       ]
     },
     {
-      "ref": "org.powermock:powermock-api-support:2.0.9",
+      "ref": "org.apache.accumulo:accumulo-minicluster:2.1.0",
       "dependsOn": [
-        "org.powermock:powermock-core:2.0.9",
-        "org.powermock:powermock-reflect:2.0.9"
-      ]
-    },
-    {
-      "ref": "io.netty:netty-transport-native-epoll:4.1.73.Final",
-      "dependsOn": [
-        "io.netty:netty-transport-native-unix-common:4.1.73.Final",
-        "io.netty:netty-transport-classes-epoll:4.1.73.Final"
+        "org.apache.curator:curator-test:5.3.0",
+        "org.apache.accumulo:accumulo-compaction-coordinator:2.1.0",
+        "org.apache.hadoop:hadoop-client-minicluster:3.3.4",
+        "org.apache.curator:curator-framework:5.3.0",
+        "org.apache.accumulo:accumulo-manager:2.1.0"
       ]
     },
     {
@@ -4754,111 +4827,9 @@
       ]
     },
     {
-      "ref": "org.apache.kerby:kerb-server:1.0.1",
+      "ref": "org.bouncycastle:bcpkix-jdk15on:1.70",
       "dependsOn": [
-        "org.apache.kerby:kerb-identity:1.0.1"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:3.0.8",
-      "dependsOn": [
-        "org.glassfish.grizzly:grizzly-http-servlet:3.0.1",
-        "org.glassfish.jersey.containers:jersey-container-servlet:3.0.8"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-native:2.1.0",
-      "dependsOn": [
-        "org.slf4j:slf4j-api:2.0.3"
-      ]
-    },
-    {
-      "ref": "org.apache.curator:curator-framework:5.3.0",
-      "dependsOn": [
-        "org.apache.curator:curator-client:5.3.0"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-test:2.1.0",
-      "dependsOn": [
-        "org.apache.accumulo:accumulo-native:2.1.0",
-        "org.apache.hadoop:hadoop-minikdc:3.3.4",
-        "org.bouncycastle:bcpkix-jdk15on:1.70",
-        "io.micrometer:micrometer-registry-statsd:1.9.5",
-        "commons-cli:commons-cli:1.5.0",
-        "org.apache.curator:curator-test:5.3.0",
-        "org.apache.hadoop:hadoop-distcp:3.3.4",
-        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
-        "org.jline:jline:3.21.0",
-        "org.bouncycastle:bcprov-jdk15on:1.70",
-        "org.apache.accumulo:accumulo-iterator-test-harness:2.1.0"
-      ]
-    },
-    {
-      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
-      "dependsOn": [
-        "org.junit.platform:junit-platform-engine:1.9.1"
-      ]
-    },
-    {
-      "ref": "org.powermock:powermock-api-easymock:2.0.9",
-      "dependsOn": [
-        "org.powermock:powermock-api-support:2.0.9",
-        "cglib:cglib-nodep:3.2.9"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-monitor:2.1.0",
-      "dependsOn": [
-        "jakarta.servlet:jakarta.servlet-api:5.0.0",
-        "org.glassfish.jersey.inject:jersey-hk2:3.0.8",
-        "org.junit.jupiter:junit-jupiter-api:5.9.1",
-        "org.glassfish.jersey.ext:jersey-mvc-freemarker:3.0.8",
-        "org.apache.logging.log4j:log4j-web:2.19.0",
-        "org.glassfish.jersey.core:jersey-client:3.0.8",
-        "org.glassfish.jersey.core:jersey-common:3.0.8",
-        "org.glassfish.jersey.ext:jersey-mvc:3.0.8",
-        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:3.0.8",
-        "org.easymock:easymock:4.3",
-        "org.eclipse.jetty:jetty-server:11.0.12",
-        "org.apache.hadoop:hadoop-client-runtime:3.3.4",
-        "org.apache.logging.log4j:log4j-core:2.19.0",
-        "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1",
-        "org.eclipse.jetty:jetty-servlet:11.0.12",
-        "org.glassfish.jersey.media:jersey-media-json-jackson:3.0.8",
-        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
-        "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
-        "org.glassfish.jersey.test-framework:jersey-test-framework-core:3.0.8",
-        "jakarta.ws.rs:jakarta.ws.rs-api:3.0.0",
-        "org.glassfish.jersey.core:jersey-server:3.0.8",
-        "org.eclipse.jetty:jetty-util:11.0.12",
-        "org.glassfish.jersey.ext:jersey-bean-validation:3.0.8",
-        "jakarta.validation:jakarta.validation-api:3.0.0",
-        "jakarta.inject:jakarta.inject-api:2.0.0",
-        "org.glassfish.hk2:hk2-api:3.0.3",
-        "org.glassfish.jaxb:txw2:4.0.0",
-        "org.glassfish.jersey.containers:jersey-container-servlet-core:3.0.8"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-core:2.1.0",
-      "dependsOn": [
-        "org.apache.zookeeper:zookeeper-jute:3.8.0",
-        "org.apache.commons:commons-lang3:3.12.0",
-        "org.apache.commons:commons-collections4:4.4",
-        "org.apache.hadoop:hadoop-client-runtime:3.3.4",
-        "com.github.ben-manes.caffeine:caffeine:3.1.1",
-        "io.opentelemetry:opentelemetry-api:1.19.0",
-        "org.apache.datasketches:datasketches-java:3.3.0",
-        "io.opentelemetry:opentelemetry-semconv:1.19.0-alpha",
-        "org.apache.commons:commons-math3:3.6.1",
-        "commons-io:commons-io:2.11.0",
-        "org.apache.commons:commons-configuration2:2.8.0",
-        "com.google.protobuf:protobuf-java:3.21.7",
-        "org.yaml:snakeyaml:1.33",
-        "io.opentelemetry:opentelemetry-context:1.19.0",
-        "com.google.code.gson:gson:2.9.1",
-        "commons-logging:commons-logging:1.2"
+        "org.bouncycastle:bcutil-jdk15on:1.70"
       ]
     },
     {
@@ -4868,88 +4839,57 @@
       ]
     },
     {
-      "ref": "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+      "ref": "org.apache.commons:commons-configuration2:2.8.0",
       "dependsOn": [
-        "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
-        "com.fasterxml.jackson.core:jackson-core:2.13.4"
+        "org.apache.commons:commons-text:1.10.0"
       ]
     },
     {
-      "ref": "org.apache.accumulo:accumulo:2.1.0",
+      "ref": "io.micrometer:micrometer-core:1.9.5",
       "dependsOn": [
-        "org.apache.logging.log4j:log4j-jul:2.19.0",
-        "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.13.4",
-        "org.glassfish.jersey.containers:jersey-container-jetty-http:3.0.8",
-        "org.apache.accumulo:accumulo-hadoop-mapreduce:2.1.0",
-        "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.13.4",
-        "org.apache.logging.log4j:log4j-jcl:2.19.0",
-        "org.apache.htrace:htrace-core4:4.1.0-incubating",
-        "com.lmax:disruptor:3.4.4",
-        "jakarta.activation:jakarta.activation-api:2.0.1",
-        "com.sun.istack:istack-commons-runtime:4.1.1",
-        "org.glassfish.jaxb:jaxb-runtime:4.0.0",
-        "org.glassfish.jaxb:jaxb-core:4.0.0"
+        "org.latencyutils:LatencyUtils:2.0.3",
+        "org.hdrhistogram:HdrHistogram:2.1.12"
       ]
     },
     {
-      "ref": "com.google.guava:guava:31.1-jre",
+      "ref": "org.apache.accumulo:accumulo-monitor:2.1.0",
       "dependsOn": [
-        "org.checkerframework:checker-qual:3.26.0",
-        "com.google.guava:failureaccess:1.0.1",
-        "com.google.code.findbugs:jsr305:3.0.2",
-        "com.google.errorprone:error_prone_annotations:2.15.0",
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.j2objc:j2objc-annotations:1.3"
+        "org.apache.logging.log4j:log4j-web:2.19.0",
+        "org.glassfish.jersey.containers:jersey-container-servlet-core:3.0.8",
+        "org.glassfish.jersey.core:jersey-common:3.0.8",
+        "jakarta.ws.rs:jakarta.ws.rs-api:3.0.0",
+        "org.glassfish.jersey.ext:jersey-mvc-freemarker:3.0.8",
+        "org.apache.hadoop:hadoop-client-runtime:3.3.4",
+        "org.glassfish.hk2:hk2-api:3.0.3",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+        "org.apache.logging.log4j:log4j-slf4j2-impl:2.19.0",
+        "org.glassfish.jaxb:txw2:4.0.0",
+        "org.eclipse.jetty:jetty-server:11.0.12",
+        "org.glassfish.jersey.core:jersey-client:3.0.8",
+        "org.junit.jupiter:junit-jupiter-api:5.9.1",
+        "org.glassfish.jersey.media:jersey-media-json-jackson:3.0.8",
+        "org.glassfish.jersey.ext:jersey-mvc:3.0.8",
+        "org.glassfish.jersey.test-framework.providers:jersey-test-framework-provider-grizzly2:3.0.8",
+        "jakarta.inject:jakarta.inject-api:2.0.0",
+        "org.eclipse.jetty:jetty-servlet:11.0.12",
+        "org.easymock:easymock:4.3",
+        "org.glassfish.jersey.inject:jersey-hk2:3.0.8",
+        "org.apache.logging.log4j:log4j-core:2.19.0",
+        "jakarta.validation:jakarta.validation-api:3.0.0",
+        "org.glassfish.jersey.core:jersey-server:3.0.8",
+        "org.eclipse.jetty:jetty-util:11.0.12",
+        "org.glassfish.jersey.test-framework:jersey-test-framework-core:3.0.8",
+        "jakarta.servlet:jakarta.servlet-api:5.0.0",
+        "org.glassfish.jersey.ext:jersey-bean-validation:3.0.8",
+        "jakarta.xml.bind:jakarta.xml.bind-api:3.0.1"
       ]
     },
     {
-      "ref": "org.junit.platform:junit-platform-engine:1.9.1",
+      "ref": "org.eclipse.jetty:jetty-server:11.0.12",
       "dependsOn": [
-        "org.junit.platform:junit-platform-commons:1.9.1",
-        "org.opentest4j:opentest4j:1.2.0"
-      ]
-    },
-    {
-      "ref": "org.apache.accumulo:accumulo-minicluster:2.1.0",
-      "dependsOn": [
-        "org.apache.hadoop:hadoop-client-minicluster:3.3.4",
-        "org.apache.curator:curator-framework:5.3.0",
-        "org.apache.accumulo:accumulo-manager:2.1.0",
-        "org.apache.curator:curator-test:5.3.0",
-        "org.apache.accumulo:accumulo-compaction-coordinator:2.1.0"
-      ]
-    },
-    {
-      "ref": "org.apache.hadoop:hadoop-minikdc:3.3.4",
-      "dependsOn": [
-        "org.apache.kerby:kerb-simplekdc:1.0.1"
-      ]
-    },
-    {
-      "ref": "org.apache.kerby:kerby-pkix:1.0.1",
-      "dependsOn": [
-        "org.apache.kerby:kerby-util:1.0.1",
-        "org.apache.kerby:kerby-asn1:1.0.1"
-      ]
-    },
-    {
-      "ref": "org.junit.vintage:junit-vintage-engine:5.9.1",
-      "dependsOn": [
-        "org.junit.platform:junit-platform-engine:1.9.1",
-        "junit:junit:4.13.2",
-        "org.apiguardian:apiguardian-api:1.1.2"
-      ]
-    },
-    {
-      "ref": "org.apache.hadoop:hadoop-client-api:3.3.4",
-      "dependsOn": [
-        "org.xerial.snappy:snappy-java:1.1.8.4"
-      ]
-    },
-    {
-      "ref": "org.apache.datasketches:datasketches-java:3.3.0",
-      "dependsOn": [
-        "org.apache.datasketches:datasketches-memory:2.1.0"
+        "org.eclipse.jetty:jetty-io:11.0.12",
+        "org.eclipse.jetty.toolchain:jetty-jakarta-servlet-api:5.0.2",
+        "org.eclipse.jetty:jetty-http:11.0.12"
       ]
     },
     {
@@ -4960,36 +4900,27 @@
       ]
     },
     {
-      "ref": "org.glassfish.jersey.ext:jersey-mvc-freemarker:3.0.8",
+      "ref": "com.google.guava:guava:31.1-jre",
       "dependsOn": [
-        "org.freemarker:freemarker:2.3.31"
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "com.google.errorprone:error_prone_annotations:2.15.0",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "org.checkerframework:checker-qual:3.26.0"
       ]
     },
     {
-      "ref": "org.glassfish.grizzly:grizzly-http-server:3.0.1",
+      "ref": "org.junit.platform:junit-platform-engine:1.9.1",
       "dependsOn": [
-        "org.glassfish.grizzly:grizzly-http:3.0.1"
+        "org.junit.platform:junit-platform-commons:1.9.1",
+        "org.opentest4j:opentest4j:1.2.0"
       ]
     },
     {
-      "ref": "org.glassfish.jersey.core:jersey-common:3.0.8",
+      "ref": "com.github.spotbugs:spotbugs-annotations:4.7.2",
       "dependsOn": [
-        "org.glassfish.hk2:osgi-resource-locator:1.0.3",
-        "jakarta.annotation:jakarta.annotation-api:2.0.0"
-      ]
-    },
-    {
-      "ref": "org.apache.kerby:kerb-common:1.0.1",
-      "dependsOn": [
-        "org.apache.kerby:kerb-crypto:1.0.1"
-      ]
-    },
-    {
-      "ref": "org.glassfish.jersey.ext:jersey-bean-validation:3.0.8",
-      "dependsOn": [
-        "jakarta.el:jakarta.el-api:4.0.0",
-        "org.hibernate.validator:hibernate-validator:7.0.5.Final",
-        "org.glassfish:jakarta.el:4.0.2"
+        "com.google.code.findbugs:jsr305:3.0.2"
       ]
     },
     {
@@ -4997,6 +4928,75 @@
       "dependsOn": [
         "org.glassfish.jersey.containers:jersey-container-grizzly2-http:3.0.8",
         "org.glassfish.jersey.containers:jersey-container-grizzly2-servlet:3.0.8"
+      ]
+    },
+    {
+      "ref": "org.apache.kerby:kerb-core:1.0.1",
+      "dependsOn": [
+        "org.apache.kerby:kerby-pkix:1.0.1"
+      ]
+    },
+    {
+      "ref": "org.apache.accumulo:accumulo:2.1.0",
+      "dependsOn": [
+        "org.apache.htrace:htrace-core4:4.1.0-incubating",
+        "org.apache.logging.log4j:log4j-jul:2.19.0",
+        "org.glassfish.jaxb:jaxb-runtime:4.0.0",
+        "org.apache.accumulo:accumulo-hadoop-mapreduce:2.1.0",
+        "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider:2.13.4",
+        "org.apache.logging.log4j:log4j-jcl:2.19.0",
+        "org.glassfish.jaxb:jaxb-core:4.0.0",
+        "com.lmax:disruptor:3.4.4",
+        "com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base:2.13.4",
+        "jakarta.activation:jakarta.activation-api:2.0.1",
+        "com.sun.istack:istack-commons-runtime:4.1.1",
+        "org.glassfish.jersey.containers:jersey-container-jetty-http:3.0.8"
+      ]
+    },
+    {
+      "ref": "org.apache.accumulo:accumulo-server-base:2.1.0",
+      "dependsOn": [
+        "commons-codec:commons-codec:1.15"
+      ]
+    },
+    {
+      "ref": "org.powermock:powermock-api-easymock:2.0.9",
+      "dependsOn": [
+        "cglib:cglib-nodep:3.2.9",
+        "org.powermock:powermock-api-support:2.0.9"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.ext:jersey-bean-validation:3.0.8",
+      "dependsOn": [
+        "org.glassfish:jakarta.el:4.0.2",
+        "jakarta.el:jakarta.el-api:4.0.0",
+        "org.hibernate.validator:hibernate-validator:7.0.5.Final"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.inject:jersey-hk2:3.0.8",
+      "dependsOn": [
+        "org.javassist:javassist:3.29.2-GA",
+        "org.glassfish.hk2:hk2-locator:3.0.3"
+      ]
+    },
+    {
+      "ref": "org.glassfish.jersey.ext:jersey-mvc-freemarker:3.0.8",
+      "dependsOn": [
+        "org.freemarker:freemarker:2.3.31"
+      ]
+    },
+    {
+      "ref": "org.apache.curator:curator-framework:5.3.0",
+      "dependsOn": [
+        "org.apache.curator:curator-client:5.3.0"
+      ]
+    },
+    {
+      "ref": "org.apache.kerby:kerb-common:1.0.1",
+      "dependsOn": [
+        "org.apache.kerby:kerb-crypto:1.0.1"
       ]
     }
   ]

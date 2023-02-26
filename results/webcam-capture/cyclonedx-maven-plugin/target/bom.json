@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:608e79f8-148e-484b-9296-1084287b5fbe",
+  "serialNumber" : "urn:uuid:6a67796a-1719-4977-b64a-f10b1b0ce280",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:31:18Z",
+    "timestamp" : "2023-02-26T02:10:26Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -64,7 +64,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://github.com/sarxos"
+          "url" : "https://github.com/sarxos/webcam-capture"
         },
         {
           "type" : "build-system",
@@ -143,20 +143,20 @@
       "purl" : "pkg:maven/com.nativelibs4java/bridj@0.7.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/ochafik/nativelibs4java/issues"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "http://groups.google.com/group/nativelibs4java/topics"
+          "type" : "website",
+          "url" : "http://code.google.com/p/bridj/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "type" : "issue-tracker",
+          "url" : "https://github.com/ochafik/nativelibs4java/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/nativelibs4java/topics"
         }
       ],
       "type" : "library",
@@ -215,7 +215,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -223,7 +223,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/slf4j"
+          "url" : "https://github.com/ceki/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -287,7 +287,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://logback.qos.ch"
         },
         {
           "type" : "distribution",
@@ -295,7 +295,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/logback"
+          "url" : "https://github.com/ceki/logback/logback-classic"
         }
       ],
       "type" : "library",
@@ -358,7 +358,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://logback.qos.ch"
         },
         {
           "type" : "distribution",
@@ -366,7 +366,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/ceki/logback"
+          "url" : "https://github.com/ceki/logback/logback-core"
         }
       ],
       "type" : "library",
@@ -381,14 +381,43 @@
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-drivers@0.3.12?type=pom"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-ffmpeg-cli",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver using ffmpeg CLI tool to grab frames from camera device into named pipe and decode them in Java. This driver works only on *NIX systems (ans possibly on Mac OS). No Windows, sorry... It also requires ffmpeg to be installed on the computer where image capturing will be running.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-ffmpeg-cli@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-ffmpeg-cli"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-ffmpeg-cli@0.3.12?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture",
       "version" : "0.3.12",
@@ -428,24 +457,105 @@
           "content" : "73a621f55d5a49188075aa5ceb161879ba7df01afec9734e62bae72fadb17cf095880e015b6acb56d3d00d568779400ab4d573e4b0fb074f9dd22482619fa43d"
         }
       ],
-      "licenses" : [ ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture@0.3.12?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-fswebcam",
       "version" : "0.3.12",
+      "description" : "This is one of the capture drivers which can be used by Webcam Capture API to fetch image from webcam device. This specific capture driver is using fswebcam command line tool by by Philip Heron to access the image.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-fswebcam@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-fswebcam"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-fswebcam@0.3.12?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-gst1",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver using GStreamer 1.x framework to grab frames from camera devices",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-gst1@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-gst1"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-gst1@0.3.12?type=jar"
     },
@@ -505,6 +615,10 @@
       ],
       "purl" : "pkg:maven/net.java.dev.jna/jna@4.2.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/java-native-access/jna"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/java-native-access/jna"
@@ -566,7 +680,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.github.com/gstreamer-java"
+          "url" : "https://github.com/gstreamer-java/gst1-java-core"
         },
         {
           "type" : "distribution",
@@ -581,10 +695,38 @@
       "bom-ref" : "pkg:maven/org.freedesktop.gstreamer/gst1-java-core@0.9.0?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-gstreamer",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver using GStreamer framework to grab frames from camera devices",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-gstreamer@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-gstreamer"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-gstreamer@0.3.12?type=jar"
     },
@@ -638,6 +780,10 @@
       ],
       "purl" : "pkg:maven/com.googlecode.gstreamer-java/gstreamer-java@1.5?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/gstreamer-java"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
@@ -700,6 +846,10 @@
       "purl" : "pkg:maven/net.java.dev.jna/jna@3.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/twall/jna"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/twall/jna"
         }
@@ -757,6 +907,14 @@
       "purl" : "pkg:maven/net.java.dev.jna/platform@3.4.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/twall/jna"
+        },
+        {
+          "type" : "distribution",
+          "url" : "java-net:/maven2-repository~svn/trunk/repository/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/twall/jna"
         }
@@ -811,7 +969,16 @@
         }
       ],
       "purl" : "pkg:maven/com.apple/AppleJavaExtensions@1.4?type=jar",
-      "externalReferences" : [ ],
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://developer.apple.com/library/mac/#samplecode/AppleJavaExtensions/Introduction/Intro.html"
+        },
+        {
+          "type" : "distribution",
+          "url" : "java-net:/maven2-repository/trunk/repository/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.apple/AppleJavaExtensions@1.4?type=jar"
     },
@@ -924,23 +1091,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
         },
         {
-          "type" : "vcs",
-          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.5.3"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.5.3/httpclient"
         }
       ],
       "type" : "library",
@@ -997,23 +1164,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-core-ga"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/HTTPCORE"
         },
         {
-          "type" : "vcs",
-          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.4.6"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpcore/tags/4.4.6/httpcore"
         }
       ],
       "type" : "library",
@@ -1069,28 +1236,28 @@
       "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LOGGING"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-logging/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
         }
       ],
       "type" : "library",
@@ -1146,28 +1313,28 @@
       "purl" : "pkg:maven/commons-codec/commons-codec@1.9?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-codec/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/CODEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/codec/trunk"
         }
       ],
       "type" : "library",
@@ -1225,33 +1392,61 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.apache.org/"
+          "url" : "http://hc.apache.org/httpcomponents-client"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
         },
         {
-          "type" : "vcs",
-          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.5.3"
-        },
-        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
         },
         {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://svn.apache.org/repos/asf/httpcomponents/httpclient/tags/4.5.3/httpmime"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.httpcomponents/httpmime@4.5.3?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-opencv",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver using JavaCV binding for OpenCV",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-opencv@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-opencv"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-opencv@0.3.12?type=jar"
     },
@@ -1315,12 +1510,16 @@
       "purl" : "pkg:maven/org.bytedeco/javacv-platform@1.3.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/javacv-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/javacv-platform"
         }
       ],
       "type" : "library",
@@ -1384,6 +1583,10 @@
       ],
       "purl" : "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp/"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -1455,6 +1658,10 @@
       "purl" : "pkg:maven/org.bytedeco/javacv@1.3.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
@@ -1525,12 +1732,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -1595,12 +1806,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -1665,12 +1880,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -1735,12 +1954,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -1805,12 +2028,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -1875,12 +2102,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect2/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect2"
         }
       ],
       "type" : "library",
@@ -1945,12 +2176,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/librealsense/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/librealsense"
         }
       ],
       "type" : "library",
@@ -2015,12 +2250,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/videoinput/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/videoinput"
         }
       ],
       "type" : "library",
@@ -2085,12 +2324,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -2155,12 +2398,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -2225,12 +2472,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv-platform@3.2.0-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv-platform"
         }
       ],
       "type" : "library",
@@ -2295,12 +2546,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=android-arm&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2365,12 +2620,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=android-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2435,12 +2694,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2505,12 +2768,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2575,12 +2842,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2645,12 +2916,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2715,12 +2990,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2785,12 +3064,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2855,12 +3138,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/opencv/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/opencv"
         }
       ],
       "type" : "library",
@@ -2925,12 +3212,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg-platform@3.2.1-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg-platform"
         }
       ],
       "type" : "library",
@@ -2995,12 +3286,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=android-arm&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3065,12 +3360,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=android-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3135,12 +3434,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3205,12 +3508,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3275,12 +3582,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3345,12 +3656,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3415,12 +3730,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3485,12 +3804,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3555,12 +3878,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/ffmpeg/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/ffmpeg"
         }
       ],
       "type" : "library",
@@ -3625,12 +3952,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture-platform@2.9.3.43-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture-platform"
         }
       ],
       "type" : "library",
@@ -3695,12 +4026,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -3765,12 +4100,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -3835,12 +4174,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -3905,12 +4248,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -3975,12 +4322,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flycapture/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flycapture"
         }
       ],
       "type" : "library",
@@ -4045,12 +4396,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394-platform@2.2.4-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394-platform"
         }
       ],
       "type" : "library",
@@ -4115,12 +4470,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4185,12 +4544,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4255,12 +4618,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4325,12 +4692,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4395,12 +4766,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4465,12 +4840,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4535,12 +4914,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libdc1394/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libdc1394"
         }
       ],
       "type" : "library",
@@ -4605,12 +4988,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect-platform@0.5.3-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect-platform"
         }
       ],
       "type" : "library",
@@ -4675,12 +5062,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -4745,12 +5136,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -4815,12 +5210,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -4885,12 +5284,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -4955,12 +5358,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -5025,12 +5432,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -5095,12 +5506,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect"
         }
       ],
       "type" : "library",
@@ -5165,12 +5580,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2-platform@0.2.0-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect2-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect2-platform"
         }
       ],
       "type" : "library",
@@ -5235,12 +5654,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect2/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect2"
         }
       ],
       "type" : "library",
@@ -5305,12 +5728,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/libfreenect2/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/libfreenect2"
         }
       ],
       "type" : "library",
@@ -5375,12 +5802,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense-platform@1.9.6-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/librealsense-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/librealsense-platform"
         }
       ],
       "type" : "library",
@@ -5445,12 +5876,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/librealsense/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/librealsense"
         }
       ],
       "type" : "library",
@@ -5515,12 +5950,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/librealsense/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/librealsense"
         }
       ],
       "type" : "library",
@@ -5585,12 +6024,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput-platform@0.200-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/videoinput-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/videoinput-platform"
         }
       ],
       "type" : "library",
@@ -5655,12 +6098,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/videoinput/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/videoinput"
         }
       ],
       "type" : "library",
@@ -5725,12 +6172,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/videoinput/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/videoinput"
         }
       ],
       "type" : "library",
@@ -5795,12 +6246,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus-platform@2.3.1-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus-platform"
         }
       ],
       "type" : "library",
@@ -5865,12 +6320,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=android-arm&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -5935,12 +6394,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=android-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6005,12 +6468,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6075,12 +6542,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6145,12 +6616,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6215,12 +6690,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6285,12 +6764,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6355,12 +6838,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6425,12 +6912,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/artoolkitplus/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/artoolkitplus"
         }
       ],
       "type" : "library",
@@ -6495,12 +6986,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark-platform@1.07-1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark-platform/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark-platform"
         }
       ],
       "type" : "library",
@@ -6565,12 +7060,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-arm&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6635,12 +7134,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6705,12 +7208,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6775,12 +7282,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6845,12 +7356,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-armhf&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6915,12 +7430,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-ppc64le&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -6985,12 +7504,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=macosx-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -7055,12 +7578,16 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=windows-x86&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
@@ -7125,22 +7652,54 @@
       "purl" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=windows-x86_64&type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://bytedeco.org/javacpp-presets/flandmark/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/bytedeco/javacpp-presets"
+          "url" : "https://github.com/bytedeco/javacpp-presets/flandmark"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=windows-x86_64&type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-jmf",
       "version" : "0.3.12",
+      "description" : "This is JMF implementation of webcam driver. It allows you to capture webcam media with JMF or FMJ installed.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-jmf@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-jmf"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-jmf@0.3.12?type=jar"
     },
@@ -7190,10 +7749,38 @@
       "bom-ref" : "pkg:maven/javax.media/jmf@2.1.1e?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-lti-civil",
       "version" : "0.3.12",
+      "description" : "LTI-CIVIL webcam driver for Webcam Capture project. It allows Webcam Capture to fetch images using LTI-CIVIL library.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-lti-civil@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-lti-civil"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-lti-civil@0.3.12?type=jar"
     },
@@ -7257,10 +7844,38 @@
       "bom-ref" : "pkg:maven/com.github.sarxos/lti-civil-no-swt@20070920-1721?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-openimaj",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver allowing you to capture images using OpenIMAJ library.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-openimaj@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-openimaj"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-openimaj@0.3.12?type=jar"
     },
@@ -7268,8 +7883,35 @@
       "group" : "com.nativelibs4java",
       "name" : "bridj",
       "version" : "0.6.2",
+      "description" : "NativeLibs4Java is an umbrella project that gathers ready-to-use Java libraries that wrap various native libraries. Most of these wrappers are created automatically by JNAerator.",
       "scope" : "optional",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD License (GPL-compatible)",
+            "url" : "http://code.google.com/p/bridj/wiki/CreditsAndLicense"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.nativelibs4java/bridj@0.6.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/bridj/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/ochafik/nativelibs4java/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/nativelibs4java/topics"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.nativelibs4java/bridj@0.6.2?type=jar"
     },
@@ -7277,152 +7919,667 @@
       "group" : "com.google.android.tools",
       "name" : "dx",
       "version" : "1.7",
+      "description" : "dx is an Android SDK platform tool that transforms Java bytecode (and JARs) into Dalvik VM 'DEX' code.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.android.tools/dx@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://developer.android.com/guide/developing/tools/index.html"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://android.googlesource.com/platform/dalvik"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.android.tools/dx@1.7?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-video-capture",
       "version" : "1.3",
+      "description" : "Cross-platform video capture interface using a lightweight native interface. Supports 32 and 64 bit JVMs under Linux, OSX and Windows.",
       "scope" : "optional",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core-video-capture@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-hardware/core-video-capture"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-hardware/core-video-capture"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core-video-capture@1.3?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-video",
       "version" : "1.3",
+      "description" : "Core definitions of a video type and functionality for displaying and processing videos.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core-video@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-core-libs/core-video"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-core-libs/core-video"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core-video@1.3?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-image",
       "version" : "1.3",
+      "description" : "Core definitions of images, pixels and connected components. Also contains interfaces for processors for these basic types. Includes loading, saving and displaying images.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core-image@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-core-libs/core-image"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-core-libs/core-image"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core-image@1.3?type=jar"
     },
     {
+      "publisher" : "The JEuclid project",
       "group" : "net.sourceforge.jeuclid",
       "name" : "jeuclid-core",
       "version" : "3.1.9",
+      "description" : "This is the core module containing the basic JEuclid rendering and document handling classes.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/net.sourceforge.jeuclid/jeuclid-core@3.1.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jeuclid.sourceforge.net/jeuclid-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "sftp://web.sourceforge.net/home/groups/j/je/jeuclid/htdocs/m2-release"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://sourceforge.net/tracker/?group_id=44862"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://sourceforge.net/mailarchive/forum.php?forum=jeuclid-users"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://jeuclid.hg.sourceforge.net/hgweb/jeuclid/jeuclid/jeuclid-core/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/net.sourceforge.jeuclid/jeuclid-core@3.1.9?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "commons-logging",
       "name" : "commons-logging",
       "version" : "1.1.1",
+      "description" : "Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/logging"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://vmbuild.apache.org/continuum/"
+        },
+        {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-commits/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/tags/commons-logging-1.1.1"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-svg-dom",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-svg-dom@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-svg-dom@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-anim",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-anim@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-anim@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-awt-util",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-awt-util@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-css",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-css@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-dom",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-dom@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-dom@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-xml",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-xml@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-ext",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-ext@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-ext@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-parser",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-parser@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-parser@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "batik-util",
       "version" : "1.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/batik/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-batik-users/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xmlgraphics/batik/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/batik-util@1.7?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "xml-apis",
       "name" : "xml-apis",
       "version" : "1.3.04",
+      "description" : "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xml.apache.org/commons/components/external/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/bugzilla/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xml-commons-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_3_04/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/xml-apis/xml-apis@1.3.04?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "xml-apis",
       "name" : "xml-apis-ext",
       "version" : "1.3.04",
+      "description" : "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/xml-apis/xml-apis-ext@1.3.04?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xml.apache.org/commons/components/external/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/bugzilla/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xml-commons-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_3_04/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/xml-apis/xml-apis-ext@1.3.04?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "org.apache.xmlgraphics",
       "name" : "xmlgraphics-commons",
       "version" : "1.3.1",
+      "description" : "Apache XML Graphics Commons is a library that consists of several reusable components used by Apache Batik and Apache FOP. Many of these components can easily be used separately outside the domains of SVG and XSL-FO.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons@1.3.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://xmlgraphics.apache.org/commons/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/xmlgraphics-general/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewcvs.cgi/xmlgraphics/commons/trunk/?root=Apache-SVN"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons@1.3.1?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core",
       "version" : "1.3",
+      "description" : "Core library functionality concerned with general programming problems rather than multimedia specific functionality. Includes I/O utilities, randomisation, hashing and type conversion.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-core-libs/core"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-core-libs/core"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core@1.3?type=jar"
     },
@@ -7430,71 +8587,364 @@
       "group" : "com.google.guava",
       "name" : "guava",
       "version" : "14.0.1",
+      "description" : "Guava is a suite of core and expanded libraries that include utility classes, google's collections, io classes, and much much more. Guava has two code dependencies - javax.annotation per the JSR-305 spec and javax.inject per the JSR-330 spec.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.guava/guava@14.0.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/guava-libraries/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://code.google.com/p/guava-libraries/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://code.google.com/p/guava-libraries/source/browse/guava"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.guava/guava@14.0.1?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "log4j",
       "name" : "log4j",
       "version" : "1.2.14",
+      "description" : "Log4j",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/log4j/log4j@1.2.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://logging.apache.org/log4j/docs/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/bugzilla"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/logging-log4j-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewcvs.cgi/logging/log4j/tags/v1_2_14/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/log4j/log4j@1.2.14?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "commons-lang",
       "name" : "commons-lang",
       "version" : "2.6",
+      "description" : "Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/lang/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://vmbuild.apache.org/continuum/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-lang/commons-lang@2.6?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "commons-io",
       "name" : "commons-io",
       "version" : "2.2",
+      "description" : "The Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/commons-io/commons-io@2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/io/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://vmbuild.apache.org/continuum/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/IO"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/io/trunk"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-io/commons-io@2.2?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.commons",
       "name" : "commons-vfs2",
       "version" : "2.0",
+      "description" : "VFS is a Virtual File System library.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.commons/commons-vfs2@2.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/vfs/commons-vfs2/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://vmbuild.apache.org/continuum/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/VFS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/vfs/tags/commons-vfs2-project-2.0/commons-vfs2"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.commons/commons-vfs2@2.0?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.maven.scm",
       "name" : "maven-scm-api",
       "version" : "1.4",
+      "description" : "The SCM API provides mechanisms to manage all SCM tools.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.maven.scm/maven-scm-api@1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://maven.apache.org/scm/maven-scm-api/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://grid.sonatype.org/ci"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/SCM"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/maven-scm-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:svn:https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-api"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.maven.scm/maven-scm-api@1.4?type=jar"
     },
     {
+      "publisher" : "Codehaus",
       "group" : "org.codehaus.plexus",
       "name" : "plexus-utils",
       "version" : "1.5.6",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.codehaus.plexus/plexus-utils@1.5.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://plexus.codehaus.org/plexus-utils"
+        },
+        {
+          "type" : "distribution",
+          "url" : "dav:https://dav.codehaus.org/repository/plexus"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/PLXUTILS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://archive.plexus.codehaus.org/user"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://fisheye.codehaus.org/browse/plexus/plexus-utils/tags/plexus-utils-1.5.6"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.codehaus.plexus/plexus-utils@1.5.6?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.maven.scm",
       "name" : "maven-scm-provider-svnexe",
       "version" : "1.4",
+      "description" : "Executable library for SCM SVN Provider.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.maven.scm/maven-scm-provider-svnexe@1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://maven.apache.org/scm/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://grid.sonatype.org/ci"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/SCM"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/maven-scm-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:svn:https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svnexe"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.maven.scm/maven-scm-provider-svnexe@1.4?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.maven.scm",
       "name" : "maven-scm-provider-svn-commons",
       "version" : "1.4",
+      "description" : "Common library for SCM SVN Provider.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.maven.scm/maven-scm-provider-svn-commons@1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://maven.apache.org/scm/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svn-commons/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://grid.sonatype.org/ci"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/SCM"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/maven-scm-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:svn:https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.4/maven-scm-providers/maven-scm-providers-svn/maven-scm-provider-svn-commons"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.maven.scm/maven-scm-provider-svn-commons@1.4?type=jar"
     },
@@ -7502,15 +8952,43 @@
       "group" : "regexp",
       "name" : "regexp",
       "version" : "1.3",
+      "licenses" : [ ],
       "purl" : "pkg:maven/regexp/regexp@1.3?type=jar",
       "type" : "library",
       "bom-ref" : "pkg:maven/regexp/regexp@1.3?type=jar"
     },
     {
+      "publisher" : "Apache Software Foundation",
       "group" : "commons-httpclient",
       "name" : "commons-httpclient",
       "version" : "3.1",
+      "description" : "The HttpClient component supports the client-side of RFC 1945 (HTTP/1.0) and RFC 2616 (HTTP/1.1) , several related specifications (RFC 2109 (Cookies) , RFC 2617 (HTTP Authentication) , etc.), and provides a framework by which new request types (methods) or HTTP extensions can be created easily.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-1.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jakarta.apache.org/httpcomponents/httpclient-3.x/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/HTTPCLIENT"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/jakarta-httpcomponents-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/trunk"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar"
     },
@@ -7518,15 +8996,59 @@
       "group" : "commons-codec",
       "name" : "commons-codec",
       "version" : "1.2",
+      "description" : "The codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+      "licenses" : [ ],
       "purl" : "pkg:maven/commons-codec/commons-codec@1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "http://nagoya.apache.org/bugzilla/buglist.cgi?bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&bugidtype=include&bug_id=&changedin=&votes=&chfieldfrom=&chfieldto=Now&chfieldvalue=&product=Commons&component=Codec&short_desc=&short_desc_type=allwordssubstr&long_desc=&long_desc_type=allwordssubstr&bug_file_loc=&bug_file_loc_type=allwordssubstr&keywords=&keywords_type=anywords&field0-0-0=noop&type0-0-0=noop&value0-0-0=&cmdtype=doit&newqueryname=&order=Reuse+same+sort+as+last+time"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/commons-codec/commons-codec@1.2?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-math",
       "version" : "1.3",
+      "description" : "Mathematical implementations including geometric, matrix and statistical operators.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core-math@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-core-libs/core-math"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-core-libs/core-math"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core-math@1.3?type=jar"
     },
@@ -7534,23 +9056,112 @@
       "group" : "org.la4j",
       "name" : "la4j",
       "version" : "0.4.0",
+      "description" : "A 100% Java sparse and dense matrix library.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.la4j/la4j@0.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://la4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.la4j/la4j@0.4.0?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "MatrixLib",
       "version" : "1.3",
+      "description" : "Useful third-party libraries (possibly originally written in other languages) that have been ported to Java and integrated with OpenIMAJ. Not all modules have the same license.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/MatrixLib@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://maven.apache.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/thirdparty/MatrixLib"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/MatrixLib@1.3?type=jar"
     },
     {
+      "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.commons",
       "name" : "commons-math3",
       "version" : "3.3",
+      "description" : "The Apache Commons Math project is a library of lightweight, self-contained mathematics and statistics components addressing the most common practical problems not immediately available in the Java programming language or commons-lang.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.commons/commons-math3@3.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-math/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MATH"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/math/trunk"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.commons/commons-math3@3.3?type=jar"
     },
@@ -7558,7 +9169,37 @@
       "group" : "org.apache.sanselan",
       "name" : "sanselan",
       "version" : "0.97-incubator",
+      "description" : "Apache Sanselan is a pure-Java image library.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.apache.sanselan/sanselan@0.97-incubator?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://sanselan.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/SANSELAN"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/sanselan-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/incubator/sanselan/tags/sanselan-0.97-incubator"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.apache.sanselan/sanselan@0.97-incubator?type=jar"
     },
@@ -7566,7 +9207,23 @@
       "group" : "com.twelvemonkeys.imageio",
       "name" : "imageio-jpeg",
       "version" : "3.0-rc5",
+      "description" : "ImageIO plugin for Joint Photographer Expert Group images (JPEG/JFIF).",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-jpeg@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/imageio/imageio-jpeg"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/imageio/imageio-jpeg"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-jpeg@3.0-rc5?type=jar"
     },
@@ -7574,7 +9231,23 @@
       "group" : "com.twelvemonkeys.imageio",
       "name" : "imageio-core",
       "version" : "3.0-rc5",
+      "description" : "Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-core@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/imageio/imageio-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/imageio/imageio-core"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-core@3.0-rc5?type=jar"
     },
@@ -7582,7 +9255,23 @@
       "group" : "com.twelvemonkeys.imageio",
       "name" : "imageio-metadata",
       "version" : "3.0-rc5",
+      "description" : "ImageIO metadata module.",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/imageio/imageio-metadata"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/imageio/imageio-metadata"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.imageio/imageio-metadata@3.0-rc5?type=jar"
     },
@@ -7590,7 +9279,23 @@
       "group" : "com.twelvemonkeys.common",
       "name" : "common-io",
       "version" : "3.0-rc5",
+      "description" : "The TwelveMonkeys Common IO support",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.common/common-io@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/common/common-io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/common/common-io"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-io@3.0-rc5?type=jar"
     },
@@ -7598,7 +9303,23 @@
       "group" : "com.twelvemonkeys.common",
       "name" : "common-lang",
       "version" : "3.0-rc5",
+      "description" : "The TwelveMonkeys Common Language support",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/common/common-lang"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/common/common-lang"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-lang@3.0-rc5?type=jar"
     },
@@ -7606,39 +9327,183 @@
       "group" : "com.twelvemonkeys.common",
       "name" : "common-image",
       "version" : "3.0-rc5",
+      "description" : "The TwelveMonkeys Common Image support",
+      "licenses" : [ ],
       "purl" : "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/twelvemonkeys/common/common-image"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/haraldk/TwelveMonkeys/common/common-image"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.twelvemonkeys.common/common-image@3.0-rc5?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj",
       "name" : "core-audio",
       "version" : "1.3",
+      "description" : "Core definitions of audio streams and samples/chunks. Also contains interfaces for processors for these basic types.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj/core-audio@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-core-libs/core-audio"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-core-libs/core-audio"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj/core-audio@1.3?type=jar"
     },
     {
+      "publisher" : "The University of Southampton",
       "group" : "org.openimaj.content",
       "name" : "animation",
       "version" : "1.3",
+      "description" : "Code to help make an animation of data/models/etc.",
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "New BSD",
+            "url" : "http://www.openimaj.org/LICENSE.txt"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.openimaj.content/animation@1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.openimaj.org/openimaj-content-libs/animation"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://jenkins.ecs.soton.ac.uk/job/OpenIMAJ/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://maven.ecs.soton.ac.uk/content/repositories/openimaj-releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.openimaj.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://sourceforge.net/mailarchive/forum.php?forum_name=openimaj-discuss"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://sourceforge.net/p/openimaj/code/tags/openimaj-1.3/openimaj-content-libs/animation"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.openimaj.content/animation@1.3?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-screencapture",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver for capturing images from screen devices",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-screencapture@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-screencapture"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-screencapture@0.3.12?type=jar"
     },
     {
+      "publisher" : "Bartosz Firyn (SarXos)",
       "group" : "com.github.sarxos",
       "name" : "webcam-capture-driver-v4l4j",
       "version" : "0.3.12",
+      "description" : "Webcam Capture driver using V4L2 Java binding (V4L4J project) to grab frames from camera devices",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.github.sarxos/webcam-capture-driver-v4l4j@0.3.12?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/sarxos/webcam-capture/webcam-capture-drivers/webcam-capture-driver-v4l4j"
+        },
+        {
+          "type" : "build-system",
+          "url" : "http://travis-ci.org/#!/sarxos/webcam-capture"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/sarxos/webcam-capture/issues"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-v4l4j@0.3.12?type=jar"
     },
@@ -7695,19 +9560,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://github.com/sarxos"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://groups.google.com/forum/#!forum/v4l4j"
+          "url" : "https://github.com/sarxos/v4l4j"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "type" : "issue-tracker",
+          "url" : "https://groups.google.com/forum/#!forum/v4l4j"
         }
       ],
       "type" : "library",
@@ -7774,19 +9635,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.capricasoftware.co.uk"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/caprica/vlcj/issues"
+          "url" : "http://www.capricasoftware.co.uk/vlcj"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "type" : "issue-tracker",
+          "url" : "https://github.com/caprica/vlcj/issues"
         }
       ],
       "type" : "library",
@@ -7841,6 +9698,10 @@
       ],
       "purl" : "pkg:maven/net.java.dev.jna/jna@3.5.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/twall/jna"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/twall/jna"
@@ -7898,6 +9759,10 @@
       ],
       "purl" : "pkg:maven/net.java.dev.jna/platform@3.5.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/twall/jna"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/twall/jna"
@@ -7994,7 +9859,9 @@
     },
     {
       "ref" : "pkg:maven/org.freedesktop.gstreamer/gst1-java-core@0.9.0?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/net.java.dev.jna/jna@4.2.2?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-gstreamer@0.3.12?type=jar",
@@ -8109,43 +9976,64 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv-platform@3.2.0-1.3?type=jar",
@@ -8164,39 +10052,57 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=android-arm&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=android-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg-platform@3.2.1-1.3?type=jar",
@@ -8215,39 +10121,57 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=android-arm&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=android-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/ffmpeg@3.2.1-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture-platform@2.9.3.43-1.3?type=jar",
@@ -8262,23 +10186,33 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flycapture@2.9.3.43-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394-platform@2.2.4-1.3?type=jar",
@@ -8295,31 +10229,45 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libdc1394@2.2.4-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect-platform@0.5.3-1.3?type=jar",
@@ -8336,31 +10284,45 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect@0.5.3-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2-platform@0.2.0-1.3?type=jar",
@@ -8372,11 +10334,15 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/libfreenect2@0.2.0-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense-platform@1.9.6-1.3?type=jar",
@@ -8388,11 +10354,15 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/librealsense@1.9.6-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput-platform@0.200-1.3?type=jar",
@@ -8404,11 +10374,15 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/videoinput@0.200-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus-platform@2.3.1-1.3?type=jar",
@@ -8427,43 +10401,62 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=android-arm&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=android-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/artoolkitplus@2.3.1-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark-platform@1.07-1.3?type=jar",
       "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv-platform@3.2.0-1.3?type=jar",
         "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?type=jar",
         "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-arm&type=jar",
         "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-x86&type=jar",
@@ -8478,39 +10471,66 @@
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-arm&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=android-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-armhf&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=linux-ppc64le&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=macosx-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=windows-x86&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.bytedeco.javacpp-presets/flandmark@1.07-1.3?classifier=windows-x86_64&type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.bytedeco.javacpp-presets/opencv@3.2.0-1.3?type=jar",
+        "pkg:maven/org.bytedeco/javacpp@1.3.3?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.github.sarxos/webcam-capture-driver-jmf@0.3.12?type=jar",
@@ -8556,7 +10576,8 @@
     {
       "ref" : "pkg:maven/org.openimaj/core-video-capture@1.3?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.openimaj/core-video@1.3?type=jar"
+        "pkg:maven/org.openimaj/core-video@1.3?type=jar",
+        "pkg:maven/com.nativelibs4java/bridj@0.6.2?type=jar"
       ]
     },
     {
@@ -8675,6 +10696,13 @@
     },
     {
       "ref" : "pkg:maven/org.apache.xmlgraphics/xmlgraphics-commons@1.3.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.2?type=jar",
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.2?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -8698,10 +10726,6 @@
     },
     {
       "ref" : "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
-      "ref" : "pkg:maven/commons-io/commons-io@2.2?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -8745,6 +10769,7 @@
     {
       "ref" : "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
       "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.1.1?type=jar",
         "pkg:maven/commons-codec/commons-codec@1.2?type=jar"
       ]
     },

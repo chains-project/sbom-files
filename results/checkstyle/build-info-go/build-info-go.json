@@ -699,125 +699,17 @@
   ],
   "dependencies": [
     {
-      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+      "ref": "commons-beanutils:commons-beanutils:1.9.4",
       "dependsOn": [
-        "org.junit.platform:junit-platform-engine:1.9.1"
-      ]
-    },
-    {
-      "ref": "com.tngtech.archunit:archunit-junit5-api:1.0.0",
-      "dependsOn": [
-        "com.tngtech.archunit:archunit:1.0.0"
-      ]
-    },
-    {
-      "ref": "com.github.caciocavallosilano:cacio-tta:1.11",
-      "dependsOn": [
-        "com.github.caciocavallosilano:cacio-shared:1.11"
-      ]
-    },
-    {
-      "ref": "org.xmlresolver:xmlresolver:4.4.3",
-      "dependsOn": [
-        "org.apache.httpcomponents.core5:httpcore5:5.1.3",
-        "org.apache.httpcomponents.client5:httpclient5:5.1.3"
-      ]
-    },
-    {
-      "ref": "org.reflections:reflections:0.10.2",
-      "dependsOn": [
-        "org.slf4j:slf4j-api:1.7.32",
-        "org.javassist:javassist:3.28.0-GA"
-      ]
-    },
-    {
-      "ref": "nl.jqno.equalsverifier:equalsverifier:3.12.3",
-      "dependsOn": [
-        "org.objenesis:objenesis:3.3",
-        "net.bytebuddy:byte-buddy:1.12.19"
-      ]
-    },
-    {
-      "ref": "org.mockito:mockito-inline:4.11.0",
-      "dependsOn": [
-        "org.mockito:mockito-core:4.11.0"
-      ]
-    },
-    {
-      "ref": "org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r",
-      "dependsOn": [
-        "com.googlecode.javaewah:JavaEWAH:1.1.13"
-      ]
-    },
-    {
-      "ref": "org.apache.ant:ant:1.10.12",
-      "dependsOn": [
-        "org.apache.ant:ant-launcher:1.10.12"
-      ]
-    },
-    {
-      "ref": "org.mockito:mockito-core:4.11.0",
-      "dependsOn": [
-        "net.bytebuddy:byte-buddy-agent:1.12.19"
-      ]
-    },
-    {
-      "ref": "com.puppycrawl.tools:checkstyle:10.6.0",
-      "dependsOn": [
-        "org.antlr:antlr4-runtime:4.11.1",
-        "net.sf.saxon:Saxon-HE:11.4",
-        "org.junit.jupiter:junit-jupiter-api:5.9.1",
-        "org.jacoco:org.jacoco.agent:0.8.8",
-        "org.mockito:mockito-inline:4.11.0",
-        "org.junit-pioneer:junit-pioneer:1.7.1",
-        "com.google.truth:truth:1.1.3",
-        "org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r",
-        "de.thetaphi:forbiddenapis:3.4",
-        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
-        "org.reflections:reflections:0.10.2",
-        "com.tngtech.archunit:archunit-junit5:1.0.0",
-        "nl.jqno.equalsverifier:equalsverifier:3.12.3",
-        "commons-beanutils:commons-beanutils:1.9.4",
-        "info.picocli:picocli:4.7.0",
-        "org.slf4j:slf4j-simple:2.0.6",
-        "org.itsallcode:junit5-system-extensions:1.2.0",
-        "org.checkerframework:checker-qual:3.27.0",
-        "com.google.guava:guava:31.1-jre",
-        "commons-io:commons-io:2.11.0",
-        "org.apache.ant:ant:1.10.12",
-        "com.github.caciocavallosilano:cacio-tta:1.11"
-      ]
-    },
-    {
-      "ref": "com.tngtech.archunit:archunit-junit5:1.0.0",
-      "dependsOn": [
-        "com.tngtech.archunit:archunit-junit5-engine:1.0.0",
-        "com.tngtech.archunit:archunit-junit5-api:1.0.0"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:31.1-jre",
-      "dependsOn": [
-        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-        "com.google.j2objc:j2objc-annotations:1.3",
-        "com.google.guava:failureaccess:1.0.1",
-        "com.google.errorprone:error_prone_annotations:2.11.0",
-        "com.google.code.findbugs:jsr305:3.0.2"
-      ]
-    },
-    {
-      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
-      "dependsOn": [
-        "org.junit.platform:junit-platform-commons:1.9.1",
-        "org.opentest4j:opentest4j:1.2.0",
-        "org.apiguardian:apiguardian-api:1.1.2"
+        "commons-collections:commons-collections:3.2.2",
+        "commons-logging:commons-logging:1.2"
       ]
     },
     {
       "ref": "org.junit-pioneer:junit-pioneer:1.7.1",
       "dependsOn": [
-        "org.junit.platform:junit-platform-launcher:1.8.2",
-        "org.junit.jupiter:junit-jupiter-params:5.8.2"
+        "org.junit.jupiter:junit-jupiter-params:5.8.2",
+        "org.junit.platform:junit-platform-launcher:1.8.2"
       ]
     },
     {
@@ -831,6 +723,78 @@
       "ref": "com.tngtech.archunit:archunit-junit5-engine:1.0.0",
       "dependsOn": [
         "com.tngtech.archunit:archunit-junit5-engine-api:1.0.0"
+      ]
+    },
+    {
+      "ref": "org.mockito:mockito-core:4.11.0",
+      "dependsOn": [
+        "net.bytebuddy:byte-buddy-agent:1.12.19"
+      ]
+    },
+    {
+      "ref": "com.github.caciocavallosilano:cacio-tta:1.11",
+      "dependsOn": [
+        "com.github.caciocavallosilano:cacio-shared:1.11"
+      ]
+    },
+    {
+      "ref": "com.puppycrawl.tools:checkstyle:10.6.0",
+      "dependsOn": [
+        "org.slf4j:slf4j-simple:2.0.6",
+        "org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r",
+        "commons-io:commons-io:2.11.0",
+        "org.apache.ant:ant:1.10.12",
+        "nl.jqno.equalsverifier:equalsverifier:3.12.3",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "com.github.caciocavallosilano:cacio-tta:1.11",
+        "org.reflections:reflections:0.10.2",
+        "com.google.truth:truth:1.1.3",
+        "com.google.guava:guava:31.1-jre",
+        "de.thetaphi:forbiddenapis:3.4",
+        "net.sf.saxon:Saxon-HE:11.4",
+        "info.picocli:picocli:4.7.0",
+        "org.jacoco:org.jacoco.agent:0.8.8",
+        "org.itsallcode:junit5-system-extensions:1.2.0",
+        "com.tngtech.archunit:archunit-junit5:1.0.0",
+        "org.junit.jupiter:junit-jupiter-api:5.9.1",
+        "org.mockito:mockito-inline:4.11.0",
+        "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+        "org.junit-pioneer:junit-pioneer:1.7.1",
+        "org.antlr:antlr4-runtime:4.11.1",
+        "org.checkerframework:checker-qual:3.27.0"
+      ]
+    },
+    {
+      "ref": "com.tngtech.archunit:archunit-junit5:1.0.0",
+      "dependsOn": [
+        "com.tngtech.archunit:archunit-junit5-engine:1.0.0",
+        "com.tngtech.archunit:archunit-junit5-api:1.0.0"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-api:5.9.1",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-commons:1.9.1",
+        "org.opentest4j:opentest4j:1.2.0",
+        "org.apiguardian:apiguardian-api:1.1.2"
+      ]
+    },
+    {
+      "ref": "org.junit.jupiter:junit-jupiter-engine:5.9.1",
+      "dependsOn": [
+        "org.junit.platform:junit-platform-engine:1.9.1"
+      ]
+    },
+    {
+      "ref": "org.mockito:mockito-inline:4.11.0",
+      "dependsOn": [
+        "org.mockito:mockito-core:4.11.0"
+      ]
+    },
+    {
+      "ref": "com.tngtech.archunit:archunit-junit5-api:1.0.0",
+      "dependsOn": [
+        "com.tngtech.archunit:archunit:1.0.0"
       ]
     },
     {
@@ -848,16 +812,52 @@
       ]
     },
     {
+      "ref": "org.reflections:reflections:0.10.2",
+      "dependsOn": [
+        "org.slf4j:slf4j-api:1.7.32",
+        "org.javassist:javassist:3.28.0-GA"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:31.1-jre",
+      "dependsOn": [
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.j2objc:j2objc-annotations:1.3",
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.errorprone:error_prone_annotations:2.11.0",
+        "com.google.code.findbugs:jsr305:3.0.2"
+      ]
+    },
+    {
       "ref": "net.sf.saxon:Saxon-HE:11.4",
       "dependsOn": [
         "org.xmlresolver:xmlresolver:4.4.3"
       ]
     },
     {
-      "ref": "commons-beanutils:commons-beanutils:1.9.4",
+      "ref": "org.eclipse.jgit:org.eclipse.jgit:6.4.0.202211300538-r",
       "dependsOn": [
-        "commons-logging:commons-logging:1.2",
-        "commons-collections:commons-collections:3.2.2"
+        "com.googlecode.javaewah:JavaEWAH:1.1.13"
+      ]
+    },
+    {
+      "ref": "org.apache.ant:ant:1.10.12",
+      "dependsOn": [
+        "org.apache.ant:ant-launcher:1.10.12"
+      ]
+    },
+    {
+      "ref": "org.xmlresolver:xmlresolver:4.4.3",
+      "dependsOn": [
+        "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+        "org.apache.httpcomponents.client5:httpclient5:5.1.3"
+      ]
+    },
+    {
+      "ref": "nl.jqno.equalsverifier:equalsverifier:3.12.3",
+      "dependsOn": [
+        "org.objenesis:objenesis:3.3",
+        "net.bytebuddy:byte-buddy:1.12.19"
       ]
     }
   ]

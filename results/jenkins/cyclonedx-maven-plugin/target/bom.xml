@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:ac0a0eed-aeb2-4192-93e6-1fcf8ba41488" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:baa0fc58-ffdd-4770-b2e2-cd50be0eba3a" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:19:58Z</timestamp>
+    <timestamp>2023-02-26T01:58:47Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -30,7 +30,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/jenkins-parent@2.384?type=pom</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -44,7 +44,14 @@
       <group>org.jenkins-ci.main</group>
       <name>websocket-spi</name>
       <version>2.384</version>
+      <description>An abstraction of how Jenkins can serve a WebSocket connection from its servlet container.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/websocket-spi@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins/websocket/websocket-spi</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar">
       <publisher>GlassFish Community</publisher>
@@ -63,15 +70,24 @@
         <hash alg="SHA3-256">8acc3481503989e1a78ad619bcbdc005b616c13736522b52e5ae5d782e8a0216</hash>
         <hash alg="SHA3-512">ab5f85d424640ddcf6fc13a41d12ffdee0be9508cd4cdc581168b31cf7917323f6e0d984a0631068e0e01c098098fe0037d1c4176352fd89ba3a4da5d641ca3d</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.0 OR GPL-2.0-with-classpath-exception)</expression>
+      </licenses>
       <purl>pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://glassfish.dev.java.net</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/SERVLET_SPEC</url></reference><reference type="vcs"><url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://servlet-spec.java.net</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/SERVLET_SPEC</url></reference><reference type="mailing-list"><url>users@servlet-spec.java.net</url></reference><reference type="vcs"><url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384?type=jar">
       <group>org.jenkins-ci.main</group>
       <name>websocket-jetty9</name>
       <version>2.384</version>
+      <description>An implementation of the WebSocket handler that works with Jetty 9.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins/websocket/websocket-jetty9</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/winstone@5.25?type=jar">
       <group>org.jenkins-ci</group>
@@ -99,6 +115,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/winstone@5.25?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/winstone</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="mailing-list"><url>jenkinsci-advisories+subscribe@googlegroups.com</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/winstone</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke/access-modifier-annotation@1.30?type=jar">
       <group>org.kohsuke</group>
@@ -123,7 +140,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke/access-modifier-annotation@1.30?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-access-modifier</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-access-modifier/access-modifier-annotation</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-access-modifier</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/annotation-indexer@1.17?type=jar">
       <group>org.jenkins-ci</group>
@@ -148,7 +165,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/annotation-indexer@1.17?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-annotation-indexer</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-annotation-indexer</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-annotation-indexer</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.metainf-services/metainf-services@1.9?type=jar">
       <group>org.kohsuke.metainf-services</group>
@@ -173,13 +190,20 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.metainf-services/metainf-services@1.9?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://metainf-services.kohsuke.org/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://metainf-services.kohsuke.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384?type=jar">
       <group>org.jenkins-ci.main</group>
       <name>websocket-jetty10</name>
       <version>2.384</version>
+      <description>An implementation of the WebSocket handler that works with Jetty 10.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins/websocket/websocket-jetty10</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/winstone@6.7?type=jar">
       <group>org.jenkins-ci</group>
@@ -207,13 +231,20 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/winstone@6.7?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/pom</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/winstone</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/winstone</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/cli@2.384?type=jar">
       <group>org.jenkins-ci.main</group>
       <name>cli</name>
       <version>2.384</version>
+      <description>Command line interface for Jenkins</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/cli@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -239,7 +270,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-io/commons-io@2.11.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-io/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-io.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-lang/commons-lang@2.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -266,7 +297,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-lang/commons-lang@2.6?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/lang/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar">
       <group>net.i2p.crypto</group>
@@ -290,7 +321,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/str4d/ed25519-java</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/str4d/ed25519-java</url></reference><reference type="vcs"><url>https://github.com/str4d/ed25519-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.sshd/sshd-common@2.9.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -319,7 +350,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.sshd/sshd-common@2.9.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SSHD</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/mina-users/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://www.apache.org/sshd/sshd-common/</url></reference><reference type="distribution"><url></url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SSHD</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/mina-users/</url></reference><reference type="vcs"><url>https://github.com/apache/mina-sshd/tree/sshd-2.9.2/sshd-common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar">
       <publisher>QOS.ch</publisher>
@@ -344,7 +375,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@2.0.6?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/jcl-over-slf4j@2.0.6?type=jar">
       <publisher>QOS.ch</publisher>
@@ -369,7 +400,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/jcl-over-slf4j@2.0.6?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/jcl-over-slf4j</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.sshd/sshd-core@2.9.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -398,7 +429,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.sshd/sshd-core@2.9.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SSHD</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/mina-users/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://www.apache.org/sshd/sshd-core/</url></reference><reference type="distribution"><url></url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/SSHD</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/mina-users/</url></reference><reference type="vcs"><url>https://github.com/apache/mina-sshd/tree/sshd-2.9.2/sshd-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk@2.1.2?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -428,13 +459,13 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.glassfish.tyrus.bundles/tyrus-standalone-client-jdk@2.1.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/tyrus/issues</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/tyrus</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.tyrus/tyrus-bundles/tyrus-standalone-client-jdk</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/tyrus/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/tyrus/tyrus-bundles/tyrus-standalone-client-jdk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jvnet.localizer/localizer@1.31?type=jar">
       <group>org.jvnet.localizer</group>
       <name>localizer</name>
       <version>1.31</version>
-      <description>${project.name}</description>
+      <description>Localizer</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">7b5f11e703bb07b4f23522b097fef2d7</hash>
@@ -452,7 +483,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jvnet.localizer/localizer@1.31?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://kohsuke.org/localizer-parent/localizer/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://localizer.kohsuke.org/localizer-parent/localizer/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-jdk14@2.0.6?type=jar">
       <publisher>QOS.ch</publisher>
@@ -478,7 +509,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-jdk14@2.0.6?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-jdk14</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar">
       <group>com.github.spotbugs</group>
@@ -502,13 +533,20 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/spotbugs/spotbugs/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://spotbugs.github.io/</url></reference><reference type="vcs"><url>https://github.com/spotbugs/spotbugs/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/jenkins-core@2.384?type=jar">
       <group>org.jenkins-ci.main</group>
       <name>jenkins-core</name>
       <version>2.384</version>
+      <description>Jenkins core code and view files to render HTML.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/jenkins-core@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/remoting@3085.vc4c6977c075a?type=jar">
       <group>org.jenkins-ci.main</group>
@@ -536,7 +574,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/remoting@3085.vc4c6977c075a?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/remoting</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/remoting</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/remoting</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/args4j/args4j@2.33?type=jar">
       <publisher>Kohsuke Kawaguchi</publisher>
@@ -562,7 +600,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/args4j/args4j@2.33?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.kohsuke.org/</url></reference><reference type="issue-tracker"><url>https://args4j.dev.java.net/issues</url></reference><reference type="mailing-list"><url>https://args4j.dev.java.net/servlets/SummarizeList?listName=users</url></reference><reference type="vcs"><url>http://args4j.kohsuke.org/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://args4j.kohsuke.org/args4j/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://args4j.dev.java.net/issues</url></reference><reference type="mailing-list"><url>https://args4j.dev.java.net/servlets/SummarizeList?listName=users</url></reference><reference type="vcs"><url>http://args4j.kohsuke.org/args4j/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@31.1-jre?type=jar">
       <group>com.google.guava</group>
@@ -588,7 +626,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@31.1-jre?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava</url></reference><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
       <group>com.google.guava</group>
@@ -617,7 +655,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/failureaccess</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/failureaccess</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
       <group>com.google.guava</group>
@@ -656,7 +694,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/listenablefuture</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/listenablefuture</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.1?type=jar">
       <group>com.google.code.findbugs</group>
@@ -679,7 +717,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.inject/guice@5.1.0?type=jar">
       <publisher>Google, Inc.</publisher>
@@ -704,7 +742,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.inject/guice@5.1.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guice</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guice/issues/</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/google-guice/topics</url></reference><reference type="vcs"><url>https://github.com/google/guice</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guice/guice</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guice</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guice/issues/</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/google-guice/topics</url></reference><reference type="vcs"><url>https://github.com/google/guice/guice</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
       <group>javax.inject</group>
@@ -727,7 +765,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/atinject/</url></reference><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.infradna.tool/bridge-method-annotation@1.25?type=jar">
       <group>com.infradna.tool</group>
@@ -752,7 +790,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.infradna.tool/bridge-method-annotation@1.25?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/bridge-method-injector</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/bridge-method-injector/bridge-method-annotation</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/bridge-method-injector</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.jcraft/jzlib@1.1.3-kohsuke-1?type=jar">
       <publisher>jcraft</publisher>
@@ -777,7 +815,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.jcraft/jzlib@1.1.3-kohsuke-1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.jcraft.com/</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>https://github.com/kohsuke/jzlib</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jcraft.com/jzlib/</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>https://github.com/kohsuke/jzlib</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar">
       <group>com.sun.solaris</group>
@@ -801,7 +839,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar</purl>
-      <externalReferences/>
+      <externalReferences><reference type="distribution"><url>java-net:/maven2-repository/trunk/www/repository/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.xml.txw2/txw2@20110809?type=jar">
       <publisher>Oracle</publisher>
@@ -827,7 +865,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.xml.txw2/txw2@20110809?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/TXW</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb~version2/show/tags/txw2-project-20110809</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://txw.java.net/txw2/</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/TXW</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb~version2/show/tags/txw2-project-20110809/txw2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/relaxngDatatype/relaxngDatatype@20020414?type=jar">
       <group>relaxngDatatype</group>
@@ -870,7 +908,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://x-stream.github.io</url></reference><reference type="build-system"><url>https://travis-ci.org/x-stream/xstream</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/xstream/issues/</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/xstream-user</url></reference><reference type="vcs"><url>http://github.com/x-stream/xstream</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://x-stream.github.io/xstream</url></reference><reference type="build-system"><url>https://travis-ci.org/x-stream/xstream</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/xstream/issues/</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/xstream-user</url></reference><reference type="vcs"><url>http://github.com/x-stream/xstream/xstream</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar">
       <group>io.github.x-stream</group>
@@ -894,7 +932,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/x-stream/mxparser/actions?query=workflow%3A%22CI+with+Maven%22</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/mxparser/issues/</url></reference><reference type="vcs"><url>https://github.com/x-stream/mxparser</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://x-stream.github.io/mxparser</url></reference><reference type="build-system"><url>https://github.com/x-stream/mxparser/actions?query=workflow%3A%22CI+with+Maven%22</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/mxparser/issues/</url></reference><reference type="vcs"><url>https://github.com/x-stream/mxparser</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -919,7 +957,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-beanutils/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -944,7 +982,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -972,7 +1010,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -997,7 +1035,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/COLLECTIONS</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/collections/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/COLLECTIONS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1023,7 +1061,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/FILEUPLOAD</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-fileupload/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/FILEUPLOAD</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-jelly/commons-jelly-tags-fmt@1.0?type=jar">
       <group>commons-jelly</group>
@@ -1062,7 +1100,7 @@ file comparators, endian transformation classes, and much more.</description>
       </hashes>
       <licenses/>
       <purl>pkg:maven/commons-jelly/commons-jelly-tags-xml@1.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://jakarta.apache.org/</url></reference><reference type="distribution"><url>file:///www/jakarta.apache.org/builds/jakarta-commons/jelly/jelly-tags/xml/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10012</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/eyebrowse/SummarizeList?listName=commons-dev@jakarta.apache.org</url></reference><reference type="vcs"><url>http://svn.apache.org/viewcvs.cgi/jakarta/commons/proper/jelly/trunk/jelly-tags/xml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jakarta.apache.org/commons/jelly/libs/xml/index.html</url></reference><reference type="distribution"><url>file:///www/jakarta.apache.org/builds/jakarta-commons/jelly/jelly-tags/xml/</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/secure/BrowseProject.jspa?id=10012</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/eyebrowse/SummarizeList?listName=commons-dev@jakarta.apache.org</url></reference><reference type="vcs"><url>http://svn.apache.org/viewcvs.cgi/jakarta/commons/proper/jelly/trunk/jelly-tags/xml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.jenkins.stapler/jenkins-stapler-support@1.1?type=jar">
       <group>io.jenkins.stapler</group>
@@ -1086,7 +1124,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/io.jenkins.stapler/jenkins-stapler-support@1.1?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/pom</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://jenkins.io/jenkins-stapler-support/</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="mailing-list"><url>jenkinsci-advisories+subscribe@googlegroups.com</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/pom/jenkins-stapler-support</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -1114,7 +1152,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jstl-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jstl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jstl-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jstl</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jstl-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jstl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jstl-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jaxen/jaxen@2.0.0?type=jar">
       <publisher>The Jaxen Project</publisher>
@@ -1140,7 +1178,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jaxen/jaxen@2.0.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.cafeconleche.org/jaxen</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jaxen-xpath/jaxen/issues</url></reference><reference type="mailing-list"><url>https://markmail.org/search/?q=list%3Aorg.codehaus.jaxen.user</url></reference><reference type="vcs"><url>https://github.com/jaxen-xpath/jaxen</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.cafeconleche.org/jaxen/jaxen</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jaxen-xpath/jaxen/issues</url></reference><reference type="mailing-list"><url>https://markmail.org/search/?q=list%3Aorg.codehaus.jaxen.user</url></reference><reference type="vcs"><url>https://github.com/jaxen-xpath/jaxen/jaxen</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jline/jline@2.14.6?type=jar">
       <group>jline</group>
@@ -1164,7 +1202,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jline/jline@2.14.6?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/jline/jline2/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/group/jline-users</url></reference><reference type="vcs"><url>http://github.com/jline/jline2</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/jline</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jline/jline2/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/group/jline-users</url></reference><reference type="vcs"><url>http://github.com/jline/jline2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.java.dev.jna/jna@5.12.1?type=jar">
       <group>net.java.dev.jna</group>
@@ -1193,7 +1231,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/net.java.dev.jna/jna@5.12.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/java-native-access/jna</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/java-native-access/jna</url></reference><reference type="vcs"><url>https://github.com/java-native-access/jna</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.java.sezpoz/sezpoz@1.13?type=jar">
       <group>net.java.sezpoz</group>
@@ -1218,7 +1256,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/net.java.sezpoz/sezpoz@1.13?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/trunk/oss/oss-parent-9</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jglick/sezpoz/sezpoz</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.jcip/jcip-annotations@1.0?type=jar">
       <group>net.jcip</group>
@@ -1237,6 +1275,7 @@ file comparators, endian transformation classes, and much more.</description>
       </hashes>
       <licenses/>
       <purl>pkg:maven/net.jcip/jcip-annotations@1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://jcip.net/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/net.sf.kxml/kxml2@2.3.0?type=jar">
       <publisher>Stefan Haustein, Oberhausen, Rhld., Germany</publisher>
@@ -1292,7 +1331,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.antlr/antlr4-runtime@4.11.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.antlr.org/</url></reference><reference type="issue-tracker"><url>https://github.com/antlr/antlr4/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/?fromgroups#!forum/antlr-discussion</url></reference><reference type="vcs"><url>https://github.com/antlr/antlr4/tree/master</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://www.antlr.org/antlr4-runtime/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/antlr/antlr4/issues</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/?fromgroups#!forum/antlr-discussion</url></reference><reference type="vcs"><url>https://github.com/antlr/antlr4/tree/master/antlr4-runtime</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.ant/ant@1.10.12?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1317,7 +1356,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.ant/ant@1.10.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1341,7 +1380,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant-launcher</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-compress@1.22?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1369,7 +1408,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-compress@1.22?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/COMPRESS</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-compress.git</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-compress/</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/COMPRESS</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-compress.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.groovy/groovy-all@2.4.21?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -1419,7 +1458,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.connectbot.jbcrypt/jbcrypt@1.0.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/kruton/jbcrypt</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/kruton/jbcrypt</url></reference><reference type="vcs"><url>https://github.com/kruton/jbcrypt</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.fusesource.jansi/jansi@1.11?type=jar">
       <publisher>FuseSource, Corp.</publisher>
@@ -1444,7 +1483,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.fusesource.jansi/jansi@1.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://fusesource.com/</url></reference><reference type="distribution"><url>http://repo.fusesource.com/nexus/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://github.com/chirino/mvnplugins/tree/master</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jansi.fusesource.org/jansi</url></reference><reference type="distribution"><url>http://repo.fusesource.com/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://fusesource.com/issues/browse/JANSI</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/jansi</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/commons-jexl@1.1-jenkins-20111212?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1469,7 +1508,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/commons-jexl@1.1-jenkins-20111212?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://jakarta.apache.org</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jakarta.apache.org/commons/jexl/</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/crypto-util@1.8?type=jar">
       <group>org.jenkins-ci</group>
@@ -1494,7 +1533,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/crypto-util@1.8?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-crypto-util</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-crypto-util</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-crypto-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/memory-monitor@1.12?type=jar">
       <group>org.jenkins-ci</group>
@@ -1519,7 +1558,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/memory-monitor@1.12?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/extras-memory-monitor</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/extras-memory-monitor</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/extras-memory-monitor</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/symbol-annotation@1.24?type=jar">
       <group>org.jenkins-ci</group>
@@ -1544,7 +1583,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/symbol-annotation@1.24?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-symbol-annotation</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-symbol-annotation</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-symbol-annotation</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/task-reactor@1.8?type=jar">
       <group>org.jenkins-ci</group>
@@ -1569,7 +1608,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/task-reactor@1.8?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-task-reactor</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-task-reactor</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-task-reactor</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/version-number@1.11?type=jar">
       <group>org.jenkins-ci</group>
@@ -1594,7 +1633,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/version-number@1.11?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-version-number</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/lib-version-number</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/lib-version-number</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jfree/jfreechart@1.0.19?type=jar">
       <publisher>JFree.org</publisher>
@@ -1622,7 +1661,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jfree/jfreechart@1.0.19?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.jfree.org/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=15494</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum=jfreechart-dev</url></reference><reference type="vcs"><url>http://jfreechart.svn.sourceforge.net/viewvc/jfreechart/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jfree.org/jfreechart/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=15494</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum=jfreechart-dev</url></reference><reference type="vcs"><url>http://jfreechart.svn.sourceforge.net/viewvc/jfreechart/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jfree/jcommon@1.0.23?type=jar">
       <publisher>JFree.org</publisher>
@@ -1649,7 +1688,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jfree/jcommon@1.0.23?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.jfree.org/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=15494</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum=jfreechart-dev</url></reference><reference type="vcs"><url>http://cvs.sourceforge.net/viewcvs.py/jfreechart/jcommon</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jfree.org/jcommon/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=15494</url></reference><reference type="mailing-list"><url>http://sourceforge.net/mailarchive/forum.php?forum=jfreechart-dev</url></reference><reference type="vcs"><url>http://cvs.sourceforge.net/viewcvs.py/jfreechart/jcommon</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jvnet.hudson/commons-jelly-tags-define@1.0.1-hudson-20071021?type=jar">
       <group>org.jvnet.hudson</group>
@@ -1693,7 +1732,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://robust-http-client.kohsuke.org/</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>http://robust-http-client.kohsuke.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jvnet.winp/winp@1.30?type=jar">
       <group>org.jvnet.winp</group>
@@ -1718,13 +1757,13 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jvnet.winp/winp@1.30?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/winp</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/winp</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/winp</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke/windows-package-checker@1.2?type=jar">
       <group>org.kohsuke</group>
       <name>windows-package-checker</name>
       <version>1.2</version>
-      <description>${project.name}</description>
+      <description>windows-package-checker</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">d940ebb88b630260d295bb50246c3553</hash>
@@ -1743,13 +1782,13 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke/windows-package-checker@1.2?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://kohsuke.org/windows-package-checker/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://windows-package-checker.kohsuke.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interop@2.0.8-kohsuke-1?type=jar">
       <group>org.kohsuke.jinterop</group>
       <name>j-interop</name>
       <version>2.0.8-kohsuke-1</version>
-      <description>${project.name}</description>
+      <description>Pure Java - COM bridge</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">b87de2da40d94b1e8c5fed0b6e3ea5e4</hash>
@@ -1768,13 +1807,13 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.jinterop/j-interop@2.0.8-kohsuke-1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://kohsuke.org/j-interop-parent/j-interop/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://j-interop.kohsuke.org/j-interop-parent/j-interop/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.8-kohsuke-1?type=jar">
       <group>org.kohsuke.jinterop</group>
       <name>j-interopdeps</name>
       <version>2.0.8-kohsuke-1</version>
-      <description>${project.name}</description>
+      <description>Pure Java - COM bridge</description>
       <hashes>
         <hash alg="MD5">20279aba73e4f88492b17a59a2c55b04</hash>
         <hash alg="SHA-1">0c6ae17b2cbb5e07e62fddab1cebadaf351a97c0</hash>
@@ -1792,7 +1831,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.8-kohsuke-1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://kohsuke.org/j-interop-parent/j-interopdeps/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://j-interopdeps.kohsuke.org/j-interop-parent/j-interopdeps/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1?type=jar">
       <group>org.samba.jcifs</group>
@@ -1815,7 +1854,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>http://github.com/kohsuke/jcifs</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jcifs.samba.org</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>http://github.com/kohsuke/jcifs</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/json-lib@2.4-jenkins-3?type=jar">
       <publisher>Json-lib</publisher>
@@ -1864,7 +1903,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/net.sf.ezmorph/ezmorph@1.0.6?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://sourceforge.net/tracker/?group_id=174866</url></reference><reference type="vcs"><url>http://ezmorph.cvs.sourceforge.net/ezmorph</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ezmorph.sourceforge.net</url></reference><reference type="issue-tracker"><url>https://sourceforge.net/tracker/?group_id=174866</url></reference><reference type="vcs"><url>http://ezmorph.cvs.sourceforge.net/ezmorph</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler@1756.vec9071748061?type=jar">
       <group>org.kohsuke.stapler</group>
@@ -1889,7 +1928,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.stapler/stapler@1756.vec9071748061?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/stapler/stapler</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-discovery/commons-discovery@0.5?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1914,7 +1953,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-discovery/commons-discovery@0.5?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/DISCOVERY</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/discovery/tags/DISCOVERY_0_5_RC2</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/discovery/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/DISCOVERY</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/discovery/tags/DISCOVERY_0_5_RC2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -1941,7 +1980,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/common-annotations-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/ca-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/common-annotations-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.ca</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/common-annotations-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/ca-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/common-annotations-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar">
       <publisher>GlassFish Community</publisher>
@@ -1959,9 +1998,11 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         <hash alg="SHA3-256">ecfc9bef24ae28cf94c6775ecf6e2086d90a25d8d5476a4f6bb24001601b6cd0</hash>
         <hash alg="SHA3-512">f2b333527faedf504f60aa70a3d491972fa76f7e61e6351027f74613f41001157656824fe312b6e1df6dc4979704fe2a745b618d5368a97fe0bf8749739de9e2</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.0 OR GPL-2.0-with-classpath-exception)</expression>
+      </licenses>
       <purl>pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://javaee.github.io/glassfish</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/javax.annotation/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/javax.annotation</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jcp.org/en/jsr/detail?id=250</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/javax.annotation/issues</url></reference><reference type="mailing-list"><url>javaee-spec@javaee.groups.io</url></reference><reference type="vcs"><url>https://github.com/javaee/javax.annotation</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jvnet/tiger-types@2.2?type=jar">
       <group>org.jvnet</group>
@@ -1984,7 +2025,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jvnet/tiger-types@2.2?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference></externalReferences>
+      <externalReferences><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="vcs"><url>http://tiger-types.kohsuke.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-adjunct-codemirror@1.3?type=jar">
       <group>org.kohsuke.stapler</group>
@@ -2014,7 +2055,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <group>org.kohsuke.stapler</group>
       <name>stapler-adjunct-timeline</name>
       <version>1.5</version>
-      <description>${project.name}</description>
+      <description>Timeline component at http://www.simile-widgets.org/timeline/</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">2d7da40a2c10d1c12b07a831fcf76710</hash>
@@ -2032,7 +2073,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.stapler/stapler-adjunct-timeline@1.5?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="vcs"><url>https://github.com/stapler/stapler</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://kohsuke.org/stapler-adjunct-timeline/</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="vcs"><url>https://github.com/stapler/stapler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-groovy@1756.vec9071748061?type=jar">
       <group>org.kohsuke.stapler</group>
@@ -2057,7 +2098,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.stapler/stapler-groovy@1756.vec9071748061?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/stapler/stapler-groovy</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.kohsuke.stapler/stapler-jelly@1756.vec9071748061?type=jar">
       <group>org.kohsuke.stapler</group>
@@ -2081,7 +2122,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.kohsuke.stapler/stapler-jelly@1756.vec9071748061?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/stapler/stapler-jelly</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/stapler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.dom4j/dom4j@2.1.3?type=jar">
       <group>org.dom4j</group>
@@ -2104,6 +2145,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.dom4j/dom4j@2.1.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://dom4j.github.io/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/commons-jelly@1.1-jenkins-20220630?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -2123,7 +2165,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       </hashes>
       <licenses/>
       <purl>pkg:maven/org.jenkins-ci/commons-jelly@1.1-jenkins-20220630?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://jakarta.apache.org</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jelly</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jelly</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="mailing-list"><url>jenkinsci-advisories+subscribe@googlegroups.com</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jelly</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@9.4?type=jar">
       <publisher>OW2</publisher>
@@ -2149,7 +2191,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm@9.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>https://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar">
       <publisher>OW2</publisher>
@@ -2175,7 +2217,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm-analysis@9.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>https://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar">
       <publisher>OW2</publisher>
@@ -2201,7 +2243,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm-commons@9.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>https://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-tree@9.4?type=jar">
       <publisher>OW2</publisher>
@@ -2227,7 +2269,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm-tree@9.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>https://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm-util@9.4?type=jar">
       <publisher>OW2</publisher>
@@ -2253,7 +2295,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.ow2.asm/asm-util@9.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>https://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/log4j-over-slf4j@2.0.6?type=jar">
       <publisher>QOS.ch</publisher>
@@ -2278,7 +2320,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/log4j-over-slf4j@2.0.6?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/log4j-over-slf4j</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-web@5.8.1?type=jar">
       <publisher>Pivotal Software, Inc.</publisher>
@@ -2303,7 +2345,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework.security/spring-security-web@5.8.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-security</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-core@5.8.1?type=jar">
       <publisher>Pivotal Software, Inc.</publisher>
@@ -2327,7 +2369,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework.security/spring-security-core@5.8.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-security</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework.security/spring-security-crypto@5.8.1?type=jar">
       <publisher>Pivotal Software, Inc.</publisher>
@@ -2351,7 +2393,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework.security/spring-security-crypto@5.8.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-security</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-security/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-security</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-core@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2375,7 +2417,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-core@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-aop@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2399,7 +2441,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-aop@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-beans@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2423,7 +2465,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-beans@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-context@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2447,7 +2489,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-context@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-expression@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2471,7 +2513,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-expression@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-web@5.3.24?type=jar">
       <publisher>Spring IO</publisher>
@@ -2495,7 +2537,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-web@5.3.24?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xpp3/xpp3@1.1.4c?type=jar">
       <publisher>Extreme! Lab, Indiana University</publisher>
@@ -2529,7 +2571,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/xpp3/xpp3@1.1.4c?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.extreme.indiana.edu/</url></reference><reference type="vcs"><url>http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/</url></reference><reference type="vcs"><url>http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -2559,7 +2601,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/servlet-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/servlet-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/servlet-api</url></reference><reference type="website"><url>https://www.eclipse.org</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.servlet</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/servlet-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/servlet-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/servlet-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci/core-annotation-processors@1.0?type=jar">
       <group>org.jenkins-ci</group>
@@ -2583,7 +2625,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.jenkins-ci/core-annotation-processors@1.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>http://ci.jenkins-ci.org</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/pom</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jenkins-ci.org/core-annotation-processors/</url></reference><reference type="build-system"><url>http://ci.jenkins-ci.org</url></reference><reference type="distribution"><url>http://maven.jenkins-ci.org:8081/content/repositories/releases</url></reference><reference type="issue-tracker"><url>http://issues.jenkins-ci.org</url></reference><reference type="mailing-list"><url>jenkinsci-advisories+subscribe@googlegroups.com</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/pom/core-annotation-processors</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/jenkins-war@2.384?type=war">
       <group>org.jenkins-ci.main</group>
@@ -2595,7 +2637,14 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
       <group>org.jenkins-ci.main</group>
       <name>jenkins-test</name>
       <version>2.384</version>
+      <description>Functional tests for Jenkins core</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.jenkins-ci.main/jenkins-test@2.384?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jenkinsci/jenkins/jenkins-test</url></reference><reference type="build-system"><url>https://ci.jenkins.io</url></reference><reference type="distribution"><url>https://repo.jenkins-ci.org/releases/</url></reference><reference type="issue-tracker"><url>https://issues.jenkins.io/browse/JENKINS/component/15593</url></reference><reference type="mailing-list"><url>https://groups.google.com/g/jenkinsci-advisories</url></reference><reference type="vcs"><url>https://github.com/jenkinsci/jenkins</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jenkins-ci.main/jenkins-coverage@2.384?type=pom">
       <group>org.jenkins-ci.main</group>
@@ -2624,7 +2673,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.samba.jcifs/jcifs@1.2.19?type=jar">
       <group>org.samba.jcifs</group>
@@ -2647,6 +2696,7 @@ Brotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.</description>
         </license>
       </licenses>
       <purl>pkg:maven/org.samba.jcifs/jcifs@1.2.19?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://jcifs.samba.org</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>

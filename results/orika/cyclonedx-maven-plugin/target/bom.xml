@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:486cbf06-d62b-4cc1-8ce9-8d64851a0be3" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:ebabf0ae-938c-453a-a06f-0a0676dab054" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:25:59Z</timestamp>
+    <timestamp>2023-02-26T02:05:06Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -31,15 +31,25 @@
         </license>
       </licenses>
       <purl>pkg:maven/ma.glasnost.orika/orika-parent@1.5.4?type=pom</purl>
-      <externalReferences><reference type="website"><url>http://www.glasnost.ma</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/orika</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/ma.glasnost.orika/orika-eclipse-tools@1.5.4?type=jar">
+      <publisher>Glasnost</publisher>
       <group>ma.glasnost.orika</group>
       <name>orika-eclipse-tools</name>
       <version>1.5.4</version>
+      <description>Optional Eclipse JDT compiler dependencies for Orika Bean Mapper.
+	   Specify this dependency to use the EclipseJdtCompilerStrategy in your builds
+	   with Orika to enable step-debugging capability for generated mapping objects.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/ma.glasnost.orika/orika-eclipse-tools@1.5.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/orika/orika-eclipse-tools</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar">
       <publisher>QOS.ch</publisher>
@@ -65,7 +75,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.25?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.tycho/org.eclipse.jdt.core@3.14.0.v20171206-0802?type=jar">
       <group>org.eclipse.tycho</group>
@@ -90,7 +100,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.tycho/org.eclipse.jdt.core@3.14.0.v20171206-0802?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://git.eclipse.org/c/tycho/org.eclipse.tycho.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/tycho/</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/tycho/org.eclipse.tycho.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.platform/org.eclipse.text@3.6.100?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -116,7 +126,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.platform/org.eclipse.text@3.6.100?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/platform/eclipse.platform.text.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/platform</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/platform/eclipse.platform.text.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.platform/org.eclipse.core.commands@3.9.0?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -141,7 +151,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.platform/org.eclipse.core.commands@3.9.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/platform/eclipse.platform.ui.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/platform</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/platform/eclipse.platform.ui.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.platform/org.eclipse.equinox.common@3.9.0?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -166,13 +176,21 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.platform/org.eclipse.equinox.common@3.9.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/equinox/rt.equinox.bundles.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/platform</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/equinox/rt.equinox.bundles.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar">
+      <publisher>Glasnost</publisher>
       <group>ma.glasnost.orika</group>
       <name>orika-core</name>
       <version>1.5.4</version>
+      <description>Simpler, better and faster Java bean mapping framework</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/ma.glasnost.orika/orika-core@1.5.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/orika/orika-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar">
       <publisher>Shigeru Chiba, www.javassist.org</publisher>
@@ -205,7 +223,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.javassist/javassist@3.24.0-GA?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.javassist.org/</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://jira.jboss.org/jira/browse/JASSIST/</url></reference><reference type="vcs"><url>scm:git:git@github.com:jboss-javassist/javassist.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar">
       <group>com.thoughtworks.paranamer</group>
@@ -229,7 +247,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.thoughtworks.paranamer/paranamer@2.8?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/paul-hammant/paranamer</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/paul-hammant/paranamer/paranamer</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/paul-hammant/paranamer/paranamer</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.carrotsearch/java-sizeof@0.0.5?type=jar">
       <publisher>Carrot Search s.c.</publisher>
@@ -254,7 +272,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.carrotsearch/java-sizeof@0.0.5?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.carrotsearch.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/java-sizeof</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/java-sizeof</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@24.0-jre?type=jar">
       <group>com.google.guava</group>
@@ -280,7 +298,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@24.0-jre?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/guava</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar">
       <group>com.google.code.findbugs</group>
@@ -303,7 +321,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://findbugs.googlecode.com/svn/trunk/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="vcs"><url>http://findbugs.googlecode.com/svn/trunk/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-compat-qual@2.0.0?type=jar">
       <group>org.checkerframework</group>
@@ -333,7 +351,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/checker-compat-qual@2.0.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.1.3?type=jar">
       <group>com.google.errorprone</group>
@@ -356,7 +374,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.1.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/google/error-prone</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar">
       <group>com.google.j2objc</group>
@@ -380,7 +398,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/j2objc/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14?type=jar">
       <publisher>Codehaus</publisher>
@@ -405,7 +423,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/MANIMALSNIFFER</url></reference><reference type="vcs"><url>http://fisheye.codehaus.org/browse/mojo/tags/animal-sniffer-parent-1.14</url></reference><reference type="website"><url>http://codehaus.org</url></reference><reference type="build-system"><url>http://bamboo.ci.codehaus.org/browse/MOJO</url></reference><reference type="mailing-list"><url>http://markmail.org/list/org.codehaus.mojo.dev</url></reference><reference type="distribution"><url>https://nexus.codehaus.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://mojo.codehaus.org/animal-sniffer/animal-sniffer-annotations</url></reference><reference type="build-system"><url>http://bamboo.ci.codehaus.org/browse/MOJO</url></reference><reference type="distribution"><url>https://nexus.codehaus.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/MANIMALSNIFFER</url></reference><reference type="mailing-list"><url>http://markmail.org/list/org.codehaus.mojo.dev</url></reference><reference type="vcs"><url>http://fisheye.codehaus.org/browse/mojo/tags/animal-sniffer-parent-1.14/animal-sniffer-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.janino/janino@3.0.8?type=jar">
       <group>org.codehaus.janino</group>
@@ -429,7 +447,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.janino/janino@3.0.8?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/janino-compiler/janino</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://janino-compiler.github.io/janino/</url></reference><reference type="vcs"><url>https://github.com/janino-compiler/janino</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.janino/commons-compiler@3.0.8?type=jar">
       <group>org.codehaus.janino</group>
@@ -452,13 +470,21 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.janino/commons-compiler@3.0.8?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/janino-compiler/janino</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://janino-compiler.github.io/commons-compiler/</url></reference><reference type="vcs"><url>https://github.com/janino-compiler/commons-compiler</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ma.glasnost.orika/orika-tests@1.5.4?type=jar">
+      <publisher>Glasnost</publisher>
       <group>ma.glasnost.orika</group>
       <name>orika-tests</name>
       <version>1.5.4</version>
+      <description>Simpler, better and faster Java bean mapping framework</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/ma.glasnost.orika/orika-tests@1.5.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/orika/orika-tests</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/junit/junit@4.12?type=jar">
       <publisher>JUnit</publisher>
@@ -484,7 +510,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/junit/junit@4.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.junit.org</url></reference><reference type="build-system"><url>https://junit.ci.cloudbees.com/</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit/issues</url></reference><reference type="mailing-list"><url>https://groups.yahoo.com/neo/groups/junit/info</url></reference><reference type="vcs"><url>http://github.com/junit-team/junit/tree/master</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://junit.org</url></reference><reference type="build-system"><url>https://junit.ci.cloudbees.com/</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit/issues</url></reference><reference type="mailing-list"><url>https://groups.yahoo.com/neo/groups/junit/info</url></reference><reference type="vcs"><url>http://github.com/junit-team/junit/tree/master</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar">
       <group>org.hamcrest</group>
@@ -507,7 +533,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar">
       <group>org.hamcrest</group>
@@ -531,7 +557,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest-library@1.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-library</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-library</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.easymock/easymock@3.6?type=jar">
       <publisher>&lt;a href="http://easymock.org/contributors.html" target="_blank">EasyMock contributors&lt;/a></publisher>
@@ -556,7 +582,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.easymock/easymock@3.6?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://api.bintray.com/maven/easymock/maven/easymock</url></reference><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/EASYMOCK</url></reference><reference type="mailing-list"><url>http://tech.groups.yahoo.com/group/easymock/</url></reference><reference type="vcs"><url>https://github.com/easymock/easymock</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://easymock.org/easymock</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/easymock/maven/easymock</url></reference><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/EASYMOCK</url></reference><reference type="mailing-list"><url>http://tech.groups.yahoo.com/group/easymock/</url></reference><reference type="vcs"><url>https://github.com/easymock/easymock/easymock</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.objenesis/objenesis@2.6?type=jar">
       <publisher>Joe Walnes, Henri Tremblay, Leonardo Mesquita</publisher>
@@ -580,7 +606,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.objenesis/objenesis@2.6?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://api.bintray.com/maven/easymock/maven/objenesis/;publish=1</url></reference><reference type="vcs"><url>https://github.com/easymock/objenesis</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://objenesis.org</url></reference><reference type="distribution"><url>https://api.bintray.com/maven/easymock/maven/objenesis/;publish=1</url></reference><reference type="vcs"><url>https://github.com/easymock/objenesis/objenesis</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.0.1.Final?type=jar">
       <publisher>Hibernate.org</publisher>
@@ -630,7 +656,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jboss.logging/jboss-logging@3.3.0.Final?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/jboss-logging/jboss-logging</url></reference><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>https://github.com/jboss-logging/jboss-logging</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hibernate/hibernate-entitymanager@5.0.12.Final?type=jar">
       <publisher>Hibernate.org</publisher>
@@ -706,6 +732,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/antlr/antlr@2.7.7?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.antlr.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.jboss/jandex@2.0.0.Final?type=jar">
       <publisher>JBoss by Red Hat</publisher>
@@ -729,7 +756,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.jboss/jandex@2.0.0.Final?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.jboss.org</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jboss.org/jandex</url></reference><reference type="distribution"><url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://issues.jboss.org/</url></reference><reference type="mailing-list"><url>http://lists.jboss.org/pipermail/jboss-user/</url></reference><reference type="vcs"><url>http://github.com/jboss/jboss-parent-pom/jandex</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/dom4j/dom4j@1.6.1?type=jar">
       <publisher>MetaStuff Ltd.</publisher>
@@ -754,7 +781,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/dom4j/dom4j@1.6.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://sourceforge.net/projects/dom4j</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=16035</url></reference><reference type="mailing-list"><url>http://www.mail-archive.com/dom4j-user%40lists.sourceforge.net/</url></reference><reference type="vcs"><url>http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dom4j/dom4j/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://dom4j.org</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=16035</url></reference><reference type="mailing-list"><url>http://www.mail-archive.com/dom4j-user%40lists.sourceforge.net/</url></reference><reference type="vcs"><url>http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/dom4j/dom4j/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -785,7 +812,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xml-apis/xml-apis@1.0.b2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>http://www.apache.org/dist/xml/commons/binaries/xml-commons-1.0.b2.tar.gz</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-1_0_b2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/commons/#external</url></reference><reference type="distribution"><url>http://www.apache.org/dist/xml/commons/binaries/xml-commons-1.0.b2.tar.gz</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-1_0_b2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar">
       <group>org.hibernate.javax.persistence</group>
@@ -812,7 +839,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.hibernate.javax.persistence/hibernate-jpa-2.1-api@1.0.0.Final?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://opensource.atlassian.com/projects/hibernate/browse/JPA</url></reference><reference type="vcs"><url>http://github.com/hibernate/hibernate-jpa-api</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hibernate.org</url></reference><reference type="issue-tracker"><url>http://opensource.atlassian.com/projects/hibernate/browse/JPA</url></reference><reference type="vcs"><url>http://github.com/hibernate/hibernate-jpa-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -836,7 +863,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.geronimo.specs/geronimo-jta_1.1_spec@1.1.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/GERONIMO</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/geronimo-user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://geronimo.apache.org/specs/geronimo-jta_1.1_spec</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/GERONIMO</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/geronimo-user</url></reference><reference type="vcs"><url>scm:svn:https://svn.apache.org/repos/asf/geronimo/specs/tags/geronimo-jta_1.1_spec-1.1.1</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.h2database/h2@1.4.196?type=jar">
       <group>com.h2database</group>
@@ -861,7 +888,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.h2database/h2@1.4.196?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/h2database/h2database</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.h2database.com</url></reference><reference type="vcs"><url>https://github.com/h2database/h2database</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.1.11?type=jar">
       <publisher>QOS.ch</publisher>
@@ -890,7 +917,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/ch.qos.logback/logback-core@1.1.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback/logback-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.1.11?type=jar">
       <publisher>QOS.ch</publisher>
@@ -919,7 +946,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/ch.qos.logback/logback-classic@1.1.11?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-classic</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/logback/logback-classic</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-tx@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -944,7 +971,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-tx@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-beans@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -968,7 +995,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-beans@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-core@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -992,7 +1019,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-core@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1017,7 +1044,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-context@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1042,7 +1069,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-context@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-aop@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1066,7 +1093,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-aop@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-expression@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1090,7 +1117,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-expression@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-test@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1115,7 +1142,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-test@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-orm@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1140,7 +1167,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-orm@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-jdbc@4.3.14.RELEASE?type=jar">
       <publisher>Spring IO</publisher>
@@ -1164,7 +1191,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-jdbc@4.3.14.RELEASE?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://projects.spring.io/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://jira.springsource.org/browse/SPR</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -1190,7 +1217,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/JAXB</url></reference><reference type="mailing-list"><url>http://java.net/projects/jaxb/lists/users/archive</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb/sources/v2/show</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jaxb.java.net/jaxb-bundles/jaxb-impl</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/JAXB</url></reference><reference type="mailing-list"><url>http://java.net/projects/jaxb/lists/users/archive</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb/sources/v2/show/jaxb-bundles/jaxb-impl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.xml.bind/jaxb-api@2.3.0?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -1218,13 +1245,21 @@
         </license>
       </licenses>
       <purl>pkg:maven/javax.xml.bind/jaxb-api@2.3.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/jaxb-spec/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-spec.git</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/javaee/jaxb-spec/jaxb-api</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/jaxb-spec/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-spec.git/jaxb-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/ma.glasnost.orika/orika-tests-jdk8@1.5.4?type=jar">
+      <publisher>Glasnost</publisher>
       <group>ma.glasnost.orika</group>
       <name>orika-tests-jdk8</name>
       <version>1.5.4</version>
+      <description>Simpler, better and faster Java bean mapping framework</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/ma.glasnost.orika/orika-tests-jdk8@1.5.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/orika/orika-tests-jdk8</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.github.lukehutch/fast-classpath-scanner@3.1.9?type=jar">
       <group>io.github.lukehutch</group>
@@ -1249,7 +1284,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.github.lukehutch/fast-classpath-scanner@3.1.9?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/lukehutch/fast-classpath-scanner/issues</url></reference><reference type="vcs"><url>https://github.com/lukehutch/fast-classpath-scanner</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/lukehutch/fast-classpath-scanner</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/lukehutch/fast-classpath-scanner/issues</url></reference><reference type="vcs"><url>https://github.com/lukehutch/fast-classpath-scanner</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:c3d5b2d2-10b4-4bb1-bd61-ce388ff5cb1a" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:cd5267e9-457b-45b9-9c18-7a1bb1ea52f9" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:10:04Z</timestamp>
+    <timestamp>2023-02-26T01:51:05Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -32,7 +32,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-configuration2@2.8.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Commons-configuration/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CONFIGURATION</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-configuration.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-configuration/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Commons-configuration/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CONFIGURATION</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-configuration.git</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -61,7 +61,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -86,7 +86,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-text@1.9?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/TEXT</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-text.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-text</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/TEXT</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-text.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -112,7 +112,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -137,7 +137,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-beanutils/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -161,7 +161,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-collections/commons-collections@3.2.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/COLLECTIONS</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/collections/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/COLLECTIONS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/collections/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -189,7 +189,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -214,7 +214,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/JEXL</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/jexl/tags/COMMONS_JEXL_2_1_1</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/jexl/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/JEXL</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/jexl/tags/COMMONS_JEXL_2_1_1</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -239,7 +239,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/VFS</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-vfs.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-vfs/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/VFS</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-vfs.git/commons-vfs2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -263,7 +263,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org</url></reference></externalReferences>
+      <externalReferences><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar">
       <group>com.squareup.okhttp</group>
@@ -286,7 +286,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/square/okhttp/issues</url></reference><reference type="vcs"><url>https://github.com/square/okhttp/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/square/okhttp/okhttp</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/square/okhttp/issues</url></reference><reference type="vcs"><url>https://github.com/square/okhttp/okhttp/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar">
       <group>com.squareup.okio</group>
@@ -309,7 +309,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.squareup.okio/okio@1.6.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/square/okio/issues</url></reference><reference type="vcs"><url>https://github.com/square/okio/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/square/okio/okio</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/square/okio/issues</url></reference><reference type="vcs"><url>https://github.com/square/okio/okio/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -334,7 +334,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/JXPATH</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/jxpath/trunk</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/jxpath/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url></url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/JXPATH</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/jxpath/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xml-resolver/xml-resolver@1.2?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -363,7 +363,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xml-resolver/xml-resolver@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-resolver-1_2/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/commons/components/resolver/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/xml-commons-dev/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/xml/commons/tags/xml-commons-resolver-1_2/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-core@5.3.21?type=jar">
       <publisher>Spring IO</publisher>
@@ -388,7 +388,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-core@5.3.21?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar">
       <publisher>Spring IO</publisher>
@@ -412,7 +412,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-jcl@5.3.21?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.springframework/spring-beans@5.3.21?type=jar">
       <publisher>Spring IO</publisher>
@@ -437,7 +437,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.springframework/spring-beans@5.3.21?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://spring.io/projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/spring-projects/spring-framework</url></reference><reference type="issue-tracker"><url>https://github.com/spring-projects/spring-framework/issues</url></reference><reference type="vcs"><url>https://github.com/spring-projects/spring-framework</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar">
       <group>javax.servlet</group>
@@ -479,7 +479,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.yaml/snakeyaml@1.30?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://bitbucket.org/snakeyaml/snakeyaml/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/snakeyaml/snakeyaml/src</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/snakeyaml/snakeyaml</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bitbucket.org/snakeyaml/snakeyaml/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/snakeyaml/snakeyaml/src</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar">
       <publisher>FasterXML</publisher>
@@ -504,7 +504,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-databind/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-databind</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar">
       <publisher>FasterXML</publisher>
@@ -528,7 +528,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-annotations/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar">
       <publisher>FasterXML</publisher>
@@ -552,7 +552,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference><reference type="website"><url>http://fasterxml.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-core/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/log4j/log4j@1.2.17?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -577,7 +577,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/log4j/log4j@1.2.17?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org</url></reference><reference type="build-system"><url>http://vmgump.apache.org/gump/public/logging-log4j-12/logging-log4j-12/index.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/describecomponents.cgi?product=Log4j</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/logging-log4j-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/logging/log4j/tags/v1_2_17_rc3</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://logging.apache.org/log4j/1.2/</url></reference><reference type="build-system"><url>http://vmgump.apache.org/gump/public/logging-log4j-12/logging-log4j-12/index.html</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/builds/logging/repo/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/describecomponents.cgi?product=Log4j</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/logging-log4j-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/logging/log4j/tags/v1_2_17_rc3</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -599,7 +599,9 @@
       <dependency ref="pkg:maven/log4j/log4j@1.2.17?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-text@1.9?type=jar">
+      <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
     <dependency ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
       <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
@@ -607,7 +609,9 @@
     </dependency>
     <dependency ref="pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"/>
     <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.commons/commons-jexl@2.1.1?type=jar">
+      <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.apache.commons/commons-vfs2@2.9.0?type=jar">
       <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
       <dependency ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar"/>
@@ -615,11 +619,18 @@
     </dependency>
     <dependency ref="pkg:maven/org.apache.hadoop/hadoop-hdfs-client@3.3.1?type=jar">
       <dependency ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.squareup.okhttp/okhttp@2.7.5?type=jar">
       <dependency ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.squareup.okio/okio@1.6.0?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"/>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"/>
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/commons-jxpath/commons-jxpath@1.3?type=jar"/>
     <dependency ref="pkg:maven/xml-resolver/xml-resolver@1.2?type=jar"/>
     <dependency ref="pkg:maven/org.springframework/spring-core@5.3.21?type=jar">
@@ -631,11 +642,6 @@
     </dependency>
     <dependency ref="pkg:maven/javax.servlet/servlet-api@2.5?type=jar"/>
     <dependency ref="pkg:maven/org.yaml/snakeyaml@1.30?type=jar"/>
-    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3?type=jar">
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"/>
-      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"/>
-    </dependency>
-    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3?type=jar"/>
     <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3?type=jar"/>
     <dependency ref="pkg:maven/log4j/log4j@1.2.17?type=jar"/>
   </dependencies>

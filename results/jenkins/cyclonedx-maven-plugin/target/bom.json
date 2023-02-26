@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:ac0a0eed-aeb2-4192-93e6-1fcf8ba41488",
+  "serialNumber" : "urn:uuid:baa0fc58-ffdd-4770-b2e2-cd50be0eba3a",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:19:58Z",
+    "timestamp" : "2023-02-26T01:58:47Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -60,6 +60,10 @@
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-parent@2.384?type=pom",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -98,7 +102,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "websocket-spi",
       "version" : "2.384",
+      "description" : "An abstraction of how Jenkins can serve a WebSocket connection from its servlet container.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins/websocket/websocket-spi"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/websocket-spi@2.384?type=jar"
     },
@@ -143,24 +181,32 @@
           "content" : "ab5f85d424640ddcf6fc13a41d12ffdee0be9508cd4cdc581168b31cf7917323f6e0d984a0631068e0e01c098098fe0037d1c4176352fd89ba3a4da5d641ca3d"
         }
       ],
-      "licenses" : [ ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
       "purl" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://glassfish.dev.java.net"
+          "url" : "http://servlet-spec.java.net"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://java.net/jira/browse/SERVLET_SPEC"
         },
         {
-          "type" : "vcs",
-          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+          "type" : "mailing-list",
+          "url" : "users@servlet-spec.java.net"
         },
         {
-          "type" : "distribution",
-          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
         }
       ],
       "type" : "library",
@@ -170,7 +216,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "websocket-jetty9",
       "version" : "2.384",
+      "description" : "An implementation of the WebSocket handler that works with Jetty 9.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins/websocket/websocket-jetty9"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/websocket-jetty9@2.384?type=jar"
     },
@@ -228,6 +308,32 @@
         }
       ],
       "purl" : "pkg:maven/org.jenkins-ci/winstone@5.25?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/winstone"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.jenkins-ci.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "jenkinsci-advisories+subscribe@googlegroups.com"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/winstone"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci/winstone@5.25?type=jar"
     },
@@ -281,6 +387,10 @@
       ],
       "purl" : "pkg:maven/org.kohsuke/access-modifier-annotation@1.30?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-access-modifier/access-modifier-annotation"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -356,6 +466,10 @@
       "purl" : "pkg:maven/org.jenkins-ci/annotation-indexer@1.17?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-annotation-indexer"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -430,8 +544,16 @@
       "purl" : "pkg:maven/org.kohsuke.metainf-services/metainf-services@1.9?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://metainf-services.kohsuke.org/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://metainf-services.kohsuke.org/"
         }
       ],
       "type" : "library",
@@ -441,7 +563,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "websocket-jetty10",
       "version" : "2.384",
+      "description" : "An implementation of the WebSocket handler that works with Jetty 10.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins/websocket/websocket-jetty10"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/websocket-jetty10@2.384?type=jar"
     },
@@ -501,6 +657,10 @@
       "purl" : "pkg:maven/org.jenkins-ci/winstone@6.7?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/winstone"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -518,7 +678,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/jenkinsci/pom"
+          "url" : "https://github.com/jenkinsci/winstone"
         }
       ],
       "type" : "library",
@@ -528,7 +688,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "cli",
       "version" : "2.384",
+      "description" : "Command line interface for Jenkins",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/cli@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/cli@2.384?type=jar"
     },
@@ -583,28 +777,28 @@
       "purl" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/IO"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-io/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
         }
       ],
       "type" : "library",
@@ -661,28 +855,28 @@
       "purl" : "pkg:maven/commons-lang/commons-lang@2.6?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LANG"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X"
+          "type" : "website",
+          "url" : "http://commons.apache.org/lang/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LANG"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/lang/branches/LANG_2_X"
         }
       ],
       "type" : "library",
@@ -737,6 +931,10 @@
       ],
       "purl" : "pkg:maven/net.i2p.crypto/eddsa@0.3.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/str4d/ed25519-java"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/str4d/ed25519-java"
@@ -796,6 +994,14 @@
       "purl" : "pkg:maven/org.apache.sshd/sshd-common@2.9.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://www.apache.org/sshd/sshd-common/"
+        },
+        {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://issues.apache.org/jira/browse/SSHD"
         },
@@ -804,8 +1010,8 @@
           "url" : "https://mail-archives.apache.org/mod_mbox/mina-users/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/mina-sshd/tree/sshd-2.9.2/sshd-common"
         }
       ],
       "type" : "library",
@@ -863,7 +1069,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -871,7 +1077,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -929,7 +1135,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -937,7 +1143,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/jcl-over-slf4j"
         }
       ],
       "type" : "library",
@@ -994,6 +1200,14 @@
       "purl" : "pkg:maven/org.apache.sshd/sshd-core@2.9.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://www.apache.org/sshd/sshd-core/"
+        },
+        {
+          "type" : "distribution",
+          "url" : ""
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://issues.apache.org/jira/browse/SSHD"
         },
@@ -1002,8 +1216,8 @@
           "url" : "https://mail-archives.apache.org/mod_mbox/mina-users/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/mina-sshd/tree/sshd-2.9.2/sshd-core"
         }
       ],
       "type" : "library",
@@ -1068,19 +1282,23 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.oracle.com/"
+          "url" : "https://projects.eclipse.org/projects/ee4j.tyrus/tyrus-bundles/tyrus-standalone-client-jdk"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/tyrus/issues"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-ee4j/tyrus"
-        },
-        {
           "type" : "mailing-list",
           "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/tyrus/tyrus-bundles/tyrus-standalone-client-jdk"
         }
       ],
       "type" : "library",
@@ -1090,7 +1308,7 @@
       "group" : "org.jvnet.localizer",
       "name" : "localizer",
       "version" : "1.31",
-      "description" : "${project.name}",
+      "description" : "Localizer",
       "scope" : "optional",
       "hashes" : [
         {
@@ -1136,8 +1354,16 @@
       "purl" : "pkg:maven/org.jvnet.localizer/localizer@1.31?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://kohsuke.org/localizer-parent/localizer/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://localizer.kohsuke.org/localizer-parent/localizer/"
         }
       ],
       "type" : "library",
@@ -1196,7 +1422,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -1204,7 +1430,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-jdk14"
         }
       ],
       "type" : "library",
@@ -1260,6 +1486,10 @@
       "purl" : "pkg:maven/com.github.spotbugs/spotbugs-annotations@4.7.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://spotbugs.github.io/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/spotbugs/spotbugs/"
         }
@@ -1271,7 +1501,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "jenkins-core",
       "version" : "2.384",
+      "description" : "Jenkins core code and view files to render HTML.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/jenkins-core@2.384?type=jar"
     },
@@ -1330,6 +1594,10 @@
       ],
       "purl" : "pkg:maven/org.jenkins-ci.main/remoting@3085.vc4c6977c075a?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/remoting"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -1407,7 +1675,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.kohsuke.org/"
+          "url" : "http://args4j.kohsuke.org/args4j/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1419,11 +1691,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://args4j.kohsuke.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "http://args4j.kohsuke.org/args4j/"
         }
       ],
       "type" : "library",
@@ -1479,6 +1747,10 @@
       "purl" : "pkg:maven/com.google.guava/guava@31.1-jre?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava"
+        },
+        {
           "type" : "build-system",
           "url" : "https://github.com/google/guava/actions"
         },
@@ -1492,7 +1764,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
+          "url" : "https://github.com/google/guava/guava"
         }
       ],
       "type" : "library",
@@ -1547,8 +1819,16 @@
       "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/failureaccess"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1556,11 +1836,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/failureaccess"
         }
       ],
       "type" : "library",
@@ -1615,8 +1891,16 @@
       "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1624,11 +1908,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/listenablefuture"
         }
       ],
       "type" : "library",
@@ -1683,12 +1963,16 @@
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/p/jsr-305/"
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/p/jsr-305/"
         }
       ],
       "type" : "library",
@@ -1746,7 +2030,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/guice/guice"
         },
         {
           "type" : "build-system",
@@ -1766,7 +2050,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guice"
+          "url" : "https://github.com/google/guice/guice"
         }
       ],
       "type" : "library",
@@ -1820,6 +2104,10 @@
       ],
       "purl" : "pkg:maven/javax.inject/javax.inject@1?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/atinject/"
+        },
         {
           "type" : "vcs",
           "url" : "http://code.google.com/p/atinject/source/checkout"
@@ -1878,6 +2166,10 @@
       ],
       "purl" : "pkg:maven/com.infradna.tool/bridge-method-annotation@1.25?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/bridge-method-injector/bridge-method-annotation"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -1954,7 +2246,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jcraft.com/"
+          "url" : "http://www.jcraft.com/jzlib/"
         },
         {
           "type" : "distribution",
@@ -2016,7 +2308,12 @@
         }
       ],
       "purl" : "pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar",
-      "externalReferences" : [ ],
+      "externalReferences" : [
+        {
+          "type" : "distribution",
+          "url" : "java-net:/maven2-repository/trunk/www/repository/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.sun.solaris/embedded_su4j@1.1?type=jar"
     },
@@ -2073,7 +2370,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.oracle.com/"
+          "url" : "http://txw.java.net/txw2/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -2081,11 +2382,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://java.net/projects/jaxb~version2/show/tags/txw2-project-20110809"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+          "url" : "http://java.net/projects/jaxb~version2/show/tags/txw2-project-20110809/txw2"
         }
       ],
       "type" : "library",
@@ -2187,7 +2484,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://x-stream.github.io"
+          "url" : "http://x-stream.github.io/xstream"
         },
         {
           "type" : "build-system",
@@ -2207,7 +2504,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/x-stream/xstream"
+          "url" : "http://github.com/x-stream/xstream/xstream"
         }
       ],
       "type" : "library",
@@ -2262,6 +2559,10 @@
       ],
       "purl" : "pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://x-stream.github.io/mxparser"
+        },
         {
           "type" : "build-system",
           "url" : "https://github.com/x-stream/mxparser/actions?query=workflow%3A%22CI+with+Maven%22"
@@ -2333,28 +2634,28 @@
       "purl" : "pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/BEANUTILS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-beanutils/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/BEANUTILS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3"
         }
       ],
       "type" : "library",
@@ -2410,28 +2711,28 @@
       "purl" : "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/LOGGING"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-logging/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
         }
       ],
       "type" : "library",
@@ -2488,28 +2789,28 @@
       "purl" : "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/CODEC"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/apache/commons-codec"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-codec/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/CODEC"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/commons-codec"
         }
       ],
       "type" : "library",
@@ -2566,28 +2867,28 @@
       "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+          "type" : "website",
+          "url" : "http://commons.apache.org/collections/"
         },
         {
           "type" : "build-system",
           "url" : "https://continuum-ci.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
         }
       ],
       "type" : "library",
@@ -2644,28 +2945,28 @@
       "purl" : "pkg:maven/commons-fileupload/commons-fileupload@1.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/FILEUPLOAD"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git"
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-fileupload/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/FILEUPLOAD"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf?p=commons-fileupload.git"
         }
       ],
       "type" : "library",
@@ -2761,7 +3062,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://jakarta.apache.org/"
+          "url" : "http://jakarta.apache.org/commons/jelly/libs/xml/index.html"
         },
         {
           "type" : "distribution",
@@ -2833,6 +3134,10 @@
       "purl" : "pkg:maven/io.jenkins.stapler/jenkins-stapler-support@1.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://jenkins.io/jenkins-stapler-support/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -2845,8 +3150,12 @@
           "url" : "http://issues.jenkins-ci.org"
         },
         {
+          "type" : "mailing-list",
+          "url" : "jenkinsci-advisories+subscribe@googlegroups.com"
+        },
+        {
           "type" : "vcs",
-          "url" : "https://github.com/jenkinsci/pom"
+          "url" : "https://github.com/jenkinsci/pom/jenkins-stapler-support"
         }
       ],
       "type" : "library",
@@ -2908,6 +3217,14 @@
       "purl" : "pkg:maven/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api@1.2.7?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jstl"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/jstl-api/issues"
         },
@@ -2918,10 +3235,6 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/eclipse-ee4j/jstl-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
         }
       ],
       "type" : "library",
@@ -2980,7 +3293,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://www.cafeconleche.org/jaxen"
+          "url" : "http://www.cafeconleche.org/jaxen/jaxen"
         },
         {
           "type" : "distribution",
@@ -2996,7 +3309,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/jaxen-xpath/jaxen"
+          "url" : "https://github.com/jaxen-xpath/jaxen/jaxen"
         }
       ],
       "type" : "library",
@@ -3052,6 +3365,14 @@
       "purl" : "pkg:maven/jline/jline@2.14.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/jline"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/jline/jline2/issues"
         },
@@ -3062,10 +3383,6 @@
         {
           "type" : "vcs",
           "url" : "http://github.com/jline/jline2"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -3128,6 +3445,10 @@
       "purl" : "pkg:maven/net.java.dev.jna/jna@5.12.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/java-native-access/jna"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/java-native-access/jna"
         }
@@ -3186,12 +3507,12 @@
       "purl" : "pkg:maven/net.java.sezpoz/sezpoz@1.13?type=jar",
       "externalReferences" : [
         {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "type" : "website",
+          "url" : "https://github.com/jglick/sezpoz/sezpoz"
         },
         {
-          "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/trunk/oss/oss-parent-9"
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -3238,6 +3559,12 @@
       ],
       "licenses" : [ ],
       "purl" : "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jcip.net/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/net.jcip/jcip-annotations@1.0?type=jar"
     },
@@ -3363,7 +3690,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://www.antlr.org/"
+          "url" : "https://www.antlr.org/antlr4-runtime/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -3375,11 +3706,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/antlr/antlr4/tree/master"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/antlr/antlr4/tree/master/antlr4-runtime"
         }
       ],
       "type" : "library",
@@ -3437,7 +3764,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://www.apache.org/"
+          "url" : "https://ant.apache.org/"
         },
         {
           "type" : "build-system",
@@ -3457,7 +3784,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf/ant.git"
+          "url" : "https://gitbox.apache.org/repos/asf/ant.git/ant"
         }
       ],
       "type" : "library",
@@ -3514,7 +3841,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://www.apache.org/"
+          "url" : "https://ant.apache.org/"
         },
         {
           "type" : "build-system",
@@ -3534,7 +3861,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf/ant.git"
+          "url" : "https://gitbox.apache.org/repos/asf/ant.git/ant-launcher"
         }
       ],
       "type" : "library",
@@ -3591,28 +3918,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-compress@1.22?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-compress/"
         },
         {
           "type" : "build-system",
           "url" : "https://github.com/apache/commons-parent/actions"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
         }
       ],
       "type" : "library",
@@ -3739,6 +4066,10 @@
       "purl" : "pkg:maven/org.connectbot.jbcrypt/jbcrypt@1.0.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/kruton/jbcrypt"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/kruton/jbcrypt"
         }
@@ -3798,15 +4129,19 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://fusesource.com/"
+          "url" : "http://jansi.fusesource.org/jansi"
         },
         {
           "type" : "distribution",
           "url" : "http://repo.fusesource.com/nexus/service/local/staging/deploy/maven2"
         },
         {
-          "type" : "vcs",
-          "url" : "http://github.com/chirino/mvnplugins/tree/master"
+          "type" : "issue-tracker",
+          "url" : "http://fusesource.com/issues/browse/JANSI"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://groups.google.com/group/jansi"
         }
       ],
       "type" : "library",
@@ -3864,7 +4199,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://jakarta.apache.org"
+          "url" : "http://jakarta.apache.org/commons/jexl/"
         },
         {
           "type" : "distribution",
@@ -3924,6 +4259,10 @@
       ],
       "purl" : "pkg:maven/org.jenkins-ci/crypto-util@1.8?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-crypto-util"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -3999,6 +4338,10 @@
       "purl" : "pkg:maven/org.jenkins-ci/memory-monitor@1.12?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/extras-memory-monitor"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -4072,6 +4415,10 @@
       ],
       "purl" : "pkg:maven/org.jenkins-ci/symbol-annotation@1.24?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-symbol-annotation"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -4147,6 +4494,10 @@
       "purl" : "pkg:maven/org.jenkins-ci/task-reactor@1.8?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-task-reactor"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -4220,6 +4571,10 @@
       ],
       "purl" : "pkg:maven/org.jenkins-ci/version-number@1.11?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/lib-version-number"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -4297,7 +4652,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jfree.org/"
+          "url" : "http://www.jfree.org/jfreechart/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -4310,10 +4669,6 @@
         {
           "type" : "vcs",
           "url" : "http://jfreechart.svn.sourceforge.net/viewvc/jfreechart/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -4371,7 +4726,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.jfree.org/"
+          "url" : "http://www.jfree.org/jcommon/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -4384,10 +4743,6 @@
         {
           "type" : "vcs",
           "url" : "http://cvs.sourceforge.net/viewcvs.py/jfreechart/jcommon"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -4489,8 +4844,16 @@
       "purl" : "pkg:maven/org.jvnet.robust-http-client/robust-http-client@1.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://robust-http-client.kohsuke.org/"
+        },
+        {
           "type" : "distribution",
           "url" : "http://maven.jenkins-ci.org:8081/content/repositories/releases"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://robust-http-client.kohsuke.org/"
         }
       ],
       "type" : "library",
@@ -4547,6 +4910,10 @@
       "purl" : "pkg:maven/org.jvnet.winp/winp@1.30?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/winp"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -4574,7 +4941,7 @@
       "group" : "org.kohsuke",
       "name" : "windows-package-checker",
       "version" : "1.2",
-      "description" : "${project.name}",
+      "description" : "windows-package-checker",
       "scope" : "optional",
       "hashes" : [
         {
@@ -4621,8 +4988,16 @@
       "purl" : "pkg:maven/org.kohsuke/windows-package-checker@1.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://kohsuke.org/windows-package-checker/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://windows-package-checker.kohsuke.org/"
         }
       ],
       "type" : "library",
@@ -4632,7 +5007,7 @@
       "group" : "org.kohsuke.jinterop",
       "name" : "j-interop",
       "version" : "2.0.8-kohsuke-1",
-      "description" : "${project.name}",
+      "description" : "Pure Java - COM bridge",
       "scope" : "optional",
       "hashes" : [
         {
@@ -4679,8 +5054,16 @@
       "purl" : "pkg:maven/org.kohsuke.jinterop/j-interop@2.0.8-kohsuke-1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://kohsuke.org/j-interop-parent/j-interop/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://j-interop.kohsuke.org/j-interop-parent/j-interop/"
         }
       ],
       "type" : "library",
@@ -4690,7 +5073,7 @@
       "group" : "org.kohsuke.jinterop",
       "name" : "j-interopdeps",
       "version" : "2.0.8-kohsuke-1",
-      "description" : "${project.name}",
+      "description" : "Pure Java - COM bridge",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -4736,8 +5119,16 @@
       "purl" : "pkg:maven/org.kohsuke.jinterop/j-interopdeps@2.0.8-kohsuke-1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://kohsuke.org/j-interop-parent/j-interopdeps/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://j-interopdeps.kohsuke.org/j-interop-parent/j-interopdeps/"
         }
       ],
       "type" : "library",
@@ -4791,6 +5182,10 @@
       ],
       "purl" : "pkg:maven/org.samba.jcifs/jcifs@1.3.18-kohsuke-1?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jcifs.samba.org"
+        },
         {
           "type" : "distribution",
           "url" : "http://maven.jenkins-ci.org:8081/content/repositories/releases"
@@ -4926,6 +5321,10 @@
       "purl" : "pkg:maven/net.sf.ezmorph/ezmorph@1.0.6?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://ezmorph.sourceforge.net"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://sourceforge.net/tracker/?group_id=174866"
         },
@@ -4987,6 +5386,10 @@
       ],
       "purl" : "pkg:maven/org.kohsuke.stapler/stapler@1756.vec9071748061?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/stapler/stapler"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -5061,28 +5464,28 @@
       "purl" : "pkg:maven/commons-discovery/commons-discovery@0.5?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://issues.apache.org/jira/browse/DISCOVERY"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://svn.apache.org/viewvc/commons/proper/discovery/tags/DISCOVERY_0_5_RC2"
+          "type" : "website",
+          "url" : "http://commons.apache.org/discovery/"
         },
         {
           "type" : "build-system",
           "url" : "http://vmbuild.apache.org/continuum/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/DISCOVERY"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "http://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/discovery/tags/DISCOVERY_0_5_RC2"
         }
       ],
       "type" : "library",
@@ -5143,6 +5546,14 @@
       "purl" : "pkg:maven/jakarta.annotation/jakarta.annotation-api@2.1.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.ca"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/common-annotations-api/issues"
         },
@@ -5153,10 +5564,6 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/eclipse-ee4j/common-annotations-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
         }
       ],
       "type" : "library",
@@ -5202,24 +5609,32 @@
           "content" : "f2b333527faedf504f60aa70a3d491972fa76f7e61e6351027f74613f41001157656824fe312b6e1df6dc4979704fe2a745b618d5368a97fe0bf8749739de9e2"
         }
       ],
-      "licenses" : [ ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
       "purl" : "pkg:maven/javax.annotation/javax.annotation-api@1.3.2?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://javaee.github.io/glassfish"
+          "url" : "http://jcp.org/en/jsr/detail?id=250"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/javaee/javax.annotation/issues"
         },
         {
-          "type" : "vcs",
-          "url" : "https://github.com/javaee/javax.annotation"
+          "type" : "mailing-list",
+          "url" : "javaee-spec@javaee.groups.io"
         },
         {
-          "type" : "distribution",
-          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/javax.annotation"
         }
       ],
       "type" : "library",
@@ -5276,6 +5691,10 @@
         {
           "type" : "distribution",
           "url" : "http://maven.jenkins-ci.org:8081/content/repositories/releases"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://tiger-types.kohsuke.org/"
         }
       ],
       "type" : "library",
@@ -5346,7 +5765,7 @@
       "group" : "org.kohsuke.stapler",
       "name" : "stapler-adjunct-timeline",
       "version" : "1.5",
-      "description" : "${project.name}",
+      "description" : "Timeline component at http://www.simile-widgets.org/timeline/",
       "scope" : "optional",
       "hashes" : [
         {
@@ -5391,6 +5810,10 @@
       ],
       "purl" : "pkg:maven/org.kohsuke.stapler/stapler-adjunct-timeline@1.5?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://kohsuke.org/stapler-adjunct-timeline/"
+        },
         {
           "type" : "distribution",
           "url" : "https://repo.jenkins-ci.org/releases/"
@@ -5453,6 +5876,10 @@
       ],
       "purl" : "pkg:maven/org.kohsuke.stapler/stapler-groovy@1756.vec9071748061?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/stapler/stapler-groovy"
+        },
         {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
@@ -5527,6 +5954,10 @@
       "purl" : "pkg:maven/org.kohsuke.stapler/stapler-jelly@1756.vec9071748061?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/stapler/stapler-jelly"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci.jenkins.io"
         },
@@ -5597,6 +6028,12 @@
         }
       ],
       "purl" : "pkg:maven/org.dom4j/dom4j@2.1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://dom4j.github.io/"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.dom4j/dom4j@2.1.3?type=jar"
     },
@@ -5645,7 +6082,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://jakarta.apache.org"
+          "url" : "https://github.com/jenkinsci/jelly"
         },
         {
           "type" : "build-system",
@@ -5658,6 +6095,10 @@
         {
           "type" : "issue-tracker",
           "url" : "http://issues.jenkins-ci.org"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "jenkinsci-advisories+subscribe@googlegroups.com"
         },
         {
           "type" : "vcs",
@@ -5720,7 +6161,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.ow2.org/"
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -5791,7 +6236,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.ow2.org/"
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -5862,7 +6311,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.ow2.org/"
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -5933,7 +6386,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.ow2.org/"
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -6004,7 +6461,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.ow2.org/"
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -6074,7 +6535,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -6082,7 +6543,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/log4j-over-slf4j"
         }
       ],
       "type" : "library",
@@ -6140,7 +6601,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io"
+          "url" : "https://spring.io/projects/spring-security"
         },
         {
           "type" : "issue-tracker",
@@ -6205,7 +6666,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io"
+          "url" : "https://spring.io/projects/spring-security"
         },
         {
           "type" : "issue-tracker",
@@ -6270,7 +6731,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io"
+          "url" : "https://spring.io/projects/spring-security"
         },
         {
           "type" : "issue-tracker",
@@ -6335,7 +6796,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6400,7 +6861,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6465,7 +6926,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6530,7 +6991,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6595,7 +7056,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6660,7 +7121,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://spring.io/projects/spring-framework"
+          "url" : "https://github.com/spring-projects/spring-framework"
         },
         {
           "type" : "issue-tracker",
@@ -6739,7 +7200,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.extreme.indiana.edu/"
+          "url" : "http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/"
         },
         {
           "type" : "vcs",
@@ -6805,6 +7266,14 @@
       "purl" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@4.0.4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.servlet"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/eclipse-ee4j/servlet-api/issues"
         },
@@ -6815,10 +7284,6 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/eclipse-ee4j/servlet-api"
-        },
-        {
-          "type" : "website",
-          "url" : "https://www.eclipse.org"
         }
       ],
       "type" : "library",
@@ -6874,6 +7339,10 @@
       "purl" : "pkg:maven/org.jenkins-ci/core-annotation-processors@1.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://jenkins-ci.org/core-annotation-processors/"
+        },
+        {
           "type" : "build-system",
           "url" : "http://ci.jenkins-ci.org"
         },
@@ -6886,8 +7355,12 @@
           "url" : "http://issues.jenkins-ci.org"
         },
         {
+          "type" : "mailing-list",
+          "url" : "jenkinsci-advisories+subscribe@googlegroups.com"
+        },
+        {
           "type" : "vcs",
-          "url" : "https://github.com/jenkinsci/pom"
+          "url" : "https://github.com/jenkinsci/pom/core-annotation-processors"
         }
       ],
       "type" : "library",
@@ -6905,7 +7378,41 @@
       "group" : "org.jenkins-ci.main",
       "name" : "jenkins-test",
       "version" : "2.384",
+      "description" : "Functional tests for Jenkins core",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
       "purl" : "pkg:maven/org.jenkins-ci.main/jenkins-test@2.384?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jenkinsci/jenkins/jenkins-test"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci.jenkins.io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.jenkins-ci.org/releases/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.jenkins.io/browse/JENKINS/component/15593"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://groups.google.com/g/jenkinsci-advisories"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jenkinsci/jenkins"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.jenkins-ci.main/jenkins-test@2.384?type=jar"
     },
@@ -6966,12 +7473,16 @@
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/p/jsr-305/"
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/p/jsr-305/"
         }
       ],
       "type" : "library",
@@ -7024,6 +7535,12 @@
         }
       ],
       "purl" : "pkg:maven/org.samba.jcifs/jcifs@1.2.19?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jcifs.samba.org"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.samba.jcifs/jcifs@1.2.19?type=jar"
     }

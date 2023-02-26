@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:d94bb6bd-a234-4462-bc6c-ce10dda23083",
+  "serialNumber" : "urn:uuid:1d5edb5c-535d-4807-a6dc-e5107e95b753",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:12:35Z",
+    "timestamp" : "2023-02-26T01:53:54Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -63,7 +63,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://errorprone.info"
         },
         {
           "type" : "vcs",
@@ -76,10 +76,29 @@
   },
   "components" : [
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_annotation",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_annotation"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotation"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar"
     },
@@ -133,6 +152,10 @@
       "purl" : "pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava"
+        },
+        {
           "type" : "build-system",
           "url" : "https://github.com/google/guava/actions"
         },
@@ -146,7 +169,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
+          "url" : "https://github.com/google/guava/guava"
         }
       ],
       "type" : "library",
@@ -201,8 +224,16 @@
       "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/failureaccess"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -210,11 +241,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/failureaccess"
         }
       ],
       "type" : "library",
@@ -269,8 +296,16 @@
       "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        },
+        {
           "type" : "build-system",
           "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -278,11 +313,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/guava"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/guava/listenablefuture"
         }
       ],
       "type" : "library",
@@ -338,12 +369,16 @@
       "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://code.google.com/p/jsr-305/"
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://code.google.com/p/jsr-305/"
         }
       ],
       "type" : "library",
@@ -397,6 +432,10 @@
       ],
       "purl" : "pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/typetools/checker-framework.git"
@@ -454,12 +493,16 @@
       "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.7.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "https://github.com/google/error-prone"
+          "type" : "website",
+          "url" : "http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
         }
       ],
       "type" : "library",
@@ -514,30 +557,294 @@
       "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/j2objc/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7"
+          "url" : "http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar"
     },
     {
+      "publisher" : "JUnit",
+      "group" : "junit",
+      "name" : "junit",
+      "version" : "4.13.2",
+      "description" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d98a9a02a99a9acd22d7653cbcc1f31f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0",
+            "url" : "http://www.eclipse.org/legal/epl-v10.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/junit/junit@4.13.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://junit.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/junit-team/junit4/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://github.com/junit-team/junit4/wiki/Download-and-Install"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/junit-team/junit4/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/junit-team/junit4"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/junit/junit@4.13.2?type=jar"
+    },
+    {
+      "group" : "com.google.truth",
+      "name" : "truth",
+      "version" : "1.1.3",
+      "description" : "Parent metadata for Truth, a Java assertion framework.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d1ac69df1c6f8862cc68477cbe6542a1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5e2491cc44dce7380165963a24e91a0af4556a17"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fc0b67782289a2aabfddfdf99eff1dcd5edc890d49143fcd489214b107b8f4f3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f29a9fb070aff8a32358a7b6c8998c0095de5d8d68afa7f7bac759c7050309deff929e767657ecbbefd96163460f10255ca01bc567ab30df4834b9d916a4fae8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9e133b15e9c44bbbcfa39d9fbc9d0588a2b3e653d34b7bfd273e1bb5245008794b993f9e060ebce84d4d6a1734a5ce13"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0e3c066ea8e9122dd00913d4c2218c4558aa35cdcc74d4625ab82c4fdab00eb58ef4400622b5a73dd5ac85b7a9323ff6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e80398054ce4f9f9cc140c77daf584ebf6fe9cd89a87a5c4e84ade18650ea1fa"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e75c1b28344c8db8a9cbcf2ed2d82bc666ab474569c04a26018b8993765575a9527fb5e6a01d0033f7ae35c4196f0331c204451276fc3dcb7c3fcd00d6edfad7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://github.com/google/truth/truth"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/google/truth"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/truth/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:google/truth.git/truth"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar"
+    },
+    {
+      "publisher" : "OW2",
+      "group" : "org.ow2.asm",
+      "name" : "asm",
+      "version" : "9.1",
+      "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "54b9f5d15e4877a4ea4cf9ec48e07afa"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a99500cf6eea30535eeac6be73899d048f8d12a8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0a586544f3053ec8425d252b6f7e3e6772f010eb81d75020b4fd4759a561a4534dab4f805ffd18130594d1abbeb1ad7116b9d3a1e2e643d427e12bb866655954"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9f936b2ffa1f1fccfea3c53b5206a6d94fa193aa12a0cdec2f0baf98f0cb2a0b699e99291c60be44fab6b39a1f6f2e10"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "142b7dc3b521f681f41e8467cf292ba87ed6bfb88d57372bf6d9cc3e3042cc49fd735b367d2336ff43a3ccb64b5bc87e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "be955c19490cbd305f4168b6ead4116659ef6fbdf96954d2c124ae8d3f4c4739"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fa07cc8156842f8c18e286517fd751b3e2d51be13e2e8181f1b75a6c1f98715eb3ef583cbda01ca95ca0806ffc9817d4d9ab327dca6a16152c367a319e128fed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.ow2.asm/asm@9.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://asm.ow2.io/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://repository.ow2.org/nexus/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://gitlab.ow2.org/asm/asm/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail.ow2.org/wws/arc/asm/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitlab.ow2.org/asm/asm/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.1?type=jar"
+    },
+    {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_annotations",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_check_api",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_check_api@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_check_api"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_check_api"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_check_api@2.17.0?type=jar"
     },
@@ -591,6 +898,10 @@
       ],
       "purl" : "pkg:maven/org.checkerframework/dataflow-errorprone@3.27.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/typetools/checker-framework.git"
@@ -649,6 +960,10 @@
       ],
       "purl" : "pkg:maven/io.github.java-diff-utils/java-diff-utils@4.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/java-diff-utils/java-diff-utils"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
@@ -716,7 +1031,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.eclipse.org/jgit"
+          "url" : "http://www.eclipse.org/jgit//org.eclipse.jgit"
         },
         {
           "type" : "build-system",
@@ -736,7 +1051,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://git.eclipse.org/c/jgit/jgit.git/"
+          "url" : "http://git.eclipse.org/c/jgit/jgit.git/org.eclipse.jgit/"
         }
       ],
       "type" : "library",
@@ -793,12 +1108,8 @@
       "purl" : "pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/auto/tree/master/value"
         },
         {
           "type" : "distribution",
@@ -807,10 +1118,137 @@
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar"
+    },
+    {
+      "group" : "org.hamcrest",
+      "name" : "hamcrest-core",
+      "version" : "2.2",
+      "description" : "Core Hamcrest API - deprecated, please use \"hamcrest\" instead",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "be43e37f4c7b4f6fadba382933006b15"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3f2bd07716a31c395e2837254f37f21f0f0ab24b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e6c3f02e25070177f8101f9ca265046f8c9569f82560051dbfb1e6a28c9937b1a7453f68e9a37bfce0eb69bacf45a743d16e78add931e98195d260b8a516557e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3d31875d5f5c398db6e29ea4e57ad18c9afb00b0926db20429435e74c1733f0e87189621c1f5edbf443b10bdcf7696c1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "435d92c73b0a1d7ec1d1218953e2c382057658aae9bcd71359d2daeee48407ac4c4c539b4fe321e97147f3f568f0a40b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c34903e0e52796dce65958939fd536f475c7cc3733c31ec0e731ea4586daceaa"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ce294d68caa56282e800a7d237a008a715c80f4f6f50240e7cba88154c429d30647150e4c53042569e791ddd24634ad7fe8711c0bc0d84c14663a1e5c1fab932"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hamcrest.org/JavaHamcrest/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/hamcrest/JavaHamcrest"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar"
+    },
+    {
+      "group" : "org.hamcrest",
+      "name" : "hamcrest",
+      "version" : "2.2",
+      "description" : "Core API and libraries of hamcrest matcher framework.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "10b47e837f271d0662f28780e60388e8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1820c0968dba3a11a1b30669bb1f01978a91dedc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "6b1141329b83224f69f074cb913dbff6921d6b8693ede8d2599acb626481255dae63de42eb123cbd5f59a261ac32faae012be64e8e90406ae9215543fbca5546"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "89bdcfdb28da13eaa09a40f5e3fd5667c3cf789cf43e237b8581d1cd814fee392ada66a79cbe77295950e996f485f887"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0d011b75ed22fe456ff683b420875636c4c05b3b837d8819f3f38fd33ec52b3ce2f854acfb7bebffc6659046af8fa204"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "92d05019d2aec2c45f0464df5bf29a2e41c1af1ee3de05ec9d8ca82e0ee4f0b0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4c5cbbe0dcaa9878e1dc6d3caa523c795a96280cb53843577164e5af458572cde0e82310cf5b52c1ea370c434d5631f02e06980d63126843d9b16e357a5f7483"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause",
+            "url" : "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://hamcrest.org/JavaHamcrest/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/hamcrest/JavaHamcrest"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"
     },
     {
       "group" : "org.checkerframework",
@@ -860,6 +1298,10 @@
       ],
       "purl" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/typetools/checker-framework.git"
@@ -918,6 +1360,10 @@
       ],
       "purl" : "pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.github.com/KevinStern/software-and-algorithms"
+        },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
@@ -980,6 +1426,10 @@
       "purl" : "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/ben-manes/caffeine"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/ben-manes/caffeine"
         }
@@ -988,10 +1438,29 @@
       "bom-ref" : "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_test_helpers",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_test_helpers"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_test_helpers"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar"
     },
@@ -1046,12 +1515,8 @@
       "purl" : "pkg:maven/com.google.auto.value/auto-value@1.9?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/auto/tree/master/value"
         },
         {
           "type" : "distribution",
@@ -1060,6 +1525,10 @@
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
@@ -1116,20 +1585,20 @@
       "purl" : "pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
+          "type" : "website",
+          "url" : "https://github.com/google/auto/tree/master/service"
         },
         {
-          "type" : "website",
-          "url" : "http://www.google.com"
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
         },
         {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
@@ -1186,20 +1655,20 @@
       "purl" : "pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/google/auto"
+          "type" : "website",
+          "url" : "https://github.com/google/auto/tree/master/service"
         },
         {
-          "type" : "website",
-          "url" : "http://www.google.com"
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/auto/issues"
         },
         {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "type" : "vcs",
+          "url" : "http://github.com/google/auto"
         }
       ],
       "type" : "library",
@@ -1256,7 +1725,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/auto/tree/master/common"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1265,10 +1738,6 @@
         {
           "type" : "vcs",
           "url" : "http://github.com/google/auto"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -1326,7 +1795,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com/"
+          "url" : "https://github.com/google/google-java-format/google-java-format"
         },
         {
           "type" : "distribution",
@@ -1338,201 +1807,11 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/google/google-java-format/"
+          "url" : "http://github.com/google/google-java-format/google-java-format/"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar"
-    },
-    {
-      "publisher" : "JUnit",
-      "group" : "junit",
-      "name" : "junit",
-      "version" : "4.13.2",
-      "description" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "d98a9a02a99a9acd22d7653cbcc1f31f"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "EPL-1.0",
-            "url" : "http://www.eclipse.org/legal/epl-v10.html"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/junit/junit@4.13.2?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.junit.org"
-        },
-        {
-          "type" : "build-system",
-          "url" : "https://github.com/junit-team/junit4/actions"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://github.com/junit-team/junit4/wiki/Download-and-Install"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/junit-team/junit4/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/junit-team/junit4"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/junit/junit@4.13.2?type=jar"
-    },
-    {
-      "group" : "org.hamcrest",
-      "name" : "hamcrest-core",
-      "version" : "2.2",
-      "description" : "Core Hamcrest API - deprecated, please use \"hamcrest\" instead",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "be43e37f4c7b4f6fadba382933006b15"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "3f2bd07716a31c395e2837254f37f21f0f0ab24b"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "094f5d92b4b7d9c8a2bf53cc69d356243ae89c3499457bcb4b92f7ed3bf95879"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "e6c3f02e25070177f8101f9ca265046f8c9569f82560051dbfb1e6a28c9937b1a7453f68e9a37bfce0eb69bacf45a743d16e78add931e98195d260b8a516557e"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "3d31875d5f5c398db6e29ea4e57ad18c9afb00b0926db20429435e74c1733f0e87189621c1f5edbf443b10bdcf7696c1"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "435d92c73b0a1d7ec1d1218953e2c382057658aae9bcd71359d2daeee48407ac4c4c539b4fe321e97147f3f568f0a40b"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "c34903e0e52796dce65958939fd536f475c7cc3733c31ec0e731ea4586daceaa"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "ce294d68caa56282e800a7d237a008a715c80f4f6f50240e7cba88154c429d30647150e4c53042569e791ddd24634ad7fe8711c0bc0d84c14663a1e5c1fab932"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause",
-            "url" : "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/hamcrest/JavaHamcrest"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar"
-    },
-    {
-      "group" : "org.hamcrest",
-      "name" : "hamcrest",
-      "version" : "2.2",
-      "description" : "Core API and libraries of hamcrest matcher framework.",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "10b47e837f271d0662f28780e60388e8"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "1820c0968dba3a11a1b30669bb1f01978a91dedc"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "6b1141329b83224f69f074cb913dbff6921d6b8693ede8d2599acb626481255dae63de42eb123cbd5f59a261ac32faae012be64e8e90406ae9215543fbca5546"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "89bdcfdb28da13eaa09a40f5e3fd5667c3cf789cf43e237b8581d1cd814fee392ada66a79cbe77295950e996f485f887"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "0d011b75ed22fe456ff683b420875636c4c05b3b837d8819f3f38fd33ec52b3ce2f854acfb7bebffc6659046af8fa204"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "92d05019d2aec2c45f0464df5bf29a2e41c1af1ee3de05ec9d8ca82e0ee4f0b0"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "4c5cbbe0dcaa9878e1dc6d3caa523c795a96280cb53843577164e5af458572cde0e82310cf5b52c1ea370c434d5631f02e06980d63126843d9b16e357a5f7483"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause",
-            "url" : "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/hamcrest/JavaHamcrest"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"
     },
     {
       "group" : "org.hamcrest",
@@ -1585,147 +1864,16 @@
       "purl" : "pkg:maven/org.hamcrest/hamcrest-library@2.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://hamcrest.org/JavaHamcrest/"
+        },
+        {
           "type" : "vcs",
           "url" : "https://github.com/hamcrest/JavaHamcrest"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.hamcrest/hamcrest-library@2.2?type=jar"
-    },
-    {
-      "group" : "com.google.truth",
-      "name" : "truth",
-      "version" : "1.1.3",
-      "description" : "Parent metadata for Truth, a Java assertion framework.",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "d1ac69df1c6f8862cc68477cbe6542a1"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "5e2491cc44dce7380165963a24e91a0af4556a17"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "fc0b67782289a2aabfddfdf99eff1dcd5edc890d49143fcd489214b107b8f4f3"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "f29a9fb070aff8a32358a7b6c8998c0095de5d8d68afa7f7bac759c7050309deff929e767657ecbbefd96163460f10255ca01bc567ab30df4834b9d916a4fae8"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "9e133b15e9c44bbbcfa39d9fbc9d0588a2b3e653d34b7bfd273e1bb5245008794b993f9e060ebce84d4d6a1734a5ce13"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "0e3c066ea8e9122dd00913d4c2218c4558aa35cdcc74d4625ab82c4fdab00eb58ef4400622b5a73dd5ac85b7a9323ff6"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "e80398054ce4f9f9cc140c77daf584ebf6fe9cd89a87a5c4e84ade18650ea1fa"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "e75c1b28344c8db8a9cbcf2ed2d82bc666ab474569c04a26018b8993765575a9527fb5e6a01d0033f7ae35c4196f0331c204451276fc3dcb7c3fcd00d6edfad7"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "build-system",
-          "url" : "https://travis-ci.org/google/truth"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/google/truth/issues"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar"
-    },
-    {
-      "publisher" : "OW2",
-      "group" : "org.ow2.asm",
-      "name" : "asm",
-      "version" : "9.1",
-      "description" : "ASM, a very small and fast Java bytecode manipulation framework",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "54b9f5d15e4877a4ea4cf9ec48e07afa"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "a99500cf6eea30535eeac6be73899d048f8d12a8"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "0a586544f3053ec8425d252b6f7e3e6772f010eb81d75020b4fd4759a561a4534dab4f805ffd18130594d1abbeb1ad7116b9d3a1e2e643d427e12bb866655954"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "9f936b2ffa1f1fccfea3c53b5206a6d94fa193aa12a0cdec2f0baf98f0cb2a0b699e99291c60be44fab6b39a1f6f2e10"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "142b7dc3b521f681f41e8467cf292ba87ed6bfb88d57372bf6d9cc3e3042cc49fd735b367d2336ff43a3ccb64b5bc87e"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "be955c19490cbd305f4168b6ead4116659ef6fbdf96954d2c124ae8d3f4c4739"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "fa07cc8156842f8c18e286517fd751b3e2d51be13e2e8181f1b75a6c1f98715eb3ef583cbda01ca95ca0806ffc9817d4d9ab327dca6a16152c367a319e128fed"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "BSD-3-Clause",
-            "url" : "https://opensource.org/licenses/BSD-3-Clause"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.ow2.asm/asm@9.1?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.ow2.org/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://gitlab.ow2.org/asm/asm/issues"
-        },
-        {
-          "type" : "mailing-list",
-          "url" : "https://mail.ow2.org/wws/arc/asm/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitlab.ow2.org/asm/asm/"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.ow2.asm/asm@9.1?type=jar"
     },
     {
       "publisher" : "Google Inc.",
@@ -1779,7 +1927,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com/"
+          "url" : "https://github.com/google/jimfs/jimfs"
         },
         {
           "type" : "distribution",
@@ -1791,7 +1939,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://github.com/google/jimfs/"
+          "url" : "http://github.com/google/jimfs/jimfs/"
         }
       ],
       "type" : "library",
@@ -1847,34 +1995,76 @@
       "purl" : "pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "http://github.com/google/compile-testing"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "http://github.com/google/compile-testing/issues"
         },
         {
           "type" : "vcs",
           "url" : "http://github.com/google/compile-testing"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_type_annotations",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_type_annotations"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_type_annotations"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_core",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_core@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_core"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_core"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_core@2.17.0?type=jar"
     },
@@ -1927,6 +2117,10 @@
       ],
       "purl" : "pkg:maven/org.pcollections/pcollections@3.1.4?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/hrldcpr/pcollections"
+        },
         {
           "type" : "vcs",
           "url" : "https://github.com/hrldcpr/pcollections"
@@ -1987,7 +2181,11 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.google.com"
+          "url" : "https://github.com/google/auto/tree/master/common"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -1996,10 +2194,6 @@
         {
           "type" : "vcs",
           "url" : "http://github.com/google/auto"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -2055,22 +2249,45 @@
       "purl" : "pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://developers.google.com/protocol-buffers/protobuf-java/"
+        },
+        {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/protocolbuffers/protobuf"
+          "url" : "https://github.com/protocolbuffers/protobuf/protobuf-java"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_docgen_processor",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_docgen_processor@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_docgen_processor"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_docgen_processor"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_docgen_processor@2.17.0?type=jar"
     },
@@ -2125,26 +2342,49 @@
       "purl" : "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://github.com/google/gson/gson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
           "type" : "issue-tracker",
           "url" : "https://github.com/google/gson/issues"
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/google/gson/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "https://github.com/google/gson/gson/"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.8.9?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_docgen",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_docgen@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_docgen"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_docgen"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_docgen@2.17.0?type=jar"
     },
@@ -2197,6 +2437,14 @@
       ],
       "purl" : "pkg:maven/org.yaml/snakeyaml@1.30?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://bitbucket.org/snakeyaml/snakeyaml"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
         {
           "type" : "issue-tracker",
           "url" : "https://bitbucket.org/snakeyaml/snakeyaml/issues"
@@ -2258,6 +2506,10 @@
       ],
       "purl" : "pkg:maven/com.beust/jcommander@1.82?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jcommander.org"
+        },
         {
           "type" : "issue-tracker",
           "url" : "https://github.com/cbeust/jcommander/issues"
@@ -2321,29 +2573,54 @@
       "purl" : "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.10?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
+          "type" : "website",
           "url" : "http://github.com/spullara/mustache.java"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/spullara/mustache.java"
         }
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.github.spullara.mustache.java/compiler@0.9.10?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_refaster",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_refaster@2.17.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_refaster"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_refaster"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_refaster@2.17.0?type=jar"
     },
     {
+      "publisher" : "Google LLC",
       "group" : "com.google.errorprone",
       "name" : "error_prone_core",
       "version" : "2.17.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
       "scope" : "optional",
       "hashes" : [
         {
@@ -2387,6 +2664,16 @@
         }
       ],
       "purl" : "pkg:maven/com.google.errorprone/error_prone_core@2.17.0?classifier=with-dependencies&type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_core"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_core"
+        }
+      ],
       "type" : "library",
       "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_core@2.17.0?classifier=with-dependencies&type=jar"
     }
@@ -2465,6 +2752,10 @@
       ]
     },
     {
+      "ref" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
       "ref" : "pkg:maven/org.checkerframework/dataflow-errorprone@3.27.0?type=jar",
       "dependsOn" : [ ]
     },
@@ -2488,7 +2779,10 @@
     },
     {
       "ref" : "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar",
@@ -2533,11 +2827,15 @@
     },
     {
       "ref" : "pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/junit/junit@4.13.2?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar",
@@ -2558,15 +2856,13 @@
     {
       "ref" : "pkg:maven/com.google.truth/truth@1.1.3?type=jar",
       "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar",
         "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
         "pkg:maven/junit/junit@4.13.2?type=jar",
-        "pkg:maven/com.google.errorprone/error_prone_annotations@2.7.1?type=jar",
+        "pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar",
         "pkg:maven/org.ow2.asm/asm@9.1?type=jar"
       ]
-    },
-    {
-      "ref" : "pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar",
-      "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/org.ow2.asm/asm@9.1?type=jar",
@@ -2574,11 +2870,19 @@
     },
     {
       "ref" : "pkg:maven/com.google.jimfs/jimfs@1.2?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/junit/junit@4.13.2?type=jar",
+        "pkg:maven/com.google.truth/truth@1.1.3?type=jar",
+        "pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar",
+        "pkg:maven/com.google.auto.value/auto-value@1.9?type=jar",
+        "pkg:maven/com.google.auto/auto-common@1.2?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar",

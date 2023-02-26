@@ -1,47 +1,47 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:02b267eb-22e3-423e-8605-01dfb163bc28",
+  "serialNumber" : "urn:uuid:186b18da-508e-4dc6-bbcf-97d089110316",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-02-11T19:27:18Z",
+    "timestamp" : "2023-02-26T02:06:24Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
-        "name" : "CycloneDX Maven plugin",
-        "version" : "2.7.3",
+        "name" : "CycloneDX Maven plugin makeAggregateBom",
+        "version" : "2.7.5",
         "hashes" : [
           {
             "alg" : "MD5",
-            "content" : "ab886f1cb1a79b4244ac54dde22a0989"
+            "content" : "11cd12fd5f8b60a961c385ef2be00f52"
           },
           {
             "alg" : "SHA-1",
-            "content" : "9ed658496dfeef87fe6072b95c62ec37165cc741"
+            "content" : "3576a6392958d12709ba803922ca8ee0c7a233ed"
           },
           {
             "alg" : "SHA-256",
-            "content" : "df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503"
+            "content" : "802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef"
           },
           {
             "alg" : "SHA-512",
-            "content" : "223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c"
+            "content" : "779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c"
           },
           {
             "alg" : "SHA-384",
-            "content" : "3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb"
+            "content" : "4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584"
           },
           {
             "alg" : "SHA3-384",
-            "content" : "0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19"
+            "content" : "490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18"
           },
           {
             "alg" : "SHA3-256",
-            "content" : "dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33"
+            "content" : "538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78"
           },
           {
             "alg" : "SHA3-512",
-            "content" : "e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89"
+            "content" : "5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b"
           }
         ]
       }
@@ -70,7 +70,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.inria.fr"
+          "url" : "http://spoon.gforge.inria.fr/"
         },
         {
           "type" : "distribution",
@@ -142,11 +142,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.eclipse.org/"
+          "url" : "http://www.eclipse.org/jdt"
         },
         {
           "type" : "issue-tracker",
           "url" : "https://bugs.eclipse.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:https://github.com/eclipse-jdt/eclipse.jdt.core.git"
         }
       ],
       "type" : "library",
@@ -202,6 +206,10 @@
       ],
       "purl" : "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.martiansoftware.com/jsap/"
+        },
         {
           "type" : "vcs",
           "url" : "http://jsap.cvs.sourceforge.net/jsap/"
@@ -263,7 +271,7 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.qos.ch"
+          "url" : "http://www.slf4j.org"
         },
         {
           "type" : "distribution",
@@ -271,7 +279,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/qos-ch/slf4j"
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
         }
       ],
       "type" : "library",
@@ -328,28 +336,28 @@
       "purl" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/IO"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-io/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
         }
       ],
       "type" : "library",
@@ -407,6 +415,10 @@
       "purl" : "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/4.0.0-alpha-4/maven-model/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
         },
@@ -423,8 +435,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/maven-model"
         }
       ],
       "type" : "library",
@@ -481,6 +493,10 @@
       "purl" : "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-model/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
         },
@@ -497,8 +513,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-model"
         }
       ],
       "type" : "library",
@@ -555,6 +571,10 @@
       "purl" : "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-xml/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
         },
@@ -571,8 +591,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-xml"
         }
       ],
       "type" : "library",
@@ -629,6 +649,10 @@
       "purl" : "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-meta/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
         },
@@ -645,8 +669,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/api/maven-api-meta"
         }
       ],
       "type" : "library",
@@ -703,6 +727,10 @@
       "purl" : "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/4.0.0-alpha-4/maven-xml-impl/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
         },
@@ -719,8 +747,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-4.0.0-alpha-4/maven-xml-impl"
         }
       ],
       "type" : "library",
@@ -777,11 +805,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.eclipse.org/"
+          "url" : "http://www.eclipse.org/sisu/org.eclipse.sisu.plexus/"
         },
         {
           "type" : "build-system",
           "url" : "https://hudson.eclipse.org/sisu/job/sisu-plexus-nightly/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -793,11 +825,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/org.eclipse.sisu.plexus/"
         }
       ],
       "type" : "library",
@@ -843,12 +871,20 @@
           "content" : "9a28cb34c7761e695ccea04cc6df1e0f9cd18fef59bf50d5943ddc06802e616bc2bd55211e863c65f7f7661f963ba8ee9e569324642b87bc1703dc6f07cba5e3"
         }
       ],
-      "licenses" : [ ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
       "purl" : "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://glassfish.java.net"
+          "url" : "http://jcp.org/en/jsr/detail?id=250"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -857,10 +893,6 @@
         {
           "type" : "vcs",
           "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
         }
       ],
       "type" : "library",
@@ -917,11 +949,15 @@
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "http://www.eclipse.org/"
+          "url" : "http://www.eclipse.org/sisu/org.eclipse.sisu.inject/"
         },
         {
           "type" : "build-system",
           "url" : "https://hudson.eclipse.org/sisu/job/sisu-inject-nightly/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
           "type" : "issue-tracker",
@@ -933,11 +969,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+          "url" : "http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/org.eclipse.sisu.inject/"
         }
       ],
       "type" : "library",
@@ -993,12 +1025,8 @@
       "purl" : "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://fisheye.codehaus.org/browse/plexus/plexus-containers/tags/plexus-containers-1.5.5"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.codehaus.org/"
+          "url" : "http://plexus.codehaus.org/plexus-containers/plexus-component-annotations/"
         },
         {
           "type" : "distribution",
@@ -1011,6 +1039,10 @@
         {
           "type" : "mailing-list",
           "url" : "http://archive.plexus.codehaus.org/user"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://fisheye.codehaus.org/browse/plexus/plexus-containers/tags/plexus-containers-1.5.5/plexus-component-annotations"
         }
       ],
       "type" : "library",
@@ -1066,12 +1098,8 @@
       "purl" : "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/sonatype/plexus-classworlds"
-        },
-        {
           "type" : "website",
-          "url" : "http://www.codehaus.org/"
+          "url" : "http://plexus.codehaus.org/plexus-classworlds/"
         },
         {
           "type" : "distribution",
@@ -1086,8 +1114,8 @@
           "url" : "http://archive.plexus.codehaus.org/user"
         },
         {
-          "type" : "build-system",
-          "url" : "https://grid.sonatype.org/ci/view/Spice/"
+          "type" : "vcs",
+          "url" : "http://github.com/sonatype/plexus-classworlds"
         }
       ],
       "type" : "library",
@@ -1143,24 +1171,24 @@
       "purl" : "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "http://github.com/codehaus-plexus/plexus-utils/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "http://github.com/codehaus-plexus/plexus-utils"
-        },
-        {
           "type" : "website",
-          "url" : "http://codehaus-plexus.github.io/"
+          "url" : "http://codehaus-plexus.github.io/plexus-utils/"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
         },
         {
+          "type" : "issue-tracker",
+          "url" : "http://github.com/codehaus-plexus/plexus-utils/issues"
+        },
+        {
           "type" : "mailing-list",
           "url" : "http://archive.plexus.codehaus.org/user"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/codehaus-plexus/plexus-utils"
         }
       ],
       "type" : "library",
@@ -1217,28 +1245,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/LANG"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
         }
       ],
       "type" : "library",
@@ -1295,16 +1323,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-databind"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "http://github.com/FasterXML/jackson"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-databind"
         }
       ],
       "type" : "library",
@@ -1360,16 +1392,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-annotations"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "http://github.com/FasterXML/jackson"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-annotations"
         }
       ],
       "type" : "library",
@@ -1425,16 +1461,20 @@
       "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4?type=jar",
       "externalReferences" : [
         {
-          "type" : "vcs",
-          "url" : "http://github.com/FasterXML/jackson-core"
-        },
-        {
           "type" : "website",
-          "url" : "http://fasterxml.com/"
+          "url" : "https://github.com/FasterXML/jackson-core"
         },
         {
           "type" : "distribution",
           "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-core"
         }
       ],
       "type" : "library",
@@ -1491,28 +1531,28 @@
       "purl" : "pkg:maven/org.apache.commons/commons-compress@1.21?type=jar",
       "externalReferences" : [
         {
-          "type" : "issue-tracker",
-          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-compress/"
         },
         {
           "type" : "build-system",
           "url" : "https://builds.apache.org/"
         },
         {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/COMPRESS"
+        },
+        {
           "type" : "mailing-list",
           "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-compress.git"
         }
       ],
       "type" : "library",
@@ -1569,8 +1609,16 @@
       "purl" : "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/shared/maven-invoker/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-invoker/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1581,12 +1629,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven-invoker/tree/maven-invoker-3.2.0"
         }
       ],
       "type" : "library",
@@ -1642,8 +1686,16 @@
       "purl" : "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar",
       "externalReferences" : [
         {
+          "type" : "website",
+          "url" : "https://maven.apache.org/shared/maven-shared-utils/"
+        },
+        {
           "type" : "build-system",
           "url" : "https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-shared-utils/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
         },
         {
           "type" : "issue-tracker",
@@ -1654,12 +1706,8 @@
           "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
         },
         {
-          "type" : "website",
-          "url" : "https://www.apache.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven-shared-utils/tree/maven-shared-utils-3.3.4"
         }
       ],
       "type" : "library",
@@ -1713,6 +1761,10 @@
       ],
       "purl" : "pkg:maven/javax.inject/javax.inject@1?type=jar",
       "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/atinject/"
+        },
         {
           "type" : "vcs",
           "url" : "http://code.google.com/p/atinject/source/checkout"
@@ -1845,7 +1897,9 @@
     },
     {
       "ref" : "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar",
-      "dependsOn" : [ ]
+      "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/javax.inject/javax.inject@1?type=jar",

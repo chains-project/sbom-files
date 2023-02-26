@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:d94bb6bd-a234-4462-bc6c-ce10dda23083" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:1d5edb5c-535d-4807-a6dc-e5107e95b753" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:12:35Z</timestamp>
+    <timestamp>2023-02-26T01:53:54Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -31,15 +31,23 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_parent@2.17.0?type=pom</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="vcs"><url>https://github.com/google/error-prone</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://errorprone.info</url></reference><reference type="vcs"><url>https://github.com/google/error-prone</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_annotation</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_annotation</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotation</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar">
       <group>com.google.guava</group>
@@ -65,7 +73,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava</url></reference><reference type="build-system"><url>https://github.com/google/guava/actions</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar">
       <group>com.google.guava</group>
@@ -94,7 +102,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/failureaccess@1.0.1?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/failureaccess</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/failureaccess</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar">
       <group>com.google.guava</group>
@@ -133,7 +141,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/listenablefuture</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/listenablefuture</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
       <group>com.google.code.findbugs</group>
@@ -157,7 +165,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar">
       <group>org.checkerframework</group>
@@ -181,7 +189,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/checker-qual@3.12.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.7.1?type=jar">
       <group>com.google.errorprone</group>
@@ -204,7 +212,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.7.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/google/error-prone</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar">
       <group>com.google.j2objc</group>
@@ -228,19 +236,110 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.3?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/j2objc/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/junit/junit@4.13.2?type=jar">
+      <publisher>JUnit</publisher>
+      <group>junit</group>
+      <name>junit</name>
+      <version>4.13.2</version>
+      <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">d98a9a02a99a9acd22d7653cbcc1f31f</hash>
+        <hash alg="SHA-1">8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12</hash>
+        <hash alg="SHA-256">8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3</hash>
+        <hash alg="SHA-512">a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0</hash>
+        <hash alg="SHA-384">9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae</hash>
+        <hash alg="SHA3-384">590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905</hash>
+        <hash alg="SHA3-256">a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430</hash>
+        <hash alg="SHA3-512">a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/junit/junit@4.13.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://junit.org</url></reference><reference type="build-system"><url>https://github.com/junit-team/junit4/actions</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit4/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit4/issues</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit4</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.truth/truth@1.1.3?type=jar">
+      <group>com.google.truth</group>
+      <name>truth</name>
+      <version>1.1.3</version>
+      <description>Parent metadata for Truth, a Java assertion framework.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">d1ac69df1c6f8862cc68477cbe6542a1</hash>
+        <hash alg="SHA-1">5e2491cc44dce7380165963a24e91a0af4556a17</hash>
+        <hash alg="SHA-256">fc0b67782289a2aabfddfdf99eff1dcd5edc890d49143fcd489214b107b8f4f3</hash>
+        <hash alg="SHA-512">f29a9fb070aff8a32358a7b6c8998c0095de5d8d68afa7f7bac759c7050309deff929e767657ecbbefd96163460f10255ca01bc567ab30df4834b9d916a4fae8</hash>
+        <hash alg="SHA-384">9e133b15e9c44bbbcfa39d9fbc9d0588a2b3e653d34b7bfd273e1bb5245008794b993f9e060ebce84d4d6a1734a5ce13</hash>
+        <hash alg="SHA3-384">0e3c066ea8e9122dd00913d4c2218c4558aa35cdcc74d4625ab82c4fdab00eb58ef4400622b5a73dd5ac85b7a9323ff6</hash>
+        <hash alg="SHA3-256">e80398054ce4f9f9cc140c77daf584ebf6fe9cd89a87a5c4e84ade18650ea1fa</hash>
+        <hash alg="SHA3-512">e75c1b28344c8db8a9cbcf2ed2d82bc666ab474569c04a26018b8993765575a9527fb5e6a01d0033f7ae35c4196f0331c204451276fc3dcb7c3fcd00d6edfad7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.truth/truth@1.1.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://github.com/google/truth/truth</url></reference><reference type="build-system"><url>https://travis-ci.org/google/truth</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/truth/issues</url></reference><reference type="vcs"><url>scm:git:git@github.com:google/truth.git/truth</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@9.1?type=jar">
+      <publisher>OW2</publisher>
+      <group>org.ow2.asm</group>
+      <name>asm</name>
+      <version>9.1</version>
+      <description>ASM, a very small and fast Java bytecode manipulation framework</description>
+      <hashes>
+        <hash alg="MD5">54b9f5d15e4877a4ea4cf9ec48e07afa</hash>
+        <hash alg="SHA-1">a99500cf6eea30535eeac6be73899d048f8d12a8</hash>
+        <hash alg="SHA-256">cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2</hash>
+        <hash alg="SHA-512">0a586544f3053ec8425d252b6f7e3e6772f010eb81d75020b4fd4759a561a4534dab4f805ffd18130594d1abbeb1ad7116b9d3a1e2e643d427e12bb866655954</hash>
+        <hash alg="SHA-384">9f936b2ffa1f1fccfea3c53b5206a6d94fa193aa12a0cdec2f0baf98f0cb2a0b699e99291c60be44fab6b39a1f6f2e10</hash>
+        <hash alg="SHA3-384">142b7dc3b521f681f41e8467cf292ba87ed6bfb88d57372bf6d9cc3e3042cc49fd735b367d2336ff43a3ccb64b5bc87e</hash>
+        <hash alg="SHA3-256">be955c19490cbd305f4168b6ead4116659ef6fbdf96954d2c124ae8d3f4c4739</hash>
+        <hash alg="SHA3-512">fa07cc8156842f8c18e286517fd751b3e2d51be13e2e8181f1b75a6c1f98715eb3ef583cbda01ca95ca0806ffc9817d4d9ab327dca6a16152c367a319e128fed</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+          <url>https://opensource.org/licenses/BSD-3-Clause</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.ow2.asm/asm@9.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://asm.ow2.io/</url></reference><reference type="distribution"><url>http://repository.ow2.org/nexus/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_annotations</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_annotations</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_check_api@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_check_api</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_check_api@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_check_api</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_check_api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/dataflow-errorprone@3.27.0?type=jar">
       <group>org.checkerframework</group>
@@ -269,7 +368,7 @@ Second, unlike the dataflow artifact, this artifact contains the dependencies it
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/dataflow-errorprone@3.27.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.github.java-diff-utils/java-diff-utils@4.0?type=jar">
       <publisher>java-diff-utils</publisher>
@@ -294,7 +393,7 @@ Second, unlike the dataflow artifact, this artifact contains the dependencies it
         </license>
       </licenses>
       <purl>pkg:maven/io.github.java-diff-utils/java-diff-utils@4.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/java-diff-utils/java-diff-utils/issues</url></reference><reference type="vcs"><url>https://github.com/java-diff-utils/java-diff-utils.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/java-diff-utils/java-diff-utils</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/java-diff-utils/java-diff-utils/issues</url></reference><reference type="vcs"><url>https://github.com/java-diff-utils/java-diff-utils.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jgit/org.eclipse.jgit@4.4.1.201607150455-r?type=jar">
       <publisher>Eclipse JGit Project</publisher>
@@ -318,7 +417,7 @@ Second, unlike the dataflow artifact, this artifact contains the dependencies it
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.jgit/org.eclipse.jgit@4.4.1.201607150455-r?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/jgit</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/jgit/</url></reference><reference type="distribution"><url>https://repo.eclipse.org/content/repositories/jgit-releases/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;component=JGit;product=JGit;classification=Technology</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jgit-dev</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/jgit/jgit.git/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/jgit//org.eclipse.jgit</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/jgit/</url></reference><reference type="distribution"><url>https://repo.eclipse.org/content/repositories/jgit-releases/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/buglist.cgi?query_format=advanced;component=JGit;product=JGit;classification=Technology</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jgit-dev</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/jgit/jgit.git/org.eclipse.jgit/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar">
       <publisher>Google LLC</publisher>
@@ -343,236 +442,7 @@ Second, unlike the dataflow artifact, this artifact contains the dependencies it
         </license>
       </licenses>
       <purl>pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar">
-      <group>org.checkerframework</group>
-      <name>checker-qual</name>
-      <version>3.13.0</version>
-      <description>checker-qual contains annotations (type qualifiers) that a programmer
-writes to specify Java code for type-checking by the Checker Framework.</description>
-      <hashes>
-        <hash alg="MD5">aa28b5033a3433060c5b85974626f5cb</hash>
-        <hash alg="SHA-1">e29afc6adb63a39286d38dc0e00d164117c02f0d</hash>
-        <hash alg="SHA-256">3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491</hash>
-        <hash alg="SHA-512">9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb</hash>
-        <hash alg="SHA-384">98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f</hash>
-        <hash alg="SHA3-384">a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed</hash>
-        <hash alg="SHA3-256">516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6</hash>
-        <hash alg="SHA3-512">b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar">
-      <group>com.github.kevinstern</group>
-      <name>software-and-algorithms</name>
-      <version>1.0</version>
-      <description>Neat algorithm implementations in Java</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">fbc6311fa6912f46ffe4bdb23b39604c</hash>
-        <hash alg="SHA-1">5e77666b72c6c5dd583c36148d17fc47f944dfb5</hash>
-        <hash alg="SHA-256">61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c</hash>
-        <hash alg="SHA-512">d93dafb9ec98c54c66d05b9de01a3e504bc8df2ee46481a97808892a101c2d892170be6cc36fae4a731eb69bfc845571f2daa47163c01219e2cdc2acaa12bb52</hash>
-        <hash alg="SHA-384">b22260a725f76eaef1ee08f1a20c235cb63eba0638bbef8b357941f9c54403661946f719bd66d1d6ab10bb8e40fe620e</hash>
-        <hash alg="SHA3-384">b2b96cfed5699b79191afd3ca065fc4815134d979ebf6b5defce2dd63f387d481e095df2dfb915e44ad7e85a0229cdf5</hash>
-        <hash alg="SHA3-256">29bbaa0d04fa2311fd8c8e478a1f5cc652089c6d8144a045b50902b02236e364</hash>
-        <hash alg="SHA3-512">70fee04f48e73c8537611b3fb920f5b643284652c2de1132a36b1984a44ef6ccf36dae44b8bec1b08ab0f08a59271353a38113ebc6c9e92847edc8f90c9f13c0</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>MIT</id>
-          <url>https://opensource.org/licenses/MIT</url>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://www.github.com/KevinStern/software-and-algorithms</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar">
-      <group>com.github.ben-manes.caffeine</group>
-      <name>caffeine</name>
-      <version>3.0.5</version>
-      <description>A high performance caching library</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">8248c5402434adc38901c979404f4334</hash>
-        <hash alg="SHA-1">3de85488bf535299d5f36d98626605331a10de87</hash>
-        <hash alg="SHA-256">8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15</hash>
-        <hash alg="SHA-512">d6c71e7a621c81fc321fc12e394278c9ee978391089376568d376ae12bb66957293aa3d302eb849a391873c5468a30db422487f10f982ab6cb01923846691d37</hash>
-        <hash alg="SHA-384">f242bed43fb012294954a8697a21a10e2479e2ee33380e175e45f18b66dc74310ae1b7f6af3e8c4810eb1653440e09d0</hash>
-        <hash alg="SHA3-384">6b210b8766cfa71503651fd2016b5014b99588b50ae6335f512ff991a29b71fadf0b9ace6384cf03287c87d38dc02c02</hash>
-        <hash alg="SHA3-256">1b162683c62a2a579463fc042b7603aeb4cde224e770946d7f5166000a9cc2b4</hash>
-        <hash alg="SHA3-512">6c6ff64905dd01923233ba5b3a62e438e95f497d034874552388e9756c0d4b59a3bccc05b96d2c5c32db4070703976cfa6b00978809a43efa910cbf257f40d05</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/ben-manes/caffeine</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar">
-      <group>com.google.errorprone</group>
-      <name>error_prone_test_helpers</name>
-      <version>2.17.0</version>
-      <purl>pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar</purl>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.auto.value/auto-value@1.9?type=jar">
-      <publisher>Google LLC</publisher>
-      <group>com.google.auto.value</group>
-      <name>auto-value</name>
-      <version>1.9</version>
-      <description>Immutable value-type code generation for Java 1.7+.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">f83df84686dd14b954561cc8ff15bbce</hash>
-        <hash alg="SHA-1">fd4ec236e20ae0895c30e83260f611bcbc185086</hash>
-        <hash alg="SHA-256">fd39087fa111da2b12b14675fee740043f0e78e4bfc7055cf3443bfffa3f572b</hash>
-        <hash alg="SHA-512">974da130776ea41ac1983cbdc89a47d6bad887e32801e13a8f290a93b714d1ba80a0f3e3b4d5401d4dfdab5a13a0a548bd7608f1a6969ae651db11bcc86c8621</hash>
-        <hash alg="SHA-384">b9d02c3ba46716c8aabc67889dcca40871c498dd310bb9335722ef6959d04df30a451cffaf07d1ff2ff31d6b47a3c323</hash>
-        <hash alg="SHA3-384">38fbb99b54d7f665776d94c7c4988a1504d23bba4c32bbbd58a50eb903f7622395c994c8b1d31a05ec74ce57d28c907b</hash>
-        <hash alg="SHA3-256">13093958e5d7eb1223610c11b2ebecd7709b10072f5d716584f0994bebf72f98</hash>
-        <hash alg="SHA3-512">9670d39be97d2e4c04a56cebb834e0dd49f8bcc21c35f427d2b74b419cc0f51b31bf7e3ceeb2dba923fb866e81e60e297778306f5a5b8f322d4b1a108770ba03</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.auto.value/auto-value@1.9?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar">
-      <publisher>Google LLC</publisher>
-      <group>com.google.auto.service</group>
-      <name>auto-service</name>
-      <version>1.0.1</version>
-      <description>Provider-configuration files for ServiceLoader.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">cc3dff3b12311d8c8aae5afb0a00204f</hash>
-        <hash alg="SHA-1">c9779f7372192a96c957a3df1faeeabd07881085</hash>
-        <hash alg="SHA-256">88d469a5392dc2a292dfa20432591a584c29fae417cfd88b72620f35ec795acf</hash>
-        <hash alg="SHA-512">890f34502ce0a50f98d5d940d30759a70eee192b8fc08923cd16b014f01f1e5d9c3e66153f8b3a844d41c0f6c7c2a60b4718906ac6d0c8415d643fdb39be8f5a</hash>
-        <hash alg="SHA-384">7c40769fa90bd574843136d68ad1e369dbf6bb8bffb46c1aaef226edf841a86212e0054c07523a0c9eb03d55f017d04f</hash>
-        <hash alg="SHA3-384">4ccb2c1efa3c2bfeefebf1d702cc256d67dc42156be83cd329a5d90fdb9bbbe399bd0f976bc4c4d12c2dc44815131101</hash>
-        <hash alg="SHA3-256">0a2e1b28ffbfe0ca423604ff75b154d947229490eef0ea8ae7276b371cf6cc81</hash>
-        <hash alg="SHA3-512">3774681d4e23b845a1a61e257ce7c392fa365c71934b90c78bae270061687e43595d212329b78c92592b7531c2d9e1950c5382cfdc15e0f36b49e4a9db429069</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar">
-      <publisher>Google LLC</publisher>
-      <group>com.google.auto.service</group>
-      <name>auto-service-annotations</name>
-      <version>1.0.1</version>
-      <description>Provider-configuration files for ServiceLoader.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">61f0b581d16c470cd9e7d595be8568ff</hash>
-        <hash alg="SHA-1">ac86dacc0eb9285ea9d42eee6aad8629ca3a7432</hash>
-        <hash alg="SHA-256">c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b</hash>
-        <hash alg="SHA-512">33fd334783daa34e1dbb8132810ba19c2818d6f8a9a478e6b3f7a7cf018c16cd10d2f9cda3303ad99f897c6819d3a311b07c9a32f4f2b5efe139fe6942e7d814</hash>
-        <hash alg="SHA-384">64e2bd5a80c574591da5980b7767bbcea5be06d4d57eca1bda70b103a83c26ed4ba55bfedc5b0223dd49bb7e1d598980</hash>
-        <hash alg="SHA3-384">37fb3b21b115c4425e752b331307bfd5db82dd8ed370c177c2262d79606eea479f62948f59182ec9967349cd5b9858aa</hash>
-        <hash alg="SHA3-256">9aa1e6040ab54f3e04a1ba5a499e7580a185f8259fcb857162ecfa993267e05e</hash>
-        <hash alg="SHA3-512">b7a734829422606853d976e1fd1b1403d3007a13a67c9191e366d2d2aa7827ff2347d2d602a06e6f8e4054373284bd0beca4856759a711888880fe49511b87d1</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar">
-      <publisher>Google LLC</publisher>
-      <group>com.google.auto</group>
-      <name>auto-common</name>
-      <version>1.2</version>
-      <description>Common utilities for creating annotation processors.</description>
-      <hashes>
-        <hash alg="MD5">74582e027c5f288915918ebfa7a66484</hash>
-        <hash alg="SHA-1">ca270191fd7d2a7297da7c8f29184206df10c67d</hash>
-        <hash alg="SHA-256">326d674b411ea67505273f9ade5311c15bca50644b5211a6c309c9aee590a20a</hash>
-        <hash alg="SHA-512">53bf3fb34bb45366083b82224a51e8f3aaaa33cd5bc5fb55a9f73df146d41c5a05a5a94635b4638231b6d574c670885dba30756d2ab3a59bb788bdef42ea9fa9</hash>
-        <hash alg="SHA-384">50c8e7e0e39630e3059f900c6b662ccc5cb37b124f7d0744e832c434ed89823e942ba266bcb1b03bc9497110bae7a9e6</hash>
-        <hash alg="SHA3-384">8208718f77ff9df4ba62167768fa84dca3691118035ddadfab02ebbf3586b63e0ddae1d99895ea25d635940cd4d57038</hash>
-        <hash alg="SHA3-256">ba014f0decb850aa87104380fea82b8990af414d4d72df0fa8d00a4f164bb172</hash>
-        <hash alg="SHA3-512">17fe87024a7ff960befdb439a35bcd19cd95f605c86bdc0a8597a6b8853b98ab458cacb67a9411a8c44ea242aa85d7b8c4b0d06b85ad77dfae147799db39ad14</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.auto/auto-common@1.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar">
-      <publisher>Google Inc.</publisher>
-      <group>com.google.googlejavaformat</group>
-      <name>google-java-format</name>
-      <version>1.13.0</version>
-      <description>A Java source code formatter that follows Google Java Style.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">32148ccfc2abe902cdbc6b8afa57711c</hash>
-        <hash alg="SHA-1">4759a4d143173f47b520933f8fc19f7f65e8e5c3</hash>
-        <hash alg="SHA-256">770ae53bd2f0b750bdbbda6e2c685d54378a71d276a64418333ccdde00d021ee</hash>
-        <hash alg="SHA-512">108a401311af8b493fd9dfd6210cf58937bdb31ded81d63f4d1fd72c60d874ed57544008ee2e648babba1a66102f860a45ba33e9ca50a5c753474733911dc428</hash>
-        <hash alg="SHA-384">8acc4798644495ae0e05b7f272fc8d22ecbb9842a6d9ddf6a15ec282e35d82862bcd30b9092afc82a1481fd806398a55</hash>
-        <hash alg="SHA3-384">44d2705d657420aeaa93182aaf037101e6f2a0dc69421a0a98f1390b834108f916e839325ec681b8c2ced2d18b3a2b13</hash>
-        <hash alg="SHA3-256">8e618688a45e2c8375ebf2f8ee646a272749a07d4ddb00ea5709307cf1ccf108</hash>
-        <hash alg="SHA3-512">26bcc15f6097df294a6a20078c3d45952ac39af5ab694a3b480ef28927fccf40f07944d69159d1aad960ed26465baba5193862f4f3f53888ad25a60bca4369be</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/google-java-format/issues</url></reference><reference type="vcs"><url>http://github.com/google/google-java-format/</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/junit/junit@4.13.2?type=jar">
-      <publisher>JUnit</publisher>
-      <group>junit</group>
-      <name>junit</name>
-      <version>4.13.2</version>
-      <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">d98a9a02a99a9acd22d7653cbcc1f31f</hash>
-        <hash alg="SHA-1">8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12</hash>
-        <hash alg="SHA-256">8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3</hash>
-        <hash alg="SHA-512">a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0</hash>
-        <hash alg="SHA-384">9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae</hash>
-        <hash alg="SHA3-384">590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905</hash>
-        <hash alg="SHA3-256">a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430</hash>
-        <hash alg="SHA3-512">a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>EPL-1.0</id>
-          <url>http://www.eclipse.org/legal/epl-v10.html</url>
-        </license>
-      </licenses>
-      <purl>pkg:maven/junit/junit@4.13.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.junit.org</url></reference><reference type="build-system"><url>https://github.com/junit-team/junit4/actions</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit4/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit4/issues</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit4</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/value</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar">
       <group>org.hamcrest</group>
@@ -597,7 +467,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hamcrest.org/JavaHamcrest/</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest@2.2?type=jar">
       <group>org.hamcrest</group>
@@ -621,7 +491,218 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest@2.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hamcrest.org/JavaHamcrest/</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar">
+      <group>org.checkerframework</group>
+      <name>checker-qual</name>
+      <version>3.13.0</version>
+      <description>checker-qual contains annotations (type qualifiers) that a programmer
+writes to specify Java code for type-checking by the Checker Framework.</description>
+      <hashes>
+        <hash alg="MD5">aa28b5033a3433060c5b85974626f5cb</hash>
+        <hash alg="SHA-1">e29afc6adb63a39286d38dc0e00d164117c02f0d</hash>
+        <hash alg="SHA-256">3ea0dcd73b4d6cb2fb34bd7ed4dad6db327a01ebad7db05eb7894076b3d64491</hash>
+        <hash alg="SHA-512">9e396a654bb82d96f6390673f5fbc0645f5375efe09150ff54af8d2422ff4f2fd30c0246ff09a4c56a3256c155abcf260badb4fbc5515c930e075e673cea53eb</hash>
+        <hash alg="SHA-384">98ccf581484077c417feafb3b0232000689526fec176b91a55e0035daeb666c8b592c6642330ebeeacc2f0b095a9e47f</hash>
+        <hash alg="SHA3-384">a87ab9211661129181a092b0f46e1343e26d973fb663ba833a49f19d77e96b766d3fc580af8d26566d498c87ee7200ed</hash>
+        <hash alg="SHA3-256">516faec41462083530abd30dfe3e82eabd906f679543dfa3ae364084740415c6</hash>
+        <hash alg="SHA3-512">b3a287ea9d6c969aaafcdb1e0c6843145b8e3a7e94848cc3dd1c40a012178a5aece2fa193c5d5d36430135db508c503d073d140a615d281b07cea8a8e15ccfd0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar">
+      <group>com.github.kevinstern</group>
+      <name>software-and-algorithms</name>
+      <version>1.0</version>
+      <description>Neat algorithm implementations in Java</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">fbc6311fa6912f46ffe4bdb23b39604c</hash>
+        <hash alg="SHA-1">5e77666b72c6c5dd583c36148d17fc47f944dfb5</hash>
+        <hash alg="SHA-256">61ab82439cef37343b14f53154c461619375373a56b9338e895709fb54e0864c</hash>
+        <hash alg="SHA-512">d93dafb9ec98c54c66d05b9de01a3e504bc8df2ee46481a97808892a101c2d892170be6cc36fae4a731eb69bfc845571f2daa47163c01219e2cdc2acaa12bb52</hash>
+        <hash alg="SHA-384">b22260a725f76eaef1ee08f1a20c235cb63eba0638bbef8b357941f9c54403661946f719bd66d1d6ab10bb8e40fe620e</hash>
+        <hash alg="SHA3-384">b2b96cfed5699b79191afd3ca065fc4815134d979ebf6b5defce2dd63f387d481e095df2dfb915e44ad7e85a0229cdf5</hash>
+        <hash alg="SHA3-256">29bbaa0d04fa2311fd8c8e478a1f5cc652089c6d8144a045b50902b02236e364</hash>
+        <hash alg="SHA3-512">70fee04f48e73c8537611b3fb920f5b643284652c2de1132a36b1984a44ef6ccf36dae44b8bec1b08ab0f08a59271353a38113ebc6c9e92847edc8f90c9f13c0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://www.github.com/KevinStern/software-and-algorithms</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://www.github.com/KevinStern/software-and-algorithms</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar">
+      <group>com.github.ben-manes.caffeine</group>
+      <name>caffeine</name>
+      <version>3.0.5</version>
+      <description>A high performance caching library</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">8248c5402434adc38901c979404f4334</hash>
+        <hash alg="SHA-1">3de85488bf535299d5f36d98626605331a10de87</hash>
+        <hash alg="SHA-256">8a9b54d3506a3b92ee46b217bcee79196b21ca6d52dc2967c686a205fb2f9c15</hash>
+        <hash alg="SHA-512">d6c71e7a621c81fc321fc12e394278c9ee978391089376568d376ae12bb66957293aa3d302eb849a391873c5468a30db422487f10f982ab6cb01923846691d37</hash>
+        <hash alg="SHA-384">f242bed43fb012294954a8697a21a10e2479e2ee33380e175e45f18b66dc74310ae1b7f6af3e8c4810eb1653440e09d0</hash>
+        <hash alg="SHA3-384">6b210b8766cfa71503651fd2016b5014b99588b50ae6335f512ff991a29b71fadf0b9ace6384cf03287c87d38dc02c02</hash>
+        <hash alg="SHA3-256">1b162683c62a2a579463fc042b7603aeb4cde224e770946d7f5166000a9cc2b4</hash>
+        <hash alg="SHA3-512">6c6ff64905dd01923233ba5b3a62e438e95f497d034874552388e9756c0d4b59a3bccc05b96d2c5c32db4070703976cfa6b00978809a43efa910cbf257f40d05</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/ben-manes/caffeine</url></reference><reference type="vcs"><url>https://github.com/ben-manes/caffeine</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
+      <group>com.google.errorprone</group>
+      <name>error_prone_test_helpers</name>
+      <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_test_helpers</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_test_helpers</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.auto.value/auto-value@1.9?type=jar">
+      <publisher>Google LLC</publisher>
+      <group>com.google.auto.value</group>
+      <name>auto-value</name>
+      <version>1.9</version>
+      <description>Immutable value-type code generation for Java 1.7+.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">f83df84686dd14b954561cc8ff15bbce</hash>
+        <hash alg="SHA-1">fd4ec236e20ae0895c30e83260f611bcbc185086</hash>
+        <hash alg="SHA-256">fd39087fa111da2b12b14675fee740043f0e78e4bfc7055cf3443bfffa3f572b</hash>
+        <hash alg="SHA-512">974da130776ea41ac1983cbdc89a47d6bad887e32801e13a8f290a93b714d1ba80a0f3e3b4d5401d4dfdab5a13a0a548bd7608f1a6969ae651db11bcc86c8621</hash>
+        <hash alg="SHA-384">b9d02c3ba46716c8aabc67889dcca40871c498dd310bb9335722ef6959d04df30a451cffaf07d1ff2ff31d6b47a3c323</hash>
+        <hash alg="SHA3-384">38fbb99b54d7f665776d94c7c4988a1504d23bba4c32bbbd58a50eb903f7622395c994c8b1d31a05ec74ce57d28c907b</hash>
+        <hash alg="SHA3-256">13093958e5d7eb1223610c11b2ebecd7709b10072f5d716584f0994bebf72f98</hash>
+        <hash alg="SHA3-512">9670d39be97d2e4c04a56cebb834e0dd49f8bcc21c35f427d2b74b419cc0f51b31bf7e3ceeb2dba923fb866e81e60e297778306f5a5b8f322d4b1a108770ba03</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.auto.value/auto-value@1.9?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/value</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar">
+      <publisher>Google LLC</publisher>
+      <group>com.google.auto.service</group>
+      <name>auto-service</name>
+      <version>1.0.1</version>
+      <description>Provider-configuration files for ServiceLoader.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">cc3dff3b12311d8c8aae5afb0a00204f</hash>
+        <hash alg="SHA-1">c9779f7372192a96c957a3df1faeeabd07881085</hash>
+        <hash alg="SHA-256">88d469a5392dc2a292dfa20432591a584c29fae417cfd88b72620f35ec795acf</hash>
+        <hash alg="SHA-512">890f34502ce0a50f98d5d940d30759a70eee192b8fc08923cd16b014f01f1e5d9c3e66153f8b3a844d41c0f6c7c2a60b4718906ac6d0c8415d643fdb39be8f5a</hash>
+        <hash alg="SHA-384">7c40769fa90bd574843136d68ad1e369dbf6bb8bffb46c1aaef226edf841a86212e0054c07523a0c9eb03d55f017d04f</hash>
+        <hash alg="SHA3-384">4ccb2c1efa3c2bfeefebf1d702cc256d67dc42156be83cd329a5d90fdb9bbbe399bd0f976bc4c4d12c2dc44815131101</hash>
+        <hash alg="SHA3-256">0a2e1b28ffbfe0ca423604ff75b154d947229490eef0ea8ae7276b371cf6cc81</hash>
+        <hash alg="SHA3-512">3774681d4e23b845a1a61e257ce7c392fa365c71934b90c78bae270061687e43595d212329b78c92592b7531c2d9e1950c5382cfdc15e0f36b49e4a9db429069</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.auto.service/auto-service@1.0.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/service</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar">
+      <publisher>Google LLC</publisher>
+      <group>com.google.auto.service</group>
+      <name>auto-service-annotations</name>
+      <version>1.0.1</version>
+      <description>Provider-configuration files for ServiceLoader.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">61f0b581d16c470cd9e7d595be8568ff</hash>
+        <hash alg="SHA-1">ac86dacc0eb9285ea9d42eee6aad8629ca3a7432</hash>
+        <hash alg="SHA-256">c7bec54b7b5588b5967e870341091c5691181d954cf2039f1bf0a6eeb837473b</hash>
+        <hash alg="SHA-512">33fd334783daa34e1dbb8132810ba19c2818d6f8a9a478e6b3f7a7cf018c16cd10d2f9cda3303ad99f897c6819d3a311b07c9a32f4f2b5efe139fe6942e7d814</hash>
+        <hash alg="SHA-384">64e2bd5a80c574591da5980b7767bbcea5be06d4d57eca1bda70b103a83c26ed4ba55bfedc5b0223dd49bb7e1d598980</hash>
+        <hash alg="SHA3-384">37fb3b21b115c4425e752b331307bfd5db82dd8ed370c177c2262d79606eea479f62948f59182ec9967349cd5b9858aa</hash>
+        <hash alg="SHA3-256">9aa1e6040ab54f3e04a1ba5a499e7580a185f8259fcb857162ecfa993267e05e</hash>
+        <hash alg="SHA3-512">b7a734829422606853d976e1fd1b1403d3007a13a67c9191e366d2d2aa7827ff2347d2d602a06e6f8e4054373284bd0beca4856759a711888880fe49511b87d1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.auto.service/auto-service-annotations@1.0.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/service</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar">
+      <publisher>Google LLC</publisher>
+      <group>com.google.auto</group>
+      <name>auto-common</name>
+      <version>1.2</version>
+      <description>Common utilities for creating annotation processors.</description>
+      <hashes>
+        <hash alg="MD5">74582e027c5f288915918ebfa7a66484</hash>
+        <hash alg="SHA-1">ca270191fd7d2a7297da7c8f29184206df10c67d</hash>
+        <hash alg="SHA-256">326d674b411ea67505273f9ade5311c15bca50644b5211a6c309c9aee590a20a</hash>
+        <hash alg="SHA-512">53bf3fb34bb45366083b82224a51e8f3aaaa33cd5bc5fb55a9f73df146d41c5a05a5a94635b4638231b6d574c670885dba30756d2ab3a59bb788bdef42ea9fa9</hash>
+        <hash alg="SHA-384">50c8e7e0e39630e3059f900c6b662ccc5cb37b124f7d0744e832c434ed89823e942ba266bcb1b03bc9497110bae7a9e6</hash>
+        <hash alg="SHA3-384">8208718f77ff9df4ba62167768fa84dca3691118035ddadfab02ebbf3586b63e0ddae1d99895ea25d635940cd4d57038</hash>
+        <hash alg="SHA3-256">ba014f0decb850aa87104380fea82b8990af414d4d72df0fa8d00a4f164bb172</hash>
+        <hash alg="SHA3-512">17fe87024a7ff960befdb439a35bcd19cd95f605c86bdc0a8597a6b8853b98ab458cacb67a9411a8c44ea242aa85d7b8c4b0d06b85ad77dfae147799db39ad14</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.auto/auto-common@1.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/common</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar">
+      <publisher>Google Inc.</publisher>
+      <group>com.google.googlejavaformat</group>
+      <name>google-java-format</name>
+      <version>1.13.0</version>
+      <description>A Java source code formatter that follows Google Java Style.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">32148ccfc2abe902cdbc6b8afa57711c</hash>
+        <hash alg="SHA-1">4759a4d143173f47b520933f8fc19f7f65e8e5c3</hash>
+        <hash alg="SHA-256">770ae53bd2f0b750bdbbda6e2c685d54378a71d276a64418333ccdde00d021ee</hash>
+        <hash alg="SHA-512">108a401311af8b493fd9dfd6210cf58937bdb31ded81d63f4d1fd72c60d874ed57544008ee2e648babba1a66102f860a45ba33e9ca50a5c753474733911dc428</hash>
+        <hash alg="SHA-384">8acc4798644495ae0e05b7f272fc8d22ecbb9842a6d9ddf6a15ec282e35d82862bcd30b9092afc82a1481fd806398a55</hash>
+        <hash alg="SHA3-384">44d2705d657420aeaa93182aaf037101e6f2a0dc69421a0a98f1390b834108f916e839325ec681b8c2ced2d18b3a2b13</hash>
+        <hash alg="SHA3-256">8e618688a45e2c8375ebf2f8ee646a272749a07d4ddb00ea5709307cf1ccf108</hash>
+        <hash alg="SHA3-512">26bcc15f6097df294a6a20078c3d45952ac39af5ab694a3b480ef28927fccf40f07944d69159d1aad960ed26465baba5193862f4f3f53888ad25a60bca4369be</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/google-java-format/google-java-format</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/google-java-format/issues</url></reference><reference type="vcs"><url>http://github.com/google/google-java-format/google-java-format/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-library@2.2?type=jar">
       <group>org.hamcrest</group>
@@ -646,56 +727,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.hamcrest/hamcrest-library@2.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/com.google.truth/truth@1.1.3?type=jar">
-      <group>com.google.truth</group>
-      <name>truth</name>
-      <version>1.1.3</version>
-      <description>Parent metadata for Truth, a Java assertion framework.</description>
-      <scope>optional</scope>
-      <hashes>
-        <hash alg="MD5">d1ac69df1c6f8862cc68477cbe6542a1</hash>
-        <hash alg="SHA-1">5e2491cc44dce7380165963a24e91a0af4556a17</hash>
-        <hash alg="SHA-256">fc0b67782289a2aabfddfdf99eff1dcd5edc890d49143fcd489214b107b8f4f3</hash>
-        <hash alg="SHA-512">f29a9fb070aff8a32358a7b6c8998c0095de5d8d68afa7f7bac759c7050309deff929e767657ecbbefd96163460f10255ca01bc567ab30df4834b9d916a4fae8</hash>
-        <hash alg="SHA-384">9e133b15e9c44bbbcfa39d9fbc9d0588a2b3e653d34b7bfd273e1bb5245008794b993f9e060ebce84d4d6a1734a5ce13</hash>
-        <hash alg="SHA3-384">0e3c066ea8e9122dd00913d4c2218c4558aa35cdcc74d4625ab82c4fdab00eb58ef4400622b5a73dd5ac85b7a9323ff6</hash>
-        <hash alg="SHA3-256">e80398054ce4f9f9cc140c77daf584ebf6fe9cd89a87a5c4e84ade18650ea1fa</hash>
-        <hash alg="SHA3-512">e75c1b28344c8db8a9cbcf2ed2d82bc666ab474569c04a26018b8993765575a9527fb5e6a01d0033f7ae35c4196f0331c204451276fc3dcb7c3fcd00d6edfad7</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>Apache-2.0</id>
-        </license>
-      </licenses>
-      <purl>pkg:maven/com.google.truth/truth@1.1.3?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/truth</url></reference><reference type="issue-tracker"><url>https://github.com/google/truth/issues</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
-    </component>
-    <component type="library" bom-ref="pkg:maven/org.ow2.asm/asm@9.1?type=jar">
-      <publisher>OW2</publisher>
-      <group>org.ow2.asm</group>
-      <name>asm</name>
-      <version>9.1</version>
-      <description>ASM, a very small and fast Java bytecode manipulation framework</description>
-      <hashes>
-        <hash alg="MD5">54b9f5d15e4877a4ea4cf9ec48e07afa</hash>
-        <hash alg="SHA-1">a99500cf6eea30535eeac6be73899d048f8d12a8</hash>
-        <hash alg="SHA-256">cda4de455fab48ff0bcb7c48b4639447d4de859a7afc30a094a986f0936beba2</hash>
-        <hash alg="SHA-512">0a586544f3053ec8425d252b6f7e3e6772f010eb81d75020b4fd4759a561a4534dab4f805ffd18130594d1abbeb1ad7116b9d3a1e2e643d427e12bb866655954</hash>
-        <hash alg="SHA-384">9f936b2ffa1f1fccfea3c53b5206a6d94fa193aa12a0cdec2f0baf98f0cb2a0b699e99291c60be44fab6b39a1f6f2e10</hash>
-        <hash alg="SHA3-384">142b7dc3b521f681f41e8467cf292ba87ed6bfb88d57372bf6d9cc3e3042cc49fd735b367d2336ff43a3ccb64b5bc87e</hash>
-        <hash alg="SHA3-256">be955c19490cbd305f4168b6ead4116659ef6fbdf96954d2c124ae8d3f4c4739</hash>
-        <hash alg="SHA3-512">fa07cc8156842f8c18e286517fd751b3e2d51be13e2e8181f1b75a6c1f98715eb3ef583cbda01ca95ca0806ffc9817d4d9ab327dca6a16152c367a319e128fed</hash>
-      </hashes>
-      <licenses>
-        <license>
-          <id>BSD-3-Clause</id>
-          <url>https://opensource.org/licenses/BSD-3-Clause</url>
-        </license>
-      </licenses>
-      <purl>pkg:maven/org.ow2.asm/asm@9.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.ow2.org/</url></reference><reference type="issue-tracker"><url>https://gitlab.ow2.org/asm/asm/issues</url></reference><reference type="mailing-list"><url>https://mail.ow2.org/wws/arc/asm/</url></reference><reference type="vcs"><url>https://gitlab.ow2.org/asm/asm/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://hamcrest.org/JavaHamcrest/</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.jimfs/jimfs@1.2?type=jar">
       <publisher>Google Inc.</publisher>
@@ -720,7 +752,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.jimfs/jimfs@1.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/jimfs/issues</url></reference><reference type="vcs"><url>http://github.com/google/jimfs/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/jimfs/jimfs</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/jimfs/issues</url></reference><reference type="vcs"><url>http://github.com/google/jimfs/jimfs/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar">
       <group>com.google.testing.compile</group>
@@ -744,19 +776,35 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://github.com/google/compile-testing/issues</url></reference><reference type="vcs"><url>http://github.com/google/compile-testing</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/google/compile-testing</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/compile-testing/issues</url></reference><reference type="vcs"><url>http://github.com/google/compile-testing</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_type_annotations</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_type_annotations</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_type_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_core@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_core</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_core@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_core</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.pcollections/pcollections@3.1.4?type=jar">
       <group>org.pcollections</group>
@@ -780,7 +828,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.pcollections/pcollections@3.1.4?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/hrldcpr/pcollections</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/hrldcpr/pcollections</url></reference><reference type="vcs"><url>https://github.com/hrldcpr/pcollections</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.auto/auto-common@1.2.1?type=jar">
       <publisher>Google LLC</publisher>
@@ -805,7 +853,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.auto/auto-common@1.2.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.google.com</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/auto/tree/master/common</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/google/auto/issues</url></reference><reference type="vcs"><url>http://github.com/google/auto</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar">
       <group>com.google.protobuf</group>
@@ -830,13 +878,21 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://developers.google.com/protocol-buffers/protobuf-java/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf/protobuf-java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_docgen_processor@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_docgen_processor</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_docgen_processor@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_docgen_processor</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_docgen_processor</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.gson/gson@2.8.9?type=jar">
       <group>com.google.code.gson</group>
@@ -861,13 +917,21 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.gson/gson@2.8.9?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/google/gson/issues</url></reference><reference type="vcs"><url>https://github.com/google/gson/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/gson/gson</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/gson/issues</url></reference><reference type="vcs"><url>https://github.com/google/gson/gson/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_docgen@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_docgen</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_docgen@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_docgen</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_docgen</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.yaml/snakeyaml@1.30?type=jar">
       <group>org.yaml</group>
@@ -891,7 +955,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/org.yaml/snakeyaml@1.30?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://bitbucket.org/snakeyaml/snakeyaml/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/snakeyaml/snakeyaml/src</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://bitbucket.org/snakeyaml/snakeyaml</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bitbucket.org/snakeyaml/snakeyaml/issues</url></reference><reference type="vcs"><url>https://bitbucket.org/snakeyaml/snakeyaml/src</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.beust/jcommander@1.82?type=jar">
       <group>com.beust</group>
@@ -915,7 +979,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.beust/jcommander@1.82?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/cbeust/jcommander/issues</url></reference><reference type="vcs"><url>https://github.com/cbeust/jcommander</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://jcommander.org</url></reference><reference type="issue-tracker"><url>https://github.com/cbeust/jcommander/issues</url></reference><reference type="vcs"><url>https://github.com/cbeust/jcommander</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.github.spullara.mustache.java/compiler@0.9.10?type=jar">
       <group>com.github.spullara.mustache.java</group>
@@ -940,18 +1004,28 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.github.spullara.mustache.java/compiler@0.9.10?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://github.com/spullara/mustache.java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://github.com/spullara/mustache.java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://github.com/spullara/mustache.java</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_refaster@2.17.0?type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_refaster</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_refaster@2.17.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_refaster</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_refaster</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_core@2.17.0?classifier=with-dependencies&amp;type=jar">
+      <publisher>Google LLC</publisher>
       <group>com.google.errorprone</group>
       <name>error_prone_core</name>
       <version>2.17.0</version>
+      <description>Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">af5280726a8800e6ceb0754618240c53</hash>
@@ -969,6 +1043,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_core@2.17.0?classifier=with-dependencies&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://errorprone.info/error_prone_core</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_core</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -1011,6 +1086,7 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
       <dependency ref="pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar"/>
       <dependency ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar"/>
     </dependency>
+    <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"/>
     <dependency ref="pkg:maven/org.checkerframework/dataflow-errorprone@3.27.0?type=jar"/>
     <dependency ref="pkg:maven/io.github.java-diff-utils/java-diff-utils@4.0?type=jar">
       <dependency ref="pkg:maven/org.eclipse.jgit/org.eclipse.jgit@4.4.1.201607150455-r?type=jar"/>
@@ -1018,7 +1094,10 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
     <dependency ref="pkg:maven/org.eclipse.jgit/org.eclipse.jgit@4.4.1.201607150455-r?type=jar"/>
     <dependency ref="pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar"/>
     <dependency ref="pkg:maven/com.github.kevinstern/software-and-algorithms@1.0?type=jar"/>
-    <dependency ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar"/>
+    <dependency ref="pkg:maven/com.github.ben-manes.caffeine/caffeine@3.0.5?type=jar">
+      <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"/>
+      <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.google.errorprone/error_prone_test_helpers@2.17.0?type=jar">
       <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotation@2.17.0?type=jar"/>
       <dependency ref="pkg:maven/com.google.errorprone/error_prone_check_api@2.17.0?type=jar"/>
@@ -1045,8 +1124,12 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
     <dependency ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar">
       <dependency ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar"/>
-    <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar"/>
+    <dependency ref="pkg:maven/com.google.googlejavaformat/google-java-format@1.13.0?type=jar">
+      <dependency ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar">
+      <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar">
       <dependency ref="pkg:maven/org.hamcrest/hamcrest@2.2?type=jar"/>
     </dependency>
@@ -1055,15 +1138,24 @@ writes to specify Java code for type-checking by the Checker Framework.</descrip
       <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@2.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.google.truth/truth@1.1.3?type=jar">
+      <dependency ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"/>
       <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"/>
       <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar"/>
-      <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.7.1?type=jar"/>
+      <dependency ref="pkg:maven/com.google.auto.value/auto-value-annotations@1.9?type=jar"/>
+      <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar"/>
       <dependency ref="pkg:maven/org.ow2.asm/asm@9.1?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.checkerframework/checker-qual@3.13.0?type=jar"/>
     <dependency ref="pkg:maven/org.ow2.asm/asm@9.1?type=jar"/>
-    <dependency ref="pkg:maven/com.google.jimfs/jimfs@1.2?type=jar"/>
-    <dependency ref="pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar"/>
+    <dependency ref="pkg:maven/com.google.jimfs/jimfs@1.2?type=jar">
+      <dependency ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.google.testing.compile/compile-testing@0.19?type=jar">
+      <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar"/>
+      <dependency ref="pkg:maven/com.google.truth/truth@1.1.3?type=jar"/>
+      <dependency ref="pkg:maven/com.google.guava/guava@31.0.1-jre?type=jar"/>
+      <dependency ref="pkg:maven/com.google.auto.value/auto-value@1.9?type=jar"/>
+      <dependency ref="pkg:maven/com.google.auto/auto-common@1.2?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/com.google.errorprone/error_prone_type_annotations@2.17.0?type=jar">
       <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.17.0?type=jar"/>
     </dependency>

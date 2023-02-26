@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:41b38d57-6049-45c9-8b33-0c9c35a2aa3d" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:bff75082-9f6f-4e2f-a891-d991185b02bb" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:21:25Z</timestamp>
+    <timestamp>2023-02-26T02:00:11Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -30,7 +30,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.akathist.maven.plugins.launch4j/launch4j-maven-plugin@2.2.0?type=maven-plugin</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://orphan.software/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -60,7 +60,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/net.sf.launch4j/launch4j@3.50?classifier=core&amp;type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://sourceforge.net/p/launch4j/git/ci/master/tree/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://sourceforge.net/projects/launch4j/</url></reference><reference type="vcs"><url>http://sourceforge.net/p/launch4j/git/ci/master/tree/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -84,7 +84,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-beanutils/commons-beanutils@1.9.4?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-beanutils/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/BEANUTILS</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/beanutils/tags/BEANUTILS_1_9_3_RC3</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -109,7 +109,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.jgoodies/jgoodies-common@1.7.0?type=jar">
       <publisher>JGoodies Software GmbH</publisher>
@@ -134,7 +134,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.jgoodies/jgoodies-common@1.7.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.jgoodies.com/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.jgoodies.com/downloads/libraries.html</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/jgoodies-common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.jgoodies/forms@1.2.1?type=jar">
       <group>com.jgoodies</group>
@@ -160,7 +160,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.jgoodies/forms@1.2.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://forms.dev.java.net/source/browse/forms/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://forms.dev.java.net/</url></reference><reference type="distribution"><url>sftp://web.sourceforge.net/home/groups/m/mv/mvnartifacts/htdocs/m2-repo</url></reference><reference type="vcs"><url>https://forms.dev.java.net/source/browse/forms/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.formdev/flatlaf@1.0?type=jar">
       <group>com.formdev</group>
@@ -183,7 +183,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.formdev/flatlaf@1.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/JFormDesigner/FlatLaf/issues</url></reference><reference type="vcs"><url>https://github.com/JFormDesigner/FlatLaf</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/JFormDesigner/FlatLaf</url></reference><reference type="issue-tracker"><url>https://github.com/JFormDesigner/FlatLaf/issues</url></reference><reference type="vcs"><url>https://github.com/JFormDesigner/FlatLaf</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.ant/ant@1.10.12?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -208,7 +208,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.ant/ant@1.10.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -232,7 +232,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.ant/ant-launcher@1.10.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant-launcher</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar">
       <publisher>XStream</publisher>
@@ -258,7 +258,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.thoughtworks.xstream/xstream@1.4.19?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://x-stream.github.io</url></reference><reference type="build-system"><url>https://travis-ci.org/x-stream/xstream</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/xstream/issues/</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/xstream-user</url></reference><reference type="vcs"><url>http://github.com/x-stream/xstream</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://x-stream.github.io/xstream</url></reference><reference type="build-system"><url>https://travis-ci.org/x-stream/xstream</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/xstream/issues/</url></reference><reference type="mailing-list"><url>https://groups.google.com/forum/#!forum/xstream-user</url></reference><reference type="vcs"><url>http://github.com/x-stream/xstream/xstream</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar">
       <group>io.github.x-stream</group>
@@ -282,7 +282,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/io.github.x-stream/mxparser@1.2.2?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://github.com/x-stream/mxparser/actions?query=workflow%3A%22CI+with+Maven%22</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/mxparser/issues/</url></reference><reference type="vcs"><url>https://github.com/x-stream/mxparser</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://x-stream.github.io/mxparser</url></reference><reference type="build-system"><url>https://github.com/x-stream/mxparser/actions?query=workflow%3A%22CI+with+Maven%22</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://github.com/x-stream/mxparser/issues/</url></reference><reference type="vcs"><url>https://github.com/x-stream/mxparser</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar">
       <group>xmlpull</group>
@@ -305,6 +305,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.xmlpull.org</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-plugin-api@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -329,7 +330,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-plugin-api@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-plugin-api/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-plugin-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar">
       <publisher>The Eclipse Foundation</publisher>
@@ -353,7 +354,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/sisu/job/sisu-plexus-nightly/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Plexus&amp;format=guided</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/sisu-dev/</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/sisu/org.eclipse.sisu.plexus/</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/sisu/job/sisu-plexus-nightly/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Plexus&amp;format=guided</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/sisu-dev/</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.plexus.git/tree/org.eclipse.sisu.plexus/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar">
       <publisher>GlassFish Community</publisher>
@@ -371,9 +372,11 @@
         <hash alg="SHA3-256">2e2acc7429faecd2e74c0c441209b1a5b0ccbc245ccd8391425c4b1e4b2fbc94</hash>
         <hash alg="SHA3-512">9a28cb34c7761e695ccea04cc6df1e0f9cd18fef59bf50d5943ddc06802e616bc2bd55211e863c65f7f7661f963ba8ee9e569324642b87bc1703dc6f07cba5e3</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.0 OR GPL-2.0-with-classpath-exception)</expression>
+      </licenses>
       <purl>pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://glassfish.java.net</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/GLASSFISH</url></reference><reference type="vcs"><url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jcp.org/en/jsr/detail?id=250</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/GLASSFISH</url></reference><reference type="vcs"><url>http://java.net/projects/glassfish/sources/svn/show/tags/javax.annotation-api-1.2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -398,7 +401,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-utils/issues</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-utils</url></reference><reference type="website"><url>http://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://codehaus-plexus.github.io/plexus-utils/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-utils/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-utils</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -422,7 +425,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-classworlds/issues</url></reference><reference type="website"><url>http://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://codehaus-plexus.github.io/plexus-classworlds/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-classworlds/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-classworlds/tree/plexus-classworlds-2.6.0/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-model@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -447,7 +450,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-model@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-model/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-model</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-artifact@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -478,7 +481,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-artifact@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-artifact/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-artifact</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -504,7 +507,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-lang.git</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://git-wip-us.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-core@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -529,7 +532,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-core@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-core/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-settings@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -553,7 +556,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-settings@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-settings/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-settings</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-settings-builder@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -577,7 +580,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-settings-builder@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-settings-builder/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-settings-builder</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-sec-dispatcher@2.0?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -601,7 +604,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-sec-dispatcher@2.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-sec-dispatcher/issues</url></reference><reference type="vcs"><url>https://github.com/codehaus-plexus/plexus-sec-dispatcher.git</url></reference><reference type="website"><url>https://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://codehaus-plexus.github.io/plexus-sec-dispatcher/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-sec-dispatcher/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>https://github.com/codehaus-plexus/plexus-sec-dispatcher.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-cipher@2.0?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -625,7 +628,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-cipher@2.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-cipher/issues</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-cipher</url></reference><reference type="website"><url>https://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://codehaus-plexus.github.io/plexus-cipher/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-cipher/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-cipher</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-builder-support@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -649,7 +652,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-builder-support@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-builder-support/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-builder-support</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-repository-metadata@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -673,7 +676,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-repository-metadata@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-repository-metadata/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-repository-metadata</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-model-builder@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -697,7 +700,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-model-builder@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-model-builder/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-model-builder</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven/maven-resolver-provider@3.8.6?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -721,7 +724,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven/maven-resolver-provider@3.8.6?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/ref/3.8.6/maven-resolver-provider/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven/</url></reference><reference type="distribution"><url>https://maven.apache.org/download.html</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MNG</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven/tree/maven-3.8.6/maven-resolver-provider</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-impl@1.6.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -745,7 +748,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.resolver/maven-resolver-impl@1.6.3?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/resolver/maven-resolver-impl/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-resolver/tree/maven-resolver-1.6.3/maven-resolver-impl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.6.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -769,7 +772,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.6.3?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/resolver/maven-resolver-api/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-resolver/tree/maven-resolver-1.6.3/maven-resolver-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.6.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -793,7 +796,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.6.3?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/resolver/maven-resolver-spi/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-resolver/tree/maven-resolver-1.6.3/maven-resolver-spi</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.6.3?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -817,7 +820,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.6.3?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/resolver/maven-resolver-util/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-resolver/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MRESOLVER</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-resolver/tree/maven-resolver-1.6.3/maven-resolver-util</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -841,7 +844,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-shared-utils/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/issues/?jql=project%20%3D%20MSHARED%20AND%20component%20%3D%20maven-shared-utils</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/shared/maven-shared-utils/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-shared-utils/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/issues/?jql=project%20%3D%20MSHARED%20AND%20component%20%3D%20maven-shared-utils</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-shared-utils/tree/maven-shared-utils-3.3.4</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar">
       <publisher>The Eclipse Foundation</publisher>
@@ -865,12 +868,14 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.eclipse.org/</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/sisu/job/sisu-inject-nightly/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Inject&amp;format=guided</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/sisu-dev/</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/sisu/org.eclipse.sisu.inject/</url></reference><reference type="build-system"><url>https://hudson.eclipse.org/sisu/job/sisu-inject-nightly/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/bugs/enter_bug.cgi?product=Sisu&amp;component=Inject&amp;format=guided</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/sisu-dev/</url></reference><reference type="vcs"><url>http://git.eclipse.org/c/sisu/org.eclipse.sisu.inject.git/tree/org.eclipse.sisu.inject/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.inject/guice@4.2.2?classifier=no_aop&amp;type=jar">
+      <publisher>Google, Inc.</publisher>
       <group>com.google.inject</group>
       <name>guice</name>
       <version>4.2.2</version>
+      <description>Guice is a lightweight dependency injection framework for Java 6 and above</description>
       <hashes>
         <hash alg="MD5">57d2b333c34d0f834189d54b6e59d1a6</hash>
         <hash alg="SHA-1">fa13659f9128f4c011c8e1d06f137083b4876377</hash>
@@ -881,7 +886,13 @@
         <hash alg="SHA3-256">d6c7802ae9da1ede2a1fd5bddaec3fadbe6cce96754ac1777abe23656da61616</hash>
         <hash alg="SHA3-512">a2f0e757d29e73175af02a00b34f35065080ffc9be10e2445e51df556180e2e10b68216277c384f07729cf4b326061a870d6ced32045ee545c43a7c6cb209821</hash>
       </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/com.google.inject/guice@4.2.2?classifier=no_aop&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/google/guice/guice</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guice</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guice/issues/</url></reference><reference type="mailing-list"><url>http://groups.google.com/group/google-guice/topics</url></reference><reference type="vcs"><url>https://github.com/google/guice/guice</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar">
       <group>aopalliance</group>
@@ -904,6 +915,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/aopalliance/aopalliance@1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://aopalliance.sourceforge.net</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.guava/guava@25.1-android?type=jar">
       <group>com.google.guava</group>
@@ -928,7 +940,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.guava/guava@25.1-android?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/guava/guava</url></reference><reference type="build-system"><url>https://travis-ci.org/google/guava</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/google/guava/issues</url></reference><reference type="vcs"><url>https://github.com/google/guava/guava</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
       <group>com.google.code.findbugs</group>
@@ -951,7 +963,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.checkerframework/checker-compat-qual@2.0.0?type=jar">
       <group>org.checkerframework</group>
@@ -981,7 +993,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.checkerframework/checker-compat-qual@2.0.0?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://checkerframework.org</url></reference><reference type="vcs"><url>https://github.com/typetools/checker-framework.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.1.3?type=jar">
       <group>com.google.errorprone</group>
@@ -1004,7 +1016,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.errorprone/error_prone_annotations@2.1.3?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/google/error-prone</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/google/error-prone/error_prone_annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar">
       <group>com.google.j2objc</group>
@@ -1028,7 +1040,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/google/j2objc/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://svn.sonatype.org/spice/tags/oss-parent-7/j2objc-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14?type=jar">
       <publisher>Codehaus</publisher>
@@ -1053,7 +1065,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/MANIMALSNIFFER</url></reference><reference type="vcs"><url>http://fisheye.codehaus.org/browse/mojo/tags/animal-sniffer-parent-1.14</url></reference><reference type="website"><url>http://codehaus.org</url></reference><reference type="build-system"><url>http://bamboo.ci.codehaus.org/browse/MOJO</url></reference><reference type="mailing-list"><url>http://markmail.org/list/org.codehaus.mojo.dev</url></reference><reference type="distribution"><url>https://nexus.codehaus.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://mojo.codehaus.org/animal-sniffer/animal-sniffer-annotations</url></reference><reference type="build-system"><url>http://bamboo.ci.codehaus.org/browse/MOJO</url></reference><reference type="distribution"><url>https://nexus.codehaus.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://jira.codehaus.org/browse/MANIMALSNIFFER</url></reference><reference type="mailing-list"><url>http://markmail.org/list/org.codehaus.mojo.dev</url></reference><reference type="vcs"><url>http://fisheye.codehaus.org/browse/mojo/tags/animal-sniffer-parent-1.14/animal-sniffer-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.inject/javax.inject@1?type=jar">
       <group>javax.inject</group>
@@ -1076,7 +1088,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/javax.inject/javax.inject@1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/atinject/</url></reference><reference type="vcs"><url>http://code.google.com/p/atinject/source/checkout</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-interpolation@1.26?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -1100,7 +1112,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-interpolation@1.26?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-interpolation/issues</url></reference><reference type="website"><url>http://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://codehaus-plexus.github.io/plexus-interpolation/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/codehaus-plexus/plexus-interpolation/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>http://github.com/codehaus-plexus/plexus-interpolation/tree/plexus-interpolation-1.26/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar">
       <publisher>Codehaus Plexus</publisher>
@@ -1125,7 +1137,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-containers/issues</url></reference><reference type="vcs"><url>https://github.com/codehaus-plexus/plexus-containers</url></reference><reference type="website"><url>http://codehaus-plexus.github.io/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://codehaus-plexus.github.io/plexus-containers/plexus-component-annotations/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://github.com/codehaus-plexus/plexus-containers/issues</url></reference><reference type="mailing-list"><url>http://archive.plexus.codehaus.org/user</url></reference><reference type="vcs"><url>https://github.com/codehaus-plexus/plexus-containers/plexus-component-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar">
       <publisher>QOS.ch</publisher>
@@ -1150,7 +1162,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.7.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1175,7 +1187,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.7.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-plugin-tools/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MPLUGIN</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/plugin-tools/maven-plugin-annotations</url></reference><reference type="build-system"><url>https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-plugin-tools/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MPLUGIN</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-plugin-tools/tree/maven-plugin-tools-3.7.0/maven-plugin-annotations</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.shared/maven-artifact-transfer@0.13.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1200,7 +1212,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.shared/maven-artifact-transfer@0.13.1?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-artifact-transfer/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MSHARED</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/shared/maven-artifact-transfer/</url></reference><reference type="build-system"><url>https://ci-builds.apache.org/job/Maven/job/maven-box/job/maven-artifact-transfer/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MSHARED</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-artifact-transfer/tree/maven-artifact-transfer-0.13.1</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.1.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1224,7 +1236,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.1.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven-common-artifact-filters/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MSHARED/component/12326431</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="website"><url>https://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://maven.apache.org/shared/maven-common-artifact-filters/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/maven-box/job/maven-common-artifact-filters/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/MSHARED/component/12326431</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?users@maven.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/maven-common-artifact-filters/tree/maven-common-artifact-filters-3.1.0</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.sonatype.sisu/sisu-inject-plexus@1.4.2?type=jar">
       <publisher>Sonatype, Inc.</publisher>
@@ -1247,7 +1259,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.sonatype.sisu/sisu-inject-plexus@1.4.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.sonatype.com</url></reference><reference type="build-system"><url>https://grid.sonatype.org/ci/job/Sisu/</url></reference><reference type="issue-tracker"><url>https://issues.sonatype.org/browse/SISU</url></reference><reference type="vcs"><url>http://svn.sonatype.org/forge/tags/forge-parent-6</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://sisu.sonatype.org/sisu-inject/guice-bean/guice-plexus/sisu-inject-plexus/</url></reference><reference type="build-system"><url>https://grid.sonatype.org/ci/job/Sisu/</url></reference><reference type="distribution"><url>https://repository.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.sonatype.org/browse/SISU</url></reference><reference type="mailing-list"><url>sisu-dev-subscribe@sonatype.org</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.sonatype.sisu/sisu-inject-bean@1.4.2?type=jar">
       <publisher>Sonatype, Inc.</publisher>
@@ -1270,12 +1282,13 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.sonatype.sisu/sisu-inject-bean@1.4.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.sonatype.com</url></reference><reference type="build-system"><url>https://grid.sonatype.org/ci/job/Sisu/</url></reference><reference type="issue-tracker"><url>https://issues.sonatype.org/browse/SISU</url></reference><reference type="vcs"><url>http://svn.sonatype.org/forge/tags/forge-parent-6</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://sisu.sonatype.org/sisu-inject/guice-bean/sisu-inject-bean/</url></reference><reference type="build-system"><url>https://grid.sonatype.org/ci/job/Sisu/</url></reference><reference type="distribution"><url>https://repository.sonatype.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.sonatype.org/browse/SISU</url></reference><reference type="mailing-list"><url>sisu-dev-subscribe@sonatype.org</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.sonatype.sisu/sisu-guice@2.1.7?classifier=noaop&amp;type=jar">
       <group>org.sonatype.sisu</group>
       <name>sisu-guice</name>
       <version>2.1.7</version>
+      <description>Guice trunk with some patches applied for Sisu</description>
       <hashes>
         <hash alg="MD5">f1d341b68fc25c53321eb00cf87b82b0</hash>
         <hash alg="SHA-1">8cb56e976b8e0e7b23f2969c32bef7b830c6d6ed</hash>
@@ -1286,7 +1299,13 @@
         <hash alg="SHA3-256">2500200206ca6c0737e18efefcd0a9ae60d7639aa9c9adb0254a5341db31c3e0</hash>
         <hash alg="SHA3-512">85a9136e524e232306905dae47b905ac45a91f28eb3725350c44c07ab5093c0a8c4e5472aa75b0bc1de6913e723f3e1043e21a2df6e5627abf14c5f40b6f121d</hash>
       </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
       <purl>pkg:maven/org.sonatype.sisu/sisu-guice@2.1.7?classifier=noaop&amp;type=jar</purl>
+      <externalReferences><reference type="website"><url>http://forge.sonatype.com/sisu-guice/</url></reference><reference type="distribution"><url>https://repository.sonatype.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/commons-io/commons-io@2.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -1311,7 +1330,7 @@ file comparators, endian transformation classes, and much more.</description>
         </license>
       </licenses>
       <purl>pkg:maven/commons-io/commons-io@2.2?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/IO</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/io/trunk</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/io/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/IO</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/io/trunk</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -1368,11 +1387,15 @@ file comparators, endian transformation classes, and much more.</description>
     <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar">
       <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"/>
       <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"/>
     <dependency ref="pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"/>
-    <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
+    <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar"/>
+    <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven/maven-core@3.8.6?type=jar">
       <dependency ref="pkg:maven/org.apache.maven/maven-model@3.8.6?type=jar"/>
@@ -1415,6 +1438,7 @@ file comparators, endian transformation classes, and much more.</description>
     <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.plexus/plexus-interpolation@1.26?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.plexus/plexus-sec-dispatcher@2.0?type=jar">
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
       <dependency ref="pkg:maven/org.codehaus.plexus/plexus-cipher@2.0?type=jar"/>
       <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
     </dependency>
@@ -1456,8 +1480,13 @@ file comparators, endian transformation classes, and much more.</description>
       <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.6.3?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.6.3?type=jar"/>
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.8.1?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar"/>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar">
+      <dependency ref="pkg:maven/commons-io/commons-io@2.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/commons-io/commons-io@2.2?type=jar"/>
     <dependency ref="pkg:maven/com.google.inject/guice@4.2.2?classifier=no_aop&amp;type=jar">
       <dependency ref="pkg:maven/javax.inject/javax.inject@1?type=jar"/>
       <dependency ref="pkg:maven/aopalliance/aopalliance@1.0?type=jar"/>
@@ -1476,16 +1505,27 @@ file comparators, endian transformation classes, and much more.</description>
     <dependency ref="pkg:maven/com.google.errorprone/error_prone_annotations@2.1.3?type=jar"/>
     <dependency ref="pkg:maven/com.google.j2objc/j2objc-annotations@1.1?type=jar"/>
     <dependency ref="pkg:maven/org.codehaus.mojo/animal-sniffer-annotations@1.14?type=jar"/>
-    <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"/>
-    <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven.plugin-tools/maven-plugin-annotations@3.7.0?type=jar"/>
     <dependency ref="pkg:maven/org.apache.maven.shared/maven-artifact-transfer@0.13.1?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-core@3.8.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-artifact@3.8.6?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"/>
       <dependency ref="pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.1.0?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.maven.shared/maven-common-artifact-filters@3.1.0?type=jar">
+      <dependency ref="pkg:maven/org.apache.maven/maven-artifact@3.8.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-model@3.8.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-core@3.8.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven/maven-plugin-api@3.8.6?type=jar"/>
       <dependency ref="pkg:maven/org.sonatype.sisu/sisu-inject-plexus@1.4.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.sonatype.sisu/sisu-inject-plexus@1.4.2?type=jar">
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-component-annotations@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-classworlds@2.6.0?type=jar"/>
+      <dependency ref="pkg:maven/org.codehaus.plexus/plexus-utils@3.3.1?type=jar"/>
       <dependency ref="pkg:maven/org.sonatype.sisu/sisu-inject-bean@1.4.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.sonatype.sisu/sisu-inject-bean@1.4.2?type=jar">

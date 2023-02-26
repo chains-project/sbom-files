@@ -1315,9 +1315,108 @@
   ],
   "dependencies": [
     {
+      "ref": "org.codehaus.plexus:plexus-archiver:2.2",
+      "dependsOn": [
+        "org.codehaus.plexus:plexus-io:2.0.4",
+        "org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1"
+      ]
+    },
+    {
+      "ref": "junit:junit:4.13.2",
+      "dependsOn": [
+        "org.hamcrest:hamcrest-core:1.3"
+      ]
+    },
+    {
+      "ref": "com.thoughtworks.xstream:xstream:1.4.19",
+      "dependsOn": [
+        "io.github.x-stream:mxparser:1.2.2"
+      ]
+    },
+    {
+      "ref": "org.sonatype.sisu:sisu-inject-plexus:1.4.2",
+      "dependsOn": [
+        "org.sonatype.sisu:sisu-inject-bean:1.4.2"
+      ]
+    },
+    {
+      "ref": "org.apache.maven.shared:maven-common-artifact-filters:3.1.0",
+      "dependsOn": [
+        "org.sonatype.sisu:sisu-inject-plexus:1.4.2"
+      ]
+    },
+    {
+      "ref": "org.apache.ant:ant:1.10.12",
+      "dependsOn": [
+        "org.apache.ant:ant-launcher:1.10.12"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-plugin-api:3.8.6",
+      "dependsOn": [
+        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
+        "org.codehaus.plexus:plexus-utils:3.3.1",
+        "org.codehaus.plexus:plexus-classworlds:2.6.0"
+      ]
+    },
+    {
+      "ref": "net.sf.launch4j:launch4j:3.50",
+      "dependsOn": [
+        "com.jgoodies:jgoodies-common:1.7.0",
+        "commons-beanutils:commons-beanutils:1.9.4",
+        "com.jgoodies:forms:1.2.1",
+        "commons-logging:commons-logging:1.2",
+        "com.formdev:flatlaf:1.0"
+      ]
+    },
+    {
+      "ref": "org.apache.maven:maven-core:3.8.6",
+      "dependsOn": [
+        "org.codehaus.plexus:plexus-interpolation:1.26",
+        "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
+        "org.apache.maven.resolver:maven-resolver-api:1.6.3",
+        "javax.inject:javax.inject:1",
+        "org.apache.maven:maven-settings:3.8.6",
+        "org.apache.maven.resolver:maven-resolver-util:1.6.3",
+        "org.apache.maven:maven-resolver-provider:3.8.6",
+        "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
+        "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "org.codehaus.plexus:plexus-component-annotations:2.1.0",
+        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
+        "com.google.inject:guice:4.2.2",
+        "org.apache.maven:maven-settings-builder:3.8.6",
+        "org.apache.maven:maven-builder-support:3.8.6",
+        "org.slf4j:slf4j-api:1.7.36",
+        "org.apache.maven:maven-model-builder:3.8.6",
+        "org.apache.maven:maven-repository-metadata:3.8.6"
+      ]
+    },
+    {
+      "ref": "com.google.guava:guava:25.1-android",
+      "dependsOn": [
+        "com.google.j2objc:j2objc-annotations:1.1",
+        "com.google.errorprone:error_prone_annotations:2.1.3",
+        "org.codehaus.mojo:animal-sniffer-annotations:1.14",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.checkerframework:checker-compat-qual:2.0.0"
+      ]
+    },
+    {
+      "ref": "org.sonatype.sisu:sisu-inject-bean:1.4.2",
+      "dependsOn": [
+        "org.sonatype.sisu:sisu-guice:2.1.7"
+      ]
+    },
+    {
       "ref": "org.apache.maven:maven-compat:3.8.2",
       "dependsOn": [
         "org.apache.maven.wagon:wagon-provider-api:3.4.3"
+      ]
+    },
+    {
+      "ref": "org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1",
+      "dependsOn": [
+        "classworlds:classworlds:1.1-alpha-2"
       ]
     },
     {
@@ -1334,56 +1433,27 @@
       ]
     },
     {
-      "ref": "org.apache.ant:ant:1.10.12",
+      "ref": "com.google.inject:guice:4.2.2",
       "dependsOn": [
-        "org.apache.ant:ant-launcher:1.10.12"
+        "aopalliance:aopalliance:1.0",
+        "com.google.guava:guava:25.1-android"
       ]
     },
     {
-      "ref": "org.apache.maven:maven-core:3.8.6",
+      "ref": "com.akathist.maven.plugins.launch4j:launch4j-maven-plugin:2.2.0",
       "dependsOn": [
-        "org.slf4j:slf4j-api:1.7.36",
-        "org.apache.maven:maven-resolver-provider:3.8.6",
-        "com.google.inject:guice:4.2.2",
-        "org.apache.maven.resolver:maven-resolver-api:1.6.3",
-        "org.apache.maven:maven-settings-builder:3.8.6",
-        "org.apache.maven:maven-builder-support:3.8.6",
-        "org.apache.maven.shared:maven-shared-utils:3.3.4",
-        "org.apache.maven.resolver:maven-resolver-util:1.6.3",
-        "org.apache.maven:maven-repository-metadata:3.8.6",
-        "org.eclipse.sisu:org.eclipse.sisu.inject:0.3.5",
-        "org.apache.maven:maven-settings:3.8.6",
-        "org.apache.maven:maven-model-builder:3.8.6",
-        "org.apache.maven.resolver:maven-resolver-spi:1.6.3",
-        "org.apache.maven.resolver:maven-resolver-impl:1.6.3",
-        "javax.inject:javax.inject:1",
-        "org.codehaus.plexus:plexus-component-annotations:2.1.0",
-        "org.codehaus.plexus:plexus-interpolation:1.26"
-      ]
-    },
-    {
-      "ref": "junit:junit:4.13.2",
-      "dependsOn": [
-        "org.hamcrest:hamcrest-core:1.3"
-      ]
-    },
-    {
-      "ref": "org.sonatype.sisu:sisu-inject-bean:1.4.2",
-      "dependsOn": [
-        "org.sonatype.sisu:sisu-guice:2.1.7"
-      ]
-    },
-    {
-      "ref": "org.codehaus.plexus:plexus-sec-dispatcher:2.0",
-      "dependsOn": [
-        "org.codehaus.plexus:plexus-cipher:2.0"
-      ]
-    },
-    {
-      "ref": "org.codehaus.plexus:plexus-archiver:2.2",
-      "dependsOn": [
-        "org.codehaus.plexus:plexus-io:2.0.4",
-        "org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1"
+        "org.apache.maven:maven-compat:3.8.2",
+        "net.sf.launch4j:launch4j:3.50",
+        "org.apache.ant:ant:1.10.12",
+        "org.apache.maven:maven-plugin-api:3.8.6",
+        "org.apache.maven:maven-core:3.8.6",
+        "com.thoughtworks.xstream:xstream:1.4.19",
+        "junit:junit:4.13.2",
+        "org.apache.maven.plugin-tools:maven-plugin-annotations:3.7.0",
+        "org.apache.maven:maven-model:3.8.6",
+        "org.apache.maven.shared:maven-artifact-transfer:0.13.1",
+        "org.apache.maven.plugin-testing:maven-plugin-testing-harness:3.3.0",
+        "org.apache.maven:maven-artifact:3.8.6"
       ]
     },
     {
@@ -1399,45 +1469,9 @@
       ]
     },
     {
-      "ref": "org.sonatype.sisu:sisu-inject-plexus:1.4.2",
+      "ref": "org.codehaus.plexus:plexus-sec-dispatcher:2.0",
       "dependsOn": [
-        "org.sonatype.sisu:sisu-inject-bean:1.4.2"
-      ]
-    },
-    {
-      "ref": "org.apache.maven.shared:maven-common-artifact-filters:3.1.0",
-      "dependsOn": [
-        "org.sonatype.sisu:sisu-inject-plexus:1.4.2"
-      ]
-    },
-    {
-      "ref": "com.thoughtworks.xstream:xstream:1.4.19",
-      "dependsOn": [
-        "io.github.x-stream:mxparser:1.2.2"
-      ]
-    },
-    {
-      "ref": "com.google.inject:guice:4.2.2",
-      "dependsOn": [
-        "aopalliance:aopalliance:1.0",
-        "com.google.guava:guava:25.1-android"
-      ]
-    },
-    {
-      "ref": "com.akathist.maven.plugins.launch4j:launch4j-maven-plugin:2.2.0",
-      "dependsOn": [
-        "junit:junit:4.13.2",
-        "org.apache.maven.shared:maven-artifact-transfer:0.13.1",
-        "net.sf.launch4j:launch4j:3.50",
-        "org.apache.maven:maven-plugin-api:3.8.6",
-        "org.apache.maven:maven-artifact:3.8.6",
-        "org.apache.maven:maven-model:3.8.6",
-        "org.apache.maven:maven-compat:3.8.2",
-        "org.apache.ant:ant:1.10.12",
-        "org.apache.maven:maven-core:3.8.6",
-        "com.thoughtworks.xstream:xstream:1.4.19",
-        "org.apache.maven.plugin-testing:maven-plugin-testing-harness:3.3.0",
-        "org.apache.maven.plugin-tools:maven-plugin-annotations:3.7.0"
+        "org.codehaus.plexus:plexus-cipher:2.0"
       ]
     },
     {
@@ -1447,43 +1481,9 @@
       ]
     },
     {
-      "ref": "org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1",
-      "dependsOn": [
-        "classworlds:classworlds:1.1-alpha-2"
-      ]
-    },
-    {
       "ref": "org.apache.maven:maven-artifact:3.8.6",
       "dependsOn": [
         "org.apache.commons:commons-lang3:3.8.1"
-      ]
-    },
-    {
-      "ref": "org.apache.maven:maven-plugin-api:3.8.6",
-      "dependsOn": [
-        "org.eclipse.sisu:org.eclipse.sisu.plexus:0.3.5",
-        "org.codehaus.plexus:plexus-utils:3.3.1",
-        "org.codehaus.plexus:plexus-classworlds:2.6.0"
-      ]
-    },
-    {
-      "ref": "net.sf.launch4j:launch4j:3.50",
-      "dependsOn": [
-        "com.jgoodies:forms:1.2.1",
-        "commons-logging:commons-logging:1.2",
-        "com.formdev:flatlaf:1.0",
-        "com.jgoodies:jgoodies-common:1.7.0",
-        "commons-beanutils:commons-beanutils:1.9.4"
-      ]
-    },
-    {
-      "ref": "com.google.guava:guava:25.1-android",
-      "dependsOn": [
-        "org.codehaus.mojo:animal-sniffer-annotations:1.14",
-        "com.google.code.findbugs:jsr305:3.0.2",
-        "org.checkerframework:checker-compat-qual:2.0.0",
-        "com.google.j2objc:j2objc-annotations:1.1",
-        "com.google.errorprone:error_prone_annotations:2.1.3"
       ]
     }
   ]

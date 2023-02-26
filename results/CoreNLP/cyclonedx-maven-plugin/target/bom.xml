@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:6544b672-0136-4d7b-9977-2f4920368771" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:55db0f5f-0062-4b64-a943-4078fa3eb7de" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-02-11T19:11:21Z</timestamp>
+    <timestamp>2023-02-26T01:52:49Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
-        <name>CycloneDX Maven plugin</name>
-        <version>2.7.3</version>
+        <name>CycloneDX Maven plugin makeAggregateBom</name>
+        <version>2.7.5</version>
         <hashes>
-          <hash alg="MD5">ab886f1cb1a79b4244ac54dde22a0989</hash>
-          <hash alg="SHA-1">9ed658496dfeef87fe6072b95c62ec37165cc741</hash>
-          <hash alg="SHA-256">df9b43417bef6aeac86a393abcc1ac2ed0518239ba544aaeb595b9619c603503</hash>
-          <hash alg="SHA-512">223da34bb51c5339e0f7285757608c1a56b1ea887f7ad835af9299fabacc693053163da74af352af86b16e18e04db730bd44214eda04291410c42b6ae657d85c</hash>
-          <hash alg="SHA-384">3aaf057329ed0f90ec3a49a45b3cf4ec5ce637fd75d6202e9483fa4274cec3e7b74308016e146b6ba087df5fce9397bb</hash>
-          <hash alg="SHA3-384">0e2ce6d2a0e0ddea90f63d2e521e640e83aeac1230c201042e542186e9f32bceaf54ed9d26e6a9dec04c0f7895bbae19</hash>
-          <hash alg="SHA3-256">dd3ba8325a1a759e5a8f159a3363213d4a34d51120c4e4c77097a6779964fb33</hash>
-          <hash alg="SHA3-512">e5f87b2380e9785330fce113fedd5866a1498d5a9e365b7b00cb6fea50fd47166c471a6347d46d3edb7dd247a583874169624db5be2845c5c87dfdbcd58d9e89</hash>
+          <hash alg="MD5">11cd12fd5f8b60a961c385ef2be00f52</hash>
+          <hash alg="SHA-1">3576a6392958d12709ba803922ca8ee0c7a233ed</hash>
+          <hash alg="SHA-256">802bf55759d1a44b12e01879614bae19c096302d881d1b52bf36e6051b9dc1ef</hash>
+          <hash alg="SHA-512">779fc38723c9b02448a7cd16c432cb6504771ea5969eedb5ce72bcb96b58d0f52c3ee534f38f88e26967e2a18c93b307bbc98a65ad346df0859af89f7d963c2c</hash>
+          <hash alg="SHA-384">4caddd8effbaa3379638798216c03a881e1eef799c0f179fde19dbfb038a2a12c261bfd28b18594052787f5460429584</hash>
+          <hash alg="SHA3-384">490cc3412260a126b0cea502da5338e47b6e354338c128c588d7d0ab776e0ed15398d6f1042c8a5f3a98a152323a0c18</hash>
+          <hash alg="SHA3-256">538aa1dfe3e87abb3b4608b2d53508eb13f9a3d2b735f6fd7287bb285c938d78</hash>
+          <hash alg="SHA3-512">5a18cc565eb102ce88049b104fa283b1510866ac945286c9e5de1f7f8a098246c881289eda147c1a130c231b8092099faa7caa149d4651f68c215f40eab3425b</hash>
         </hashes>
       </tool>
     </tools>
@@ -31,7 +31,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/edu.stanford.nlp/stanford-corenlp@4.5.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://nlp.stanford.edu/software/stanford-corenlp-4.5.1.zip</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://nlp.stanford.edu/software/corenlp.html</url></reference><reference type="vcs"><url>https://nlp.stanford.edu/software/stanford-corenlp-4.5.1.zip</url></reference></externalReferences>
     </component>
   </metadata>
   <components>
@@ -57,7 +57,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.apple/AppleJavaExtensions@1.4?type=jar</purl>
-      <externalReferences/>
+      <externalReferences><reference type="website"><url>http://developer.apple.com/library/mac/#samplecode/AppleJavaExtensions/Introduction/Intro.html</url></reference><reference type="distribution"><url>java-net:/maven2-repository/trunk/repository/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/de.jollyday/jollyday@0.4.9?type=jar">
       <group>de.jollyday</group>
@@ -89,7 +89,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/de.jollyday/jollyday@0.4.9?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=299729&amp;atid=1264280</url></reference><reference type="vcs"><url>https://github.com/svendiedrichsen/jollyday.git</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://sourceforge.net/projects/jollyday</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://sourceforge.net/tracker/?group_id=299729&amp;atid=1264280</url></reference><reference type="vcs"><url>https://github.com/svendiedrichsen/jollyday.git</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.commons/commons-lang3@3.3.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -116,7 +116,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.commons/commons-lang3@3.3.1?type=jar</purl>
-      <externalReferences><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/lang/trunk</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>http://vmbuild.apache.org/continuum/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/commons/proper/lang/trunk</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-queryparser@7.5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -141,7 +141,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-queryparser@7.5.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-13</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-queryparser</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queryparser</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-queries@7.5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -165,7 +165,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-queries@7.5.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-13</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-queries</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/queries</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-sandbox@7.5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -189,7 +189,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-sandbox@7.5.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-13</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-sandbox</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/sandbox</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-analyzers-common@7.5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -214,7 +214,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-analyzers-common@7.5.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-13</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-analyzers-common</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/analysis/common</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -239,7 +239,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar</purl>
-      <externalReferences><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-13</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://lucene.apache.org/lucene-parent/lucene-core</url></reference><reference type="build-system"><url>https://builds.apache.org/computer/lucene/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LUCENE</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/lucene-general/</url></reference><reference type="vcs"><url>https://git1-us-west.apache.org/repos/asf?p=lucene-solr.git;a=tree;f=lucene/core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar">
       <publisher>GlassFish Community</publisher>
@@ -258,9 +258,11 @@
         <hash alg="SHA3-256">1b271f5b14ef4d629b0e2f044f0d49927f2bd5862c4d1bf6accf356b89c7823a</hash>
         <hash alg="SHA3-512">3db8e064f87c1c5b8a3a152575a6651cd72361beac31000c8b9f66c919016ece425f8f541ff35ff6c999241686b32a207a5add68d459f00e3e07e83d7752aefd</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.0 OR GPL-2.0-with-classpath-exception)</expression>
+      </licenses>
       <purl>pkg:maven/javax.servlet/javax.servlet-api@3.0.1?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://glassfish.dev.java.net</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/SERVLET_SPEC</url></reference><reference type="vcs"><url>https://svn.java.net/svn/glassfish~svn/tags/javax.servlet-api-3.0.1</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://servlet-spec.java.net</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/SERVLET_SPEC</url></reference><reference type="mailing-list"><url>users@servlet-spec.java.net</url></reference><reference type="vcs"><url>https://svn.java.net/svn/glassfish~svn/tags/javax.servlet-api-3.0.1</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xom/xom@1.3.7?type=jar">
       <group>xom</group>
@@ -285,7 +287,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xom/xom@1.3.7?type=jar</purl>
-      <externalReferences><reference type="mailing-list"><url>http://lists.ibiblio.org/pipermail/xom-interest/</url></reference><reference type="vcs"><url>https://github.com/elharo/xom</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://xom.nu</url></reference><reference type="mailing-list"><url>http://lists.ibiblio.org/pipermail/xom-interest/</url></reference><reference type="vcs"><url>https://github.com/elharo/xom</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xerces/xercesImpl@2.8.0?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -312,7 +314,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xerces/xercesImpl@2.8.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xerces.apache.org/xerces2-j</url></reference><reference type="distribution"><url>scp://minotaur.apache.org/www/www.apache.org/dist/maven-repository</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xml-apis/xml-apis@1.3.03?type=jar">
       <publisher>Apache Software Foundation</publisher>
@@ -340,7 +342,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xml-apis/xml-apis@1.3.03?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>http://www.apache.org/dist/xml/xerces-j/Xerces-J-bin.2.8.0.tar.gz</url></reference><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/commons/#external</url></reference><reference type="distribution"><url>http://www.apache.org/dist/xml/xerces-j/Xerces-J-bin.2.8.0.tar.gz</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xalan/xalan@2.7.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -367,7 +369,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xalan/xalan@2.7.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/xalan-j/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/xalan</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/xalan/serializer@2.7.2?type=jar">
       <publisher>The Apache Software Foundation</publisher>
@@ -392,7 +394,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/xalan/serializer@2.7.2?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.apache.org/</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://xml.apache.org/xalan-j/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/www-announce/</url></reference><reference type="vcs"><url>http://svn.apache.org/viewvc/maven/pom/tags/apache-4/serializer</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/joda-time/joda-time@2.10.5?type=jar">
       <publisher>Joda.org</publisher>
@@ -417,7 +419,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/joda-time/joda-time@2.10.5?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://www.joda.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/content/repositories/joda-releases</url></reference><reference type="issue-tracker"><url>https://github.com/JodaOrg/joda-time/issues</url></reference><reference type="vcs"><url>https://github.com/JodaOrg/joda-time</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://www.joda.org/joda-time/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/content/repositories/joda-releases</url></reference><reference type="issue-tracker"><url>https://github.com/JodaOrg/joda-time/issues</url></reference><reference type="vcs"><url>https://github.com/JodaOrg/joda-time</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-core@0.39?type=jar">
       <group>org.ejml</group>
@@ -441,7 +443,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-core@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar">
       <group>com.google.code.findbugs</group>
@@ -464,7 +466,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://findbugs.sourceforge.net/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://code.google.com/p/jsr-305/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-ddense@0.39?type=jar">
       <group>org.ejml</group>
@@ -488,7 +490,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-ddense@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-simple@0.39?type=jar">
       <group>org.ejml</group>
@@ -512,7 +514,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-simple@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-fdense@0.39?type=jar">
       <group>org.ejml</group>
@@ -535,7 +537,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-fdense@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-cdense@0.39?type=jar">
       <group>org.ejml</group>
@@ -558,7 +560,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-cdense@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-zdense@0.39?type=jar">
       <group>org.ejml</group>
@@ -581,7 +583,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-zdense@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-dsparse@0.39?type=jar">
       <group>org.ejml</group>
@@ -604,7 +606,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-dsparse@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.ejml/ejml-fsparse@0.39?type=jar">
       <group>org.ejml</group>
@@ -627,7 +629,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.ejml/ejml-fsparse@0.39?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://ejml.org/</url></reference><reference type="vcs"><url>https://github.com/lessthanoptimal/ejml</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.glassfish/javax.json@1.0.4?type=jar">
       <publisher>Oracle</publisher>
@@ -646,9 +648,11 @@
         <hash alg="SHA3-256">4004c9a225664d8c176b3461bbf72882236dc4187b89c12fdce23296c893badf</hash>
         <hash alg="SHA3-512">663fd3f45958a2ab3c7ff9dd142fc73273d599d39eda04f9006ae44b6629d6c57402a52aca113b6412cedcb79aaaf4a3d4aa81025baa7a402881e7714ca29160</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.1 OR GPL-2.0-only)</expression>
+      </licenses>
       <purl>pkg:maven/org.glassfish/javax.json@1.0.4?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com</url></reference><reference type="vcs"><url>http://java.net/projects/jsonp/sources/git/show</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jsonp.java.net</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://java.net/projects/jsonp/sources/git/show/javax.json</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@1.7.12?type=jar">
       <publisher>QOS.ch</publisher>
@@ -674,7 +678,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/org.slf4j/slf4j-api@1.7.12?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.qos.ch</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/slf4j</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/ceki/slf4j/slf4j-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar">
       <group>com.google.protobuf</group>
@@ -699,14 +703,63 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar</purl>
-      <externalReferences><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://developers.google.com/protocol-buffers/protobuf-java/</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/protocolbuffers/protobuf/protobuf-java</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/junit/junit@4.13.1?type=jar">
+      <publisher>JUnit</publisher>
+      <group>junit</group>
+      <name>junit</name>
+      <version>4.13.1</version>
+      <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">83d91f209ddcb104776fa41c448c7ee2</hash>
+        <hash alg="SHA-1">cdd00374f1fee76b11e2a9d127405aa3f6be5b6a</hash>
+        <hash alg="SHA-256">c30719db974d6452793fe191b3638a5777005485bae145924044530ffa5f6122</hash>
+        <hash alg="SHA-512">29769fb462c7db2fcca6de3a24b445ae252a7570950f9a2163e14c478f854e47056444d90b2d40f4cf4e3f37c03faacf694c2db12763e173c44362af50176b1f</hash>
+        <hash alg="SHA-384">f98da9852bdc5fc022399a85c1fa234ba80d3bf8f492034971175f70464cd9f2d08d65954f92f33ae250050d9f5ae160</hash>
+        <hash alg="SHA3-384">79a11e53c134bf2a6fcffd64b1371bacdcbda3eff96094970a5123fb9eaca195044313a647ed7bfa21c0ef9f36994bd2</hash>
+        <hash alg="SHA3-256">2c44fd3ad2e0e1f2f5ce27f9efd357cecdeb38d074ac8bb23fbd7be683c53e99</hash>
+        <hash alg="SHA3-512">c34310659381936cf3f16a58f90372a2a3829e020889a7cab118127e6c96e5dc120f350a89d56abfffbfe1862aca51e8e419f48429fb8e5ea3a54f0b3ef809c2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/junit/junit@4.13.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://junit.org</url></reference><reference type="build-system"><url>https://travis-ci.org/junit-team/junit4</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit4/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit4/issues</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit4</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar">
+      <group>org.hamcrest</group>
+      <name>hamcrest-core</name>
+      <version>1.3</version>
+      <description>This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.</description>
+      <hashes>
+        <hash alg="MD5">6393363b47ddcbba82321110c3e07519</hash>
+        <hash alg="SHA-1">42a25dc3219429f0e5d060061f71acb49bf010a0</hash>
+        <hash alg="SHA-256">66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9</hash>
+        <hash alg="SHA-512">e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49</hash>
+        <hash alg="SHA-384">4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5</hash>
+        <hash alg="SHA3-384">b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be</hash>
+        <hash alg="SHA3-256">f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba</hash>
+        <hash alg="SHA3-512">bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar">
       <publisher>Oracle</publisher>
       <group>javax.activation</group>
       <name>javax.activation-api</name>
       <version>1.2.0</version>
-      <description>${project.name}</description>
+      <description>JavaBeans Activation Framework API jar</description>
       <scope>optional</scope>
       <hashes>
         <hash alg="MD5">5e50e56bcf4a3ef3bc758f69f7643c3b</hash>
@@ -718,9 +771,11 @@
         <hash alg="SHA3-256">aff48d0f28d8a99690c5a84c3fffdb3775452d5387e5698f4c9028c92a3b4888</hash>
         <hash alg="SHA3-512">0507ece74b3147de60a830071bd434569c82e03f414a2b7f0d8a225dda36720d2e2194799cdc04def1909fdec21059b67c518bb9162f7f605764d542194e721d</hash>
       </hashes>
-      <licenses/>
+      <licenses>
+        <expression>(CDDL-1.0 OR GPL-2.0-with-classpath-exception)</expression>
+      </licenses>
       <purl>pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/activation/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/activation</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://java.net/all/javax.activation-api/</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/activation/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/activation/javax.activation-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/javax.xml.bind/jaxb-api@2.4.0-b180830.0359?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -748,7 +803,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/javax.xml.bind/jaxb-api@2.4.0-b180830.0359?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/jaxb-spec/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-spec.git</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>https://github.com/javaee/jaxb-spec/jaxb-api</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/javaee/jaxb-spec/issues</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-spec.git/jaxb-api</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.7?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -776,7 +831,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.istack/istack-commons-runtime@3.0.7?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-istack-commons</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://java.net/istack-commons/istack-commons-runtime/</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/javaee/jaxb-istack-commons/istack-commons-runtime</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.4.0-b180830.0438?type=jar">
       <publisher>Oracle Corporation</publisher>
@@ -802,7 +857,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.4.0-b180830.0438?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.oracle.com/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/JAXB</url></reference><reference type="mailing-list"><url>http://java.net/projects/jaxb/lists/users/archive</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb/sources/v2/show</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://jaxb.java.net/jaxb-bundles/jaxb-impl</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>http://java.net/jira/browse/JAXB</url></reference><reference type="mailing-list"><url>http://java.net/projects/jaxb/lists/users/archive</url></reference><reference type="vcs"><url>http://java.net/projects/jaxb/sources/v2/show/jaxb-bundles/jaxb-impl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.googlecode.json-simple/json-simple@1.1.1?type=jar">
       <group>com.googlecode.json-simple</group>
@@ -826,7 +881,7 @@
         </license>
       </licenses>
       <purl>pkg:maven/com.googlecode.json-simple/json-simple@1.1.1?type=jar</purl>
-      <externalReferences><reference type="vcs"><url>http://json-simple.googlecode.com/svn/trunk/</url></reference></externalReferences>
+      <externalReferences><reference type="website"><url>http://code.google.com/p/json-simple/</url></reference><reference type="vcs"><url>http://json-simple.googlecode.com/svn/trunk/</url></reference></externalReferences>
     </component>
   </components>
   <dependencies>
@@ -853,7 +908,14 @@
       <dependency ref="pkg:maven/com.googlecode.json-simple/json-simple@1.1.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/com.apple/AppleJavaExtensions@1.4?type=jar"/>
-    <dependency ref="pkg:maven/de.jollyday/jollyday@0.4.9?type=jar"/>
+    <dependency ref="pkg:maven/de.jollyday/jollyday@0.4.9?type=jar">
+      <dependency ref="pkg:maven/joda-time/joda-time@2.10.5?type=jar"/>
+      <dependency ref="pkg:maven/javax.xml.bind/jaxb-api@2.4.0-b180830.0359?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/joda-time/joda-time@2.10.5?type=jar"/>
+    <dependency ref="pkg:maven/javax.xml.bind/jaxb-api@2.4.0-b180830.0359?type=jar">
+      <dependency ref="pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.3.1?type=jar"/>
     <dependency ref="pkg:maven/org.apache.lucene/lucene-queryparser@7.5.0?type=jar">
       <dependency ref="pkg:maven/org.apache.lucene/lucene-core@7.5.0?type=jar"/>
@@ -878,8 +940,9 @@
     <dependency ref="pkg:maven/xalan/xalan@2.7.2?type=jar">
       <dependency ref="pkg:maven/xalan/serializer@2.7.2?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/xalan/serializer@2.7.2?type=jar"/>
-    <dependency ref="pkg:maven/joda-time/joda-time@2.10.5?type=jar"/>
+    <dependency ref="pkg:maven/xalan/serializer@2.7.2?type=jar">
+      <dependency ref="pkg:maven/xml-apis/xml-apis@1.3.03?type=jar"/>
+    </dependency>
     <dependency ref="pkg:maven/org.ejml/ejml-core@0.39?type=jar">
       <dependency ref="pkg:maven/com.google.code.findbugs/jsr305@3.0.2?type=jar"/>
     </dependency>
@@ -924,11 +987,14 @@
     <dependency ref="pkg:maven/org.slf4j/slf4j-api@1.7.12?type=jar"/>
     <dependency ref="pkg:maven/com.google.protobuf/protobuf-java@3.19.2?type=jar"/>
     <dependency ref="pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar"/>
-    <dependency ref="pkg:maven/javax.xml.bind/jaxb-api@2.4.0-b180830.0359?type=jar">
-      <dependency ref="pkg:maven/javax.activation/javax.activation-api@1.2.0?type=jar"/>
-    </dependency>
     <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@3.0.7?type=jar"/>
     <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.4.0-b180830.0438?type=jar"/>
-    <dependency ref="pkg:maven/com.googlecode.json-simple/json-simple@1.1.1?type=jar"/>
+    <dependency ref="pkg:maven/com.googlecode.json-simple/json-simple@1.1.1?type=jar">
+      <dependency ref="pkg:maven/junit/junit@4.13.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/junit/junit@4.13.1?type=jar">
+      <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
   </dependencies>
 </bom>
