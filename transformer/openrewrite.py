@@ -30,7 +30,7 @@ class OpenRewriteTransformer(AbstractTransformer):
 
         return flattened_dependencies
     
-    def __compute_depth(self, dependency_relationships, component_purl, depth=0) -> int:
+    def __compute_depth(self, dependency_relationships, component_purl, depth=1) -> int:
         for relationship in dependency_relationships:
             dependents = relationship.get('dependsOn', [])
             if component_purl in dependents:
