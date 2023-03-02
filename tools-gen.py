@@ -16,4 +16,4 @@ for i in tools_object:
     canResolveTree = check  if i["canResolveTree"] else wrong
     reproducibility = check  if i["reproducibility"] else wrong
 
-    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {externalReferences} & {canResolveTree} & {reproducibility}  \\\\')
+    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["acronym"]} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {externalReferences} & {canResolveTree} & {reproducibility}  \\\\')

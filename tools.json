@@ -12,7 +12,8 @@
         "license": false,
         "externalReferences": [],
         "canResolveTree": true,
-        "reproducibility": false
+        "reproducibility": false,
+        "acronym": "big"
     },
     {
         "name": "CycloneDX Generator",
@@ -27,7 +28,8 @@
         "license": true,
         "externalReferences": ["other"],
         "canResolveTree": true,
-        "reproducibility": true
+        "reproducibility": true,
+        "acronym": "cdx"
 
     },
     {
@@ -43,7 +45,8 @@
         "license": true,
         "externalReferences": ["issue-tracker", "vcs", "mailing-list", "website", "build-system", "distribution"],
         "canResolveTree": true,
-        "reproducibility": true
+        "reproducibility": true,
+        "acronym": "cdx-mp"
     },
     {
         "name": "jbom",
@@ -58,7 +61,8 @@
         "license": false,
         "externalReferences": [],
         "canResolveTree": false,
-        "reproducibility": false
+        "reproducibility": false,
+        "acronym": "jbom"
     },
     {
         "name": "OpenRewrite",
@@ -71,7 +75,8 @@
         "license": true,
         "externalReferences": [],
         "canResolveTree": true,
-        "reproducibility": true
+        "reproducibility": true,
+        "acronym": "or"
     },
     {
         "name": "Depscan",
@@ -86,6 +91,7 @@
         "license": true,
         "externalReferences": ["other"],
         "canResolveTree": false,
-        "reproducibility": true
+        "reproducibility": true,
+        "acronym": "ds"
     }
 ]
