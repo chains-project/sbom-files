@@ -12,8 +12,8 @@ for i in tools_object:
     hash_algorithms = len(i['hashAlgorithms'])
     
     license = check  if i["license"] else wrong
-    externalReferences = len(i["externalReferences"])
+    scope = len(i["scope"])
     canResolveTree = check  if i["canResolveTree"] else wrong
     reproducibility = check  if i["reproducibility"] else wrong
 
-    print(f'\href{{{i["url"]}}}{{{i["name"]}}} & {i["acronym"]} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {externalReferences} & {canResolveTree} & {reproducibility}  \\\\')
+    print(f'\href{{{i["url"]}}}{{{i["macro"]}}} & {i["version"]} & {i["collectionStep"]} & {hash_algorithms} & {canResolveTree} & {reproducibility} & {scope}  \\\\')
