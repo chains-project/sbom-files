@@ -23,7 +23,6 @@ public class CreateDataTree {
 
   public List<AnalyzerResult> createData(Path resultFolder) throws IOException {
     List<AnalyzerResult> results = new ArrayList<>();
-    StringBuilder sb = new StringBuilder();
     Locale.setDefault(Locale.US);
     for (Path project : Files.list(resultFolder).toArray(Path[]::new)) {
       Path truthJson = getMavenTruth(project);
@@ -65,7 +64,6 @@ public class CreateDataTree {
           results.add(result);
         } catch (Exception e) {
           // todo why does this Happen?
-          sb.append("0,0,0,0,0,0,0,0,0,0,0,0,0,0").append(System.lineSeparator());
           e.printStackTrace();
         }
       }
