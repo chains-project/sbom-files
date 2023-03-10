@@ -22,30 +22,9 @@ class JBOMTransformer(AbstractTransformer):
         for component in dependency_relationships:
             dependency_attributes = self.__get_dependency_attribute(component, json_dict['components'], dependency_relationships)
             flattened_dependencies.extend(dependency_attributes)
-        
-        components = json_dict['components']
-
-        for comp in components:
-            dependency_attributes = self.__get_dependency_attributes_from_components(comp, dependency_relationships)
-            for i in flattened_dependencies:
-                if i['groupId'] == dependency_attributes['groupId'] and i['artifactId'] == dependency_attributes['artifactId'] and i['version'] == dependency_attributes['version']:
-                    break
-            else:
-                flattened_dependencies.append(dependency_attributes)
 
         return flattened_dependencies
 
-
-    def __get_dependency_attributes_from_components(self, component_dict, dependency_relationships) -> List:
-        attributes = {
-            'groupId': component_dict.get('group', None),
-            'artifactId': component_dict.get('name', None),
-            'version': component_dict.get('version', None),
-            'scope': component_dict.get('scope', None),
-            'depth': self.__compute_depth(dependency_relationships, component_dict['bom-ref'])
-        }
-
-        return attributes
 
     def __get_dependency_attribute(self, component_dict, components, dependency_relationships) -> List:
         dependencies = []
