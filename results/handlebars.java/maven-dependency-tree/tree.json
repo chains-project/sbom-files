@@ -57,8 +57,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.5",
+    "scope": "test",
     "depth": 1,
     "submodule": "com.github.jknack:handlebars:jar:4.2.1"
   },
@@ -255,8 +255,8 @@
     "groupId": "com.github.jknack",
     "artifactId": "handlebars",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "4.2.1",
+    "scope": "test",
     "depth": 1,
     "submodule": "com.github.jknack:handlebars-helpers:jar:4.2.1"
   },
@@ -642,8 +642,8 @@
     "groupId": "com.github.jknack",
     "artifactId": "handlebars",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "4.2.1",
+    "scope": "test",
     "depth": 1,
     "submodule": "com.github.jknack:handlebars-jackson2:jar:4.2.1"
   },
@@ -1416,8 +1416,8 @@
     "groupId": "com.github.jknack",
     "artifactId": "handlebars",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "4.2.1",
+    "scope": "test",
     "depth": 1,
     "submodule": "com.github.jknack:handlebars-guava-cache:jar:4.2.1"
   },
@@ -1902,8 +1902,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.2.2",
+    "scope": "compile",
     "depth": 2,
     "submodule": "com.github.jknack:handlebars-maven-plugin:maven-plugin:4.2.1"
   },
@@ -1958,7 +1958,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "com.github.jknack:handlebars-maven-plugin:maven-plugin:4.2.1"
   },
   {

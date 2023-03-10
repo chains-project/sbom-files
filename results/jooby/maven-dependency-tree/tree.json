@@ -138,8 +138,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby:jar:3.0.0.M1"
   },
@@ -516,7 +516,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "babel__parser",
     "classifier": "jar",
-    "version": "7.20.15",
+    "version": "7.21.2",
     "scope": "test",
     "depth": 3,
     "submodule": "io.jooby:jooby:jar:3.0.0.M1"
@@ -660,8 +660,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-netty:jar:3.0.0.M1"
   },
@@ -669,8 +669,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.85.Final",
+    "scope": "compile",
     "depth": 1,
     "submodule": "io.jooby:jooby-netty:jar:3.0.0.M1"
   },
@@ -876,8 +876,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-jwt:jar:3.0.0.M1"
   },
@@ -1065,8 +1065,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-test:jar:3.0.0.M1"
   },
@@ -1299,8 +1299,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.85.Final",
+    "scope": "test",
     "depth": 2,
     "submodule": "io.jooby:jooby-test:jar:3.0.0.M1"
   },
@@ -1364,7 +1364,7 @@
     "classifier": "jar",
     "version": "4.1.85.Final",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "io.jooby:jooby-test:jar:3.0.0.M1"
   },
   {
@@ -1551,8 +1551,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-apt:jar:3.0.0.M1"
   },
@@ -1938,8 +1938,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-conscrypt:jar:3.0.0.M1"
   },
@@ -2136,8 +2136,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-jetty:jar:3.0.0.M1"
   },
@@ -2514,8 +2514,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-undertow:jar:3.0.0.M1"
   },
@@ -2793,8 +2793,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-openapi:jar:3.0.0.M1"
   },
@@ -3369,8 +3369,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-swagger-ui:jar:3.0.0.M1"
   },
@@ -3441,8 +3441,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-redoc:jar:3.0.0.M1"
   },
@@ -3540,8 +3540,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-hikari:jar:3.0.0.M1"
   },
@@ -3693,8 +3693,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-jdbi:jar:3.0.0.M1"
   },
@@ -3855,8 +3855,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-hibernate:jar:3.0.0.M1"
   },
@@ -4134,8 +4134,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-flyway:jar:3.0.0.M1"
   },
@@ -4314,8 +4314,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-ebean:jar:3.0.0.M1"
   },
@@ -4836,8 +4836,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-redis:jar:3.0.0.M1"
   },
@@ -5007,8 +5007,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-kafka:jar:3.0.0.M1"
   },
@@ -5169,8 +5169,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-caffeine:jar:3.0.0.M1"
   },
@@ -5367,8 +5367,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-jackson:jar:3.0.0.M1"
   },
@@ -5574,8 +5574,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-gson:jar:3.0.0.M1"
   },
@@ -5736,8 +5736,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-yasson:jar:3.0.0.M1"
   },
@@ -5934,8 +5934,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-graphql:jar:3.0.0.M1"
   },
@@ -6222,8 +6222,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-freemarker:jar:3.0.0.M1"
   },
@@ -6357,8 +6357,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-handlebars:jar:3.0.0.M1"
   },
@@ -6492,8 +6492,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-pebble:jar:3.0.0.M1"
   },
@@ -6645,8 +6645,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-rocker:jar:3.0.0.M1"
   },
@@ -6789,8 +6789,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-thymeleaf:jar:3.0.0.M1"
   },
@@ -6960,8 +6960,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-node:jar:3.0.0.M1"
   },
@@ -7212,8 +7212,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-camel:jar:3.0.0.M1"
   },
@@ -7779,8 +7779,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-pac4j:jar:3.0.0.M1"
   },
@@ -7950,8 +7950,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-quartz:jar:3.0.0.M1"
   },
@@ -8103,8 +8103,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-awssdk-v1:jar:3.0.0.M1"
   },
@@ -8355,8 +8355,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-guice:jar:3.0.0.M1"
   },
@@ -8580,8 +8580,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-spring:jar:3.0.0.M1"
   },
@@ -8751,8 +8751,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-weld:jar:3.0.0.M1"
   },
@@ -8877,8 +8877,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-commons-email:jar:3.0.0.M1"
   },
@@ -9075,8 +9075,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-run:jar:3.0.0.M1"
   },
@@ -9282,8 +9282,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-cli:jar:3.0.0.M1"
   },
@@ -9462,8 +9462,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
@@ -10155,8 +10155,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.2.2",
+    "scope": "provided",
     "depth": 2,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
@@ -10211,7 +10211,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 3,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10220,7 +10220,7 @@
     "classifier": "jar",
     "version": "31.1-jre",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10229,7 +10229,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10238,7 +10238,7 @@
     "classifier": "jar",
     "version": "9999.0-empty-to-avoid-conflict-with-guava",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10247,7 +10247,7 @@
     "classifier": "jar",
     "version": "3.12.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10256,7 +10256,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10265,7 +10265,7 @@
     "classifier": "jar",
     "version": "1.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "io.jooby:jooby-maven-plugin:maven-plugin:3.0.0.M1"
   },
   {
@@ -10380,8 +10380,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-banner:jar:3.0.0.M1"
   },
@@ -10578,8 +10578,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-whoops:jar:3.0.0.M1"
   },
@@ -10704,8 +10704,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.85.Final",
+    "scope": "test",
     "depth": 2,
     "submodule": "io.jooby:jooby-whoops:jar:3.0.0.M1"
   },
@@ -10769,7 +10769,7 @@
     "classifier": "jar",
     "version": "4.1.85.Final",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "io.jooby:jooby-whoops:jar:3.0.0.M1"
   },
   {
@@ -10830,8 +10830,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-metrics:jar:3.0.0.M1"
   },
@@ -10992,8 +10992,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:jooby-jasypt:jar:3.0.0.M1"
   },
@@ -11865,8 +11865,8 @@
     "groupId": "org.jacoco",
     "artifactId": "org.jacoco.agent",
     "classifier": "jar",
-    "version": "runtime",
-    "scope": "root_scope",
+    "version": "0.8.8",
+    "scope": "test",
     "depth": 1,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
   },
@@ -12117,8 +12117,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.85.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
   },
@@ -12182,7 +12182,7 @@
     "classifier": "jar",
     "version": "4.1.85.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
   },
   {
@@ -12972,7 +12972,7 @@
     "groupId": "org.webjars.npm",
     "artifactId": "babel__parser",
     "classifier": "jar",
-    "version": "7.20.15",
+    "version": "7.21.2",
     "scope": "compile",
     "depth": 3,
     "submodule": "io.jooby:tests:jar:3.0.0.M1"
@@ -13494,8 +13494,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.3.9",
+    "scope": "compile",
     "depth": 4,
     "submodule": "io.jooby:docs:jar:3.0.0.M1"
   },

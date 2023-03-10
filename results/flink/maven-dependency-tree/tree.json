@@ -3963,8 +3963,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-common:jar:1.16.0"
   },
@@ -4440,8 +4440,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
@@ -4449,8 +4449,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
@@ -4640,7 +4640,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4649,7 +4649,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4658,7 +4658,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4667,7 +4667,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4676,7 +4676,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4685,7 +4685,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4694,7 +4694,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4703,7 +4703,7 @@
     "classifier": "jar",
     "version": "30.1.1-jre-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -4712,7 +4712,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-table-api-java:jar:1.16.0"
   },
   {
@@ -7266,8 +7266,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-rpc-akka:jar:1.16.0"
   },
@@ -8733,8 +8733,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-queryable-state-client-java:jar:1.16.0"
   },
@@ -9624,8 +9624,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -9633,8 +9633,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.8.5",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -9642,8 +9642,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.8.5",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10704,8 +10704,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10713,8 +10713,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10722,8 +10722,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10731,8 +10731,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10740,8 +10740,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -10749,8 +10749,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-fs:jar:1.16.0"
   },
@@ -11100,8 +11100,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -11289,8 +11289,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-metrics-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -11298,8 +11298,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12342,8 +12342,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12351,8 +12351,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12360,8 +12360,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12369,8 +12369,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12378,8 +12378,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12387,8 +12387,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.apache.flink:flink-runtime:jar:1.16.0"
   },
@@ -12783,8 +12783,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-java:jar:1.16.0"
   },
@@ -12801,8 +12801,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-java:jar:1.16.0"
   },
@@ -14052,8 +14052,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-api-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
@@ -14061,8 +14061,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
@@ -14070,8 +14070,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
@@ -14079,8 +14079,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
@@ -14369,7 +14369,7 @@
     "classifier": "jar",
     "version": "9.2-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14378,7 +14378,7 @@
     "classifier": "jar",
     "version": "67.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14387,7 +14387,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14396,7 +14396,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14405,7 +14405,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14414,7 +14414,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14423,7 +14423,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14432,7 +14432,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14441,7 +14441,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14450,7 +14450,7 @@
     "classifier": "jar",
     "version": "3.5.9-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14459,7 +14459,7 @@
     "classifier": "jar",
     "version": "1.5.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14468,7 +14468,7 @@
     "classifier": "jar",
     "version": "3.24.0-GA",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14477,7 +14477,7 @@
     "classifier": "jar",
     "version": "1.1.8.3",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14486,7 +14486,7 @@
     "classifier": "jar",
     "version": "1.8.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -14495,7 +14495,7 @@
     "classifier": "jar",
     "version": "0.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-java-bridge:jar:1.16.0"
   },
   {
@@ -15258,8 +15258,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-optimizer:jar:1.16.0"
   },
@@ -15879,8 +15879,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-clients:jar:1.16.0"
   },
@@ -15897,8 +15897,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-clients:jar:1.16.0"
   },
@@ -16887,8 +16887,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-statebackend-common:jar:1.16.0"
   },
@@ -17886,8 +17886,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-dstl-dfs:jar:1.16.0"
   },
@@ -17895,8 +17895,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-dstl-dfs:jar:1.16.0"
   },
@@ -18543,8 +18543,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
@@ -18552,8 +18552,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
@@ -18923,7 +18923,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18932,7 +18932,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18941,7 +18941,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18950,7 +18950,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18959,7 +18959,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18968,7 +18968,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18977,7 +18977,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18986,7 +18986,7 @@
     "classifier": "jar",
     "version": "3.5.9-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -18995,7 +18995,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -19004,7 +19004,7 @@
     "classifier": "jar",
     "version": "3.24.0-GA",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -19013,7 +19013,7 @@
     "classifier": "jar",
     "version": "1.1.8.3",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -19022,7 +19022,7 @@
     "classifier": "jar",
     "version": "1.8.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -19031,7 +19031,7 @@
     "classifier": "jar",
     "version": "0.21",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-rocksdb:jar:1.16.0"
   },
   {
@@ -19236,8 +19236,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-statebackend-changelog:jar:1.16.0"
   },
@@ -19245,8 +19245,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-statebackend-rocksdb",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-statebackend-changelog:jar:1.16.0"
   },
@@ -19697,7 +19697,7 @@
     "classifier": "jar",
     "version": "6.20.3-ververica-1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-statebackend-changelog:jar:1.16.0"
   },
   {
@@ -19893,8 +19893,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
@@ -19902,8 +19902,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
@@ -19911,8 +19911,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
@@ -20354,7 +20354,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -20363,7 +20363,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -20372,7 +20372,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -20381,7 +20381,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -20390,7 +20390,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -20399,7 +20399,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-test-utils:jar:1.16.0"
   },
   {
@@ -21171,8 +21171,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
@@ -21189,8 +21189,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
@@ -21198,8 +21198,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
@@ -21504,8 +21504,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
@@ -21560,7 +21560,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21569,7 +21569,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21578,7 +21578,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21587,7 +21587,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21596,7 +21596,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21605,7 +21605,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21614,7 +21614,7 @@
     "classifier": "jar",
     "version": "3.5.9-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21623,7 +21623,7 @@
     "classifier": "jar",
     "version": "1.5.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21632,7 +21632,7 @@
     "classifier": "jar",
     "version": "3.24.0-GA",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21641,7 +21641,7 @@
     "classifier": "jar",
     "version": "1.1.8.3",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21650,7 +21650,7 @@
     "classifier": "jar",
     "version": "1.8.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21659,7 +21659,7 @@
     "classifier": "jar",
     "version": "0.21",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-cep:jar:1.16.0"
   },
   {
@@ -21963,8 +21963,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
@@ -21981,8 +21981,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
@@ -21990,8 +21990,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
@@ -22253,7 +22253,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22262,7 +22262,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22271,7 +22271,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22280,7 +22280,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22289,7 +22289,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22298,7 +22298,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22307,7 +22307,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22316,7 +22316,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22341,8 +22341,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
@@ -22350,8 +22350,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
@@ -22505,7 +22505,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22514,7 +22514,7 @@
     "classifier": "jar",
     "version": "3.6.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-runtime:jar:1.16.0"
   },
   {
@@ -22818,8 +22818,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-scala_2.12:jar:1.16.0"
   },
@@ -23367,8 +23367,8 @@
     "groupId": "org.apache.calcite",
     "artifactId": "calcite-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.26.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
@@ -23585,7 +23585,7 @@
     "classifier": "jar",
     "version": "1.26.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23594,7 +23594,7 @@
     "classifier": "jar",
     "version": "2.2.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23603,7 +23603,7 @@
     "classifier": "jar",
     "version": "2.13.4",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23612,7 +23612,7 @@
     "classifier": "jar",
     "version": "2.4.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23621,7 +23621,7 @@
     "classifier": "jar",
     "version": "0.9.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23630,7 +23630,7 @@
     "classifier": "jar",
     "version": "1.15",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23639,7 +23639,7 @@
     "classifier": "jar",
     "version": "6.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23648,7 +23648,7 @@
     "classifier": "jar",
     "version": "2.6.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23657,7 +23657,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23666,7 +23666,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23675,7 +23675,7 @@
     "classifier": "jar",
     "version": "3.0.11",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23684,7 +23684,7 @@
     "classifier": "jar",
     "version": "3.0.11",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23693,7 +23693,7 @@
     "classifier": "jar",
     "version": "1.27",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23702,7 +23702,7 @@
     "classifier": "jar",
     "version": "2.3",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23711,7 +23711,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "test",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23720,7 +23720,7 @@
     "classifier": "jar",
     "version": "5.0.4",
     "scope": "test",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23729,7 +23729,7 @@
     "classifier": "jar",
     "version": "0.9.0",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23738,7 +23738,7 @@
     "classifier": "jar",
     "version": "2.4",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23747,7 +23747,7 @@
     "classifier": "jar",
     "version": "1.1.3",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -23756,7 +23756,7 @@
     "classifier": "jar",
     "version": "2.6.1",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser:jar:1.16.0"
   },
   {
@@ -24024,8 +24024,8 @@
     "groupId": "org.apache.calcite",
     "artifactId": "calcite-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.26.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
@@ -24341,7 +24341,7 @@
     "classifier": "jar",
     "version": "1.26.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24350,7 +24350,7 @@
     "classifier": "jar",
     "version": "1.17.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24359,7 +24359,7 @@
     "classifier": "jar",
     "version": "2.2.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24368,7 +24368,7 @@
     "classifier": "jar",
     "version": "2.13.4",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24377,7 +24377,7 @@
     "classifier": "jar",
     "version": "2.4.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24386,7 +24386,7 @@
     "classifier": "jar",
     "version": "0.9.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24395,7 +24395,7 @@
     "classifier": "jar",
     "version": "1.15",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24404,7 +24404,7 @@
     "classifier": "jar",
     "version": "6.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24413,7 +24413,7 @@
     "classifier": "jar",
     "version": "2.6.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24422,7 +24422,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24431,7 +24431,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24440,7 +24440,7 @@
     "classifier": "jar",
     "version": "3.0.11",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24449,7 +24449,7 @@
     "classifier": "jar",
     "version": "3.0.11",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24458,7 +24458,7 @@
     "classifier": "jar",
     "version": "1.17.0",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24467,7 +24467,7 @@
     "classifier": "jar",
     "version": "3.6.1",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24476,7 +24476,7 @@
     "classifier": "jar",
     "version": "4.5.13",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24485,7 +24485,7 @@
     "classifier": "jar",
     "version": "4.4.14",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24494,7 +24494,7 @@
     "classifier": "jar",
     "version": "1.27",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24503,7 +24503,7 @@
     "classifier": "jar",
     "version": "2.3",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24512,7 +24512,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "test",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24521,7 +24521,7 @@
     "classifier": "jar",
     "version": "5.0.4",
     "scope": "test",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24530,7 +24530,7 @@
     "classifier": "jar",
     "version": "0.9.0",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24539,7 +24539,7 @@
     "classifier": "jar",
     "version": "2.4",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24548,7 +24548,7 @@
     "classifier": "jar",
     "version": "1.1.3",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24557,7 +24557,7 @@
     "classifier": "jar",
     "version": "2.6.1",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-sql-parser-hive:jar:1.16.0"
   },
   {
@@ -24843,8 +24843,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-scala_2.12:jar:1.16.0"
   },
@@ -24852,8 +24852,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-api-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-scala_2.12:jar:1.16.0"
   },
@@ -25419,8 +25419,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
@@ -25428,8 +25428,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
@@ -25437,8 +25437,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-scala_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
@@ -25446,8 +25446,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
@@ -25788,8 +25788,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
@@ -25844,7 +25844,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25853,7 +25853,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25862,7 +25862,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25871,7 +25871,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25880,7 +25880,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25889,7 +25889,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25898,7 +25898,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25907,7 +25907,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25916,7 +25916,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25925,7 +25925,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25934,7 +25934,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25943,7 +25943,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25952,7 +25952,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25961,7 +25961,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25970,7 +25970,7 @@
     "classifier": "jar",
     "version": "3.5.9-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25979,7 +25979,7 @@
     "classifier": "jar",
     "version": "1.5.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25988,7 +25988,7 @@
     "classifier": "jar",
     "version": "3.24.0-GA",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -25997,7 +25997,7 @@
     "classifier": "jar",
     "version": "1.1.8.3",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -26006,7 +26006,7 @@
     "classifier": "jar",
     "version": "1.8.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -26015,7 +26015,7 @@
     "classifier": "jar",
     "version": "0.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-streaming-scala_2.12:jar:1.16.0"
   },
   {
@@ -26202,8 +26202,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-scala-bridge_2.12:jar:1.16.0"
   },
@@ -26211,8 +26211,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-api-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-api-scala-bridge_2.12:jar:1.16.0"
   },
@@ -26699,7 +26699,7 @@
     "classifier": "jar",
     "version": "67.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-api-scala-bridge_2.12:jar:1.16.0"
   },
   {
@@ -27363,8 +27363,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-test-utils:jar:1.16.0"
   },
@@ -27372,8 +27372,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-test-utils:jar:1.16.0"
   },
@@ -27381,8 +27381,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-test-utils:jar:1.16.0"
   },
@@ -27948,8 +27948,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
@@ -27957,8 +27957,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
@@ -27966,8 +27966,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
@@ -28184,7 +28184,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28193,7 +28193,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28202,7 +28202,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28211,7 +28211,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28220,7 +28220,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28229,7 +28229,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-architecture-tests-test:jar:1.16.0"
   },
   {
@@ -28434,8 +28434,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
@@ -28461,8 +28461,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
@@ -28740,8 +28740,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
@@ -28749,8 +28749,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
@@ -28985,7 +28985,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
   {
@@ -28994,7 +28994,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
   {
@@ -29003,7 +29003,7 @@
     "classifier": "jar",
     "version": "3.6.1",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
   {
@@ -29012,7 +29012,7 @@
     "classifier": "jar",
     "version": "0.7.6",
     "scope": "test",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-connector-base:jar:1.16.0"
   },
   {
@@ -29262,8 +29262,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29280,8 +29280,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-connector-base",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29298,8 +29298,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29307,8 +29307,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29739,8 +29739,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29748,8 +29748,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
@@ -29867,7 +29867,7 @@
     "classifier": "jar",
     "version": "67.1",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-connector-files:jar:1.16.0"
   },
   {
@@ -30180,8 +30180,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30189,8 +30189,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30198,8 +30198,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-api-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30207,8 +30207,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30216,8 +30216,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30711,8 +30711,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30720,8 +30720,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
@@ -30875,7 +30875,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30884,7 +30884,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30893,7 +30893,7 @@
     "classifier": "jar",
     "version": "3.3.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30902,7 +30902,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30911,7 +30911,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30920,7 +30920,7 @@
     "classifier": "jar",
     "version": "1.21",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30929,7 +30929,7 @@
     "classifier": "jar",
     "version": "30.1.1-jre-15.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30938,7 +30938,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30947,7 +30947,7 @@
     "classifier": "jar",
     "version": "67.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30956,7 +30956,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -30965,7 +30965,7 @@
     "classifier": "jar",
     "version": "3.6.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-table-planner_2.12:jar:1.16.0"
   },
   {
@@ -32025,8 +32025,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-json:jar:1.16.0"
   },
@@ -32052,8 +32052,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-json:jar:1.16.0"
   },
@@ -32871,8 +32871,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-json:jar:1.16.0"
   },
@@ -32880,8 +32880,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-json:jar:1.16.0"
   },
@@ -32889,8 +32889,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-json:jar:1.16.0"
   },
@@ -33987,8 +33987,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-csv:jar:1.16.0"
   },
@@ -34032,8 +34032,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-csv:jar:1.16.0"
   },
@@ -34653,8 +34653,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-csv:jar:1.16.0"
   },
@@ -34662,8 +34662,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-csv:jar:1.16.0"
   },
@@ -34671,8 +34671,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-csv:jar:1.16.0"
   },
@@ -35139,8 +35139,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
@@ -35175,8 +35175,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
@@ -36066,8 +36066,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
@@ -36075,8 +36075,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
@@ -36239,7 +36239,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36248,7 +36248,7 @@
     "classifier": "jar",
     "version": "1.16.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36257,7 +36257,7 @@
     "classifier": "jar",
     "version": "2.12.4-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36266,7 +36266,7 @@
     "classifier": "jar",
     "version": "2.24.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36275,7 +36275,7 @@
     "classifier": "jar",
     "version": "30.1.1-jre-15.0",
     "scope": "provided",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36284,7 +36284,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "provided",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-compatibility_2.12:jar:1.16.0"
   },
   {
@@ -36606,8 +36606,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.8.5",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -36615,8 +36615,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.8.5",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37812,8 +37812,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37821,8 +37821,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37830,8 +37830,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37839,8 +37839,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37848,8 +37848,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37857,8 +37857,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37974,8 +37974,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37983,8 +37983,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -37992,8 +37992,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-hadoop-bulk:jar:1.16.0"
   },
@@ -38388,8 +38388,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-streaming-java",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -38415,8 +38415,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -38433,8 +38433,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-file-sink-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39657,8 +39657,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39666,8 +39666,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39675,8 +39675,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39684,8 +39684,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39693,8 +39693,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39702,8 +39702,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
+    "version": "4.1.70.Final",
+    "scope": "provided",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39765,8 +39765,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39774,8 +39774,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -39783,8 +39783,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-orc:jar:1.16.0"
   },
@@ -40341,8 +40341,8 @@
     "groupId": "org.apache.orc",
     "artifactId": "orc-core",
     "classifier": "jar",
-    "version": "nohive",
-    "scope": "root_scope",
+    "version": "1.5.6",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
@@ -40359,8 +40359,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-orc",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
@@ -40658,7 +40658,7 @@
     "classifier": "jar",
     "version": "1.5.6",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40667,7 +40667,7 @@
     "classifier": "jar",
     "version": "2.5.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40676,7 +40676,7 @@
     "classifier": "jar",
     "version": "2.6",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40685,7 +40685,7 @@
     "classifier": "jar",
     "version": "0.10",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40694,7 +40694,7 @@
     "classifier": "jar",
     "version": "2.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40703,7 +40703,7 @@
     "classifier": "jar",
     "version": "2.8.5",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40712,7 +40712,7 @@
     "classifier": "jar",
     "version": "2.8.5",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40721,7 +40721,7 @@
     "classifier": "jar",
     "version": "1.2.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40730,7 +40730,7 @@
     "classifier": "jar",
     "version": "2.8.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40739,7 +40739,7 @@
     "classifier": "jar",
     "version": "1.5.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40748,7 +40748,7 @@
     "classifier": "jar",
     "version": "3.6.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40757,7 +40757,7 @@
     "classifier": "jar",
     "version": "0.52",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40766,7 +40766,7 @@
     "classifier": "jar",
     "version": "4.5.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40775,7 +40775,7 @@
     "classifier": "jar",
     "version": "1.15",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40784,7 +40784,7 @@
     "classifier": "jar",
     "version": "2.11.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40793,7 +40793,7 @@
     "classifier": "jar",
     "version": "3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40802,7 +40802,7 @@
     "classifier": "jar",
     "version": "6.1.26",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40811,7 +40811,7 @@
     "classifier": "jar",
     "version": "1.9",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40820,7 +40820,7 @@
     "classifier": "jar",
     "version": "1.9",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40829,7 +40829,7 @@
     "classifier": "jar",
     "version": "1.1.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40838,7 +40838,7 @@
     "classifier": "jar",
     "version": "1.7",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40847,7 +40847,7 @@
     "classifier": "jar",
     "version": "1.9.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40856,7 +40856,7 @@
     "classifier": "jar",
     "version": "1.9.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40865,7 +40865,7 @@
     "classifier": "jar",
     "version": "2.2.4",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40874,7 +40874,7 @@
     "classifier": "jar",
     "version": "2.8.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40883,7 +40883,7 @@
     "classifier": "jar",
     "version": "0.1.54",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40892,7 +40892,7 @@
     "classifier": "jar",
     "version": "2.7.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40901,7 +40901,7 @@
     "classifier": "jar",
     "version": "4.0.1-incubating",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40910,7 +40910,7 @@
     "classifier": "jar",
     "version": "3.5.9",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40919,7 +40919,7 @@
     "classifier": "jar",
     "version": "4.4.14",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40928,7 +40928,7 @@
     "classifier": "jar",
     "version": "3.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40937,7 +40937,7 @@
     "classifier": "jar",
     "version": "1.8.3",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40946,7 +40946,7 @@
     "classifier": "jar",
     "version": "4.41.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40955,7 +40955,7 @@
     "classifier": "jar",
     "version": "2.0.0-M15",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40964,7 +40964,7 @@
     "classifier": "jar",
     "version": "2.7.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40973,7 +40973,7 @@
     "classifier": "jar",
     "version": "1.0-1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40982,7 +40982,7 @@
     "classifier": "jar",
     "version": "2.3",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -40991,7 +40991,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 5,
+    "depth": 6,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41000,7 +41000,7 @@
     "classifier": "jar",
     "version": "5.0.4",
     "scope": "compile",
-    "depth": 6,
+    "depth": 7,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41009,7 +41009,7 @@
     "classifier": "jar",
     "version": "2.0.0-M15",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41018,7 +41018,7 @@
     "classifier": "jar",
     "version": "1.0.0-M20",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41027,7 +41027,7 @@
     "classifier": "jar",
     "version": "1.0.0-M20",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41036,7 +41036,7 @@
     "classifier": "jar",
     "version": "3.5.9",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41045,7 +41045,7 @@
     "classifier": "jar",
     "version": "0.5.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41054,7 +41054,7 @@
     "classifier": "jar",
     "version": "2.8.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41063,7 +41063,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41072,7 +41072,7 @@
     "classifier": "jar",
     "version": "2.4.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41081,7 +41081,7 @@
     "classifier": "jar",
     "version": "1.4.0",
     "scope": "compile",
-    "depth": 4,
+    "depth": 5,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41090,7 +41090,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41099,7 +41099,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41108,7 +41108,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41117,7 +41117,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41126,7 +41126,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41135,7 +41135,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41144,7 +41144,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41153,7 +41153,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41162,7 +41162,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41171,7 +41171,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41180,7 +41180,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41189,7 +41189,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41198,7 +41198,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41207,7 +41207,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41216,7 +41216,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41225,7 +41225,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41234,7 +41234,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41243,7 +41243,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41252,7 +41252,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41261,7 +41261,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41270,7 +41270,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41279,7 +41279,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41288,7 +41288,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41297,7 +41297,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41306,7 +41306,7 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41315,61 +41315,61 @@
     "classifier": "jar",
     "version": "4.1.70.Final",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-aarch_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
     "groupId": "io.netty",
     "artifactId": "netty-resolver-dns-native-macos",
     "classifier": "jar",
-    "version": "osx-aarch_64",
-    "scope": "root_scope",
-    "depth": 3,
+    "version": "4.1.70.Final",
+    "scope": "runtime",
+    "depth": 4,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41684,7 +41684,7 @@
     "classifier": "jar",
     "version": "1.5.6",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
   {
@@ -41772,8 +41772,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
@@ -41781,8 +41781,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
@@ -41790,8 +41790,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 3,
     "submodule": "org.apache.flink:flink-orc-nohive:jar:1.16.0"
   },
@@ -42195,8 +42195,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42222,8 +42222,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-scala_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42231,8 +42231,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42258,8 +42258,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42267,8 +42267,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-file-sink-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42807,8 +42807,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -42816,8 +42816,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-avro:jar:1.16.0"
   },
@@ -43473,8 +43473,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -43482,8 +43482,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-connector-files",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -43500,8 +43500,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-file-sink-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -44517,8 +44517,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -44526,8 +44526,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -44535,8 +44535,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-parquet:jar:1.16.0"
   },
@@ -45201,8 +45201,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-sql-gateway-api",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-sql-gateway:jar:1.16.0"
   },
@@ -45228,8 +45228,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-table-planner_2.12",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.apache.flink:flink-sql-gateway:jar:1.16.0"
   },
@@ -45804,8 +45804,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-runtime",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-sql-gateway:jar:1.16.0"
   },
@@ -45813,8 +45813,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-core",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-sql-gateway:jar:1.16.0"
   },
@@ -45822,8 +45822,8 @@
     "groupId": "org.apache.flink",
     "artifactId": "flink-rpc-akka-loader",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "1.16.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.apache.flink:flink-sql-gateway:jar:1.16.0"
   },

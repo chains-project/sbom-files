@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Set;
 import io.github.chains_project.data.AnalyzerResult;
 import io.github.chains_project.data.Dependency;
@@ -23,7 +24,7 @@ public class CreateDataTree {
   public List<AnalyzerResult> createData(Path resultFolder) throws IOException {
     List<AnalyzerResult> results = new ArrayList<>();
     StringBuilder sb = new StringBuilder();
-
+    Locale.setDefault(Locale.US);
     for (Path project : Files.list(resultFolder).toArray(Path[]::new)) {
       Path truthJson = getMavenTruth(project);
       if (truthJson == null) {
@@ -134,6 +135,9 @@ public class CreateDataTree {
 
 
   private Path findJsonFile(Path folder) throws IOException {
+    if (folder == null) {
+      return null;
+    }
     return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
         .orElse(null);
   }

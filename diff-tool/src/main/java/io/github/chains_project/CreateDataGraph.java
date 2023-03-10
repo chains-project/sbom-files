@@ -132,6 +132,9 @@ public class CreateDataGraph {
 
 
   private Path findJsonFile(Path folder) throws IOException {
+    if (folder == null) {
+      return null;
+    }
     return Files.walk(folder).filter(v -> v.getFileName().toString().endsWith(".json")).findAny()
         .orElse(null);
   }

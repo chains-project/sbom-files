@@ -40,3 +40,4 @@ Notes:
 - [moshi](https://github.com/square/moshi) has been excluded because I did not find a POM.
 - [teavm/core](https://github.com/konsoletyper/teavm) has been excluded because I did not find a POM.
 - *these modules are not maintained anymore.
+

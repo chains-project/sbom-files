@@ -21,7 +21,7 @@ public class CsvWriterAverage {
   public static void createCSVAverage() throws IOException {
     var list = new CreateDataTree().createData(Path.of("./results"));
     createCSV(list, "resultsTreeAverage");
-    createCSV(new CreateDataGraph().createData(Path.of("./results")), "resultsGraphAverage");
+    // createCSV(new CreateDataGraph().createData(Path.of("./results")), "resultsGraphAverage");
     createCSV(new CreateDataTreeAllDeps().createData(Path.of("./results")), "resultsTreeAllAverage");
 
   }

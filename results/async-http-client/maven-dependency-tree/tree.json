@@ -165,8 +165,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-project:pom:2.12.3"
   },
@@ -185,7 +185,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-project:pom:2.12.3"
   },
   {
@@ -194,7 +194,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-project:pom:2.12.3"
   },
   {
@@ -203,7 +203,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-project:pom:2.12.3"
   },
   {
@@ -507,8 +507,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-bom:pom:2.12.3"
   },
@@ -527,7 +527,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-bom:pom:2.12.3"
   },
   {
@@ -536,7 +536,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-bom:pom:2.12.3"
   },
   {
@@ -545,7 +545,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-bom:pom:2.12.3"
   },
   {
@@ -867,8 +867,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-netty-utils:jar:2.12.3"
   },
@@ -887,7 +887,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-netty-utils:jar:2.12.3"
   },
   {
@@ -896,7 +896,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-netty-utils:jar:2.12.3"
   },
   {
@@ -905,7 +905,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-netty-utils:jar:2.12.3"
   },
   {
@@ -1092,8 +1092,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
@@ -1101,8 +1101,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
@@ -1346,7 +1346,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
   {
@@ -1542,8 +1542,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
@@ -1562,7 +1562,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
   {
@@ -1571,7 +1571,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
   {
@@ -1580,7 +1580,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client:jar:2.12.3"
   },
   {
@@ -1731,8 +1731,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
@@ -1929,8 +1929,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
@@ -1938,8 +1938,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
@@ -2012,7 +2012,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
   {
@@ -2037,8 +2037,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
@@ -2057,7 +2057,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
   {
@@ -2066,7 +2066,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
   {
@@ -2075,7 +2075,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-parent:pom:2.12.3"
   },
   {
@@ -2235,8 +2235,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
@@ -2487,8 +2487,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
@@ -2496,8 +2496,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
@@ -2570,7 +2570,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
   {
@@ -2595,8 +2595,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
@@ -2615,7 +2615,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
   {
@@ -2624,7 +2624,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-guava:jar:2.12.3"
   },
   {
@@ -2784,8 +2784,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
@@ -2982,8 +2982,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
@@ -2991,8 +2991,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
@@ -3065,7 +3065,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
   {
@@ -3090,8 +3090,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
@@ -3110,7 +3110,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
   {
@@ -3119,7 +3119,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
   {
@@ -3128,7 +3128,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-jdeferred:jar:2.12.3"
   },
   {
@@ -3279,8 +3279,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
@@ -3477,8 +3477,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
@@ -3486,8 +3486,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
@@ -3560,7 +3560,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
   {
@@ -3585,8 +3585,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
@@ -3605,7 +3605,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
   {
@@ -3614,7 +3614,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
   {
@@ -3623,7 +3623,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-registry:jar:2.12.3"
   },
   {
@@ -3783,8 +3783,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
@@ -3981,8 +3981,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
@@ -3990,8 +3990,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
@@ -4064,7 +4064,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
   {
@@ -4089,8 +4089,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
@@ -4109,7 +4109,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
   {
@@ -4118,7 +4118,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
   {
@@ -4127,7 +4127,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava:jar:2.12.3"
   },
   {
@@ -4287,8 +4287,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
@@ -4494,8 +4494,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
@@ -4503,8 +4503,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
@@ -4568,7 +4568,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
   {
@@ -4593,8 +4593,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
@@ -4613,7 +4613,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
   {
@@ -4622,7 +4622,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
   {
@@ -4631,7 +4631,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-rxjava2:jar:2.12.3"
   },
   {
@@ -4782,8 +4782,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
@@ -4980,8 +4980,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
@@ -4989,8 +4989,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
@@ -5063,7 +5063,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
   {
@@ -5088,8 +5088,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
@@ -5108,7 +5108,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
   {
@@ -5117,7 +5117,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
   {
@@ -5126,7 +5126,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-simple:jar:2.12.3"
   },
   {
@@ -5331,8 +5331,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
@@ -5601,8 +5601,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
@@ -5610,8 +5610,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
@@ -5675,7 +5675,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
   {
@@ -5700,8 +5700,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
@@ -5720,7 +5720,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
   {
@@ -5729,7 +5729,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
   {
@@ -5738,7 +5738,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-retrofit2:jar:2.12.3"
   },
   {
@@ -5898,8 +5898,8 @@
     "groupId": "org.asynchttpclient",
     "artifactId": "async-http-client",
     "classifier": "jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.12.3",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
@@ -6096,8 +6096,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
@@ -6105,8 +6105,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
@@ -6179,7 +6179,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
   {
@@ -6204,8 +6204,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
@@ -6224,7 +6224,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
   {
@@ -6233,7 +6233,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
   {
@@ -6242,7 +6242,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-extras-typesafe-config:jar:2.12.3"
   },
   {
@@ -6582,8 +6582,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-epoll",
     "classifier": "jar",
-    "version": "linux-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
@@ -6591,8 +6591,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-transport-native-kqueue",
     "classifier": "jar",
-    "version": "osx-x86_64",
-    "scope": "root_scope",
+    "version": "4.1.60.Final",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
@@ -6665,7 +6665,7 @@
     "classifier": "jar",
     "version": "4.1.60.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
   {
@@ -6690,8 +6690,8 @@
     "groupId": "com.google.inject",
     "artifactId": "guice",
     "classifier": "jar",
-    "version": "no_aop",
-    "scope": "root_scope",
+    "version": "4.1.0",
+    "scope": "test",
     "depth": 2,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
@@ -6710,7 +6710,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
   {
@@ -6719,7 +6719,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
   {
@@ -6728,7 +6728,7 @@
     "classifier": "jar",
     "version": "19.0",
     "scope": "test",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.asynchttpclient:async-http-client-example:jar:2.12.3"
   },
   {

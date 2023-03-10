@@ -96,8 +96,14 @@ public class Helper {
   }
 
   private Path getMavenTruth(Path project) throws IOException {
-    return findJsonFile(Files.walk(project)
+    try {
+      return findJsonFile(Files.walk(project)
         .filter(v -> v.getFileName().toString().equals("maven-dependency-tree")).findAny().get());
+      
+    } catch (Exception e) {
+      return null;
+      // TODO: handle exception
+    }
   }
 
   /**

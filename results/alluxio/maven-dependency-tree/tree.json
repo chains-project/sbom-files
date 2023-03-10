@@ -1191,8 +1191,8 @@
     "groupId": "io.netty",
     "artifactId": "netty-buffer",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "4.1.52.Final",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-common:jar:2.9.0"
   },
@@ -1553,7 +1553,7 @@
     "classifier": "jar",
     "version": "4.1.52.Final",
     "scope": "test",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-core-common:jar:2.9.0"
   },
   {
@@ -2037,8 +2037,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-client-fs:jar:2.9.0"
   },
@@ -4926,8 +4926,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
@@ -5081,7 +5081,7 @@
     "classifier": "jar",
     "version": "2.13.3",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5090,7 +5090,7 @@
     "classifier": "jar",
     "version": "2.7",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5099,7 +5099,7 @@
     "classifier": "jar",
     "version": "1.4",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5108,7 +5108,7 @@
     "classifier": "jar",
     "version": "4.5.13",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5117,7 +5117,7 @@
     "classifier": "jar",
     "version": "2.8.9",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5126,7 +5126,7 @@
     "classifier": "jar",
     "version": "31.0.1-jre",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5135,7 +5135,7 @@
     "classifier": "jar",
     "version": "3.19.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5144,7 +5144,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5153,7 +5153,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5162,7 +5162,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5171,7 +5171,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5180,7 +5180,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5189,7 +5189,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5198,7 +5198,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5207,7 +5207,7 @@
     "classifier": "jar",
     "version": "1.6.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5216,7 +5216,7 @@
     "classifier": "jar",
     "version": "3.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5225,7 +5225,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5234,7 +5234,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5243,7 +5243,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5252,7 +5252,7 @@
     "classifier": "jar",
     "version": "0.9.12",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5261,7 +5261,7 @@
     "classifier": "jar",
     "version": "7.0.3",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5270,7 +5270,7 @@
     "classifier": "jar",
     "version": "2.0.26.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5279,7 +5279,7 @@
     "classifier": "jar",
     "version": "2.9.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5288,7 +5288,7 @@
     "classifier": "jar",
     "version": "2.13.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5297,7 +5297,7 @@
     "classifier": "jar",
     "version": "2.13.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5306,7 +5306,7 @@
     "classifier": "jar",
     "version": "4.4.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5315,7 +5315,7 @@
     "classifier": "jar",
     "version": "1.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5324,7 +5324,7 @@
     "classifier": "jar",
     "version": "1.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5333,7 +5333,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5342,7 +5342,7 @@
     "classifier": "jar",
     "version": "9999.0-empty-to-avoid-conflict-with-guava",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5351,7 +5351,7 @@
     "classifier": "jar",
     "version": "5.5.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5360,7 +5360,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5369,7 +5369,7 @@
     "classifier": "jar",
     "version": "4.1.1.4",
     "scope": "runtime",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5378,7 +5378,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "runtime",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5387,7 +5387,7 @@
     "classifier": "jar",
     "version": "0.23.0",
     "scope": "runtime",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5396,7 +5396,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5405,7 +5405,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5414,7 +5414,7 @@
     "classifier": "jar",
     "version": "0.5.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5423,7 +5423,7 @@
     "classifier": "jar",
     "version": "4.1.52.Final",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5432,7 +5432,7 @@
     "classifier": "jar",
     "version": "1.7.25",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5441,7 +5441,7 @@
     "classifier": "jar",
     "version": "1.2.17",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5450,7 +5450,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5459,7 +5459,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-job-client:jar:2.9.0"
   },
   {
@@ -5700,8 +5700,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-shell:jar:2.9.0"
   },
@@ -6366,8 +6366,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-client-hdfs:jar:2.9.0"
   },
@@ -8238,8 +8238,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-server-common:jar:2.9.0"
   },
@@ -10200,8 +10200,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-integration-jnifuse-fs:jar:2.9.0"
   },
@@ -10488,8 +10488,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-integration-fuse:jar:2.9.0"
   },
@@ -10668,8 +10668,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-integration-fuse:jar:2.9.0"
   },
@@ -13962,8 +13962,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-hdfs:jar:2.9.0"
   },
@@ -15402,8 +15402,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-server-worker:jar:2.9.0"
   },
@@ -16464,8 +16464,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 4,
     "submodule": "org.alluxio:alluxio-core-server-worker:jar:2.9.0"
   },
@@ -18552,8 +18552,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-stress-common:jar:2.9.0"
   },
@@ -20505,8 +20505,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-stress-shell:jar:2.9.0"
   },
@@ -22818,8 +22818,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 6,
     "submodule": "org.alluxio:alluxio-assembly-client:jar:2.9.0"
   },
@@ -23178,8 +23178,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-core-server-master:jar:2.9.0"
   },
@@ -25635,8 +25635,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-fs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
@@ -25644,8 +25644,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
@@ -25662,8 +25662,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-job-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
@@ -27372,8 +27372,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 6,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
@@ -27446,7 +27446,7 @@
     "classifier": "jar",
     "version": "4.5.13",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27455,7 +27455,7 @@
     "classifier": "jar",
     "version": "2.8.9",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27464,7 +27464,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27473,7 +27473,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27482,7 +27482,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27491,7 +27491,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27500,7 +27500,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27509,7 +27509,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27518,7 +27518,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27527,7 +27527,7 @@
     "classifier": "jar",
     "version": "0.9.12",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27536,7 +27536,7 @@
     "classifier": "jar",
     "version": "2.0.26.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27545,7 +27545,7 @@
     "classifier": "jar",
     "version": "4.4.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27554,7 +27554,7 @@
     "classifier": "jar",
     "version": "5.5.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27563,7 +27563,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27572,7 +27572,7 @@
     "classifier": "jar",
     "version": "0.5.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27581,7 +27581,7 @@
     "classifier": "jar",
     "version": "1.7.25",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -27590,7 +27590,7 @@
     "classifier": "jar",
     "version": "1.2.17",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-job-server:jar:2.9.0"
   },
   {
@@ -30000,8 +30000,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-assembly-server:jar:2.9.0"
   },
@@ -34482,8 +34482,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-integration-tools-validation:jar:2.9.0"
   },
@@ -35868,8 +35868,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-fs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-minicluster:jar:2.9.0"
   },
@@ -35877,8 +35877,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-minicluster:jar:2.9.0"
   },
@@ -35886,8 +35886,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-job-server",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-minicluster:jar:2.9.0"
   },
@@ -37101,8 +37101,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-minicluster:jar:2.9.0"
   },
@@ -38136,8 +38136,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-fs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38154,8 +38154,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38172,8 +38172,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38208,8 +38208,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-server-master",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38226,8 +38226,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-job-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38496,8 +38496,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38505,8 +38505,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38514,8 +38514,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-yarn-server-tests",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38523,8 +38523,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-mapreduce-client-jobclient",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -38588,7 +38588,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38597,7 +38597,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38606,7 +38606,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38615,7 +38615,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38624,7 +38624,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38633,7 +38633,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38642,7 +38642,7 @@
     "classifier": "jar",
     "version": "1.0-alpha-1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38651,7 +38651,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38660,7 +38660,7 @@
     "classifier": "jar",
     "version": "2.4.12",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38669,7 +38669,7 @@
     "classifier": "jar",
     "version": "6.2.1.jre7",
     "scope": "runtime",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38678,7 +38678,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38687,7 +38687,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38696,7 +38696,7 @@
     "classifier": "jar",
     "version": "4.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38705,7 +38705,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38714,7 +38714,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38723,7 +38723,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38732,7 +38732,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38741,7 +38741,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38750,7 +38750,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 4,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38759,7 +38759,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 5,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38768,7 +38768,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 4,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38777,7 +38777,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 4,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38786,7 +38786,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38795,7 +38795,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38804,7 +38804,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38813,7 +38813,7 @@
     "classifier": "jar",
     "version": "2.50",
     "scope": "compile",
-    "depth": 3,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38822,7 +38822,7 @@
     "classifier": "jar",
     "version": "1.9.0",
     "scope": "compile",
-    "depth": 4,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38831,7 +38831,7 @@
     "classifier": "jar",
     "version": "2.5.1",
     "scope": "compile",
-    "depth": 5,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38840,7 +38840,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38849,7 +38849,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -38858,7 +38858,7 @@
     "classifier": "jar",
     "version": "4.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
@@ -40071,8 +40071,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-job-server",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -40152,8 +40152,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 4,
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
@@ -40716,7 +40716,7 @@
     "submodule": "org.alluxio:alluxio-tests:jar:2.9.0"
   },
   {
-    "groupId": "org.fusesource.leveldbjni",
+    "groupId": "org.openlabtesting.leveldbjni",
     "artifactId": "leveldbjni-all",
     "classifier": "jar",
     "version": "1.8",
@@ -41898,8 +41898,8 @@
     "groupId": "com.github.jnr",
     "artifactId": "jffi",
     "classifier": "jar",
-    "version": "native",
-    "scope": "root_scope",
+    "version": "1.2.23",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42015,8 +42015,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-fs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42033,8 +42033,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-client-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42042,8 +42042,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42051,8 +42051,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-server-master",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 2,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42105,8 +42105,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42114,8 +42114,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-hdfs",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42123,8 +42123,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-yarn-server-tests",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42132,8 +42132,8 @@
     "groupId": "org.apache.hadoop",
     "artifactId": "hadoop-mapreduce-client-jobclient",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.3.1",
+    "scope": "compile",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -42215,7 +42215,7 @@
     "classifier": "jar",
     "version": "1.1.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42224,7 +42224,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42233,7 +42233,7 @@
     "classifier": "jar",
     "version": "1.1.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42242,7 +42242,7 @@
     "classifier": "jar",
     "version": "3.6",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42251,7 +42251,7 @@
     "classifier": "jar",
     "version": "3.2.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42260,7 +42260,7 @@
     "classifier": "jar",
     "version": "1.2.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42269,7 +42269,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42278,7 +42278,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42287,7 +42287,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42296,7 +42296,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42305,7 +42305,7 @@
     "classifier": "jar",
     "version": "1.9.4",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42314,7 +42314,7 @@
     "classifier": "jar",
     "version": "2.1.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42323,7 +42323,7 @@
     "classifier": "jar",
     "version": "1.4",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42332,7 +42332,7 @@
     "classifier": "jar",
     "version": "1.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42341,7 +42341,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42350,7 +42350,7 @@
     "classifier": "jar",
     "version": "0.1.55",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42359,7 +42359,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42368,7 +42368,7 @@
     "classifier": "jar",
     "version": "4.2.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42377,7 +42377,7 @@
     "classifier": "jar",
     "version": "5.3.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42386,7 +42386,7 @@
     "classifier": "jar",
     "version": "2.1.7",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42395,7 +42395,7 @@
     "classifier": "jar",
     "version": "1.1.8.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42404,7 +42404,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42413,7 +42413,7 @@
     "classifier": "jar",
     "version": "1.1.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42422,7 +42422,7 @@
     "classifier": "jar",
     "version": "1.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42431,7 +42431,7 @@
     "classifier": "jar",
     "version": "1.9.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42440,7 +42440,7 @@
     "classifier": "jar",
     "version": "1.9.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42449,7 +42449,7 @@
     "classifier": "jar",
     "version": "9.8.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42458,7 +42458,7 @@
     "classifier": "jar",
     "version": "2.4.2",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42467,7 +42467,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42476,7 +42476,7 @@
     "classifier": "jar",
     "version": "1.0-1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42485,7 +42485,7 @@
     "classifier": "jar",
     "version": "2.4.2",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42494,7 +42494,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42503,7 +42503,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42512,7 +42512,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42521,7 +42521,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42530,7 +42530,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42539,7 +42539,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42548,7 +42548,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 5,
+    "depth": 8,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42557,7 +42557,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42566,7 +42566,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42575,7 +42575,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 5,
+    "depth": 8,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42584,7 +42584,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42593,7 +42593,7 @@
     "classifier": "jar",
     "version": "1.0.1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42602,7 +42602,7 @@
     "classifier": "jar",
     "version": "1.0.13",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42611,16 +42611,16 @@
     "classifier": "jar",
     "version": "3.10.6.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
-    "groupId": "org.fusesource.leveldbjni",
+    "groupId": "org.openlabtesting.leveldbjni",
     "artifactId": "leveldbjni-all",
     "classifier": "jar",
     "version": "1.8",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42629,7 +42629,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42638,7 +42638,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42647,7 +42647,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42656,7 +42656,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42665,7 +42665,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42674,7 +42674,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42683,7 +42683,7 @@
     "classifier": "jar",
     "version": "1.0-alpha-1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42692,7 +42692,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42701,7 +42701,7 @@
     "classifier": "jar",
     "version": "2.4.12",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42710,7 +42710,7 @@
     "classifier": "jar",
     "version": "6.2.1.jre7",
     "scope": "runtime",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42719,7 +42719,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42728,7 +42728,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42737,7 +42737,7 @@
     "classifier": "jar",
     "version": "4.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42746,7 +42746,7 @@
     "classifier": "jar",
     "version": "1.19",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42755,7 +42755,7 @@
     "classifier": "jar",
     "version": "5.2.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42764,7 +42764,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42773,7 +42773,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42782,7 +42782,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42791,7 +42791,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42800,7 +42800,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42809,7 +42809,7 @@
     "classifier": "jar",
     "version": "9.4.46.v20220331",
     "scope": "compile",
-    "depth": 5,
+    "depth": 8,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42818,7 +42818,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42827,7 +42827,7 @@
     "classifier": "jar",
     "version": "9.4.40.v20210413",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42836,7 +42836,7 @@
     "classifier": "jar",
     "version": "1",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42845,7 +42845,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42854,7 +42854,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42863,7 +42863,7 @@
     "classifier": "jar",
     "version": "2.50",
     "scope": "compile",
-    "depth": 3,
+    "depth": 6,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42872,7 +42872,7 @@
     "classifier": "jar",
     "version": "1.9.0",
     "scope": "compile",
-    "depth": 4,
+    "depth": 7,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42881,7 +42881,7 @@
     "classifier": "jar",
     "version": "2.5.1",
     "scope": "compile",
-    "depth": 5,
+    "depth": 8,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42890,7 +42890,7 @@
     "classifier": "jar",
     "version": "1.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42899,7 +42899,7 @@
     "classifier": "jar",
     "version": "3.3.1",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -42908,7 +42908,7 @@
     "classifier": "jar",
     "version": "4.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 4,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
   {
@@ -43167,8 +43167,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-job-server",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "compile",
     "depth": 3,
     "submodule": "org.alluxio:alluxio-microbench:jar:2.9.0"
   },
@@ -44310,8 +44310,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-table-client:jar:2.9.0"
   },
@@ -46668,8 +46668,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
@@ -47417,7 +47417,7 @@
     "classifier": "jar",
     "version": "4.5.13",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47426,7 +47426,7 @@
     "classifier": "jar",
     "version": "2.8.9",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47435,7 +47435,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47444,7 +47444,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47453,7 +47453,7 @@
     "classifier": "jar",
     "version": "4.1.11",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47462,7 +47462,7 @@
     "classifier": "jar",
     "version": "1.37.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47471,7 +47471,7 @@
     "classifier": "jar",
     "version": "1.6.2",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47480,7 +47480,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47489,7 +47489,7 @@
     "classifier": "jar",
     "version": "4.2.0",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47498,7 +47498,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47507,7 +47507,7 @@
     "classifier": "jar",
     "version": "0.9.12",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47516,7 +47516,7 @@
     "classifier": "jar",
     "version": "2.0.26.Final",
     "scope": "compile",
-    "depth": 1,
+    "depth": 2,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47525,7 +47525,7 @@
     "classifier": "jar",
     "version": "4.4.13",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47534,7 +47534,7 @@
     "classifier": "jar",
     "version": "5.5.3",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47543,7 +47543,7 @@
     "classifier": "jar",
     "version": "3.5.5",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47552,7 +47552,7 @@
     "classifier": "jar",
     "version": "0.5.0",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47561,7 +47561,7 @@
     "classifier": "jar",
     "version": "1.7.25",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47570,7 +47570,7 @@
     "classifier": "jar",
     "version": "1.2.17",
     "scope": "compile",
-    "depth": 2,
+    "depth": 3,
     "submodule": "org.alluxio:alluxio-table-server-common:jar:2.9.0"
   },
   {
@@ -47793,8 +47793,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-table-server-master:jar:2.9.0"
   },
@@ -47802,8 +47802,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-server-master",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-table-server-master:jar:2.9.0"
   },
@@ -50097,8 +50097,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-table-server-underdb-hive:jar:2.9.0"
   },
@@ -50970,8 +50970,8 @@
     "groupId": "org.apache.zookeeper",
     "artifactId": "zookeeper",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.4.6",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-table-server-underdb-hive:jar:2.9.0"
   },
@@ -52869,8 +52869,8 @@
     "groupId": "org.apache.zookeeper",
     "artifactId": "zookeeper",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "3.4.6",
+    "scope": "runtime",
     "depth": 5,
     "submodule": "org.alluxio:alluxio-table-server-underdb-glue:jar:2.9.0"
   },
@@ -52898,7 +52898,7 @@
     "classifier": "jar",
     "version": "3.7.0.Final",
     "scope": "runtime",
-    "depth": 1,
+    "depth": 5,
     "submodule": "org.alluxio:alluxio-table-server-underdb-glue:jar:2.9.0"
   },
   {
@@ -55245,8 +55245,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-abfs:jar:2.9.0"
   },
@@ -56604,8 +56604,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-adl:jar:2.9.0"
   },
@@ -57927,8 +57927,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-cephfs:jar:2.9.0"
   },
@@ -59772,8 +59772,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-cos:jar:2.9.0"
   },
@@ -60474,8 +60474,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-cosn:jar:2.9.0"
   },
@@ -61806,8 +61806,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-gcs:jar:2.9.0"
   },
@@ -62688,8 +62688,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-kodo:jar:2.9.0"
   },
@@ -63381,8 +63381,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-oss:jar:2.9.0"
   },
@@ -64620,6 +64620,15 @@
     "submodule": "org.alluxio:alluxio-underfs-ozone:jar:2.9.0"
   },
   {
+    "groupId": "org.openlabtesting.leveldbjni",
+    "artifactId": "leveldbjni-all",
+    "classifier": "jar",
+    "version": "1.8",
+    "scope": "compile",
+    "depth": 6,
+    "submodule": "org.alluxio:alluxio-underfs-ozone:jar:2.9.0"
+  },
+  {
     "groupId": "org.apache.ratis",
     "artifactId": "ratis-thirdparty-misc",
     "classifier": "jar",
@@ -65379,8 +65388,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-s3a:jar:2.9.0"
   },
@@ -66108,8 +66117,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-swift:jar:2.9.0"
   },
@@ -66819,8 +66828,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-wasb:jar:2.9.0"
   },
@@ -68826,8 +68835,8 @@
     "groupId": "org.alluxio",
     "artifactId": "alluxio-core-common",
     "classifier": "test-jar",
-    "version": "tests",
-    "scope": "root_scope",
+    "version": "2.9.0",
+    "scope": "test",
     "depth": 1,
     "submodule": "org.alluxio:alluxio-underfs-obs:jar:2.9.0"
   },
