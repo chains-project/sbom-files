@@ -2,9 +2,9 @@
     {
         "name": "Build Info Go",
         "macro": "\\buildinfogo",
-        "version": "1.8.7",
+        "version": "1.9.3",
         "format": "CycloneDX",
-        "collectionStep": "Maven compile phase",
+        "collectionStep": "Build",
         "url": "https://github.com/jfrog/build-info-go",
         "scope": [],
         "hashAlgorithms": [
@@ -19,9 +19,9 @@
     {
         "name": "CycloneDX Generator",
         "macro": "\\cdxgen",
-        "version": "8.0.5",
+        "version": "8.4.3",
         "format": "CycloneDX",
-        "collectionStep": "Maven package phase",
+        "collectionStep": "Build",
         "url": "https://github.com/CycloneDX/cdxgen",
         "scope": ["optional"],
         "hashAlgorithms": [
@@ -37,9 +37,9 @@
     {
         "name": "CycloneDX Maven Plugin",
         "macro": "\\cyclonedxmavenplugin",
-        "version": "2.7.5",
+        "version": "2.7.8",
         "format": "CycloneDX",
-        "collectionStep": "Maven package phase",
+        "collectionStep": "Build",
         "url": "https://github.com/CycloneDX/cyclonedx-maven-plugin",
         "scope": ["optional"],
         "hashAlgorithms": [
@@ -56,7 +56,7 @@
         "macro": "\\jbom",
         "version": "1.2.1",
         "format": "CycloneDX",
-        "collectionStep": "Post maven package phase",
+        "collectionStep": "Analyzed",
         "url": "https://github.com/Contrast-Security-OSS/jbom",
         "scope": ["required"],
         "hashAlgorithms": [
@@ -71,9 +71,9 @@
     {
         "name": "OpenRewrite",
         "macro": "\\openrewrite",
-        "version": "4.40.0",
+        "version": "4.45.0",
         "format": "CycloneDX",
-        "collectionStep": "Maven package phase",
+        "collectionStep": "Build",
         "url": "https://docs.openrewrite.org/reference/rewrite-maven-plugin",
         "scope": ["optional", "required"],
         "hashAlgorithms": [],
@@ -86,9 +86,9 @@
     {
         "name": "Depscan",
         "macro": "\\depscan",
-        "version": "3.6.0",
+        "version": "4.1.2",
         "format": "CycloneDX",
-        "collectionStep": "Static source code",
+        "collectionStep": "Source",
         "url": "https://github.com/AppThreat/dep-scan",
         "scope": ["optional"],
         "hashAlgorithms": [
