@@ -1,0 +1,1034 @@
+{
+  "name": "mvn-build",
+  "number": "1",
+  "agent": {},
+  "buildAgent": {
+    "name": "GENERIC"
+  },
+  "modules": [
+    {
+      "type": "maven",
+      "properties": {
+        "allowed.build.jdks": "11,17,18,19,20",
+        "antrun.plugin": "3.1.0",
+        "argLine": "-javaagent:/root/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar=destfile=/mybatis-3/target/jacoco.exec,excludes=org.apache.ibatis.ognl.*:org.apache.ibatis.javassist.* -Djdk.attach.allowAttachSelf -Xmx2048m",
+        "asm.version": "9.3",
+        "assembly.plugin": "3.4.2",
+        "base-bundle.version": "9",
+        "bind-api.version": "2.3.3",
+        "bnd.version": "6.3.1",
+        "build-tools.version": "1.3.0",
+        "bundle.plugin": "5.1.8",
+        "changes.plugin": "2.12.1",
+        "checkstyle.config": "checkstyle.xml",
+        "checkstyle.plugin": "3.2.0",
+        "checkstyle.version": "10.3.3",
+        "clean.plugin": "3.2.0",
+        "clirr.comparisonVersion": "3.4.6",
+        "clirr.plugin": "2.8",
+        "compiler.plugin": "3.10.1",
+        "copyright": "2022",
+        "coveralls.plugin": "4.4.1",
+        "dependency.plugin": "3.3.0",
+        "deploy.plugin": "3.0.0",
+        "enforcer.plugin": "3.1.0",
+        "excludedGroups": "TestcontainersTests,RequireIllegalAccess",
+        "extra-enforcer-rules.version": "1.6.1",
+        "fluido.version": "1.11.1",
+        "formatter.config": "eclipse-formatter-config-2space.xml",
+        "formatter.plugin": "2.20.0",
+        "gcu.product": "mybatis",
+        "git-commit.plugin": "5.0.0",
+        "git.branch": "c195f12808a88a1ee245dc86d9c1621042655970",
+        "git.build.host": "e189e693ef7d",
+        "git.build.time": "2022-09-18T20:23:02+0000",
+        "git.build.user.email": "",
+        "git.build.user.name": "",
+        "git.build.version": "3.5.11",
+        "git.closest.tag.commit.count": "0",
+        "git.closest.tag.name": "mybatis-3.5.11",
+        "git.commit.author.time": "2022-09-18T20:26:27+0000",
+        "git.commit.committer.time": "2022-09-18T20:26:27+0000",
+        "git.commit.id": "c195f12808a88a1ee245dc86d9c1621042655970",
+        "git.commit.id.abbrev": "c195f12",
+        "git.commit.id.describe": "mybatis-3.5.11",
+        "git.commit.id.describe-short": "mybatis-3.5.11",
+        "git.commit.message.full": "[maven-release-plugin] prepare release mybatis-3.5.11",
+        "git.commit.message.short": "[maven-release-plugin] prepare release mybatis-3.5.11",
+        "git.commit.time": "2022-09-18T20:26:27+0000",
+        "git.commit.user.email": "harawata@gmail.com",
+        "git.commit.user.name": "Iwao AVE!",
+        "git.dirty": "false",
+        "git.local.branch.ahead": "NO_REMOTE",
+        "git.local.branch.behind": "NO_REMOTE",
+        "git.remote.origin.url": "https://github.com/mybatis/mybatis-3",
+        "git.tags": "mybatis-3.5.11",
+        "git.total.commit.count": "4331",
+        "gpg.plugin": "3.0.1",
+        "html.javadocType": "-html5",
+        "impsort.plugin": "1.7.0",
+        "impsortGroups": "au,com,de,java,javassist,javax,lombok,mockit,net,ognl,org",
+        "install.plugin": "3.0.1",
+        "jacoco.plugin": "0.8.8",
+        "jar.plugin": "3.2.2",
+        "java.release.version": "16",
+        "java.test.release.version": "16",
+        "java.test.version": "16",
+        "java.version": "16",
+        "javadoc.plugin": "3.4.1",
+        "jxr.plugin": "3.3.0",
+        "license.plugin": "4.2.rc3",
+        "license.version": "4.2.rc3",
+        "lifecycle.plugin": "1.0.0",
+        "maven.build.timestamp.format": "yyyy-MM-dd HH:mm:ssZ",
+        "maven.compiler.release": "16",
+        "maven.compiler.source": "16",
+        "maven.compiler.target": "16",
+        "maven.compiler.testCompilerArgument": "-parameters",
+        "maven.compiler.testRelease": "16",
+        "maven.compiler.testSource": "16",
+        "maven.compiler.testTarget": "16",
+        "maven.min-version": "3.3.9",
+        "modernizer.plugin": "2.4.0",
+        "module.name": "org.mybatis",
+        "osgi.dynamicImport": "*",
+        "osgi.export": "org.apache.ibatis.*;version=3.5.11;-noimport:=true",
+        "osgi.import": "*;resolution:=optional",
+        "osgi.private": "",
+        "osgi.symbolicName": "org.mybatis.mybatis",
+        "pdf.plugin": "1.6.1",
+        "pmd.plugin": "3.19.0",
+        "project-info.plugin": "3.4.1",
+        "project.build.outputTimestamp": "1663532582",
+        "project.build.resourceEncoding": "UTF-8",
+        "project.build.sourceEncoding": "UTF-8",
+        "project.reporting.outputEncoding": "UTF-8",
+        "release.plugin": "3.0.0-M6",
+        "resources.plugin": "3.3.0",
+        "scm.plugin": "1.12.2",
+        "shade.plugin": "3.3.0",
+        "site.plugin": "3.12.1",
+        "sortpom.plugin": "3.2.0",
+        "source.plugin": "3.2.1",
+        "spotbugs.onlyAnalyze": "org.apache.ibatis.*",
+        "spotbugs.plugin": "4.7.1.1",
+        "surefire.plugin": "3.0.0-M7",
+        "taglist.plugin": "3.0.0",
+        "timestamp": "2023-02-12 16:52:53+0000",
+        "versions.plugin": "2.11.0",
+        "wagon-git.version": "2.0.3",
+        "wagon.version": "3.5.2",
+        "whitespace.plugin": "1.0.4"
+      },
+      "id": "org.mybatis:mybatis:3.5.11",
+      "artifacts": [
+        {
+          "name": "mybatis-3.5.11.pom",
+          "type": "pom",
+          "path": "org/mybatis/mybatis/3.5.11"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "com.nimbusds:lang-tag:1.6",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.nimbusds:oauth2-oidc-sdk:9.35",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "ba96ae591bf885f130a772794f07209e2bdb9fb5",
+          "md5": "03eaf0cb305c695a131d1494d48cec6a",
+          "sha256": "409d056d9e5f566ac267f980e82027257dd864731abde7af8eba1f65213fbf4c"
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy:1.12.14",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.8.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.mockito:mockito-junit-jupiter:4.8.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.github.docker-java:docker-java-api:3.2.13",
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "0f63b3b1da563767d04d2e4d3fc1ae0cdeffebe7",
+          "md5": "20368d1f52e031381a510cd1ce6ea2b7",
+          "sha256": "49dfdc4cfa46d165ecfed630ba164b6641d59d5fe1aa698a19c13f966d3f13cf"
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-params:5.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.nimbusds:content-type:2.2",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.nimbusds:oauth2-oidc-sdk:9.35",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "9a894bce7646dd4086652d85b88013229f23724b",
+          "md5": "135aaa5ebcc12a45f4b3ff08cb6fa46a",
+          "sha256": "730f1816196145e88275093c147f2e6da3c3e541207acd3503a1b06129b9bea9"
+        },
+        {
+          "id": "net.minidev:json-smart:2.4.8",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "7c62f5f72ab05eb54d40e2abf0360a2fe9ea477f",
+          "md5": "20a8427206313ed3aa85cdc47f730415",
+          "sha256": "174a9ad578b56644e62b3965d8bf94ac3a76e707c6343b8abac9d3671438b4b2"
+        },
+        {
+          "id": "org.postgresql:postgresql:42.5.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.nimbusds:oauth2-oidc-sdk:9.35",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "7bfdf91bc4ae265f6c49a367bc0ed0e47d0e3a97",
+          "md5": "9f2126575ebd24abe5a82bc0193da0d2",
+          "sha256": "95a5b7a5054fc281061b81d2354d0b7b66a862183e7d85d75a82c5ddb8867293"
+        },
+        {
+          "id": "org.apache.commons:commons-lang3:3.11",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.velocity:velocity-engine-core:2.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "mysql:mysql-connector-java:8.0.30",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.derby:derbyshared:10.15.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:testcontainers:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "net.minidev:accessors-smart:2.4.8",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "net.minidev:json-smart:2.4.8",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "6e1bee5a530caba91893604d6ab41d0edcecca9a",
+          "md5": "e5761631acc11ded0255af1249937e85",
+          "sha256": "7dd705aa1ac0e030f8ee2624e8e77239ae1eef6ccc2621c0b8c189866ee1c42c"
+        },
+        {
+          "id": "org.opentest4j:opentest4j:1.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.platform:junit-platform-engine:1.9.0",
+              "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.14",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.8.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "eu.codearte.catch-exception:catch-exception:2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "ch.qos.logback:logback-classic:1.4.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:postgresql:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-api:2.19.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "ea1b37f38c327596b216542bc636cfdc0b8036fa",
+          "md5": "a7f8fc9751cdaa237a1e18059b4887da",
+          "sha256": "5ccb24ad9f92e768d0bc456d3061a737951262df803e004d2cad096b75a88d60"
+        },
+        {
+          "id": "org.junit.platform:junit-platform-engine:1.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.ow2.asm:asm:7.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "cglib:cglib:3.3.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "fa29aa438674ff19d5e1386d2c3527a0267f291e",
+          "md5": "04fc92647ce25b41121683674a50dfdf",
+          "sha256": "4ab2fa2b6d2cc9ccb1eaa05ea329c407b47b13ed2915f62f8c4b8cc96258d4de"
+        },
+        {
+          "id": "junit:junit:4.13.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "junit:junit:4.13.2",
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.google.protobuf:protobuf-java:3.19.4",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "mysql:mysql-connector-java:8.0.30",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.microsoft.azure:msal4j:1.13.0",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "7b9508128c3d0dfa45317b7419a616a30709fa79",
+          "md5": "e346ab011a9de0983b5f7ed18343a3e5",
+          "sha256": "e2fc47ba5e0df171dbe67a36f51f0f086b6e16f40971429fd67f81ca0cf03f08"
+        },
+        {
+          "id": "com.github.docker-java:docker-java-transport:3.2.13",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "commons-logging:commons-logging:1.2",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "4bfc12adfe4842bf07b657f0369c4cb522955686",
+          "md5": "040b4b4d8eac886f6b4a2a3bd2f31b00",
+          "sha256": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+        },
+        {
+          "id": "org.apache.velocity:velocity-engine-core:2.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-api:5.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.javassist:javassist:3.29.2-GA",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "6c32028609e5dd4a1b78e10fbcd122b09b3928b1",
+          "md5": "9783c90ffa4d36eddda9526fde06f3ea",
+          "sha256": "a90ddb25135df9e57ea9bd4e224e219554929758f9bae9965f29f81d60a3293f"
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-databind:2.13.2.1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "919754c0de3c2f22187e07318da1766f7583b5f7",
+          "md5": "b66a191219300cdb6113af6a6360326d",
+          "sha256": "33ef5309aeeebd45e87beca7e576f59a4fea2c03ef993dd522a92d8fc3e35fff"
+        },
+        {
+          "id": "ch.qos.reload4j:reload4j:1.2.22",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "f9d9e55d1072d7a697d2bf06e1847e93635a7cf9",
+          "md5": "53e3301fc57f593f1683da8195364a14",
+          "sha256": "222f90d3e69541218ef6e70547749d693bd4c1846817e5bd7949b3e28950f99f"
+        },
+        {
+          "id": "com.github.stephenc.jcip:jcip-annotations:1.0-1",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.nimbusds:oauth2-oidc-sdk:9.35",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "ef31541dd28ae2cefdd17c7ebf352d93e9058c63",
+          "md5": "d62dbfa8789378457ada685e2f614846",
+          "sha256": "4fccff8382aafc589962c4edb262f6aa595e34f1e11e61057d1c6a96e8fc7323"
+        },
+        {
+          "id": "org.rnorth.duct-tape:duct-tape:1.0.8",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:database-commons:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:jdbc:1.17.3",
+              "org.testcontainers:postgresql:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.h2database:h2:2.1.214",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.commons:commons-compress:1.21",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:junit-jupiter:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "cglib:cglib:3.3.0",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "c956b9f9708af5901e9cf05701e9b2b1c25027cc",
+          "md5": "6ff304cc2874dd20277a8206fee5fd9a",
+          "sha256": "9fe0c26d7464140ccdfe019ac687be1fb906122b508ab54beb810db0f09a9212"
+        },
+        {
+          "id": "org.apache.derby:derbytools:10.15.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.apache.derby:derbyoptionaltools:10.15.2.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.jetbrains:annotations:17.0.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.rnorth.duct-tape:duct-tape:1.0.8",
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "ognl:ognl:3.3.4",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "1904789bdd96f226ad252a02f230be1015f4462b",
+          "md5": "1893dad14f3e7ddd95d211e1d3ca1a0f",
+          "sha256": "47fdd450407ff09b57df02f466f9b4c7d32818962d65f9d98e445c8b4d047603"
+        },
+        {
+          "id": "org.assertj:assertj-core:3.23.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:mysql:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "ch.qos.logback:logback-core:1.4.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "ch.qos.logback:logback-classic:1.4.1",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.checkerframework:checker-qual:3.5.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.postgresql:postgresql:42.5.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.testcontainers:jdbc:1.17.3",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:postgresql:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.fasterxml.jackson.core:jackson-core:2.13.2",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.fasterxml.jackson.core:jackson-databind:2.13.2.1",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "0a6a0e0620d51833feffc67bccb51937b2345763",
+          "md5": "c56433d75479665998ccbd50678480fa",
+          "sha256": "9bfa278ad05179fb68087851caf607652702ca25424bec8358a3716e751405c8"
+        },
+        {
+          "id": "org.slf4j:slf4j-api:2.0.1",
+          "type": "jar",
+          "scopes": [
+            "compile"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "f48d81adce2abf5ad3cfe463df517952749e03bc",
+          "md5": "f83e57c047d1e3e226b77abc9141d233",
+          "sha256": "b36b99b8d99ea7857554d9b25dfdbd1fb25378c926f7b9e0249983c99335b2c4"
+        },
+        {
+          "id": "net.java.dev.jna:jna:5.8.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.junit.platform:junit-platform-commons:1.9.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.platform:junit-platform-engine:1.9.0",
+              "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.objenesis:objenesis:3.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mockito:mockito-core:4.8.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.derby:derbyoptionaltools:10.15.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "a0ed87a18d9738b2a74d72f1974daf464891a3c4",
+          "md5": "b204274eb02a848ac405961e6f43e7bd",
+          "sha256": "63d8e38f0d849ccf084805151d456e9a5e073679bdfe429fb77fc973c34bce5a"
+        },
+        {
+          "id": "org.apache.logging.log4j:log4j-core:2.19.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.hsqldb:hsqldb:2.6.1",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "org.apache.derby:derby:10.15.2.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.github.docker-java:docker-java-api:3.2.13",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.testcontainers:testcontainers:1.17.3",
+              "org.testcontainers:junit-jupiter:1.17.3",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        },
+        {
+          "id": "com.nimbusds:nimbus-jose-jwt:9.22",
+          "type": "jar",
+          "scopes": [
+            "provided"
+          ],
+          "requestedBy": [
+            [
+              "com.nimbusds:oauth2-oidc-sdk:9.35",
+              "com.microsoft.azure:msal4j:1.13.0",
+              "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ],
+          "sha1": "bed63628cd31d8641c5a1b29609a965179ef91ec",
+          "md5": "76be9e3b0a601b4b69bffec9f4966bd7",
+          "sha256": "f7c80eb70d5163e13452f76e85d4e4782e4ae2d8dc46fec3165d63a88f2c0799"
+        },
+        {
+          "id": "org.mockito:mockito-core:4.8.0",
+          "type": "jar",
+          "scopes": [
+            "test"
+          ],
+          "requestedBy": [
+            [
+              "org.mybatis:mybatis:3.5.11"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "started": "2023-02-12T16:52:44.210+0000"
+}
