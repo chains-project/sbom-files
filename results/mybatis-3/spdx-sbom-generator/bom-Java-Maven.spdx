@@ -1,0 +1,1172 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: mybatis-3.5.11
+DocumentNamespace: http://spdx.org/spdxpackages/mybatis-3.5.11-6e4c636d-5f9e-4ec2-9637-f37431c983d0
+Creator: Tool: spdx-sbom-generator-v0.0.10
+Created: 2023-02-12T17:53:12Z
+
+##### Package representing the mybatis
+
+PackageName: mybatis
+SPDXID: SPDXRef-Package-mybatis
+PackageVersion: 3.5.11
+PackageSupplier: Organization: mybatis
+PackageDownloadLocation: https://www.mybatis.org/mybatis-3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 49ef38e11188a25e6ba6e8c8f5d4f3a5a395bec6
+PackageHomePage: https://www.mybatis.org/mybatis-3
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-mybatis 
+
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-apiguardian-api-1.1.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-asm-7.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-mockito-junit-jupiter-4.8.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-derbyshared-10.15.2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-commons-compress-1.21 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-derby-10.15.2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-byte-buddy-agent-1.12.14 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-checker-qual-3.5.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-platform-engine-1.9.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-docker-java-transport-zerodep-3.2.13 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-catch-exception-2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jackson-annotations-2.10.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jackson-databind-2.13.2.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-content-type-2.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-velocity-engine-core-2.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-mysql-connector-java-8.0.30 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-json-smart-2.4.8 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-hamcrest-core-1.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-javassist-3.29.2-GA 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-derbyoptionaltools-10.15.2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-postgresql-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jackson-core-2.13.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-lang-tag-1.6 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-derbytools-10.15.2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-annotations-17.0.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-commons-logging-1.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-jupiter-engine-5.9.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-mockito-core-4.8.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-cglib-3.3.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-objenesis-3.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-jupiter-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-mysql-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jcip-annotations-1.0-1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-accessors-smart-2.4.8 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-reload4j-1.2.22 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-4.13.2 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-database-commons-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-docker-java-transport-3.2.13 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-protobuf-java-3.19.4 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-nimbus-jose-jwt-9.22 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-oauth2-oidc-sdk-9.35 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jdbc-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-mssql-jdbc-11.2.0.jre8 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-commons-lang3-3.11 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-testcontainers-1.17.3 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-slf4j-api-2.0.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-logback-classic-1.4.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-platform-commons-1.9.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-log4j-api-2.19.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-logback-core-1.4.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-byte-buddy-1.12.14 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-jna-5.8.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-opentest4j-1.2.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-h2-2.1.214 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-hsqldb-2.6.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-docker-java-api-3.2.13 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-msal4j-1.13.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-jupiter-api-5.9.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-duct-tape-1.0.8 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-junit-jupiter-params-5.9.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-assertj-core-3.23.1 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-log4j-core-2.19.0 
+Relationship: SPDXRef-Package-mybatis DEPENDS_ON SPDXRef-Package-ognl-3.3.4 
+
+##### Package representing the ognl
+
+PackageName: ognl
+SPDXID: SPDXRef-Package-ognl-3.3.4
+PackageVersion: 3.3.4
+PackageSupplier: Organization: ognl
+PackageDownloadLocation: https://mvnrepository.com/artifact/ognl/ognl/3.3.4
+FilesAnalyzed: false
+PackageChecksum: SHA1: 57fd04a716fb18e80944c9d8834416ccf7bb362d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the javassist
+
+PackageName: javassist
+SPDXID: SPDXRef-Package-javassist-3.29.2-GA
+PackageVersion: 3.29.2-GA
+PackageSupplier: Organization: javassist
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.javassist/javassist/3.29.2-GA
+FilesAnalyzed: false
+PackageChecksum: SHA1: 9de6c417d7861003381010f31ad5ebd0d2d6c8c5
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the slf4j-api
+
+PackageName: slf4j-api
+SPDXID: SPDXRef-Package-slf4j-api-2.0.1
+PackageVersion: 2.0.1
+PackageSupplier: Organization: slf4j-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.slf4j/slf4j-api/2.0.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 1f5d1163f93cc80861f59ac7e0ca1136f79765e8
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the reload4j
+
+PackageName: reload4j
+SPDXID: SPDXRef-Package-reload4j-1.2.22
+PackageVersion: 1.2.22
+PackageSupplier: Organization: reload4j
+PackageDownloadLocation: https://mvnrepository.com/artifact/ch.qos.reload4j/reload4j/1.2.22
+FilesAnalyzed: false
+PackageChecksum: SHA1: 487f1fb0897b848414a35f249f1a7e26be5cc1a8
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the log4j-api
+
+PackageName: log4j-api
+SPDXID: SPDXRef-Package-log4j-api-2.19.0
+PackageVersion: 2.19.0
+PackageSupplier: Organization: log4j-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api/2.19.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: a5a77172256b12448b0bf084c4f3d40ae2b3c743
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the commons-logging
+
+PackageName: commons-logging
+SPDXID: SPDXRef-Package-commons-logging-1.2
+PackageVersion: 1.2
+PackageSupplier: Organization: commons-logging
+PackageDownloadLocation: https://mvnrepository.com/artifact/commons-logging/commons-logging/1.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 4266321c9c842bd8aaa15850a2d6919927868993
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the cglib
+
+PackageName: cglib
+SPDXID: SPDXRef-Package-cglib-3.3.0
+PackageVersion: 3.3.0
+PackageSupplier: Organization: cglib
+PackageDownloadLocation: https://mvnrepository.com/artifact/cglib/cglib/3.3.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 1bf07c31fa272ef691ef3eefc8133c227246721d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-cglib-3.3.0 DEPENDS_ON SPDXRef-Package-asm-7.1 
+
+##### Package representing the junit-jupiter-engine
+
+PackageName: junit-jupiter-engine
+SPDXID: SPDXRef-Package-junit-jupiter-engine-5.9.0
+PackageVersion: 5.9.0
+PackageSupplier: Organization: junit-jupiter-engine
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/5.9.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: dcc147301359920d82d8ee68c73c587b9faac23f
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-junit-jupiter-engine-5.9.0 DEPENDS_ON SPDXRef-Package-junit-platform-engine-1.9.0 
+Relationship: SPDXRef-Package-junit-jupiter-engine-5.9.0 DEPENDS_ON SPDXRef-Package-junit-jupiter-api-5.9.0 
+Relationship: SPDXRef-Package-junit-jupiter-engine-5.9.0 DEPENDS_ON SPDXRef-Package-apiguardian-api-1.1.2 
+
+##### Package representing the junit-jupiter-params
+
+PackageName: junit-jupiter-params
+SPDXID: SPDXRef-Package-junit-jupiter-params-5.9.0
+PackageVersion: 5.9.0
+PackageSupplier: Organization: junit-jupiter-params
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params/5.9.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: e5ad57c7fdbd9fc479f1bc87b2d2deafc4de6a70
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the hsqldb
+
+PackageName: hsqldb
+SPDXID: SPDXRef-Package-hsqldb-2.6.1
+PackageVersion: 2.6.1
+PackageSupplier: Organization: hsqldb
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.hsqldb/hsqldb/2.6.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 741cd0b29ed63719733e31a1f7b2e9ab6b1e5288
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the derby
+
+PackageName: derby
+SPDXID: SPDXRef-Package-derby-10.15.2.0
+PackageVersion: 10.15.2.0
+PackageSupplier: Organization: derby
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.derby/derby/10.15.2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: b634111a79a0ecc30aa22d2e4fa0ddead68d8e0a
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the derbyshared
+
+PackageName: derbyshared
+SPDXID: SPDXRef-Package-derbyshared-10.15.2.0
+PackageVersion: 10.15.2.0
+PackageSupplier: Organization: derbyshared
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.derby/derbyshared/10.15.2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 03c9b03fd157faeeee2fb09cc52ea5b4b1d79323
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the derbyoptionaltools
+
+PackageName: derbyoptionaltools
+SPDXID: SPDXRef-Package-derbyoptionaltools-10.15.2.0
+PackageVersion: 10.15.2.0
+PackageSupplier: Organization: derbyoptionaltools
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.derby/derbyoptionaltools/10.15.2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 902314668ce520307637fec7727ea1991f9c0d3c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-derbyoptionaltools-10.15.2.0 DEPENDS_ON SPDXRef-Package-derbytools-10.15.2.0 
+
+##### Package representing the h2
+
+PackageName: h2
+SPDXID: SPDXRef-Package-h2-2.1.214
+PackageVersion: 2.1.214
+PackageSupplier: Organization: h2
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.h2database/h2/2.1.214
+FilesAnalyzed: false
+PackageChecksum: SHA1: bf1c365741a4bfb5fee5c3150335ab4f867a4d9a
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the mockito-core
+
+PackageName: mockito-core
+SPDXID: SPDXRef-Package-mockito-core-4.8.0
+PackageVersion: 4.8.0
+PackageSupplier: Organization: mockito-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.mockito/mockito-core/4.8.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: abc6f10e49b33fe34b48c5e56ad3f1a8fa4d8e4e
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-mockito-core-4.8.0 DEPENDS_ON SPDXRef-Package-byte-buddy-1.12.14 
+Relationship: SPDXRef-Package-mockito-core-4.8.0 DEPENDS_ON SPDXRef-Package-byte-buddy-agent-1.12.14 
+Relationship: SPDXRef-Package-mockito-core-4.8.0 DEPENDS_ON SPDXRef-Package-objenesis-3.2 
+
+##### Package representing the mockito-junit-jupiter
+
+PackageName: mockito-junit-jupiter
+SPDXID: SPDXRef-Package-mockito-junit-jupiter-4.8.0
+PackageVersion: 4.8.0
+PackageSupplier: Organization: mockito-junit-jupiter
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter/4.8.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 8e0456c29d3927b56253fd0601237286e243a0ec
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the velocity-engine-core
+
+PackageName: velocity-engine-core
+SPDXID: SPDXRef-Package-velocity-engine-core-2.3
+PackageVersion: 2.3
+PackageSupplier: Organization: velocity-engine-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.velocity/velocity-engine-core/2.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: a6f2413f0f789b7d1fc8d6cebb89133c6636ea58
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-velocity-engine-core-2.3 DEPENDS_ON SPDXRef-Package-commons-lang3-3.11 
+
+##### Package representing the postgresql
+
+PackageName: postgresql
+SPDXID: SPDXRef-Package-postgresql-42.5.0
+PackageVersion: 42.5.0
+PackageSupplier: Organization: postgresql
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.postgresql/postgresql/42.5.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 519968cbed983352acd749e4faf1d4af401ef7ed
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the mysql-connector-java
+
+PackageName: mysql-connector-java
+SPDXID: SPDXRef-Package-mysql-connector-java-8.0.30
+PackageVersion: 8.0.30
+PackageSupplier: Organization: mysql-connector-java
+PackageDownloadLocation: https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.30
+FilesAnalyzed: false
+PackageChecksum: SHA1: e038745f737a93bd8705c1b17cf902ba8a6ef608
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-mysql-connector-java-8.0.30 DEPENDS_ON SPDXRef-Package-protobuf-java-3.19.4 
+
+##### Package representing the assertj-core
+
+PackageName: assertj-core
+SPDXID: SPDXRef-Package-assertj-core-3.23.1
+PackageVersion: 3.23.1
+PackageSupplier: Organization: assertj-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.assertj/assertj-core/3.23.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: aad064fd8459416237a7bc23cae8c346dd73f479
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the catch-exception
+
+PackageName: catch-exception
+SPDXID: SPDXRef-Package-catch-exception-2.0
+PackageVersion: 2.0
+PackageSupplier: Organization: catch-exception
+PackageDownloadLocation: https://mvnrepository.com/artifact/eu.codearte.catch-exception/catch-exception/2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 84b188d685ca97de5b7dd7d6bb1871506ebbf2ca
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the junit-jupiter
+
+PackageName: junit-jupiter
+SPDXID: SPDXRef-Package-junit-jupiter-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: junit-jupiter
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/junit-jupiter/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: f2c05fa818d60e7afea449ab2939750e7923a348
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-junit-jupiter-1.17.3 DEPENDS_ON SPDXRef-Package-testcontainers-1.17.3 
+
+##### Package representing the postgresql
+
+PackageName: postgresql
+SPDXID: SPDXRef-Package-postgresql-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: postgresql
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/postgresql/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 519968cbed983352acd749e4faf1d4af401ef7ed
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-postgresql-1.17.3 DEPENDS_ON SPDXRef-Package-checker-qual-3.5.0 
+Relationship: SPDXRef-Package-postgresql-1.17.3 DEPENDS_ON SPDXRef-Package-jdbc-1.17.3 
+
+##### Package representing the mysql
+
+PackageName: mysql
+SPDXID: SPDXRef-Package-mysql-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: mysql
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/mysql/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: f460c882a18c1304d88854e902e11b85d71e7e1b
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the mssql-jdbc
+
+PackageName: mssql-jdbc
+SPDXID: SPDXRef-Package-mssql-jdbc-11.2.0.jre8
+PackageVersion: 11.2.0.jre8
+PackageSupplier: Organization: mssql-jdbc
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc/11.2.0.jre8
+FilesAnalyzed: false
+PackageChecksum: SHA1: b3f754a2db221d0b0be986777dc94afcafcaef90
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-mssql-jdbc-11.2.0.jre8 DEPENDS_ON SPDXRef-Package-msal4j-1.13.0 
+
+##### Package representing the logback-classic
+
+PackageName: logback-classic
+SPDXID: SPDXRef-Package-logback-classic-1.4.1
+PackageVersion: 1.4.1
+PackageSupplier: Organization: logback-classic
+PackageDownloadLocation: https://mvnrepository.com/artifact/ch.qos.logback/logback-classic/1.4.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: cab098ae945c6ae85fac0d4a60c7ffe502e6cfb8
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-logback-classic-1.4.1 DEPENDS_ON SPDXRef-Package-logback-core-1.4.1 
+
+##### Package representing the log4j-core
+
+PackageName: log4j-core
+SPDXID: SPDXRef-Package-log4j-core-2.19.0
+PackageVersion: 2.19.0
+PackageSupplier: Organization: log4j-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core/2.19.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: ffa8e96c4b469229bd79989b3506c1697e75547d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the logback-core
+
+PackageName: logback-core
+SPDXID: SPDXRef-Package-logback-core-1.4.1
+PackageVersion: 1.4.1
+PackageSupplier: Organization: logback-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/ch.qos.logback/logback-core/1.4.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 469f9b3540dd2ae84ecefc76778fc6e399a7324c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jackson-annotations
+
+PackageName: jackson-annotations
+SPDXID: SPDXRef-Package-jackson-annotations-2.10.3
+PackageVersion: 2.10.3
+PackageSupplier: Organization: jackson-annotations
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.10.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 1b01b046659e43487488af729af5d7bee331ee8a
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jackson-core
+
+PackageName: jackson-core
+SPDXID: SPDXRef-Package-jackson-core-2.13.2
+PackageVersion: 2.13.2
+PackageSupplier: Organization: jackson-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core/2.13.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 9e6ad9eee3c321a015767140cd1644723fc7f226
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jackson-databind
+
+PackageName: jackson-databind
+SPDXID: SPDXRef-Package-jackson-databind-2.13.2.1
+PackageVersion: 2.13.2.1
+PackageSupplier: Organization: jackson-databind
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.13.2.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 7d03e73aa50d143b3ecbdea2c0c9e158e5ed8021
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-jackson-databind-2.13.2.1 DEPENDS_ON SPDXRef-Package-jackson-core-2.13.2 
+
+##### Package representing the docker-java-api
+
+PackageName: docker-java-api
+SPDXID: SPDXRef-Package-docker-java-api-3.2.13
+PackageVersion: 3.2.13
+PackageSupplier: Organization: docker-java-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.github.docker-java/docker-java-api/3.2.13
+FilesAnalyzed: false
+PackageChecksum: SHA1: 0624e7fbf2ccbc491d4a5cd4ad5723515c8eea81
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-docker-java-api-3.2.13 DEPENDS_ON SPDXRef-Package-jackson-annotations-2.10.3 
+
+##### Package representing the docker-java-transport-zerodep
+
+PackageName: docker-java-transport-zerodep
+SPDXID: SPDXRef-Package-docker-java-transport-zerodep-3.2.13
+PackageVersion: 3.2.13
+PackageSupplier: Organization: docker-java-transport-zerodep
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.github.docker-java/docker-java-transport-zerodep/3.2.13
+FilesAnalyzed: false
+PackageChecksum: SHA1: f5b711e3c125ae1e7729aea767b6229f49fbd8d0
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-docker-java-transport-zerodep-3.2.13 DEPENDS_ON SPDXRef-Package-docker-java-transport-3.2.13 
+Relationship: SPDXRef-Package-docker-java-transport-zerodep-3.2.13 DEPENDS_ON SPDXRef-Package-jna-5.8.0 
+
+##### Package representing the docker-java-transport
+
+PackageName: docker-java-transport
+SPDXID: SPDXRef-Package-docker-java-transport-3.2.13
+PackageVersion: 3.2.13
+PackageSupplier: Organization: docker-java-transport
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.github.docker-java/docker-java-transport/3.2.13
+FilesAnalyzed: false
+PackageChecksum: SHA1: eec4da06cb25cf19f0dafbf7ec14ad0b44401b2c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jcip-annotations
+
+PackageName: jcip-annotations
+SPDXID: SPDXRef-Package-jcip-annotations-1.0-1
+PackageVersion: 1.0-1
+PackageSupplier: Organization: jcip-annotations
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.github.stephenc.jcip/jcip-annotations/1.0-1
+FilesAnalyzed: false
+PackageChecksum: SHA1: ab30590295185b2941022f12c612c38be222aba7
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the protobuf-java
+
+PackageName: protobuf-java
+SPDXID: SPDXRef-Package-protobuf-java-3.19.4
+PackageVersion: 3.19.4
+PackageSupplier: Organization: protobuf-java
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java/3.19.4
+FilesAnalyzed: false
+PackageChecksum: SHA1: 975dc55133300d035cfe2c206b54564685cb213d
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the msal4j
+
+PackageName: msal4j
+SPDXID: SPDXRef-Package-msal4j-1.13.0
+PackageVersion: 1.13.0
+PackageSupplier: Organization: msal4j
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.microsoft.azure/msal4j/1.13.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 988cfe87bb716ce7c12625e9812d4d46291ee2c6
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-msal4j-1.13.0 DEPENDS_ON SPDXRef-Package-oauth2-oidc-sdk-9.35 
+Relationship: SPDXRef-Package-msal4j-1.13.0 DEPENDS_ON SPDXRef-Package-json-smart-2.4.8 
+Relationship: SPDXRef-Package-msal4j-1.13.0 DEPENDS_ON SPDXRef-Package-jackson-databind-2.13.2.1 
+
+##### Package representing the content-type
+
+PackageName: content-type
+SPDXID: SPDXRef-Package-content-type-2.2
+PackageVersion: 2.2
+PackageSupplier: Organization: content-type
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.nimbusds/content-type/2.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 933eef63153662663fe810015e51e88f4c38b506
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the lang-tag
+
+PackageName: lang-tag
+SPDXID: SPDXRef-Package-lang-tag-1.6
+PackageVersion: 1.6
+PackageSupplier: Organization: lang-tag
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.nimbusds/lang-tag/1.6
+FilesAnalyzed: false
+PackageChecksum: SHA1: 342a710893de3c8c961ecca55b8affa78c4c1857
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the nimbus-jose-jwt
+
+PackageName: nimbus-jose-jwt
+SPDXID: SPDXRef-Package-nimbus-jose-jwt-9.22
+PackageVersion: 9.22
+PackageSupplier: Organization: nimbus-jose-jwt
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt/9.22
+FilesAnalyzed: false
+PackageChecksum: SHA1: 30717614ad2bd83ec1b91671775cde63f985be55
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the oauth2-oidc-sdk
+
+PackageName: oauth2-oidc-sdk
+SPDXID: SPDXRef-Package-oauth2-oidc-sdk-9.35
+PackageVersion: 9.35
+PackageSupplier: Organization: oauth2-oidc-sdk
+PackageDownloadLocation: https://mvnrepository.com/artifact/com.nimbusds/oauth2-oidc-sdk/9.35
+FilesAnalyzed: false
+PackageChecksum: SHA1: de225c2757239c00351e6c7b80aa5198d1a48fdf
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-oauth2-oidc-sdk-9.35 DEPENDS_ON SPDXRef-Package-content-type-2.2 
+Relationship: SPDXRef-Package-oauth2-oidc-sdk-9.35 DEPENDS_ON SPDXRef-Package-lang-tag-1.6 
+Relationship: SPDXRef-Package-oauth2-oidc-sdk-9.35 DEPENDS_ON SPDXRef-Package-nimbus-jose-jwt-9.22 
+Relationship: SPDXRef-Package-oauth2-oidc-sdk-9.35 DEPENDS_ON SPDXRef-Package-jcip-annotations-1.0-1 
+
+##### Package representing the junit
+
+PackageName: junit
+SPDXID: SPDXRef-Package-junit-4.13.2
+PackageVersion: 4.13.2
+PackageSupplier: Organization: junit
+PackageDownloadLocation: https://mvnrepository.com/artifact/junit/junit/4.13.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: fdda4a4a842bd2bb90c6bd3c8076c777264fc204
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-junit-4.13.2 DEPENDS_ON SPDXRef-Package-hamcrest-core-1.3 
+
+##### Package representing the byte-buddy-agent
+
+PackageName: byte-buddy-agent
+SPDXID: SPDXRef-Package-byte-buddy-agent-1.12.14
+PackageVersion: 1.12.14
+PackageSupplier: Organization: byte-buddy-agent
+PackageDownloadLocation: https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy-agent/1.12.14
+FilesAnalyzed: false
+PackageChecksum: SHA1: e1696844cf32a4ad4235516a97107b06591e6582
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the byte-buddy
+
+PackageName: byte-buddy
+SPDXID: SPDXRef-Package-byte-buddy-1.12.14
+PackageVersion: 1.12.14
+PackageSupplier: Organization: byte-buddy
+PackageDownloadLocation: https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy/1.12.14
+FilesAnalyzed: false
+PackageChecksum: SHA1: 7280f592c3d202125d0dacf1ae454eb791c10078
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jna
+
+PackageName: jna
+SPDXID: SPDXRef-Package-jna-5.8.0
+PackageVersion: 5.8.0
+PackageSupplier: Organization: jna
+PackageDownloadLocation: https://mvnrepository.com/artifact/net.java.dev.jna/jna/5.8.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 670a2056100f5136eff47e268c92e32e229181b0
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the accessors-smart
+
+PackageName: accessors-smart
+SPDXID: SPDXRef-Package-accessors-smart-2.4.8
+PackageVersion: 2.4.8
+PackageSupplier: Organization: accessors-smart
+PackageDownloadLocation: https://mvnrepository.com/artifact/net.minidev/accessors-smart/2.4.8
+FilesAnalyzed: false
+PackageChecksum: SHA1: a7f2a7399144945f7b3aee81fb35a7de0cf641d1
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the json-smart
+
+PackageName: json-smart
+SPDXID: SPDXRef-Package-json-smart-2.4.8
+PackageVersion: 2.4.8
+PackageSupplier: Organization: json-smart
+PackageDownloadLocation: https://mvnrepository.com/artifact/net.minidev/json-smart/2.4.8
+FilesAnalyzed: false
+PackageChecksum: SHA1: 21c30f1e4ff55e183e0c79a93d9511aef7110f41
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-json-smart-2.4.8 DEPENDS_ON SPDXRef-Package-accessors-smart-2.4.8 
+
+##### Package representing the commons-compress
+
+PackageName: commons-compress
+SPDXID: SPDXRef-Package-commons-compress-1.21
+PackageVersion: 1.21
+PackageSupplier: Organization: commons-compress
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.commons/commons-compress/1.21
+FilesAnalyzed: false
+PackageChecksum: SHA1: 2cf24d01a9cfbb6fd3201cd558a20a0b3c5f2d62
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the commons-lang3
+
+PackageName: commons-lang3
+SPDXID: SPDXRef-Package-commons-lang3-3.11
+PackageVersion: 3.11
+PackageSupplier: Organization: commons-lang3
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.11
+FilesAnalyzed: false
+PackageChecksum: SHA1: ee0d3c2f844bbd50acd87f9180ba6e54f21a66f8
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the derbytools
+
+PackageName: derbytools
+SPDXID: SPDXRef-Package-derbytools-10.15.2.0
+PackageVersion: 10.15.2.0
+PackageSupplier: Organization: derbytools
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apache.derby/derbytools/10.15.2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: b0894a51bd3a5bc623e8b7667bd262ef2b2581c6
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the apiguardian-api
+
+PackageName: apiguardian-api
+SPDXID: SPDXRef-Package-apiguardian-api-1.1.2
+PackageVersion: 1.1.2
+PackageSupplier: Organization: apiguardian-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.apiguardian/apiguardian-api/1.1.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 7b06dd1c44306625d6a4742955021134a430220b
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the checker-qual
+
+PackageName: checker-qual
+SPDXID: SPDXRef-Package-checker-qual-3.5.0
+PackageVersion: 3.5.0
+PackageSupplier: Organization: checker-qual
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.checkerframework/checker-qual/3.5.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 69b9dda655838f00c4a7033ca7d73db6fbe20363
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the hamcrest-core
+
+PackageName: hamcrest-core
+SPDXID: SPDXRef-Package-hamcrest-core-1.3
+PackageVersion: 1.3
+PackageSupplier: Organization: hamcrest-core
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core/1.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 740952b7992158338becf5fef9e2246da2d7927c
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the annotations
+
+PackageName: annotations
+SPDXID: SPDXRef-Package-annotations-17.0.0
+PackageVersion: 17.0.0
+PackageSupplier: Organization: annotations
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.jetbrains/annotations/17.0.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 516d70777b5ffab32d73d264205e523acd04b40b
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the junit-jupiter-api
+
+PackageName: junit-jupiter-api
+SPDXID: SPDXRef-Package-junit-jupiter-api-5.9.0
+PackageVersion: 5.9.0
+PackageSupplier: Organization: junit-jupiter-api
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api/5.9.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 291236e0cbf7650459c969286655c4592ee5b639
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the junit-platform-commons
+
+PackageName: junit-platform-commons
+SPDXID: SPDXRef-Package-junit-platform-commons-1.9.0
+PackageVersion: 1.9.0
+PackageSupplier: Organization: junit-platform-commons
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.platform/junit-platform-commons/1.9.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6fd4aed39a4d6549a2db4fe28985b98f6085988f
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the junit-platform-engine
+
+PackageName: junit-platform-engine
+SPDXID: SPDXRef-Package-junit-platform-engine-1.9.0
+PackageVersion: 1.9.0
+PackageSupplier: Organization: junit-platform-engine
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.junit.platform/junit-platform-engine/1.9.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: fbdd6c54831d47e802ca56b01c7e3b6a4d4d8f7e
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-junit-platform-engine-1.9.0 DEPENDS_ON SPDXRef-Package-opentest4j-1.2.0 
+Relationship: SPDXRef-Package-junit-platform-engine-1.9.0 DEPENDS_ON SPDXRef-Package-junit-platform-commons-1.9.0 
+
+##### Package representing the objenesis
+
+PackageName: objenesis
+SPDXID: SPDXRef-Package-objenesis-3.2
+PackageVersion: 3.2
+PackageSupplier: Organization: objenesis
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.objenesis/objenesis/3.2
+FilesAnalyzed: false
+PackageChecksum: SHA1: 337a95063a7b370d2102688790112b9f822ddd42
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the opentest4j
+
+PackageName: opentest4j
+SPDXID: SPDXRef-Package-opentest4j-1.2.0
+PackageVersion: 1.2.0
+PackageSupplier: Organization: opentest4j
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.opentest4j/opentest4j/1.2.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 1f806a5535774908a64af316868fba12e7e6feb7
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the asm
+
+PackageName: asm
+SPDXID: SPDXRef-Package-asm-7.1
+PackageVersion: 7.1
+PackageSupplier: Organization: asm
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.ow2.asm/asm/7.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 2445be8241aabd34b47e21a9f3208c3878495b50
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the duct-tape
+
+PackageName: duct-tape
+SPDXID: SPDXRef-Package-duct-tape-1.0.8
+PackageVersion: 1.0.8
+PackageSupplier: Organization: duct-tape
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.rnorth.duct-tape/duct-tape/1.0.8
+FilesAnalyzed: false
+PackageChecksum: SHA1: ec6d97f58fdf5bd2c717d47d8cd78b441258e07a
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-duct-tape-1.0.8 DEPENDS_ON SPDXRef-Package-annotations-17.0.0 
+
+##### Package representing the database-commons
+
+PackageName: database-commons
+SPDXID: SPDXRef-Package-database-commons-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: database-commons
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/database-commons/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: b19a0f566ec3badaf3e6fe2587c3795e951b84a2
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+##### Package representing the jdbc
+
+PackageName: jdbc
+SPDXID: SPDXRef-Package-jdbc-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: jdbc
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/jdbc/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 43819a3796af7c605794714433d5c03fecdf3108
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-jdbc-1.17.3 DEPENDS_ON SPDXRef-Package-database-commons-1.17.3 
+
+##### Package representing the testcontainers
+
+PackageName: testcontainers
+SPDXID: SPDXRef-Package-testcontainers-1.17.3
+PackageVersion: 1.17.3
+PackageSupplier: Organization: testcontainers
+PackageDownloadLocation: https://mvnrepository.com/artifact/org.testcontainers/testcontainers/1.17.3
+FilesAnalyzed: false
+PackageChecksum: SHA1: 3946c5338c876e02c226f06dafed277e8a586433
+PackageHomePage: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageCopyrightText: NOASSERTION
+PackageLicenseComments: NOASSERTION
+PackageComment: NOASSERTION
+
+Relationship: SPDXRef-Package-testcontainers-1.17.3 DEPENDS_ON SPDXRef-Package-junit-4.13.2 
+Relationship: SPDXRef-Package-testcontainers-1.17.3 DEPENDS_ON SPDXRef-Package-commons-compress-1.21 
+Relationship: SPDXRef-Package-testcontainers-1.17.3 DEPENDS_ON SPDXRef-Package-duct-tape-1.0.8 
+Relationship: SPDXRef-Package-testcontainers-1.17.3 DEPENDS_ON SPDXRef-Package-docker-java-api-3.2.13 
+Relationship: SPDXRef-Package-testcontainers-1.17.3 DEPENDS_ON SPDXRef-Package-docker-java-transport-zerodep-3.2.13 
+
