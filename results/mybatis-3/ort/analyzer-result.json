@@ -1,0 +1,2850 @@
+{
+  "repository" : {
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/mybatis/mybatis-3",
+      "revision" : "c195f12808a88a1ee245dc86d9c1621042655970",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/mybatis/mybatis-3.git",
+      "revision" : "c195f12808a88a1ee245dc86d9c1621042655970",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "analyzer" : {
+    "start_time" : "2023-02-12T18:19:07.738899891Z",
+    "end_time" : "2023-02-12T18:19:20.170992480Z",
+    "environment" : {
+      "ort_version" : "37d7e05e98",
+      "java_version" : "17.0.1",
+      "os" : "Linux",
+      "processors" : 20,
+      "max_memory" : 8384413696,
+      "variables" : {
+        "JAVA_HOME" : "/usr/java/openjdk-17"
+      },
+      "tool_versions" : { }
+    },
+    "config" : {
+      "allow_dynamic_versions" : false,
+      "skip_excluded" : false
+    },
+    "result" : {
+      "projects" : [ {
+        "id" : "Maven:org.mybatis:mybatis:3.5.11",
+        "definition_file_path" : "pom.xml",
+        "authors" : [ "Andrew Gustafson", "Brandon Goodin", "Christian Poitras", "Clinton Begin", "Eduardo Macarron", "Frank Martinez", "Hunter Presnall", "Iwao Ave", "Jeff Butler", "Jeremy Landis", "Kai Grabfelder", "Larry Meadors", "Marco Speranza", "MyBatis.org", "Nathan Maves", "Putthiphong Boonphong", "Simone Tripodi", "Tim Chen" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "ssh://github.com/mybatis/mybatis-3.git",
+          "revision" : "mybatis-3.5.11",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/mybatis/mybatis-3.git",
+          "revision" : "c195f12808a88a1ee245dc86d9c1621042655970",
+          "path" : ""
+        },
+        "homepage_url" : "https://www.mybatis.org/mybatis-3",
+        "scope_names" : [ "compile", "provided", "test" ]
+      } ],
+      "packages" : [ {
+        "id" : "Maven:cglib:cglib:3.3.0",
+        "purl" : "pkg:maven/cglib/cglib@3.3.0",
+        "declared_licenses" : [ "ASF 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "ASF 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "cglib is a powerful, high performance and quality Code Generation Library, It is used to extend JAVA classes and implements interfaces at runtime.",
+        "homepage_url" : "https://github.com/cglib/cglib/cglib",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/cglib/cglib/3.3.0/cglib-3.3.0.jar",
+          "hash" : {
+            "value" : "c956b9f9708af5901e9cf05701e9b2b1c25027cc",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/cglib/cglib/3.3.0/cglib-3.3.0-sources.jar",
+          "hash" : {
+            "value" : "b9b848fda50c0ca9b80d5422f021d0755044d2d6",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/cglib/cglib.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/cglib/cglib.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:ch.qos.logback:logback-classic:1.4.1",
+        "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.4.1",
+        "authors" : [ "Ceki Gulcu", "Joern Huxhorn", "QOS.ch" ],
+        "declared_licenses" : [ "Eclipse Public License - v 1.0", "GNU Lesser General Public License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0 OR LGPL-2.1-or-later",
+          "mapped" : {
+            "Eclipse Public License - v 1.0" : "EPL-1.0",
+            "GNU Lesser General Public License" : "LGPL-2.1-or-later"
+          }
+        },
+        "description" : "logback-classic module",
+        "homepage_url" : "http://logback.qos.ch/logback-classic",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.1/logback-classic-1.4.1.jar",
+          "hash" : {
+            "value" : "4a438b2659e95f26e7c9ba478c905a9865c31fc8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.4.1/logback-classic-1.4.1-sources.jar",
+          "hash" : {
+            "value" : "203e9d101b8c691727d8e08c1467799e4f0657ce",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:ch.qos.logback:logback-core:1.4.1",
+        "purl" : "pkg:maven/ch.qos.logback/logback-core@1.4.1",
+        "authors" : [ "Ceki Gulcu", "Joern Huxhorn", "QOS.ch" ],
+        "declared_licenses" : [ "Eclipse Public License - v 1.0", "GNU Lesser General Public License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0 OR LGPL-2.1-or-later",
+          "mapped" : {
+            "Eclipse Public License - v 1.0" : "EPL-1.0",
+            "GNU Lesser General Public License" : "LGPL-2.1-or-later"
+          }
+        },
+        "description" : "logback-core module",
+        "homepage_url" : "http://logback.qos.ch/logback-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.1/logback-core-1.4.1.jar",
+          "hash" : {
+            "value" : "a39cebe27ac73cef80e8b437f1159f83d6c5558e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.4.1/logback-core-1.4.1-sources.jar",
+          "hash" : {
+            "value" : "7e80e8fa7a40cd407fa7190ebd5f6398d8acd032",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/logback.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:ch.qos.reload4j:reload4j:1.2.22",
+        "purl" : "pkg:maven/ch.qos.reload4j/reload4j@1.2.22",
+        "authors" : [ "Anders Kristensen", "Ceki Gulcu", "Christian Grobmeier", "Curtis William Arnold", "Elias Nathan Ross", "Gary D. Gregory", "Jacob Kjome", "Jim Moore", "Jon Scott Stevens", "Mark Wayne Womack", "Mathias Bogaert", "Oliver Bburn", "Paul Glezen", "Paul Jeffrey Smith", "Pier Fumagalli", "QOS.CH Sarl (Switzerland)", "Ralph Goers", "Scott Deboy", "Yoav Shapira", "bradm" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Reload4j revives EOLed log4j 1.x",
+        "homepage_url" : "https://reload4j.qos.ch",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22.jar",
+          "hash" : {
+            "value" : "f9d9e55d1072d7a697d2bf06e1847e93635a7cf9",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ch/qos/reload4j/reload4j/1.2.22/reload4j-1.2.22-sources.jar",
+          "hash" : {
+            "value" : "6e109f68f55e270bebbd0c9ab098977bad6c2bb4",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/reload4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/reload4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-annotations:2.10.3",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.3",
+        "authors" : [ "Christopher Currie", "FasterXML", "Paul Brown", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core annotations used for value types, used by Jackson data binding package.",
+        "homepage_url" : "http://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar",
+          "hash" : {
+            "value" : "0f63b3b1da563767d04d2e4d3fc1ae0cdeffebe7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3-sources.jar",
+          "hash" : {
+            "value" : "a52bf9c42cb6a029577d0d701785a07554675713",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.10.3",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-annotations.git",
+          "revision" : "jackson-annotations-2.10.3",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-core:2.13.2",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+        "homepage_url" : "https://github.com/FasterXML/jackson-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar",
+          "hash" : {
+            "value" : "0a6a0e0620d51833feffc67bccb51937b2345763",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2-sources.jar",
+          "hash" : {
+            "value" : "f18990d027317810bb1a131a32ce4f001c8eaf2f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.13.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-core.git",
+          "revision" : "jackson-core-2.13.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.fasterxml.jackson.core:jackson-databind:2.13.2.1",
+        "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1",
+        "authors" : [ "FasterXML", "Tatu Saloranta" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "General data-binding functionality for Jackson: works on core streaming API",
+        "homepage_url" : "http://github.com/FasterXML/jackson",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.2.1/jackson-databind-2.13.2.1.jar",
+          "hash" : {
+            "value" : "919754c0de3c2f22187e07318da1766f7583b5f7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.2.1/jackson-databind-2.13.2.1-sources.jar",
+          "hash" : {
+            "value" : "85fba031d38fa1cfbccfad898befa3870d24ef64",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.13.2.1",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/FasterXML/jackson-databind.git",
+          "revision" : "jackson-databind-2.13.2.1",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.github.docker-java:docker-java-api:3.2.13",
+        "purl" : "pkg:maven/com.github.docker-java/docker-java-api@3.2.13",
+        "authors" : [ "Kanstantsin Shautsou", "Konstantin Pelykh", "Marcus Linke", "Sergei Egorov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java API Client for Docker",
+        "homepage_url" : "https://github.com/docker-java/docker-java",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar",
+          "hash" : {
+            "value" : "5817ef8f770cb7e740d590090bf352df9491f3c1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13-sources.jar",
+          "hash" : {
+            "value" : "a9276a150f5b4328c297377867edec741c88d31a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.github.docker-java:docker-java-transport:3.2.13",
+        "purl" : "pkg:maven/com.github.docker-java/docker-java-transport@3.2.13",
+        "authors" : [ "Kanstantsin Shautsou", "Konstantin Pelykh", "Marcus Linke", "Sergei Egorov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java API Client for Docker",
+        "homepage_url" : "https://github.com/docker-java/docker-java",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar",
+          "hash" : {
+            "value" : "e9d308d1822181a9d48c99739f5eca014ec89199",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13-sources.jar",
+          "hash" : {
+            "value" : "4fd8dc88ce1f7ce1667c55bcd23ed4a2d850486e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.github.docker-java:docker-java-transport-zerodep:3.2.13",
+        "purl" : "pkg:maven/com.github.docker-java/docker-java-transport-zerodep@3.2.13",
+        "authors" : [ "Kanstantsin Shautsou", "Konstantin Pelykh", "Marcus Linke", "Sergei Egorov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java API Client for Docker",
+        "homepage_url" : "https://github.com/docker-java/docker-java",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-zerodep/3.2.13/docker-java-transport-zerodep-3.2.13.jar",
+          "hash" : {
+            "value" : "4cbc2c09d6c264767a39624066987ed4a152bc68",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/docker-java/docker-java-transport-zerodep/3.2.13/docker-java-transport-zerodep-3.2.13-sources.jar",
+          "hash" : {
+            "value" : "30542e350ec0c98200ef394c3dba3e35908d9084",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/docker-java/docker-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.github.stephenc.jcip:jcip-annotations:1.0-1",
+        "purl" : "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1",
+        "authors" : [ "Stephen Connolly" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "A clean room implementation of the JCIP Annotations based entirely on the specification provided by the javadocs.",
+        "homepage_url" : "http://stephenc.github.com/jcip-annotations",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1.jar",
+          "hash" : {
+            "value" : "ef31541dd28ae2cefdd17c7ebf352d93e9058c63",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/github/stephenc/jcip/jcip-annotations/1.0-1/jcip-annotations-1.0-1-sources.jar",
+          "hash" : {
+            "value" : "2064ac5ff426f3c02656aedc317952b82463782f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/stephenc/jcip-annotations.git",
+          "revision" : "jcip-annotations-1.0-1",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/stephenc/jcip-annotations.git",
+          "revision" : "jcip-annotations-1.0-1",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.google.protobuf:protobuf-java:3.19.4",
+        "purl" : "pkg:maven/com.google.protobuf/protobuf-java@3.19.4",
+        "authors" : [ "Google" ],
+        "declared_licenses" : [ "3-Clause BSD License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "BSD-3-Clause",
+          "mapped" : {
+            "3-Clause BSD License" : "BSD-3-Clause"
+          }
+        },
+        "description" : "Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an\n    efficient yet extensible format.",
+        "homepage_url" : "https://developers.google.com/protocol-buffers/protobuf-java/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar",
+          "hash" : {
+            "value" : "748e4e0b9e4fa6b9b1fe65690aa04a9db56cfc4d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4-sources.jar",
+          "hash" : {
+            "value" : "62d51f136d2329ae959a3b804865d3f91f1d5d0f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/protocolbuffers/protobuf.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/protocolbuffers/protobuf.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.h2database:h2:2.1.214",
+        "purl" : "pkg:maven/com.h2database/h2@2.1.214",
+        "authors" : [ "Thomas Mueller" ],
+        "declared_licenses" : [ "EPL 1.0", "MPL 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0 OR MPL-2.0",
+          "mapped" : {
+            "EPL 1.0" : "EPL-1.0",
+            "MPL 2.0" : "MPL-2.0"
+          }
+        },
+        "description" : "H2 Database Engine",
+        "homepage_url" : "https://h2database.com",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.214/h2-2.1.214.jar",
+          "hash" : {
+            "value" : "d5c2005c9e3279201e12d4776c948578b16bf8b2",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/h2database/h2/2.1.214/h2-2.1.214-sources.jar",
+          "hash" : {
+            "value" : "0ceedf2d7edab4e7f79797fd7c667ffb2f4bd7d7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/h2database/h2database",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/h2database/h2database.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.microsoft.azure:msal4j:1.13.0",
+        "purl" : "pkg:maven/com.microsoft.azure/msal4j@1.13.0",
+        "authors" : [ "Microsoft Open Technologies, Inc." ],
+        "declared_licenses" : [ "MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "MIT License" : "MIT"
+          }
+        },
+        "description" : "Microsoft Authentication Library for Java gives you the ability to obtain tokens from Azure AD v2 (work and school\n\t\taccounts, MSA) and Azure AD B2C, gaining access to Microsoft Cloud API and any other API secured by Microsoft\n\t\tidentities",
+        "homepage_url" : "https://github.com/AzureAD/microsoft-authentication-library-for-java",
+        "binary_artifact" : {
+          "url" : "https://repo1.maven.org/maven2/com/microsoft/azure/msal4j/1.13.0/msal4j-1.13.0.jar",
+          "hash" : {
+            "value" : "7b9508128c3d0dfa45317b7419a616a30709fa79",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo1.maven.org/maven2/com/microsoft/azure/msal4j/1.13.0/msal4j-1.13.0-sources.jar",
+          "hash" : {
+            "value" : "b56c37fc866b049e86b002c7602b61a40ded76fe",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/AzureAD/microsoft-authentication-library-for-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+        "purl" : "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8",
+        "authors" : [ "Microsoft", "Microsoft Corporation" ],
+        "declared_licenses" : [ "MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "MIT License" : "MIT"
+          }
+        },
+        "description" : "Microsoft JDBC Driver for SQL Server.",
+        "homepage_url" : "https://github.com/Microsoft/mssql-jdbc",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/11.2.0.jre8/mssql-jdbc-11.2.0.jre8.jar",
+          "hash" : {
+            "value" : "a0ed87a18d9738b2a74d72f1974daf464891a3c4",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/microsoft/sqlserver/mssql-jdbc/11.2.0.jre8/mssql-jdbc-11.2.0.jre8-sources.jar",
+          "hash" : {
+            "value" : "e07e713c09d27887e5ef5909dbcfbb991e5d44ab",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/Microsoft/mssql-jdbc.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.nimbusds:content-type:2.2",
+        "purl" : "pkg:maven/com.nimbusds/content-type@2.2",
+        "authors" : [ "Connect2id Ltd.", "Vladimir Dzhuvinov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java library for Content (Media) Type representation",
+        "homepage_url" : "https://bitbucket.org/connect2id/nimbus-content-type",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.2/content-type-2.2.jar",
+          "hash" : {
+            "value" : "9a894bce7646dd4086652d85b88013229f23724b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.2/content-type-2.2-sources.jar",
+          "hash" : {
+            "value" : "3701f6781ae50cfecceaff7a8a68a111d8322f24",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-content-type.git",
+          "revision" : "2.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-content-type.git",
+          "revision" : "2.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.nimbusds:lang-tag:1.6",
+        "purl" : "pkg:maven/com.nimbusds/lang-tag@1.6",
+        "authors" : [ "Connect2id Ltd.", "Vladimir Dzhuvinov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java implementation of \"Tags for Identifying Languages\" (RFC 5646).",
+        "homepage_url" : "https://bitbucket.org/connect2id/nimbus-language-tags",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.6/lang-tag-1.6.jar",
+          "hash" : {
+            "value" : "ba96ae591bf885f130a772794f07209e2bdb9fb5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.6/lang-tag-1.6-sources.jar",
+          "hash" : {
+            "value" : "e2ff04c56eb29cc98f8c67b390c07a30dd353bff",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-language-tags.git",
+          "revision" : "1.6",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-language-tags.git",
+          "revision" : "1.6",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.nimbusds:nimbus-jose-jwt:9.22",
+        "purl" : "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22",
+        "authors" : [ "Connect2id Ltd.", "Vladimir Dzhuvinov" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java library for Javascript Object Signing and Encryption (JOSE) and\n        JSON Web Tokens (JWT)",
+        "homepage_url" : "https://bitbucket.org/connect2id/nimbus-jose-jwt",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.22/nimbus-jose-jwt-9.22.jar",
+          "hash" : {
+            "value" : "bed63628cd31d8641c5a1b29609a965179ef91ec",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.22/nimbus-jose-jwt-9.22-sources.jar",
+          "hash" : {
+            "value" : "c4a88c643e95acf790d79abb5bac38bf0f833569",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-jose-jwt.git",
+          "revision" : "9.22",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/nimbus-jose-jwt.git",
+          "revision" : "9.22",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:com.nimbusds:oauth2-oidc-sdk:9.35",
+        "purl" : "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35",
+        "authors" : [ "Connect2id Ltd.", "Vladimir Dzhuvinov" ],
+        "declared_licenses" : [ "Apache License, version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "OAuth 2.0 SDK with OpenID Connection extensions for developing\n\t\tclient and server applications.",
+        "homepage_url" : "https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.35/oauth2-oidc-sdk-9.35.jar",
+          "hash" : {
+            "value" : "7bfdf91bc4ae265f6c49a367bc0ed0e47d0e3a97",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.35/oauth2-oidc-sdk-9.35-sources.jar",
+          "hash" : {
+            "value" : "96299a0fa6784eb903bc27be0bbd1ce029eaf809",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions.git",
+          "revision" : "9.35",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions.git",
+          "revision" : "9.35",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:commons-logging:commons-logging:1.2",
+        "purl" : "pkg:maven/commons-logging/commons-logging@1.2",
+        "authors" : [ "Apache", "Brian Stansberry", "Juozas Baliuka", "Peter Donald", "The Apache Software Foundation" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other,\n    well known logging systems.",
+        "homepage_url" : "http://commons.apache.org/proper/commons-logging/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+          "hash" : {
+            "value" : "4bfc12adfe4842bf07b657f0369c4cb522955686",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar",
+          "hash" : {
+            "value" : "ecf26c7507d67782a3bbd148d170b31dfad001aa",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging/trunk",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/commons/proper/logging",
+          "revision" : "trunk",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:eu.codearte.catch-exception:catch-exception:2.0",
+        "purl" : "pkg:maven/eu.codearte.catch-exception/catch-exception@2.0",
+        "authors" : [ "Mariusz Smykula", "Rod Woo" ],
+        "declared_licenses" : [ "Apache 2" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2" : "Apache-2.0"
+          }
+        },
+        "description" : "Catch throwables (not only exceptions)",
+        "homepage_url" : "https://github.com/Codearte/catch-exception/catch-exception/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/eu/codearte/catch-exception/catch-exception/2.0/catch-exception-2.0.jar",
+          "hash" : {
+            "value" : "d29c249c5eff36818a96b72e30498cfbdfee734d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/eu/codearte/catch-exception/catch-exception/2.0/catch-exception-2.0-sources.jar",
+          "hash" : {
+            "value" : "1cd4ce18a35ba1979b54b306d5f42ccc0b6d673f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/Codearte/catch-exception.git",
+          "revision" : "v2.0",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/Codearte/catch-exception.git",
+          "revision" : "v2.0",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:junit:junit:4.13.2",
+        "purl" : "pkg:maven/junit/junit@4.13.2",
+        "authors" : [ "David Saff", "JUnit", "Kevin Cooney", "Marc Philipp", "Stefan Birkner" ],
+        "declared_licenses" : [ "Eclipse Public License 1.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-1.0",
+          "mapped" : {
+            "Eclipse Public License 1.0" : "EPL-1.0"
+          }
+        },
+        "description" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+        "homepage_url" : "http://junit.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2.jar",
+          "hash" : {
+            "value" : "8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/junit/junit/4.13.2/junit-4.13.2-sources.jar",
+          "hash" : {
+            "value" : "33987872a811fe4d4001ed494b07854822257f42",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit4.git",
+          "revision" : "r4.13.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit4.git",
+          "revision" : "r4.13.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:mysql:mysql-connector-java:8.0.30",
+        "purl" : "pkg:maven/mysql/mysql-connector-java@8.0.30",
+        "authors" : [ "Oracle Corporation" ],
+        "declared_licenses" : [ "The GNU General Public License, v2 with FOSS exception" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "GPL-2.0-only WITH Universal-FOSS-exception-1.0",
+          "mapped" : {
+            "The GNU General Public License, v2 with FOSS exception" : "GPL-2.0-only WITH Universal-FOSS-exception-1.0"
+          }
+        },
+        "description" : "JDBC Type 4 driver for MySQL",
+        "homepage_url" : "http://dev.mysql.com/doc/connector-j/en/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar",
+          "hash" : {
+            "value" : "b26dd6e4e917d3d4726c34d09d2fd67df7c1dd37",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30-sources.jar",
+          "hash" : {
+            "value" : "7de530f959fd67e896d4d69531ecce9abff71f8c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:mysql/mysql-connector-j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/mysql/mysql-connector-j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:net.bytebuddy:byte-buddy:1.12.14",
+        "purl" : "pkg:maven/net.bytebuddy/byte-buddy@1.12.14",
+        "authors" : [ "Rafael Winterhalter" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Byte Buddy is a Java library for creating Java classes at run time.\n        This artifact is a build of Byte Buddy with all ASM dependencies repackaged into its own name space.",
+        "homepage_url" : "https://bytebuddy.net/byte-buddy",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14.jar",
+          "hash" : {
+            "value" : "3502dd682cac2a7334b159e13d5935e4a34ba192",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.12.14/byte-buddy-1.12.14-sources.jar",
+          "hash" : {
+            "value" : "92655f601713c4cf5568bf5862c0c37f2a6b5b13",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:raphw/byte-buddy.git",
+          "revision" : "byte-buddy-1.12.14",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/raphw/byte-buddy.git",
+          "revision" : "byte-buddy-1.12.14",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:net.bytebuddy:byte-buddy-agent:1.12.14",
+        "purl" : "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.14",
+        "authors" : [ "Rafael Winterhalter" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "The Byte Buddy agent offers convenience for attaching an agent to the local or a remote VM.",
+        "homepage_url" : "https://bytebuddy.net/byte-buddy-agent",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.14/byte-buddy-agent-1.12.14.jar",
+          "hash" : {
+            "value" : "0ef9e1261e57d2bfbf0fac11b9b9a1a8899aae8a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.12.14/byte-buddy-agent-1.12.14-sources.jar",
+          "hash" : {
+            "value" : "90022ba8095f660ea850e32e48eb215c7bd10bcc",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:raphw/byte-buddy.git",
+          "revision" : "byte-buddy-1.12.14",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/raphw/byte-buddy.git",
+          "revision" : "byte-buddy-1.12.14",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:net.java.dev.jna:jna:5.8.0",
+        "purl" : "pkg:maven/net.java.dev.jna/jna@5.8.0",
+        "authors" : [ "Matthias Bläsing", "Timothy Wall" ],
+        "declared_licenses" : [ "Apache License v2.0", "LGPL, version 2.1" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0 OR LGPL-2.1-only",
+          "mapped" : {
+            "Apache License v2.0" : "Apache-2.0",
+            "LGPL, version 2.1" : "LGPL-2.1-only"
+          }
+        },
+        "description" : "Java Native Access",
+        "homepage_url" : "https://github.com/java-native-access/jna",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar",
+          "hash" : {
+            "value" : "3551d8d827e54858214107541d3aff9c615cb615",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0-sources.jar",
+          "hash" : {
+            "value" : "2401f953c4234333699632298c8119bcf5ea9194",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/java-native-access/jna",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/java-native-access/jna.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:net.minidev:accessors-smart:2.4.8",
+        "purl" : "pkg:maven/net.minidev/accessors-smart@2.4.8",
+        "authors" : [ "Chemouni Uriel", "Uriel Chemouni", "ZhangJian He" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Java reflect give poor performance on getter setter an constructor calls, accessors-smart use ASM to speed up those calls.",
+        "homepage_url" : "https://urielch.github.io/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8.jar",
+          "hash" : {
+            "value" : "6e1bee5a530caba91893604d6ab41d0edcecca9a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/minidev/accessors-smart/2.4.8/accessors-smart-2.4.8-sources.jar",
+          "hash" : {
+            "value" : "f8801f70a860e4e3a9485f9923dde4204cb70c96",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/netplex/json-smart-v2.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/netplex/json-smart-v2.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:net.minidev:json-smart:2.4.8",
+        "purl" : "pkg:maven/net.minidev/json-smart@2.4.8",
+        "authors" : [ "Chemouni Uriel", "Eitan Raviv", "Uriel Chemouni", "ZhangJian He" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.",
+        "homepage_url" : "https://urielch.github.io/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8.jar",
+          "hash" : {
+            "value" : "7c62f5f72ab05eb54d40e2abf0360a2fe9ea477f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/net/minidev/json-smart/2.4.8/json-smart-2.4.8-sources.jar",
+          "hash" : {
+            "value" : "399ee58414b3686be3d4f3b59f6bc11d30d2309e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/netplex/json-smart-v2.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/netplex/json-smart-v2.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:ognl:ognl:3.3.4",
+        "purl" : "pkg:maven/ognl/ognl@3.3.4",
+        "authors" : [ "OpenSymphony" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "OGNL - Object Graph Navigation Library",
+        "homepage_url" : "https://github.com/jkuhnert/ognl/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ognl/ognl/3.3.4/ognl-3.3.4.jar",
+          "hash" : {
+            "value" : "1904789bdd96f226ad252a02f230be1015f4462b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/ognl/ognl/3.3.4/ognl-3.3.4-sources.jar",
+          "hash" : {
+            "value" : "2eeddc341a00c2a792344891c050488e371f5e6f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:jkuhnert/ognl.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/jkuhnert/ognl.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.commons:commons-compress:1.21",
+        "purl" : "pkg:maven/org.apache.commons/commons-compress@1.21",
+        "authors" : [ "Christian Grobmeier", "Damjan Jovanovic", "Emmanuel Bourg", "Julius Davies", "Peter Alfred Lee", "Rob Tompkins", "Sebastian Bazley", "Stefan Bodewig", "The Apache Software Foundation", "Torsten Curdt" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Apache Commons Compress software defines an API for working with\ncompression and archive formats.  These include: bzip2, gzip, pack200,\nlzma, xz, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,\nBrotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+        "homepage_url" : "https://commons.apache.org/proper/commons-compress/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+          "hash" : {
+            "value" : "4ec95b60d4e86b5c95a0e919cb172a0af98011ef",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21-sources.jar",
+          "hash" : {
+            "value" : "b3e0a269baa0d05b02f9b4447be463d25da8c097",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-compress.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-compress.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.commons:commons-lang3:3.11",
+        "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.11",
+        "authors" : [ "Benedikt Ritter", "Carman Consulting, Inc.", "CollabNet, Inc.", "Duncan Jones", "Fredrik Westermarck", "Gary D. Gregory", "Henri Yandell", "Joerg Schaible", "Loic Guibert", "Matt Benson", "Niall Pemberton", "Oliver Heger", "Paul Benedict", "Rob Tompkins", "Robert Burrell Donkin", "SITA ATS Ltd", "Steven Caswell", "The Apache Software Foundation" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+        "homepage_url" : "https://commons.apache.org/proper/commons-lang/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar",
+          "hash" : {
+            "value" : "68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11-sources.jar",
+          "hash" : {
+            "value" : "24014867e470db3942db53b17a4902f4215d5ea8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "http://gitbox.apache.org/repos/asf/commons-lang.git",
+          "revision" : "commons-lang-3.11",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "http://gitbox.apache.org/repos/asf/commons-lang.git",
+          "revision" : "commons-lang-3.11",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.derby:derby:10.15.2.0",
+        "purl" : "pkg:maven/org.apache.derby/derby@10.15.2.0",
+        "authors" : [ "Apache Software Foundation" ],
+        "declared_licenses" : [ "Apache 2" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2" : "Apache-2.0"
+          }
+        },
+        "description" : "Contains the core Apache Derby database engine, which also includes the embedded JDBC driver.",
+        "homepage_url" : "http://db.apache.org/derby/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/derby/derby/10.15.2.0/derby-10.15.2.0.jar",
+          "hash" : {
+            "value" : "b64da6681994f33ba5783ffae55cdb44885b9e70",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "",
+          "hash" : {
+            "value" : "",
+            "algorithm" : ""
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code/trunk",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code",
+          "revision" : "trunk",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.derby:derbyoptionaltools:10.15.2.0",
+        "purl" : "pkg:maven/org.apache.derby/derbyoptionaltools@10.15.2.0",
+        "authors" : [ "Apache Software Foundation" ],
+        "declared_licenses" : [ "Apache 2" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2" : "Apache-2.0"
+          }
+        },
+        "description" : "Contains optional tools for use with Derby.",
+        "homepage_url" : "http://db.apache.org/derby/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/derby/derbyoptionaltools/10.15.2.0/derbyoptionaltools-10.15.2.0.jar",
+          "hash" : {
+            "value" : "eed13f6a0cd4fa3f0a7ab9ddd91f7d31af26503d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "",
+          "hash" : {
+            "value" : "",
+            "algorithm" : ""
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code/trunk",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code",
+          "revision" : "trunk",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.derby:derbyshared:10.15.2.0",
+        "purl" : "pkg:maven/org.apache.derby/derbyshared@10.15.2.0",
+        "authors" : [ "Apache Software Foundation" ],
+        "declared_licenses" : [ "Apache 2" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2" : "Apache-2.0"
+          }
+        },
+        "description" : "The code which is shared across all Derby configurations.",
+        "homepage_url" : "http://db.apache.org/derby/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/derby/derbyshared/10.15.2.0/derbyshared-10.15.2.0.jar",
+          "hash" : {
+            "value" : "ff2dfb3e2a92d593cf111baad242d156947abbc1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "",
+          "hash" : {
+            "value" : "",
+            "algorithm" : ""
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code/trunk",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code",
+          "revision" : "trunk",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.derby:derbytools:10.15.2.0",
+        "purl" : "pkg:maven/org.apache.derby/derbytools@10.15.2.0",
+        "authors" : [ "Apache Software Foundation" ],
+        "declared_licenses" : [ "Apache 2" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache 2" : "Apache-2.0"
+          }
+        },
+        "description" : "Contains Apache Derby tools like ij, sysinfo, and dblook.",
+        "homepage_url" : "http://db.apache.org/derby/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/derby/derbytools/10.15.2.0/derbytools-10.15.2.0.jar",
+          "hash" : {
+            "value" : "d63722381e0e893d797e4d531e219e2917898364",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "",
+          "hash" : {
+            "value" : "",
+            "algorithm" : ""
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code/trunk",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.apache.org/repos/asf/db/derby/code",
+          "revision" : "trunk",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.logging.log4j:log4j-api:2.19.0",
+        "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0",
+        "authors" : [ "Apple", "Bruce Brouwer", "Carter Kozak", "Nextiva", "Nick Williams", "Piotr P. Karwasz", "Remko Popma", "Ron Grabowski", "Scott Deboy", "Spotify", "The Apache Software Foundation", "Volkan Yazıcı" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "The Apache Log4j API",
+        "homepage_url" : "https://logging.apache.org/log4j/2.x/log4j-api/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar",
+          "hash" : {
+            "value" : "ea1b37f38c327596b216542bc636cfdc0b8036fa",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0-sources.jar",
+          "hash" : {
+            "value" : "e50c05b05437e7f5fc11609b8366a5e151f74461",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/logging-log4j2.git",
+          "revision" : "log4j-2.19.0-rc2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/logging-log4j2.git",
+          "revision" : "log4j-2.19.0-rc2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.logging.log4j:log4j-core:2.19.0",
+        "purl" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.19.0",
+        "authors" : [ "Apple", "Bruce Brouwer", "Carter Kozak", "Nextiva", "Nick Williams", "Piotr P. Karwasz", "Remko Popma", "Ron Grabowski", "Scott Deboy", "Spotify", "The Apache Software Foundation", "Volkan Yazıcı" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "The Apache Log4j Implementation",
+        "homepage_url" : "https://logging.apache.org/log4j/2.x/log4j-core/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar",
+          "hash" : {
+            "value" : "3b6eeb4de4c49c0fe38a4ee27188ff5fee44d0bb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0-sources.jar",
+          "hash" : {
+            "value" : "b01fda4bda99fce653352ebe79897e43dee2e67f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/logging-log4j2.git",
+          "revision" : "log4j-2.19.0-rc2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/logging-log4j2.git",
+          "revision" : "log4j-2.19.0-rc2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apache.velocity:velocity-engine-core:2.3",
+        "purl" : "pkg:maven/org.apache.velocity/velocity-engine-core@2.3",
+        "authors" : [ "Christopher Schultz", "Claude Brisson", "CollabNet, Inc.", "Dishara Wijewardana", "ESHA Research", "Forio Business Simulations", "Independent (DVSL Maven)", "Jason van Zyl", "Jon S. Stevens", "Marinó A. Jónsson", "Michael Osipov", "Mike Kienenberger", "Sergiu Dumitriu", "The Apache Software Foundation", "The Henning Schmiedehausen Organization" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Apache Velocity is a general purpose template engine.",
+        "homepage_url" : "http://velocity.apache.org/engine/devel/velocity-engine-core/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar",
+          "hash" : {
+            "value" : "e2133b723d0e42be74880d34de6bf6538ea7f915",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3-sources.jar",
+          "hash" : {
+            "value" : "e933ee663a4902bcb0f6f8071bdf8db16d9364a6",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/velocity-engine.git",
+          "revision" : "2.3-RC2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://gitbox.apache.org/repos/asf/velocity-engine.git",
+          "revision" : "2.3-RC2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.apiguardian:apiguardian-api:1.1.2",
+        "purl" : "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+        "authors" : [ "@API Guardian Team" ],
+        "declared_licenses" : [ "The Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "@API Guardian",
+        "homepage_url" : "https://github.com/apiguardian-team/apiguardian",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar",
+          "hash" : {
+            "value" : "a231e0d844d2721b0fa1b238006d15c6ded6842a",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar",
+          "hash" : {
+            "value" : "e0787a997746ac32639e0bf3cb27af8dce8a3428",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/apiguardian-team/apiguardian.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/apiguardian-team/apiguardian.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.assertj:assertj-core:3.23.1",
+        "purl" : "pkg:maven/org.assertj/assertj-core@3.23.1",
+        "authors" : [ "AssertJ", "Christian Rösch", "Erhard Pointl", "Florent Biville", "Joel Costigliola", "Julien Roy", "Pascal Schumacher", "Patrick Allain", "Régis Pouiller", "Stefano Cordio" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Rich and fluent assertions for testing for Java",
+        "homepage_url" : "${project.parent.url}#assertj-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1.jar",
+          "hash" : {
+            "value" : "d2bb60570f5b3d7ffa8f8000118c9c07b86eca93",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/assertj/assertj-core/3.23.1/assertj-core-3.23.1-sources.jar",
+          "hash" : {
+            "value" : "157b30660c8be702e3b5ba4f73311578c6333635",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/assertj/assertj-core.git",
+          "revision" : "assertj-core-3.23.1",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/assertj/assertj-core.git",
+          "revision" : "assertj-core-3.23.1",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.checkerframework:checker-qual:3.5.0",
+        "purl" : "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+        "authors" : [ "University of Washington", "University of Waterloo" ],
+        "declared_licenses" : [ "The MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "The MIT License" : "MIT"
+          }
+        },
+        "description" : "Checker Qual is the set of annotations (qualifiers) and supporting classes\n        used by the Checker Framework to type check Java source code.\n\n        Please\n        see artifact:\n        org.checkerframework:checker",
+        "homepage_url" : "https://checkerframework.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar",
+          "hash" : {
+            "value" : "2f50520c8abea66fbd8d26e481d3aef5c673b510",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0-sources.jar",
+          "hash" : {
+            "value" : "acb4745ac343906cd39f9b3776db0e56f251ae6e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/typetools/checker-framework.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/typetools/checker-framework.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.hamcrest:hamcrest-core:1.3",
+        "purl" : "pkg:maven/org.hamcrest/hamcrest-core@1.3",
+        "authors" : [ "Joe Walnes", "Nat Pryce", "Neil Dunn", "Steve Freeman", "Tom Denley" ],
+        "declared_licenses" : [ "New BSD License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "BSD-3-Clause",
+          "mapped" : {
+            "New BSD License" : "BSD-3-Clause"
+          }
+        },
+        "description" : "This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.",
+        "homepage_url" : "https://github.com/hamcrest/JavaHamcrest/hamcrest-core",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+          "hash" : {
+            "value" : "42a25dc3219429f0e5d060061f71acb49bf010a0",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar",
+          "hash" : {
+            "value" : "1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:hamcrest/JavaHamcrest.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/hamcrest/JavaHamcrest.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.hsqldb:hsqldb:2.6.1",
+        "purl" : "pkg:maven/org.hsqldb/hsqldb@2.6.1",
+        "authors" : [ "Blaine Simpson", "The HSQL Development Group" ],
+        "declared_licenses" : [ "HSQLDB License, a BSD open source license" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "BSD-3-Clause",
+          "mapped" : {
+            "HSQLDB License, a BSD open source license" : "BSD-3-Clause"
+          }
+        },
+        "description" : "HSQLDB - Lightweight 100% Java SQL Database Engine",
+        "homepage_url" : "http://hsqldb.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.6.1/hsqldb-2.6.1.jar",
+          "hash" : {
+            "value" : "e626f8231592da1862fac632a6230752cf69b8e9",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/hsqldb/hsqldb/2.6.1/hsqldb-2.6.1-sources.jar",
+          "hash" : {
+            "value" : "513bb5a73da6f606f9a00582be070de140edeadb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Subversion",
+          "url" : "http://svn.code.sf.net/p/hsqldb/svn/base/",
+          "revision" : "tags/2.6.1",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Subversion",
+          "url" : "http://svn.code.sf.net/p/hsqldb/svn/base",
+          "revision" : "tags/2.6.1",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.javassist:javassist:3.29.2-GA",
+        "purl" : "pkg:maven/org.javassist/javassist@3.29.2-GA",
+        "authors" : [ "JBoss", "Shigeru Chiba, www.javassist.org", "The Javassist Project" ],
+        "declared_licenses" : [ "Apache License 2.0", "LGPL 2.1", "MPL 1.1" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0 OR LGPL-2.1-only OR MPL-1.1",
+          "mapped" : {
+            "Apache License 2.0" : "Apache-2.0",
+            "LGPL 2.1" : "LGPL-2.1-only",
+            "MPL 1.1" : "MPL-1.1"
+          }
+        },
+        "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation\n    simple.  It is a class library for editing bytecodes in Java.",
+        "homepage_url" : "http://www.javassist.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA.jar",
+          "hash" : {
+            "value" : "6c32028609e5dd4a1b78e10fbcd122b09b3928b1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/javassist/javassist/3.29.2-GA/javassist-3.29.2-GA-sources.jar",
+          "hash" : {
+            "value" : "6a9890291fadbc5092224380d483dee508e92783",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git@github.com:jboss-javassist/javassist.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "ssh://git@github.com/jboss-javassist/javassist.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.jetbrains:annotations:17.0.0",
+        "purl" : "pkg:maven/org.jetbrains/annotations@17.0.0",
+        "authors" : [ "JetBrains" ],
+        "declared_licenses" : [ "The Apache Software License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache Software License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "A set of annotations used for code inspection support and code documentation.",
+        "homepage_url" : "https://github.com/JetBrains/java-annotations",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar",
+          "hash" : {
+            "value" : "8ceead41f4e71821919dbdb7a9847608f1a938cb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/17.0.0/annotations-17.0.0-sources.jar",
+          "hash" : {
+            "value" : "c4824e1e82f2783838485a3536db0b8f4d53aa95",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/JetBrains/java-annotations.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/JetBrains/java-annotations.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.jupiter:junit-jupiter-api:5.9.0",
+        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.9.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-jupiter-api\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar",
+          "hash" : {
+            "value" : "00a44f7eba3ea214f6ec87ad9fccd3b2ac4681a4",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0-sources.jar",
+          "hash" : {
+            "value" : "0e23e68771c361cdc17004c5ec30095d609df980",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.jupiter:junit-jupiter-engine:5.9.0",
+        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.9.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-jupiter-engine\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar",
+          "hash" : {
+            "value" : "0cc1cb5efae97493dcffb687253a0964ad2e7b99",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0-sources.jar",
+          "hash" : {
+            "value" : "1342cdbc880788707e133ec3a8dc9cbf84b041df",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.jupiter:junit-jupiter-params:5.9.0",
+        "purl" : "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.9.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-jupiter-params\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar",
+          "hash" : {
+            "value" : "d6b6ccd3585351f617b06f066675271afebe9b28",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0-sources.jar",
+          "hash" : {
+            "value" : "90177afa01c4b718dd91c27bdc91cb1062e640af",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.platform:junit-platform-commons:1.9.0",
+        "purl" : "pkg:maven/org.junit.platform/junit-platform-commons@1.9.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-platform-commons\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar",
+          "hash" : {
+            "value" : "b727889107fc28c7460b21d1083212f8ce7602c6",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0-sources.jar",
+          "hash" : {
+            "value" : "18dd59a6622942632cfc7a38c2feae4a3066fc7c",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.junit.platform:junit-platform-engine:1.9.0",
+        "purl" : "pkg:maven/org.junit.platform/junit-platform-engine@1.9.0",
+        "authors" : [ "Christian Stein", "Johannes Link", "Juliette de Rancourt", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "Eclipse Public License v2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "EPL-2.0",
+          "mapped" : {
+            "Eclipse Public License v2.0" : "EPL-2.0"
+          }
+        },
+        "description" : "Module \"junit-platform-engine\" of JUnit 5.",
+        "homepage_url" : "https://junit.org/junit5/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar",
+          "hash" : {
+            "value" : "bd46891f01817b5ffdd368cb0482a34746610acb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0-sources.jar",
+          "hash" : {
+            "value" : "bda902e43fe1f62674224452defd31f4c251e29d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/junit-team/junit5.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.mockito:mockito-core:4.8.0",
+        "purl" : "pkg:maven/org.mockito/mockito-core@4.8.0",
+        "authors" : [ "Brice Dutheil", "Rafael Winterhalter", "Szczepan Faber", "Tim van der Lippe" ],
+        "declared_licenses" : [ "The MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "The MIT License" : "MIT"
+          }
+        },
+        "description" : "Mockito mock objects library core API and implementation",
+        "homepage_url" : "https://github.com/mockito/mockito",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.8.0/mockito-core-4.8.0.jar",
+          "hash" : {
+            "value" : "f51dbbbee1e95270d77463152d49b382e91bedbb",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/mockito/mockito-core/4.8.0/mockito-core-4.8.0-sources.jar",
+          "hash" : {
+            "value" : "9dddd37cdd2f673a51b286a1d6ee156931fd93b1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/mockito/mockito.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.mockito:mockito-junit-jupiter:4.8.0",
+        "purl" : "pkg:maven/org.mockito/mockito-junit-jupiter@4.8.0",
+        "authors" : [ "Brice Dutheil", "Rafael Winterhalter", "Szczepan Faber", "Tim van der Lippe" ],
+        "declared_licenses" : [ "The MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "The MIT License" : "MIT"
+          }
+        },
+        "description" : "Mockito JUnit 5 support",
+        "homepage_url" : "https://github.com/mockito/mockito",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.8.0/mockito-junit-jupiter-4.8.0.jar",
+          "hash" : {
+            "value" : "8232fcf0e682fac0ab757bc9d09cf3535587a238",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/mockito/mockito-junit-jupiter/4.8.0/mockito-junit-jupiter-4.8.0-sources.jar",
+          "hash" : {
+            "value" : "6aa189452f42167be3dc9ce5ac029df0f15ba0e5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "",
+          "url" : "",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/mockito/mockito.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.objenesis:objenesis:3.2",
+        "purl" : "pkg:maven/org.objenesis/objenesis@3.2",
+        "authors" : [ "Henri Tremblay", "Joe Walnes", "Joe Walnes, Henri Tremblay, Leonardo Mesquita", "Leonardo Mesquita" ],
+        "declared_licenses" : [ "Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "A library for instantiating Java objects",
+        "homepage_url" : "http://objenesis.org/objenesis",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.2/objenesis-3.2.jar",
+          "hash" : {
+            "value" : "7fadf57620c8b8abdf7519533e5527367cb51f09",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/objenesis/objenesis/3.2/objenesis-3.2-sources.jar",
+          "hash" : {
+            "value" : "9f5da90020a255f25b6d8da8db273e2d38ce9805",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/easymock/objenesis.git",
+          "revision" : "3.2",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/easymock/objenesis.git",
+          "revision" : "3.2",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.opentest4j:opentest4j:1.2.0",
+        "purl" : "pkg:maven/org.opentest4j/opentest4j@1.2.0",
+        "authors" : [ "Johannes Link", "Marc Philipp", "Matthias Merdes", "Sam Brannen", "Stefan Bechtold" ],
+        "declared_licenses" : [ "The Apache License, Version 2.0" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "Apache-2.0",
+          "mapped" : {
+            "The Apache License, Version 2.0" : "Apache-2.0"
+          }
+        },
+        "description" : "Open Test Alliance for the JVM",
+        "homepage_url" : "https://github.com/ota4j-team/opentest4j",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar",
+          "hash" : {
+            "value" : "28c11eb91f9b6d8e200631d46e20a7f407f2a046",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0-sources.jar",
+          "hash" : {
+            "value" : "41d55b3c2254de9837b4ec8923cbd371b8a7eab5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/ota4j-team/opentest4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/ota4j-team/opentest4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.ow2.asm:asm:7.1",
+        "purl" : "pkg:maven/org.ow2.asm/asm@7.1",
+        "authors" : [ "Eric Bruneton", "Eugene Kuleshov", "OW2", "Remi Forax" ],
+        "declared_licenses" : [ "BSD" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "BSD-3-Clause",
+          "mapped" : {
+            "BSD" : "BSD-3-Clause"
+          }
+        },
+        "description" : "ASM, a very small and fast Java bytecode manipulation framework",
+        "homepage_url" : "http://asm.ow2.org/",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.1/asm-7.1.jar",
+          "hash" : {
+            "value" : "fa29aa438674ff19d5e1386d2c3527a0267f291e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/7.1/asm-7.1-sources.jar",
+          "hash" : {
+            "value" : "9d170062d595240da35301362b079e5579c86f49",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://gitlab.ow2.org/asm/asm/",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://gitlab.ow2.org/asm/asm",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.postgresql:postgresql:42.5.0",
+        "purl" : "pkg:maven/org.postgresql/postgresql@42.5.0",
+        "authors" : [ "Brett Okken", "Craig Ringer", "Dave Cramer", "Kris Jurka", "Oliver Jowett", "PostgreSQL Global Development Group", "Vladimir Sitnikov" ],
+        "declared_licenses" : [ "BSD-2-Clause" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "BSD-2-Clause"
+        },
+        "description" : "PostgreSQL JDBC Driver Postgresql",
+        "homepage_url" : "https://jdbc.postgresql.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.0/postgresql-42.5.0.jar",
+          "hash" : {
+            "value" : "43751d7ec562aeabcb025844345e39c340d732ba",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/postgresql/postgresql/42.5.0/postgresql-42.5.0-sources.jar",
+          "hash" : {
+            "value" : "a50bb13afafeae8c7798bc1067543b3564f9f7a3",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/pgjdbc/pgjdbc.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/pgjdbc/pgjdbc.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.rnorth.duct-tape:duct-tape:1.0.8",
+        "purl" : "pkg:maven/org.rnorth.duct-tape/duct-tape@1.0.8",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "General purpose resilience utilities for Java 8 (circuit breakers, timeouts, rate limiters, and handlers for unreliable or inconsistent results)",
+        "homepage_url" : "https://github.com/rnorth/duct-tape",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar",
+          "hash" : {
+            "value" : "92edc22a9ab2f3e17c9bf700aaee377d50e8b530",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8-sources.jar",
+          "hash" : {
+            "value" : "0cf14d77239dd2a6fe0e03a2e8f29c6a80373be1",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/rnorth/duct-tape.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/rnorth/duct-tape.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.slf4j:slf4j-api:2.0.1",
+        "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.1",
+        "authors" : [ "Ceki Gulcu", "QOS.ch" ],
+        "declared_licenses" : [ "MIT License" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT",
+          "mapped" : {
+            "MIT License" : "MIT"
+          }
+        },
+        "description" : "The slf4j API",
+        "homepage_url" : "http://www.slf4j.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar",
+          "hash" : {
+            "value" : "f48d81adce2abf5ad3cfe463df517952749e03bc",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1-sources.jar",
+          "hash" : {
+            "value" : "99dd49517b321de42b34501d877d3ab69b4de6b5",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/qos-ch/slf4j.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:database-commons:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/database-commons@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/database-commons/1.17.3/database-commons-1.17.3.jar",
+          "hash" : {
+            "value" : "5b18b6419165cb46e9ee481def8bf88e988f5da8",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/database-commons/1.17.3/database-commons-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "31ade38ff7561c3022b76fb6a1604e3257cb6307",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:jdbc:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/jdbc@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/jdbc/1.17.3/jdbc-1.17.3.jar",
+          "hash" : {
+            "value" : "a77fff54944aff95491399c1ce16887761c95dc4",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/jdbc/1.17.3/jdbc-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "26bcbe46f18a227f3ea61191f7ae9f32c98b038d",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:junit-jupiter:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/junit-jupiter@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/junit-jupiter/1.17.3/junit-jupiter-1.17.3.jar",
+          "hash" : {
+            "value" : "ee078c7446b1e17e818770e384eee18ba3cb6bdc",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/junit-jupiter/1.17.3/junit-jupiter-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "a014ac4d59cebacadd5a927e16885273e374d34e",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:mysql:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/mysql@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/mysql/1.17.3/mysql-1.17.3.jar",
+          "hash" : {
+            "value" : "ae89b6c96670972495494e0f960edbfe4e187dac",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/mysql/1.17.3/mysql-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "1309e52974553965b34d23cfa313825c0acdf9fc",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:postgresql:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/postgresql@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/postgresql/1.17.3/postgresql-1.17.3.jar",
+          "hash" : {
+            "value" : "cb3356f83648187af6c60cf12144999be3a9a3b7",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/postgresql/1.17.3/postgresql-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "2595accfc00638ced8e8c679befe87938064e89f",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      }, {
+        "id" : "Maven:org.testcontainers:testcontainers:1.17.3",
+        "purl" : "pkg:maven/org.testcontainers/testcontainers@1.17.3",
+        "authors" : [ "Richard North" ],
+        "declared_licenses" : [ "MIT" ],
+        "declared_licenses_processed" : {
+          "spdx_expression" : "MIT"
+        },
+        "description" : "Isolated container management for Java code testing",
+        "homepage_url" : "https://testcontainers.org",
+        "binary_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers/1.17.3/testcontainers-1.17.3.jar",
+          "hash" : {
+            "value" : "fe39ce8f04c7d85c87570e2ebe0deb7b17fb37b4",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "source_artifact" : {
+          "url" : "https://repo.maven.apache.org/maven2/org/testcontainers/testcontainers/1.17.3/testcontainers-1.17.3-sources.jar",
+          "hash" : {
+            "value" : "0d9d0375c559548331133a6b245e9e242e682ef6",
+            "algorithm" : "SHA-1"
+          }
+        },
+        "vcs" : {
+          "type" : "Git",
+          "url" : "git://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        },
+        "vcs_processed" : {
+          "type" : "Git",
+          "url" : "https://github.com/testcontainers/testcontainers-java.git",
+          "revision" : "",
+          "path" : ""
+        }
+      } ],
+      "dependency_graphs" : {
+        "Maven" : {
+          "packages" : [ "Maven:cglib:cglib:3.3.0", "Maven:ch.qos.logback:logback-classic:1.4.1", "Maven:ch.qos.logback:logback-core:1.4.1", "Maven:ch.qos.reload4j:reload4j:1.2.22", "Maven:com.fasterxml.jackson.core:jackson-annotations:2.10.3", "Maven:com.fasterxml.jackson.core:jackson-core:2.13.2", "Maven:com.fasterxml.jackson.core:jackson-databind:2.13.2.1", "Maven:com.github.docker-java:docker-java-api:3.2.13", "Maven:com.github.docker-java:docker-java-transport-zerodep:3.2.13", "Maven:com.github.docker-java:docker-java-transport:3.2.13", "Maven:com.github.stephenc.jcip:jcip-annotations:1.0-1", "Maven:com.google.protobuf:protobuf-java:3.19.4", "Maven:com.h2database:h2:2.1.214", "Maven:com.microsoft.azure:msal4j:1.13.0", "Maven:com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8", "Maven:com.nimbusds:content-type:2.2", "Maven:com.nimbusds:lang-tag:1.6", "Maven:com.nimbusds:nimbus-jose-jwt:9.22", "Maven:com.nimbusds:oauth2-oidc-sdk:9.35", "Maven:commons-logging:commons-logging:1.2", "Maven:eu.codearte.catch-exception:catch-exception:2.0", "Maven:junit:junit:4.13.2", "Maven:mysql:mysql-connector-java:8.0.30", "Maven:net.bytebuddy:byte-buddy-agent:1.12.14", "Maven:net.bytebuddy:byte-buddy:1.12.14", "Maven:net.java.dev.jna:jna:5.8.0", "Maven:net.minidev:accessors-smart:2.4.8", "Maven:net.minidev:json-smart:2.4.8", "Maven:ognl:ognl:3.3.4", "Maven:org.apache.commons:commons-compress:1.21", "Maven:org.apache.commons:commons-lang3:3.11", "Maven:org.apache.derby:derby:10.15.2.0", "Maven:org.apache.derby:derbyoptionaltools:10.15.2.0", "Maven:org.apache.derby:derbyshared:10.15.2.0", "Maven:org.apache.derby:derbytools:10.15.2.0", "Maven:org.apache.logging.log4j:log4j-api:2.19.0", "Maven:org.apache.logging.log4j:log4j-core:2.19.0", "Maven:org.apache.velocity:velocity-engine-core:2.3", "Maven:org.apiguardian:apiguardian-api:1.1.2", "Maven:org.assertj:assertj-core:3.23.1", "Maven:org.checkerframework:checker-qual:3.5.0", "Maven:org.hamcrest:hamcrest-core:1.3", "Maven:org.hsqldb:hsqldb:2.6.1", "Maven:org.javassist:javassist:3.29.2-GA", "Maven:org.jetbrains:annotations:17.0.0", "Maven:org.junit.jupiter:junit-jupiter-api:5.9.0", "Maven:org.junit.jupiter:junit-jupiter-engine:5.9.0", "Maven:org.junit.jupiter:junit-jupiter-params:5.9.0", "Maven:org.junit.platform:junit-platform-commons:1.9.0", "Maven:org.junit.platform:junit-platform-engine:1.9.0", "Maven:org.mockito:mockito-core:4.8.0", "Maven:org.mockito:mockito-junit-jupiter:4.8.0", "Maven:org.objenesis:objenesis:3.2", "Maven:org.opentest4j:opentest4j:1.2.0", "Maven:org.ow2.asm:asm:7.1", "Maven:org.postgresql:postgresql:42.5.0", "Maven:org.rnorth.duct-tape:duct-tape:1.0.8", "Maven:org.slf4j:slf4j-api:2.0.1", "Maven:org.testcontainers:database-commons:1.17.3", "Maven:org.testcontainers:jdbc:1.17.3", "Maven:org.testcontainers:junit-jupiter:1.17.3", "Maven:org.testcontainers:mysql:1.17.3", "Maven:org.testcontainers:postgresql:1.17.3", "Maven:org.testcontainers:testcontainers:1.17.3" ],
+          "scopes" : {
+            "org.mybatis:mybatis:3.5.11:compile" : [ {
+              "root" : 0
+            }, {
+              "root" : 3
+            }, {
+              "root" : 19
+            }, {
+              "root" : 28
+            }, {
+              "root" : 35
+            }, {
+              "root" : 43
+            }, {
+              "root" : 57
+            } ],
+            "org.mybatis:mybatis:3.5.11:provided" : [ {
+              "root" : 14
+            } ],
+            "org.mybatis:mybatis:3.5.11:test" : [ {
+              "root" : 1
+            }, {
+              "root" : 12
+            }, {
+              "root" : 20
+            }, {
+              "root" : 22
+            }, {
+              "root" : 31
+            }, {
+              "root" : 32
+            }, {
+              "root" : 33
+            }, {
+              "root" : 36
+            }, {
+              "root" : 37
+            }, {
+              "root" : 39
+            }, {
+              "root" : 42
+            }, {
+              "root" : 46
+            }, {
+              "root" : 47
+            }, {
+              "root" : 50
+            }, {
+              "root" : 51
+            }, {
+              "root" : 55
+            }, {
+              "root" : 60
+            }, {
+              "root" : 61
+            }, {
+              "root" : 62
+            } ]
+          },
+          "nodes" : [ {
+            "pkg" : 54
+          }, { }, {
+            "pkg" : 3
+          }, {
+            "pkg" : 19
+          }, {
+            "pkg" : 28
+          }, {
+            "pkg" : 35
+          }, {
+            "pkg" : 43
+          }, {
+            "pkg" : 57
+          }, {
+            "pkg" : 10
+          }, {
+            "pkg" : 15
+          }, {
+            "pkg" : 16
+          }, {
+            "pkg" : 17
+          }, {
+            "pkg" : 18
+          }, {
+            "pkg" : 26
+          }, {
+            "pkg" : 27
+          }, {
+            "pkg" : 5
+          }, {
+            "pkg" : 6
+          }, {
+            "pkg" : 13
+          }, {
+            "pkg" : 14
+          }, {
+            "pkg" : 2
+          }, {
+            "pkg" : 1
+          }, {
+            "pkg" : 12
+          }, {
+            "pkg" : 20
+          }, {
+            "pkg" : 11
+          }, {
+            "pkg" : 22
+          }, {
+            "pkg" : 31
+          }, {
+            "pkg" : 34
+          }, {
+            "pkg" : 32
+          }, {
+            "pkg" : 33
+          }, {
+            "pkg" : 36
+          }, {
+            "pkg" : 30
+          }, {
+            "pkg" : 37
+          }, {
+            "pkg" : 39
+          }, {
+            "pkg" : 42
+          }, {
+            "pkg" : 53
+          }, {
+            "pkg" : 48
+          }, {
+            "pkg" : 49
+          }, {
+            "pkg" : 45
+          }, {
+            "pkg" : 38
+          }, {
+            "pkg" : 46
+          }, {
+            "pkg" : 47
+          }, {
+            "pkg" : 24
+          }, {
+            "pkg" : 23
+          }, {
+            "pkg" : 52
+          }, {
+            "pkg" : 50
+          }, {
+            "pkg" : 51
+          }, {
+            "pkg" : 40
+          }, {
+            "pkg" : 55
+          }, {
+            "pkg" : 41
+          }, {
+            "pkg" : 21
+          }, {
+            "pkg" : 29
+          }, {
+            "pkg" : 44
+          }, {
+            "pkg" : 56
+          }, {
+            "pkg" : 4
+          }, {
+            "pkg" : 7
+          }, {
+            "pkg" : 9
+          }, {
+            "pkg" : 25
+          }, {
+            "pkg" : 8
+          }, {
+            "pkg" : 63
+          }, {
+            "pkg" : 60
+          }, {
+            "pkg" : 61
+          }, {
+            "pkg" : 58
+          }, {
+            "pkg" : 59
+          }, {
+            "pkg" : 62
+          } ],
+          "edges" : [ {
+            "from" : 1,
+            "to" : 0
+          }, {
+            "from" : 12,
+            "to" : 8
+          }, {
+            "from" : 12,
+            "to" : 9
+          }, {
+            "from" : 12,
+            "to" : 10
+          }, {
+            "from" : 12,
+            "to" : 11
+          }, {
+            "from" : 14,
+            "to" : 13
+          }, {
+            "from" : 16,
+            "to" : 15
+          }, {
+            "from" : 17,
+            "to" : 12
+          }, {
+            "from" : 17,
+            "to" : 14
+          }, {
+            "from" : 17,
+            "to" : 16
+          }, {
+            "from" : 18,
+            "to" : 17
+          }, {
+            "from" : 20,
+            "to" : 19
+          }, {
+            "from" : 24,
+            "to" : 23
+          }, {
+            "from" : 27,
+            "to" : 26
+          }, {
+            "from" : 31,
+            "to" : 30
+          }, {
+            "from" : 36,
+            "to" : 34
+          }, {
+            "from" : 36,
+            "to" : 35
+          }, {
+            "from" : 39,
+            "to" : 36
+          }, {
+            "from" : 39,
+            "to" : 37
+          }, {
+            "from" : 39,
+            "to" : 38
+          }, {
+            "from" : 44,
+            "to" : 41
+          }, {
+            "from" : 44,
+            "to" : 42
+          }, {
+            "from" : 44,
+            "to" : 43
+          }, {
+            "from" : 47,
+            "to" : 46
+          }, {
+            "from" : 49,
+            "to" : 48
+          }, {
+            "from" : 52,
+            "to" : 51
+          }, {
+            "from" : 54,
+            "to" : 53
+          }, {
+            "from" : 57,
+            "to" : 55
+          }, {
+            "from" : 57,
+            "to" : 56
+          }, {
+            "from" : 58,
+            "to" : 49
+          }, {
+            "from" : 58,
+            "to" : 50
+          }, {
+            "from" : 58,
+            "to" : 52
+          }, {
+            "from" : 58,
+            "to" : 54
+          }, {
+            "from" : 58,
+            "to" : 57
+          }, {
+            "from" : 59,
+            "to" : 58
+          }, {
+            "from" : 62,
+            "to" : 61
+          }, {
+            "from" : 63,
+            "to" : 62
+          } ]
+        }
+      },
+      "has_issues" : false
+    }
+  },
+  "scanner" : null,
+  "advisor" : null,
+  "evaluator" : null,
+  "resolved_configuration" : { }
+}

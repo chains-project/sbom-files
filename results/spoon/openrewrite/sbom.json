@@ -1,0 +1,409 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:4a912c23-7fe6-4ace-a9cd-4fdda0b2a4ae",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-12T17:12:41Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.2.0-SNAPSHOT?type=jar",
+      "group": "fr.inria.gforge.spoon",
+      "name": "spoon-core",
+      "version": "10.2.0-SNAPSHOT",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "CeCILL-C"
+          }
+        }
+      ],
+      "purl": "pkg:maven/fr.inria.gforge.spoon/spoon-core@10.2.0-SNAPSHOT?type=jar"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0?type=jar",
+      "group": "org.eclipse.jdt",
+      "name": "org.eclipse.jdt.core",
+      "version": "3.31.0",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "Eclipse Public License - v 2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar",
+      "group": "com.martiansoftware",
+      "name": "jsap",
+      "version": "2.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "1.7.36",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "group": "commons-io",
+      "name": "commons-io",
+      "version": "2.11.0",
+      "scope": "required",
+      "purl": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar",
+      "group": "org.apache.maven",
+      "name": "maven-model",
+      "version": "4.0.0-alpha-4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-lang3",
+      "version": "3.12.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.13.4.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.commons/commons-compress@1.21?type=jar",
+      "group": "org.apache.commons",
+      "name": "commons-compress",
+      "version": "1.21",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.commons/commons-compress@1.21?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar",
+      "group": "org.apache.maven.shared",
+      "name": "maven-invoker",
+      "version": "3.2.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
+      "group": "org.apache.maven",
+      "name": "maven-api-model",
+      "version": "4.0.0-alpha-4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar",
+      "group": "org.apache.maven",
+      "name": "maven-xml-impl",
+      "version": "4.0.0-alpha-4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.13.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.13.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar",
+      "group": "org.apache.maven.shared",
+      "name": "maven-shared-utils",
+      "version": "3.3.4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "group": "javax.inject",
+      "name": "javax.inject",
+      "version": "1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar",
+      "group": "org.apache.maven",
+      "name": "maven-api-xml",
+      "version": "4.0.0-alpha-4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar",
+      "group": "org.eclipse.sisu",
+      "name": "org.eclipse.sisu.plexus",
+      "version": "0.3.5",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar",
+      "group": "org.apache.maven",
+      "name": "maven-api-meta",
+      "version": "4.0.0-alpha-4",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+      "group": "javax.annotation",
+      "name": "javax.annotation-api",
+      "version": "1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "CDDL \u002B GPLv2 with classpath exception"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/javax.enterprise/cdi-api@1.2?type=jar",
+      "group": "javax.enterprise",
+      "name": "cdi-api",
+      "version": "1.2",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/javax.enterprise/cdi-api@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar",
+      "group": "org.eclipse.sisu",
+      "name": "org.eclipse.sisu.inject",
+      "version": "0.3.5",
+      "scope": "required",
+      "purl": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-component-annotations",
+      "version": "1.5.5",
+      "scope": "required",
+      "purl": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-classworlds",
+      "version": "2.5.2",
+      "scope": "required",
+      "purl": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar",
+      "group": "org.codehaus.plexus",
+      "name": "plexus-utils",
+      "version": "3.0.24",
+      "scope": "required",
+      "purl": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/org.eclipse.jdt/org.eclipse.jdt.core@3.31.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.martiansoftware/jsap@2.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven/maven-model@4.0.0-alpha-4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
+        "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-lang3@3.12.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.commons/commons-compress@1.21?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven.shared/maven-invoker@3.2.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar",
+        "pkg:maven/javax.inject/javax.inject@1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven/maven-api-model@4.0.0-alpha-4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven/maven-xml-impl@4.0.0-alpha-4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven.shared/maven-shared-utils@3.3.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven/maven-api-xml@4.0.0-alpha-4?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.plexus@0.3.5?type=jar",
+      "dependsOn": [
+        "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar",
+        "pkg:maven/javax.enterprise/cdi-api@1.2?type=jar",
+        "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.apache.maven/maven-api-meta@4.0.0-alpha-4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.annotation/javax.annotation-api@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/javax.enterprise/cdi-api@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.eclipse.sisu/org.eclipse.sisu.inject@0.3.5?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.plexus/plexus-component-annotations@1.5.5?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.plexus/plexus-classworlds@2.5.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.codehaus.plexus/plexus-utils@3.0.24?type=jar"
+    }
+  ]
+}
