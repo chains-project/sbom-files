@@ -1,0 +1,1929 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "96e0ec99-9c62-4e77-890f-bad1fdff23a2",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:59:37Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.2 (8d7938885dd1)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "group" : "org.kohsuke.metainf-services",
+      "name" : "metainf-services",
+      "version" : "1.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "34e6d4f9d7a9bb14e72824a57ad6ab7ee4bc586e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5756cd131814783c3c6557b5c585fb1b"
+        }
+      ],
+      "purl" : "pkg:maven/org.kohsuke.metainf-services/metainf-services@1.9",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.kohsuke.metainf-services/metainf-services"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/metainf-services-1.9.jar!/META-INF/maven/org.kohsuke.metainf-services/metainf-services/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.kohsuke.metainf-services:metainf-services:1.9"
+    },
+    {
+      "name" : "error_prone_annotations",
+      "version" : "INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "656ad66261b7e7ea472ed0ffeea773ea"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.errorprone/error_prone_annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/error_prone_annotations-2.11.0.jar!/META-INF/maven/com.google.errorprone/error_prone_annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom"
+    },
+    {
+      "name" : "maven-api-meta",
+      "version" : "meta/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-meta"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven/maven-api-meta/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-meta:meta/pom"
+    },
+    {
+      "name" : "maven-api-meta",
+      "version" : "meta/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1db21755d8f2ee10d490b8d7ee28e9da31c531e8"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c6e3efad11749a50de4e828732d16931"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-meta"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-api-meta-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-meta/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-meta:meta/pom"
+    },
+    {
+      "name" : "maven-xml-impl",
+      "version" : "impl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d3cdd0b8e769235283fda12fa63a10624666b005"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "b934c92c0510efb99f599e287f860cc7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-xml-impl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-xml-impl-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-xml-impl/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-xml-impl:impl/pom"
+    },
+    {
+      "name" : "maven-xml-impl",
+      "version" : "impl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-xml-impl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven/maven-xml-impl/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-xml-impl:impl/pom"
+    },
+    {
+      "name" : "maven-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f29ca41b573302c1c0455d601728b8ecb7eec89d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "648f7acb1bf71bae918530fe7b5141f4"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-model-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-model:model/pom"
+    },
+    {
+      "name" : "maven-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven/maven-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-model:model/pom"
+    },
+    {
+      "name" : "maven-api-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven/maven-api-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-model:model/pom"
+    },
+    {
+      "name" : "maven-api-model",
+      "version" : "model/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "d682182e1f7fef7c210c0fbd27446e9105d44708"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "c72db6839705c914371cddabe26b7a06"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-model"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-api-model-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-model/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-model:model/pom"
+    },
+    {
+      "name" : "Index",
+      "version" : "CodeTransformationWithSpoon.key/CodeTransformationWithSpoon.key/Index",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bab95ce0e712be6e882a72f0a54d9050"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "02444567060339948c977934e81a65fd16ceeab3"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "CodeTransformationWithSpoon.key/CodeTransformationWithSpoon.key"
+        },
+        {
+          "name" : "archive",
+          "value" : "Index.zip"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./doc/_presentations/code_transformation/CodeTransformationWithSpoon.zip!/CodeTransformationWithSpoon.key/CodeTransformationWithSpoon.key/Index.zip"
+        },
+        {
+          "name" : "maven",
+          "value" : "https://search.maven.org/search?q=1:02444567060339948c977934e81a65fd16ceeab3"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "org.yaml",
+      "name" : "snakeyaml",
+      "version" : "1.9",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "5372b16fee57380d07d027f7dd138b1dcf1bdb92"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "aee7d6eb28be4b13a207cb6dc565a7db"
+        }
+      ],
+      "purl" : "pkg:maven/org.yaml/snakeyaml@1.9",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.yaml/snakeyaml"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./src/test/resources/visibility/snakeyaml-1.9.jar!/META-INF/maven/org.yaml/snakeyaml/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "org.yaml:snakeyaml:1.9"
+    },
+    {
+      "name" : "logback-classic",
+      "version" : "classic/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "76096e4550475dec2554b582dae00217158c64e1"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5829b52fb21f1ba4972991535991c372"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ch.qos.logback/logback-classic"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/logback-classic-1.4.4.jar!/META-INF/maven/ch.qos.logback/logback-classic/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:logback-classic:classic/pom"
+    },
+    {
+      "name" : "slf4j-test",
+      "version" : "1.2.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "2f5f40ac2f912f215334a1c9d2f52bbc378eda0d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d85b5b8b8b2e6277b5abfde1bf6c1684"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/uk.org.lidalia/slf4j-test"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/slf4j-test-1.2.0.jar!/META-INF/maven/uk.org.lidalia/slf4j-test/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:slf4j-test:1.2.0"
+    },
+    {
+      "name" : "byte-buddy-agent",
+      "version" : "agent/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0ef9e1261e57d2bfbf0fac11b9b9a1a8899aae8a"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e9940a3565c9ea0ab57a30b17f5da15f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/net.bytebuddy/byte-buddy-agent"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/byte-buddy-agent-1.12.14.jar!/META-INF/maven/net.bytebuddy/byte-buddy-agent/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:byte-buddy-agent:agent/pom"
+    },
+    {
+      "name" : "lidalia-slf4j-ext",
+      "version" : "1.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e8ee79b1cf5523d1c4a81f95b343ed47726b1b27"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "26220d62bfe01af97c85fb492e9c7683"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/uk.org.lidalia/lidalia-slf4j-ext"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/lidalia-slf4j-ext-1.0.0.jar!/META-INF/maven/uk.org.lidalia/lidalia-slf4j-ext/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:lidalia-slf4j-ext:1.0.0"
+    },
+    {
+      "name" : "pom",
+      "version" : "time/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a5f29a7acaddea3f4af307e8cf2d0cc82645fd7d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "226f5207543c490f10f234e82108b998"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/joda-time/joda-time"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/joda-time-2.2.jar!/META-INF/maven/joda-time/joda-time/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.13.4.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-databind"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.13.4.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "325c06bdfeb628cfb80ebaaf1a26cc1eb558a585"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f26eab82fa1da09f8e8bc7e52fc82088"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.4.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-databind"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/jackson-databind-2.13.4.2.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2"
+    },
+    {
+      "name" : "pom",
+      "version" : "compress/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-compress"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.commons/commons-compress/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "lang3/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.commons/commons-lang3"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.commons/commons-lang3/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "guava",
+      "version" : "INF/maven/com.google.guava/guava/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "60458f877d055d0c9114d9e1a2efb737b4bc282c"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e37782d974104aa3b0a7bee9927c8042"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/guava"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/guava-31.1-jre.jar!/META-INF/maven/com.google.guava/guava/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:guava:INF/maven/com.google.guava/guava/pom"
+    },
+    {
+      "name" : "plexus-classworlds",
+      "version" : "2.5.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-classworlds"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-classworlds:2.5.2"
+    },
+    {
+      "name" : "plexus-classworlds",
+      "version" : "2.5.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4abb111bfdace5b8167db4c0ef74644f3f88f142"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "53b54feee8cef6b843bd6748bda4bfa7"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-classworlds"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/plexus-classworlds-2.5.2.jar!/META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-classworlds:2.5.2"
+    },
+    {
+      "name" : "maven-invoker",
+      "version" : "3.2.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven.shared/maven-invoker"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven.shared/maven-invoker/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-invoker:3.2.0"
+    },
+    {
+      "name" : "maven-invoker",
+      "version" : "3.2.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "84fe50eb8183be035f77f86e21c5830e3b19c337"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ae1b36901af33a03b0ba0123d941b938"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven.shared/maven-invoker"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-invoker-3.2.0.jar!/META-INF/maven/org.apache.maven.shared/maven-invoker/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-invoker:3.2.0"
+    },
+    {
+      "name" : "byte-buddy",
+      "version" : "buddy/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "3502dd682cac2a7334b159e13d5935e4a34ba192"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f7ee759d131e344edc04a62fdcdecd57"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/net.bytebuddy/byte-buddy"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/byte-buddy-1.12.14.jar!/META-INF/maven/net.bytebuddy/byte-buddy/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:byte-buddy:buddy/pom"
+    },
+    {
+      "group" : "com.mysema.querydsl",
+      "name" : "querydsl-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "59c4dc16a85d36e5631afac39b27f99bc7031819"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "1aa1bde87e3832929fb33feaea0108b9"
+        }
+      ],
+      "purl" : "pkg:maven/com.mysema.querydsl/querydsl-core@core%2Fpom",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.mysema.querydsl/querydsl-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/querydsl-core-3.7.4.jar!/META-INF/maven/com.mysema.querydsl/querydsl-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.mysema.querydsl:querydsl-core:core/pom"
+    },
+    {
+      "name" : "spoon-core",
+      "version" : "10.2.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "e9229d5875656847d6c0bddc81ae662ac006f4b4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "706206173757dfc0c0b7358a222cbf23"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/fr.inria.gforge.spoon/spoon-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT.jar!/META-INF/maven/fr.inria.gforge.spoon/spoon-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:spoon-core:10.2.0-SNAPSHOT"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-core:2.13.4"
+    },
+    {
+      "name" : "spoon-core",
+      "version" : "10.2.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/fr.inria.gforge.spoon/spoon-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/fr.inria.gforge.spoon/spoon-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:spoon-core:10.2.0-SNAPSHOT"
+    },
+    {
+      "name" : "logback-core",
+      "version" : "core/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f7b55fa9cd6a92225fd42532e72b1c69e4ecb20e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "71ef0778797fa3991f0a4adcd81ab4a6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ch.qos.logback/logback-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/logback-core-1.4.4.jar!/META-INF/maven/ch.qos.logback/logback-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:logback-core:core/pom"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "0cf934c681294b97ef6d80082faeefbe1edadf56"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "e8f064827ddb8deb06e45d20988bcaa5"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-core"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/jackson-core-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-core:2.13.4"
+    },
+    {
+      "name" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "d094c22570d65e132c19cea5d352e381"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/listenablefuture"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/META-INF/maven/com.google.guava/listenablefuture/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava"
+    },
+    {
+      "name" : "maven-api-xml",
+      "version" : "xml/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-xml"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven/maven-api-xml/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-xml:xml/pom"
+    },
+    {
+      "name" : "maven-api-xml",
+      "version" : "xml/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "07aa77b7eb08ba2ceb6b9efdfddd8cf23aebd5f4"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "6cde6f143530594bbfc677ae40989451"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven/maven-api-xml"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-api-xml-4.0.0-alpha-4.jar!/META-INF/maven/org.apache.maven/maven-api-xml/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-api-xml:xml/pom"
+    },
+    {
+      "name" : "pom",
+      "version" : "io/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "3b4b7ccfaeceeac240b804839ee1a1ca"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/commons-io/commons-io"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/commons-io-2.11.0.jar!/META-INF/maven/commons-io/commons-io/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "failureaccess",
+      "version" : "1.0.1",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "1dcf1de382a0bf95a3d8b0849546c88bac1292c9"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "091883993ef5bfa91da01dcc8fc52236"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.guava/failureaccess"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/failureaccess-1.0.1.jar!/META-INF/maven/com.google.guava/failureaccess/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:failureaccess:1.0.1"
+    },
+    {
+      "name" : "maven-shared-utils",
+      "version" : "3.3.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "f87a61adb1e12a00dcc6cc6005a51e693aa7c4ac"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "908f2a0107ff330ac9b856356a0acaef"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven.shared/maven-shared-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/maven-shared-utils-3.3.4.jar!/META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-shared-utils:3.3.4"
+    },
+    {
+      "name" : "plexus-utils",
+      "version" : "3.0.24",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "b4ac9780b37cb1b736eae9fbcef27609b7c911ef"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "fbefd8983c6bb4928c27c680463ff355"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/plexus-utils-3.0.24.jar!/META-INF/maven/org.codehaus.plexus/plexus-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-utils:3.0.24"
+    },
+    {
+      "name" : "plexus-utils",
+      "version" : "3.0.24",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-utils:3.0.24"
+    },
+    {
+      "name" : "maven-shared-utils",
+      "version" : "3.3.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.apache.maven.shared/maven-shared-utils"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:maven-shared-utils:3.3.4"
+    },
+    {
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "3.0.2",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "25ea2e8b0c338a877313bd4672d3fe056ea78f0d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "dd83accb899363c32b07d7a1b2e4ce40"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@3.0.2",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.code.findbugs/jsr305"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/jsr305-3.0.2.jar!/META-INF/maven/com.google.code.findbugs/jsr305/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.code.findbugs:jsr305:3.0.2"
+    },
+    {
+      "name" : "lidalia-lang",
+      "version" : "1.0.0",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "790f99337141a4441f1fc08af04f139f45f32d5f"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5bbfb973b2e42c8d4329799aa6e4f73a"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/uk.org.lidalia/lidalia-lang"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/lidalia-lang-1.0.0.jar!/META-INF/maven/uk.org.lidalia/lidalia-lang/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:lidalia-lang:1.0.0"
+    },
+    {
+      "group" : "se.kth.castor",
+      "name" : "helloworld",
+      "version" : "1.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "2c5548b3fe2a5fcee0dbd268455e62ef0bbc195b"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "eabea0caf89efe3df49f62d6836faa9b"
+        }
+      ],
+      "purl" : "pkg:maven/se.kth.castor/helloworld@1.0-SNAPSHOT",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/se.kth.castor/helloworld"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./spoon-decompiler/src/test/resources/jarLauncher/helloworld-1.0-SNAPSHOT.jar!/META-INF/maven/se.kth.castor/helloworld/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "se.kth.castor:helloworld:1.0-SNAPSHOT"
+    },
+    {
+      "name" : "pom",
+      "version" : "api/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "cb855558e6271b1b32e716d24cb85c7f583ce09e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5d02c034034a7a16725ceff787e191d6"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/javax.validation/validation-api"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/validation-api-2.0.1.Final.jar!/META-INF/maven/javax.validation/validation-api/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "bridge-method-annotation",
+      "version" : "annotation/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "18cdce50cde6f54ee5390d0907384f72183ff0fe"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "2ee1c4c795c0c749988760d3f3b14ff5"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.infradna.tool/bridge-method-annotation"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./src/test/resources/maven-launcher/system-dependency/lib/bridge-method-annotation-1.13.jar!/META-INF/maven/com.infradna.tool/bridge-method-annotation/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:bridge-method-annotation:annotation/pom"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "858c6cc78e1f08a885b1613e1d817c829df70a6e"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "7e982dafcf25c24b365b5088eaf8a0a6"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/jackson-annotations-2.13.4.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
+    },
+    {
+      "name" : "plexus-component-annotations",
+      "version" : "annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-component-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-component-annotations:annotations/pom"
+    },
+    {
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.13.4",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "4d5bda412b7f7acf9a2fde0b112db3a2587dabfb"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "f575bc184f3c15d4d7bef996c7ab4b2f"
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.4",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.fasterxml.jackson.core/jackson-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/spoon-core-10.2.0-SNAPSHOT-jar-with-dependencies.jar!/META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4"
+    },
+    {
+      "name" : "plexus-component-annotations",
+      "version" : "annotations/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "c72f2660d0cbed24246ddb55d7fdc4f7374d2078"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "ef37dcdb84030422db428b63c4354e5b"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.codehaus.plexus/plexus-component-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/plexus-component-annotations-1.5.5.jar!/META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:plexus-component-annotations:annotations/pom"
+    },
+    {
+      "group" : "com.google.j2objc",
+      "name" : "j2objc-annotations",
+      "version" : "1.3",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "ba035118bc8bac37d7eff77700720999acd9986d"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "5fa4ec4ec0c5aa70af8a7d4922df1931"
+        }
+      ],
+      "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@1.3",
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/com.google.j2objc/j2objc-annotations"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/spoon/./target/j2objc-annotations-1.3.jar!/META-INF/maven/com.google.j2objc/j2objc-annotations/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "com.google.j2objc:j2objc-annotations:1.3"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+      "dependsOn" : [
+        "junit:junit:${version.junit}"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-api:api/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:maven-api-model:model/pom",
+      "dependsOn" : [
+        "org.apache.maven:maven-api-xml:4.0.0-alpha-4"
+      ]
+    },
+    {
+      "ref" : "null:byte-buddy-agent:agent/pom",
+      "dependsOn" : [
+        "net.java.dev.jna:jna:${version.jna}",
+        "net.java.dev.jna:jna-platform:${version.jna}",
+        "junit:junit:${version.junit}",
+        "org.mockito:mockito-core:${version.mockito}",
+        "net.bytebuddy:byte-buddy:1.12.13"
+      ]
+    },
+    {
+      "ref" : "null:guava:INF/maven/com.google.guava/guava/pom",
+      "dependsOn" : [
+        "com.google.guava:failureaccess:1.0.1",
+        "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+        "com.google.code.findbugs:jsr305:null",
+        "org.checkerframework:checker-qual:null",
+        "com.google.errorprone:error_prone_annotations:null",
+        "com.google.j2objc:j2objc-annotations:null"
+      ]
+    },
+    {
+      "ref" : "null:maven-api-meta:meta/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:plexus-classworlds:2.5.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-core:2.13.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:plexus-component-annotations:annotations/pom",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:maven-model:model/pom",
+      "dependsOn" : [
+        "org.apache.maven:maven-api-model:4.0.0-alpha-4",
+        "org.apache.maven:maven-xml-impl:4.0.0-alpha-4"
+      ]
+    },
+    {
+      "ref" : "com.google.j2objc:j2objc-annotations:1.3",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:plexus-utils:3.0.24",
+      "dependsOn" : [
+        "org.apache.maven.shared:maven-plugin-testing-harness:1.1"
+      ]
+    },
+    {
+      "ref" : "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+      "dependsOn" : [
+        "com.fasterxml.jackson.core:jackson-annotations:${jackson.version.annotations}",
+        "com.fasterxml.jackson.core:jackson-core:${jackson.version.core}",
+        "org.powermock:powermock-core:${version.powermock}",
+        "org.powermock:powermock-module-junit4:${version.powermock}",
+        "org.powermock:powermock-api-mockito2:${version.powermock}",
+        "javax.measure:jsr-275:0.9.1"
+      ]
+    },
+    {
+      "ref" : "org.kohsuke.metainf-services:metainf-services:1.9",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "com.google.code.findbugs:jsr305:3.0.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "se.kth.castor:helloworld:1.0-SNAPSHOT",
+      "dependsOn" : [
+        "junit:junit:4.11",
+        "org.json:json:20090211"
+      ]
+    },
+    {
+      "ref" : "null:slf4j-test:1.2.0",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "uk.org.lidalia:lidalia-lang:1.0.0",
+        "com.google.guava:guava:null",
+        "uk.org.lidalia:lidalia-slf4j-ext:1.0.0",
+        "joda-time:joda-time:null",
+        "junit:junit:null",
+        "${project.parent.groupId}:standard-test-dependencies:${project.parent.version}",
+        "uk.org.lidalia:lidalia-test:1.0.0"
+      ]
+    },
+    {
+      "ref" : "null:failureaccess:1.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:bridge-method-annotation:annotation/pom",
+      "dependsOn" : [
+        "org.jenkins-ci:annotation-indexer:1.4"
+      ]
+    },
+    {
+      "ref" : "null:maven-api-xml:xml/pom",
+      "dependsOn" : [
+        "org.apache.maven:maven-api-meta:4.0.0-alpha-4"
+      ]
+    },
+    {
+      "ref" : "null:logback-core:core/pom",
+      "dependsOn" : [
+        "org.codehaus.janino:janino:null",
+        "org.codehaus.janino:commons-compiler:null",
+        "org.fusesource.jansi:jansi:null",
+        "jakarta.mail:jakarta.mail-api:null",
+        "org.eclipse.angus:angus-mail:null",
+        "jakarta.servlet:jakarta.servlet-api:null",
+        "org.mockito:mockito-core:null"
+      ]
+    },
+    {
+      "ref" : "com.mysema.querydsl:querydsl-core:core/pom",
+      "dependsOn" : [
+        "com.google.guava:guava:${guava.version}",
+        "com.google.code.findbugs:jsr305:1.3.9",
+        "com.mysema.commons:mysema-commons-lang:${mysema.lang.version}",
+        "cglib:cglib:${cglib.version}",
+        "com.infradna.tool:bridge-method-annotation:${bridge-method.version}",
+        "org.jvnet.hudson:annotation-indexer:1.2",
+        "jdepend:jdepend:2.9.1"
+      ]
+    },
+    {
+      "ref" : "null:lidalia-slf4j-ext:1.0.0",
+      "dependsOn" : [
+        "org.slf4j:slf4j-api:null",
+        "org.slf4j:slf4j-nop:null",
+        "com.google.guava:guava:null",
+        "${project.parent.groupId}:standard-test-dependencies:${project.parent.version}",
+        "uk.org.lidalia:lidalia-test:1.0.0"
+      ]
+    },
+    {
+      "ref" : "null:maven-xml-impl:impl/pom",
+      "dependsOn" : [
+        "org.apache.maven:maven-api-xml:4.0.0-alpha-4",
+        "org.eclipse.sisu:org.eclipse.sisu.plexus:null",
+        "org.codehaus.plexus:plexus-utils:${plexusUtilsVersionEmbedded}"
+      ]
+    },
+    {
+      "ref" : "org.yaml:snakeyaml:1.9",
+      "dependsOn" : [
+        "junit:junit:4.7",
+        "org.springframework:spring:2.5.6",
+        "org.apache.velocity:velocity:1.6.2",
+        "joda-time:joda-time:1.6"
+      ]
+    },
+    {
+      "ref" : "null:spoon-core:10.2.0-SNAPSHOT",
+      "dependsOn" : [
+        "org.eclipse.jdt:org.eclipse.jdt.core:3.31.0",
+        "com.martiansoftware:jsap:2.1",
+        "org.slf4j:slf4j-api:1.7.36",
+        "commons-io:commons-io:2.11.0",
+        "org.apache.maven:maven-model:[3.6.0,)",
+        "org.apache.commons:commons-lang3:3.12.0",
+        "org.tukaani:xz:1.9",
+        "com.fasterxml.jackson.core:jackson-databind:2.13.4.2",
+        "org.apache.commons:commons-compress:1.21",
+        "com.google.guava:guava:31.1-jre",
+        "ch.qos.logback:logback-classic:1.4.4",
+        "com.mysema.querydsl:querydsl-core:3.7.4",
+        "org.apache.maven.shared:maven-invoker:3.2.0",
+        "javax.validation:validation-api:2.0.1.Final",
+        "uk.org.lidalia:slf4j-test:1.2.0",
+        "org.kohsuke.metainf-services:metainf-services:1.9"
+      ]
+    },
+    {
+      "ref" : "null:byte-buddy:buddy/pom",
+      "dependsOn" : [
+        "${project.groupId}:byte-buddy-dep:null",
+        "net.java.dev.jna:jna:${version.jna}",
+        "net.java.dev.jna:jna-platform:${version.jna}"
+      ]
+    },
+    {
+      "ref" : "null:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "null:maven-invoker:3.2.0",
+      "dependsOn" : [
+        "org.apache.maven.shared:maven-shared-utils:3.3.4",
+        "javax.inject:javax.inject:1",
+        "junit:junit:4.13.2"
+      ]
+    },
+    {
+      "ref" : "null:maven-shared-utils:3.3.4",
+      "dependsOn" : [
+        "org.fusesource.jansi:jansi:2.2.0",
+        "junit:junit:4.13.2",
+        "org.hamcrest:hamcrest-core:2.2",
+        "commons-io:commons-io:2.6",
+        "org.apache.commons:commons-text:1.3",
+        "com.google.code.findbugs:jsr305:3.0.2",
+        "org.apache.maven:maven-core:${mavenVersion}",
+        "org.codehaus.plexus:plexus-container-default:2.1.0",
+        "org.codehaus.plexus:plexus-utils:3.3.0",
+        "org.apache.maven.plugin-testing:maven-plugin-testing-harness:3.3.0"
+      ]
+    },
+    {
+      "ref" : "null:lidalia-lang:1.0.0",
+      "dependsOn" : [
+        "com.google.guava:guava:null",
+        "org.apache.commons:commons-lang3:null",
+        "uk.org.lidalia:standard-test-dependencies:1.0.0",
+        "org.slf4j:slf4j-api:null",
+        "commons-io:commons-io:2.4"
+      ]
+    },
+    {
+      "ref" : "null:error_prone_annotations:INF/maven/com.google.errorprone/error_prone_annotations/pom",
+      "dependsOn" : [
+        "junit:junit:${junit.version}"
+      ]
+    },
+    {
+      "ref" : "null:logback-classic:classic/pom",
+      "dependsOn" : [
+        "ch.qos.logback:logback-core:null",
+        "org.slf4j:slf4j-api:null",
+        "org.slf4j:slf4j-api:${slf4j.version}",
+        "org.slf4j:log4j-over-slf4j:${slf4j.version}",
+        "org.slf4j:jul-to-slf4j:${slf4j.version}",
+        "ch.qos.reload4j:reload4j:1.2.18.4",
+        "org.dom4j:dom4j:null",
+        "jakarta.mail:jakarta.mail-api:null",
+        "jakarta.activation:jakarta.activation-api:null",
+        "org.eclipse.angus:angus-mail:null",
+        "org.codehaus.janino:janino:null",
+        "jakarta.servlet:jakarta.servlet-api:null",
+        "org.apache.felix:org.apache.felix.main:5.6.10",
+        "org.mockito:mockito-core:null"
+      ]
+    }
+  ]
+}
