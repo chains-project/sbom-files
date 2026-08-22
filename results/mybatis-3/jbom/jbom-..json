@@ -1,0 +1,182 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.3",
+  "serialNumber" : "605147f0-0196-47c0-a496-f11c47dcb30a",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-02-12T16:58:43Z",
+    "tools" : [
+      {
+        "vendor" : "Contrast Security - https://contrastsecurity.com",
+        "name" : "jbom - https://github.com/Contrast-Security-OSS/jbom",
+        "version" : "1.0.0"
+      }
+    ],
+    "component" : {
+      "name" : "172.17.0.4 (2288bfe012d8)",
+      "description" : "Java",
+      "type" : "application"
+    },
+    "manufacture" : {
+      "name" : "Unknown"
+    }
+  },
+  "components" : [
+    {
+      "name" : "mybatis",
+      "version" : "3.5.11",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.mybatis/mybatis"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/mybatis-3/./target/mybatis-3.5.11.jar!/META-INF/maven/org.mybatis/mybatis/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:mybatis:3.5.11"
+    },
+    {
+      "name" : "mybatis",
+      "version" : "3.5.11",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "968d1f686f750d421939d202530d8726bf59dada"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "262388bb2d1d61d5ab4a4d702ab489e9"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.mybatis/mybatis"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/mybatis-3/./target/original-mybatis-3.5.11.jar!/META-INF/maven/org.mybatis/mybatis/pom.xml"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "null:mybatis:3.5.11"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/org.javassist/javassist/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/org.javassist/javassist"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/mybatis-3/./target/mybatis-3.5.11.jar!/META-INF/maven/org.javassist/javassist/pom.xml"
+        }
+      ],
+      "type" : "library"
+    },
+    {
+      "name" : "pom",
+      "version" : "INF/maven/ognl/ognl/pom",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "SHA-1",
+          "content" : "99f0e060ce59c48c01d4437ec89016cc19950c73"
+        },
+        {
+          "alg" : "MD5",
+          "content" : "904b6fbeae1865edb6640dcdf08a244e"
+        }
+      ],
+      "properties" : [
+        {
+          "name" : "path",
+          "value" : "META-INF/maven/ognl/ognl"
+        },
+        {
+          "name" : "archive",
+          "value" : "pom.xml"
+        },
+        {
+          "name" : "codesource",
+          "value" : "/mybatis-3/./target/mybatis-3.5.11.jar!/META-INF/maven/ognl/ognl/pom.xml"
+        }
+      ],
+      "type" : "library"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "null:mybatis:3.5.11",
+      "dependsOn" : [
+        "ognl:ognl:3.3.4",
+        "org.javassist:javassist:3.29.2-GA",
+        "org.slf4j:slf4j-api:2.0.1",
+        "ch.qos.reload4j:reload4j:1.2.22",
+        "org.apache.logging.log4j:log4j-api:2.19.0",
+        "commons-logging:commons-logging:1.2",
+        "cglib:cglib:3.3.0",
+        "org.junit.jupiter:junit-jupiter-engine:5.9.0",
+        "org.junit.jupiter:junit-jupiter-params:5.9.0",
+        "org.hsqldb:hsqldb:2.6.1",
+        "org.apache.derby:derby:10.15.2.0",
+        "org.apache.derby:derbyshared:10.15.2.0",
+        "org.apache.derby:derbyoptionaltools:10.15.2.0",
+        "com.h2database:h2:2.1.214",
+        "org.mockito:mockito-core:4.8.0",
+        "org.mockito:mockito-junit-jupiter:4.8.0",
+        "org.apache.velocity:velocity-engine-core:2.3",
+        "org.postgresql:postgresql:42.5.0",
+        "mysql:mysql-connector-java:8.0.30",
+        "org.assertj:assertj-core:3.23.1",
+        "eu.codearte.catch-exception:catch-exception:2.0",
+        "org.testcontainers:junit-jupiter:1.17.3",
+        "org.testcontainers:postgresql:1.17.3",
+        "org.testcontainers:mysql:1.17.3",
+        "com.microsoft.sqlserver:mssql-jdbc:11.2.0.jre8",
+        "ch.qos.logback:logback-classic:1.4.1",
+        "org.apache.logging.log4j:log4j-core:2.19.0"
+      ]
+    }
+  ]
+}

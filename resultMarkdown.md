@@ -1,0 +1,21 @@
+|Name| True Positives| False Positives| False Negatives| Sum |
+|---|---|---|---|---|
+|checkstyle_cdxgen.json|23|0|35|58|
+|checkstyle_cyclonedx-maven-plugin.json|23|0|35|58|
+|checkstyle_depscan.json|23|0|35|58|
+|checkstyle_openrewrite.json|23|1|35|59|
+|checkstyle_ort.json|56|1|2|59|
+|checkstyle_sbom-tool.json|0|0|58|58|
+|checkstyle_syft.json|21|1|37|59|
+|mybatis-3_cdxgen.json|20|0|44|64|
+|mybatis-3_cyclonedx-maven-plugin.json|20|0|44|64|
+|mybatis-3_depscan.json|20|0|44|64|
+|mybatis-3_openrewrite.json|19|1|45|65|
+|mybatis-3_ort.json|64|0|0|64|
+|mybatis-3_sbom-tool.json|0|0|64|64|
+|mybatis-3_syft.json|27|0|37|64|
+|spoon_cdxgen.json|23|0|31|54|
+|spoon_cyclonedx-maven-plugin.json|23|0|31|54|
+|spoon_depscan.json|23|0|31|54|
+|spoon_openrewrite.json|23|1|31|55|
+|spoon_sbom-tool.json|0|1|54|55|
