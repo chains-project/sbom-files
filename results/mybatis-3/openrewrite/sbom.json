@@ -1,0 +1,405 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.2",
+  "serialNumber": "urn:uuid:09534181-4492-426b-a6b7-2166ae610e1a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2023-02-12T17:11:30Z",
+    "tools": [
+      {
+        "vendor": "OpenRewrite",
+        "name": "OpenRewrite CycloneDX",
+        "version": "7.18.0"
+      }
+    ],
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.mybatis/mybatis@3.5.11?type=jar",
+      "group": "org.mybatis",
+      "name": "mybatis",
+      "version": "3.5.11",
+      "scope": "required",
+      "purl": "pkg:maven/org.mybatis/mybatis@3.5.11?type=jar"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/ognl/ognl@3.3.4?type=jar",
+      "group": "ognl",
+      "name": "ognl",
+      "version": "3.3.4",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ognl/ognl@3.3.4?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar",
+      "group": "org.javassist",
+      "name": "javassist",
+      "version": "3.29.2-GA",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL 1.1"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar",
+      "group": "org.slf4j",
+      "name": "slf4j-api",
+      "version": "2.0.1",
+      "scope": "required",
+      "purl": "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar",
+      "group": "ch.qos.reload4j",
+      "name": "reload4j",
+      "version": "1.2.22",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar",
+      "group": "org.apache.logging.log4j",
+      "name": "log4j-api",
+      "version": "2.19.0",
+      "scope": "required",
+      "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+      "group": "commons-logging",
+      "name": "commons-logging",
+      "version": "1.2",
+      "scope": "required",
+      "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/cglib/cglib@3.3.0?type=jar",
+      "group": "cglib",
+      "name": "cglib",
+      "version": "3.3.0",
+      "scope": "required",
+      "purl": "pkg:maven/cglib/cglib@3.3.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/org.ow2.asm/asm@7.1?type=jar",
+      "group": "org.ow2.asm",
+      "name": "asm",
+      "version": "7.1",
+      "scope": "required",
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "purl": "pkg:maven/org.ow2.asm/asm@7.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar",
+      "group": "com.microsoft.sqlserver",
+      "name": "mssql-jdbc",
+      "version": "11.2.0.jre8",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar",
+      "group": "com.microsoft.azure",
+      "name": "msal4j",
+      "version": "1.13.0",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar",
+      "group": "com.nimbusds",
+      "name": "oauth2-oidc-sdk",
+      "version": "9.35",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar",
+      "group": "net.minidev",
+      "name": "json-smart",
+      "version": "2.4.8",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-databind",
+      "version": "2.13.2.1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar",
+      "group": "com.github.stephenc.jcip",
+      "name": "jcip-annotations",
+      "version": "1.0-1",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/content-type@2.2?type=jar",
+      "group": "com.nimbusds",
+      "name": "content-type",
+      "version": "2.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/content-type@2.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/lang-tag@1.6?type=jar",
+      "group": "com.nimbusds",
+      "name": "lang-tag",
+      "version": "1.6",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar",
+      "group": "com.nimbusds",
+      "name": "nimbus-jose-jwt",
+      "version": "9.22",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar",
+      "group": "net.minidev",
+      "name": "accessors-smart",
+      "version": "2.4.8",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-annotations",
+      "version": "2.13.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar",
+      "group": "com.fasterxml.jackson.core",
+      "name": "jackson-core",
+      "version": "2.13.2",
+      "scope": "optional",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ],
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:maven/ognl/ognl@3.3.4?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.javassist/javassist@3.29.2-GA?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.slf4j/slf4j-api@2.0.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/ch.qos.reload4j/reload4j@1.2.22?type=jar"
+    },
+    {
+      "ref": "pkg:maven/org.apache.logging.log4j/log4j-api@2.19.0?type=jar"
+    },
+    {
+      "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/cglib/cglib@3.3.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/org.ow2.asm/asm@7.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/org.ow2.asm/asm@7.1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.sqlserver/mssql-jdbc@11.2.0.jre8?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.microsoft.azure/msal4j@1.13.0?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar",
+        "pkg:maven/net.minidev/json-smart@2.4.8?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/oauth2-oidc-sdk@9.35?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar",
+        "pkg:maven/com.nimbusds/content-type@2.2?type=jar",
+        "pkg:maven/com.nimbusds/lang-tag@1.6?type=jar",
+        "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/net.minidev/json-smart@2.4.8?type=jar",
+      "dependsOn": [
+        "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.2.1?type=jar",
+      "dependsOn": [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"
+      ]
+    },
+    {
+      "ref": "pkg:maven/com.github.stephenc.jcip/jcip-annotations@1.0-1?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/content-type@2.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/lang-tag@1.6?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.nimbusds/nimbus-jose-jwt@9.22?type=jar"
+    },
+    {
+      "ref": "pkg:maven/net.minidev/accessors-smart@2.4.8?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.2?type=jar"
+    },
+    {
+      "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.2?type=jar"
+    }
+  ]
+}

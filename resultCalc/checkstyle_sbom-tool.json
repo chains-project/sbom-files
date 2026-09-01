@@ -1,0 +1,528 @@
+{
+  "truePositive": [],
+  "falsePositive": [],
+  "falseNegative": [
+    {
+      "groupId": "com.github.caciocavallosilano",
+      "artifactId": "cacio-tta",
+      "classifier": "jar",
+      "version": "1.11",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "net.sf.saxon",
+      "artifactId": "Saxon-HE",
+      "classifier": "jar",
+      "version": "11.4",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "commons-beanutils",
+      "artifactId": "commons-beanutils",
+      "classifier": "jar",
+      "version": "1.9.4",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit-junit5-engine-api",
+      "classifier": "jar",
+      "version": "1.0.0",
+      "scope": "test",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.auto.value",
+      "artifactId": "auto-value-annotations",
+      "classifier": "jar",
+      "version": "1.8.1",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.truth",
+      "artifactId": "truth",
+      "classifier": "jar",
+      "version": "1.1.3",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.reflections",
+      "artifactId": "reflections",
+      "classifier": "jar",
+      "version": "0.10.2",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "failureaccess",
+      "classifier": "jar",
+      "version": "1.0.1",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "listenablefuture",
+      "classifier": "jar",
+      "version": "9999.0-empty-to-avoid-conflict-with-guava",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-engine",
+      "classifier": "jar",
+      "version": "5.9.1",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-commons",
+      "classifier": "jar",
+      "version": "1.9.1",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit-pioneer",
+      "artifactId": "junit-pioneer",
+      "classifier": "jar",
+      "version": "1.7.1",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apache.httpcomponents.core5",
+      "artifactId": "httpcore5-h2",
+      "classifier": "jar",
+      "version": "5.1.3",
+      "scope": "runtime",
+      "depth": 4,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "de.thetaphi",
+      "artifactId": "forbiddenapis",
+      "classifier": "jar",
+      "version": "3.4",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "net.bytebuddy",
+      "artifactId": "byte-buddy-agent",
+      "classifier": "jar",
+      "version": "1.12.19",
+      "scope": "test",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.xmlresolver",
+      "artifactId": "xmlresolver",
+      "classifier": "jar",
+      "version": "4.4.3",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.ow2.asm",
+      "artifactId": "asm",
+      "classifier": "jar",
+      "version": "9.1",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apache.ant",
+      "artifactId": "ant-launcher",
+      "classifier": "jar",
+      "version": "1.10.12",
+      "scope": "provided",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit-junit5-engine",
+      "classifier": "jar",
+      "version": "1.0.0",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "classifier": "jar",
+      "version": "1.15",
+      "scope": "runtime",
+      "depth": 4,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core",
+      "classifier": "jar",
+      "version": "4.11.0",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "commons-logging",
+      "artifactId": "commons-logging",
+      "classifier": "jar",
+      "version": "1.2",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-params",
+      "classifier": "jar",
+      "version": "5.8.2",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.javassist",
+      "artifactId": "javassist",
+      "classifier": "jar",
+      "version": "3.28.0-GA",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "net.bytebuddy",
+      "artifactId": "byte-buddy",
+      "classifier": "jar",
+      "version": "1.12.19",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "classifier": "jar",
+      "version": "1.7.32",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.github.caciocavallosilano",
+      "artifactId": "cacio-shared",
+      "classifier": "jar",
+      "version": "1.11",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apache.ant",
+      "artifactId": "ant",
+      "classifier": "jar",
+      "version": "1.10.12",
+      "scope": "provided",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.checkerframework",
+      "artifactId": "checker-qual",
+      "classifier": "jar",
+      "version": "3.27.0",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.antlr",
+      "artifactId": "antlr4-runtime",
+      "classifier": "jar",
+      "version": "4.11.1",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit-junit5",
+      "classifier": "jar",
+      "version": "1.0.0",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.eclipse.jgit",
+      "artifactId": "org.eclipse.jgit",
+      "classifier": "jar",
+      "version": "6.4.0.202211300538-r",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.itsallcode",
+      "artifactId": "junit5-system-extensions",
+      "classifier": "jar",
+      "version": "1.2.0",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit",
+      "classifier": "jar",
+      "version": "1.0.0",
+      "scope": "test",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-launcher",
+      "classifier": "jar",
+      "version": "1.8.2",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.xmlresolver",
+      "artifactId": "xmlresolver",
+      "classifier": "jar",
+      "version": "data",
+      "scope": "root_scope",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "nl.jqno.equalsverifier",
+      "artifactId": "equalsverifier",
+      "classifier": "jar",
+      "version": "3.12.3",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "info.picocli",
+      "artifactId": "picocli",
+      "classifier": "jar",
+      "version": "4.7.0",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.googlecode.javaewah",
+      "artifactId": "JavaEWAH",
+      "classifier": "jar",
+      "version": "1.1.13",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.j2objc",
+      "artifactId": "j2objc-annotations",
+      "classifier": "jar",
+      "version": "1.3",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apache.httpcomponents.client5",
+      "artifactId": "httpclient5",
+      "classifier": "jar",
+      "version": "5.1.3",
+      "scope": "runtime",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.errorprone",
+      "artifactId": "error_prone_annotations",
+      "classifier": "jar",
+      "version": "2.11.0",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.code.findbugs",
+      "artifactId": "jsr305",
+      "classifier": "jar",
+      "version": "3.0.2",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest-core",
+      "classifier": "jar",
+      "version": "1.3",
+      "scope": "test",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-inline",
+      "classifier": "jar",
+      "version": "4.11.0",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.tngtech.archunit",
+      "artifactId": "archunit-junit5-api",
+      "classifier": "jar",
+      "version": "1.0.0",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "classifier": "jar",
+      "version": "4.13.2",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apiguardian",
+      "artifactId": "apiguardian-api",
+      "classifier": "jar",
+      "version": "1.1.2",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.platform",
+      "artifactId": "junit-platform-engine",
+      "classifier": "jar",
+      "version": "1.9.1",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-simple",
+      "classifier": "jar",
+      "version": "2.0.6",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.jacoco",
+      "artifactId": "org.jacoco.agent",
+      "classifier": "jar",
+      "version": "runtime",
+      "scope": "root_scope",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api",
+      "classifier": "jar",
+      "version": "5.9.1",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.objenesis",
+      "artifactId": "objenesis",
+      "classifier": "jar",
+      "version": "3.3",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "commons-collections",
+      "artifactId": "commons-collections",
+      "classifier": "jar",
+      "version": "3.2.2",
+      "scope": "compile",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "classifier": "jar",
+      "version": "2.11.0",
+      "scope": "test",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.apache.httpcomponents.core5",
+      "artifactId": "httpcore5",
+      "classifier": "jar",
+      "version": "5.1.3",
+      "scope": "runtime",
+      "depth": 3,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "org.opentest4j",
+      "artifactId": "opentest4j",
+      "classifier": "jar",
+      "version": "1.2.0",
+      "scope": "test",
+      "depth": 2,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "classifier": "jar",
+      "version": "31.1-jre",
+      "scope": "compile",
+      "depth": 1,
+      "submodule": "com.puppycrawl.tools:checkstyle:jar:10.6.0"
+    }
+  ]
+}
